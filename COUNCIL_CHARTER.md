@@ -1,4 +1,7 @@
-## The Commonhaus Council and Charter
+---
+status: draft
+---
+# The Commonhaus Council and Charter
 
 The Commonhaus aims to a place where things get done. But we're all humans, and humans can be messy. This Charter defines how The Commonhaus and members of the Commonhaus Council will work together to keep moving the foundation and its member projects forward.
 

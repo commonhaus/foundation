@@ -1,3 +1,6 @@
+---
+status: draft
+---
 # Commonhaus Code of Conduct
 
 The Commonhaus, and every project within it, needs a clear and enforced Code of Conduct (CoC).
@@ -14,7 +17,7 @@ The Commonhaus, and every project within it, needs a clear and enforced Code of 
 
 [cc]: COUNCIL_CHARTER.md "Commonhaus Council"
 [cocp]: #code-of-conduct-panel "Code of Conduct Panel"
-[coc-reports]: conduct/HANDLING_CODE_OF_CONDUCT_REPORTS.md
+[coc-reports]: conduct/handling-coc-reports.md
 
 ## Our Code of Conduct
 

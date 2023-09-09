@@ -1,3 +1,6 @@
+---
+status: draft
+---
 # Handling reports and escalation
 
 This document describes the proposed process and relevant roles for handling Code of Conduct (CoC) reports and escalations.

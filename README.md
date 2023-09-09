@@ -1,4 +1,6 @@
-
+---
+status: draft
+---
 # The Commonhaus
 
 The Commonhaus, inspired by the legacy of [The Codehaus][codehaus], is more than just a foundation. It's a collaborative environment, a shared space where innovation thrives, and where projects remain the focus. We aim to provide a neutral home where longevity, security, and innovation converge.
