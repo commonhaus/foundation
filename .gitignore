@@ -1,0 +1,4 @@
+*~
+*.DS_Store
+site/.hugo_build.lock
+public
