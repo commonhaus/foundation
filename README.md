@@ -25,7 +25,7 @@ The Commonhaus, inspired by the legacy of [The Codehaus][codehaus], is more than
 
 - **Transparency**: Whatever your governance model – be it single-vendor driven, a benevolent dictator system, or a cooperative consensus approach – it's welcome here. All we ask is clarity. Document how your project is run so everyone's on the same page.
 
-- **Succession Planning**: While we encourage autonomy, The Commonhaus requires administrative rights to project assets. This is not for oversight but to ensure that if a project's original stewards move on, the project can continue to thrive and serve the community. This is our commitment to the long-term health and sustainability of every project under our roof.
+- **[Succession Planning][succession]**: While we encourage autonomy, The Commonhaus requires administrative rights to project assets. This is not for oversight but to ensure that if a project's original stewards move on, the project can continue to thrive and serve the community. This is our commitment to the long-term health and sustainability of every project under our roof.
 
 **Empowerment Over Enforceability:** The Commonhaus isn't about restrictive walls or ceilings. It's about providing a foundation (quite literally) that lets each project rise and expand in its unique trajectory. Our role is more of a facilitator than a regulator.
 
@@ -53,18 +53,6 @@ While discourse and discussion are valuable, The Commonhaus distinguishes itself
 
 **Licensing:** Adherence to open source licensing as defined by the OSI.
 
-## Succession Planning and Continuity
-
-**Why It's Essential:** Many businesses run on applications built using libraries and frameworks. It makes sense: a retailer that needs to sell fish tanks should not need to understand low-level internet protocol details. The problem is time: change is inevitable. Maintainers may shift their focus or choose new endeavors. When that happens, what becomes of the invaluable libraries and tools they nurtured?
-
-### Our Approach:
-
-**Facilitated Transitions:** At The Commonhaus, we ensure that the baton is passed smoothly. When original maintainers move on, we see to it that vital libraries and frameworks don't just survive but thrive under the guardianship of new maintainers. 
-
-**Assigned Successors:** In instances where project owners decide to step away or when there's a noticeable lull in activity, The Commonhaus can step in. We'll assign dedicated and capable successors to ensure projects remain active and beneficial for the community. This approach helps avoid resource-intensive forks and overhauls.
-
-**Security and Upgrades:** The tech landscape is ever-evolving. We will work with industry partners to ensure Commonhaus projects have the information and resources they need to understand and meet new and emerging requirements.
-
 ### Sponsorship Dynamics:
 
 At the Commonhaus, transparency and utility drive our sponsorship structure. As we evolve and pinpoint specific needs and initiatives, we're committed to keeping our community updated on fund allocations.
@@ -77,3 +65,6 @@ At the Commonhaus, transparency and utility drive our sponsorship structure. As 
 
 - [Code of Conduct](CODE_OF_CONDUCT.md)
 - [Commonhaus Council and Charter](COUNCIL_CHARTER.md)
+- [Succession Planning][succession]
+
+[succession]: governance/succession-plan.md
