@@ -49,7 +49,7 @@ Email `coc-escalation@mailing-list` to escalate an issue to the CoCP.
 
 The CoCP is a foundation-wide team. Members of the CoCP will be added for a 1-year term and will be re-confirmed on a yearly basis.
 
-Membership of the CoCP will be maintained in the 'cocp-panel` [MEMBERSHIP](MEMBERSHIP.yaml) attribute.
+Members of the CoCP will be documented in the 'cocp-panel` [MEMBERSHIP](MEMBERSHIP.yaml) attribute.
 
 ---
 
