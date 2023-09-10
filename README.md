@@ -64,7 +64,7 @@ At the Commonhaus, transparency and utility drive our sponsorship structure. As 
 ## Additional resources
 
 - [Code of Conduct](CODE_OF_CONDUCT.md)
-- [Commonhaus Council and Charter](COUNCIL_CHARTER.md)
+- [Commonhaus Council and Charter](GOVERNANCE.md)
 - [Succession Planning][succession]
 
 [succession]: governance/succession-plan.md

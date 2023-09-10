@@ -61,7 +61,7 @@ If your project requires an exemption from the [IP Policy][], you will need to o
 
 TODO: Steps to request an exemption
 
-[cc]: ../COUNCIL_CHARTER.md "Commonhaus Council"
+[cc]: ../GOVERNANCE.md#commonhaus-council "Commonhaus Council"
 
 ## Getting help
 

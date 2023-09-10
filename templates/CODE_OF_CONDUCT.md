@@ -1,24 +1,25 @@
 ---
-status: draft
+status: template-draft
+instructions: Replace [Project Name], update Contact information, delete YAML frontmatter when you are good to go
 ---
-# Commonhaus Code of Conduct
+# [Project Name] Code of Conduct
 
-The Commonhaus, and every project within it, needs a clear and enforced Code of Conduct (CoC).
+[Project Name] has adopted the [Contributor Covenant v2.1][v2.1] as its CoC and 
+follows [The Commonhaus Code of Conduct Policy][coc-policy] (included below).
 
-## Commonhaus Contact information
+## [Project Name] Contact information
 
-- Each Commonhaus project will define a `CODE_OF_CONDUCT.md`. For issues related to a project, start there.
-- Issues related to the Commonhaus itself should be sent to `report@mailing-list` for [review](#respond-to-a-coc-issue) by the [Commonhaus Council][cc] (CC).
-  - The [CC][cc] will follow [Commonhause CoC procedures][coc-reports] when handling CoC reports.
-  - Records will be kept in TODO-private-repository
+- CoC reports should be sent to `report@PROJECT-mailing-list`.
+  - We will follow [Commonhause CoC procedures][coc-reports] when handling CoC reports.
+  - Records will be kept in `PROJECT-private-repository`
 - [Escalations](#escalate-an-issue) should be sent to `coc-escalation@mailing-list` for review by the [Code of Conduct Panel (COCP)][cocp].
-  - The [CoCP][cocp] will follow [Commonhause CoC procedures][coc-reports] when handling CoC reports and escalations.
-  - Records will be kept in TODO-private-repository
 
-[cc]: GOVERNANCE.md#commonhaus-council "Commonhaus Council"
-[coc-reports]: conduct/handling-coc-reports.md
-[cocp]: #code-of-conduct-panel "Code of Conduct Panel"
-[cocp-membership]: MEMBERS.yaml.yaml
+[coc-policy]: ../CODE_OF_CONDUCT.md "TODO: full path"
+[cc]: ../GOVERNANCE.md "Commonhaus Council - TODO: full path" 
+[cocp]: ../CODE_OF_CONDUCT.md#code-of-conduct-panel "Code of Conduct Panel - TODO: full path"
+[coc-reports]: ../conduct/handling-coc-reports.md "Handling CoC reports - TODO: full path"
+
+---
 
 ## Our Code of Conduct
 
@@ -32,14 +33,18 @@ Having a unified CoC allows for consistent enforcement and better support across
 
 ### Report an issue
 
-- Each Commonhaus project is free to implement enforcement of the CoC using processes appropriate for the size and scope of the project. CoC enforcement processes and contact methods must be defined in the projects' `CODE_OF_CONDUCT.md`. 
+- Each Commonhaus project is free to implement enforcement of the CoC using processes appropriate for the size and scope of the project. 
+  CoC enforcement processes and contact methods must be defined in the projects' `CODE_OF_CONDUCT.md`. 
 - For other Commonhaus repositories, send your report to `report@mailing-list`. The [CC][cc] will receive these reports.
 
 ### Respond to a CoC issue
 
 Each complaint will be reviewed and investigated, and will result in a response that is deemed necessary and appropriate to the circumstances. 
 
-An issue should be created for each report in a private repository listed in its `CODE_OF_CONDUCT.md`. It should capture the report, discussion and final conclusion. Personal information is confidential. The report should NOT contain identifying details of the reporter.
+An issue should be created for each report in a private repository listed in its `CODE_OF_CONDUCT.md`. 
+It should capture the report, discussion and final conclusion. 
+Personal information is confidential. 
+The report should NOT contain identifying details of the reporter.
 
 ### Escalate an issue
 
@@ -189,4 +194,3 @@ For answers to common questions about this code of conduct, see the FAQ at
 [Mozilla CoC]: https://github.com/mozilla/diversity
 [FAQ]: https://www.contributor-covenant.org/faq
 [translations]: https://www.contributor-covenant.org/translations
-

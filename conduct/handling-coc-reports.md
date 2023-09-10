@@ -14,8 +14,8 @@ Generally, reports to `coc-escalation` should refer to a report that was already
 
 A report to `coc-esclation` should either (a) reference the previously raised issue, or (b) include an explanation of why the reporter does not feel comfortable using the project or CC reporting email for the initial report.
 
-[cc]: ../COUNCIL_CHARTER.md "Commonhaus Council"
-[cc-dm]: ../COUNCIL_CHARTER.md#decision-making-and-voting
+[cc]: ../GOVERNANCE.md#commonhaus-council "Commonhaus Council"
+[cc-dm]: ../GOVERNANCE.md#decision-making-and-voting
 [coc]: ../CODE_OF_CONDUCT.md
 [cocp]: #code-of-conduct-panel "Code of Conduct Panel"
 
@@ -33,13 +33,13 @@ Note: We understand that the **reporter** and the **target** can be separate per
 
 ## Reports to `report@mailing-list`
 
-All members of the CC are subscribed to the `report@mailing-list` mailing list. Members of the CC will be documented in the `commonhaus-council` [MEMBERSHIP](MEMBERSHIP.yaml) attribute.
+All members of the CC are subscribed to the `report@mailing-list` mailing list. Members of the CC will be documented in the `commonhaus-council` [MEMBERS.yaml](MEMBERS.yaml.yaml) attribute.
 
 When a report is received the following actions will be taken:
 
 1. One of the CC members will respond to the reporter or target confirming that the report has been received. When possible the same person who responds initially will act as the point of contact for future conversations.
 
-2. If no response has been sent by the next CC meeting, the CC chair will ensure there is a private session in which one of the CC members is identified as the point of contact.
+2. If no response has been sent by the next CC meeting, the CC Chairperson will ensure there is a private session in which one of the CC members is identified as the point of contact.
 
 3. The point of contact will then ensure the following steps are completed:
 
@@ -57,11 +57,11 @@ When a report is received the following actions will be taken:
 All members of the [Code of Conduct Panel (CoCP)][cocp]
 are subscribed to the `coc-escalation@mailing-list` mailing list. 
 
-Members of the CoCP will be documented in the `cocp-panel` [MEMBERSHIP](MEMBERSHIP.yaml) attribute.
+Members of the CoCP will be documented in the `cocp-panel` [MEMBERS.yaml](MEMBERS.yaml.yaml) attribute.
 
 The CoCP will follow the same overall procedure as the CC, with the following exceptions: 
 
-- The Commonhaus Council chair will ensure a member of the CoCP is identified as the main point of contact either through email or scheduling a meeting for the CoCP.
+- The CC Chairperson will ensure a member of the CoCP is identified as the main point of contact either through email or scheduling a meeting for the CoCP.
 
 - When an appropriate response has been determined by the CoCP, the proposed action is discussed with leaders of the relevant group (the CC or the Commonhaus project). If the leadership representatives expresses concerns then the contact person will bring these back to the CoCP members for further discussion. This cycle can continue until the CoCP members reach consensus that the leadership representatives concerns have been adequately addressed.
 

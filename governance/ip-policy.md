@@ -13,7 +13,7 @@ The Commonhaus supports various individual projects, collectively known as “Pr
 
    Alternatively, a different open source license can be selected with approval from the [Commonhaus Council (CC)][cc].
 
-[cc]: ../COUNCIL_CHARTER.md "Commonhaus Council"
+[cc]: ../GOVERNANCE.md#commonhaus-council "Commonhaus Council"
 [IP Policy]: https://ip-policy.website
 
 1. **Interactions with Upstream Projects:** The Commonhaus and its Projects might collaborate with other open source projects (“Upstream Projects”). In such cases, they will:

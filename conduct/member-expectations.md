@@ -16,7 +16,7 @@ There are further expectations for
 members of leadership teams including the
 [Commonhaus Council][cc].
 
-[cc]: COUNCIL_CHARTER.md "Commonhaus Council"
+[cc]: GOVERNANCE.md#commonhaus-council "Commonhaus Council"
 
 When decisions are made within the established guidelines and policies of Commonhaus projects, *those in leadership roles have a responsibility to uphold and respect the decision even if they disagree with it*. Should the leader be unwilling or unable to do so, then they should resign their leadership position.
 
