@@ -21,7 +21,7 @@ A report to `coc-esclation` should either (a) reference the previously raised is
 
 ## Code of Conduct
 
-The Commonhaus and its member projects use the [Contributor Covenant v2.1][v2.1] as its CoC. Refer to the [Code of Conduct][coc] for the full text of the CoC and the reporting and esclation procedures.
+The Commonhaus Foundation and its member projects use the [Contributor Covenant v2.1][v2.1] as its CoC. Refer to the [Code of Conduct][coc] for the full text of the CoC and the reporting and esclation procedures.
 
 ## Conflict of Interest
 

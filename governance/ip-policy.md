@@ -1,9 +1,9 @@
 ---
 status: draft
 ---
-# Commonhaus Intellectual Property Policy
+# The Commonhaus Foundation Intellectual Property Policy
 
-The Commonhaus supports various individual projects, collectively known as “Projects”. Any new code contributions to these Projects are made under the license chosen by each individual Project (termed as the “Project Code License”).
+The Commonhaus Foundation supports various individual projects, collectively known as “Projects”. Any new code contributions to these Projects are made under the license chosen by each individual Project (termed as the “Project Code License”).
 
 1. **License Choices:** The technical governing body of each Project can opt for any of the following as its Project Code License:
    - [The Apache License, Version 2.0](http://www.apache.org/licenses/LICENSE-2.0)
@@ -16,7 +16,7 @@ The Commonhaus supports various individual projects, collectively known as “Pr
 [cc]: ../GOVERNANCE.md#commonhaus-council "Commonhaus Council"
 [IP Policy]: https://ip-policy.website
 
-1. **Interactions with Upstream Projects:** The Commonhaus and its Projects might collaborate with other open source projects (“Upstream Projects”). In such cases, they will:
+1. **Interactions with Upstream Projects:** The Commonhaus Foundation and its Projects might collaborate with other open source projects (“Upstream Projects”). In such cases, they will:
 
    - Adhere to all licensing requirements of the Upstream Projects.
    - Aim for compatibility with projects integrated into the Projects.
@@ -35,9 +35,9 @@ The Commonhaus supports various individual projects, collectively known as “Pr
 
 3. **Policy Modifications:** The CC, after notifying the Projects, may change contribution policies.
 
-4. **Additional Contribution Requirements:** A Project might enforce extra requirements, like being accompanied by a Commonhaus CLA.
+4. **Additional Contribution Requirements:** A Project might enforce extra requirements, like being accompanied by a CLA.
 
-5. **Intellectual Property Rights:** Membership in The Commonhaus does not imply any granting or receipt of intellectual property rights, except where stated by this policy, the Project Code License, or the Project Documentation License.
+5. **Intellectual Property Rights:** Membership in The Commonhaus Foundation does not imply any granting or receipt of intellectual property rights, except where stated by this policy, the Project Code License, or the Project Documentation License.
 
 The current version of this IP policy is available at [IP Policy][].
 

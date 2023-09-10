@@ -1,10 +1,11 @@
 ---
 status: draft
 ---
-# Commonhaus Project Governance
-The Commonhaus aims to a place where things get done. But we're all humans, and humans can be messy. 
+# The Commonhaus Foundation Project Governance
 
-This document defines how The Commonhaus and members of the Commonhaus Council will work together to keep moving the foundation and its member projects forward.
+The Commonhaus Foundation aims to a place where things get done. But we're all humans, and humans can be messy. 
+
+This document defines how The Commonhaus Foundation and members of the Commonhaus Council will work together to keep moving the foundation and its member projects forward.
 
 [coc-reports]: conduct/handling-coc-reports.md#handling-reports-and-escalation
 
@@ -29,7 +30,7 @@ Further Reading: [About code owners](https://docs.github.com/en/repositories/man
 
 ## Commonhaus Council
 
-The heartbeat of The Commonhaus, the Commonhaus Council (CC) stands at the forefront of decision-making, collaboration, and upholding our values.
+The Commonhaus Council (CC) is governing body of The Commonhaus Foundation. 
 
 The council convenes regularly to:
 
@@ -47,9 +48,9 @@ The Council comprises 11 elected individuals.
 **Eligibility:** Active contributors to the foundation's projects are eligible. 
 Their active participation helps ensure the council understands challenges member projects are facing.
 
-**Participation Expectations:** An elected member is anticipated to be an active voice in discussions, share their expertise, and collaborate with fellow CC members to ensure The Commonhaus and its projects flourish.
+**Participation Expectations:** An elected member is anticipated to be an active voice in discussions, share their expertise, and collaborate with fellow CC members to ensure The Commonhaus Foundation and its projects flourish.
 
-**Nomination and Election:** Any active contributor to The Commonhaus can step into the ring, either through self-nomination or through nomination by peers. Elections focus on an individual's commitment to The Commonhaus, their expertise, and the unique viewpoints they bring. To stave off undue influence, no single company or entity can occupy more than a third of the Council's seats.
+**Nomination and Election:** Any active contributor to Commonhaus projects is eligible, either through self-nomination or through nomination by peers. Elections focus on an individual's commitment to The Commonhaus Foundation, their expertise, and the unique perspectives they bring. To stave off undue influence, no single company or entity can occupy more than a third of the Council's seats.
 
 **Tenure and Transition:** After serving their term, members can either re-elect themselves, endorse another nominee, or step back, making room for new blood.
 
@@ -59,7 +60,7 @@ The Chairperson (also elected) orchestrates regular CC meetings, ensuring leader
 
 ## Decision Making and Voting
 
-True to Open Source roots, the Commonhaus follows a Lazy Consensus decision making model. To quote the [Consensus definition](https://community.apache.org/committers/decisionMaking.html) from the Apache Foundation: 
+True to Open Source roots, The Commonhaus Foundation follows a Lazy Consensus decision making model. To quote the [Consensus definition](https://community.apache.org/committers/decisionMaking.html) from the Apache Foundation: 
 
 > Consensus
 >

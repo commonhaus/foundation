@@ -1,20 +1,17 @@
 ---
 status: draft
 ---
-# Commonhaus member expectations
+# The Commonhaus Foundation  Member Expectations
 
-All participants in Commonhaus projects and groups must follow the
-[Code of Conduct](../CODE_OF_CONDUCT.md). 
+All participants in Commonhaus projects and groups must follow the [Code of Conduct](../CODE_OF_CONDUCT.md). 
 
-Commonhaus members are expected to be respectful of different viewpoints and work collaboratively with one another in a manner that constructively elevates all contributors.
+Members of The Commonhaus Foundation and Commonhaus project contributors are expected to be respectful of different viewpoints and work collaboratively with one another. 
 
-If a member has an objection or dissent they should express it as early as possible to ensure there is ample time to discuss and reach consensus.
+When seeking consensus, if a member has an objection or dissent they should express it as early as possible to ensure there is ample time to discuss and address objections.
 
-## Commonhaus leadership expectations
+## The Commonhaus Foundation Leadership Expectations
 
-There are further expectations for
-members of leadership teams including the
-[Commonhaus Council][cc].
+There are further expectations for members of leadership teams including the [Commonhaus Council (CC)][cc].
 
 [cc]: GOVERNANCE.md#commonhaus-council "Commonhaus Council"
 
@@ -35,7 +32,7 @@ Members of CC must also conduct themselves in a professional and respectful mann
   Provide the example of ownership and stewardship that everyone can follow to success.
 - Demonstrate a willingness to listen and learn from others.
 
-While the guidelines above focus primarily on the spaces where we participate in official Commonhaus work (GitHub, IRC, meetings, conferences), it is important to recognize that the public behavior of members also reflects on the Commonhaus projects and groups.
+While the guidelines above focus primarily on the spaces where we participate in official foundation work (GitHub, IRC, meetings, conferences), it is important to recognize that the public behavior of members also reflects on the The Commonhaus Foundation and Commonhaus projects.
 
 If you're interested in an introduction to diversity, inclusion, and unconscious bias, [try this free training offered by our partners at the Linux Foundation](https://training.linuxfoundation.org/training/inclusive-speaker-orientation/).
 

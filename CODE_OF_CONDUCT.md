@@ -1,14 +1,14 @@
 ---
 status: draft
 ---
-# Commonhaus Code of Conduct
+# The Commonhaus Foundation Code of Conduct
 
-The Commonhaus, and every project within it, needs a clear and enforced Code of Conduct (CoC).
+The Commonhaus Foundation, and every project within it, needs a clear and enforced Code of Conduct (CoC).
 
-## Commonhaus Contact information
+## Contact information
 
 - Each Commonhaus project will define a `CODE_OF_CONDUCT.md`. For issues related to a project, start there.
-- Issues related to the Commonhaus itself should be sent to `report@mailing-list` for [review](#respond-to-a-coc-issue) by the [Commonhaus Council][cc] (CC).
+- Issues related to the The Commonhaus Foundation should be sent to `report@mailing-list` for [review](#respond-to-a-coc-issue) by the [Commonhaus Council][cc] (CC).
   - The [CC][cc] will follow [Commonhause CoC procedures][coc-reports] when handling CoC reports.
   - Records will be kept in TODO-private-repository
 - [Escalations](#escalate-an-issue) should be sent to `coc-escalation@mailing-list` for review by the [Code of Conduct Panel (COCP)][cocp].
@@ -22,7 +22,7 @@ The Commonhaus, and every project within it, needs a clear and enforced Code of 
 
 ## Our Code of Conduct
 
-The Commonhaus has adopted the [Contributor Covenant v2.1][v2.1] as its CoC (full text [below](#contributor-covenant-code-of-conduct)). 
+The Commonhaus Foundation has adopted the [Contributor Covenant v2.1][v2.1] as its CoC (full text [below](#contributor-covenant-code-of-conduct)). 
 
 - The CoC applies to all foundation activities.
 - New projects must adopt this CoC within 3 months of joining the foundation.
@@ -45,7 +45,7 @@ An issue should be created for each report in a private repository listed in its
 
 We expect most reports to be handled successfully by the processes put in place by a project or the [CC][cc].
 
-The Commonhaus maintains the [CoCP][cocp] to manage escalation when a reporter (a) believes that a report to a member project or the [CC][cc] has not been properly handled, or (b) does not feel comfortable reporting an issue through the standard process.
+The Commonhaus Foundation maintains the [CoCP][cocp] to manage escalation when a reporter (a) believes that a report to a member project or the [CC][cc] has not been properly handled, or (b) does not feel comfortable reporting an issue through the standard process.
 
 Email `coc-escalation@mailing-list` to escalate an issue to the CoCP.
 

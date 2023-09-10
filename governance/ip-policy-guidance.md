@@ -1,9 +1,9 @@
 ---
 status: draft
 ---
-# Commonhaus IP Policy Guidance
+# The Commonhaus Foundation IP Policy Guidance
 
-The purpose of this guide is to make it straightforward for projects to follow the [Commonhaus IP Policy][IP Policy].
+The purpose of this guide is to make it straightforward for projects to follow the [The Commonhaus Foundation IP Policy][IP Policy].
 
 Of course, the source of truth remains the [IP Policy][].
 

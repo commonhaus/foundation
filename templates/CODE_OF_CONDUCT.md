@@ -5,7 +5,7 @@ instructions: Replace [Project Name], update Contact information, delete YAML fr
 # [Project Name] Code of Conduct
 
 [Project Name] has adopted the [Contributor Covenant v2.1][v2.1] as its CoC and 
-follows [The Commonhaus Code of Conduct Policy][coc-policy] (included below).
+follows [The Commonhaus Foundation Code of Conduct][coc-policy] (included below).
 
 ## [Project Name] Contact information
 
@@ -23,7 +23,7 @@ follows [The Commonhaus Code of Conduct Policy][coc-policy] (included below).
 
 ## Our Code of Conduct
 
-The Commonhaus has adopted the [Contributor Covenant v2.1][v2.1] as its CoC (full text [below](#contributor-covenant-code-of-conduct)). 
+The Commonhaus Foundation has adopted the [Contributor Covenant v2.1][v2.1] as its CoC (full text [below](#contributor-covenant-code-of-conduct)). 
 
 - The CoC applies to all foundation activities.
 - New projects must adopt this CoC within 3 months of joining the foundation.
@@ -50,7 +50,7 @@ The report should NOT contain identifying details of the reporter.
 
 We expect most reports to be handled successfully by the processes put in place by a project or the [CC][cc].
 
-The Commonhaus maintains the [CoCP][cocp] to manage escalation when a reporter (a) believes that a report to a member project or the [CC][cc] has not been properly handled, or (b) does not feel comfortable reporting an issue through the standard process.
+The Commonhaus Foundation maintains the [CoCP][cocp] to manage escalation when a reporter (a) believes that a report to a member project or the [CC][cc] has not been properly handled, or (b) does not feel comfortable reporting an issue through the standard process.
 
 Email `coc-escalation@mailing-list` to escalate an issue to the CoCP.
 
