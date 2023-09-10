@@ -6,6 +6,8 @@ status: draft
 Inspired by the legacy of [The Codehaus][codehaus], The Commonhaus Foundation is a collaborative environment, a shared space where innovation thrives, and where projects remain the focus. We aim to provide a neutral home where longevity, security, and innovation converge.
 
 [codehaus]: https://www.infoworld.com/article/2892227/codehaus-the-once-great-house-of-code-has-fallen.html
+[succession]: governance/succession-plan.md
+[ip-policy-guidance]: governance/ip-policy-guidance.md#1-licensing
 
 ## Goals
 
@@ -13,13 +15,13 @@ Inspired by the legacy of [The Codehaus][codehaus], The Commonhaus Foundation is
 
 **Ecosystem Health**: Prioritize the security, longevity, and accessibility of Commonhaus projects.
 
-**Open Source Assurance**: Guarantee the community that all code under our banner will remain open source, ensuring consistent, long-term availability in trusted repositories like Maven Central.
+**Open Source Assurance**: Guarantee to the community that all code under our banner will remain open source, ensuring its consistent and long-term availability in trusted repositories like Maven Central.
 
 **Project Autonomy**: Empower project maintainers with the freedom to define their governance. Our foundation strives for simplicity, eliminating 'pay-to-play' models and minimizing administrative overhead.
 
 ## Unique Characteristics
 
-**Preservation of Project Identity**: Unlike many foundations where projects get absorbed into the larger brand. Commonhaus projects not only retain but celebrate their original identities. While domain names and trademarks are donated, they don't dissolve into the foundation's overarching brand. Your project remains unmistakably yours.
+**Preservation of Project Identity**: Unlike many foundations, where projects get absorbed into the larger brand, Commonhaus projects not only retain but celebrate their original identities. While domain names and trademarks are donated, they don't dissolve into the foundation's overarching brand. Your project remains unmistakably yours.
 
 **Simplified Governance with Core Principles**: We believe in an uncluttered approach with only two non-negotiable tenets:
 
@@ -50,11 +52,11 @@ In essence, we dodge politics and paperwork, aiming to make every ounce of our e
 
 **Volunteer Board:** Comprising user group leaders, owners of longstanding libraries and application frameworks, and other community leaders.
 
-**Licensing:** Adherence to open source licensing as defined by the OSI.
+**Licensing:** We adhere to open-source licensing as defined by the OSI (See the Licensing section of [The Commonhaus Foundation IP Policy Guidance][ip-policy-guidance]).
 
 ### Sponsorship Dynamics:
 
-Transparency and utility are the cornerstones of The Commonhaus Foundation's sponsorship approach. As our needs and initiatives crystallize, we pledge to keep our community in the loop regarding fund utilization.
+The cornerstones of our sponsorship approach are transparency and utility. As our needs and initiatives evolve, we pledge to keep our community in the loop regarding fund utilization.
 
 **Direct Project Support:** Unlike some other foundations, when you sponsor a project under The Commonhaus Foundation, the lion's share – if not the entirety – of your contribution directly supports the project maintainers in their endeavors.
 
@@ -67,4 +69,3 @@ Transparency and utility are the cornerstones of The Commonhaus Foundation's spo
 - [Commonhaus Council and Charter](GOVERNANCE.md)
 - [Succession Planning][succession]
 
-[succession]: governance/succession-plan.md

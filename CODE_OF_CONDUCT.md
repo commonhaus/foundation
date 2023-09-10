@@ -3,22 +3,33 @@ status: draft
 ---
 # The Commonhaus Foundation Code of Conduct
 
-The Commonhaus Foundation, and every project within it, needs a clear and enforced Code of Conduct (CoC).
+The Commonhaus Foundation, and every project within it, needs a clear and enforced Code of Conduct (CoC) to foster a respectful and collaborative environment for all participants.
+
+1. **[Contact Info](#contact-information)**: Defines channels for project issues, foundation-wide concerns, and escalations.
+2. **[Our CoC](#our-code-of-conduct)**: Adopts the Contributor Covenant v2.1 and outlines its scope and enforcement.
+3. **[Member Expectations](#member-expectations)**: Details the behavior expected from members and leaders of the foundation.
+4. **[Reporting](#report-an-issue)**: Describes the process for reporting CoC violations.
+5. **[Responding to Issues](#respond-to-a-coc-issue)**: Provides a guide on handling and documenting CoC reports.
+6. **[Escalation](#escalate-an-issue)**: Offers procedures when regular channels aren't effective or appropriate.
+7. **[CoC Panel](#code-of-conduct-panel)**: Defines the role and composition of the Code of Conduct Panel.
+8. **[Handling Reports](#handling-reports-and-escalations)**: Describes procedures for both regular and escalated CoC reports.
 
 ## Contact information
 
-- Each Commonhaus project will define a `CODE_OF_CONDUCT.md`. For issues related to a project, start there.
-- Issues related to the The Commonhaus Foundation should be sent to `report@mailing-list` for [review](#respond-to-a-coc-issue) by the [Commonhaus Council][cc] (CC).
-  - The [CC][cc] will follow [Commonhause CoC procedures][coc-reports] when handling CoC reports.
-  - Records will be kept in TODO-private-repository
-- [Escalations](#escalate-an-issue) should be sent to `coc-escalation@mailing-list` for review by the [Code of Conduct Panel (COCP)][cocp].
-  - The [CoCP][cocp] will follow [Commonhause CoC procedures][coc-reports] when handling CoC reports and escalations.
-  - Records will be kept in TODO-private-repository
+- **Project Issues:** Each Commonhaus project will define a `CODE_OF_CONDUCT.md`. For issues related to a project, start there.
+- **Founation Issues:** Issues related to the The Commonhaus Foundation should be sent to `report@mailing-list` for [review](#respond-to-a-coc-issue) by the [Commonhaus Council][cc] (CC).
+  - The [CC][cc] will follow [Commonhaus CoC procedures][coc-reports] when handling CoC reports.
+  - Records will be kept in TODO-private-repository. Access to this repository is restricted to current CC members.
+- **Escalations:** [Escalations](#escalate-an-issue) should be sent to `coc-escalation@mailing-list` for review by the [Code of Conduct Panel (COCP)][cocp].
+  - The [CoCP][cocp] will follow [Commonhaus CoC procedures][coc-reports] when handling CoC reports and escalations.
+  - Records will be kept in TODO-private-repository. Access to this repository is restricted to CoCP members.
 
 [cc]: GOVERNANCE.md#commonhaus-council "Commonhaus Council"
-[coc-reports]: conduct/handling-coc-reports.md
+[cc-dm]: GOVERNANCE.md#decision-making-and-voting
 [cocp]: #code-of-conduct-panel "Code of Conduct Panel"
-[cocp-membership]: MEMBERS.yaml.yaml
+[membership]: MEMBERS.yaml
+[coc-reports]: #handling-reports-and-escalations
+
 
 ## Our Code of Conduct
 
@@ -30,30 +41,92 @@ The Commonhaus Foundation has adopted the [Contributor Covenant v2.1][v2.1] as i
 A CoC is meaningful only [when it is effectively enforced](https://medium.com/mozilla-open-innovation/how-were-making-code-of-conduct-enforcement-real-and-scaling-it-3e382cf94415).
 Having a unified CoC allows for consistent enforcement and better support across all Commonhaus projects.
 
+### Member Expectations
+
+All participants in Commonhaus projects are bound by the principles outlined in this Code of Conduct.
+
+Members of The Commonhaus Foundation and Commonhaus project contributors are expected to be respectful of different viewpoints and work collaboratively with one another. Some general guidelines include: 
+
+- Admit and work to correct mistakes. Aim to remediate first, and then discuss. If other members of the team express concerns about actions, acknowledge their concerns by stopping the actions in question and discuss within the team (the CC, the CoCP, or a Commonhaus project members) to come to a common agreement.
+- Treat all community members with respect, consideration, and highest standards of ethical conduct. Avoid preferential treatment. Criticize ideas rather than people. Discuss any concerns in person whenever possible. 
+- Build trust by keeping your promises. The corollary: don't over-promise. 
+- Demonstrate a willingness to listen and learn from others. Provide an example of ownership, stewardship, and inclusiveness that everyone can follow.
+
+If you're interested in an introduction to diversity, inclusion, and unconscious bias, consider these resources:
+
+- [Inclusive Speaker Orientation (Linux Foundation)](https://training.linuxfoundation.org/training/inclusive-speaker-orientation/)
+- [Making product inclusion and equity a core part of tech (McKinsey & Company)](https://www.mckinsey.com/industries/technology-media-and-telecommunications/our-insights/making-product-inclusion-and-equity-a-core-part-of-tech)
+- [Inclusion at Scale in the Mozilla and Kubernetes Open Source Communities (The New Stack)](https://thenewstack.io/inclusion-at-scale-in-the-mozilla-and-kubernetes-open-source-communities/)
+- [We See You! Reaching Diverse Audiences in FOSS](https://medium.com/mozilla-open-innovation/we-see-you-reaching-diverse-audiences-in-foss-4e83efc86425)
+
+#### Leadership Expectations
+
+There are further expectations for members of leadership teams including the CC.
+
+When decisions are made within the established guidelines and policies of Commonhaus projects, *those in leadership roles have a responsibility to uphold and respect the decision even if they disagree with it*. Should the leader be unwilling or unable to do so, then they should resign their leadership position.
+
+This does not mean that decisions are set in stone. Commonhaus projects and the CC are always able to revisit decisions at a later time.
+
 ### Report an issue
 
 - Each Commonhaus project is free to implement enforcement of the CoC using processes appropriate for the size and scope of the project. CoC enforcement processes and contact methods must be defined in the projects' `CODE_OF_CONDUCT.md`. 
-- For other Commonhaus repositories, send your report to `report@mailing-list`. The [CC][cc] will receive these reports.
+- For Commonhaus repositories that do not specify their own `CODE_OF_CONDUCT.md`, send your report to `report@mailing-list`. The [CC][cc] will receive these reports.
+
+Confidentiality is of utmost importance. We also understand that the person reporting the issue (**reporter**) may not be the individual directly affected or harmed (**target**). In such cases, communication will primarily be with the reporter unless the target explicitly gives permission. Personal details of the reporter (and the target if they differ) will not be disclosed without permission. 
 
 ### Respond to a CoC issue
 
-Each complaint will be reviewed and investigated, and will result in a response that is deemed necessary and appropriate to the circumstances. 
+Each complaint will be reviewed and investigated, and will result in a response that is deemed necessary and appropriate to the circumstances.
 
-An issue should be created for each report in a private repository listed in its `CODE_OF_CONDUCT.md`. It should capture the report, discussion and final conclusion. Personal information is confidential. The report should NOT contain identifying details of the reporter.
+An issue should be created for each report in a private repository listed in its `CODE_OF_CONDUCT.md`. It should capture the report, discussion and final conclusion. Personal information is confidential. The report should NOT contain identifying details of the reporter. 
+
+Access to the private repository should be restricted to individuals charged with resolving CoC reports. Individuals or groups with access to the private repository will be clearly stated in the `CODE_OF_CONDUCT.md`.
+
+Confidentiality: Given that membership to groups like the CC or the CoCP have finite terms, members reviewing CoC reports agree to treat all reports as confidential, even after their term is finished.
 
 ### Escalate an issue
 
-We expect most reports to be handled successfully by the processes put in place by a project or the [CC][cc].
+We expect most reports to be handled by the processes put in place by a project or the [CC][cc].
 
 The Commonhaus Foundation maintains the [CoCP][cocp] to manage escalation when a reporter (a) believes that a report to a member project or the [CC][cc] has not been properly handled, or (b) does not feel comfortable reporting an issue through the standard process.
 
-Email `coc-escalation@mailing-list` to escalate an issue to the CoCP.
+Email `coc-escalation@mailing-list` to escalate an issue to the CoCP. The CoCP will meet to review submitted reports as described in [Commonhaus CoC procedures][coc-reports]
 
 ### Code of Conduct Panel
 
-The CoCP is a foundation-wide team. Members of the CoCP will be added for a 1-year term and will be re-confirmed on a yearly basis.
+The CoCP is a foundation-wide team composed of the CC Chairperson and 4 elected individuals who are not members of the CC. 
 
-Members of the CoCP will be documented in the 'cocp-panel` [MEMBERS.yaml][cocp-membership] attribute.
+CoCP members serve for two year terms. Commonhaus contributors and members from the broader community can be nominated to the CoCP. 
+CoCP members should consider objectivity and diversity of experience and perspective when electing CoCP members. 
+
+Members of the CoCP will be documented in the `cocp-panel` [MEMBERS.yaml][membership] attribute.
+
+## Handling Reports and Escalations
+
+This section describes the process and roles for handling Code of Conduct (CoC) reports and escalations for both the Commonhaus Council (CC) and the Commonhaus Code of Conduct Panel (COCP).
+
+### Reports to `report@mailing-list`
+
+All members of the [CC][cc] are subscribed to the `report@mailing-list` mailing list. 
+
+We understand that the person reporting the issue (**reporter**) may not be the individual directly affected or harmed (**target**). In such cases, communication will primarily be with the reporter unless the target explicitly gives permission.
+
+1. **Acknowledgement:** Upon receipt of a report, a CC member acknowledges it, confirming receipt to the reporter or target.
+2. **Point of Contact:** If no response has been sent by the next CC meeting, the CC Chairperson will ensure a CC member is designated as the primary point of contact.
+3. **Information Gathering:** All relevant information is collected and centralized for review.
+4. **Discussion:** The gathered information is discussed to contextualize the facts and opinions.
+5. **Determination:** A consensus is reached on the appropriate response using the standard [CC decision-making process][cc-dm].
+6. **Communication of Resolution:** The resolution is shared with the reporter or target. Feedback loops can continue until concerns have been adequately addressed. Absence of feedback within 7 days means resolution acceptance.
+7. **Finalization:** The agreed resolution is implemented.
+
+### Reports to `coc-escalation@mailing-list`
+
+All members of the [Code of Conduct Panel (CoCP)][cocp] are subscribed to the `coc-escalation@mailing-list` mailing list. 
+
+The CoCP will follow the same overall procedure as the CC, with the following changes: 
+
+- **Point of Contact:** The CC Chairperson will ensure a member of the CoCP is identified as the main point of contact either through email or scheduling a meeting for the CoCP.
+- **Communication of Resolution:** When an appropriate response has been determined by the CoCP, the proposed action is discussed with leaders of the relevant group (the CC or the Commonhaus project). If the leadership representatives expresses concerns then the contact person will bring these back to the CoCP members for further discussion. This cycle can continue until the CoCP members reach consensus that the leadership representatives concerns have been adequately addressed.
 
 ---
 

@@ -3,9 +3,9 @@ status: draft
 ---
 # The Commonhaus Foundation Project Governance
 
-The Commonhaus Foundation aims to a place where things get done. But we're all humans, and humans can be messy. 
-
-This document defines how The Commonhaus Foundation and members of the Commonhaus Council will work together to keep moving the foundation and its member projects forward.
+The Commonhaus Foundation is where things get done.
+However, we're all humans, and, inevitably, humans can be complex.
+This document clarifies how we work together to drive the foundation and its projects forward.
 
 [coc-reports]: conduct/handling-coc-reports.md#handling-reports-and-escalation
 
@@ -30,7 +30,7 @@ Further Reading: [About code owners](https://docs.github.com/en/repositories/man
 
 ## Commonhaus Council
 
-The Commonhaus Council (CC) is governing body of The Commonhaus Foundation. 
+The Commonhaus Council (CC) is the governing body of The Commonhaus Foundation. 
 
 The council convenes regularly to:
 
@@ -43,7 +43,7 @@ Meetings open to the broader public will welcome all members and interested obse
 
 ### Composition and Membership
 
-The Council comprises 11 elected individuals.
+The Council is comprised of 10 elected members and 1 elected Council Chairperson
 
 **Eligibility:** Active contributors to the foundation's projects are eligible. 
 Their active participation helps ensure the council understands challenges member projects are facing.
@@ -52,11 +52,11 @@ Their active participation helps ensure the council understands challenges membe
 
 **Nomination and Election:** Any active contributor to Commonhaus projects is eligible, either through self-nomination or through nomination by peers. Elections focus on an individual's commitment to The Commonhaus Foundation, their expertise, and the unique perspectives they bring. To stave off undue influence, no single company or entity can occupy more than a third of the Council's seats.
 
-**Tenure and Transition:** After serving their term, members can either re-elect themselves, endorse another nominee, or step back, making room for new blood.
+**Tenure and Transition:** After serving their term, members can either run for re-election, endorse another nominee, or step back, making room for new blood.
 
 #### Chairperson of the Council
 
-The Chairperson (also elected) orchestrates regular CC meetings, ensuring leadership in discussions is evenly spread. They also oversee the proper handling of [Code of Conduct reports and escalations][coc-reports].
+The Chairperson orchestrates regular CC meetings, ensuring leadership in discussions is evenly spread. They also oversee the proper handling of [Code of Conduct reports and escalations][coc-reports].
 
 ## Decision Making and Voting
 
@@ -69,6 +69,8 @@ True to Open Source roots, The Commonhaus Foundation follows a Lazy Consensus de
 > Lazy Consensus
 >
 > Lazy consensus is the first, and possibly the most important, consensus-building tool we have. Essentially lazy consensus means that you don’t need to get explicit approval to proceed, but you need to be prepared to listen if someone objects.
+
+When seeking consensus, members should express objections or dissent as early as possible to ensure there is time to discuss and address objections.
 
 ### Seeking consensus in meetings
 
@@ -97,7 +99,7 @@ All participants in the project are expected to adhere to the project's [Code of
 
 ## Trademark Policy
 
-The [Project Name] logos, icons, and domain names are protected by trademark rights. Usage of these trademarks must adhere to our [Trademark Policy](TRADEMARKS.md).
+The Commonhaus Foundation logos, icons, and domain names are protected by trademark rights. Usage of these trademarks must adhere to our [Trademark Policy](TRADEMARKS.md).
 
 ## Contributing
 
