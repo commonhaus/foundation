@@ -15,26 +15,16 @@ While all trademarks are owned by The Commonhaus Foundation, each project under 
 
 In case of any inconsistency between the rules in a project's `TRADEMARK.md` file and this Trademark Policy, the project's specific rules will prevail.
 
-## The Commonhaus Foundation Trademark Usage Guidelines
+## Trademark Usage Guidelines of The Commonhaus Foundation
 
-Trademarks ensure that the community recognizes and trusts the quality of associated products or services. This policy balances two main interests:
+Trademarks are used to provide assurance to the community of consistency with respect to the quality of products or services with which the mark is associated.  This policy attempts to strike the proper balance between two competing interests:  1) the need of The Commonhaus Foundation to ensure that its trademarks remain reliable indicators of the qualities that they have been created to preserve and 2) the need of The Commonhaus Foundation to ensure that community members are able to discuss Commonhaus projects and to accurately describe the relationship between The Commonhaus Foundation, Commonhaus projects, and the products and services offered by others.
 
-1. Introduction
-2. Trademark Ownership and Specific Project Trademarks
-3. The Commonhaus Foundation Trademark Usage Guidelines
-4. Rules that Apply to Trademarks In General
-5. Commonhaus Trademarks and Crowdfunding
-6. Questions, Comments, Concerns
-7. Disclaimer
-8. Modifications and Updates
+A trademark provides the owner with an exclusive right to authorize or control the use of the mark.  Your right to use a mark of The Commonhaus Foundation is provided for in this policy and in the statement of permitted use, if any, that may accompany the trademark notice displayed on the website dedicated to the project.
+A copyright license, even an open source copyright license, does not include an implied right or license to use a trademark that may be related to the project developing the licensed software or other materials.
+Because open source licenses permit unrestricted modification of the copyrighted software, and The Commonhaus Foundation has no intention of interfering with that right, your right to use any specific trademark of The Commonhaus Foundation is not determined by your use of software made available under an open source license.
+Your right to use a mark is conditioned upon conforming to other requirements that are directly related to the qualities that the specific mark has been created to preserve.
 
-Your right to use any Commonhaus trademarks is defined in this policy, in any statement accompanying the trademark notice on our project websites, and in the `TRADEMARK.md` file specific to each Commonhaus project.
-Remember, while copyright licenses, even open source ones, allow you to use the associated software, they don't grant trademark rights.
-Just because you can modify open-source software doesn't automatically give you rights to use Commonhaus trademarks. Your rights depend on whether you meet the standards the specific trademark stands for.
-
-Following these guidelines protects the value of Commonhaus trademarks. 
-Any use of or reference to Commonhaus trademarks that is inconsistent with this policy, or use of marks that might be confused with Commonhaus trademarks, is prohibited. 
-All uses of the Commonhaus trademarks, and all goodwill associated therewith, will inure solely to the benefit of The Commonhaus Foundation and Commonhaus projects.
+Proper use of Commonhaus trademarks by following these trademark usage guidelines protects the value of Commonhaus trademarks.  Any use of or reference to Commonhaus trademarks that is inconsistent with this trademark policy, or use of marks that are confusingly similar to trademarks of The Commonhaus Foundation, is prohibited.  All uses of Commonhaus trademarks, and all goodwill associated therewith, will inure solely to the benefit of The Commonhaus Foundation, and Commonhaus projects.
 
 ## Rules that Apply to Trademarks In General
 
