@@ -3,42 +3,39 @@ status: draft
 ---
 # The Commonhaus Foundation Intellectual Property Policy
 
-The Commonhaus Foundation supports various individual projects, collectively known as “Projects”. Any new code contributions to these Projects are made under the license chosen by each individual Project (termed as the “Project Code License”).
+The Commonhaus Foundation oversees multiple individual projects, referred to as “Projects”. Contributions to these Projects are governed by this policy and each Project's chosen license, known as the “Project Code License”.
 
-1. **License Choices:** The technical governing body of each Project can opt for any of the following as its Project Code License:
+[cc]: ../GOVERNANCE.md#commonhaus-council "Commonhaus Council"
+[IP Policy Guidance]: ip-policy-guidance.md "The Commonhaus Foundation IP Policy Guidance"
+
+1. **License Options:** Projects can select from approved licenses:
    - [The Apache License, Version 2.0](http://www.apache.org/licenses/LICENSE-2.0)
-   - [The MIT License](https://opensource.org/licenses/MIT)
+   - [The MIT License][MIT]
    - [The 2-Clause BSD License](https://opensource.org/licenses/BSD-2-Clause)
    - [The 3-Clause BSD License](https://opensource.org/licenses/BSD-3-Clause)
 
-   Alternatively, a different open source license can be selected with approval from the [Commonhaus Council (CC)][cc].
+   Other open source licenses require [Commonhaus Council (CC)][cc] approval.
 
-[cc]: ../GOVERNANCE.md#commonhaus-council "Commonhaus Council"
-[IP Policy]: https://ip-policy.website
+2. **Collaborations with Upstream Projects:** When collaborating with external open source projects (“Upstream Projects”), Projects must:
 
-1. **Interactions with Upstream Projects:** The Commonhaus Foundation and its Projects might collaborate with other open source projects (“Upstream Projects”). In such cases, they will:
+   - Comply with the Upstream Project's licensing requirements.
+   - Prioritize compatibility.
+   - Seek alternative license approvals from the CC when necessary.
 
-   - Adhere to all licensing requirements of the Upstream Projects.
-   - Aim for compatibility with projects integrated into the Projects.
+3. **Contributions:** Unless approved by the CC:
 
-   If there's a need for an alternative license due to an Upstream Project, the CC can approve an exception. For such approvals, please contact `info@mailing-list`.
+   - All code contributions must be under the Project Code License, validated by a [Developers Certificate of Origin (DCO)][DCO].
+   - All documentation and media files should use a license chosen by the Project’s technical governing body (for example, [CC BY 4.0][CC BY 4.0] or [MIT License][MIT]).
+   - License information should label all contributed files.
 
-2. **Contribution Details:** Unless approved by the CC:
+4. **Policy Changes:** The CC can modify this policy after notifying the Projects.
 
-   - All new code contributions should be made under the Project Code License, backed by a [Developers Certificate of Origin (DCO)](http://developercertificate.org/).
-   - All provided code will be available under the Project Code License.
-   - All documentation and media files will be contributed under a license chosen by the Project’s technical governing body, such as:
-     - [Creative Commons Attribution 4.0 International License (CC BY 4.0)](http://creativecommons.org/licenses/by/4.0/)
-     - [The MIT License](https://opensource.org/licenses/MIT)
+5. **Additional Requirements:** Projects can have additional contribution requirements.
 
-   All contributed files should be labeled with license information.
+6. **Intellectual Property Rights:** Commonhaus Foundation membership does not grant or transfer intellectual property rights unless explicitly stated by this policy or a Project's license.
 
-3. **Policy Modifications:** The CC, after notifying the Projects, may change contribution policies.
+For detailed guidance on implementing this policy, refer to the [IP Policy Guidance][].
 
-4. **Additional Contribution Requirements:** A Project might enforce extra requirements, like being accompanied by a CLA.
-
-5. **Intellectual Property Rights:** Membership in The Commonhaus Foundation does not imply any granting or receipt of intellectual property rights, except where stated by this policy, the Project Code License, or the Project Documentation License.
-
-The current version of this IP policy is available at [IP Policy][].
-
-
+[CC BY 4.0]: http://creativecommons.org/licenses/by/4.0/ "Creative Commons Attribution 4.0 International License (CC BY 4.0)"
+[MIT]: https://opensource.org/licenses/MIT "The MIT License"
+[DCO]: http://developercertificate.org/

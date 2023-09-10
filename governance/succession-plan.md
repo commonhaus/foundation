@@ -9,6 +9,11 @@ The Commonhaus Foundation aims to help projects address this vital concern.
 
 This policy articulates the foundation's need for administrative access to project resources and the principles that guide this requirement.
 
+[GOVERNANCE.md]: ../GOVERNANCE.md
+[GOV-TPL]: ../templates/GOVERNANCE.md
+[CONTRIBUTING.md]: ../CONTRIBUTING.md
+[CONTRIB-TPL]: ../templates/CONTRIBUTING.md
+
 ## Policy Rationale
 
 Administrative access empowers The Commonhaus Foundation to:
@@ -42,10 +47,10 @@ The Commonhaus Foundation respects each project's chosen governance model. This 
 
 Further Reading: 
 - [About code owners](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-code-owners)
-- See [GOVERNANCE.md](../GOVERNANCE.md) and the [Project GOVERNANCE.md template](../templates/GOVERNANCE.md) for examples.
+- See [GOVERNANCE.md][] and the [Project GOVERNANCE.md template][GOV-TPL] for examples.
 - [Wrangling Web Contributions: How to Build a CONTRIBUTING.md](https://mozillascience.github.io/working-open-workshop/contributing/)
-- See [CONTRIBUTING.md](../CONTRIBUTING.md) and the [Project CONTRIBUTING.md template](../templates/CONTRIBUTING.md) for examples.
+- See [CONTRIBUTING.md][] and the [Project CONTRIBUTING.md template][CONTRIB-TPL] for examples.
 
 ### Policy Review and Updates
 
-This policy may undergo periodic reviews and updates to cater to the evolving needs of The Commonhaus Foundation and its projects. Project stewards and the community will be involved in and informed of any changes.
+This policy may undergo periodic reviews and updates to cater to the evolving needs of The Commonhaus Foundation and its projects. Project leaders and the community will be involved in and informed of any changes.
