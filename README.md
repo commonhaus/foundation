@@ -1,6 +1,9 @@
 ---
 status: draft
 ---
+
+> 📝 Note: This repo is a draft to explore an idea. It tries to be reasonably thorough to convey the concept, but there are lots of holes and details to sort through, and none of it has undergone any kind of legal review. [Discussions](https://github.com/commonhaus/foundation-draft/discussions) are open and input is welcome!
+
 # The Commonhaus Foundation
 
 Inspired by the legacy of [The Codehaus][codehaus], The Commonhaus Foundation is a collaborative environment, a shared space where innovation thrives, and where projects remain the focus. We aim to provide a neutral home where longevity, security, and innovation converge.
