@@ -47,7 +47,7 @@ However, not everything aligns with our vision:
 - **Discussion-Centric Groups:** Working groups or SIGs focused primarily on specifications? Not for us.
 - **Peripheral API Projects:** Projects that solely prop up specifications? They're better suited elsewhere.
 
-In essence, we dodge politics and paperwork, aiming to make every ounce of our energy count.
+In essence, we focus on being a home to code-centric projects.
 
 ## Community Affiliation
 
