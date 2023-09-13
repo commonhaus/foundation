@@ -43,7 +43,7 @@ Meetings open to the broader public will welcome all members and interested obse
 
 ### Composition and Membership
 
-The Council is comprised of 10 elected members and 1 elected Council Chairperson
+The Council is comprised of 10 elected members (1 year terms), and 1 elected [Council Chairperson](#chairperson-of-the-council) (2 year term)
 
 **Eligibility:** Active contributors to the foundation's projects are eligible. 
 Their active participation helps ensure the council understands challenges member projects are facing.
