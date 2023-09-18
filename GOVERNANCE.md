@@ -99,7 +99,7 @@ All participants in the project are expected to adhere to the project's [Code of
 
 ## Trademark Policy
 
-The Commonhaus Foundation logos, icons, and domain names are protected by trademark rights. Usage of these trademarks must adhere to our [Trademark Policy](TRADEMARKS.md).
+The Commonhaus Foundation logos, icons, and domain names are protected by trademark rights. Usage of these trademarks must adhere to our [Trademark Policy](governance/trademark-policy.md).
 
 ## Contributing
 
