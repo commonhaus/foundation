@@ -4,18 +4,18 @@ instructions: Replace [Project Name], update Contact information, delete YAML fr
 ---
 # [Project Name] Code of Conduct
 
-[Project Name] has adopted the [Contributor Covenant v2.1][v2.1] as its CoC and 
-follows [The Commonhaus Foundation Code of Conduct][coc-policy] (included below).
+[Project Name] has adopted the [Contributor Covenant v2.1][v2.1] as its Code of Conduct (CoC) and 
+follows the [Commonhaus Foundation (CF) CoC][coc-policy] (included below).
 
 ## [Project Name] Contact information
 
 - CoC reports should be sent to `report@PROJECT-mailing-list`.
-  - We will follow [Commonhause CoC procedures][coc-reports] when handling CoC reports.
+  - We will follow [CF CoC procedures][coc-reports] when handling CoC reports.
   - Records will be kept in `PROJECT-private-repository`
 - [Escalations](#escalate-an-issue) should be sent to `coc-escalation@mailing-list` for review by the [Code of Conduct Panel (COCP)][cocp].
 
 [coc-policy]: ../CODE_OF_CONDUCT.md "TODO: full path"
-[cc]: ../GOVERNANCE.md "Commonhaus Council - TODO: full path" 
+[cc]: ../GOVERNANCE.md "Commonhaus Foundation Council - TODO: full path" 
 [cocp]: ../CODE_OF_CONDUCT.md#code-of-conduct-panel "Code of Conduct Panel - TODO: full path"
 [coc-reports]: ../conduct/handling-coc-reports.md "Handling CoC reports - TODO: full path"
 
@@ -23,19 +23,19 @@ follows [The Commonhaus Foundation Code of Conduct][coc-policy] (included below)
 
 ## Our Code of Conduct
 
-The Commonhaus Foundation has adopted the [Contributor Covenant v2.1][v2.1] as its CoC (full text [below](#contributor-covenant-code-of-conduct)). 
+The CF has adopted the [Contributor Covenant v2.1][v2.1] as its CoC (full text [below](#contributor-covenant-code-of-conduct)). 
 
 - The CoC applies to all foundation activities.
 - New projects must adopt this CoC within 3 months of joining the foundation.
 
 A CoC is meaningful only [when it is effectively enforced](https://medium.com/mozilla-open-innovation/how-were-making-code-of-conduct-enforcement-real-and-scaling-it-3e382cf94415).
-Having a unified CoC allows for consistent enforcement and better support across all Commonhaus projects.
+Having a unified CoC allows for consistent enforcement and better support across all CF projects.
 
 ### Report an issue
 
-- Each Commonhaus project is free to implement enforcement of the CoC using processes appropriate for the size and scope of the project. 
+- Each CF project is free to implement enforcement of the CoC using processes appropriate for the size and scope of the project. 
   CoC enforcement processes and contact methods must be defined in the projects' `CODE_OF_CONDUCT.md`. 
-- For other Commonhaus repositories, send your report to `report@mailing-list`. The [CC][cc] will receive these reports.
+- For other Commonhaus repositories, send your report to `report@mailing-list`. The [CFC][cc] will receive these reports.
 
 ### Respond to a CoC issue
 
@@ -48,9 +48,9 @@ The report should NOT contain identifying details of the reporter.
 
 ### Escalate an issue
 
-We expect most reports to be handled successfully by the processes put in place by a project or the [CC][cc].
+We expect most reports to be handled successfully by the processes put in place by a project or the [CFC][cc].
 
-The Commonhaus Foundation maintains the [CoCP][cocp] to manage escalation when a reporter (a) believes that a report to a member project or the [CC][cc] has not been properly handled, or (b) does not feel comfortable reporting an issue through the standard process.
+The CF maintains the [CoCP][cocp] to manage escalation when a reporter (a) believes that a report to a member project or the [CFC][cc] has not been properly handled, or (b) does not feel comfortable reporting an issue through the standard process.
 
 Email `coc-escalation@mailing-list` to escalate an issue to the CoCP.
 

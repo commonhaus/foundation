@@ -6,7 +6,7 @@ status: draft
 
 # The Commonhaus Foundation
 
-Inspired by the legacy of [The Codehaus][codehaus], The Commonhaus Foundation is a collaborative environment—a shared space where innovation thrives, and where projects remain the center. Our aim is to provide a neutral home where longevity, security, and innovation converge, with non-interference being our guiding principle.
+Inspired by the legacy of [The Codehaus][codehaus], the Commonhaus Foundation (CF) is a collaborative environment—a shared space where innovation thrives, and where projects remain the center. Our aim is to provide a neutral home where longevity, security, and innovation converge, with non-interference being our guiding principle.
 
 [codehaus]: https://www.infoworld.com/article/2892227/codehaus-the-once-great-house-of-code-has-fallen.html
 [succession]: governance/succession-plan.md
@@ -35,7 +35,7 @@ Inspired by the legacy of [The Codehaus][codehaus], The Commonhaus Foundation is
 
 **Empowerment Over Enforceability**: Our mission is to be a foundation that uplifts each project without restrictive barriers.
 
-## Focus of The Commonhaus Foundation
+## Focus of the Commonhaus Foundation
 
 **Action Over Deliberation:** We prioritize doing over discussing. Our emphasis:
 
@@ -68,7 +68,7 @@ Companies gain visibility and recognition for their support, showcasing their co
 ## Additional resources
 
 - [Code of Conduct](CODE_OF_CONDUCT.md)
-- [Commonhaus Council and Charter][governance]
+- [Commonhaus Foundation Governance][governance]
 - [Succession Planning][succession]
 - [IP Policy Guidance][ip-policy-guidance]
 

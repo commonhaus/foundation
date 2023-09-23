@@ -1,11 +1,11 @@
 ---
 status: draft
 ---
-# Security Vulnerability Reporting for Commonhaus Projects
+# Security Vulnerability Reporting for Commonhaus Foundation Projects
 
 ## Reporting a Vulnerability:
 
-1. **Do Not Disclose Publicly**: If you believe you've found a security vulnerability in a Commonhaus project, please do not post it in public places such as public issue trackers, mailing lists, or forums.
+1. **Do Not Disclose Publicly**: If you believe you've found a security vulnerability in a CF project, please do not post it in public places such as public issue trackers, mailing lists, or forums.
 
 2. **Send Directly to Project Maintainers**: Send all the pertinent details to the project maintainers directly. If they have a dedicated security email, use that. If not, contact the primary maintainers.
   - [GitHub: Report security vulnerabilities privately](https://docs.github.com/en/code-security/security-advisories/guidance-on-reporting-and-writing-information-about-vulnerabilities/privately-reporting-a-security-vulnerability)
@@ -31,6 +31,6 @@ status: draft
 
 ## General Guidelines:
 
-1. **Act in Good Faith**: The Commonhaus community is built on trust. Please act responsibly, avoid data destruction, service disruption, and privacy violation when researching vulnerabilities.
+1. **Act in Good Faith**: This community is built on trust. Please act responsibly, avoid data destruction, service disruption, and privacy violation when researching vulnerabilities.
 
 2. **Feedback**: We're always open to feedback on this policy. If you have suggestions for improvement, feel free to share them.

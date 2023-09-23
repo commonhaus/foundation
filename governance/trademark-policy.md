@@ -1,55 +1,55 @@
 ---
 status: draft
 ---
-# The Commonhaus Foundation Trademark Policy Statement
+# Commonhaus Foundation Trademark Policy Statement
 
-This is a statement regarding the use and licensing of trademarks owned by The Commonhaus Foundation and used by Commonhaus projects. For purposes of this document, references to trademarks or marks include all trade and service marks and logos owned by The Commonhaus Foundation legal entity.
+This is a statement regarding the use and licensing of trademarks owned by the Commonhaus Foundation (CF) and used by CF projects. For purposes of this document, references to trademarks or marks include all trade and service marks and logos owned by the Commonhaus Foundation legal entity.
 
 - [Trademark Definitions](#trademarks) and [Ownership](#ownership-and-specific-project-trademarks)
 - [Trademark usage guidelines](#trademark-usage-guidelines)
-- [Guidelines for Commonhaus Trademarks](#guidelines-for-the-commonhaus-foundation-trademarks)
+- [Guidelines for Commonhaus Foundation Trademarks](#guidelines-for-the-commonhaus-foundation-trademarks)
   - [General Trademark Rules](#general-trademark-rules)
-  - [Specific Rules for Commonhaus Trademarks](#specific-rules-for-commonhaus-trademarks)
+  - [Specific Rules for Commonhaus Foundation Trademarks](#specific-rules-for-commonhaus-trademarks)
   - [Visual Trademark Instructions](#visual-trademark-instructions)
-- [Commonhaus Trademarks and Crowdfunding](#commonhaus-trademarks-and-crowdfunding)
+- [Commonhaus Foundation Trademarks and Crowdfunding](#commonhaus-trademarks-and-crowdfunding)
 - [Contact Us](#questions-comments-concerns)
 - [Disclaimer](#disclaimer)
 
 ## Trademark Definitions and Ownership
 
-The Commonhaus Foundation owns all Commonhaus trademarks, both registered and unregistered. A comprehensive list of Commonhaus registered trademarks, pending registrations, and trademarks in use can be found at https://trademark-list.website.
+The Commonhaus Foundation owns all CF trademarks, both registered and unregistered. A comprehensive list of registered trademarks, pending registrations, and trademarks in use can be found at https://trademark-list.website.
 
 ### Ownership and Specific Project Trademarks
 
-While all trademarks are owned by The Commonhaus Foundation, each Commonhaus project may have its own (unique) set of trademarks. These trademarks, along with any specific usage guidelines, will be documented in the project's `TRADEMARK.md` file.
+While all trademarks are owned by the Commonhaus Foundation, each CF project may have its own (unique) set of trademarks. These trademarks, along with any specific usage guidelines, will be documented in the project's `TRADEMARK.md` file.
 
 In case of any inconsistency between the rules in a project's `TRADEMARK.md` file and this Trademark Policy, the project's specific rules will prevail.
 
 ## Trademark Usage Guidelines
 
-This section explains how trademarks ensure consistent quality, and how you can use them without implying the endorsement of The Commonhaus Foundation.
+This section explains how trademarks ensure consistent quality, and how you can use them without implying the endorsement of the Commonhaus Foundation.
 
 Trademarks are used to provide assurance to the community of consistency with respect to the quality of products or services with which the mark is associated.
 
 This policy aims to strike a balance between two key interests:
 
-1) the need of The Commonhaus Foundation to ensure that its trademarks remain reliable indicators of the qualities that they have been created to preserve and 
-2) the need of The Commonhaus Foundation to ensure that community members are able to discuss Commonhaus projects and to accurately describe the relationship between The Commonhaus Foundation, Commonhaus projects, and the products and services offered by others.
+1) Ensuring that trademarks remain reliable indicators of the qualities that they have been created to preserve and 
+2) Ensuring that community members are able to discuss Commonhaus Foundation and its projects and to accurately describe the relationship between the CF, CF projects, and the products and services offered by others.
 
 A trademark provides the owner with an exclusive right to authorize or control the use of the mark.
-Your right to use a mark of The Commonhaus Foundation is provided for in this policy and in the statement of permitted use, if any, that may accompany the trademark notice displayed on a Commonhaus project website or described in the project's `TRADEMARK.md` file.
+Your right to use a mark of the Commonhaus Foundation is provided for in this policy and in the statement of permitted use, if any, that may accompany the trademark notice displayed on a CF project website or described in the project's `TRADEMARK.md` file.
 
 A copyright license, even an open source copyright license, does not include an implied right or license to use a trademark that may be related to the project developing the licensed software or other materials.
-Because open source licenses permit unrestricted modification of the copyrighted software, and The Commonhaus Foundation has no intention of interfering with that right, your right to use any specific trademark of The Commonhaus Foundation is not determined by your use of software made available under an open source license.
+Because open source licenses permit unrestricted modification of the copyrighted software, and the Commonhaus Foundation has no intention of interfering with that right, your right to use any specific trademark of the Commonhaus Foundation is not determined by your use of software made available under an open source license.
 Your right to use a mark is conditioned upon conforming to other requirements that are directly related to the qualities that the specific mark has been created to preserve.
 
-Proper use of Commonhaus trademarks by following these trademark usage guidelines protects the value of Commonhaus trademarks.
-Any use of or reference to Commonhaus trademarks that is inconsistent with this trademark policy, or use of marks that are confusingly similar to trademarks of The Commonhaus Foundation, is prohibited.
-All uses of Commonhaus trademarks, and all goodwill associated therewith, will inure solely to the benefit of The Commonhaus Foundation, and Commonhaus projects.
+Proper use of Commonhaus Foundation trademarks by following these trademark usage guidelines protects the value of Commonhaus Foundation trademarks.
+Any use of or reference to Commonhaus trademarks that is inconsistent with this trademark policy, or use of marks that are confusingly similar to trademarks of the Commonhaus Foundation, is prohibited.
+All uses of Commonhaus Foundation trademarks, and all goodwill associated therewith, will inure solely to the benefit of the Commonhaus Foundation, and Commonhaus Foundation projects.
 
 ## Guidelines for Commonhaus Trademarks
 
-Understanding and respecting trademark rules are vital for preserving the integrity and recognition of a brand. These guidelines outline how to correctly use any trademark, especially those associated with The Commonhaus Foundation.
+Understanding and respecting trademark rules are vital for preserving the integrity and recognition of a brand. These guidelines outline how to correctly use any trademark, especially those associated with the Commonhaus Foundation.
 
 ### General Trademark Rules
 
@@ -64,9 +64,9 @@ Understanding and respecting trademark rules are vital for preserving the integr
 
 - **Trademark Notices:**
     - Always provide a notice on the primary appearance of a trademark.
-    - Do not modify trademark symbols. For instance, ™ should not be altered to an ® without the owner's consent. If in doubt regarding a mark's registration, contact The Commonhaus Foundation.
+    - Do not modify trademark symbols. For instance, ™ should not be altered to an ® without the owner's consent. If in doubt regarding a mark's registration, contact the Commonhaus Foundation.
 
-### Specific Rules for Commonhaus Trademarks
+### Specific Rules for Commonhaus Foundation Trademarks
 
 - **Correct Usage:**
     - Use trademarks in their most up-to-date form.
@@ -76,12 +76,12 @@ Understanding and respecting trademark rules are vital for preserving the integr
 - **Prohibited Activities:**
   - Avoid generic usage of trademarks.
   - Avoid pluralizing, making possessive, or combining trademarks with other brands.
-  - Don't create domain names with The Commonhaus Foundation trademarks without permission.
+  - Don't create domain names with the Commonhaus Foundation trademarks without permission.
 
 - **Additional Guidance:**
-  - If building a product on a Commonhaus project, follow specific naming protocols.
+  - If building a product on a CF project, follow specific naming protocols.
   - Clarify rules about merchandising items featuring the trademarks.
-  - Offer guidelines for open-source projects that use or build upon Commonhaus projects.
+  - Offer guidelines for open-source projects that use or build upon CF projects.
 
 - **Approval:**
   - The Commonhaus Foundation has the discretion to review and decide on any trademark usage, even if not explicitly detailed in the policy.
@@ -102,7 +102,7 @@ Want to use a Commonhaus trademark for crowdfunding? Here's what you need to kno
 
 The Commonhaus Foundation recognizes that some projects may wish to use a project trademark when raising funds through crowdfunding platforms.
 These activities are not official foundation efforts, even if they are coordinated by core participants from our projects. 
-Since crowdfunding operates externally to The Commonhaus Foundation, you must obtain permission before using a Commonhaus trademark on any crowdfunding page.
+Since crowdfunding operates externally to the Commonhaus Foundation, you must obtain permission before using a Commonhaus trademark on any crowdfunding page.
 
 In exchange for using the mark, the Commonhaus requires the administrator of the crowdfunding effort to adhere to these three policies:
 
@@ -113,27 +113,27 @@ In exchange for using the mark, the Commonhaus requires the administrator of the
 3. You must include the following disclaimer on the crowdfunding page, replacing [Project Name] with the name of the project whose logo you plan to use:
 
 > "This crowdfunding page supports independent contributors of the [Project Name] open source project. 
-> The Commonhaus doesn't endorse, administer, or control this page. 
-> Donations made here will go directly to the individuals contributing to [Project Name], and not to The Commonhaus. 
-> The [Project Name] marks are used under license from The Commonhaus for the open source community's benefit."
+> The Commonhaus Foundation does not endorse, administer, or control this page. 
+> Donations made here will go directly to the individuals contributing to [Project Name], and not to the Commonhaus Foundation. 
+> The [Project Name] marks are used under license from the Commonhaus Foundation for the open source community's benefit."
 
 To request permission to use a mark, please contact `info@mailing-list`.
 
-Finally, if you are raising money through crowdfunding, be aware that you are not acting on behalf of The Commonhaus Foundation. It is your responsibility to know and follow all applicable laws.
+Finally, if you are raising money through crowdfunding, be aware that you are not acting on behalf of the Commonhaus Foundation. It is your responsibility to know and follow all applicable laws.
 
 ## Questions, Comments, Concerns
 
-We value input from our community in maintaining the integrity of The Commonhaus Foundation's trade and service marks.
+We value input from our community in maintaining the integrity of the Commonhaus Foundation's trade and service marks.
 
-If you have questions with respect to these guidelines or to report concerns regarding the use or misuse of a trademark of The Commonhaus Foundation, or to obtain written permission for a proposed use of Commonhaus trademarks, contact `info@mailing-list`.
+If you have questions with respect to these guidelines or to report concerns regarding the use or misuse of a trademark of the Commonhaus Foundation, or to obtain written permission for a proposed use of Commonhaus trademarks, contact `info@mailing-list`.
 
 ## Disclaimer
 
 We can't guarantee that our trademarks won't infringe on others, and we're not responsible for actions taken under this policy. If you use our trademarks, you'll have to defend us against any legal claims.
 
-The Commonhaus Foundation does not make any express or implied warranties, including but not limited to the warranties of non-infringement of any third party intellectual property rights.
-The Commonhaus Foundation does not warrant that any pending trademark applications for Commonhaus trademarks will result in any granted trademark protection.
-The Commonhaus Foundation shall not be liable for any claims relating to user’s activities taken under the permissions granted by this policy. You (the user of Commonhaus Trademarks) hereby agree to indemnify, defend and hold the The Commonhaus Foundation and its contributors harmless against any such claims.
+- The Commonhaus Foundation does not make any express or implied warranties, including but not limited to the warranties of non-infringement of any third party intellectual property rights.
+- The Commonhaus Foundation does not warrant that any pending trademark applications for Commonhaus trademarks will result in any granted trademark protection.
+- The Commonhaus Foundation shall not be liable for any claims relating to user’s activities taken under the permissions granted by this policy. You (the user of Commonhaus Trademarks) hereby agree to indemnify, defend and hold the the Commonhaus Foundation and its contributors harmless against any such claims.
 
 ## Modifications and Updates
 
@@ -143,5 +143,5 @@ The Commonhaus Foundation may modify or update this Trademark Policy as needed. 
 
 This work is inspired by [The OpenJS Foundation Trademark Policy](https://openjsf.org/wp-content/uploads/sites/84/2021/01/OpenJS-Foundation-Trademark-Policy-2021-01-12.docx.pdf). 
 It is licensed under a Creative
-Commons Attribution 4.0 International license (“CC BY 4.0”, available at
+Commons Attribution 4.0 International license (“CFC BY 4.0”, available at
 https://creativecommons.org/licenses/by/4.0).

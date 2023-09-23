@@ -1,9 +1,9 @@
 ---
 status: draft
 ---
-# CONTRIBUTING to The Commonhaus Foundation Repository
+# CONTRIBUTING to the Commonhaus Foundation Repository
 
-Hey there, contributor! First off, thank you for considering a contribution to The Commonhaus Foundation's repository.
+Hey there, contributor! First off, thank you for considering a contribution to the Commonhaus Foundation (CF) repository.
 We appreciate your effort and your desire to make this a better resource for everyone.
 While there might not be traditional code here, we treat our documents with the same rigor and attention to detail.
 
@@ -43,7 +43,7 @@ Once you're ready to submit your changes, create a new pull request from your fo
 
 ### 2. Await Review
 
-The Commonhaus Community Committee (CC) and, when necessary, Foundation-retained legal counsel will review your PR.
+The Commonhaus Foundation Council (CFC) and, when necessary, Foundation-retained legal counsel will review your PR.
 We might request further clarifications, changes, or provide feedback.
 
 ### 3. Address Feedback
