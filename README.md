@@ -70,5 +70,5 @@ Companies gain visibility and recognition for their support, showcasing their co
 - [Code of Conduct](CODE_OF_CONDUCT.md)
 - [Commonhaus Council and Charter][governance]
 - [Succession Planning][succession]
-- [The Commonhaus Foundation IP Policy Guidance][ip-policy-guidance])
+- [IP Policy Guidance][ip-policy-guidance]
 
