@@ -1,13 +1,13 @@
 ---
 status: draft
 ---
-# The Commonhaus Foundation IP Policy Guidance
+# Commonhaus Foundation IP Policy Guidance
 
-This guide simplifies the [The Commonhaus Foundation IP Policy][IP Policy] for easier implementation.
+This guide simplifies the [Commonhaus Foundation (CF) IP Policy][IP Policy] for easier implementation.
 
 [IP Policy]: https://ip-policy.website
-[cc]: ../GOVERNANCE.md#commonhaus-council "Commonhaus Council"
-[standard website footer]: website-footers.md "The Commonhaus Foundation website footers"
+[cc]: ../GOVERNANCE.md#commonhaus-council "Commonhaus Foundation Council"
+[standard website footer]: website-footers.md "Commonhaus Foundation website footers"
 
 ## Basic IP Requirements
 
@@ -27,7 +27,7 @@ This guide simplifies the [The Commonhaus Foundation IP Policy][IP Policy] for e
 
 ## Obtaining an Exemption
 
-If the [IP Policy][] doesn't cater to your project's needs, request special permission from the [Commonhaus Council (CC)][cc].
+If the [IP Policy][] doesn't cater to your project's needs, request special permission from the [Commonhaus Foundation Council (CFC)][cc].
 
 [Steps to request an exemption TBD]
 

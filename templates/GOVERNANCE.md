@@ -7,7 +7,7 @@ instructions: Replace [Project Name], update Contact information, delete YAML fr
 This document outlines the governance model for [Project Name].
 This governance model is designed to uphold the principles of transparency, open collaboration, and community involvement.
 
-[cc]: ../GOVERNANCE.md#commonhaus-council "Commonhaus Council - TODO: full path" 
+[cc]: ../GOVERNANCE.md#commonhaus-council "Commonhaus Foundation Council - TODO: full path" 
 [cdm]: ../GOVERNANCE.md#decision-making-and-voting "Commonhaus decision making - TODO: full path" 
 
 ## Table of Contents
@@ -31,7 +31,7 @@ This project follows The [Commonhaus decision making][cdm] process.
 
 1. **Consensus-seeking (lazy consensus):** The project primarily aims for a consensus-based decision-making process, where maintainers and active contributors discuss and come to an agreement. 
 2. **Voting:** In situations where consensus cannot be reached, decisions may be made through a simple majority vote among the maintainers.
-3. **Conflict Resolution:** If conflicts arise, maintainers are responsible for facilitating a resolution. The [Commonhaus Council][cc] can be asked to mediate the discussion, if necessary.
+3. **Conflict Resolution:** If conflicts arise, maintainers are responsible for facilitating a resolution. The [Commonhaus Foundation Council][cc] can be asked to mediate the discussion, if necessary.
 
 ## Code of Conduct
 

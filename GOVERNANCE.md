@@ -11,7 +11,7 @@ While working in groups can present challenges, this document lays out the guide
 ## Table of Contents
 
 - [Project Roles](#project-roles)
-- [Commonhaus Council](#commonhaus-council)
+- [Commonhaus Foundation Council](#commonhaus-council)
 - [Decision Making and Voting](#decision-making-and-voting)
 - [Code of Conduct](#code-of-conduct)
 - [Trademark Policy](#trademark-policy)
@@ -19,7 +19,7 @@ While working in groups can present challenges, this document lays out the guide
 
 ## Project Roles
 
-**Members:** Anyone actively contributing to projects under the Commonhaus Foundation can apply to be a member. This includes code contributors, documentation writers, designers, and others. Members have the right to vote in Council elections and raise concerns related to the project.
+**Members:** Anyone actively contributing to projects under the CF can apply to be a member. This includes code contributors, documentation writers, designers, and others. Members have the right to vote in Council elections and raise concerns related to the project.
 
 **Code Owners:** These are experienced members who oversee specific areas of the project. They review contributions, guide direction, and ensure quality.
 - Access: They have write permissions to the repository.
@@ -27,9 +27,9 @@ While working in groups can present challenges, this document lays out the guide
 
 Further Reading: [About code owners](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-code-owners)
 
-## Commonhaus Council
+## Commonhaus Foundation Council
 
-The Commonhaus Council (CC) is the governing body of The Commonhaus Foundation, responsible for overseeing financial allocations, ensuring fiscal responsibilities are met, and setting future plans that serve the collective interests of the community.
+The Commonhaus Foundation Council (CFC) is the governing body of the CF, responsible for overseeing financial allocations, ensuring fiscal responsibilities are met, and setting future plans that serve the collective interests of the community.
 
 The Council convenes regularly and holds an Annual General Meeting (AGM) to review the annual report, financial status, and set future plans. Special general meetings may be initiated with a defined agenda if proposed by at least a third of the Council members or by a significant fraction of the general members. 
 
@@ -49,21 +49,21 @@ The Council has a minimum of 3 elected members: 1 [Council Chairperson](#chairpe
 For continuity and stability, elections for Council members (including the Council Chair) are staggered. 
 In each election cycle, no more than two-thirds of Council seats will be up for reelection. 
 
-Upon completing their tenure, CC members may:
+Upon completing their tenure, CFC members may:
 
 - Seek re-election to extend their service.
 - Endorse another nominee, fostering new participation.
 - Opt to step aside, making space for fresh voices on the Council.
 
-Such an approach introduces fresh perspectives yet preserves institutional knowledge, ensuring the Council's consistent effectiveness in decision-making and setting the direction for The Commonhaus Foundation.
+Such an approach introduces fresh perspectives yet preserves institutional knowledge, ensuring the Council's consistent effectiveness in decision-making and setting the direction for the CF.
 
 #### Chairperson of the Council
 
-The Chairperson orchestrates regular CC meetings, ensuring leadership in discussions is evenly spread. They also oversee the proper handling of [Code of Conduct reports and escalations][coc-reports].
+The Chairperson orchestrates regular CFC meetings, ensuring leadership in discussions is evenly spread. They also oversee the proper handling of [Code of Conduct reports and escalations][coc-reports].
 
 ## Decision Making and Voting
 
-True to Open Source roots, The Commonhaus Foundation ensures every member's voice is heard through the Lazy Consensus decision-making model.
+True to Open Source roots, the CF ensures every member's voice is heard through the Lazy Consensus decision-making model.
 
  To quote the [Consensus definition](https://community.apache.org/committers/decisionMaking.html) from the Apache Foundation: 
 
@@ -83,17 +83,17 @@ Every member, regardless of their role or contribution level, has an equal voice
 
 When an agenda item has appeared to reach a consensus the moderator will ask "Does anyone object?" as a final call for dissent from the consensus.
 
-If an agenda item cannot reach a consensus a CC member can call for either a closing vote or a vote to table the issue to the next meeting.
-The call for a vote must be seconded by a majority of the CC or else the discussion will continue.
+If an agenda item cannot reach a consensus a CFC member can call for either a closing vote or a vote to table the issue to the next meeting.
+The call for a vote must be seconded by a majority of the CFC or else the discussion will continue.
 
-For all votes, a simple majority of all Voting CC members for, or against, the issue wins.
-A Voting CC member may choose to participate in any vote through abstention.
+For all votes, a simple majority of all Voting CFC members for, or against, the issue wins.
+A Voting CFC member may choose to participate in any vote through abstention.
 
 ### Seeking consensus on mailing lists
 
 When seeking consensus in mailing lists, it is important to leave enough time (at least 72-hours) for everyone to read the email and respond with opinions and objections.
 
-CC members should consider the following when drafting consensus-seeking email:
+CFC members should consider the following when drafting consensus-seeking email:
   - Use a leading indicator (`[DISCUSS]` or an emoji like 🗳️) to mark consensus-seeking email
   - Use a clear subject line that summarizes the topic
   - If there is a time constraint to the decision, include it in the subject.
@@ -106,7 +106,7 @@ All participants in the project are expected to adhere to the project's [Code of
 
 ## Trademark Policy
 
-The Commonhaus Foundation logos, icons, and domain names are protected by trademark rights. Usage of these trademarks must adhere to our [Trademark Policy](governance/trademark-policy.md).
+Commonhouse Foundation logos, icons, and domain names are protected by trademark rights. Usage of these trademarks must adhere to our [Trademark Policy](governance/trademark-policy.md).
 
 ## Contributing
 
