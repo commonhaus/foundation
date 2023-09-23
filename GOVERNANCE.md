@@ -3,9 +3,8 @@ status: draft
 ---
 # The Commonhaus Foundation Project Governance
 
-The Commonhaus Foundation is where things get done.
-However, we're all humans, and, inevitably, humans can be complex.
-This document clarifies how we work together to drive the foundation and its projects forward.
+The Commonhaus Foundation is a collaborative space where contributors come together. 
+While working in groups can present challenges, this document lays out the guidelines that foster unity and progress.
 
 [coc-reports]: conduct/handling-coc-reports.md#handling-reports-and-escalation
 
@@ -20,39 +19,43 @@ This document clarifies how we work together to drive the foundation and its pro
 
 ## Project Roles
 
-**Contributors:** Anyone who engages with the project in any capacity, from providing feedback, reporting issues to submitting code changes.
+**Members:** Anyone actively contributing to projects under the Commonhaus Foundation can apply to be a member. This includes code contributors, documentation writers, designers, and others. Members have the right to vote in Council elections and raise concerns related to the project.
 
-**Code Owners:** Individuals or groups with the authority to review and merge contributions and direct the project's course.
-  - Access: They have write permissions to the repository.
-  - Reference: Managed through the repository's `CODEOWNERS` file.
+**Code Owners:** These are experienced members who oversee specific areas of the project. They review contributions, guide direction, and ensure quality.
+- Access: They have write permissions to the repository.
+- Reference: Managed through the repository's `CODEOWNERS` file.
 
 Further Reading: [About code owners](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-code-owners)
 
 ## Commonhaus Council
 
-The Commonhaus Council (CC) is the governing body of The Commonhaus Foundation. 
+The Commonhaus Council (CC) is the governing body of The Commonhaus Foundation, responsible for overseeing financial allocations, ensuring fiscal responsibilities are met, and setting future plans that serve the collective interests of the community.
 
-The council convenes regularly to:
+The Council convenes regularly and holds an Annual General Meeting (AGM) to review the annual report, financial status, and set future plans. Special general meetings may be initiated with a defined agenda if proposed by at least a third of the Council members or by a significant fraction of the general members. 
 
-- Ensure the vitality and sustainability of projects.
-- Bolster collaboration between projects.
-- Uphold the foundation's values and standards, which includes reviewing Code of Conduct violations.
+Agendas and schedules for these gatherings will be released in advance. Meetings open to the broader public are accessible to all members and interested observers.
 
-Agendas and schedules for these assemblies will be released ahead of time. 
-Meetings open to the broader public will welcome all members and interested observers.
+## Composition and Membership
 
-### Composition and Membership
+The Council has a minimum of 3 elected members: 1 [Council Chairperson](#chairperson-of-the-council) and at least 2 members-at-large. 
 
-The Council is comprised of 10 elected members (1 year terms), and 1 elected [Council Chairperson](#chairperson-of-the-council) (2 year term)
+- **Eligibility**: Any member can run or be nominated.
+- **Elections**: Conducted annually, with every member entitled to one vote.
+- **Diversity**: To avoid undue influence, no single company or legal entity can hold more than one seat on the Council.
+- **Concerns and Actions**: Members can voice concerns or propose actions by emailing `council@mailing-list` (TODO: or initiating a GitHub discussion, etc.).
 
-**Eligibility:** Active contributors to the foundation's projects are eligible. 
-Their active participation helps ensure the council understands challenges member projects are facing.
+### Tenure and Transition
 
-**Participation Expectations:** An elected member is anticipated to be an active voice in discussions, share their expertise, and collaborate with fellow CC members to ensure The Commonhaus Foundation and its projects flourish.
+For continuity and stability, elections for Council members (including the Council Chair) are staggered. 
+In each election cycle, no more than two-thirds of Council seats will be up for reelection. 
 
-**Nomination and Election:** Any active contributor to Commonhaus projects is eligible, either through self-nomination or through nomination by peers. Elections focus on an individual's commitment to The Commonhaus Foundation, their expertise, and the unique perspectives they bring. To stave off undue influence, no single company or entity can occupy more than a third of the Council's seats.
+Upon completing their tenure, CC members may:
 
-**Tenure and Transition:** After serving their term, members can either run for re-election, endorse another nominee, or step back, making room for new blood.
+- Seek re-election to extend their service.
+- Endorse another nominee, fostering new participation.
+- Opt to step aside, making space for fresh voices on the Council.
+
+Such an approach introduces fresh perspectives yet preserves institutional knowledge, ensuring the Council's consistent effectiveness in decision-making and setting the direction for The Commonhaus Foundation.
 
 #### Chairperson of the Council
 
@@ -60,7 +63,9 @@ The Chairperson orchestrates regular CC meetings, ensuring leadership in discuss
 
 ## Decision Making and Voting
 
-True to Open Source roots, The Commonhaus Foundation follows a Lazy Consensus decision making model. To quote the [Consensus definition](https://community.apache.org/committers/decisionMaking.html) from the Apache Foundation: 
+True to Open Source roots, The Commonhaus Foundation ensures every member's voice is heard through the Lazy Consensus decision-making model.
+
+ To quote the [Consensus definition](https://community.apache.org/committers/decisionMaking.html) from the Apache Foundation: 
 
 > Consensus
 >
@@ -71,6 +76,8 @@ True to Open Source roots, The Commonhaus Foundation follows a Lazy Consensus de
 > Lazy consensus is the first, and possibly the most important, consensus-building tool we have. Essentially lazy consensus means that you don’t need to get explicit approval to proceed, but you need to be prepared to listen if someone objects.
 
 When seeking consensus, members should express objections or dissent as early as possible to ensure there is time to discuss and address objections.
+
+Every member, regardless of their role or contribution level, has an equal voice and is entitled to one vote in all decisions.
 
 ### Seeking consensus in meetings
 
