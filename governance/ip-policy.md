@@ -24,8 +24,8 @@ The Commonhaus Foundation (CF) oversees multiple individual projects, referred t
 
 3. **Contributions:** Unless approved by the CFC:
 
-   - All code contributions must be under the Project Code License, validated by a [Developers Certificate of Origin (DCO)][DCO].
-   - All documentation and media files should use a license chosen by the Project’s technical governing body (for example, [CFC BY 4.0][CFC BY 4.0] or [MIT License][MIT]).
+   - All code contributions must be under the Project Code License, validated by a [Developers Certificate of Origin (DCO)][DCO] or a Contributor License Agreement (CLA) (chosen by the Project).
+   - All documentation and media files should use a license chosen by the Project (for example, [CFC BY 4.0][CFC BY 4.0] or [MIT License][MIT]).
    - License information should label all contributed files.
 
 4. **Policy Changes:** The CFC can modify this policy after notifying the Projects.
