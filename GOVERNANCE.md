@@ -1,7 +1,7 @@
 ---
 status: draft
 ---
-# The Commonhaus Foundation Project Governance
+# Commonhaus Foundation Project Governance
 
 The Commonhaus Foundation is a collaborative space where contributors come together. 
 While working in groups can present challenges, this document lays out the guidelines that foster unity and progress.

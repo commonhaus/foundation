@@ -25,6 +25,8 @@ While all trademarks are owned by the Commonhaus Foundation, each CF project may
 
 In case of any inconsistency between the rules in a project's `TRADEMARK.md` file and this Trademark Policy, the project's specific rules will prevail.
 
+Member companies or projects that heavily rely on a specific trademark can request special permissions or rights from the CF to enforce or defend the trademark in situations where CF may not act. These permissions will be granted on a case-by-case basis and do not transfer overall ownership of the trademark.
+
 ## Trademark Usage Guidelines
 
 This section explains how trademarks ensure consistent quality, and how you can use them without implying the endorsement of the Commonhaus Foundation.

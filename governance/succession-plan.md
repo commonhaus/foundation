@@ -29,7 +29,7 @@ For libraries under heavy use, we will encourage a "path of least disturbance" a
 
 ## Scope of Access and Intervention
 
-**Limited Interference:** Although the CF maintains administrative access, we operate with a light touch, stepping in only under the conditions mentioned above.
+**Limited Interference:** Although the CF maintains administrative access, every option to contact the current code owners will be made before we do so.  Action will require a consensus of [X%] of the project's active contributors or CF Council members.
 
 **Project Autonomy:** Projects need not join the CF GitHub organization. They're free to stay within their preferred GitHub (or Gitlab, BitBucket, etc.) organization and/or repository.
 
