@@ -6,7 +6,13 @@ status: draft
 
 # The Commonhaus Foundation (CF)
 
-In today's self-governed, post-Kickstarter, post-GitHub project landscape, there's a clear need for a supportive foundation that understands the nuances of these projects. Drawing inspiration from [The Codehaus][codehaus], CF offers the right balance of support without overwhelming governance.
+**Mission Statement:**
+
+"To support the long-term growth and stability of self-governed open-source projects in a GitHub-style environment."
+
+**Vision Statement:**
+
+"To establish a vibrant hub for developers, contributors, and users dedicated to fostering the growth of libraries and application frameworks without the overhead of traditional governance models."
 
 [codehaus]: https://www.infoworld.com/article/2892227/codehaus-the-once-great-house-of-code-has-fallen.html
 [succession]: governance/succession-plan.md
