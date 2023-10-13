@@ -1,0 +1,16 @@
+####################################################################################
+# I know, I know... YAML. But this is easier to digest in website templates, 
+# so, Let's go! Name and github are the minimum, please.
+# - name: 
+#   github:
+#   social:
+#     twitter:
+#     mastodon:
+#     bluesky:
+#     youtube:
+#     linkedin:
+#     website:
+####################################################################################
+supporters:
+- name: Erin Schnabel
+  github: ebullient
