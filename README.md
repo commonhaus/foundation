@@ -2,7 +2,7 @@
 status: draft
 ---
 
-> 📝 Note: This repo is a draft to explore an idea. It tries to be reasonably thorough to convey the concept, but there are lots of holes and details to sort through, and none of it has undergone any kind of legal review. [Discussions](https://github.com/commonhaus/foundation-draft/discussions) are open and input is welcome!
+> 📝 Note: This repo is a draft to explore an idea. It tries to be reasonably thorough to convey the concept, but there are lots of holes and details to sort through, and none of it has undergone any kind of legal review. [Discussions](https://github.com/commonhaus/foundation-draft/discussions) are open and input is welcome! If you're willing to support this effort, please submit a PR to add yourself to [SUPPORTERS.yaml](https://github.com/commonhaus/foundation-draft/blob/main/SUPPORTERS.yaml).
 
 # The Commonhaus Foundation (CF)
 
