@@ -14,10 +14,11 @@ follows the [Commonhaus Foundation (CF) CoC][coc-policy] (included below).
   - Records will be kept in `PROJECT-private-repository`
 - [Escalations](#escalate-an-issue) should be sent to `coc-escalation@mailing-list` for review by the [Code of Conduct Panel (COCP)][cocp].
 
-[coc-policy]: ../CODE_OF_CONDUCT.md "TODO: full path"
 [cc]: ../GOVERNANCE.md "Commonhaus Foundation Council - TODO: full path" 
 [cocp]: ../CODE_OF_CONDUCT.md#code-of-conduct-panel "Code of Conduct Panel - TODO: full path"
-[coc-reports]: ../conduct/handling-coc-reports.md "Handling CoC reports - TODO: full path"
+[coc-policy]: ../CODE_OF_CONDUCT.md "TODO: full path"
+[coc-reports]: ../CODE_OF_CONDUCT.md#handling-reports-and-escalations "Handling CoC reports - TODO: full path"
+[MEMBERS.yaml]: ../MEMBERS.yaml "Members - TODO: full path"
 
 ---
 
@@ -58,7 +59,7 @@ Email `coc-escalation@mailing-list` to escalate an issue to the CoCP.
 
 The CoCP is a foundation-wide team. Members of the CoCP will be added for a 1-year term and will be re-confirmed on a yearly basis.
 
-Members of the CoCP will be documented in the 'cocp-panel` [MEMBERS.yaml][cocp-membership] attribute.
+Members of the CoCP will be maintained in the `cocp-panel` [MEMBERS.yaml][] attribute.
 
 ---
 

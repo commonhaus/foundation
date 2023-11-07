@@ -49,17 +49,11 @@ status: draft
 
 ## Community and Sponsorship
 
-- **Genuine Collaboration:** This is a cooperative organization. Sponsors may advise, but will not have a vote.
-- **By the Community:** Our volunteer board consists of seasoned community leaders, library owners, and innovators.
-- **Open-Source Integrity:** We adhere to open-source principles as stipulated by the OSI.
+CF is committed to inclusive growth, opening its doors to all individuals who share our vision, not just code contributors. We encourage participation from those interested in supporting and steering our projects, offering them a voice and a vote in our governance. For detailed information on membership and eligibility, refer to our [Governance][governance] document.
 
-For sponsors, we prioritize:
+**Collaboration and Voice**: Our community thrives on cooperation and diverse perspectives. Here, every member, including project leaders and supporters, has the opportunity to contribute to decision-making processes.
 
-- **Direct Project Support:** Contributions can directly benefit project maintainers.
-
-- **Holistic Foundation Support:** Sponsoring CF as a whole enhances our ability to assist all member projects and the surrounding ecosystem.
-
-In sponsoring, companies demonstrate their commitment to open-source innovation, gaining both visibility and community appreciation.
+**Advisory Input**: While sponsors do not have voting rights, they play a vital role through the Advisory Board, offering strategic insights that guide the foundation's direction. This structure ensures that sponsorship is aligned with community interests and open-source integrity.
 
 ## Additional resources
 
