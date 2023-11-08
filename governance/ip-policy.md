@@ -11,8 +11,8 @@ The Commonhaus Foundation (CF) oversees multiple individual projects, referred t
 1. **License Options:** Projects can select from approved licenses:
    - [The Apache License, Version 2.0](http://www.apache.org/licenses/LICENSE-2.0)
    - [The MIT License][MIT]
-   - [The 2-Clause BSD License](https://opensource.org/licenses/BSD-2-Clause)
-   - [The 3-Clause BSD License](https://opensource.org/licenses/BSD-3-Clause)
+   - [The 2-Clause BSD License](https://opensource.org/license/bsd-2-clause/)
+   - [The 3-Clause BSD License](https://opensource.org/license/bsd-3-clause/)
 
    Other open source licenses require [Commonhaus Foundation Council (CFC)][cc] approval.
 
@@ -37,5 +37,5 @@ The Commonhaus Foundation (CF) oversees multiple individual projects, referred t
 For detailed guidance on implementing this policy, refer to the [IP Policy Guidance][].
 
 [CC BY 4.0]: http://creativecommons.org/licenses/by/4.0/ "Creative Commons Attribution 4.0 International License (CFC BY 4.0)"
-[MIT]: https://opensource.org/licenses/MIT "The MIT License"
+[MIT]: https://opensource.org/license/mit/ "The MIT License"
 [DCO]: http://developercertificate.org/

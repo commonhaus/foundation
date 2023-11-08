@@ -1,0 +1,27 @@
+{
+  "_replacementPatternsComment": "CODEOWNERS/TRADEMARKS are referenced in templates. *.website is a draft placeholder",
+  "replacementPatterns": [
+    {
+      "pattern": "^CODEOWNERS",
+      "replacement": "{{BASEURL}}/CODEOWNERS"
+    },
+    {
+      "pattern": "^TRADEMARKS",
+      "replacement": "{{BASEURL}}/TRADEMARKS"
+    },
+    {
+      "pattern": "^/",
+      "replacement": "{{BASEURL}}/"
+    },
+    {
+      "pattern": "^https://.*\\.?website/?",
+      "replacement": "{{BASEURL}}/"
+    }
+  ],
+  "_aliveComment": "Some sites return 403 from GH Actions check",
+  "aliveStatusCodes": [
+    200,
+    206,
+    403
+  ]
+}

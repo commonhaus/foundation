@@ -7,7 +7,7 @@ This guide simplifies the [Commonhaus Foundation (CF) IP Policy][IP Policy] for 
 
 [IP Policy]: ip-policy.md
 [cc]: ../GOVERNANCE.md#commonhaus-council "Commonhaus Foundation Council"
-[standard website footer]: website-footers.md "Commonhaus Foundation website footers"
+[standard website footer]: website-footer.md "Commonhaus Foundation website footers"
 
 ## Basic IP Requirements
 
@@ -21,9 +21,9 @@ This guide simplifies the [Commonhaus Foundation (CF) IP Policy][IP Policy] for 
    - Copyright &lt;year of file creation> The original author or authors.
 
     Do not alter existing copyright lines unless you have the right to do so. Updating the year after the file is created is unnecessary.
-    
+
     Additional reading on [copyright statements in your code][code-copyright].
-    
+
 3. **Website Footer:** Ensure your project's website has the [standard website footer][].
 
 4. **Contribution Licensing:** Projects can use either the [DCO][] or a Contributor License Agreement (CLA) for contributions. The chosen method should align with the project's governance and community preferences.

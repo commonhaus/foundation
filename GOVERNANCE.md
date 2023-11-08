@@ -13,7 +13,7 @@ While working in groups can present challenges, this document lays out the guide
 ## Table of Contents
 
 - [Project Roles](#project-roles)
-- [Commonhaus Foundation Council](#commonhaus-council)
+- [Commonhaus Foundation Council](#commonhaus-foundation-council)
 - [Decision Making and Voting](#decision-making-and-voting)
 - [Code of Conduct](#code-of-conduct)
 - [Trademark Policy](#trademark-policy)

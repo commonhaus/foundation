@@ -5,11 +5,11 @@ status: draft
 
 This is a statement regarding the use and licensing of trademarks owned by the Commonhaus Foundation (CF) and used by CF projects. For purposes of this document, references to trademarks or marks include all trade and service marks and logos owned by the Commonhaus Foundation legal entity.
 
-- [Trademark Definitions](#trademarks) and [Ownership](#ownership-and-specific-project-trademarks)
+- [Trademark Definitions](#trademark-definitions-and-ownership) and [Ownership](#ownership-and-specific-project-trademarks)
 - [Trademark usage guidelines](#trademark-usage-guidelines)
-- [Guidelines for Commonhaus Foundation Trademarks](#guidelines-for-the-commonhaus-foundation-trademarks)
+- [Guidelines for Commonhaus Foundation Trademarks](#guidelines-for-commonhaus-trademarks)
   - [General Trademark Rules](#general-trademark-rules)
-  - [Specific Rules for Commonhaus Foundation Trademarks](#specific-rules-for-commonhaus-trademarks)
+  - [Specific Rules for Commonhaus Foundation Trademarks](#specific-rules-for-commonhaus-foundation-trademarks)
   - [Visual Trademark Instructions](#visual-trademark-instructions)
 - [Commonhaus Foundation Trademarks and Crowdfunding](#commonhaus-trademarks-and-crowdfunding)
 - [Contact Us](#questions-comments-concerns)
