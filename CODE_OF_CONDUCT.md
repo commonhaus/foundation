@@ -74,6 +74,8 @@ This does not mean that decisions are set in stone. CF projects and the CFC are 
 
 Confidentiality is of utmost importance. We also understand that the person reporting the issue (**reporter**) may not be the individual directly affected or harmed (**target**). In such cases, communication will primarily be with the reporter unless the target explicitly gives permission. Personal details of the reporter (and the target if they differ) will not be disclosed without permission. 
 
+- The CF *prohibits retaliation* against individuals who report concerns in good faith. 
+
 ### Respond to a CoC issue
 
 Each complaint will be reviewed and investigated, and will result in a response that is deemed necessary and appropriate to the circumstances.
@@ -82,7 +84,7 @@ An issue should be created for each report in a private repository listed in its
 
 Access to the private repository should be restricted to individuals charged with resolving CoC reports. Individuals or groups with access to the private repository will be clearly stated in the `CODE_OF_CONDUCT.md`.
 
-Confidentiality: Given that membership to groups like the CFC or the CoCP have finite terms, members reviewing CoC reports agree to treat all reports as confidential, even after their term is finished.
+**Confidentiality:** Given that membership to groups like the CFC or the CoCP have finite terms, members reviewing CoC reports agree to treat all reports as confidential, even after their term is finished.
 
 ### Escalate an issue
 
@@ -104,6 +106,10 @@ Members of the CoCP will be documented in the `cocp-panel` [MEMBERS.yaml][member
 ## Handling Reports and Escalations
 
 This section describes the process and roles for handling Code of Conduct (CoC) reports and escalations for both the CF Council (CFC) and the CF Code of Conduct Panel (CoCP).
+
+### Conflict of Interest
+
+Any member of the CFC or CoCP who is involved in the report must recuse themselves from the discussions.
 
 ### Reports to `report@mailing-list`
 

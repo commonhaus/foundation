@@ -36,7 +36,7 @@ If the [IP Policy][] doesn't cater to your project's needs, request special perm
 
 ## Assistance
 
-For questions about this guidance or the [IP Policy][], contact `legal-questions@mailing-list`.
+For questions about this guidance or the [IP Policy][], contact `legal@mailing-list`.
 
 [DCO]: https://developercertificate.org
 [code-copyright]: https://matija.suklje.name/how-and-why-to-properly-write-copyright-statements-in-your-code
