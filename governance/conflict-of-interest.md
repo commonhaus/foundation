@@ -3,9 +3,9 @@ status: draft
 ---
 # Commonhaus Foundation Conflict of Interest Policy
 
-As a nonprofit organization, CF is committed to the responsible stewardship of its resources. 
+As a nonprofit organization, CF is committed to the responsible stewardship of its resources.
 
-This policy is designed to protect the interests of the Commonhaus Foundation (CF) when potentially beneficial actions or transactions might intersect with the private interests of a director, officer, or key person. 
+This policy is designed to protect the interests of the Commonhaus Foundation (CF) when potentially beneficial actions or transactions might intersect with the private interests of a director, officer, or key person.
 Additionally, it ensures compensation fairness for any staff or contractors hired by CF, which operates primarily as a volunteer organization.
 
 This policy applies to all individuals with decision-making authority within the CF ("you"), including CF Council and Advisory Board members, and extends to CF members and project leaders when their personal interests may influence Foundation activities.
@@ -15,6 +15,7 @@ This policy applies to all individuals with decision-making authority within the
 A conflict of interest occurs when you have the potential to benefit financially or otherwise from an action taken or a transaction entered into by CF, or when you have an interest that could compromise your independence or objectivity.
 
 ### Examples
+
 - Financial interest in any entity with which CF transacts.
 - Board membership, employment, or volunteer work with such an entity.
 - Personal gifts or loans from any entity dealing with CF.
@@ -26,9 +27,11 @@ A conflict of interest occurs when you have the potential to benefit financially
 When in doubt, it is safer to disclose a potential conflict of interest.
 
 ### Immediate Disclosure
+
 All potential conflicts should be disclosed to the designated official or office within the CF Council immediately upon recognition.
 
 ### Annual Disclosure
+
 You are required to submit an annual statement of potential conflicts, and for CF Council members, also before your initial appointment.
 
 ## Determining Whether a Conflict of Interest Exists

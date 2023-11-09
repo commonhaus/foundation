@@ -2,34 +2,34 @@
 status: draft
 ---
 
-> 📝 Note: This repo is a draft to explore an idea. 
-> It tries to be reasonably thorough to convey the concept, but there are lots of holes and details to sort through, and none of it has undergone any kind of legal review. 
-> [Discussions](https://github.com/commonhaus/foundation-draft/discussions) are open and input is welcome! 
+> 📝 Note: This repo is a draft to explore an idea.
+> It tries to be reasonably thorough to convey the concept, but there are lots of holes and details to sort through, and none of it has undergone any kind of legal review.
+> [Discussions](https://github.com/commonhaus/foundation-draft/discussions) are open and input is welcome!
 > If you're willing to support this effort, please submit a PR to add yourself to [SUPPORTERS.yaml](https://github.com/commonhaus/foundation-draft/blob/main/SUPPORTERS.yaml).
 
 # The Commonhaus Foundation (CF)
 
-The Commonhaus Foundation champions open-source innovation and collaboration. 
+The Commonhaus Foundation champions open-source innovation and collaboration.
 
-We are dedicated to ensuring the long-term growth and stability of GitHub-style open-source projects through community collaboration and shared stewardship. Our mission is to empower a diverse community of contributors to create, maintain, enhance, and secure vital open-source libraries and frameworks. 
+We are dedicated to ensuring the long-term growth and stability of GitHub-style open-source projects through community collaboration and shared stewardship. Our mission is to empower a diverse community of contributors to create, maintain, enhance, and secure vital open-source libraries and frameworks.
 
 Our vision is to create a dynamic and inclusive community where developers, contributors, and users unite to drive the evolution of open-source libraries and frameworks. We aim to cultivate an ecosystem that thrives on collaborative innovation, bypassing the complexities of traditional governance models.
 
 [codehaus]: https://www.infoworld.com/article/2892227/codehaus-the-once-great-house-of-code-has-fallen.html
 [succession]: governance/succession-plan.md
-[ip-policy-guidance]: governance/ip-policy-guidance.md#1-licensing 
+[ip-policy-guidance]: governance/ip-policy-guidance.md#basic-ip-requirements
 
 ## Core Distinctions of CF
 
 Drawing inspiration from [The Codehaus][codehaus], CF offers the right balance of support without overwhelming governance.
 
-**Minimal Viable Governance:** CF embraces the "community-first" model prevalent in modern GitHub-style projects. 
+**Minimal Viable Governance:** CF embraces the "community-first" model prevalent in modern GitHub-style projects.
 While we provide foundational support, projects maintain their autonomy.
 
-**Access to Funding:** We bridge the post-Kickstarter gap. 
+**Access to Funding:** We bridge the post-Kickstarter gap.
 CF aids projects in meeting governance requirements, paving the way for them to access platforms like GitHub Sponsors or fiscal hosts such as Open Source Collective.
 
-**Future-ready Flexibility:** CF acknowledges the evolutionary nature of projects. 
+**Future-ready Flexibility:** CF acknowledges the evolutionary nature of projects.
 We're not just a placeholder but a guide, assisting projects as they grow and, if needed, transition to foundations with more rigorous governance.
 
 **Tailored for Established Projects:** CF is an ideal home for projects that already have a user base and are now seeking stability and growth without heavy governance overhead.
@@ -65,4 +65,3 @@ CF is committed to inclusive growth, opening its doors to all individuals who sh
 - [Commonhaus Foundation Governance](GOVERNANCE.md)
 - [Succession Planning][succession]
 - [IP Policy Guidance][ip-policy-guidance]
-

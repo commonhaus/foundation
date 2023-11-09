@@ -5,7 +5,7 @@ status: draft
 
 The Commonhaus Foundation (CF) oversees multiple individual projects, referred to as “Projects”. Contributions to these Projects are governed by this policy and each Project's chosen license, known as the “Project Code License”.
 
-[cc]: ../GOVERNANCE.md#commonhaus-council "Commonhaus Foundation Council"
+[cc]: ../GOVERNANCE.md#commonhaus-foundation-council "Commonhaus Foundation Council"
 [IP Policy Guidance]: ip-policy-guidance.md "Commonhaus Foundation IP Policy Guidance"
 
 1. **License Options:** Projects can select from approved licenses:

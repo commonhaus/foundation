@@ -5,7 +5,7 @@ status: draft
 
 This document outlines the interim procedures and commitments during the foundation's initial establishment phase. It provides guidelines for project commitments, ensuring mutual trust and flexibility until the foundation reaches a stable state.
 
-[cc]: GOVERNANCE.md#commonhaus-council "Commonhaus Foundation Council"
+[cc]: GOVERNANCE.md#commonhaus-foundation-council "Commonhaus Foundation Council"
 [cc-dm]: GOVERNANCE.md#decision-making-and-voting
 
 ## 1. Preliminary Commitments

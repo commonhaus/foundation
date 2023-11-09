@@ -35,7 +35,7 @@ Trademarks are used to provide assurance to the community of consistency with re
 
 This policy aims to strike a balance between two key interests:
 
-1) Ensuring that trademarks remain reliable indicators of the qualities that they have been created to preserve and 
+1) Ensuring that trademarks remain reliable indicators of the qualities that they have been created to preserve and
 2) Ensuring that community members are able to discuss Commonhaus Foundation and its projects and to accurately describe the relationship between the CF, CF projects, and the products and services offered by others.
 
 A trademark provides the owner with an exclusive right to authorize or control the use of the mark.
@@ -103,7 +103,7 @@ To maintain the integrity of The Commonhaus Foundation's visual trademarks:
 Want to use a Commonhaus trademark for crowdfunding? Here's what you need to know and do.
 
 The Commonhaus Foundation recognizes that some projects may wish to use a project trademark when raising funds through crowdfunding platforms.
-These activities are not official foundation efforts, even if they are coordinated by core participants from our projects. 
+These activities are not official foundation efforts, even if they are coordinated by core participants from our projects.
 Since crowdfunding operates externally to the Commonhaus Foundation, you must obtain permission before using a Commonhaus trademark on any crowdfunding page.
 
 In exchange for using the mark, the Commonhaus requires the administrator of the crowdfunding effort to adhere to these three policies:
@@ -114,9 +114,9 @@ In exchange for using the mark, the Commonhaus requires the administrator of the
 
 3. You must include the following disclaimer on the crowdfunding page, replacing [Project Name] with the name of the project whose logo you plan to use:
 
-> "This crowdfunding page supports independent contributors of the [Project Name] open source project. 
-> The Commonhaus Foundation does not endorse, administer, or control this page. 
-> Donations made here will go directly to the individuals contributing to [Project Name], and not to the Commonhaus Foundation. 
+> "This crowdfunding page supports independent contributors of the [Project Name] open source project.
+> The Commonhaus Foundation does not endorse, administer, or control this page.
+> Donations made here will go directly to the individuals contributing to [Project Name], and not to the Commonhaus Foundation.
 > The [Project Name] marks are used under license from the Commonhaus Foundation for the open source community's benefit."
 
 To request permission to use a mark, please contact `trademarks@mailing-list`.
@@ -143,7 +143,7 @@ The Commonhaus Foundation may modify or update this Trademark Policy as needed. 
 
 ## Attribution
 
-This work is inspired by [The OpenJS Foundation Trademark Policy](https://openjsf.org/wp-content/uploads/sites/84/2021/01/OpenJS-Foundation-Trademark-Policy-2021-01-12.docx.pdf). 
+This work is inspired by [The OpenJS Foundation Trademark Policy](https://openjsf.org/wp-content/uploads/sites/84/2021/01/OpenJS-Foundation-Trademark-Policy-2021-01-12.docx.pdf).
 It is licensed under a Creative
 Commons Attribution 4.0 International license (“CFC BY 4.0”, available at
-https://creativecommons.org/licenses/by/4.0).
+<https://creativecommons.org/licenses/by/4.0>).

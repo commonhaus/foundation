@@ -6,7 +6,7 @@ status: draft
 This guide simplifies the [Commonhaus Foundation (CF) IP Policy][IP Policy] for easier implementation.
 
 [IP Policy]: ip-policy.md
-[cc]: ../GOVERNANCE.md#commonhaus-council "Commonhaus Foundation Council"
+[cc]: ../GOVERNANCE.md#commonhaus-foundation-council "Commonhaus Foundation Council"
 [standard website footer]: website-footer.md "Commonhaus Foundation website footers"
 
 ## Basic IP Requirements

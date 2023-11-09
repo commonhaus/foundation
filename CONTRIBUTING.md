@@ -48,17 +48,17 @@ We might request further clarifications, changes, or provide feedback.
 
 ### 3. Address Feedback
 
-If feedback is provided on your PR, please address it in a timely manner. 
+If feedback is provided on your PR, please address it in a timely manner.
 Once all feedback has been addressed, and the PR is approved, it will be merged into the main repository.
 
 ## A Note on Legal Matters
 
-Given the nature of this repository, some changes or amendments might require legal review. 
+Given the nature of this repository, some changes or amendments might require legal review.
 We appreciate your patience as we ensure that all content aligns with the foundation's principles and legal considerations.
 
-## Thank You!
+## Thank You
 
-Every contribution, be it small or large, helps us maintain and improve this repository. 
+Every contribution, be it small or large, helps us maintain and improve this repository.
 Your willingness to help is genuinely appreciated.
 
 For any questions or further information, don't hesitate to reach out to us. Happy contributing!

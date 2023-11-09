@@ -3,12 +3,12 @@ status: draft
 ---
 # Commonhaus Foundation Project Governance
 
-The Commonhaus Foundation  (CF) is a collaborative space where contributors come together. 
+The Commonhaus Foundation  (CF) is a collaborative space where contributors come together.
 While working in groups can present challenges, this document lays out the guidelines that foster unity and progress.
 
 [coc-reports]: CODE_OF_CONDUCT.md#handling-reports-and-escalations
 [coi-policy]: governance/conflict-of-interest.md
-[MEMBERS.yaml]: MEMBERS.yaml
+[MEMBERS.yaml]: https://github.com/commonhaus/foundation-draft/blob/main/MEMBERS.yaml
 
 ## Table of Contents
 
@@ -27,6 +27,7 @@ While working in groups can present challenges, this document lays out the guide
 - Active members, defined as those contributing to CF or its projects within the past year, are eligible for voting after three months of membership. Contributions include code, documentation, forum participation, issue resolution, and election involvement.
 
 **Code Owners:** The leaders and code owners for CF projects are members. Their project roles carry the responsibility of steering project direction, which includes a stake in shaping the foundation's future. Project Leaders are automatically eligible for Council positions, ensuring our projects' voices are prominently represented.
+
 - Access: They have write permissions to the repository.
 - Reference: Managed through the repository's `CODEOWNERS` file.
 
@@ -34,13 +35,13 @@ Further Reading: [About code owners](https://docs.github.com/en/repositories/man
 
 ## Commonhaus Foundation Council
 
-The Commonhaus Foundation Council (CFC) is the governing body of the CF, responsible for overseeing financial allocations, satisfying fiscal responsibilities, and setting future plans that serve the collective interests of the community. 
+The Commonhaus Foundation Council (CFC) is the governing body of the CF, responsible for overseeing financial allocations, satisfying fiscal responsibilities, and setting future plans that serve the collective interests of the community.
 Council members must adhere to our [Conflict of Interest Policy][coi-policy] to ensure that personal or professional interests do not unduly influence their duties within the CF.
 
-The Council convenes regularly and holds an Annual General Meeting (AGM) to review the annual report, financial status, and set future plans. 
-Special general meetings may be initiated with a defined agenda if proposed by at least a third of the Council members or by a significant fraction of the general members. 
+The Council convenes regularly and holds an Annual General Meeting (AGM) to review the annual report, financial status, and set future plans.
+Special general meetings may be initiated with a defined agenda if proposed by at least a third of the Council members or by a significant fraction of the general members.
 
-Agendas and schedules for these gatherings will be released in advance. 
+Agendas and schedules for these gatherings will be released in advance.
 Meetings open to the broader public are accessible to all members and interested observers.
 Summaries of key decisions and discussions will be shared with the community to ensure that all members are informed and can provide feedback.
 
@@ -48,7 +49,7 @@ Summaries of key decisions and discussions will be shared with the community to 
 
 ### Composition and Membership
 
-The Council has a minimum of 3 elected members: 1 [Council Chairperson](#chairperson-of-the-council) and at least 2 members-at-large. 
+The Council has a minimum of 3 elected members: 1 [Council Chairperson](#chairperson-of-the-council) and at least 2 members-at-large.
 
 At least one-third of Council members are direct representatives from our projects, maintaining a strong voice for project needs and perspectives. To avoid any single entity's undue influence, no more than one Council member may represent any given company or legal entity.
 
@@ -57,8 +58,8 @@ At least one-third of Council members are direct representatives from our projec
 
 ### Tenure and Transition
 
-For continuity and stability, elections for Council members (including the Council Chair) are staggered. 
-In each election cycle, no more than two-thirds of Council seats will be up for reelection. 
+For continuity and stability, elections for Council members (including the Council Chair) are staggered.
+In each election cycle, no more than two-thirds of Council seats will be up for reelection.
 Upon completing their tenure, CFC members may seek re-election to extend their service, or step down.
 
 #### Chairperson of the Council
@@ -89,7 +90,7 @@ An up-to-date list of Advisory Board representatives will be maintained in the `
 
 True to Open Source roots, the CF ensures every member's voice is heard through the Lazy Consensus decision-making model.
 
-To quote the [Consensus definition](https://community.apache.org/committers/decisionMaking.html) from the Apache Foundation: 
+To quote the [Consensus definition](https://community.apache.org/committers/decisionMaking.html) from the Apache Foundation:
 
 > Consensus
 >
@@ -101,7 +102,7 @@ To quote the [Consensus definition](https://community.apache.org/committers/deci
 
 When seeking consensus, members should express objections or dissent as early as possible to ensure there is time to discuss and address objections.
 
-Every member, regardless of their role or contribution level, has an equal voice and is entitled to one vote in all decisions. 
+Every member, regardless of their role or contribution level, has an equal voice and is entitled to one vote in all decisions.
 
 #### Seeking consensus in meetings
 
@@ -126,7 +127,7 @@ It is customary for the initiator to post a summary once it appears that consens
 
 ### Elections
 
-For Council elections, CF adopts a preference-based voting system facilitated by [Elekto](https://elekto.dev/). 
+For Council elections, CF adopts a preference-based voting system facilitated by [Elekto](https://elekto.dev/).
 This approach allows members to rank candidates in order of preference, ensuring the elected representatives are the most broadly supported by the community, rather than simply the most popular.
 
 - [Voting using Elekto](https://elekto.dev/docs/voting/)

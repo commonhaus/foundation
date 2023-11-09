@@ -24,16 +24,15 @@ The Commonhaus Foundation (CF), and every project within it, needs a clear and e
   - The [CoCP][cocp] will follow [CF CoC procedures][coc-reports] when handling CoC reports and escalations.
   - Records will be kept in TODO-private-repository. Access to this repository is restricted to CoCP members.
 
-[cc]: GOVERNANCE.md#commonhaus-council "Commonhaus Foundation Council"
+[cc]: GOVERNANCE.md#commonhaus-foundation-council "Commonhaus Foundation Council"
 [cc-dm]: GOVERNANCE.md#decision-making-and-voting
 [cocp]: #code-of-conduct-panel "Code of Conduct Panel"
-[membership]: MEMBERS.yaml
+[membership]: https://github.com/commonhaus/foundation-draft/blob/main/MEMBERS.yaml "Members"
 [coc-reports]: #handling-reports-and-escalations
-
 
 ## Our Code of Conduct
 
-The CF has adopted the [Contributor Covenant v2.1][v2.1] as its CoC (full text [below](#contributor-covenant-code-of-conduct)). 
+The CF has adopted the [Contributor Covenant v2.1][v2.1] as its CoC (full text [below](#contributor-covenant-code-of-conduct)).
 
 - The CoC applies to all foundation activities.
 - New projects must adopt this CoC within 3 months of joining the foundation.
@@ -45,17 +44,16 @@ Having a unified CoC allows for consistent enforcement and better support across
 
 All participants in CF projects are bound by the principles outlined in this Code of Conduct.
 
-Members of CF and CF project contributors are expected to be respectful of different viewpoints and work collaboratively with one another. Some general guidelines include: 
+Members of CF and CF project contributors are expected to be respectful of different viewpoints and work collaboratively with one another. Some general guidelines include:
 
 - Admit and work to correct mistakes. Aim to remediate first, and then discuss. If other members of the team express concerns about actions, acknowledge their concerns by stopping the actions in question and discuss within the team (the CFC, the CoCP, or CF project members) to come to a common agreement.
-- Treat all community members with respect, consideration, and highest standards of ethical conduct. Avoid preferential treatment. Criticize ideas rather than people. Discuss any concerns in person whenever possible. 
-- Build trust by keeping your promises. The corollary: don't over-promise. 
+- Treat all community members with respect, consideration, and highest standards of ethical conduct. Avoid preferential treatment. Criticize ideas rather than people. Discuss any concerns in person whenever possible.
+- Build trust by keeping your promises. The corollary: don't over-promise.
 - Demonstrate a willingness to listen and learn from others. Provide an example of ownership, stewardship, and inclusiveness that everyone can follow.
 
 If you're interested in an introduction to diversity, inclusion, and unconscious bias, consider these resources:
 
 - [Inclusive Speaker Orientation (Linux Foundation)](https://training.linuxfoundation.org/training/inclusive-speaker-orientation/)
-- [Making product inclusion and equity a core part of tech (McKinsey & Company)](https://www.mckinsey.com/industries/technology-media-and-telecommunications/our-insights/making-product-inclusion-and-equity-a-core-part-of-tech)
 - [Inclusion at Scale in the Mozilla and Kubernetes Open Source Communities (The New Stack)](https://thenewstack.io/inclusion-at-scale-in-the-mozilla-and-kubernetes-open-source-communities/)
 - [We See You! Reaching Diverse Audiences in FOSS](https://medium.com/mozilla-open-innovation/we-see-you-reaching-diverse-audiences-in-foss-4e83efc86425)
 
@@ -69,18 +67,18 @@ This does not mean that decisions are set in stone. CF projects and the CFC are 
 
 ### Report an issue
 
-- Each CF project is free to implement enforcement of the CoC using processes appropriate for the size and scope of the project. CoC enforcement processes and contact methods must be defined in the projects' `CODE_OF_CONDUCT.md`. 
+- Each CF project is free to implement enforcement of the CoC using processes appropriate for the size and scope of the project. CoC enforcement processes and contact methods must be defined in the projects' `CODE_OF_CONDUCT.md`.
 - For CF repositories that do not specify their own `CODE_OF_CONDUCT.md`, send your report to `report@mailing-list`. The [CFC][cc] will receive these reports.
 
-Confidentiality is of utmost importance. We also understand that the person reporting the issue (**reporter**) may not be the individual directly affected or harmed (**target**). In such cases, communication will primarily be with the reporter unless the target explicitly gives permission. Personal details of the reporter (and the target if they differ) will not be disclosed without permission. 
+Confidentiality is of utmost importance. We also understand that the person reporting the issue (**reporter**) may not be the individual directly affected or harmed (**target**). In such cases, communication will primarily be with the reporter unless the target explicitly gives permission. Personal details of the reporter (and the target if they differ) will not be disclosed without permission.
 
-- The CF *prohibits retaliation* against individuals who report concerns in good faith. 
+- The CF *prohibits retaliation* against individuals who report concerns in good faith.
 
 ### Respond to a CoC issue
 
 Each complaint will be reviewed and investigated, and will result in a response that is deemed necessary and appropriate to the circumstances.
 
-An issue should be created for each report in a private repository listed in its `CODE_OF_CONDUCT.md`. It should capture the report, discussion and final conclusion. Personal information is confidential. The report should NOT contain identifying details of the reporter. 
+An issue should be created for each report in a private repository listed in its `CODE_OF_CONDUCT.md`. It should capture the report, discussion and final conclusion. Personal information is confidential. The report should NOT contain identifying details of the reporter.
 
 Access to the private repository should be restricted to individuals charged with resolving CoC reports. Individuals or groups with access to the private repository will be clearly stated in the `CODE_OF_CONDUCT.md`.
 
@@ -96,10 +94,10 @@ Email `coc-escalation@mailing-list` to escalate an issue to the CoCP. The CoCP w
 
 ### Code of Conduct Panel
 
-The CoCP is a foundation-wide team composed of the CFC Chairperson and 4 elected individuals who are not members of the CFC. 
+The CoCP is a foundation-wide team composed of the CFC Chairperson and 4 elected individuals who are not members of the CFC.
 
-CoCP members serve for two year terms. CF contributors and members from the broader community can be nominated to the CoCP. 
-CoCP members should consider objectivity and diversity of experience and perspective when electing CoCP members. 
+CoCP members serve for two year terms. CF contributors and members from the broader community can be nominated to the CoCP.
+CoCP members should consider objectivity and diversity of experience and perspective when electing CoCP members.
 
 Members of the CoCP will be documented in the `cocp-panel` [MEMBERS.yaml][membership] attribute.
 
@@ -113,7 +111,7 @@ Any member of the CFC or CoCP who is involved in the report must recuse themselv
 
 ### Reports to `report@mailing-list`
 
-All members of the [CFC][cc] are subscribed to the `report@mailing-list` mailing list. 
+All members of the [CFC][cc] are subscribed to the `report@mailing-list` mailing list.
 
 We understand that the person reporting the issue (**reporter**) may not be the individual directly affected or harmed (**target**). In such cases, communication will primarily be with the reporter unless the target explicitly gives permission.
 
@@ -127,9 +125,9 @@ We understand that the person reporting the issue (**reporter**) may not be the 
 
 ### Reports to `coc-escalation@mailing-list`
 
-All members of the [CoCP][cocp] are subscribed to the `coc-escalation@mailing-list` mailing list. 
+All members of the [CoCP][cocp] are subscribed to the `coc-escalation@mailing-list` mailing list.
 
-The CoCP will follow the same overall procedure as the CFC, with the following changes: 
+The CoCP will follow the same overall procedure as the CFC, with the following changes:
 
 - **Point of Contact:** The CFC Chairperson will ensure a member of the CoCP is identified as the main point of contact either through email or scheduling a meeting for the CoCP.
 - **Communication of Resolution:** When an appropriate response has been determined by the CoCP, the proposed action is discussed with leaders of the relevant group (the CFC or the CF project). If the leadership representatives expresses concerns then the contact person will bring these back to the CoCP members for further discussion. This cycle can continue until the CoCP members reach consensus that the leadership representatives concerns have been adequately addressed.
@@ -155,23 +153,23 @@ diverse, inclusive, and healthy community.
 Examples of behavior that contributes to a positive environment for our
 community include:
 
-* Demonstrating empathy and kindness toward other people
-* Being respectful of differing opinions, viewpoints, and experiences
-* Giving and gracefully accepting constructive feedback
-* Accepting responsibility and apologizing to those affected by our mistakes,
+- Demonstrating empathy and kindness toward other people
+- Being respectful of differing opinions, viewpoints, and experiences
+- Giving and gracefully accepting constructive feedback
+- Accepting responsibility and apologizing to those affected by our mistakes,
   and learning from the experience
-* Focusing on what is best not just for us as individuals, but for the overall
+- Focusing on what is best not just for us as individuals, but for the overall
   community
 
 Examples of unacceptable behavior include:
 
-* The use of sexualized language or imagery, and sexual attention or advances of
+- The use of sexualized language or imagery, and sexual attention or advances of
   any kind
-* Trolling, insulting or derogatory comments, and personal or political attacks
-* Public or private harassment
-* Publishing others' private information, such as a physical or email address,
+- Trolling, insulting or derogatory comments, and personal or political attacks
+- Public or private harassment
+- Publishing others' private information, such as a physical or email address,
   without their explicit permission
-* Other conduct which could reasonably be considered inappropriate in a
+- Other conduct which could reasonably be considered inappropriate in a
   professional setting
 
 ## Enforcement Responsibilities
@@ -268,4 +266,3 @@ For answers to common questions about this code of conduct, see the FAQ at
 [Mozilla CoC]: https://github.com/mozilla/diversity
 [FAQ]: https://www.contributor-covenant.org/faq
 [translations]: https://www.contributor-covenant.org/translations
-

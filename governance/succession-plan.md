@@ -5,14 +5,14 @@ status: draft
 
 The Commonhaus Foundation (CF) understands the impact of reliable libraries and frameworks on the broader tech community. Businesses run on applications built using these assets, and it is logical for them to do so. A retailer specializing in fish tanks shouldn’t need to understand low-level internet protocols. However, time brings change, and code owners, the nurturers of these invaluable tools, might pivot to new endeavors. In their absence, who ensures the continuity and security of these tools?
 
-The CF aims to help projects address this vital concern. 
+The CF aims to help projects address this vital concern.
 
 This policy articulates the foundation's need for administrative access to project resources and the principles that guide this requirement.
 
 [GOVERNANCE.md]: ../GOVERNANCE.md
-[GOV-TPL]: ../templates/GOVERNANCE.md
 [CONTRIBUTING.md]: ../CONTRIBUTING.md
-[CONTRIB-TPL]: ../templates/CONTRIBUTING.md
+[GOV-TPL]: https://github.com/commonhaus/foundation-draft/blob/main/templates/GOVERNANCE.md
+[CONTRIB-TPL]: https://github.com/commonhaus/foundation-draft/blob/main/templates/CONTRIBUTING.md
 
 ## Policy Rationale
 
@@ -25,7 +25,7 @@ Administrative access empowers the CF to:
 **Artifact Updates:** Provide consistent access to updated project artifacts, even amidst maintainer hiatus.
 
 The CF may intervene in certain situations, but we will exhaust every option to contact the current code owners before we do so.
-For libraries under heavy use, we will encourage a "path of least disturbance" approach to provide stability for applications relying on these libraries. 
+For libraries under heavy use, we will encourage a "path of least disturbance" approach to provide stability for applications relying on these libraries.
 
 ## Scope of Access and Intervention
 
@@ -45,7 +45,8 @@ The CF respects each project's chosen governance model. This policy complements,
 
 - **Contribution guidelines:** Describe project build, test, and packaging instructions in `CONTRIBUTING.md`. Include criteria for contributions, versioning practices, and preferences in the event of an ownership transition.
 
-Further Reading: 
+Further Reading:
+
 - [About code owners](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-code-owners)
 - See [GOVERNANCE.md][] and the [Project GOVERNANCE.md template][GOV-TPL] for examples.
 - [Wrangling Web Contributions: How to Build a CONTRIBUTING.md](https://mozillascience.github.io/working-open-workshop/contributing/)

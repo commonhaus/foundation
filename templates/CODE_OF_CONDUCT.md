@@ -4,7 +4,7 @@ instructions: Replace [Project Name], update Contact information, delete YAML fr
 ---
 # [Project Name] Code of Conduct
 
-[Project Name] has adopted the [Contributor Covenant v2.1][v2.1] as its Code of Conduct (CoC) and 
+[Project Name] has adopted the [Contributor Covenant v2.1][v2.1] as its Code of Conduct (CoC) and
 follows the [Commonhaus Foundation (CF) CoC][coc-policy] (included below).
 
 ## [Project Name] Contact information
@@ -14,17 +14,17 @@ follows the [Commonhaus Foundation (CF) CoC][coc-policy] (included below).
   - Records will be kept in `PROJECT-private-repository`
 - [Escalations](#escalate-an-issue) should be sent to `coc-escalation@mailing-list` for review by the [Code of Conduct Panel (COCP)][cocp].
 
-[cc]: ../GOVERNANCE.md "Commonhaus Foundation Council - TODO: full path" 
-[cocp]: ../CODE_OF_CONDUCT.md#code-of-conduct-panel "Code of Conduct Panel - TODO: full path"
-[coc-policy]: ../CODE_OF_CONDUCT.md "TODO: full path"
-[coc-reports]: ../CODE_OF_CONDUCT.md#handling-reports-and-escalations "Handling CoC reports - TODO: full path"
-[MEMBERS.yaml]: ../MEMBERS.yaml "Members - TODO: full path"
+[cc]: https://github.com/commonhaus/foundation-draft/blob/main/GOVERNANCE.md#commonhaus-foundation-council "Commonhaus Foundation Council"
+[cocp]: https://github.com/commonhaus/foundation-draft/blob/main/CODE_OF_CONDUCT.md#code-of-conduct-panel "Code of Conduct Panel"
+[coc-policy]: https://github.com/commonhaus/foundation-draft/blob/main/CODE_OF_CONDUCT.md
+[coc-reports]: https://github.com/commonhaus/foundation-draft/blob/main/CODE_OF_CONDUCT.md#handling-reports-and-escalations "Handling CoC reports"
+[MEMBERS.yaml]: https://github.com/commonhaus/foundation-draft/blob/main/MEMBERS.yaml "Members"
 
 ---
 
 ## Our Code of Conduct
 
-The CF has adopted the [Contributor Covenant v2.1][v2.1] as its CoC (full text [below](#contributor-covenant-code-of-conduct)). 
+The CF has adopted the [Contributor Covenant v2.1][v2.1] as its CoC (full text [below](#contributor-covenant-code-of-conduct)).
 
 - The CoC applies to all foundation activities.
 - New projects must adopt this CoC within 3 months of joining the foundation.
@@ -34,24 +34,24 @@ Having a unified CoC allows for consistent enforcement and better support across
 
 ### Report an issue
 
-- Each CF project is free to implement enforcement of the CoC using processes appropriate for the size and scope of the project. 
-  CoC enforcement processes and contact methods must be defined in the projects' `CODE_OF_CONDUCT.md`. 
-- For other Commonhaus repositories, send your report to `report@mailing-list`. The [CFC][cc] will receive these reports.
+- Each CF project is free to implement enforcement of the CoC using processes appropriate for the size and scope of the project.
+  CoC enforcement processes and contact methods must be defined in the projects' `CODE_OF_CONDUCT.md`.
+- For other Commonhaus repositories, send your report to `report@mailing-list`. The [CF Council][cc] will receive these reports.
 
 ### Respond to a CoC issue
 
-Each complaint will be reviewed and investigated, and will result in a response that is deemed necessary and appropriate to the circumstances. 
+Each complaint will be reviewed and investigated, and will result in a response that is deemed necessary and appropriate to the circumstances.
 
-An issue should be created for each report in a private repository listed in its `CODE_OF_CONDUCT.md`. 
-It should capture the report, discussion and final conclusion. 
-Personal information is confidential. 
+An issue should be created for each report in a private repository listed in its `CODE_OF_CONDUCT.md`.
+It should capture the report, discussion and final conclusion.
+Personal information is confidential.
 The report should NOT contain identifying details of the reporter.
 
 ### Escalate an issue
 
-We expect most reports to be handled successfully by the processes put in place by a project or the [CFC][cc].
+We expect most reports to be handled successfully by the processes put in place by a project or the [CF Council][cc].
 
-The CF maintains the [CoCP][cocp] to manage escalation when a reporter (a) believes that a report to a member project or the [CFC][cc] has not been properly handled, or (b) does not feel comfortable reporting an issue through the standard process.
+The CF maintains the [CoCP][cocp] to manage escalation when a reporter (a) believes that a report to a member project or the [CF Council][cc] has not been properly handled, or (b) does not feel comfortable reporting an issue through the standard process.
 
 Email `coc-escalation@mailing-list` to escalate an issue to the CoCP.
 
@@ -82,23 +82,23 @@ diverse, inclusive, and healthy community.
 Examples of behavior that contributes to a positive environment for our
 community include:
 
-* Demonstrating empathy and kindness toward other people
-* Being respectful of differing opinions, viewpoints, and experiences
-* Giving and gracefully accepting constructive feedback
-* Accepting responsibility and apologizing to those affected by our mistakes,
+- Demonstrating empathy and kindness toward other people
+- Being respectful of differing opinions, viewpoints, and experiences
+- Giving and gracefully accepting constructive feedback
+- Accepting responsibility and apologizing to those affected by our mistakes,
   and learning from the experience
-* Focusing on what is best not just for us as individuals, but for the overall
+- Focusing on what is best not just for us as individuals, but for the overall
   community
 
 Examples of unacceptable behavior include:
 
-* The use of sexualized language or imagery, and sexual attention or advances of
+- The use of sexualized language or imagery, and sexual attention or advances of
   any kind
-* Trolling, insulting or derogatory comments, and personal or political attacks
-* Public or private harassment
-* Publishing others' private information, such as a physical or email address,
+- Trolling, insulting or derogatory comments, and personal or political attacks
+- Public or private harassment
+- Publishing others' private information, such as a physical or email address,
   without their explicit permission
-* Other conduct which could reasonably be considered inappropriate in a
+- Other conduct which could reasonably be considered inappropriate in a
   professional setting
 
 ## Enforcement Responsibilities
