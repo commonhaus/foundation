@@ -9,27 +9,28 @@ status: draft
 
 # The Commonhaus Foundation (CF)
 
-**Mission Statement:**
+The Commonhaus Foundation champions open-source innovation and collaboration. 
 
-"To support the long-term growth and stability of self-governed open-source projects in a GitHub-style environment."
+We are dedicated to ensuring the long-term growth and stability of GitHub-style open-source projects through community collaboration and shared stewardship. Our mission is to empower a diverse community of contributors to create, maintain, enhance, and secure vital open-source libraries and frameworks. 
 
-**Vision Statement:**
-
-"To establish a vibrant hub for developers, contributors, and users dedicated to fostering the growth of libraries and application frameworks without the overhead of traditional governance models."
+Our vision is to create a dynamic and inclusive community where developers, contributors, and users unite to drive the evolution of open-source libraries and frameworks. We aim to cultivate an ecosystem that thrives on collaborative innovation, bypassing the complexities of traditional governance models.
 
 [codehaus]: https://www.infoworld.com/article/2892227/codehaus-the-once-great-house-of-code-has-fallen.html
 [succession]: governance/succession-plan.md
-[ip-policy-guidance]: governance/ip-policy-guidance.md#1-licensing
-[governance]: GOVERNANCE.md
-
+[ip-policy-guidance]: governance/ip-policy-guidance.md#1-licensing 
 
 ## Core Distinctions of CF
 
-**Minimal Viable Governance:** CF embraces the "community-first" model prevalent in modern GitHub-style projects. While we provide foundational support, projects maintain their autonomy.
+Drawing inspiration from [The Codehaus][codehaus], CF offers the right balance of support without overwhelming governance.
 
-**Access to Funding:** We bridge the post-Kickstarter gap. CF aids projects in meeting governance requirements, paving the way for them to access platforms like GitHub Sponsors or fiscal hosts such as Open Source Collective.
+**Minimal Viable Governance:** CF embraces the "community-first" model prevalent in modern GitHub-style projects. 
+While we provide foundational support, projects maintain their autonomy.
 
-**Future-ready Flexibility:** CF acknowledges the evolutionary nature of projects. We're not just a placeholder but a guide, assisting projects as they grow and, if needed, transition to foundations with more rigorous governance.
+**Access to Funding:** We bridge the post-Kickstarter gap. 
+CF aids projects in meeting governance requirements, paving the way for them to access platforms like GitHub Sponsors or fiscal hosts such as Open Source Collective.
+
+**Future-ready Flexibility:** CF acknowledges the evolutionary nature of projects. 
+We're not just a placeholder but a guide, assisting projects as they grow and, if needed, transition to foundations with more rigorous governance.
 
 **Tailored for Established Projects:** CF is an ideal home for projects that already have a user base and are now seeking stability and growth without heavy governance overhead.
 
@@ -52,16 +53,16 @@ status: draft
 
 ## Community and Sponsorship
 
-CF is committed to inclusive growth, opening its doors to all individuals who share our vision, not just code contributors. We encourage participation from those interested in supporting and steering our projects, offering them a voice and a vote in our governance. For detailed information on membership and eligibility, refer to our [Governance][governance] document.
+CF is committed to inclusive growth, opening its doors to all individuals who share our vision, not just code contributors. We encourage participation from those interested in supporting and steering our projects, offering them a voice and a vote in our governance. For detailed information on membership and eligibility, refer to our [Governance](GOVERNANCE.md) document.
 
 **Collaboration and Voice**: Our community thrives on cooperation and diverse perspectives. Here, every member, including project leaders and supporters, has the opportunity to contribute to decision-making processes.
 
-**Advisory Input**: While sponsors do not have voting rights, they play a vital role through the Advisory Board, offering strategic insights that guide the foundation's direction. This structure ensures that sponsorship is aligned with community interests and open-source integrity.
+**Advisory Input**: While sponsors do not have voting rights, they play a vital role through the [Advisory Board](GOVERNANCE.md#commonhaus-foundation-advisory-board), offering strategic insights that guide the foundation's direction. This structure ensures that sponsorship is aligned with community interests and open-source integrity.
 
 ## Additional resources
 
 - [Code of Conduct](CODE_OF_CONDUCT.md)
-- [Commonhaus Foundation Governance][governance]
+- [Commonhaus Foundation Governance](GOVERNANCE.md)
 - [Succession Planning][succession]
 - [IP Policy Guidance][ip-policy-guidance]
 
