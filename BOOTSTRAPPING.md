@@ -5,7 +5,7 @@ status: draft
 
 This document outlines the interim procedures and commitments during the foundation's initial establishment phase. It provides guidelines for project commitments, ensuring mutual trust and flexibility until the foundation reaches a stable state.
 
-[cc]: GOVERNANCE.md#commonhaus-foundation-council "Commonhaus Foundation Council"
+[cfc]: GOVERNANCE.md#commonhaus-foundation-council "Commonhaus Foundation Council"
 [cc-dm]: GOVERNANCE.md#decision-making-and-voting
 
 ## 1. Preliminary Commitments
@@ -25,7 +25,7 @@ After the foundation is formally organized, there is a *Formation Period* during
 
 During this time, projects can monitor participation levels and foundational processes.
 
-- The initial [CF Council][cc] will contain representatives from all participating projects.
+- The initial [CF Council][cfc] will contain representatives from all participating projects.
 - Decisions should follow (and refine) the [CF decision making process][cc-dm].
 
 ## 4. Trademark Donations and Other Commitments

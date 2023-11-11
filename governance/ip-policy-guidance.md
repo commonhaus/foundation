@@ -6,7 +6,7 @@ status: draft
 This guide simplifies the [Commonhaus Foundation (CF) IP Policy][IP Policy] for easier implementation.
 
 [IP Policy]: ip-policy.md
-[cc]: ../GOVERNANCE.md#commonhaus-foundation-council "Commonhaus Foundation Council"
+[cfc]: ../GOVERNANCE.md#commonhaus-foundation-council "Commonhaus Foundation Council"
 [standard website footer]: website-footer.md "Commonhaus Foundation website footers"
 
 ## Basic IP Requirements
@@ -30,7 +30,7 @@ This guide simplifies the [Commonhaus Foundation (CF) IP Policy][IP Policy] for 
 
 ## Obtaining an Exemption
 
-If the [IP Policy][] doesn't cater to your project's needs, request special permission from the [CF Council (CFC)][cc].
+If the [IP Policy][] doesn't cater to your project's needs, request special permission from the [CF Council][cfc] (CFC).
 
 [Steps to request an exemption TBD]
 

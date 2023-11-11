@@ -76,7 +76,7 @@ The Advisory Board does not have decision-making authority but plays a crucial r
 
 - **Diversity of Insight**: Where possible, organizations are encouraged to appoint representatives who bring different types of expertise or experience, such as a managerial and a technical perspective, to contribute to a well-rounded advisory process.
 
-- **Meetings**: The Advisory Board convenes with the CF Council semi-annually, providing a platform for collaborative review and feedback on the CF's direction, initiatives, and impact on the industry.
+- **Meetings**: The Advisory Board convenes with the CFC semi-annually, providing a platform for collaborative review and feedback on the CF's direction, initiatives, and impact on the industry.
 
 - **Communication**: Representatives are expected to actively communicate the needs and concerns of their organizations, while also conveying the goals and achievements of the CF to their respective constituencies.
 
@@ -119,9 +119,10 @@ A Voting CFC member may choose to participate in any vote through abstention.
 When seeking consensus in mailing lists, it is important to leave enough time (at least 72-hours) for everyone to read the email and respond with opinions and objections.
 
 CFC members should consider the following when drafting consensus-seeking email:
-  - Use a leading indicator (`[DISCUSS]` or an emoji like 🗳️) to mark consensus-seeking email
-  - Use a clear subject line that summarizes the topic
-  - If there is a time constraint to the decision, include it in the subject.
+
+- Use a leading indicator (`[DISCUSS]` or an emoji like 🗳️) to mark consensus-seeking email
+- Use a clear subject line that summarizes the topic
+- If there is a time constraint to the decision, include it in the subject.
 
 It is customary for the initiator to post a summary once it appears that consensus has been reached, to ensure that their understanding is accurate.
 

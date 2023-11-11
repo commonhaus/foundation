@@ -9,19 +9,24 @@ While there might not be traditional code here, we treat our documents with the 
 
 ## Getting Started
 
-### 1. Open an Issue
+### 1. Consider Opening an Issue (Optional for Minor Changes)
 
-Before making any changes, open an issue in the repository. This helps us track and discuss the proposed changes, be it a typo, an enhancement, or a substantial amendment. Describe your issue in detail, and tag any relevant maintainers or teams.
+While opening an issue is generally recommended for tracking and discussing proposed changes, it's not always required, especially for trivial modifications.
+
+- For smaller changes or straightforward fixes, you can directly initiate a pull request (PR) where discussions can also take place.
+- For more significant updates or enhancements, opening an issue helps in organizing and deliberating the changes with the community and relevant teams.
 
 ### 2. Fork the Repository
 
-Fork the repository to your own GitHub account. This will allow you to work on your proposed changes independently before submitting them for review.
+Fork the repository to your own GitHub account.
+This will allow you to work on your proposed changes independently before submitting them for review.
 
 ## Making Changes
 
 ### 1. Be Clear and Concise
 
-Our documents aim to be direct and developer-friendly. We value clarity, so please ensure your changes or additions reflect that.
+Our documents aim to be direct and developer-friendly.
+We value clarity, so please ensure your changes or additions reflect that.
 
 ### 2. Adhere to the Format
 
@@ -39,11 +44,12 @@ git commit -m "Fixed typo in section X, resolves #123"
 
 ### 1. Create a Pull Request (PR)
 
-Once you're ready to submit your changes, create a new pull request from your fork. Ensure the PR description is clear about the changes you've made.
+Once you're ready to submit your changes, create a new pull request from your fork.
+Ensure the PR description is clear about the changes you've made.
 
 ### 2. Await Review
 
-The Commonhaus Foundation Council (CFC) and, when necessary, Foundation-retained legal counsel will review your PR.
+One of the `CODEOWNERS` will review your PR.
 We might request further clarifications, changes, or provide feedback.
 
 ### 3. Address Feedback
@@ -61,4 +67,6 @@ We appreciate your patience as we ensure that all content aligns with the founda
 Every contribution, be it small or large, helps us maintain and improve this repository.
 Your willingness to help is genuinely appreciated.
 
-For any questions or further information, don't hesitate to reach out to us. Happy contributing!
+For any questions or further information, don't hesitate to reach out to us.
+
+Happy contributing!

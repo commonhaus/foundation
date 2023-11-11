@@ -17,14 +17,14 @@ The Commonhaus Foundation (CF), and every project within it, needs a clear and e
 ## Contact information
 
 - **Project Issues:** Each CF project will define a `CODE_OF_CONDUCT.md`. For issues related to a project, start there.
-- **Founation Issues:** Issues related to the CF should be sent to `report@mailing-list` for [review](#respond-to-a-coc-issue) by the [Commonhaus Foundation Council][cc] (CFC).
-  - The [CFC][cc] will follow [CF CoC procedures][coc-reports] when handling CoC reports.
+- **Founation Issues:** Issues related to the CF should be sent to `report@mailing-list` for [review](#respond-to-a-coc-issue) by the [Commonhaus Foundation Council][cfc] (CFC).
+  - The CFC will follow [CF CoC procedures][coc-reports] when handling CoC reports.
   - Records will be kept in TODO-private-repository. Access to this repository is restricted to current CFC members.
 - **Escalations:** [Escalations](#escalate-an-issue) should be sent to `coc-escalation@mailing-list` for review by the [Code of Conduct Panel (COCP)][cocp].
   - The [CoCP][cocp] will follow [CF CoC procedures][coc-reports] when handling CoC reports and escalations.
   - Records will be kept in TODO-private-repository. Access to this repository is restricted to CoCP members.
 
-[cc]: GOVERNANCE.md#commonhaus-foundation-council "Commonhaus Foundation Council"
+[cfc]: GOVERNANCE.md#commonhaus-foundation-council "Commonhaus Foundation Council"
 [cc-dm]: GOVERNANCE.md#decision-making-and-voting
 [cocp]: #code-of-conduct-panel "Code of Conduct Panel"
 [membership]: https://github.com/commonhaus/foundation-draft/blob/main/MEMBERS.yaml "Members"
@@ -68,7 +68,7 @@ This does not mean that decisions are set in stone. CF projects and the CFC are 
 ### Report an issue
 
 - Each CF project is free to implement enforcement of the CoC using processes appropriate for the size and scope of the project. CoC enforcement processes and contact methods must be defined in the projects' `CODE_OF_CONDUCT.md`.
-- For CF repositories that do not specify their own `CODE_OF_CONDUCT.md`, send your report to `report@mailing-list`. The [CFC][cc] will receive these reports.
+- For CF repositories that do not specify their own `CODE_OF_CONDUCT.md`, send your report to `report@mailing-list`. The CFC will receive these reports.
 
 Confidentiality is of utmost importance. We also understand that the person reporting the issue (**reporter**) may not be the individual directly affected or harmed (**target**). In such cases, communication will primarily be with the reporter unless the target explicitly gives permission. Personal details of the reporter (and the target if they differ) will not be disclosed without permission.
 
@@ -86,9 +86,9 @@ Access to the private repository should be restricted to individuals charged wit
 
 ### Escalate an issue
 
-We expect most reports to be handled by the processes put in place by a project or the [CFC][cc].
+We expect most reports to be handled by the processes put in place by a project or the CFC.
 
-The CF maintains the [CoCP][cocp] to manage escalation when a reporter (a) believes that a report to a member project or the [CFC][cc] has not been properly handled, or (b) does not feel comfortable reporting an issue through the standard process.
+The CF maintains the CoCP to manage escalation when a reporter (a) believes that a report to a member project or the CFC has not been properly handled, or (b) does not feel comfortable reporting an issue through the standard process.
 
 Email `coc-escalation@mailing-list` to escalate an issue to the CoCP. The CoCP will meet to review submitted reports as described in [CF CoC procedures][coc-reports]
 
@@ -103,7 +103,7 @@ Members of the CoCP will be documented in the `cocp-panel` [MEMBERS.yaml][member
 
 ## Handling Reports and Escalations
 
-This section describes the process and roles for handling Code of Conduct (CoC) reports and escalations for both the CF Council (CFC) and the CF Code of Conduct Panel (CoCP).
+This section describes the process and roles for handling Code of Conduct (CoC) reports and escalations for both the CFC and the CF Code of Conduct Panel (CoCP).
 
 ### Conflict of Interest
 
@@ -111,7 +111,7 @@ Any member of the CFC or CoCP who is involved in the report must recuse themselv
 
 ### Reports to `report@mailing-list`
 
-All members of the [CFC][cc] are subscribed to the `report@mailing-list` mailing list.
+All members of the CFC are subscribed to the `report@mailing-list` mailing list.
 
 We understand that the person reporting the issue (**reporter**) may not be the individual directly affected or harmed (**target**). In such cases, communication will primarily be with the reporter unless the target explicitly gives permission.
 
@@ -125,7 +125,7 @@ We understand that the person reporting the issue (**reporter**) may not be the 
 
 ### Reports to `coc-escalation@mailing-list`
 
-All members of the [CoCP][cocp] are subscribed to the `coc-escalation@mailing-list` mailing list.
+All members of the CoCP are subscribed to the `coc-escalation@mailing-list` mailing list.
 
 The CoCP will follow the same overall procedure as the CFC, with the following changes:
 

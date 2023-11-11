@@ -8,7 +8,7 @@ As a nonprofit organization, CF is committed to the responsible stewardship of i
 This policy is designed to protect the interests of the Commonhaus Foundation (CF) when potentially beneficial actions or transactions might intersect with the private interests of a director, officer, or key person.
 Additionally, it ensures compensation fairness for any staff or contractors hired by CF, which operates primarily as a volunteer organization.
 
-This policy applies to all individuals with decision-making authority within the CF ("you"), including CF Council and Advisory Board members, and extends to CF members and project leaders when their personal interests may influence Foundation activities.
+This policy applies to all individuals with decision-making authority within the CF ("you"), including CF Council (CFC) and Advisory Board members, and extends to CF members and project leaders when their personal interests may influence Foundation activities.
 
 ## Identifying Conflicts of Interest
 
@@ -28,27 +28,27 @@ When in doubt, it is safer to disclose a potential conflict of interest.
 
 ### Immediate Disclosure
 
-All potential conflicts should be disclosed to the designated official or office within the CF Council immediately upon recognition.
+All potential conflicts should be disclosed to the designated official or office within the CFC immediately upon recognition.
 
 ### Annual Disclosure
 
-You are required to submit an annual statement of potential conflicts, and for CF Council members, also before your initial appointment.
+You are required to submit an annual statement of potential conflicts, and for CFC members, also before your initial appointment.
 
 ## Determining Whether a Conflict of Interest Exists
 
-The CF Council, or a designated committee, will review disclosures to determine if a conflict exists. The involved individual will recuse themselves from the decision-making process.
+The CFC, or a designated committee, will review disclosures to determine if a conflict exists. The involved individual will recuse themselves from the decision-making process.
 
-The CF Council will consider whether the potential conflict might affect CF’s transactions or reputation and take appropriate action.
+The CFC will consider whether the potential conflict might affect CF’s transactions or reputation and take appropriate action.
 
 ## Procedures for Addressing a Conflict of Interest
 
-The CF Council may gather facts from the involved party but will deliberate and decide on the matter in their absence.
+The CFC may gather facts from the involved party but will deliberate and decide on the matter in their absence.
 
-For transactions involving significant interests, the CF Council will seek alternatives and require a consensus for approval, with all decisions being documented.
+For transactions involving significant interests, the CFC will seek alternatives and require a consensus for approval, with all decisions being documented.
 
 ## Minutes and Documentation
 
-The minutes of the CF Council meetings will include details of discussions regarding conflicts, including names, interests, and the rationale for decisions.
+The minutes of the CFC meetings will include details of discussions regarding conflicts, including names, interests, and the rationale for decisions.
 
 ## Prohibited Acts
 
@@ -56,6 +56,6 @@ CF will not make loans to any Council members, officers, or key persons.
 
 ## Procedures for Determining Compensation
 
-When hiring staff or paying for contract work, the CF Council will reference industry standards to ensure compensation is fair and justified. The process will be transparent and fully documented.
+When hiring staff or paying for contract work, the CFC will reference industry standards to ensure compensation is fair and justified. The process will be transparent and fully documented.
 
 All individuals will abstain from discussions or votes concerning their own compensation or that of those closely associated with them.

@@ -145,5 +145,5 @@ The Commonhaus Foundation may modify or update this Trademark Policy as needed. 
 
 This work is inspired by [The OpenJS Foundation Trademark Policy](https://openjsf.org/wp-content/uploads/sites/84/2021/01/OpenJS-Foundation-Trademark-Policy-2021-01-12.docx.pdf).
 It is licensed under a Creative
-Commons Attribution 4.0 International license (“CFC BY 4.0”, available at
+Commons Attribution 4.0 International license (“CC BY 4.0”, available at
 <https://creativecommons.org/licenses/by/4.0>).

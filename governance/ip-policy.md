@@ -5,7 +5,7 @@ status: draft
 
 The Commonhaus Foundation (CF) oversees multiple individual projects, referred to as “Projects”. Contributions to these Projects are governed by this policy and each Project's chosen license, known as the “Project Code License”.
 
-[cc]: ../GOVERNANCE.md#commonhaus-foundation-council "Commonhaus Foundation Council"
+[cfc]: ../GOVERNANCE.md#commonhaus-foundation-council "Commonhaus Foundation Council"
 [IP Policy Guidance]: ip-policy-guidance.md "Commonhaus Foundation IP Policy Guidance"
 
 1. **License Options:** Projects can select from approved licenses:
@@ -14,7 +14,7 @@ The Commonhaus Foundation (CF) oversees multiple individual projects, referred t
    - [The 2-Clause BSD License](https://opensource.org/license/bsd-2-clause/)
    - [The 3-Clause BSD License](https://opensource.org/license/bsd-3-clause/)
 
-   Other open source licenses require [Commonhaus Foundation Council (CFC)][cc] approval.
+   Other open source licenses require [Commonhaus Foundation Council][cfc] (CFC) approval.
 
 2. **Collaborations with Upstream Projects:** When collaborating with external open source projects (“Upstream Projects”), Projects must:
 
@@ -36,6 +36,6 @@ The Commonhaus Foundation (CF) oversees multiple individual projects, referred t
 
 For detailed guidance on implementing this policy, refer to the [IP Policy Guidance][].
 
-[CC BY 4.0]: http://creativecommons.org/licenses/by/4.0/ "Creative Commons Attribution 4.0 International License (CFC BY 4.0)"
+[CC BY 4.0]: http://creativecommons.org/licenses/by/4.0/ "Creative Commons Attribution 4.0 International License (CC BY 4.0)"
 [MIT]: https://opensource.org/license/mit/ "The MIT License"
 [DCO]: http://developercertificate.org/
