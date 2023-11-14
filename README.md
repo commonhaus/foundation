@@ -16,8 +16,8 @@ We are dedicated to ensuring the long-term growth and stability of GitHub-style 
 Our vision is to create a dynamic and inclusive community where developers, contributors, and users unite to drive the evolution of open-source libraries and frameworks. We aim to cultivate an ecosystem that thrives on collaborative innovation, bypassing the complexities of traditional governance models.
 
 [codehaus]: https://www.infoworld.com/article/2892227/codehaus-the-once-great-house-of-code-has-fallen.html
-[succession]: governance/succession-plan.md
-[ip-policy-guidance]: governance/ip-policy-guidance.md#basic-ip-requirements
+[succession]: bylaws/succession-plan.md
+[ip-policy]: bylaws/ip-policy.md
 
 ## Core Distinctions of CF
 
@@ -46,10 +46,11 @@ We're not just a placeholder but a guide, assisting projects as they grow and, i
 
 ## CF's Focus and Vision
 
-- **Prioritize Action:** We favor tangible outcomes over extended discussions, concentrating on:
-  - **Application Frameworks:** For efficient app development and deployment.
-  - **Libraries:** Essential tools that minimize application complexities.
-- **Selective Alignment:** Not every project aligns with CF. While we respect the importance of *Specifications & Standards*, we do not engage in their definition or debate. This is a home for self-governing, code-centric projects.
+**Prioritize Action:** We favor tangible outcomes over extended discussions, concentrating on:
+- **Application Frameworks:** For efficient app development and deployment.
+- **Libraries:** Essential tools that minimize application complexities.
+
+**Selective Alignment:** Not every project aligns with CF. While we respect the importance of *Specifications & Standards*, we do not engage in their definition or debate. This is a home for self-governing, code-centric projects.
 
 ## Community and Sponsorship
 
@@ -64,4 +65,4 @@ CF is committed to inclusive growth, opening its doors to all individuals who sh
 - [Code of Conduct](CODE_OF_CONDUCT.md)
 - [Commonhaus Foundation Governance](GOVERNANCE.md)
 - [Succession Planning][succession]
-- [IP Policy Guidance][ip-policy-guidance]
+- [IP Policy][ip-policy]
