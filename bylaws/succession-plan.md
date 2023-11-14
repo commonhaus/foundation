@@ -7,14 +7,21 @@ The Commonhaus Foundation (CF) understands the impact of reliable libraries and 
 
 The CF aims to help projects address this vital concern.
 
-This policy articulates the foundation's need for administrative access to project resources and the principles that guide this requirement.
+This policy, forming **Section 5** of CF [Bylaws][bylaws], articulates the foundation's need for administrative access to project resources and the principles that guide this requirement.
 
+- [5.1 Policy Rationale](#51-policy-rationale)
+- [5.2 Scope of Access and Intervention](#52-scope-of-access-and-intervention)
+- [5.3 Commitment to Project Code Owners and the Community](#53-commitment-to-project-code-owners-and-the-community)
+- [5.4 Policy Review and Updates](#54-policy-review-and-updates)
+
+
+[bylaws]: ./README.md
 [GOVERNANCE.md]: ../GOVERNANCE.md
 [CONTRIBUTING.md]: ../CONTRIBUTING.md
 [GOV-TPL]: https://github.com/commonhaus/foundation-draft/blob/main/templates/GOVERNANCE.md
 [CONTRIB-TPL]: https://github.com/commonhaus/foundation-draft/blob/main/templates/CONTRIBUTING.md
 
-## Policy Rationale
+## 5.1 Policy Rationale
 
 Administrative access empowers the CF to:
 
@@ -27,7 +34,7 @@ Administrative access empowers the CF to:
 The CF may intervene in certain situations, but we will exhaust every option to contact the current code owners before we do so.
 For libraries under heavy use, we will encourage a "path of least disturbance" approach to provide stability for applications relying on these libraries.
 
-## Scope of Access and Intervention
+## 5.2 Scope of Access and Intervention
 
 **Limited Interference:** Although the CF maintains administrative access, every option to contact the current code owners will be made before we do so.  Action will require a consensus of [X%] of the project's active contributors or CF Council members.
 
@@ -35,7 +42,7 @@ For libraries under heavy use, we will encourage a "path of least disturbance" a
 
 **Transparent Communication:** Any exercise of administrative privilege by the CF will be recorded and communicated to the project code owners.
 
-## Commitment to Project Code Owners and the Community
+## 5.3 Commitment to Project Code Owners and the Community
 
 The CF respects each project's chosen governance model. This policy complements, and does not supersede, those models. We recommend projects define:
 
@@ -52,6 +59,6 @@ Further Reading:
 - [Wrangling Web Contributions: How to Build a CONTRIBUTING.md](https://mozillascience.github.io/working-open-workshop/contributing/)
 - See [CONTRIBUTING.md][] and the [Project CONTRIBUTING.md template][CONTRIB-TPL] for examples.
 
-### Policy Review and Updates
+## 5.4 Policy Review and Updates
 
 This policy may undergo periodic reviews and updates to cater to the evolving needs of the CF and its projects. Project leaders and the community will be involved in and informed of any changes.
