@@ -27,13 +27,7 @@ The CF will conduct activities lawful for a nonprofit corporation organized unde
 
 ### 1.3 Principal Office
 
-The CF may have offices either within or outside the Central Florida area (or anywhere throughout the State of Florida), as the [CF Council][] may designate or as the affairs of the CF may require from time to time.
-
-## 1.4 Authoritative Document Version
-
-The authoritative copy of these bylaws is maintained in a dedicated GitHub repository. This ensures transparency, version control, and accessibility.
-
-Official amendments and updates to these bylaws are documented and approved using issues and pull-requests against that repository. This process allows for clear tracking of changes and provides a definitive reference for the most current version of the document.
+The CF may have offices either within or outside the Central Florida area (or anywhere throughout the State of Florida), as the [CF Council][] (CFC) may designate or as the affairs of the CF may require from time to time.
 
 ## SECTIONS
 
@@ -52,3 +46,25 @@ Please see the following sections:
 - Section 9. [Dissolution Policy](./dissolution.md)
 
 [CF Council]: ../GOVERNANCE.md#commonhaus-foundation-council
+
+## Section A: Amendments
+
+### A.1 Overview
+
+The authoritative copy of CF Bylaws bylaws is maintained in a dedicated GitHub repository. This ensures transparency, version control, and accessibility. CF Bylaws may be amended at any time. The amendment process is designed to be transparent, inclusive, and efficient.
+
+### A.2 Amendment Procedure
+
+1. **Proposal Submission:** Amendments are proposed via a GitHub pull request (PR) in the Bylaws repository. This PR should detail the changes and their rationale.
+
+2. **Categorization of Changes:** The CFC reviews each proposal to classify it as either 'Trivial' (e.g., typographical corrections) or 'Substantive' (affecting governance or operations). Trivial Changes may be quickly approved, whereas Substantive Changes undergo a detailed review.
+
+3. **Community Involvement:** For Substantive Changes, a 30-day review period allows all CF members to provide feedback. Member involvement is crucial to ensure diverse perspectives are considered.
+
+4. **Resolution Process:** The CFC addresses and resolves any member-raised objections, ensuring consensus and addressing concerns.
+
+5. **CFC Approval:** A supermajority vote from the CFC is required to approve and adopt the amendment.
+
+6. **Implementation:** Approved amendments are promptly reflected in the Bylaws repository, with the changes effective immediately unless otherwise specified.
+
+This process ensures that amendments to the Bylaws are made with consideration, transparency, and the consensus of the CF community.
