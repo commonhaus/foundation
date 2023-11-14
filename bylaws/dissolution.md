@@ -23,7 +23,7 @@ Note: This policy is a part of the CF’s commitment to responsible stewardship 
 
 ## 9.2 Procedures for Dissolution
 
-- **Decision to Dissolve:** The decision to dissolve the CF must be approved by a majority vote of the CF Council.
+- **Decision to Dissolve:** The decision to dissolve the CF must be approved by a majority vote of the CF Council (CFC).
 - **Notification:** Upon the decision to dissolve, members, stakeholders, and relevant authorities must be notified.
 - **Asset Distribution:** Assets will be allocated in accordance with the dissolution clause and any legal requirements.
 - **Finalization:** All final legal steps required to complete the dissolution will be taken, including filing necessary documents with the appropriate authorities.
@@ -34,7 +34,7 @@ Records of the dissolution process will be maintained for legal and historical p
 
 ## 9.4 Amendments
 
-This policy is subject to changes and updates as required by law or as deemed necessary by the CF Council.
+This policy is subject to changes and updates as required by law or as deemed necessary by the CFC.
 
 ## 9.5 Contact
 

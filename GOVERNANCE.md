@@ -4,8 +4,18 @@ status: draft
 # Commonhaus Foundation Project Governance
 
 Welcome to the governance documentation for the Commonhaus Foundation (CF). 
+This document, forming **Section 2** of [CF Bylaws][bylaws], outlines the structures, roles, and processes that guide our collaborative and open-source community. It's designed to ensure clarity, fairness, and inclusivity in our decision-making and community interactions.
 
-This document is **Section 2** of [CF Bylaws][bylaws], outlines the structures, roles, and processes that guide our collaborative and open-source community. It's designed to ensure clarity, fairness, and inclusivity in our decision-making and community interactions.
+**Leadership and Membership Structure Overview**
+
+The CF operates with a clear structure to foster an effective and collaborative environment. Here's an overview:
+
+- **CF Council (CFC)**: The governing body responsible for overarching decisions, financial allocations, and setting future plans. It consists of elected members who prioritize the interests of the CF community in their actions.
+- **Project Leaders and Code Owners**: Key contributors who drive CF projects. They hold write permissions in project repositories and have full voting rights in CFC decisions.
+- **General Members**: Open to all who support our mission. Active members, contributing in various ways, can gain voting rights and participate in elections.
+- **CF Advisory Board**: Comprises representatives from supporting organizations, offering strategic guidance to the CFC.
+
+Understanding these roles will help in navigating the rest of the governance documentation, which details the specific functions and responsibilities of each group.
 
 - [2.1 CF Membership and Roles](#21-cf-membership-and-roles)
   - [2.1.1 Project Membership](#211-project-membership)
@@ -15,7 +25,7 @@ This document is **Section 2** of [CF Bylaws][bylaws], outlines the structures, 
 - [2.2 CF Council](#22-cf-council)
   - [2.2.1 Composition and Membership](#221-composition-and-membership)
   - [2.2.2 Tenure and Transition](#222-tenure-and-transition)
-  - [2.2.3 Apportioning Duties Among Council Members](#223-apportioning-duties-among-council-members)
+  - [2.2.3 Apportioning Duties Among CFC Members](#223-apportioning-duties-among-cfc-members)
 - [2.3. CF Advisory Board](#23-cf-advisory-board)
 - [2.4 Decision Making and Voting](#24-decision-making-and-voting)
   - [2.4.1 General Decision Making](#241-general-decision-making)
@@ -53,7 +63,7 @@ Project Leaders can submit an application for their project to join the Commonha
 Project Leaders and Code Owners play a crucial role in steering CF projects, shaping the foundation's future. Responsibilities include:
 
 - Holding write permissions in project repositories (managed through the `CODEOWNERS` file).
-- Full voting rights and automatic eligibility for Council positions.
+- Full voting rights and automatic eligibility for CFC positions.
 
 Further Reading: [About code owners](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-code-owners)
 
@@ -65,20 +75,20 @@ General membership is open to anyone dedicated to our mission. Active members, c
 - Community management, advocacy, or forum participation.
 - Active participation in elections.
 
-*TBD: Criteria and link to application form for individual members*
+*TBD: Criteria and link to application form for general members*
 
 ### 2.1.4 Membership Termination and Resignation
 
-- **Voluntary Resignation:** Members can resign by notifying the Council through a designated channel (e.g., email/form).
-- **Revocation of Membership:** The Council may dismiss members for behavior inconsistent with CF's mission or values. This process includes a review and an opportunity for the member to respond.
+- **Voluntary Resignation:** Members can resign by notifying the CFC through a designated channel (e.g., email/form).
+- **Revocation of Membership:** The CFC may dismiss members for behavior inconsistent with CF's mission or values. This process includes a review and an opportunity for the member to respond.
 
 ## 2.2 CF Council
 
-The CF Council (CFC) is the governing body of the CF, responsible for overseeing financial allocations, satisfying fiscal responsibilities, and setting future plans that serve the collective interests of the community.
-Council members must adhere to our [Conflict of Interest Policy][coi-policy] to ensure that personal or professional interests do not unduly influence their duties within the CF.
+The CFC is the governing body of the CF, responsible for overseeing financial allocations, satisfying fiscal responsibilities, and setting future plans that serve the collective interests of the community.
+CFC members must adhere to our [Conflict of Interest Policy][coi-policy] to ensure that personal or professional interests do not unduly influence their duties within the CF.
 
-The Council convenes regularly and holds an Annual General Meeting (AGM) to review the annual report, financial status, and set future plans.
-Special general meetings may be initiated with a defined agenda if proposed by at least a third of the Council members or by a significant fraction of the general members.
+The CFC convenes regularly and holds an Annual General Meeting to review the annual report, financial status, and set future plans.
+Special general meetings may be initiated with a defined agenda if proposed by at least a third of the CFC members or by a significant fraction of the general members.
 
 Agendas and schedules for these gatherings will be released in advance.
 Meetings open to the broader public are accessible to all members and interested observers.
@@ -88,49 +98,49 @@ Summaries of key decisions and discussions will be shared with the community to 
 
 ### 2.2.1 Composition and Membership
 
-The Council is composed of elected members who are recognized for their individual contributions and expertise in the open-source community. While members may be affiliated with various organizations, they are expected to prioritize the interests of the CF community in their decisions and actions.
+The CFC is composed of elected members who are recognized for their individual contributions and expertise in the open-source community. While members may be affiliated with various organizations, they are expected to prioritize the interests of the CF community in their decisions and actions.
 
-Council members are required to disclose any potential conflicts of interest, especially those related to their employment. This disclosure ensures transparency and helps maintain the integrity of the Council's decisions.
+CFC members are required to disclose any potential conflicts of interest, especially those related to their employment. This disclosure ensures transparency and helps maintain the integrity of CFC decisions.
 
-The selection process for Council members aims to reflect the diversity and breadth of the open-source community. We strive for a balanced representation that brings together a wide range of perspectives and skills.
+The selection process for CFC members aims to reflect the diversity and breadth of the open-source community. We strive for a balanced representation that brings together a wide range of perspectives and skills.
 
-- The Council has a minimum of 3 elected members: 1 [Council Chairperson](#2231-chairperson-of-the-council) and at least 2 members-at-large.
-- One-third of Council members must be direct representatives from our projects, maintaining a strong voice for project needs and perspectives. 
+- The CFC has a minimum of 3 elected members: 1 [CFC Chairperson](#2231-cfc-chairperson) and at least 2 members-at-large.
+- One-third of CFC members must be direct representatives from our projects, maintaining a strong voice for project needs and perspectives.
 - **Eligibility**: Any member that has been active within the CF community for at least six months can run or be nominated.
 - **Elections**: Conducted annually, with every member entitled to one vote.
 
 ### 2.2.2 Tenure and Transition
 
-For continuity and stability, elections for Council members (including the Council Chair) are staggered.
-In each election cycle, no more than two-thirds of Council seats will be up for reelection.
+For continuity and stability, elections for CFC members (including the CFC Chair) are staggered.
+In each election cycle, no more than two-thirds of CFC seats will be up for reelection.
 Upon completing their tenure, CFC members may seek re-election to extend their service, or step down.
 
-#### 2.2.2.1 Resignation and Removal of Council Members
+#### 2.2.2.1 Resignation and Removal of CFC Members
 
-- Council members wishing to resign must formally notify the Chairperson or the Council, with immediate cessation of their responsibilities and rights as Council members upon resignation.
-- A Council member may be removed for misconduct, failure to perform duties, or consistent non-participation.
-  The removal process includes a fair review, an opportunity for the member to respond, and a decision made through a vote by the remaining Council members or a general membership vote.
+- CFC members wishing to resign must formally notify the Chairperson or the CFC, with immediate cessation of their responsibilities and rights as CFC members upon resignation.
+- A CFC member may be removed for misconduct, failure to perform duties, or consistent non-participation.
+  The removal process includes a fair review, an opportunity for the member to respond, and a decision made through a vote by the remaining CFC members or a general membership vote.
 
-In the event of a vacancy, the Council will temporarily assign the duties of the vacated position to other members. A special election will then be held to fill the vacant council seat.
+In the event of a vacancy, the CFC will temporarily assign the duties of the vacated position to other members. A special election will then be held to fill the vacant seat.
 
-### 2.2.3 Apportioning Duties Among Council Members
+### 2.2.3 Apportioning Duties Among CFC Members
 
-The Council will decide the distribution of specific roles and responsibilities, such as Secretary and Treasurer duties, among its members. This ensures effective governance and leverages the strengths and interests of each Council member.
+The CFC will decide the distribution of specific roles and responsibilities, such as Secretary and Treasurer duties, among its members. This ensures effective governance and leverages the strengths and interests of each CFC member.
 
 - The **Secretary** is responsible for maintaining records, overseeing official correspondence, and managing organizational documentation.
 - The **Treasurer** oversees the financial affairs of the Foundation, including budgeting and financial reporting. In cases where a Fiscal Host or Agent is used, the Treasurer will coordinate with them for accounting and financial management.
 
-#### 2.2.3.1 Chairperson of the Council
+#### 2.2.3.1 CFC Chairperson
 
 The Chairperson orchestrates regular CFC meetings, ensuring leadership in discussions is evenly spread. They also oversee the proper handling of [Code of Conduct reports and escalations][coc-reports].
 
 #### 2.2.3.2 Committees and Delegation
 
-The Council may establish committees to manage specific areas of responsibility. While delegating tasks to these committees, the Council retains ultimate oversight and decision-making authority.
+The CFC may establish committees to manage specific areas of responsibility. While delegating tasks to these committees, the CFC retains ultimate oversight and decision-making authority.
 
 ## 2.3. CF Advisory Board
 
-The CF Advisory Board comprises representatives from organizations and companies that support the CF. It acts as a bridge between the CF and the broader tech industry, providing diverse insights and strategic guidance to inform the Council's decisions.
+The CF Advisory Board comprises representatives from organizations and companies that support the CF. It acts as a bridge between the CF and the broader tech industry, providing diverse insights and strategic guidance to inform CFC decisions.
 
 The Advisory Board does not have decision-making authority but plays a crucial role in shaping the foundation's direction through advice and industry perspectives. The structure is designed to ensure robust representation and dialogue:
 
@@ -190,7 +200,7 @@ It is customary for the initiator to post a summary once it appears that consens
 
 ### 2.4.2 Elections
 
-For Council elections, CF adopts a preference-based voting system facilitated by [Elekto](https://elekto.dev/).
+For CFC elections, CF adopts a preference-based voting system facilitated by [Elekto](https://elekto.dev/).
 This approach allows members to rank candidates in order of preference, ensuring the elected representatives are the most broadly supported by the community, rather than simply the most popular.
 
 - [Voting using Elekto](https://elekto.dev/docs/voting/)
@@ -211,4 +221,3 @@ CF logos, icons, and domain names are protected by trademark rights. Usage of th
 ## 2.8 Contributing
 
 We welcome all forms of contribution, from code improvements to documentation and design. For details on how to contribute and the process your contributions will follow, please read our [Contributing Guidelines][contrib].
-
