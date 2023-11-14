@@ -3,6 +3,8 @@ name: Check Markdown Links
 on:
   pull_request:
   push:
+    branches:
+    - main
   workflow_dispatch:
 
 jobs:
@@ -16,11 +18,19 @@ jobs:
         with:
           fetch-depth: 0
 
-      - uses: gaurav-nelson/github-action-markdown-link-check@v1
+      - name: Use Node.js
+        uses: actions/setup-node@v3
         with:
-          config-file: '.mlc_config.json'
+          node-version: '18.5'
+          cache: 'npm'
+
+      - name: Check markdown links
+        run: |
+          npm ci
+          npm run test
 
       - id: website-bump
+        if: github.ref == 'refs/heads/main' && github.repository == 'commonhaus/foundation-draft'
         env:
           GH_TOKEN: ${{ secrets.ACTIONS_PUBLISH_PAT }}
         run: |

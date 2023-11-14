@@ -1,0 +1,9 @@
+{
+  "scripts": {
+    "test": "find . -name '*.md' ! -path './node*' -print0 | xargs -0 npx markdown-link-check --config .mlc_config.json -q",
+    "tv": "find . -name '*.md' ! -path './node*' -print0 | xargs -0 npx markdown-link-check --config .mlc_config.json"
+  },
+  "dependencies": {
+    "markdown-link-check": "^3.11.2"
+  }
+}
