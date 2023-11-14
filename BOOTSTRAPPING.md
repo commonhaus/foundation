@@ -25,7 +25,7 @@ After the foundation is formally organized, there is a *Formation Period* during
 
 During this time, projects can monitor participation levels and foundational processes.
 
-- The initial [CF Council][cfc] will contain representatives from all participating projects.
+- The initial [CF Council][cfc] (CFC) will contain representatives from all participating projects.
 - Decisions should follow (and refine) the [CF decision making process][cc-dm].
 
 ## 4. Trademark Donations and Other Commitments

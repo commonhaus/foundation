@@ -7,7 +7,7 @@ This document is **Section 4** of Commonhaus Foundation (CF) [Bylaws][bylaws] an
 
 [bylaws]: ./README.md
 
-This policy applies to all individuals with decision-making authority within the CF, including Council members and officers, and extends to project leaders and members when their interests may influence Foundation activities.
+This policy applies to all individuals with decision-making authority within the CF, including CF Council (CFC) members and officers, and extends to project leaders and members when their interests may influence Foundation activities.
 
 - [4.1 Definition of Conflict of Interest](#41-definition-of-conflict-of-interest)
   - [Examples](#examples)
@@ -38,23 +38,23 @@ A conflict of interest occurs when an individual's personal, professional, or fi
 
 ### 4.2.1 Immediate Disclosure
 
-All individuals must disclose any potential conflict of interest as soon as it is recognized. This disclosure should be made to the CF Council or a designated point of contact.
+All individuals must disclose any potential conflict of interest as soon as it is recognized. This disclosure should be made to the CFC or a designated point of contact.
 
 ### 4.2.2 Annual Disclosure
 
-Each member of the CF Council and officers must provide an annual statement declaring any known potential conflicts of interest.
+Each member of the CFC and officers must provide an annual statement declaring any known potential conflicts of interest.
 
 ## 4.3 Managing Conflicts
 
-Upon the disclosure of a potential conflict, the individual involved must abstain from participating in discussions or decision-making processes related to the matter. The CF Council will review the situation and determine the appropriate course of action.
+Upon the disclosure of a potential conflict, the individual involved must abstain from participating in discussions or decision-making processes related to the matter. The CFC will review the situation and determine the appropriate course of action.
 
 ## 4.4 Transparency and Documentation
 
-All discussions and decisions related to conflicts of interest must be documented and included in the minutes of the CF Council meetings.
+All discussions and decisions related to conflicts of interest must be documented and included in the minutes of the CFC meetings.
 
 ## 4.5 Prohibited Acts
 
-The CF will not engage in transactions where there is a direct conflict of interest with a Council member, officer, or key person, unless it is in the best interest of the CF and has been thoroughly vetted and approved by the Council.
+The CF will not engage in transactions where there is a direct conflict of interest with a CFC member, officer, or key person, unless it is in the best interest of the CF and has been thoroughly vetted and approved by the CFC.
 
 ## 4.6 Guidelines for Gifts and Hospitality
 
@@ -72,6 +72,6 @@ All individuals will abstain from discussions or votes concerning their own comp
 
 ## 4.9 Review of Policy
 
-This policy will be reviewed periodically to ensure it remains relevant and effective. Any amendments will be approved by the CF Council.
+This policy will be reviewed periodically to ensure it remains relevant and effective. Any amendments will be approved by the CFC.
 
 For questions or clarifications on this policy, please contact `legal@mailing-list`.
