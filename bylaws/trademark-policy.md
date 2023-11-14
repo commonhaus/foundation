@@ -22,7 +22,7 @@ This document, forming **Section 7** of Commonhaus Foundation (CF) [Bylaws][byla
 
 ## 7.1 Trademark Definitions and Ownership
 
-The Commonhaus Foundation owns all CF trademarks, both registered and unregistered. A comprehensive list of registered trademarks, pending registrations, and trademarks in use can be found at https://trademark-list.website.
+The Commonhaus Foundation owns all CF trademarks, both registered and unregistered. A comprehensive list of registered trademarks, pending registrations, and trademarks in use can be found at <https://trademark-list.website>.
 
 ### 7.1.1 Ownership and Specific Project Trademarks
 
