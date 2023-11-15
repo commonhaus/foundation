@@ -29,6 +29,10 @@ The CF will conduct activities lawful for a nonprofit corporation organized unde
 
 The CF may have offices either within or outside the Central Florida area (or anywhere throughout the State of Florida), as the [CF Council][] (CFC) may designate or as the affairs of the CF may require from time to time.
 
+### 1.4 Governance Structure
+
+For the purposes of governance and legal compliance, the Commonhaus Foundation Council (CFC) serves as the Board of Directors of the organization as outlined in the Articles of Incorporation and Bylaws of the Commonhaus Foundation.
+
 ## SECTIONS
 
 Please see the following sections: 
