@@ -84,7 +84,8 @@ General membership is open to anyone dedicated to our mission. Active members, c
 
 ## 2.2 CF Council
 
-The CFC is the governing body of the CF, responsible for overseeing financial allocations, satisfying fiscal responsibilities, and setting future plans that serve the collective interests of the community.
+The Commonhaus Foundation Council (CFC), as referenced in this document, fulfills the role and responsibilities of the Board of Directors as per the legal requirements of the State of Florida and as defined in our Articles of Incorporation and Bylaws. The CFC is entrusted with the overall strategic guidance, governance, and fiduciary oversight of the Commonhaus Foundation.
+
 CFC members must adhere to our [Conflict of Interest Policy][coi-policy] to ensure that personal or professional interests do not unduly influence their duties within the CF.
 
 The CFC convenes regularly and holds an Annual General Meeting to review the annual report, financial status, and set future plans.
