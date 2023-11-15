@@ -8,6 +8,7 @@ This document, forming **Section 6** of Commonhaus Foundation (CF) [Bylaws][byla
 [bylaws]: ./README.md
 [cfc]: ../GOVERNANCE.md#commonhaus-foundation-council "CF Council"
 [standard website footer]: ./website-footer.md "CF website footers"
+[IP Policy]: ./ip-policy.md "CF IP Policy"
 
 - [6.1 License Selection and Usage](#61-license-selection-and-usage)
 - [6.2 Contributions](#62-contributions)
