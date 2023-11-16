@@ -16,8 +16,8 @@ We are dedicated to ensuring the long-term growth and stability of GitHub-style 
 Our vision is to create a dynamic and inclusive community where developers, contributors, and users unite to drive the evolution of open-source libraries and frameworks. We aim to cultivate an ecosystem that thrives on collaborative innovation, bypassing the complexities of traditional governance models.
 
 [codehaus]: https://www.infoworld.com/article/2892227/codehaus-the-once-great-house-of-code-has-fallen.html
-[succession]: bylaws/succession-plan.md
-[ip-policy]: bylaws/ip-policy.md
+[succession]: policies/succession-plan.md
+[ip-policy]: policies/ip-policy.md
 
 ## Core Distinctions of CF
 

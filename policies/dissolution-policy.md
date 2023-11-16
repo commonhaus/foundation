@@ -1,14 +1,7 @@
 ---
 status: draft
 ---
-# Commonhaus Foundation Dissolution Policy
-
-This document is **Section 9** of the Commonhaus Foundation (CF) [Bylaws][bylaws]. It outlines the policies and procedures to be followed if CF is dissolved.
-
-[bylaws]: ./README.md
-[record-keeping]: ./legal-compliance.md#32-record-keeping
-
-## 9.1 Dissolution and Asset Distribution
+# Dissolution and Asset Distribution
 
 In the unfortunate event that the Commonhaus Foundation must dissolve, the following steps will be taken to ensure a responsible and lawful closure:
 
@@ -19,23 +12,21 @@ In the unfortunate event that the Commonhaus Foundation must dissolve, the follo
 
 This plan for dissolution ensures that the CF's assets will be used in a manner consistent with its mission and purpose, even after the organization ceases to exist.
 
-Note: This policy is a part of the CF’s commitment to responsible stewardship and transparency in all its operations.
+## Procedures for Dissolution
 
-## 9.2 Procedures for Dissolution
-
-- **Decision to Dissolve:** The decision to dissolve the CF must be approved by a majority vote of the CF Council (CFC).
+- **Decision to Dissolve:** The decision to dissolve the CF must be approved by a supermajority vote of the CF Council (CFC).
 - **Notification:** Upon the decision to dissolve, members, stakeholders, and relevant authorities must be notified.
 - **Asset Distribution:** Assets will be allocated in accordance with the dissolution clause and any legal requirements.
 - **Finalization:** All final legal steps required to complete the dissolution will be taken, including filing necessary documents with the appropriate authorities.
 
-## 9.3 Record Keeping
+## Record Keeping
 
-Records of the dissolution process will be maintained for legal and historical purposes, following the same procedures as outlined in the CF [Record Keeping Policy][record-keeping] (Section 3.2).
+Records of the dissolution process will be maintained for legal and historical purposes, following the same procedures as outlined in the CF [Record Keeping Policy][record-keeping].
 
-## 9.4 Amendments
+## Review of Policy
 
-This policy is subject to changes and updates as required by law or as deemed necessary by the CFC.
+This policy will be reviewed periodically to ensure it remains relevant and effective. Amendments or changes to this policy will follow the [amendment process][].
 
-## 9.5 Contact
+For questions or clarifications on this policy, please contact `legal@mailing-list`.
 
-For questions regarding the Dissolution Policy, please contact `legal@mailing-list`.
+[amendment process]: ../bylaws/amendments.md
