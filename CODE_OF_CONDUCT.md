@@ -3,51 +3,62 @@ status: draft
 ---
 # The Commonhaus Foundation Code of Conduct
 
-Welcome to the Code of Conduct (CoC) for the Commonhaus Foundation (CF). This document, forming **Section 8** of the CF [Bylaws][bylaws], reflects our dedication to fostering a respectful, inclusive, and collaborative environment. It sets the standards for behavior expected in our community and provides a framework for addressing and resolving issues in a fair and respectful manner.
+Welcome to the Code of Conduct (CoC) for the Commonhaus Foundation (CF). This document reflects our dedication to fostering a respectful, inclusive, and collaborative environment. It sets the standards for behavior expected in our community and provides a framework for addressing and resolving issues in a fair and respectful manner.
 
-- [8.1 Contact information](#81-contact-information)
-- [8.2 Our Code of Conduct](#82-our-code-of-conduct)
-  - [8.2.1 Member Expectations](#821-member-expectations)
-  - [8.2.2 Report an issue](#822-report-an-issue)
-  - [8.2.3 Respond to a CoC issue](#823-respond-to-a-coc-issue)
-  - [8.2.4 Escalate an issue](#824-escalate-an-issue)
-  - [8.2.5 Code of Conduct Panel](#825-code-of-conduct-panel)
-- [8.3 Handling Reports and Escalations](#83-handling-reports-and-escalations)
-  - [8.3.1 Conflict of Interest](#831-conflict-of-interest)
-  - [8.3.2 Reports to `report@mailing-list`](#832-reports-to-reportmailing-list)
-  - [8.3.3 Reports to `coc-escalation@mailing-list`](#833-reports-to-coc-escalationmailing-list)
-- [Contributor Covenant Code of Conduct](#contributor-covenant-code-of-conduct)
-- [Attribution](#attribution)
+- [Contact information](#contact-information)
+- [Our Code of Conduct](#our-code-of-conduct)
+  - [Member Expectations](#member-expectations)
+  - [Report an issue](#report-an-issue)
+  - [Respond to a CoC issue](#respond-to-a-coc-issue)
+  - [Escalate an issue](#escalate-an-issue)
+  - [Code of Conduct Panel](#code-of-conduct-panel)
+- [Handling Reports and Escalations](#handling-reports-and-escalations)
+  - [Conflict of Interest](#conflict-of-interest)
+  - [Reports to `report@mailing-list`](#reports-to-reportmailing-list)
+  - [Reports to `coc-escalation@mailing-list`](#reports-to-coc-escalationmailing-list)
+- **Contributor Covenant Code of Conduct**
+  - [Our Pledge](#our-pledge)
+  - [Our Standards](#our-standards)
+  - [Enforcement Responsibilities](#enforcement-responsibilities)
+  - [Scope](#scope)
+  - [Enforcement](#enforcement)
+  - [Enforcement Guidelines](#enforcement-guidelines)
+    - [Correction](#correction)
+    - [Warning](#warning)
+    - [Temporary Ban](#temporary-ban)
+    - [Permanent Ban](#permanent-ban)
+  - [Attribution](#attribution)
 
-
-[bylaws]: ./bylaws/README.md
-[cfc]: GOVERNANCE.md#commonhaus-foundation-council "Commonhaus Foundation Council"
-[cc-dm]: GOVERNANCE.md#decision-making-and-voting
-[coc-reports]: #83-handling-reports-and-escalations
-[cocp]: #825-code-of-conduct-panel "Code of Conduct Panel"
-[membership]: https://github.com/commonhaus/foundation-draft/blob/main/MEMBERS.yaml "Members"
-
-## 8.1 Contact information
+## Contact information
 
 - **Project-related Issues:** Each CF project will define a `CODE_OF_CONDUCT.md`. For issues related to a project, start there.
-- **Foundation-wide Issues:** Issues related to the CF should be sent to `report@mailing-list` for [review](#823-respond-to-a-coc-issue) by the [Commonhaus Foundation Council][cfc] (CFC).
+- **Foundation-wide Issues:** Issues related to the CF should be sent to `report@mailing-list` for [review][coc-response] by the [Commonhaus Foundation Council][cfc] (CFC).
   - The CFC will follow [CF CoC procedures][coc-reports] when handling CoC reports.
   - Records will be kept in TODO-private-repository. Access to this repository is restricted to current CFC members.
-- **Escalations:** [Escalations](#824-escalate-an-issue) should be sent to `coc-escalation@mailing-list` for review by the [Code of Conduct Panel (COCP)][cocp].
+- **Escalations:** [Escalations](#escalate-an-issue) should be sent to `coc-escalation@mailing-list` for review by the [Code of Conduct Panel (COCP)][cocp].
   - The [CoCP][cocp] will follow [CF CoC procedures][coc-reports] when handling CoC reports and escalations.
   - Records will be kept in TODO-private-repository. Access to this repository is restricted to CoCP members.
 
-## 8.2 Our Code of Conduct
+[cfc]: ./bylaws/cf-council.md
+[coc-response]: #respond-to-a-coc-issue
+[coc-reports]: #handling-reports-and-escalations
+[cocp]: #code-of-conduct-panel "Code of Conduct Panel"
+[cc-dm]: ./bylaws/decision-making.md
+[membership]: https://github.com/commonhaus/foundation-draft/blob/main/MEMBERS.yaml "Members"
+
+## Our Code of Conduct
 
 The CF has adopted the [Contributor Covenant v2.1][v2.1] as its CoC (full text [below](#contributor-covenant-code-of-conduct)).
 
 - The CoC applies to all foundation activities.
 - New projects must adopt this CoC within 3 months of joining the foundation.
 
-A CoC is meaningful only [when it is effectively enforced](https://medium.com/mozilla-open-innovation/how-were-making-code-of-conduct-enforcement-real-and-scaling-it-3e382cf94415).
+A CoC is meaningful only [when it is effectively enforced][moz-coc].
 Having a unified CoC allows for consistent enforcement and better support across all CF projects.
 
-### 8.2.1 Member Expectations
+[moz-coc]: https://medium.com/mozilla-open-innovation/how-were-making-code-of-conduct-enforcement-real-and-scaling-it-3e382cf94415
+
+### Member Expectations
 
 All participants in CF projects are bound by the principles outlined in this Code of Conduct.
 
@@ -60,9 +71,13 @@ Members of CF and CF project contributors are expected to be respectful of diffe
 
 If you're interested in an introduction to diversity, inclusion, and unconscious bias, consider these resources:
 
-- [Inclusive Speaker Orientation (Linux Foundation)](https://training.linuxfoundation.org/training/inclusive-speaker-orientation/)
-- [Inclusion at Scale in the Mozilla and Kubernetes Open Source Communities (The New Stack)](https://thenewstack.io/inclusion-at-scale-in-the-mozilla-and-kubernetes-open-source-communities/)
-- [We See You! Reaching Diverse Audiences in FOSS](https://medium.com/mozilla-open-innovation/we-see-you-reaching-diverse-audiences-in-foss-4e83efc86425)
+- [Inclusive Speaker Orientation (Linux Foundation)][2]
+- [Inclusion at Scale in the Mozilla and Kubernetes Open Source Communities (The New Stack)][3]
+- [We See You! Reaching Diverse Audiences in FOSS][4]
+
+[2]: https://training.linuxfoundation.org/training/inclusive-speaker-orientation/
+[3]: https://thenewstack.io/inclusion-at-scale-in-the-mozilla-and-kubernetes-open-source-communities/
+[4]: https://medium.com/mozilla-open-innovation/we-see-you-reaching-diverse-audiences-in-foss-4e83efc86425
 
 #### Leadership Expectations
 
@@ -72,7 +87,7 @@ When decisions are made within the established guidelines and policies of CF pro
 
 This does not mean that decisions are set in stone. CF projects and the CFC are always able to revisit decisions at a later time.
 
-### 8.2.2 Report an issue
+### Report an issue
 
 - Each CF project is free to implement enforcement of the CoC using processes appropriate for the size and scope of the project. CoC enforcement processes and contact methods must be defined in the projects' `CODE_OF_CONDUCT.md`.
 - For CF repositories that do not specify their own `CODE_OF_CONDUCT.md`, send your report to `report@mailing-list`. The CFC will receive these reports.
@@ -81,7 +96,7 @@ Confidentiality is of utmost importance. We also understand that the person repo
 
 - The CF *prohibits retaliation* against individuals who report concerns in good faith.
 
-### 8.2.3 Respond to a CoC issue
+### Respond to a CoC issue
 
 Each complaint will be reviewed and investigated, and will result in a response that is deemed necessary and appropriate to the circumstances.
 
@@ -91,7 +106,7 @@ Access to the private repository should be restricted to individuals charged wit
 
 **Confidentiality:** Given that membership to groups like the CFC or the CoCP have finite terms, members reviewing CoC reports agree to treat all reports as confidential, even after their term is finished.
 
-### 8.2.4 Escalate an issue
+### Escalate an issue
 
 We expect most reports to be handled by the processes put in place by a project or the CFC.
 
@@ -99,7 +114,7 @@ The CF maintains the CoCP to manage escalation when a reporter (a) believes that
 
 Email `coc-escalation@mailing-list` to escalate an issue to the CoCP. The CoCP will meet to review submitted reports as described in [CF CoC procedures][coc-reports]
 
-### 8.2.5 Code of Conduct Panel
+### Code of Conduct Panel
 
 The CoCP is a foundation-wide team composed of the CFC Chairperson and 4 elected individuals who are not members of the CFC.
 
@@ -108,15 +123,15 @@ CoCP members should consider objectivity and diversity of experience and perspec
 
 Members of the CoCP will be documented in the `cocp-panel` [MEMBERS.yaml][membership] attribute.
 
-## 8.3 Handling Reports and Escalations
+## Handling Reports and Escalations
 
 This section describes the process and roles for handling Code of Conduct (CoC) reports and escalations for both the CFC and the CF Code of Conduct Panel (CoCP).
 
-### 8.3.1 Conflict of Interest
+### Conflict of Interest
 
 Any member of the CFC or CoCP who is involved in the report must recuse themselves from the discussions.
 
-### 8.3.2 Reports to `report@mailing-list`
+### Reports to `report@mailing-list`
 
 All members of the CFC are subscribed to the `report@mailing-list` mailing list.
 
@@ -130,7 +145,7 @@ We understand that the person reporting the issue (**reporter**) may not be the 
 6. **Communication of Resolution:** The resolution is shared with the reporter or target. Feedback loops can continue until concerns have been adequately addressed. Absence of feedback within 7 days means resolution acceptance.
 7. **Finalization:** The agreed resolution is implemented.
 
-### 8.3.3 Reports to `coc-escalation@mailing-list`
+### Reports to `coc-escalation@mailing-list`
 
 All members of the CoCP are subscribed to the `coc-escalation@mailing-list` mailing list.
 
@@ -214,7 +229,7 @@ reporter of any incident.
 Community leaders will follow these Community Impact Guidelines in determining
 the consequences for any action they deem in violation of this Code of Conduct:
 
-### 1. Correction
+### Correction
 
 **Community Impact**: Use of inappropriate language or other behavior deemed
 unprofessional or unwelcome in the community.
@@ -223,7 +238,7 @@ unprofessional or unwelcome in the community.
 clarity around the nature of the violation and an explanation of why the
 behavior was inappropriate. A public apology may be requested.
 
-### 2. Warning
+### Warning
 
 **Community Impact**: A violation through a single incident or series of
 actions.
@@ -235,7 +250,7 @@ includes avoiding interactions in community spaces as well as external channels
 like social media. Violating these terms may lead to a temporary or permanent
 ban.
 
-### 3. Temporary Ban
+### Temporary Ban
 
 **Community Impact**: A serious violation of community standards, including
 sustained inappropriate behavior.
@@ -246,7 +261,7 @@ private interaction with the people involved, including unsolicited interaction
 with those enforcing the Code of Conduct, is allowed during this period.
 Violating these terms may lead to a permanent ban.
 
-### 4. Permanent Ban
+### Permanent Ban
 
 **Community Impact**: Demonstrating a pattern of violation of community
 standards, including sustained inappropriate behavior, harassment of an
@@ -267,6 +282,8 @@ Community Impact Guidelines were inspired by
 For answers to common questions about this code of conduct, see the FAQ at
 [https://www.contributor-covenant.org/faq][FAQ]. Translations are available at
 [https://www.contributor-covenant.org/translations][translations].
+
+---
 
 [homepage]: https://www.contributor-covenant.org
 [v2.1]: https://www.contributor-covenant.org/version/2/1/code_of_conduct.html
