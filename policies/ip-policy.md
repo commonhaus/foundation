@@ -1,7 +1,7 @@
 ---
 status: draft
 ---
-# Commonhaus Foundation Intellectual Property Policy
+# Intellectual Property Policy
 
 This document outlines our policies on intellectual property (IP) to guide contributors and safeguard the interests of our projects and community.
 

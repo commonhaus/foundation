@@ -1,7 +1,7 @@
 ---
 status: draft
 ---
-# Commonhaus Foundation Conflict of Interest Policy
+# Conflict of Interest Policy
 
 This document establishes policies for identifying, disclosing, and managing conflicts of interest within the CF.
 
