@@ -1,0 +1,89 @@
+name: Build PDF and publish to commonhaus.github.io
+
+on:
+  pull_request:
+  push:
+    branches:
+    - main
+  workflow_dispatch:
+
+env:
+  PANDOCK: ebullient/pandoc-emoji:3.1
+
+jobs:
+  main-root:
+    runs-on: ubuntu-latest
+    if: github.ref == 'refs/heads/main' && github.repository == 'commonhaus/foundation-draft'
+    steps:
+      - id: is-main-root
+        run: echo "This is the main branch of 'commonhaus/foundation-draft'"
+
+  lint:
+    name: Check markdown links
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+
+      - name: Use Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '18.5'
+          cache: 'npm'
+
+      - name: Check markdown links
+        run: |
+          npm ci
+          npm run test
+
+  bump:
+    name: Update website
+    needs: [main-root, lint]
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Bump website
+        env:
+          GH_TOKEN: ${{ secrets.ACTIONS_PUBLISH_PAT }}
+        run: |
+          gh workflow run -R commonhaus/commonhaus.github.io gh-pages.yml
+
+  package:
+    name: Package PDFs
+    needs: lint
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+
+      - run: mkdir -p ~/image-cache
+
+      - id: image-cache
+        uses: actions/cache@v3.3.2
+        with:
+            path: ~/image-cache
+            key: image-cache-${{ runner.os }}
+
+      - if: steps.image-cache.outputs.cache-hit != 'true'
+        run: |
+            docker pull ${PANDOCK}
+            docker save -o ~/image-cache/pandock.tar alpine
+
+      - if: steps.image-cache.outputs.cache-hit == 'true'
+        run: docker load -i ~/image-cache/pandock.tar
+
+      - name: convert md to pdf
+        env:
+          GIT_COMMIT: ${{ github.sha }}
+          GH_TOKEN: ${{ github.token }}
+          IS_PR: ${{ github.event_name == 'pull_request' }}
+        run: ./.github/docker-build-pdf.sh
+
+      - uses: actions/upload-artifact@v3
+        with:
+          name: output
+          path: output/public

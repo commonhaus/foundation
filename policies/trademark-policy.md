@@ -1,7 +1,7 @@
 ---
 status: draft
 ---
-# Commonhaus Foundation Trademark Policy
+# Trademark Policy
 
 This document is a statement regarding the use and licensing of trademarks owned by the CF and used by CF projects. For purposes of this document, references to trademarks or marks include all trade and service marks and logos owned by the Commonhaus Foundation legal entity.
 

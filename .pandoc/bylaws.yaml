@@ -1,0 +1,24 @@
+from: gfm+emoji
+reader: gfm+emoji
+number-sections: true
+file-scope: true
+filters:
+- .pandoc/fix-links.lua
+pdf-engine: lualatex
+pdf-engine-opts:
+  - '-shell-escape'
+template: commonhaus-eisvogel
+toc: true
+toc-depth: 3
+variables:
+  geometry: margin=1in
+  linkcolor: blue
+  listings: true
+  hyperrefoptions:
+  - linktoc=all
+  - pdfencoding=unicode
+  - linktocpage
+  - bookmarks=true
+  - bookmarksnumbered=true
+  - bookmarksopen
+  website: https://www.commonhaus.org/
