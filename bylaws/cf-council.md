@@ -26,22 +26,26 @@ The Commonhaus Foundation Council (CFC) serves as the Board of Directors for the
 
 ### Regular and Special Meetings
 
-- **Meeting Frequency:** The CFC holds regular meetings at least once per quarter to discuss strategic and operational matters.
-- **Annual General Meeting (AGM):** An AGM reviews the annual report, financial status, and sets plans for the upcoming year.
-- **Special General Meetings:** Convened for specific purposes, proposed by at least one-third of CFC members or a significant fraction of the general membership.
-- **Place and Time:** Meetings can be held at any time and place as determined by the CFC, with a preference for online videoconference or teleconference.
+The CFC conducts meetings primarily through electronic means to accommodate its globally distributed and remote members. Key points:
+
+- **Frequency:** Regular meetings are held quarterly for strategic and operational discussions.
+- **Annual General Meeting (AGM):** Conducted via online platforms, the AGM reviews the annual report and sets plans.
+- **Special General Meetings:** Called for specific purposes, they can also be held electronically.
+- **Platform:** Online tools facilitating video and voice interactions are used for remote participation.
 
 ### Electronic Participation and Action by Written Consent
 
-- **Remote Involvement:** CFC members may participate in meetings electronically, including like teleconferencing or video conferencing.
-- **Decision Making Outside Meetings:** The CFC can make decisions through written consent outside of formal meetings, involving a written resolution distributed to all CFC members for their approval or disapproval.
-- **Effectiveness of Consent:** Actions by written consent are effective if they receive the majority's approval. This process is suitable for urgent or straightforward decisions not requiring a full meeting.
+Efficient participation and decision-making are essential for geographically dispersed CFC members. Here's how electronic methods are used:
+
+- **Remote Involvement:** CFC members actively participate in meetings through teleconferencing or video conferencing tools.
+- **Decision Making Outside Meetings:** Decisions can be made through written consent, following the [decision-making process][consensus], with proper [notice][] and [record keeping][records].
+- **Effectiveness:** Actions by written consent require majority approval, suitable for urgent or straightforward decisions.
 
 ### Agendas, Access, and Records
 
-- **Agenda Setting:** Agendas for meetings are prepared in advance, incorporating items proposed by CFC members and the general membership.
+- **Agenda Setting:** Agendas are prepared in advance, incorporating items proposed by CFC members and the general membership.
 - **Public Access:** Meetings are generally open to the public, except for confidential matters.
-- **Meeting Minutes:** Minutes or summaries of key decisions and discussions are stored in a GitHub repository as per our [Record Keeping policy][records].
+- **Meeting Minutes:** Minutes and summaries of key decisions and discussions are stored in a GitHub repository as per our [Record Keeping policy][records].
 
 ## Composition and Membership
 
@@ -119,6 +123,7 @@ Certain critical actions (anything requiring a Supermajority vote) are reserved 
 [coi-policy]: ../policies/conflict-of-interest.md
 [MEMBERS.yaml]: https://github.com/commonhaus/foundation-draft/blob/main/MEMBERS.yaml
 [bylaws]: ./README.md
+[notice]: ./notice-records.md#notice
 [records]: ./notice-records.md#record-keeping
 [consensus]: ./decision-making.md#general-decision-making
 [elections]: ./decision-making.md#elections
