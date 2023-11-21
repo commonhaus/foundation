@@ -19,5 +19,3 @@ Amendments and changes to CF Bylaws and Policies are proposed, reviewed, and app
 6. **Implementation:** Approved amendments are promptly reflected in the Bylaws repository, with the changes effective immediately unless otherwise specified.
 
 This process ensures that amendments to the Bylaws are made with consideration, transparency, and the consensus of the CF community.
-
-[bylaws]: ./README.md

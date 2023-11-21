@@ -7,6 +7,19 @@ This document establishes policies for identifying, disclosing, and managing con
 
 This policy applies to all individuals with decision-making authority within the CF, including CF Council (CFC) members and officers, and extends to project leaders and members when their interests may influence Foundation activities.
 
+- [Definition of Conflict of Interest](#definition-of-conflict-of-interest)
+  - [Examples](#examples)
+- [Disclosing Potential Conflicts of Interest](#disclosing-potential-conflicts-of-interest)
+  - [Immediate Disclosure](#immediate-disclosure)
+  - [Annual Disclosure](#annual-disclosure)
+- [Managing Conflicts](#managing-conflicts)
+- [Transparency and Documentation](#transparency-and-documentation)
+- [Prohibited Acts](#prohibited-acts)
+- [Guidelines for Gifts and Hospitality](#guidelines-for-gifts-and-hospitality)
+- [Training and Compliance](#training-and-compliance)
+- [Procedures for Determining Compensation](#procedures-for-determining-compensation)
+- [Review of Policy](#review-of-policy)
+
 ## Definition of Conflict of Interest
 
 A conflict of interest occurs when an individual's personal, professional, or financial interests could potentially interfere with or influence their decisions or actions on behalf of the CF.

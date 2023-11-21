@@ -30,3 +30,4 @@ This policy will be reviewed periodically to ensure it remains relevant and effe
 For questions or clarifications on this policy, please contact `legal@mailing-list`.
 
 [amendment process]: ../bylaws/amendments.md
+[record-keeping]: ../bylaws/notice-records.md#record-keeping

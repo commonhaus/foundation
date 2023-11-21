@@ -18,6 +18,6 @@ The Advisory Board does not have decision-making authority but plays a crucial r
 
 - **Engagement**: The Advisory Board's engagement is pivotal in aligning the CF's strategic initiatives with industry needs, ensuring that the foundation remains relevant and responsive to the ecosystem it serves.
 
-An up-to-date list of Advisory Board representatives will be maintained in the `advisory-board` [MEMBERS.yaml][] attribute, fostering transparency and openness.
+An up-to-date list of Advisory Board representatives will be maintained in the `advisory-board` [MEMBERS.yaml][] attribute.
 
 [MEMBERS.yaml]: https://github.com/commonhaus/foundation-draft/blob/main/MEMBERS.yaml
