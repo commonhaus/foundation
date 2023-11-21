@@ -56,7 +56,7 @@ This policy may undergo periodic reviews and updates to cater to the evolving ne
 For questions or clarifications on this policy, please contact `legal@mailing-list`.
 
 [amendment process]: ../bylaws/amendments.md
-[GOVERNANCE.md]: ../GOVERNANCE.md
-[CONTRIBUTING.md]: ../CONTRIBUTING.md
+[GOVERNANCE.md]: https://github.com/commonhaus/foundation-draft/blob/main/GOVERNANCE.md
+[CONTRIBUTING.md]: https://github.com/commonhaus/foundation-draft/blob/main/CONTRIBUTING.md
 [GOV-TPL]: https://github.com/commonhaus/foundation-draft/blob/main/templates/GOVERNANCE.md
 [CONTRIB-TPL]: https://github.com/commonhaus/foundation-draft/blob/main/templates/CONTRIBUTING.md

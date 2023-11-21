@@ -15,9 +15,9 @@ follows the [Commonhaus Foundation (CF) CoC][coc-policy] (included below).
 - [Escalations](#escalate-an-issue) should be sent to `coc-escalation@mailing-list` for review by the [Code of Conduct Panel (COCP)][cocp].
 
 [cfc]: https://github.com/commonhaus/foundation-draft/blob/main/GOVERNANCE.md#commonhaus-foundation-council "Commonhaus Foundation Council"
-[cocp]: https://github.com/commonhaus/foundation-draft/blob/main/CODE_OF_CONDUCT.md#code-of-conduct-panel "Code of Conduct Panel"
-[coc-policy]: https://github.com/commonhaus/foundation-draft/blob/main/CODE_OF_CONDUCT.md
-[coc-reports]: https://github.com/commonhaus/foundation-draft/blob/main/CODE_OF_CONDUCT.md#handling-reports-and-escalations "Handling CoC reports"
+[cocp]: https://github.com/commonhaus/foundation-draft/blob/main/policies/code-of-conduct.md#code-of-conduct-panel "Code of Conduct Panel"
+[coc-policy]: https://github.com/commonhaus/foundation-draft/blob/main/policies/code-of-conduct.md
+[coc-reports]: https://github.com/commonhaus/foundation-draft/blob/main/policies/code-of-conduct.md#handling-reports-and-escalations "Handling CoC reports"
 [MEMBERS.yaml]: https://github.com/commonhaus/foundation-draft/blob/main/MEMBERS.yaml "Members"
 
 ---

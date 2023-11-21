@@ -74,9 +74,10 @@ This policy will be reviewed periodically to ensure it remains relevant and effe
 
 For questions or clarifications on this policy, please contact `legal@mailing-list`.
 
+[IP Policy]: ../policies/ip-policy.md
 [amendment process]: ../bylaws/amendments.md
-[cfc]: ../GOVERNANCE.md#commonhaus-foundation-council "CF Council"
-[standard website footer]: ../templates/website-footer.md "CF website footers"
+[cfc]: ../bylaws/cf-council.md "CF Council"
+[standard website footer]: https://github.com/commonhaus/foundation-draft/blob/main/templates/website-footer.md "CF website footers"
 [CC BY 4.0]: http://creativecommons.org/licenses/by/4.0/ "Creative Commons Attribution 4.0 International License (CC BY 4.0)"
 [MIT]: https://opensource.org/license/mit/ "The MIT License"
 [DCO]: http://developercertificate.org/

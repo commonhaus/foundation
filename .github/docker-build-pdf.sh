@@ -133,10 +133,11 @@ function to_policy_pdf() {
 }
 
 # Convert all policies to PDF
+to_policy_pdf code-of-conduct "Code of Conduct"
 to_policy_pdf conflict-of-interest "Conflict of Interest"
 to_policy_pdf dissolution-policy "Dissolution"
 to_policy_pdf ip-policy "Intellectual Property"
-to_policy_pdf trademark-policy "Trademark"
 to_policy_pdf succession-plan "Continuity and Administrative Access"
+to_policy_pdf trademark-policy "Trademark"
 
 # TODO: to_policy_pdf privacy "Privacy"

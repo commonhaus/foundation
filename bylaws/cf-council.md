@@ -63,6 +63,6 @@ The Chairperson orchestrates regular CFC meetings, ensuring leadership in discus
 
 The CFC may establish committees to manage specific areas of responsibility. While delegating tasks to these committees, the CFC retains ultimate oversight and decision-making authority.
 
-[coc-reports]: ../CODE_OF_CONDUCT.md#handling-reports-and-escalations
+[coc-reports]: ../policies/code-of-conduct.md#handling-reports-and-escalations
 [coi-policy]: ../policies/conflict-of-interest.md
 [MEMBERS.yaml]: https://github.com/commonhaus/foundation-draft/blob/main/MEMBERS.yaml

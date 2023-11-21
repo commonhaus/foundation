@@ -58,7 +58,7 @@ We welcome all forms of contribution, from code improvements to documentation an
 [cf-decision-making]: ./bylaws/decision-making.md
 [cfab]: ./bylaws/cf-advisory-board.md
 [cfc]: ./bylaws/cf-council.md
-[coc]: ./CODE_OF_CONDUCT.md
+[coc]: ./policies/code-of-conduct.md
 [contrib]: ./CONTRIBUTING.md
 [membership]: ./bylaws/cf-membership.md
 [records]: ./bylaws/notice-records.md
