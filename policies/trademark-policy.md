@@ -109,7 +109,7 @@ In exchange for using the mark, the Commonhaus requires the administrator of the
 > Donations made here will go directly to the individuals contributing to [Project Name], and not to the Commonhaus Foundation.
 > The [Project Name] marks are used under license from the Commonhaus Foundation for the open source community's benefit."
 
-To request permission to use a mark, please contact `trademarks@mailing-list`.
+To request permission to use a mark, please contact the [`trademarks` mailing list][CONTACTS.yaml].
 
 Finally, if you are raising money through crowdfunding, be aware that you are not acting on behalf of the Commonhaus Foundation. It is your responsibility to know and follow all applicable laws.
 
@@ -117,7 +117,7 @@ Finally, if you are raising money through crowdfunding, be aware that you are no
 
 We value input from our community in maintaining the integrity of the Commonhaus Foundation's trade and service marks.
 
-If you have questions with respect to these guidelines or to report concerns regarding the use or misuse of a trademark of the Commonhaus Foundation, or to obtain written permission for a proposed use of Commonhaus trademarks, contact `trademarks@mailing-list`.
+If you have questions with respect to these guidelines or to report concerns regarding the use or misuse of a trademark of the Commonhaus Foundation, or to obtain written permission for a proposed use of Commonhaus trademarks, contact the [`trademarks` mailing list][CONTACTS.yaml].
 
 ## Disclaimer
 
@@ -138,4 +138,5 @@ It is licensed under a Creative
 Commons Attribution 4.0 International license (“CC BY 4.0”, available at
 <https://creativecommons.org/licenses/by/4.0>).
 
+[CONTACTS.yaml]: https://github.com/commonhaus/foundation-draft/blob/main/CONTACTS.yaml
 [amendment process]: ../bylaws/amendments.md

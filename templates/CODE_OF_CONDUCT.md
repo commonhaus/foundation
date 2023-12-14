@@ -12,13 +12,13 @@ follows the [Commonhaus Foundation (CF) CoC][coc-policy] (included below).
 - CoC reports should be sent to `report@PROJECT-mailing-list`.
   - We will follow [CF CoC procedures][coc-reports] when handling CoC reports.
   - Records will be kept in `PROJECT-private-repository`
-- [Escalations](#escalate-an-issue) should be sent to `coc-escalation@mailing-list` for review by the [Code of Conduct Panel (COCP)][cocp].
+- [Escalations](#escalate-an-issue) should be sent to the [`coc-escalation` mailing list][CONTACTS.yaml] for review by the [Code of Conduct Panel (COCP)][cocp].
 
 [cfc]: https://github.com/commonhaus/foundation-draft/blob/main/GOVERNANCE.md#commonhaus-foundation-council "Commonhaus Foundation Council"
 [cocp]: https://github.com/commonhaus/foundation-draft/blob/main/policies/code-of-conduct.md#code-of-conduct-panel "Code of Conduct Panel"
 [coc-policy]: https://github.com/commonhaus/foundation-draft/blob/main/policies/code-of-conduct.md
 [coc-reports]: https://github.com/commonhaus/foundation-draft/blob/main/policies/code-of-conduct.md#handling-reports-and-escalations "Handling CoC reports"
-[MEMBERS.yaml]: https://github.com/commonhaus/foundation-draft/blob/main/MEMBERS.yaml "Members"
+[CONTACTS.yaml]: https://github.com/commonhaus/foundation-draft/blob/main/CONTACTS.yaml
 
 ---
 
@@ -36,7 +36,7 @@ Having a unified CoC allows for consistent enforcement and better support across
 
 - Each CF project is free to implement enforcement of the CoC using processes appropriate for the size and scope of the project.
   CoC enforcement processes and contact methods must be defined in the projects' `CODE_OF_CONDUCT.md`.
-- For other Commonhaus repositories, send your report to `report@mailing-list`. The [CF Council][cfc] (CFC) will receive these reports.
+- For other Commonhaus repositories, send your report to the [`report` mailing list][CONTACTS.yaml]. The [CF Council][cfc] (CFC) will receive these reports.
 
 ### Respond to a CoC issue
 
@@ -53,13 +53,13 @@ We expect most reports to be handled successfully by the processes put in place 
 
 The CF maintains the [CoCP][cocp] to manage escalation when a reporter (a) believes that a report to a member project or the CFC has not been properly handled, or (b) does not feel comfortable reporting an issue through the standard process.
 
-Email `coc-escalation@mailing-list` to escalate an issue to the CoCP.
+Email the [`coc-escalation` mailing list][CONTACTS.yaml] to escalate an issue to the CoCP.
 
 ### Code of Conduct Panel
 
 The CoCP is a foundation-wide team. Members of the CoCP will be added for a 1-year term and will be re-confirmed on a yearly basis.
 
-Members of the CoCP will be maintained in the `cocp-panel` [MEMBERS.yaml][] attribute.
+Members of the CoCP will be maintained in the `cocp-panel` [CONTACTS.yaml][] attribute.
 
 ---
 

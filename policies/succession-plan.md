@@ -53,10 +53,11 @@ Further Reading:
 
 This policy may undergo periodic reviews and updates to cater to the evolving needs of the CF and its projects. Project leaders and the community will be involved in and informed of any changes. Amendments or changes to this policy will follow the [amendment process][].
 
-For questions or clarifications on this policy, please contact `legal@mailing-list`.
+For questions or clarifications on this policy, please contact the [`legal` mailing list][CONTACTS.yaml].
 
-[amendment process]: ../bylaws/amendments.md
-[GOVERNANCE.md]: https://github.com/commonhaus/foundation-draft/blob/main/GOVERNANCE.md
+[CONTACTS.yaml]: https://github.com/commonhaus/foundation-draft/blob/main/CONTACTS.yaml
+[CONTRIB-TPL]: https://github.com/commonhaus/foundation-draft/blob/main/templates/CONTRIBUTING.md
 [CONTRIBUTING.md]: https://github.com/commonhaus/foundation-draft/blob/main/CONTRIBUTING.md
 [GOV-TPL]: https://github.com/commonhaus/foundation-draft/blob/main/templates/GOVERNANCE.md
-[CONTRIB-TPL]: https://github.com/commonhaus/foundation-draft/blob/main/templates/CONTRIBUTING.md
+[GOVERNANCE.md]: https://github.com/commonhaus/foundation-draft/blob/main/GOVERNANCE.md
+[amendment process]: ../bylaws/amendments.md

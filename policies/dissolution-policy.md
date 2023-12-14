@@ -27,7 +27,8 @@ Records of the dissolution process will be maintained for legal and historical p
 
 This policy will be reviewed periodically to ensure it remains relevant and effective. Amendments or changes to this policy will follow the [amendment process][].
 
-For questions or clarifications on this policy, please contact `legal@mailing-list`.
+For questions or clarifications on this policy, please contact the [`legal` mailing list][CONTACTS.yaml].
 
+[CONTACTS.yaml]: https://github.com/commonhaus/foundation-draft/blob/main/CONTACTS.yaml
 [amendment process]: ../bylaws/amendments.md
 [record-keeping]: ../bylaws/notice-records.md#record-keeping

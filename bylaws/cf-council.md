@@ -6,7 +6,7 @@ weight: 3
 
 The Commonhaus Foundation Council (CFC) serves as the Board of Directors for the Commonhaus Foundation (CF). Governed by the legal requirements of the State of Florida and as defined in our Articles of Incorporation and [Bylaws][bylaws], the CFC is responsible for the strategic, governance, and fiduciary aspects of the Foundation. 
 
-- **Member Communication**: Concerns or proposals can be addressed to the CFC at `council@mailing-list` *(TBD: or initiating a GitHub discussion, etc.)*.
+- **Member Communication**: Concerns or proposals can be addressed to the CFC at the [`council` mailing list][CONTACTS.yaml] *(TBD: or initiating a GitHub discussion, etc.)*.
 
 - [Meetings, Participation, and Record Keeping](#meetings-participation-and-record-keeping)
   - [Regular and Special Meetings](#regular-and-special-meetings)
@@ -51,7 +51,7 @@ Efficient participation and decision-making are essential for geographically dis
 
 The CFC comprises elected members recognized for their contributions to the open-source community. As representatives of diverse organizations, CFC members are committed to prioritizing the interests of the CF community in their decision-making.
 
-An up-to-date list of CFC members will be maintained in the `cf-council` [MEMBERS.yaml][] attribute.
+An up-to-date list of CFC members will be maintained in the `cf-council` [CONTACTS.yaml][] attribute.
 
 **Structure:** The CFC is composed of a minimum of 3 elected members: 1 [CFC Chairperson](#cfc-chairperson) and at least 2 members-at-large. One-third of the CFC members must be direct representatives of CF projects to ensure a balanced representation of project needs and perspectives.
 
@@ -118,12 +118,11 @@ The CFC may form committees with specific purposes that are authorized to make r
 
 Certain critical actions (anything requiring a Supermajority vote) are reserved for the full CFC. Temporary or ad-hoc groups may be established for specific tasks, with the CFC retaining ultimate oversight and decision-making authority.
 
-
+[CONTACTS.yaml]: https://github.com/commonhaus/foundation-draft/blob/main/CONTACTS.yaml
+[bylaws]: ./README.md
 [coc-reports]: ../policies/code-of-conduct.md#handling-reports-and-escalations
 [coi-policy]: ../policies/conflict-of-interest.md
-[MEMBERS.yaml]: https://github.com/commonhaus/foundation-draft/blob/main/MEMBERS.yaml
-[bylaws]: ./README.md
-[notice]: ./notice-records.md#notice
-[records]: ./notice-records.md#record-keeping
 [consensus]: ./decision-making.md#general-decision-making
 [elections]: ./decision-making.md#elections
+[notice]: ./notice-records.md#notice
+[records]: ./notice-records.md#record-keeping

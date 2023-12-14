@@ -11,7 +11,7 @@ Organizational governance is described in detail in the [Bylaws][bylaws], which 
 
 The **CF Council (CFC)** is the governing body responsible for overarching decisions, financial allocations, and setting future plans. It consists of elected members who prioritize the interests of the CF community in their actions.
 
-- **Concerns and Actions**: Members can voice concerns or propose actions by emailing `council@mailing-list` (TODO: or initiating a GitHub discussion, etc.).
+- **Concerns and Actions**: Members can voice concerns or propose actions by emailing the [`council` mailing list][CONTACTS.yaml] (TODO: or initiating a GitHub discussion, etc.).
 
 See [CF Council][cfc] for more details.
 
@@ -62,3 +62,4 @@ We welcome all forms of contribution, from code improvements to documentation an
 [contrib]: ./CONTRIBUTING.md
 [membership]: ./bylaws/cf-membership.md
 [records]: ./bylaws/notice-records.md
+[CONTACTS.yaml]: https://github.com/commonhaus/foundation-draft/blob/main/CONTACTS.yaml
