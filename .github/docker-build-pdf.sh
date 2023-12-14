@@ -66,6 +66,7 @@ function to_pdf() {
         -A ./.pandoc/afterBody.tex \
         -d ./.pandoc/bylaws.yaml \
         -M date-meta:"$(date +%B\ %d,\ %Y)" \
+        --metadata-file=CONTACTS.yaml \
         -V footer-left:"${FOOTER}" \
         -V github:"${URL}blob/${GIT_COMMIT}/" \
         "$@"

@@ -72,13 +72,14 @@ If the [IP Policy][] doesn't cater to your project's needs, request special perm
 
 This policy will be reviewed periodically to ensure it remains relevant and effective. Amendments or changes to this policy will follow the [amendment process][].
 
-For questions or clarifications on this policy, please contact `legal@mailing-list`.
+For questions or clarifications on this policy, please contact the [`legal` mailing list][CONTACTS.yaml].
 
+[CC BY 4.0]: http://creativecommons.org/licenses/by/4.0/ "Creative Commons Attribution 4.0 International License (CC BY 4.0)"
+[CONTACTS.yaml]: https://github.com/commonhaus/foundation-draft/blob/main/CONTACTS.yaml
+[DCO]: http://developercertificate.org/
 [IP Policy]: ../policies/ip-policy.md
+[MIT]: https://opensource.org/license/mit/ "The MIT License"
 [amendment process]: ../bylaws/amendments.md
 [cfc]: ../bylaws/cf-council.md "CF Council"
-[standard website footer]: https://github.com/commonhaus/foundation-draft/blob/main/templates/website-footer.md "CF website footers"
-[CC BY 4.0]: http://creativecommons.org/licenses/by/4.0/ "Creative Commons Attribution 4.0 International License (CC BY 4.0)"
-[MIT]: https://opensource.org/license/mit/ "The MIT License"
-[DCO]: http://developercertificate.org/
 [code-copyright]: https://matija.suklje.name/how-and-why-to-properly-write-copyright-statements-in-your-code
+[standard website footer]: https://github.com/commonhaus/foundation-draft/blob/main/templates/website-footer.md "CF website footers"

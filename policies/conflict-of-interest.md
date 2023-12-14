@@ -72,6 +72,7 @@ All individuals will abstain from discussions or votes concerning their own comp
 
 This policy will be reviewed periodically to ensure it remains relevant and effective. Amendments or changes to this policy will follow the [amendment process][].
 
-For questions or clarifications on this policy, please contact `legal@mailing-list`.
+For questions or clarifications on this policy, please contact the [`legal` mailing list][CONTACTS.yaml].
 
+[CONTACTS.yaml]: https://github.com/commonhaus/foundation-draft/blob/main/CONTACTS.yaml
 [amendment process]: ../bylaws/amendments.md

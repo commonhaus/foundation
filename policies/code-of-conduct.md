@@ -13,8 +13,8 @@ Welcome to the Code of Conduct (CoC) for the Commonhaus Foundation (CF). This do
   - [Code of Conduct Panel](#code-of-conduct-panel)
 - [Handling Reports and Escalations](#handling-reports-and-escalations)
   - [Conflict of Interest](#conflict-of-interest)
-  - [Reports to `report@mailing-list`](#reports-to-reportmailing-list)
-  - [Reports to `coc-escalation@mailing-list`](#reports-to-coc-escalationmailing-list)
+  - [Reports to the CoC report mailing list](#reports-to-the-coc-report-mailing-list)
+  - [Reports to the CoC escalation mailing list](#reports-to-the-coc-escalation-mailing-list)
 - **Contributor Covenant Code of Conduct**
   - [Our Pledge](#our-pledge)
   - [Our Standards](#our-standards)
@@ -28,7 +28,7 @@ Welcome to the Code of Conduct (CoC) for the Commonhaus Foundation (CF). This do
     - [Permanent Ban](#permanent-ban)
   - [Attribution](#attribution)
 
-[MEMBERS.yaml]: https://github.com/commonhaus/foundation-draft/blob/main/MEMBERS.yaml
+[CONTACTS.yaml]: https://github.com/commonhaus/foundation-draft/blob/main/CONTACTS.yaml
 [cc-dm]: ../bylaws/decision-making.md
 
 ## Our Code of Conduct
@@ -40,6 +40,8 @@ The CF has adopted the [Contributor Covenant v2.1][v2.1] as its CoC (full text [
 
 A CoC is meaningful only [when it is effectively enforced][moz-coc].
 Having a unified CoC allows for consistent enforcement and better support across all CF projects.
+
+CF Council members (CFC) and CF project leaders are [expected](#leadership-expectations) to respect and uphold the CoC for their areas of responsiblity. A [Code of Conduct Panel (CoCP)](#code-of-conduct-panel) provides an avenue for appeals or escalations, if necessary.
 
 [moz-coc]: https://medium.com/mozilla-open-innovation/how-were-making-code-of-conduct-enforcement-real-and-scaling-it-3e382cf94415
 
@@ -75,7 +77,7 @@ This does not mean that decisions are set in stone. CF projects and the CFC are 
 ### Report an issue
 
 - Each CF project is free to implement enforcement of the CoC using processes appropriate for the size and scope of the project. CoC enforcement processes and contact methods must be defined in the projects' `CODE_OF_CONDUCT.md`.
-- For CF repositories that do not specify their own `CODE_OF_CONDUCT.md`, send your report to `report@mailing-list`. The CFC will receive these reports.
+- For CF repositories that do not specify their own the `CODE_OF_CONDUCT.md`, send your report to the [`report` mailing list][CONTACTS.yaml]. The CFC will receive these reports.
 
 Confidentiality is of utmost importance. We also understand that the person reporting the issue (**reporter**) may not be the individual directly affected or harmed (**target**). In such cases, communication will primarily be with the reporter unless the target explicitly gives permission. Personal details of the reporter (and the target if they differ) will not be disclosed without permission.
 
@@ -97,7 +99,7 @@ We expect most reports to be handled by the processes put in place by a project 
 
 The CF maintains the CoCP to manage escalation when a reporter (a) believes that a report to a member project or the CFC has not been properly handled, or (b) does not feel comfortable reporting an issue through the standard process.
 
-Email `coc-escalation@mailing-list` to escalate an issue to the CoCP. The CoCP will meet to review submitted reports as described in [CF CoC procedures](#reports-to-reportmailing-list).
+Email the [`coc-escalation` mailing list][CONTACTS.yaml] to escalate an issue to the CoCP. The CoCP will meet to review submitted reports as described in [CF CoC procedures](#reports-to-the-coc-report-mailing-list).
 
 ### Code of Conduct Panel
 
@@ -106,7 +108,7 @@ The CoCP is a foundation-wide team composed of the CFC Chairperson and 4 elected
 CoCP members serve for two year terms. CF contributors and members from the broader community can be nominated to the CoCP.
 CoCP members should consider objectivity and diversity of experience and perspective when electing CoCP members.
 
-Members of the CoCP will be documented in the `cocp-panel` [MEMBERS.yaml][] attribute.
+Members of the CoCP will be documented in the `cocp-panel` [CONTACTS.yaml][] attribute.
 
 ## Handling Reports and Escalations
 
@@ -116,9 +118,9 @@ This section describes the process and roles for handling Code of Conduct (CoC) 
 
 Any member of the CFC or CoCP who is involved in the report must recuse themselves from the discussions.
 
-### Reports to `report@mailing-list`
+### Reports to the CoC report mailing list
 
-All members of the CFC are subscribed to the `report@mailing-list` mailing list.
+All members of the CFC are subscribed to the the [`report` mailing list][CONTACTS.yaml] mailing list.
 
 We understand that the person reporting the issue (**reporter**) may not be the individual directly affected or harmed (**target**). In such cases, communication will primarily be with the reporter unless the target explicitly gives permission.
 
@@ -130,9 +132,9 @@ We understand that the person reporting the issue (**reporter**) may not be the 
 6. **Communication of Resolution:** The resolution is shared with the reporter or target. Feedback loops can continue until concerns have been adequately addressed. Absence of feedback within 7 days means resolution acceptance.
 7. **Finalization:** The agreed resolution is implemented.
 
-### Reports to `coc-escalation@mailing-list`
+### Reports to the CoC Escalation mailing list
 
-All members of the CoCP are subscribed to the `coc-escalation@mailing-list` mailing list.
+All members of the CoCP are subscribed to the the [`coc-escalation` mailing list][CONTACTS.yaml] mailing list.
 
 The CoCP will follow the same overall procedure as the CFC, with the following changes:
 
