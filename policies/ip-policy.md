@@ -79,7 +79,7 @@ For questions or clarifications on this policy, please contact the [`legal` mail
 [DCO]: http://developercertificate.org/
 [IP Policy]: ../policies/ip-policy.md
 [MIT]: https://opensource.org/license/mit/ "The MIT License"
-[amendment process]: ../bylaws/amendments.md
-[cfc]: ../bylaws/cf-council.md "CF Council"
+[amendment process]: ../bylaws/8-amendments.md
+[cfc]: ../bylaws/3-cf-council.md "CF Council"
 [code-copyright]: https://matija.suklje.name/how-and-why-to-properly-write-copyright-statements-in-your-code
 [standard website footer]: https://github.com/commonhaus/foundation-draft/blob/main/templates/website-footer.md "CF website footers"

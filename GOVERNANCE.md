@@ -55,11 +55,11 @@ We welcome all forms of contribution, from code improvements to documentation an
 
 [Trademark Policy]: ./policies/trademark-policy.md
 [bylaws]: ./bylaws/README.md
-[cf-decision-making]: ./bylaws/decision-making.md
-[cfab]: ./bylaws/cf-advisory-board.md
-[cfc]: ./bylaws/cf-council.md
+[cf-decision-making]: ./bylaws/5-decision-making.md
+[cfab]: ./bylaws/4-cf-advisory-board.md
+[cfc]: ./bylaws/3-cf-council.md
 [coc]: ./policies/code-of-conduct.md
 [contrib]: ./CONTRIBUTING.md
-[membership]: ./bylaws/cf-membership.md
-[records]: ./bylaws/notice-records.md
+[membership]: ./bylaws/2-cf-membership.md
+[records]: ./bylaws/6-notice-records.md
 [CONTACTS.yaml]: https://github.com/commonhaus/foundation-draft/blob/main/CONTACTS.yaml

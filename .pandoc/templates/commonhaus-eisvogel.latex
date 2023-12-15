@@ -910,7 +910,7 @@ $endif$
 %%
 %% end added
 %%
-
+\AddToHook{cmd/section/before}{\clearpage}
 \begin{document}
 
 %%

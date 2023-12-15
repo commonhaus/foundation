@@ -47,6 +47,7 @@ We're not just a placeholder but a guide, assisting projects as they grow and, i
 ## CF's Focus and Vision
 
 **Prioritize Action:** We favor tangible outcomes over extended discussions, concentrating on:
+
 - **Application Frameworks:** For efficient app development and deployment.
 - **Libraries:** Essential tools that minimize application complexities.
 

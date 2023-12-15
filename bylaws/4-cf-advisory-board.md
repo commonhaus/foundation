@@ -2,9 +2,9 @@
 status: draft
 weight: 4
 ---
-# CF Advisory Board
+# Commonhaus Foundation Advisory Board
 
-The CF Advisory Board comprises representatives from organizations and companies that support the CF. It acts as a bridge between the CF and the broader tech industry, providing diverse insights and strategic guidance to inform CFC decisions.
+The Commonhaus Foundation (CF) Advisory Board comprises representatives from organizations and companies that support the CF. It acts as a bridge between the CF and the broader tech industry, providing diverse insights and strategic guidance to inform CF Council (CFC) decisions.
 
 The Advisory Board does not have decision-making authority but plays a crucial role in shaping the foundation's direction through advice and industry perspectives. The structure is designed to ensure robust representation and dialogue:
 
