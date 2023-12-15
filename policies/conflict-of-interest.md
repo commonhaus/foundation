@@ -75,4 +75,4 @@ This policy will be reviewed periodically to ensure it remains relevant and effe
 For questions or clarifications on this policy, please contact the [`legal` mailing list][CONTACTS.yaml].
 
 [CONTACTS.yaml]: https://github.com/commonhaus/foundation-draft/blob/main/CONTACTS.yaml
-[amendment process]: ../bylaws/amendments.md
+[amendment process]: ../bylaws/8-amendments.md

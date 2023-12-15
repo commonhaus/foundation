@@ -4,7 +4,15 @@ weight: 6
 ---
 # Notice and Record Keeping
 
-This document describes the notice and record-keeping policies for the Commonhaus Foundation (CF).
+This section describes the notice and record-keeping policies for the Commonhaus Foundation (CF).
+
+- [Notice](#notice)
+  - [Notification Requirements](#notification-requirements)
+  - [Expedited Process](#expedited-process)
+- [Record Keeping](#record-keeping)
+  - [Methods and Platforms](#methods-and-platforms)
+  - [Accessibility and Security](#accessibility-and-security)
+  - [Compliance and Management](#compliance-and-management)
 
 ## Notice
 
@@ -12,9 +20,9 @@ The CF recognizes the importance of efficient and accessible communication, give
 
 ### Notification Requirements
 
-- **GitHub Discussions:** Notification via GitHub Discussions is required for significant matters, including changes to the bylaws, project membership status, or any other decision requiring member input or approval.
+- **Outgoing Announcements:** All major announcements, including changes to bylaws, project membership status, or decisions needing member input, will be initially posted in GitHub Discussions. These announcements will then be shared across other platforms (Discord) and through our blog/RSS feed.
 
-- **Email:** Sending an email to the designated email addresses described in these bylaws constitutes giving notice for most operational matters. Email notification is required for decisions that necessitate prompt action or are time-sensitive. 
+- **Member Communications:** For official communications with the Council or Foundation, members can either send an email to the specified mailing lists or use the designated channels such as opening an issue or creating a discussion on GitHub. Refer to [Communication channels][contact-us] for current details on where and how to send notifications.
 
 ### Expedited Process
 
@@ -48,5 +56,6 @@ The CF will maintain records of all activities for transparency and legal compli
 - **Retention and Version Control**: Documents will adhere to legal requirements for retention periods and employ version control for historical accuracy.
 - **Backup and Security:** Regular backups and robust security measures to safeguard digital records.
 
-[Amendments]: amendments.md
-[Decision Making]: decision-making.md#seeking-consensus-on-mailing-lists
+[Amendments]: ./8-amendments.md
+[Decision Making]: ./5-decision-making.md#seeking-consensus-on-mailing-lists
+[contact-us]: ../COMMUNICATION.md

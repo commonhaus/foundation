@@ -139,4 +139,4 @@ Commons Attribution 4.0 International license (“CC BY 4.0”, available at
 <https://creativecommons.org/licenses/by/4.0>).
 
 [CONTACTS.yaml]: https://github.com/commonhaus/foundation-draft/blob/main/CONTACTS.yaml
-[amendment process]: ../bylaws/amendments.md
+[amendment process]: ../bylaws/8-amendments.md

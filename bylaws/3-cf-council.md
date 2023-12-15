@@ -8,44 +8,17 @@ The Commonhaus Foundation Council (CFC) serves as the Board of Directors for the
 
 - **Member Communication**: Concerns or proposals can be addressed to the CFC at the [`council` mailing list][CONTACTS.yaml] *(TBD: or initiating a GitHub discussion, etc.)*.
 
-- [Meetings, Participation, and Record Keeping](#meetings-participation-and-record-keeping)
-  - [Regular and Special Meetings](#regular-and-special-meetings)
-  - [Electronic Participation and Action by Written Consent](#electronic-participation-and-action-by-written-consent)
-  - [Agendas, Access, and Records](#agendas-access-and-records)
 - [Composition and Membership](#composition-and-membership)
   - [Tenure, Transition and Apportioning Duties](#tenure-transition-and-apportioning-duties)
+  - [Officer Roles and Appointment](#officer-roles-and-appointment)
   - [CFC Chairperson](#cfc-chairperson)
-  - [CFC Offices](#cfc-offices)
-- [Meeting Procedures and Decision-Making](#meeting-procedures-and-decision-making)
+- [Meetings, Procedures and Decision-Making](#meetings-procedures-and-decision-making)
+  - [Agendas, Access, and Records](#agendas-access-and-records)
+  - [Electronic Participation and Action by Written Consent](#electronic-participation-and-action-by-written-consent)
   - [Quorum for Meetings](#quorum-for-meetings)
   - [Decision-Making Process](#decision-making-process)
   - [Matters Requiring Supermajority Vote](#matters-requiring-supermajority-vote)
 - [Committees and Delegation](#committees-and-delegation)
-
-## Meetings, Participation, and Record Keeping
-
-### Regular and Special Meetings
-
-The CFC conducts meetings primarily through electronic means to accommodate its globally distributed and remote members. Key points:
-
-- **Frequency:** Regular meetings are held quarterly for strategic and operational discussions.
-- **Annual General Meeting (AGM):** Conducted via online platforms, the AGM reviews the annual report and sets plans.
-- **Special General Meetings:** Called for specific purposes, they can also be held electronically.
-- **Platform:** Online tools facilitating video and voice interactions are used for remote participation.
-
-### Electronic Participation and Action by Written Consent
-
-Efficient participation and decision-making are essential for geographically dispersed CFC members. Here's how electronic methods are used:
-
-- **Remote Involvement:** CFC members actively participate in meetings through teleconferencing or video conferencing tools.
-- **Decision Making Outside Meetings:** Decisions can be made through written consent, following the [decision-making process][consensus], with proper [notice][] and [record keeping][records].
-- **Effectiveness:** Actions by written consent require majority approval, suitable for urgent or straightforward decisions.
-
-### Agendas, Access, and Records
-
-- **Agenda Setting:** Agendas are prepared in advance, incorporating items proposed by CFC members and the general membership.
-- **Public Access:** Meetings are generally open to the public, except for confidential matters.
-- **Meeting Minutes:** Minutes and summaries of key decisions and discussions are stored in a GitHub repository as per our [Record Keeping policy][records].
 
 ## Composition and Membership
 
@@ -68,25 +41,55 @@ An up-to-date list of CFC members will be maintained in the `cf-council` [CONTAC
 - **Resignation:** CFC members wishing to resign must formally notify the Chairperson or the CFC, with immediate cessation of their responsibilities and rights as CFC members upon resignation.
 - **Removal:** A CFC member may be removed for misconduct, failure to perform duties, or consistent non-participation. The removal process includes a fair review, an opportunity for the member to respond, and a decision made through a vote by the remaining CFC members or a general membership vote.
 - **Vacancies:** In the event of a vacancy, duties are temporarily assigned to remaining members until a special election can be held to fill the vacated seat.
-- **Apportioning Duties:** The CFC must ensure that all required [CFC Offices](#cfc-offices) are filled. 
+- **Apportioning Duties:** The CFC must ensure that all required [CFC Offices](#officer-roles-and-appointment) are filled. 
 
-### CFC Chairperson
+### Officer Roles and Appointment
 
-The Chairperson orchestrates regular CFC meetings, ensuring leadership in discussions is evenly spread. They also oversee the proper handling of [Code of Conduct reports and escalations][coc-reports].
+- **Appointment of Officers:** Following each election, the CFC may review and reassign officer roles as needed. This ensures that roles align with the current composition and skills of the CFC.
 
-### CFC Offices
+- **Officer Roles**: The CFC includes the roles of Chairperson, Secretary, and Treasurer. Additional roles can be established based on the needs of the Foundation.
 
-- **The Secretary:** This role may be filled by one or more members, sharing the responsibilities of maintaining records, overseeing official correspondence, and managing organizational documentation. The flexible approach to this role allows for the distribution of workload according to members' capacities and ensures continuity in administrative functions.
-
-- **The Treasurer:** A pivotal role that must be filled by a dedicated member, the Treasurer is in charge of overseeing the financial affairs of the Foundation. This includes budgeting, financial reporting, and coordinating with Fiscal Hosts or Agents for accounting and financial management. The specificity of this role underscores its critical nature in maintaining the financial health and compliance of the Foundation.
-
-The CFC may establish other roles as needed to ensure the smooth functioning of the Foundation. 
+  - **[CFC Chairperson](#cfc-chairperson):** Oversees CFC meetings and is involved in resolving [Code of Conduct issues][coc-reports].
+  - **Secretary:** Manages records, oversees official correspondence, and ensures accurate meeting minutes.
+  - **Treasurer:** Handles financial affairs, including budgeting, financial reporting, and coordinating with fiscal hosts or agents.
 
 - **Officers and Staff:** The CFC may appoint CF general members as officers or hire staff to manage specific administrative functions. These officers and staff are not considered CFC members and do not have voting rights. 
   - Officers may be invited to attend CFC meetings as non-voting participants
   - Officers may resign at any time by notice to the CFC.
 
-## Meeting Procedures and Decision-Making
+### CFC Chairperson
+
+The Chairperson orchestrates regular CFC meetings, ensuring leadership in discussions is evenly spread. They also oversee the proper handling of [Code of Conduct reports and escalations][coc-reports].
+
+#### Officers and Staff
+
+The CFC may appoint CF general members as officers or hire staff to manage specific administrative functions. These officers and staff are not considered CFC members and do not have voting rights.
+
+- Officers may be invited to attend CFC meetings as non-voting participants
+- Officers may resign at any time by notice to the CFC.
+
+## Meetings, Procedures and Decision-Making
+
+The CFC conducts meetings primarily through electronic means (like Zoom or Google Meet) to accommodate its globally distributed and remote members. Key points:
+
+- **Frequency:** Regular meetings of the CFC are held quarterly for strategic and operational discussions.
+- **Platform:** Online tools facilitating video and voice interactions are used for remote participation.
+- **Annual General Meeting (AGM):** Conducted via online platforms, the AGM reviews the annual report and sets plans.
+- **Special General Meetings:** Called for specific purposes, they can also be held electronically.
+
+### Agendas, Access, and Records
+
+- **Agenda Setting:** Agendas are prepared in advance, incorporating items proposed by CFC members and the general membership.
+- **Public Access:** Meetings are generally open to the public, except for confidential matters.
+- **Meeting Minutes:** Minutes and summaries of key decisions and discussions are stored in a GitHub repository as per our [Record Keeping policy][records].
+
+### Electronic Participation and Action by Written Consent
+
+Efficient participation and decision-making are essential for geographically dispersed CFC members. Here's how electronic methods are used:
+
+- **Remote Involvement:** CFC members actively participate in meetings through teleconferencing or video conferencing tools.
+- **Decision Making Outside Meetings:** Decisions can be made through written consent, following the [decision-making process][consensus], with proper [notice][] and [record keeping][records].
+- **Effectiveness:** Actions by written consent require majority approval, suitable for urgent or straightforward decisions.
 
 ### Quorum for Meetings
 
@@ -122,7 +125,7 @@ Certain critical actions (anything requiring a Supermajority vote) are reserved 
 [bylaws]: ./README.md
 [coc-reports]: ../policies/code-of-conduct.md#handling-reports-and-escalations
 [coi-policy]: ../policies/conflict-of-interest.md
-[consensus]: ./decision-making.md#general-decision-making
-[elections]: ./decision-making.md#elections
-[notice]: ./notice-records.md#notice
-[records]: ./notice-records.md#record-keeping
+[consensus]: ./5-decision-making.md#general-decision-making
+[elections]: ./5-decision-making.md#elections
+[notice]: ./6-notice-records.md#notice
+[records]: ./6-notice-records.md#record-keeping

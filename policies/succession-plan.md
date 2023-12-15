@@ -60,4 +60,4 @@ For questions or clarifications on this policy, please contact the [`legal` mail
 [CONTRIBUTING.md]: https://github.com/commonhaus/foundation-draft/blob/main/CONTRIBUTING.md
 [GOV-TPL]: https://github.com/commonhaus/foundation-draft/blob/main/templates/GOVERNANCE.md
 [GOVERNANCE.md]: https://github.com/commonhaus/foundation-draft/blob/main/GOVERNANCE.md
-[amendment process]: ../bylaws/amendments.md
+[amendment process]: ../bylaws/8-amendments.md

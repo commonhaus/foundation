@@ -4,8 +4,6 @@ weight: 7
 ---
 # Liability and Indemnification
 
-This document describes the liability and indemnification policies for the Commonhaus Foundation (CF).
-
 ## Liability
 
 [CF Council][cfc] (CFC) members and officers are not personally liable for actions undertaken in their official capacity, except in cases of willful misconduct or gross negligence.
@@ -25,4 +23,4 @@ The CF commits to protecting CFC members, officers, and other key personnel agai
 - Protection excludes acts of willful misconduct or gross negligence.
 - Those seeking indemnification must notify the Foundation promptly, enabling review and confirmation that the case aligns with our policy guidelines.
 
-[cfc]: ./cf-council.md
+[cfc]: ./3-cf-council.md

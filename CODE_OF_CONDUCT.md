@@ -18,7 +18,7 @@ follows the [Commonhaus Foundation (CF) CoC][coc-policy].
 
 To avoid duplication, please see the [CF CoC][coc-policy] for more information
 
-[cfc]: ./bylaws/cf-council.md
+[cfc]: ./bylaws/3-cf-council.md
 [coc-policy]: ./policies/code-of-conduct.md
 [coc-response]: ./policies/code-of-conduct.md#respond-to-a-coc-issue
 [coc-reports]: ./policies/code-of-conduct.md#handling-reports-and-escalations

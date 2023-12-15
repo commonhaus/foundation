@@ -4,7 +4,12 @@ weight: 5
 ---
 # Decision Making, Voting, and Elections
 
-It describes the decision-making process, voting, and elections for the CF.
+This section describes the decision-making process, voting, and elections for the CF.
+
+- [General Decision Making](#general-decision-making)
+  - [Seeking consensus in meetings](#seeking-consensus-in-meetings)
+  - [Seeking consensus on mailing lists](#seeking-consensus-on-mailing-lists)
+- [Elections](#elections)
 
 ## General Decision Making
 
@@ -59,4 +64,3 @@ This approach allows members to rank candidates in order of preference, ensuring
 [e1]: https://elekto.dev/docs/
 [e2]: https://elekto.dev/docs/voting/
 [e3]: https://elekto.dev/docs/administration/
-

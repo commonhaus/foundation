@@ -4,17 +4,13 @@ weight: 2
 ---
 # Membership
 
-It describes eligibility and requirements for different types of membership for projects and individuals.
+The Commonhaus Foundation (CF) is a membership organization. The following section outlines the different types of membership and the process for becoming a member.
 
-## Project Membership
-
-Joining the CF as a project member involves a few key steps:
-
-- **Eligibility**: Projects must be original or substantial forks, demonstrating recent activity and significant usage. We value innovation and active community engagement.
-
-- **Application Process**: Project leaders are invited to submit a comprehensive application outlining the project’s goals, current status, community size, and how it aligns with the CF’s mission *(TBD: Application link)*. The [CF Council][cfc] (CFC) will review each application, and may ask for further information or clarification.
-
-- **Approval and Onboarding**: We provide onboarding support and resources to help integrate new projects seamlessly into our ecosystem.
+- [Project Leaders and Code Owners](#project-leaders-and-code-owners)
+- [General Members](#general-members)
+- [Membership Dues and Renewal](#membership-dues-and-renewal)
+- [Inactive or Retired Members](#inactive-or-retired-members)
+- [Suspension and Revocation of Membership](#suspension-and-revocation-of-membership)
 
 ## Project Leaders and Code Owners
 
@@ -63,6 +59,6 @@ These situations will be recorded as violations of the [Code of Conduct][coc] an
 
 The decision to revoke or suspend membership is made by a supermajority vote of the CFC. The member in question will be notified of the decision and the reasons for it.
 
-[cfc]: ./cf-council.md
+[cfc]: ./3-cf-council.md
 [coc]: ../policies/code-of-conduct.md
 [coc-reports]: ../policies/code-of-conduct.md#handling-reports-and-escalations
