@@ -85,5 +85,5 @@ jobs:
 
       - uses: actions/upload-artifact@v3
         with:
-          name: output
+          name: pdf-output
           path: output/public
