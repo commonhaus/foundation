@@ -8,6 +8,8 @@ on:
   workflow_dispatch:
 
 env:
+  GH_BOT_EMAIL: "41898282+github-actions[bot]@users.noreply.github.com"
+  GH_BOT_NAME: "GitHub Action"
   PANDOCK: ebullient/pandoc-emoji:3.1
 
 jobs:
@@ -83,7 +85,23 @@ jobs:
           IS_PR: ${{ github.event_name == 'pull_request' }}
         run: ./.github/docker-build-pdf.sh
 
-      - uses: actions/upload-artifact@v3
-        with:
-          name: pdf-output
-          path: output/public
+      - name: Update snapshot tag
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        shell: bash
+        run: |
+          git config user.name ${{ env.GH_BOT_NAME }}
+          git config user.email ${{ env.GH_BOT_EMAIL }}
+
+          echo "Update tag for SNAPSHOT"
+          git push origin :refs/tags/SNAPSHOT
+          git tag -f SNAPSHOT
+          git push --tags
+
+          echo "Update SNAPSHOT release"
+          gh release upload SNAPSHOT --clobber output/public/*
+          # These must be done separately to correctly toggle draft flag
+          gh release edit SNAPSHOT -t "PDF snapshot" --prerelease
+          gh release edit SNAPSHOT --draft=false
+          gh release view SNAPSHOT
+
