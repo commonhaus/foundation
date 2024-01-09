@@ -10,16 +10,10 @@ on:
 env:
   GH_BOT_EMAIL: "41898282+github-actions[bot]@users.noreply.github.com"
   GH_BOT_NAME: "GitHub Action"
+  MAIN_REPO: ${{ github.ref == 'refs/heads/main' && github.repository == 'commonhaus/foundation-draft' }}
   PANDOCK: ebullient/pandoc-emoji:3.1
 
 jobs:
-  main-root:
-    runs-on: ubuntu-latest
-    if: github.ref == 'refs/heads/main' && github.repository == 'commonhaus/foundation-draft'
-    steps:
-      - id: is-main-root
-        run: echo "This is the main branch of 'commonhaus/foundation-draft'"
-
   lint:
     name: Check markdown links
     runs-on: ubuntu-latest
@@ -41,9 +35,9 @@ jobs:
 
   bump:
     name: Update website
-    needs: [main-root, lint]
+    needs: lint
+    if: ${{ github.env.MAIN_REPO }}
     runs-on: ubuntu-latest
-
     steps:
       - name: Bump website
         env:
@@ -85,14 +79,23 @@ jobs:
           IS_PR: ${{ github.event_name == 'pull_request' }}
         run: ./.github/docker-build-pdf.sh
 
-      - name: Update snapshot tag
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        shell: bash
+      - uses: actions/upload-artifact@v3
+        if: ${{ ! env.MAIN_REPO }}
+        with:
+          name: output
+          path: output/public
+
+      - name: Git Config
         run: |
           git config user.name ${{ env.GH_BOT_NAME }}
           git config user.email ${{ env.GH_BOT_EMAIL }}
 
+      - name: Update snapshot tag
+        if: ${{ env.MAIN_REPO }}
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        shell: bash
+        run: |
           echo "Update tag for SNAPSHOT"
           git push origin :refs/tags/SNAPSHOT
           git tag -f SNAPSHOT
