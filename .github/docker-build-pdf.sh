@@ -112,7 +112,7 @@ to_pdf_with_changes \
     bylaws \
     ./bylaws \
     output/tmp/bylaws-changelog.md \
-    "cf-bylaws-${MARK}.pdf" \
+    "cf-bylaws.pdf" \
     -M title:"Commonhaus Foundation Bylaws" \
     "${BYLAWS[@]}"
 
@@ -128,7 +128,7 @@ function to_policy_pdf() {
         "${1}" \
         "./policies/${1}.md" \
         "output/tmp/${1}-changelog.md" \
-        "${1}-${MARK}.pdf" \
+        "${1}.pdf" \
         -M title:"Commonhaus Foundation ${2} Policy" \
         "./policies/${1}.md"
 }
