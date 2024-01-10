@@ -49,7 +49,7 @@ Ensure the PR description is clear about the changes you've made.
 
 ### 2. Await Review
 
-One of the `CODEOWNERS` will review your PR.
+One of the code owners (`.github/CODEOWNERS`) will review your PR.
 We might request further clarifications, changes, or provide feedback.
 
 ### 3. Address Feedback

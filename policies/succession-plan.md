@@ -34,7 +34,7 @@ For libraries under heavy use, we will encourage a "path of least disturbance" a
 
 The CF respects each project's chosen governance model. This policy complements, and does not supersede, those models. We recommend projects define:
 
-- **Code Ownership:** Maintain a list of individuals or groups with the authority to review and merge contributions `CODEOWNERS`.
+- **Code Ownership:** Maintain a list of individuals or groups with the authority to review and merge contributions (`CODEOWNERS`).
 
 - **Project governance:** Describe project decision-making processes and contact information in `GOVERNANCE.md`. The CF must have direct contact details (kept confidential) for emergencies or coordination in the case of an extended absence.
 
@@ -42,7 +42,7 @@ The CF respects each project's chosen governance model. This policy complements,
 
 Further Reading:
 
-- `CODEOWNERS`: [About code owners][owners]
+- `CODEOWNERS`: [About code owners][owners], maintained in `CODEOWNERS` or `.github/CODEOWNERS`
 - `CONTRIBUTING.md`: [Wrangling Web Contributions: How to Build a CONTRIBUTING.md][contrib]. See [CONTRIBUTING.md][] and the [Project CONTRIBUTING.md template][CONTRIB-TPL] for examples.
 - `GOVERNANCE.md`: See [GOVERNANCE.md][] and the [Project GOVERNANCE.md template][GOV-TPL] for examples.
 
