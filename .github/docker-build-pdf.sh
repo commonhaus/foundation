@@ -45,17 +45,14 @@ function to_pdf_with_changes() {
     shift
     local changes=${1}
     shift
-    local changelog=${1}
-    shift
     local pdfout=output/public/${1}
     shift
     rm -f "${pdfout}"
 
-    changelog "${changes}" "${changelog}"
     to_pdf --pdf-engine-opt=-output-dir="${tmpout}" \
         --pdf-engine-opt=-outdir="${tmpout}" \
         -o "${pdfout}" \
-        "$@" "${changelog}"
+        "$@"
 }
 
 # Convert markdown to PDF
@@ -70,17 +67,6 @@ function to_pdf() {
         -V footer-left:"${FOOTER}" \
         -V github:"${URL}blob/${GIT_COMMIT}/" \
         "$@"
-}
-
-# Generate changelog from git log
-function changelog() {
-    echo "# Changelog
-" > "${2}"
-    git --no-pager log --reverse --date=short \
-        --pretty=format:"- \`%ad\` ∙ [\`%h\`](${URL}commit/%H) ∙ %s" \
-        origin "${GIT_COMMIT}" \
-        -- "${1}" >> "${2}"
-    echo "" >> "${2}"
 }
 
 mkdir -p output/tmp
@@ -111,7 +97,6 @@ done
 to_pdf_with_changes \
     bylaws \
     ./bylaws \
-    output/tmp/bylaws-changelog.md \
     "cf-bylaws.pdf" \
     -M title:"Commonhaus Foundation Bylaws" \
     "${BYLAWS[@]}"
@@ -127,7 +112,6 @@ function to_policy_pdf() {
     to_pdf_with_changes \
         "${1}" \
         "./policies/${1}.md" \
-        "output/tmp/${1}-changelog.md" \
         "${1}.pdf" \
         -M title:"Commonhaus Foundation ${2} Policy" \
         "./policies/${1}.md"
