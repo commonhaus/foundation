@@ -142,3 +142,4 @@ to_policy_pdf succession-plan "Continuity and Administrative Access"
 to_policy_pdf trademark-policy "Trademark"
 
 # TODO: to_policy_pdf privacy "Privacy"
+ls -al output/public
