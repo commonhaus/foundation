@@ -6,11 +6,19 @@ weight: 2
 
 The Commonhaus Foundation (CF) is a membership organization. The following section outlines the different types of membership and the process for becoming a member.
 
+- [Rights and requirements](#rights-and-requirements)
 - [Project Leaders and Code Owners](#project-leaders-and-code-owners)
 - [General Members](#general-members)
 - [Membership Dues and Renewal](#membership-dues-and-renewal)
 - [Inactive or Retired Members](#inactive-or-retired-members)
 - [Suspension and Revocation of Membership](#suspension-and-revocation-of-membership)
+
+## Rights and requirements
+
+Commonhaus Foundation members are natural persons, and join as individuals.
+This excludes in particular legal entities, which are exclusively represented as part of the [advisory board][].
+
+Each member has a voice, can raise issues (for all members, for all project leads, for the council), and is entitled to a vote in member decisions (which includes both elections and referendums).
 
 ## Project Leaders and Code Owners
 
@@ -59,6 +67,7 @@ These situations will be recorded as violations of the [Code of Conduct][coc] an
 
 The decision to revoke or suspend membership is made by a supermajority vote of the CFC. The member in question will be notified of the decision and the reasons for it.
 
+[advisory board]: ./4-cf-advisory-board.md
 [cfc]: ./3-cf-council.md
 [coc]: ../policies/code-of-conduct.md
 [coc-reports]: ../policies/code-of-conduct.md#handling-reports-and-escalations
