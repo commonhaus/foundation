@@ -117,7 +117,7 @@ The following matters must be approved by a supermajority vote of the CFC:
 
 ## Committees and Delegation
 
-The CFC may form committees with specific purposes that are authorized to make recommendations but not final decisions on significant matters. Committees may consist of CFC members and and other community contributors. They must keep regular [records][] and report to the CFC.
+The CFC may form committees with specific purposes that are authorized to make recommendations but not final decisions on significant matters. Committees may consist of CFC members and other community contributors. They must keep regular [records][] and report to the CFC.
 
 Certain critical actions (anything requiring a Supermajority vote) are reserved for the full CFC. Temporary or ad-hoc groups may be established for specific tasks, with the CFC retaining ultimate oversight and decision-making authority.
 
