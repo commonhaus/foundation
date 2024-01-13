@@ -99,7 +99,7 @@ Efficient participation and decision-making are essential for geographically dis
 
 ### Decision-Making Process
 
-- **Consensus-Based Approach:** The CFC strives to make decisions based on consensus, adhering to the Lazy Consensus model outlined in [General Decision Making](#general-decision-making). This approach emphasizes collective agreement and accommodates diverse viewpoints.
+- **Consensus-Based Approach:** The CFC strives to make decisions based on consensus, adhering to the Lazy Consensus model outlined in [General Decision Making][consensus]. This approach emphasizes collective agreement and accommodates diverse viewpoints.
 - **Voting as a Last Resort:** If a consensus cannot be reached, the CFC resorts to voting. Decisions are then made by a simple majority of the voting CFC members present unless a supermajority is required.
 - **Supermajority Requirement:** Certain critical decisions require a supermajority vote. A supermajority is defined as at least two-thirds of the total number of CFC members.
 
