@@ -12,7 +12,7 @@ toc: true
 toc-depth: 3
 variables:
   geometry: margin=1in
-  linkcolor: blue
+  colorlinks: true
   listings: true
   hyperrefoptions:
   - linktoc=all

@@ -275,8 +275,8 @@ $if(verbatim-in-note)$
 \usepackage{fancyvrb}
 $endif$
 \usepackage{xcolor}
-\definecolor{default-linkcolor}{HTML}{A50000}
-\definecolor{default-filecolor}{HTML}{A50000}
+\definecolor{default-linkcolor}{HTML}{4077C0}
+\definecolor{default-filecolor}{HTML}{4077C0}
 \definecolor{default-citecolor}{HTML}{4077C0}
 \definecolor{default-urlcolor}{HTML}{4077C0}
 $if(footnotes-pretty)$
