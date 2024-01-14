@@ -3,70 +3,37 @@ status: draft
 ---
 # CONTRIBUTING to the Commonhaus Foundation Repository
 
-Hey there, contributor! First off, thank you for considering a contribution to the Commonhaus Foundation (CF) repository.
-We appreciate your effort and your desire to make this a better resource for everyone.
-While there might not be traditional code here, we treat our documents with the same rigor and attention to detail.
+Thanks for considering a contribution to the Commonhaus Foundation (CF) repository. We value every contribution, whether it's a document edit or a major revision.
 
-## Getting Started
+## Quick Start
 
-### 1. Consider Opening an Issue (Optional for Minor Changes)
+- **Discuss First**: For significant changes, start a GitHub discussion to gather consensus[^1]. For smaller edits, you can directly create a pull request (PR).
 
-While opening an issue is generally recommended for tracking and discussing proposed changes, it's not always required, especially for trivial modifications.
-
-- For smaller changes or straightforward fixes, you can directly initiate a pull request (PR) where discussions can also take place.
-- For more significant updates or enhancements, opening an issue helps in organizing and deliberating the changes with the community and relevant teams.
-
-### 2. Fork the Repository
-
-Fork the repository to your own GitHub account.
-This will allow you to work on your proposed changes independently before submitting them for review.
+- **Fork and Edit**: Fork the repository to your account, make your changes there.
 
 ## Making Changes
 
-### 1. Be Clear and Concise
-
-Our documents aim to be direct and developer-friendly.
-We value clarity, so please ensure your changes or additions reflect that.
-
-### 2. Adhere to the Format
-
-Please maintain the structure and format of the documents you're amending. Consistency makes it easier for everyone.
-
-### 3. Reference Issues
-
-In your commit messages, reference the issue number you're addressing. For instance:
-
-```bash
-git commit -m "Fixed typo in section X, resolves #123"
-```
+- **Be Clear**: Ensure your contributions are direct and easy to understand.
+- **Remain Consistent**: Follow the existing format and structure of the documents.
+- **Cross-reference Discussions and PRs**: Link back to relevant discussions or other PRs in your commit messages.
+- **Building documents (optional)**: When you create a PR, a build will run that will verify internal and external links, and will generate and attach pdfs to the build.
+  - **Verify links**: To validate links locally, use `npm ci` to install node dependencies; `npm run test` or `npm run tv` to validate links.
+  - **Build pdfs**: If you use docker or podman, run `./.github/docker-build-pdf.sh` to use a pre-configured docker image to convert markdown bylaws and policies to pdf.
 
 ## Submitting Changes
 
-### 1. Create a Pull Request (PR)
+- **Create a PR**: Submit your changes via a pull request from your fork. Check the automatic build for link or pdf generation errors.
+- **Wait for Review**: A code owner will review your PR and might ask for changes or clarifications.
+- **Respond to Feedback**: Address any feedback to get your PR approved and merged.
 
-Once you're ready to submit your changes, create a new pull request from your fork.
-Ensure the PR description is clear about the changes you've made.
+## Legal Review
 
-### 2. Await Review
-
-One of the code owners (`.github/CODEOWNERS`) will review your PR.
-We might request further clarifications, changes, or provide feedback.
-
-### 3. Address Feedback
-
-If feedback is provided on your PR, please address it in a timely manner.
-Once all feedback has been addressed, and the PR is approved, it will be merged into the main repository.
-
-## A Note on Legal Matters
-
-Given the nature of this repository, some changes or amendments might require legal review.
-We appreciate your patience as we ensure that all content aligns with the foundation's principles and legal considerations.
+Some changes may need a legal review. Your patience is appreciated during this process.
 
 ## Thank You
 
-Every contribution, be it small or large, helps us maintain and improve this repository.
-Your willingness to help is genuinely appreciated.
-
-For any questions or further information, don't hesitate to reach out to us.
+Every contribution matters. For any questions, feel free to reach out.
 
 Happy contributing!
+
+[^1]: See [decision making](./bylaws/5-decision-making.md#general-decision-making) for an overview of how we approach consensus building.
