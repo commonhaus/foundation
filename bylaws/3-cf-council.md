@@ -17,6 +17,7 @@ The Commonhaus Foundation Council (CFC) serves as the Board of Directors for the
   - [Electronic Participation and Action by Written Consent](#electronic-participation-and-action-by-written-consent)
   - [Quorum for Meetings](#quorum-for-meetings)
   - [Decision-Making Process](#decision-making-process)
+- [Extended Governance Committee (EGC)](#extended-governance-committee-egc)
   - [Matters Requiring Supermajority Vote](#matters-requiring-supermajority-vote)
 - [Committees and Delegation](#committees-and-delegation)
 
@@ -102,6 +103,8 @@ Efficient participation and decision-making are essential for geographically dis
 - **Consensus-Based Approach:** The CFC strives to make decisions based on consensus, adhering to the Lazy Consensus model outlined in [General Decision Making][consensus]. This approach emphasizes collective agreement and accommodates diverse viewpoints.
 - **Voting as a Last Resort:** If a consensus cannot be reached, the CFC resorts to voting. Decisions are then made by a simple majority of the voting CFC members present unless a supermajority is required.
 - **Supermajority Requirement:** Certain critical decisions require a supermajority vote. A supermajority is defined as at least two-thirds of the total number of CFC members.
+
+## Extended Governance Committee (EGC)
 
 ### Matters Requiring Supermajority Vote
 
