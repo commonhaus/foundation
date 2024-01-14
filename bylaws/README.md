@@ -5,6 +5,7 @@ status: draft
 
 ## Index of CF Bylaws
 
+0. [Preface](./0-preface.md)
 1. [Purpose](./1-purpose.md)
 2. [Membership](./2-cf-membership.md)
 3. [CF Council and Offices](./3-cf-council.md)
@@ -14,12 +15,3 @@ status: draft
 7. [Liability and Indemnification](./7-liability-indemnification.md)
 8. [Amendments](./8-amendments.md)
 
-## Bylaw change process
-
-The [foundation][] repository is the authoritative source for Commonhaus Foundation (CF) Bylaws.
-
-[foundation]: https://github.com/commonhaus/foundation-draft
-
-The CF Council (CFC) is responsible for periodically reviewing and approving changes to Bylaws. The CFC will review bylaws at least annually to ensure ongoing compliance with applicable laws and regulations.
-
-Amendments or changes to Bylaws will follow the [amendment process](./8-amendments.md).

@@ -75,7 +75,9 @@ mkdir -p output/public
 ## BYLAWS
 
 # Sorted order of files for Bylaws
-BYLAWS=(./bylaws/1-purpose.md
+BYLAWS=(
+    ./bylaws/0-preface.md
+    ./bylaws/1-purpose.md
     ./bylaws/2-cf-membership.md
     ./bylaws/3-cf-council.md
     ./bylaws/4-cf-advisory-board.md
