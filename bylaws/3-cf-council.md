@@ -11,14 +11,12 @@ The Commonhaus Foundation Council (CFC) serves as the Board of Directors for the
 - [Composition and Membership](#composition-and-membership)
   - [Tenure, Transition and Apportioning Duties](#tenure-transition-and-apportioning-duties)
   - [Officer Roles and Appointment](#officer-roles-and-appointment)
-  - [CFC Chairperson](#cfc-chairperson)
+- [Extended Governance Committee (EGC)](#extended-governance-committee-egc)
 - [Meetings, Procedures and Decision-Making](#meetings-procedures-and-decision-making)
   - [Agendas, Access, and Records](#agendas-access-and-records)
-  - [Electronic Participation and Action by Written Consent](#electronic-participation-and-action-by-written-consent)
-  - [Quorum for Meetings](#quorum-for-meetings)
-  - [Decision-Making Process](#decision-making-process)
-- [Extended Governance Committee (EGC)](#extended-governance-committee-egc)
-  - [Matters Requiring Supermajority Vote](#matters-requiring-supermajority-vote)
+  - [Electronic Participation and Decision-Making](#electronic-participation-and-decision-making)
+  - [Quorum](#quorum)
+  - [Voting](#voting)
 - [Committees and Delegation](#committees-and-delegation)
 
 ## Composition and Membership
@@ -29,7 +27,7 @@ An up-to-date list of CFC members will be maintained in the `cf-council` [CONTAC
 
 **Structure:** The CFC is composed of a minimum of 3 elected members: 1 [CFC Chairperson](#cfc-chairperson) and at least 2 members-at-large. One-third of the CFC members must be direct representatives of CF projects to ensure a balanced representation of project needs and perspectives.
 
-**Conflicts of Interest:** All members are required to adhere to the [Conflict of Interest Policy][coi-policy], and must disclose any potential conflicts of interest, especially those related to their employment. This commitment to transparency helps maintain the integrity of the CFC's decisions.
+**Conflicts of Interest:** All members must follow our [Conflict of Interest Policy][coi-policy], and must disclose any potential conflicts of interest.
 
 **Selection and Elections:** The selection process for CFC members is designed to reflect the diversity of the open-source community.
 
@@ -46,37 +44,42 @@ An up-to-date list of CFC members will be maintained in the `cf-council` [CONTAC
 
 ### Officer Roles and Appointment
 
-- **Appointment of Officers:** Following each election, the CFC may review and reassign officer roles as needed. This ensures that roles align with the current composition and skills of the CFC.
+Following elections, the CFC assesses and assigns officer roles. CF general members may be appointed as officers, or external staff hired, to support administrative functions. These non-CFC officers and staff assist with administrative tasks but do not have voting rights in CFC decisions.
 
-- **Officer Roles**: The CFC includes the roles of Chairperson, Secretary, and Treasurer. Additional roles can be established based on the needs of the Foundation.
+The CFC's key roles are Chairperson, Secretary, and Treasurer. Additional roles may be created as needed.
 
-  - **[CFC Chairperson](#cfc-chairperson):** Oversees CFC meetings and is involved in resolving [Code of Conduct issues][coc-reports].
-  - **Secretary:** Manages records, oversees official correspondence, and ensures accurate meeting minutes.
-  - **Treasurer:** Handles financial affairs, including budgeting, financial reporting, and coordinating with fiscal hosts or agents.
+- **CFC Chairperson**: The Chairperson orchestrates CFC meetings and ensures equitable participation and discussion. They oversee the processing of [Code of Conduct reports and escalations][coc-reports], and facilitate the progression of votes and decisions. Their role is pivotal in maintaining the integrity and efficiency of the CFC's operations.
+- **Secretary**: The Secretary is responsible for managing the Foundation's records and overseeing official correspondence, including serving as a primary contact for marketing and outreach. They ensure the accuracy and maintenance of essential documents and communications, playing a key role in the Foundation's external and internal interactions.
+- **Treasurer**: The Treasurer oversees the Foundation's financial management, including budgeting, financial reporting, and liaison with fiscal hosts or agents. They ensure financial transparency and accountability, vital for the Foundation's sustainability and trustworthiness.
 
-- **Officers and Staff:** The CFC may appoint CF general members as officers or hire staff to manage specific administrative functions. These officers and staff are not considered CFC members and do not have voting rights. 
-  - Officers may be invited to attend CFC meetings as non-voting participants
-  - Officers may resign at any time by notice to the CFC.
+#### CFC Chairperson
 
-### CFC Chairperson
+The Chairperson is instrumental in steering the operations of the CFC. Their key responsibilities are to:
 
-The Chairperson orchestrates regular CFC meetings, ensuring leadership in discussions is evenly spread. They also oversee the proper handling of [Code of Conduct reports and escalations][coc-reports].
+- Organize and moderate regular CFC leadership meetings, ensuring balanced participation and effective discussion.
+- Facilitate the progression of votes, ensuring that decisions are efficiently managed and accurately recorded.
+- Oversee the processing of [Code of Conduct reports and escalations][coc-reports], upholding the CF's ethical standards and integrity.
 
-#### Officers and Staff
+This role is pivotal for the orderly and fair functioning of the CFC. While crucial in guiding processes and meetings, the Chairperson does not possess additional decision-making power or authority in setting the CFC's strategic direction. Their focus is on ensuring that the Council's operations are conducted effectively and impartially.
 
-The CFC may appoint CF general members as officers or hire staff to manage specific administrative functions. These officers and staff are not considered CFC members and do not have voting rights.
+## Extended Governance Committee (EGC)
 
-- Officers may be invited to attend CFC meetings as non-voting participants
-- Officers may resign at any time by notice to the CFC.
+Expanding beyond the CFC, the Extended Governance Committee (EGC) plays a vital role in encompassing broader representation and decision-making within the CF.
+
+- **Composition:** The EGC includes every member of the CF Council and one nominated leader from each CF project.
+- **Role:** The EGC is responsible for making key decisions that have a [significant impact on the CF and its projects](#voting).
+
+This structure ensures a balanced representation, combining strategic oversight with project-specific insights.
+
+An up-to-date list of Project Leads as members of the EGC will be maintained in the `egc` [CONTACTS.yaml][] attribute.
 
 ## Meetings, Procedures and Decision-Making
 
-The CFC conducts meetings primarily through electronic means (like Zoom or Google Meet) to accommodate its globally distributed and remote members. Key points:
+The CFC uses electronic and asynchronous methods for meetings and decision-making, catering to our globally distributed membership. This facilitates inclusive participation and effective governance.
 
-- **Frequency:** Regular meetings of the CFC are held quarterly for strategic and operational discussions.
-- **Platform:** Online tools facilitating video and voice interactions are used for remote participation.
-- **Annual General Meeting (AGM):** Conducted via online platforms, the AGM reviews the annual report and sets plans.
-- **Special General Meetings:** Called for specific purposes, they can also be held electronically.
+- **Regular Meetings**: Quarterly online meetings focusing on strategic and operational discussions.
+- **Annual General Meeting (AGM)**: Reviews the annual report and sets future plans, held online.
+- **Special General Meetings**: For specific purposes, conducted electronically.
 
 ### Agendas, Access, and Records
 
@@ -84,39 +87,31 @@ The CFC conducts meetings primarily through electronic means (like Zoom or Googl
 - **Public Access:** Meetings are generally open to the public, except for confidential matters.
 - **Meeting Minutes:** Minutes and summaries of key decisions and discussions are stored in a GitHub repository as per our [Record Keeping policy][records].
 
-### Electronic Participation and Action by Written Consent
+### Electronic Participation and Decision-Making
 
-Efficient participation and decision-making are essential for geographically dispersed CFC members. Here's how electronic methods are used:
+Efficient participation and decision-making are essential for geographically dispersed CFC members. 
 
-- **Remote Involvement:** CFC members actively participate in meetings through teleconferencing or video conferencing tools.
-- **Decision Making Outside Meetings:** Decisions can be made through written consent, following the [decision-making process][consensus], with proper [notice][] and [record keeping][records].
-- **Effectiveness:** Actions by written consent require majority approval, suitable for urgent or straightforward decisions.
+- **Remote Involvement:** Meetings are conducted through teleconferencing and video conferencing tools.
+- **Decision Making Outside Meetings:** Decisions are made outside of formal meetings through written consent, adhering to the [decision-making process][consensus], with appropriate [notice][] and [record keeping][records].
 
-### Quorum for Meetings
+### Quorum
 
-- **Quorum Requirement:** A quorum at any CFC meeting requires attendance by a majority of the total number of CFC members to ensure decisions are made with adequate participation and representation.
-- **Adjournment in Absence of Quorum:** If a quorum is not present at a meeting, a majority of the CFC members present may adjourn the meeting until a quorum is achieved.
-- **Reduced Quorum for Disqualified Members:** If any CFC member is disqualified from voting on a particular matter, the quorum required for that matter is reduced accordingly. Suspended CFC members (if any) are also not counted for the purposes of quorum.
+- **Quorum for Synchronous Meetings**: Presence of a majority of CFC members constitutes a quorum.
+- **Quorum for Asynchronous Decision-Making**: Participation of a majority of CFC members constitutes a quorum.
 
-### Decision-Making Process
+**Adjustments for Disqualifications**: If any member is disqualified from a particular matter (for example, abstention due to a conflict of interest), the quorum is adjusted to exclude them. Similarly, suspended members are not counted for quorum purposes.
 
-- **Consensus-Based Approach:** The CFC strives to make decisions based on consensus, adhering to the Lazy Consensus model outlined in [General Decision Making][consensus]. This approach emphasizes collective agreement and accommodates diverse viewpoints.
-- **Voting as a Last Resort:** If a consensus cannot be reached, the CFC resorts to voting. Decisions are then made by a simple majority of the voting CFC members present unless a supermajority is required.
-- **Supermajority Requirement:** Certain critical decisions require a supermajority vote. A supermajority is defined as at least two-thirds of the total number of CFC members.
+### Voting
 
-## Extended Governance Committee (EGC)
+The CFC prioritizes and prefers using [consensus for decision-making][consensus]. Voting is a final part in that process, and is used primarily to resolve disagreement.
 
-### Matters Requiring Supermajority Vote
+Most decisions can proceed with majority approval, but critical decisions require a supermajority to proceed.
 
-The following matters must be approved by a supermajority vote of the CFC:
+- **Significant operational decisions**: Critical decisions impacting the foundation's operations must be approved by a supermajority (2/3rds) of all CFC members. This includes suspending or revoking membership for an individual or project, or changes to the Foundation's operations.
 
-- Amending the Bylaws or Articles of Incorporation.
-- Approving mergers, consolidations, or dissolution of the Foundation.
-- Changing the size or eligibility requirements of the CFC.
-- Major changes to the Foundation's structure or operations.
-- Suspending or revoking membership for an individual or project.
-- Any changes to the definition or rights of membership.
-- Other significant decisions as determined by the CFC.
+-**Policy, Bylaws or other significant structural changes:** Major policy changes and amendments to bylaws must be approved by a sumpermajority (2/3rds) of all EGC members. This includes decisions such as amending the foundation's Bylaws or Articles of Incorporation, significant alterations to the foundation's structure or operations, and changes that broadly impact member projects.
+
+- **Overruling CFC Decisions:** In instances where the CFC makes a decision, a supermajority vote of the EGC, or a supermajority (2/3rds) of all CF members, can override the CFC's decision, ensuring a balance of power and representation within the foundation's governance structure.
 
 ## Committees and Delegation
 
