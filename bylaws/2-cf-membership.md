@@ -18,19 +18,19 @@ The following section outlines the different types of membership and the process
 
 ## Projects
 
-A **project** within the Commonhaus Foundation represents a collaborative endeavor focused on developing open-source technology. It is not a formal legal entity but a self-organizing collective of contributors. 
-
-- A project may encompass a single repository or an entire GitHub organization. It includes a range of donated assets such as code, trademarks, and domains, which collectively constitute its identity and output. 
-- Project governance is handled by **[Project Leaders](#project-leaders-and-code-owners)**, who are key representatives and automatically become members of the Foundation. These leaders participate in broader decision-making processes, linking the project's specific goals with the Foundation's overarching mission.
+A **project** within the Commonhaus Foundation is a collaborative effort in open-source technology. Although not formal legal entities, projects are self-organizing collectives of contributors, encompassing everything from single repositories to entire GitHub organizations. They include various
+assets such as code, trademarks, and domains.
 
 ## Project Leaders and Code Owners
 
-Project Leaders and Code Owners are the pillars of their projects and the CF at large.
+Each CF project is represented by a nominated **Project Leader**.
 
-- **Responsibilities**: Managing access to project repositories and steering project direction and development. They ensure their projects adhere to CF policies, and collaborate with the CFC to ensure policies remain relevant and reduce procedural burden.
-- **Membership and Voting Rights**: Project leaders and code owners are automatically eligible for CF membership, with voting rights and eligibility for CFC positions.
+- **Nomination and Representation:** Each project, through its own governance process, nominates one Project Leader as a member of the [Extended Governance Committee (EGC)][egc]. This ensures equitable representation across the CF.
+- **Additional Nomination for Council Members**: If a Project Leader also serves on the CF Council, an additional leader from the project is nominated to the EGC. This ensures that the project continues to have dedicated representation, while the Council member focuses on broader CF issues.
 
-**Code Owners**: The Code Owners for a repository should be managed through `CODEOWNERS` files. To learn more about this role, see [About Code Owners](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-code-owners)
+**Code Owners:** The `CODEOWNERS` file in a GitHub project ororganization's repository specifies individuals responsible for code in a repository.  Nominated Project Leaders should be listed in their project's CODEOWNERS file. The CF wants to ensure that individuals representing the project on the EGC have a demonstrable commitment to that project's ongoing health and success.
+
+For more details, see [About Code Owners](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-code-owners).
 
 ## General Members
 
