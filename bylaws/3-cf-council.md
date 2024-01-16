@@ -75,7 +75,7 @@ An up-to-date list of Project Leads as members of the EGC will be maintained in 
 
 ## Meetings, Procedures and Decision-Making
 
-The CFC uses electronic and asynchronous methods for meetings and decision-making, catering to our globally distributed membership. This facilitates inclusive participation and effective governance.
+The CFC uses electronic and (where possible) asynchronous methods for meetings and decision-making, catering to our globally distributed membership. This facilitates inclusive participation and effective governance.
 
 - **Regular Meetings**: Quarterly online meetings focusing on strategic and operational discussions.
 - **Annual General Meeting (AGM)**: Reviews the annual report and sets future plans, held online.
