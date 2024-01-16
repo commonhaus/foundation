@@ -28,7 +28,7 @@ Each CF project is represented by a nominated **Project Leader**.
 - **Nomination and Representation:** Each project, through its own governance process, nominates one Project Leader as a member of the [Extended Governance Committee (EGC)][egc]. This ensures equitable representation across the CF.
 - **Additional Nomination for Council Members**: If a Project Leader also serves on the CF Council, an additional leader from the project is nominated to the EGC. This ensures that the project continues to have dedicated representation, while the Council member focuses on broader CF issues.
 
-**Code Owners:** The `CODEOWNERS` file in a GitHub project ororganization's repository specifies individuals responsible for code in a repository.  Nominated Project Leaders should be listed in their project's CODEOWNERS file. The CF wants to ensure that individuals representing the project on the EGC have a demonstrable commitment to that project's ongoing health and success.
+**Code Owners:** The `CODEOWNERS` file in a GitHub project organization's repository specifies individuals responsible for code in a repository.  Nominated Project Leaders should be listed in their project's CODEOWNERS file. The CF wants to ensure that individuals representing the project on the EGC have a demonstrable commitment to that project's ongoing health and success.
 
 For more details, see [About Code Owners](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-code-owners).
 
