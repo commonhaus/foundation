@@ -7,8 +7,8 @@ instructions: Replace [Project Name], update Contact information, delete YAML fr
 This document outlines the governance model for [Project Name].
 This governance model is designed to uphold the principles of transparency, open collaboration, and community involvement.
 
-[cfc]: ../GOVERNANCE.md#commonhaus-council "Commonhaus Foundation Council - TODO: full path"
-[cdm]: ../GOVERNANCE.md#decision-making-and-voting "Commonhaus decision making - TODO: full path"
+[cfc]: https://www.commonhaus.org/bylaws/cf-council.html
+[cdm]: https://www.commonhaus.org/bylaws/decision-making.html
 
 ## Table of Contents
 
