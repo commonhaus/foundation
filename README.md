@@ -15,10 +15,6 @@ We are dedicated to ensuring the long-term growth and stability of GitHub-style 
 
 Our vision is to create a dynamic and inclusive community where developers, contributors, and users unite to drive the evolution of open-source libraries and frameworks. We aim to cultivate an ecosystem that thrives on collaborative innovation, bypassing the complexities of traditional governance models.
 
-[codehaus]: https://www.infoworld.com/article/2892227/codehaus-the-once-great-house-of-code-has-fallen.html
-[succession]: policies/succession-plan.md
-[ip-policy]: policies/ip-policy.md
-
 ## Core Distinctions of CF
 
 Drawing inspiration from [The Codehaus][codehaus], CF offers the right balance of support without overwhelming governance.
@@ -55,15 +51,24 @@ We're not just a placeholder but a guide, assisting projects as they grow and, i
 
 ## Community and Sponsorship
 
-CF is committed to inclusive growth, opening its doors to all individuals who share our vision, not just code contributors. We encourage participation from those interested in supporting and steering our projects, offering them a voice and a vote in our governance. For detailed information on membership and eligibility, refer to our [Governance](GOVERNANCE.md) document.
+CF is committed to inclusive growth, opening its doors to all individuals who share our vision, not just code contributors. We encourage participation from those interested in supporting and steering our projects, offering them a voice and a vote in our governance. For detailed information on membership and eligibility, refer to our [Bylaws][].
 
 **Collaboration and Voice**: Our community thrives on cooperation and diverse perspectives. Here, every member, including project leaders and supporters, has the opportunity to contribute to decision-making processes.
 
-**Advisory Input**: While sponsors do not have voting rights, they play a vital role through the [Advisory Board](GOVERNANCE.md#commonhaus-foundation-advisory-board), offering strategic insights that guide the foundation's direction. This structure ensures that sponsorship is aligned with community interests and open-source integrity.
+**Advisory Input**: While sponsors do not have voting rights, they play a vital role through the [Advisory Board][cfab], offering strategic insights that guide the foundation's direction. This structure ensures that sponsorship is aligned with community interests and open-source integrity.
 
 ## Additional resources
 
 - [Code of Conduct](CODE_OF_CONDUCT.md)
-- [Commonhaus Foundation Governance](GOVERNANCE.md)
+- [Commonhaus Foundation Governance](bylaws/README.md)
 - [Succession Planning][succession]
+- [Security Policy][sec-policy]
 - [IP Policy][ip-policy]
+
+
+[codehaus]: https://www.infoworld.com/article/2892227/codehaus-the-once-great-house-of-code-has-fallen.html
+[Bylaws]: bylaws/0-preface.md
+[cfab]: bylaws/4-cf-advisory-board.md
+[succession]: policies/succession-plan.md
+[ip-policy]: policies/ip-policy.md
+[sec-policy]: policies/security-policy.md

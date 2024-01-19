@@ -30,6 +30,7 @@ In addition to our bylaws, the Commonhaus Foundation (CF) adopts specific polici
 - [**Code of Conduct**][policy-coc]: Definition of behavioral expectations and conflict resolution and remediation in support of a respectful and inclusive community.
 - [**Conflict of Interest**][policy-coi]: Establishes protocols for identifying, disclosing, and managing any personal or financial interests that could potentially interfere with the impartial and objective operation of the CF.
 - [**Intellectual Property Policy**][policy-ip]: Framework for responsibly managing and protecting intellectual contributions.
+- [**Security Policy**][policy-sec]: 
 - [**Succession Plan**][policy-sp]: Strategy to ensure leadership continuity and project resilience.
 - [**Trademark Policy**][policy-tp]: Guidelines for the appropriate use of CF’s intellectual property.
 
@@ -57,6 +58,7 @@ Amendments or changes to Bylaws will follow the [amendment process][].
 [policy-coc]: ../policies/code-of-conduct.md
 [policy-coi]: ../policies/conflict-of-interest.md
 [policy-ip]: ../policies/ip-policy.md
+[policy-sec]: ../policies/
 [policy-sp]: ../policies/succession-plan.md
 [policy-tp]: ../policies/trademark-policy.md
 [project]: ./2-cf-membership.md#projects
