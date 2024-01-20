@@ -19,8 +19,14 @@ The following section outlines the different types of membership and the process
 
 ## Projects
 
-A **project** within the Commonhaus Foundation is a collaborative effort in open-source technology. Although not formal legal entities, projects are self-organizing collectives of contributors, encompassing everything from single repositories to entire GitHub organizations. They include various
-assets such as code, trademarks, and domains.
+A **project** within the CF represents collaborative innovation in open-source technology. These projects are dynamic collectives of individual contributors, functioning as self-organizing units rather than formal legal entities.[^1]
+
+**Flexible and Inclusive Structure:** Projects can vary in size and scope, ranging from individual repositories to entire collections of repositories. Whether it's a single focused effort or a collection of related initiatives, each project is defined by common goals and shared assets, including code, trademarks, and domains.
+
+**Open Source**: Project code must be publically accessible on any public code-hosting platform (like GitHub or GitLab).[^2]
+
+[^1]: Contributors may be affiliated with various organizations or companies, but they contribute as individuals.
+[^2]: As part of its commitment to ensure the [long-term viability][succession] of CF projects, code should be hosted on public platforms. Mirroring options can be considered for specific needs.
 
 ## Project Representation and Code Owners
 
@@ -32,14 +38,14 @@ assets such as code, trademarks, and domains.
 
 ## General Members
 
-**Join as an individual.** Membership to the CF is open to all individuals who share our mission and are willing to contribute[^1]. 
+**Join as an individual.** Membership to the CF is open to all individuals who share our mission and are willing to contribute[^3]. 
 
 - **Path to Membership:** Engage with the CF or one of its projects in any capacity for three months to gain eligibility. Whether it's contributing code, documentation, community management, or advocacy, your active participation is the key to becoming a member.
 - **Application Process:** To formalize your membership, submit an application (*details TBD*). The CFC will review each application, focusing on your contributions and alignment with our values. 
 
 Our review process is transparent. Declined applicants receive explanations and can appeal. Our aim is always to be fair and act in the best interest of the CF community.
 
-[^1]: Companies (or similar legal entities) can ensure their views are represented by appointing a representative to the [advisory board][].
+[^3]: Companies (or similar legal entities) can ensure their views are represented by appointing a representative to the [advisory board][].
 
 ## Membership Rights and Requirements
 
@@ -80,3 +86,4 @@ The decision to revoke or suspend membership is made by a supermajority vote of 
 [cfc]: ./3-cf-council.md
 [coc]: ../policies/code-of-conduct.md
 [coc-reports]: ../policies/code-of-conduct.md#handling-reports-and-escalations
+[succession]: ../policies/succession-plan.md
