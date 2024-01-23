@@ -43,7 +43,7 @@ The CF respects each project's chosen governance model. This policy complements,
 Further Reading:
 
 - `CODEOWNERS`: [About code owners][owners], maintained in `CODEOWNERS` or `.github/CODEOWNERS`
-- `CONTRIBUTING.md`: [Wrangling Web Contributions: How to Build a CONTRIBUTING.md][contrib]. See [CONTRIBUTING.md][] and the [Project CONTRIBUTING.md template][CONTRIB-TPL] for examples.
+- `CONTRIBUTING.md`: [Wrangling Web Contributions: How to Build a CONTRIBUTING.md][contrib]. See [CONTRIBUTING.md][].
 - `GOVERNANCE.md`: See [GOVERNANCE.md][] and the [Project GOVERNANCE.md template][GOV-TPL] for examples.
 
 [owners]: https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-code-owners
@@ -56,7 +56,6 @@ This policy may undergo periodic reviews and updates to cater to the evolving ne
 For questions or clarifications on this policy, please contact the [`legal` mailing list][CONTACTS.yaml].
 
 [CONTACTS.yaml]: https://github.com/commonhaus/foundation-draft/blob/main/CONTACTS.yaml
-[CONTRIB-TPL]: https://github.com/commonhaus/foundation-draft/blob/main/templates/CONTRIBUTING.md
 [CONTRIBUTING.md]: https://github.com/commonhaus/foundation-draft/blob/main/CONTRIBUTING.md
 [GOV-TPL]: https://github.com/commonhaus/foundation-draft/blob/main/templates/GOVERNANCE.md
 [GOVERNANCE.md]: https://github.com/commonhaus/foundation-draft/blob/main/GOVERNANCE.md

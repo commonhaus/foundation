@@ -1,40 +1,48 @@
 ---
 status: draft
 ---
-# Bootstrapping the Commonhaus Foundation
+# Commonhaus Foundation Bootstrapping Agreement
 
-This document outlines the interim procedures and commitments during the foundation's initial establishment phase. It provides guidelines for project commitments, ensuring mutual trust and flexibility until the foundation reaches a stable state.
+This document outlines the preliminary, non-binding agreement for the establishment phase of the Commonhaus Foundation (CF), aiming to foster a collaborative community dedicated to open-source projects.
 
-[cfc]: GOVERNANCE.md#commonhaus-foundation-council "Commonhaus Foundation Council"
-[cc-dm]: GOVERNANCE.md#decision-making-and-voting
+[cfc]: ./bylaws/3-cf-council.md
+[cc-dm]: ./bylaws/5-decision-making.md
 
-## Preliminary Commitments
+## Preliminary Commitment
 
-Projects express a non-binding intent to join the Commonhaus Foundation (CF).
-No legal transfers of trademarks, domains, or other assets are required during this phase.
+Projects signal their intent to join the CF without any legal transfer of assets during this preliminary phase.
+
+- [?] Clarification on Projects' Role and Contributions: Define the expected contributions and engagement level from each project during this phase.
 
 ## Quorum Establishment
 
-A minimum number (or "quorum") of projects is established as a requirement for moving forward with binding commitments. This ensures that no project is committing without sufficient collaborative support.
+A minimum number of projects, or "quorum," is required for moving forward with binding commitments.
 
-If the quorum is not met within a stipulated timeframe, projects have the option to reconsider their participation.
+- [?] Mechanics of Quorum Establishment: Detail the process and criteria for establishing and meeting the quorum.
 
 ## Formation Period
 
-After the foundation is formally organized, there is a *Formation Period* during which projects can assess the viability and effectiveness of the collaborative effort, and actively work towards building and establishing the foundation's structures and processes.
+Post-organization, there is a Formation Period for projects to contribute to CF's foundational structures and processes.
 
-During this time, projects can monitor participation levels and foundational processes.
+Decisions should follow (and refine) the [CF decision making process][cc-dm].
 
-- The initial [CF Council][cfc] (CFC) will contain representatives from all participating projects.
-- Decisions should follow (and refine) the [CF decision making process][cc-dm].
 
-## Trademark Donations and Other Commitments
+## Binding Commitments Post-Formation
 
-Only after the Formation Period, and provided that the established quorum continues to support the foundation, will projects be required to make binding commitments like donating trademarks.
+Projects commit to binding agreements such as trademark donations after the Formation Period, contingent upon continued quorum support.
+
 
 If fewer than the quorum decide to commit their trademarks after the Formation Period, the remaining projects have the right to withdraw their membership without any penalties or obligations.
 
+- [?] Transition to Binding Commitments: Define the criteria and process for transitioning from non-binding to binding commitments.
+
 ## Feedback and Iteration
 
-During the bootstrapping process, regular feedback sessions should be held. 
-These sessions provide an opportunity for projects to voice concerns, suggest changes, and ensure the foundation's direction aligns with collective goals.
+Regular feedback sessions will address concerns, suggest changes, and ensure alignment with collective goals.
+
+- [?] Feedback Mechanism Implementation: Establish how feedback will be collected, reviewed, and utilized.
+
+## Acknowledgement
+
+By signing this agreement, the undersigned representatives of the participating projects acknowledge their understanding of these terms and express their non-binding intent to support the establishment of the Commonhaus Foundation.
+
