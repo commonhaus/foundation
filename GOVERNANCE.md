@@ -1,43 +1,36 @@
 ---
 status: draft
 ---
+
 # Commonhaus Foundation Project Governance
 
-The Commonhaus Foundation (CF) is a nonprofit membership organization dedicated to open-source innovation and collaboration.
+Welcome to the Commonhaus Foundation (CF), a nonprofit dedicated to nurturing open-source projects through collaborative innovation.
 
-Organizational governance is described in detail in the [Bylaws][bylaws], which are the authoritative source for all policies and procedures. What follows is a quick reference to the key governance concepts and processes.
+## Governance Overview
 
-## CF Council
+The Foundation operates in accordance with the [CF Bylaws][bylaws], which outline our operational principles and practices.
 
-The **CF Council (CFC)** is the governing body responsible for overarching decisions, financial allocations, and setting future plans. It consists of elected members who prioritize the interests of the CF community in their actions.
+### CF Council (CFC)
 
-- **Concerns and Actions**: Members can voice concerns or propose actions by emailing the [`council` mailing list][CONTACTS.yaml] (TODO: or initiating a GitHub discussion, etc.).
+The  [CFC][] oversees strategic and operational decisions. To engage with the council, email the [`council` mailing list][CONTACTS.yaml] or initiate a GitHub discussion.
 
-See [CF Council][cfc] for more details.
+### Extended Governance Committee (EGC)
 
-## CF Membership and Roles
+The [EGC][] is a joint body formed from members of the CFC and a representative for each foundation projet. It plays a crucial role in ensuring diverse project perspectives are included in foundation-wide decisions.
 
-- **Projects**: Open-source projects that are donated to CF. Project Leaders submit an application for their project to join the Commonhaus Foundation.
-- **Project Leaders and Code Owners**: Key contributors who drive CF projects. They hold admin and/or write permissions in project repositories. Project leaders are CF members and are eligible for election to the CFC.
-- **General Members**: CF Membership is open to all who support our mission. Active members, contributing in various ways, can gain voting rights and participate in elections.
+### Membership
 
-See [Membership and Roles][membership] for more details.
+[CF Membership][membership] is open to individuals who support our mission. Active members gain voting rights and participate in elections.
 
-## CF Advisory Board
+### Advisory Board
 
-The **CF Advisory Board** comprises representatives from supporting organizations. They offer strategic guidance to the CFC.
+Organizations providing financial support to the CF appoint representatives to the [CF Advisory Board][cfab], which provides strategic guidance to the CFC.
 
-See [CF Advisory Board (bylaws)][cfab] for more details.
+### Decision Making
 
-## Decision Making and Voting
+Decisions at CF follow the Lazy Consensus model, ensuring every member has a say. For details, see [Decision Making][cf-decision-making].
 
-CF uses the Lazy Consensus decision-making model. When seeking consensus, members should express objections or dissent as early as possible to ensure there is time to discuss and address objections. See [Decision making (bylaws)][cf-decision-making] for more details.
-
-For CFC elections, CF adopts a preference-based voting system facilitated by [Elekto](https://elekto.dev/).
-
-Every member, regardless of their role or contribution level, has an equal voice and is entitled to one vote in all decisions.
-
-## Record Keeping
+### Record Keeping
 
 The CF is committed to maintaining thorough and accessible records of its activities as documented in [Record Keeping][records].
 
@@ -51,13 +44,14 @@ CF logos, icons, and domain names are protected by trademark rights. Usage of th
 
 ## Contributing
 
-We welcome all forms of contribution, from code improvements to documentation and design. For details on how to contribute and the process your contributions will follow, please read our [Contributing Guidelines][contrib].
+Contributions in all forms are welcome. Check out our [Contributing Guidelines][contrib] for more information.
 
 [Trademark Policy]: ./policies/trademark-policy.md
 [bylaws]: ./bylaws/README.md
 [cf-decision-making]: ./bylaws/5-decision-making.md
 [cfab]: ./bylaws/4-cf-advisory-board.md
 [cfc]: ./bylaws/3-cf-council.md
+[egc]: ./bylaws/3-cf-council.md#extended-governance-committee-egc
 [coc]: ./policies/code-of-conduct.md
 [contrib]: ./CONTRIBUTING.md
 [membership]: ./bylaws/2-cf-membership.md
