@@ -17,7 +17,7 @@ Our vision is to create a dynamic and inclusive community where developers, cont
 
 ## Core Distinctions of CF
 
-Drawing inspiration from [The Codehaus][codehaus], CF offers the right balance of support without overwhelming governance.
+Drawing inspiration from [The Codehaus][codehaus], CF offers a unique balance between the foundation and projects related to support governance.
 
 **Minimal Viable Governance:** CF embraces the "community-first" model prevalent in modern GitHub-style projects.
 While we provide foundational support, projects maintain their autonomy.
