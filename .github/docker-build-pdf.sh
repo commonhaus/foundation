@@ -5,12 +5,13 @@ if [[ -z "${PANDOCK}" ]]; then
     PANDOCK=ebullient/pandoc-emoji:3.1
 fi
 # Git commit information (SHA, date, repo url)
-if [[ -z "${GIT_COMMIT}" ]]; then
-    GIT_COMMIT=$(git rev-parse HEAD)
+DATE=$(date "+%Y-%m-%d")
+if [[ "${IS_PR}" == "true" ]]; then
+    FOOTER="${DATE} ✧ ${GITHUB_REF}"
+elif [[ -z "${GITHUB_SHA}" ]]; then
+    GITHUB_SHA=$(git rev-parse --short HEAD)
+    FOOTER="${DATE} ✧ commit ${GITHUB_SHA}"
 fi
-SHA_RANGE="${GIT_COMMIT}"^.."${GIT_COMMIT}"
-FOOTER=$(git --no-pager log --date=short --pretty="format:%ad ✧ commit %h%n" "${SHA_RANGE}")
-MARK=$(git --no-pager log --date=short --pretty="format:%ad-%h%n" "${SHA_RANGE}")
 URL=$(gh repo view --json url --jq '.url')/
 
 # Docker command and arguments
@@ -18,8 +19,7 @@ ARGS="--rm -e TERM -e HOME=/data -u $(id -u):$(id -g) -v $(pwd):/data -w /data"
 if [[ "$OSTYPE" == "darwin"* ]]; then
     ARGS="$ARGS --platform linux/amd64"
 fi
-DRY_RUN=${IS_PR:-false}
-if [[ "${DRY_RUN}" != "false" ]]; then
+if [[ "${DRY_RUN}" == "true" ]]; then
     DOCKER="echo docker"
 elif [[ -z "${DOCKER}" ]]; then
     DOCKER=docker
@@ -49,9 +49,10 @@ function to_pdf_with_changes() {
     shift
     rm -f "${pdfout}"
 
-    to_pdf --pdf-engine-opt=-output-dir="${tmpout}" \
-        --pdf-engine-opt=-outdir="${tmpout}" \
-        -o "${pdfout}" \
+    # Use mounted volume paths
+    to_pdf --pdf-engine-opt=-output-dir="./${tmpout}" \
+        --pdf-engine-opt=-outdir="./${tmpout}" \
+        -o "./${pdfout}" \
         "$@"
 }
 
@@ -67,6 +68,8 @@ function to_pdf() {
         -V footer-left:"${FOOTER}" \
         -V github:"${URL}blob/${GIT_COMMIT}/" \
         "$@"
+
+    echo "$?"
 }
 
 mkdir -p output/tmp
