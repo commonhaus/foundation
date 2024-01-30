@@ -1,7 +1,7 @@
 ####################################################################################
-# I know, I know... YAML. But this is easier to digest in website templates, 
+# I know, I know... YAML. But this is easier to digest in website templates,
 # so, Let's go! Name and github are the minimum, please.
-# - name: 
+# - name:
 #   github:
 #   social:
 #     twitter:
@@ -43,8 +43,8 @@ supporters:
   github: Sanne
   social:
     twitter: SanneGrinovero
-    mastodon: @sanne@fosstodon.org
-    bluesky: @sannegrinovero.bsky.social
+    mastodon: "@sanne@fosstodon.org"
+    bluesky: "@sannegrinovero.bsky.social"
     linkedin: sannegrinovero
     website: https://in.relation.to/sanne-grinovero
 

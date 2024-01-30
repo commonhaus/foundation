@@ -1,9 +1,13 @@
 {
   "scripts": {
-    "test": "find . -name '*.md' ! -path './node*' -print0 | xargs -0 npx markdown-link-check --config .mlc_config.json -q",
-    "tv": "find . -name '*.md' ! -path './node*' -print0 | xargs -0 npx markdown-link-check --config .mlc_config.json"
+    "links": "find . -name '*.md' ! -path './node*' -print0 | xargs -0 npx markdown-link-check --config .mlc_config.json -q",
+    "linksv": "find . -name '*.md' ! -path './node*' -print0 | xargs -0 npx markdown-link-check --config .mlc_config.json",
+    "test": "npm run links && npm run yaml",
+    "tv": "npm run linksv && npm run yaml",
+    "yaml": "node .github/validate.js ./SUPPORTERS.yaml ./CONTACTS.yaml"
   },
-  "dependencies": {
-    "markdown-link-check": "^3.11.2"
+  "devDependencies": {
+    "markdown-link-check": "^3.11.2",
+    "yaml": "^2.3.4"
   }
 }
