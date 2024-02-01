@@ -3,21 +3,17 @@ status: draft
 ---
 # Conflict of Interest Policy
 
-This document outlines the Conflict of Interest Policy for the Commonhaus Foundation (CF), setting the framework for identifying, disclosing, and managing potential conflicts of interest to protect the Foundation’s interest when it is contemplating entering a [transaction](#definitions) that might benefit the private interest of a [covered individual](#scope-of-application).
+This document outlines the Conflict of Interest Policy for the Commonhaus Foundation (CF), setting the framework for identifying, disclosing, and managing potential conflicts of interest to protect the Foundation’s interest when it is contemplating entering a [transaction](#definitions) that might benefit the personal or professional interests of a [covered individual](#scope-of-application).
 
-This policy applies to all individuals with decision-making authority within the CF, including CF Council (CFC) members and officers, and extends to project leaders and members when their interests may influence Foundation activities.
-
-- [Definition of Conflict of Interest](#definition-of-conflict-of-interest)
+- [Scope of Application](#scope-of-application)
+- [Definitions](#definitions)
     - [Examples](#examples)
+    - [Procedures for Determining Compensation](#procedures-for-determining-compensation)
 - [Disclosing Potential Conflicts of Interest](#disclosing-potential-conflicts-of-interest)
-    - [Immediate Disclosure](#immediate-disclosure)
-    - [Annual Disclosure](#annual-disclosure)
-- [Managing Conflicts](#managing-conflicts)
-- [Transparency and Documentation](#transparency-and-documentation)
-- [Prohibited Acts](#prohibited-acts)
-- [Guidelines for Gifts and Hospitality](#guidelines-for-gifts-and-hospitality)
-- [Training and Compliance](#training-and-compliance)
-- [Procedures for Determining Compensation](#procedures-for-determining-compensation)
+- [Determining Whether a Conflict of Interest Exists](#determining-whether-a-conflict-of-interest-exists)
+    - [Review by the CFC](#review-by-the-cfc)
+    - [Records of Review](#records-of-review)
+- [Violations](#violations)
 - [Review of Policy](#review-of-policy)
 
 ## Scope of Application
@@ -31,7 +27,7 @@ This policy applies to all individuals within the CF who possess decision-making
 - General members, when their personal or professional interests could potentially influence the decisions or activities of the Foundation.
 - Key employees[^1]
 
-[^1]: If and when the CF employs full-time staff, a key employee is an employee whose total annual compensation (including benefits) from the foundation and its affiliates is more than $150,000 and who (a) has responsibilities or influence over the foundation similar to that of officers or Councilors; or (b) manages a program that represents 10% or more of the activities, assets, income, or expenses of the foundation; or (c) has or shares authority to control 10% or more of the foundation capital expenditures, operating budget, or compensation for employees.
+[^1]: If and when the CF employs full-time staff, a key employee is an employee who (a) has responsibilities or influence over the foundation similar to that of officers or Councilors; or (b) manages a program that represents 10% or more of the activities, assets, income, or expenses of the foundation; or (c) has or shares authority to control 10% or more of the foundation capital expenditures, operating budget, or compensation for employees.
 
 ## Definitions
 
@@ -67,7 +63,7 @@ The covered individual(s) and any other interested person(s) involved with the t
 
 ### Review by the CFC
 
-The CFC may ask questions of and receive presentation(s) from the covered individual(s) and any other interested person(s), but shall deliberate and vote on the transaction in their absence. 
+The CFC may ask questions of and receive presentation(s) from the covered individual(s) and any other interested person(s), but shall deliberate and vote on the transaction in their absence.
 
 The CFC shall ascertain that all material facts regarding the transaction and the covered individual’s conflict of interest have been disclosed to the CFC and shall compile appropriate data, such as comparability studies, to determine fair market value for the transaction.
 
@@ -84,7 +80,7 @@ The minutes of any meeting of the CFC pursuant to this policy shall contain the 
 
 ## Violations
 
-If the CFC has reasonable cause to believe that a covered individual of the Foundation has failed to disclose actual or possible conflicts of interest, including those arising from a transaction with a related interested person, it shall inform such covered individual of the basis for this belief and afford the covered individual an opportunity to explain the alleged failure to disclose. 
+If the CFC has reasonable cause to believe that a covered individual of the Foundation has failed to disclose actual or possible conflicts of interest, including those arising from a transaction with a related interested person, it shall inform such covered individual of the basis for this belief and afford the covered individual an opportunity to explain the alleged failure to disclose.
 
 If, after hearing the covered individual’s response and making further investigation as warranted by the circumstances, the CFC determines that the covered individual has failed to disclose an actual or possible conflict of interest, the CFC shall take appropriate disciplinary and corrective action.
 
