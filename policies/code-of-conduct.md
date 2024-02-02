@@ -3,58 +3,46 @@ status: draft
 ---
 # The Commonhaus Foundation Code of Conduct
 
-Welcome to the Code of Conduct (CoC) for the Commonhaus Foundation (CF). This document reflects our dedication to fostering a respectful, inclusive, and collaborative environment. It sets the standards for behavior expected in our community and provides a framework for addressing and resolving issues in a fair and respectful manner.
+Welcome to the Code of Conduct (CoC) for the Commonhaus Foundation (CF). We're dedicated to creating a respectful, inclusive, and collaborative environment. This document outlines expected behavior in our community and provides a framework for addressing and resolving issues in a fair and respectful manner.
 
 - [Our Code of Conduct](#our-code-of-conduct)
     - [Member Expectations](#member-expectations)
     - [Report an issue](#report-an-issue)
+    - [Confidentiality and Safety](#confidentiality-and-safety)
     - [Respond to a CoC issue](#respond-to-a-coc-issue)
     - [Escalate an issue](#escalate-an-issue)
     - [Code of Conduct Panel](#code-of-conduct-panel)
 - [Handling Reports and Escalations](#handling-reports-and-escalations)
     - [Conflict of Interest](#conflict-of-interest)
     - [Reports to the CoC report mailing list](#reports-to-the-coc-report-mailing-list)
-    - [Reports to the CoC escalation mailing list](#reports-to-the-coc-escalation-mailing-list)
+    - [Reports to the CoC Escalation mailing list](#reports-to-the-coc-escalation-mailing-list)
 - **Contributor Covenant Code of Conduct**
     - [Our Pledge](#our-pledge)
     - [Our Standards](#our-standards)
-    - [Enforcement Responsibilities](#enforcement-responsibilities)
+    - [Our Responsibilities](#our-responsibilities)
     - [Scope](#scope)
     - [Enforcement](#enforcement)
-    - [Enforcement Guidelines](#enforcement-guidelines)
-        - [Correction](#correction)
-        - [Warning](#warning)
-        - [Temporary Ban](#temporary-ban)
-        - [Permanent Ban](#permanent-ban)
     - [Attribution](#attribution)
 
 [CONTACTS.yaml]: https://github.com/commonhaus/foundation-draft/blob/main/CONTACTS.yaml
 [cc-dm]: ../bylaws/5-decision-making.md
+[cfc]: ../bylaws/3-cf-council.md
 
 ## Our Code of Conduct
 
-The CF has adopted the [Contributor Covenant v2.1][v2.1] as its CoC (full text [below](#contributor-covenant-code-of-conduct)).
+The CF adheres to the [Contributor Covenant v1.4](#contributor-covenant-code-of-conduct) as its foundational Code of Conduct (CoC), embracing a commitment to create a welcoming and inclusive environment. This CoC underpins all foundation activities and is a requirement for new projects within three months of joining.
 
-- The CoC applies to all foundation activities.
-- New projects must adopt this CoC within 3 months of joining the foundation.
-
-A CoC is meaningful only [when it is effectively enforced][moz-coc].
-Having a unified CoC allows for consistent enforcement and better support across all CF projects.
-
-CF Council members (CFC) and CF project leaders are [expected](#leadership-expectations) to respect and uphold the CoC for their areas of responsiblity. A [Code of Conduct Panel (CoCP)](#code-of-conduct-panel) provides an avenue for appeals or escalations, if necessary.
-
-[moz-coc]: https://medium.com/mozilla-open-innovation/how-were-making-code-of-conduct-enforcement-real-and-scaling-it-3e382cf94415
+Leadership across the CF, including [Council members (CFC)][cfc] and project leaders, are [expected](#leadership-expectations) to respect and uphold this CoC to foster an environment of respect and collaboration. The [Code of Conduct Panel (CoCP)](#code-of-conduct-panel) provides an avenue for appeals or escalations, if necessary.
 
 ### Member Expectations
 
-All participants in CF projects are bound by the principles outlined in this Code of Conduct.
+We expect all members and contributors to engage constructively, respecting diverse viewpoints as a vital aspect of our collaborative environment. Key expectations include:
 
-Members of CF and CF project contributors are expected to be respectful of different viewpoints and work collaboratively with one another. Some general guidelines include:
-
-- Admit and work to correct mistakes. Aim to remediate first, and then discuss. If other members of the team express concerns about actions, acknowledge their concerns by stopping the actions in question and discuss within the team (the CFC, the CoCP, or CF project members) to come to a common agreement.
-- Treat all community members with respect, consideration, and highest standards of ethical conduct. Avoid preferential treatment. Criticize ideas rather than people. Discuss any concerns in person whenever possible.
-- Build trust by keeping your promises. The corollary: don't over-promise.
-- Demonstrate a willingness to listen and learn from others. Provide an example of ownership, stewardship, and inclusiveness that everyone can follow.
+- **Direct Engagement**: Strive for direct resolution of disagreements. Disagreement can play an important role in fostering innovation, but only when the resolution process remains constructive.
+- **Respect and Consideration**: Treat every community member with respect, focusing on ideas rather than individuals.
+- **Active Listening and Learning**: Embrace different perspectives, aiming to learn from others’ experiences and viewpoints.
+- **Anti-Trolling**: Avoid behavior that intentionally disrupts discussions. Trolling[^1] undermines constructive dialogue and will not be tolerated.
+- **Commitment to Diversity**: Explore resources on diversity, inclusion, and unconscious bias to contribute to an environment where everyone feels welcome.
 
 If you're interested in an introduction to diversity, inclusion, and unconscious bias, consider these resources:
 
@@ -66,32 +54,41 @@ If you're interested in an introduction to diversity, inclusion, and unconscious
 [3]: https://thenewstack.io/inclusion-at-scale-in-the-mozilla-and-kubernetes-open-source-communities/
 [4]: https://medium.com/mozilla-open-innovation/we-see-you-reaching-diverse-audiences-in-foss-4e83efc86425
 
+[^1]: "A troll is Internet slang for a person who intentionally tries to instigate conflict, hostility, or arguments in an online social community...Trolls often use inflammatory messages to provoke emotional responses ...disrupting otherwise civil discussion." <https://edu.gcfglobal.org/en/thenow/what-is-trolling/1/>
+
 #### Leadership Expectations
 
-There are further expectations for members of leadership teams including the CFC.
+Leaders should act with respect, engage directly, and be willing to resolve conflicts. See [Martha's Rules][] and the [Decision Making][] section of our bylaws for examples of how to help constructively resolve disagreement.
 
-When decisions are made within the established guidelines and policies of CF projects, *those in leadership roles have a responsibility to uphold and respect the decision even if they disagree with it*. Should the leader be unwilling or unable to do so, then they should resign their leadership position.
+CF Leadership is also responsible for ensuring that decisions, once made, are supported and revisited only when necessary to uphold the integrity of the collaborative process.
 
-This does not mean that decisions are set in stone. CF projects and the CFC are always able to revisit decisions at a later time.
+[Martha's Rules]: https://digitalcommons.unl.edu/cgi/viewcontent.cgi?article=1825&context=sociologyfacpub
+[Decision Making]: ../bylaws/5-decision-making.md
 
 ### Report an issue
 
-- Each CF project is free to implement enforcement of the CoC using processes appropriate for the size and scope of the project. CoC enforcement processes and contact methods must be defined in the projects' `CODE_OF_CONDUCT.md`.
-- For CF repositories that do not specify their own the `CODE_OF_CONDUCT.md`, send your report to the [`report` mailing list][CONTACTS.yaml]. The CFC will receive these reports.
+Disagreements and conflicts are inherent to any dynamic community. We encourage direct dialogue as the first step toward resolution, recognizing that constructive disagreement can lead to innovation and growth.
 
-Confidentiality is of utmost importance. We also understand that the person reporting the issue (**reporter**) may not be the individual directly affected or harmed (**target**). In such cases, communication will primarily be with the reporter unless the target explicitly gives permission. Personal details of the reporter (and the target if they differ) will not be disclosed without permission.
+For issues that escalate beyond direct resolution or involve behavior contrary to our Code of Conduct, the CF provides clear avenues for reporting:
 
-- The CF *prohibits retaliation* against individuals who report concerns in good faith.
+- **Project-Specific Reporting**: Each CF project may implement its own CoC enforcement processes suitable to its size and scope. These processes and contact methods should be detailed in the project's `CODE_OF_CONDUCT.md`.
+- **Foundation-Wide Reporting**: For concerns not covered by a specific project's `CODE_OF_CONDUCT.md`, or for issues that require escalation beyond the project level, reports should be directed to the [report mailing list][CONTACTS.yaml]. The CFC will oversee these reports.
+
+Our commitment extends beyond rule enforcement to fostering an environment where every member feels supported, valued, and able to contribute to positive outcomes from conflicts.
+
+### Confidentiality and Safety
+
+Confidentiality is paramount. We understand that individuals reporting issues (reporters) may not always be the individuals directly affected. Communications will primarily involve the reporter, with the utmost respect for the privacy and wishes of all parties involved. Personal information will be handled with the strictest confidence and disclosed only with explicit permission.
+
+The CF strictly prohibits retaliation against anyone who reports concerns in good faith. Our procedures are designed to ensure that everyone in our community can work in a safe and respectful environment.
+
+Given that membership to groups like the CFC or the CoCP have finite terms, members reviewing CoC reports agree to treat all reports as confidential, even after their term is finished.
 
 ### Respond to a CoC issue
 
-Each complaint will be reviewed and investigated, and will result in a response that is deemed necessary and appropriate to the circumstances.
+The CF is dedicated to a fair and prompt review of all reports. Each report initiates a process of review and, where necessary, investigation. The focus is on understanding the context, assessing the situation, and determining an appropriate course of action in line with our commitment to our community's safety and integrity.
 
-An issue should be created for each report in a private repository listed in its `CODE_OF_CONDUCT.md`. It should capture the report, discussion and final conclusion. Personal information is confidential. The report should NOT contain identifying details of the reporter.
-
-Access to the private repository should be restricted to individuals charged with resolving CoC reports. Individuals or groups with access to the private repository will be clearly stated in the `CODE_OF_CONDUCT.md`.
-
-**Confidentiality:** Given that membership to groups like the CFC or the CoCP have finite terms, members reviewing CoC reports agree to treat all reports as confidential, even after their term is finished.
+In evolving our system for managing confidential reports, we aim to ensure transparency, accountability, and the protection of all community members. Further details on the process will be made available as they are developed, ensuring they align with our foundational principles and legal obligations.
 
 ### Escalate an issue
 
@@ -148,133 +145,75 @@ The CoCP will follow the same overall procedure as the CFC, with the following c
 
 ## Our Pledge
 
-We as members, contributors, and leaders pledge to make participation in our
-community a harassment-free experience for everyone, regardless of age, body
-size, visible or invisible disability, ethnicity, sex characteristics, gender
-identity and expression, level of experience, education, socio-economic status,
-nationality, personal appearance, race, caste, color, religion, or sexual
-identity and orientation.
-
-We pledge to act and interact in ways that contribute to an open, welcoming,
-diverse, inclusive, and healthy community.
+In the interest of fostering an open and welcoming environment, we as
+contributors and maintainers pledge to make participation in our project and
+our community a harassment-free experience for everyone, regardless of age, body
+size, disability, ethnicity, sex characteristics, gender identity and expression,
+level of experience, education, socio-economic status, nationality, personal
+appearance, race, religion, or sexual identity and orientation.
 
 ## Our Standards
 
-Examples of behavior that contributes to a positive environment for our
-community include:
+Examples of behavior that contributes to creating a positive environment
+include:
 
-- Demonstrating empathy and kindness toward other people
-- Being respectful of differing opinions, viewpoints, and experiences
-- Giving and gracefully accepting constructive feedback
-- Accepting responsibility and apologizing to those affected by our mistakes,
-  and learning from the experience
-- Focusing on what is best not just for us as individuals, but for the overall
-  community
+- Using welcoming and inclusive language
+- Being respectful of differing viewpoints and experiences
+- Gracefully accepting constructive criticism
+- Focusing on what is best for the community
+- Showing empathy towards other community members
 
-Examples of unacceptable behavior include:
+Examples of unacceptable behavior by participants include:
 
-- The use of sexualized language or imagery, and sexual attention or advances of
-  any kind
-- Trolling, insulting or derogatory comments, and personal or political attacks
+- The use of sexualized language or imagery and unwelcome sexual attention or
+  advances
+- Trolling, insulting/derogatory comments, and personal or political attacks
 - Public or private harassment
-- Publishing others' private information, such as a physical or email address,
-  without their explicit permission
+- Publishing others' private information, such as a physical or electronic
+  address, without explicit permission
 - Other conduct which could reasonably be considered inappropriate in a
   professional setting
 
-## Enforcement Responsibilities
+## Our Responsibilities
 
-Community leaders are responsible for clarifying and enforcing our standards of
-acceptable behavior and will take appropriate and fair corrective action in
-response to any behavior that they deem inappropriate, threatening, offensive,
-or harmful.
+Project maintainers are responsible for clarifying the standards of acceptable
+behavior and are expected to take appropriate and fair corrective action in
+response to any instances of unacceptable behavior.
 
-Community leaders have the right and responsibility to remove, edit, or reject
-comments, commits, code, wiki edits, issues, and other contributions that are
-not aligned to this Code of Conduct, and will communicate reasons for moderation
-decisions when appropriate.
+Project maintainers have the right and responsibility to remove, edit, or
+reject comments, commits, code, wiki edits, issues, and other contributions
+that are not aligned to this Code of Conduct, or to ban temporarily or
+permanently any contributor for other behaviors that they deem inappropriate,
+threatening, offensive, or harmful.
 
 ## Scope
 
-This Code of Conduct applies within all community spaces, and also applies when
-an individual is officially representing the community in public spaces.
-Examples of representing our community include using an official e-mail address,
-posting via an official social media account, or acting as an appointed
-representative at an online or offline event.
+This Code of Conduct applies within all project spaces, and it also applies when
+an individual is representing the project or its community in public spaces.
+Examples of representing a project or community include using an official
+project e-mail address, posting via an official social media account, or acting
+as an appointed representative at an online or offline event. Representation of
+a project may be further defined and clarified by project maintainers.
 
 ## Enforcement
 
 Instances of abusive, harassing, or otherwise unacceptable behavior may be
-reported to the community leaders responsible for enforcement at
-[INSERT CONTACT METHOD].
-All complaints will be reviewed and investigated promptly and fairly.
+reported by contacting the project team at [INSERT EMAIL ADDRESS]. All
+complaints will be reviewed and investigated and will result in a response that
+is deemed necessary and appropriate to the circumstances. The project team is
+obligated to maintain confidentiality with regard to the reporter of an incident.
+Further details of specific enforcement policies may be posted separately.
 
-All community leaders are obligated to respect the privacy and security of the
-reporter of any incident.
-
-## Enforcement Guidelines
-
-Community leaders will follow these Community Impact Guidelines in determining
-the consequences for any action they deem in violation of this Code of Conduct:
-
-### Correction
-
-**Community Impact**: Use of inappropriate language or other behavior deemed
-unprofessional or unwelcome in the community.
-
-**Consequence**: A private, written warning from community leaders, providing
-clarity around the nature of the violation and an explanation of why the
-behavior was inappropriate. A public apology may be requested.
-
-### Warning
-
-**Community Impact**: A violation through a single incident or series of
-actions.
-
-**Consequence**: A warning with consequences for continued behavior. No
-interaction with the people involved, including unsolicited interaction with
-those enforcing the Code of Conduct, for a specified period of time. This
-includes avoiding interactions in community spaces as well as external channels
-like social media. Violating these terms may lead to a temporary or permanent
-ban.
-
-### Temporary Ban
-
-**Community Impact**: A serious violation of community standards, including
-sustained inappropriate behavior.
-
-**Consequence**: A temporary ban from any sort of interaction or public
-communication with the community for a specified period of time. No public or
-private interaction with the people involved, including unsolicited interaction
-with those enforcing the Code of Conduct, is allowed during this period.
-Violating these terms may lead to a permanent ban.
-
-### Permanent Ban
-
-**Community Impact**: Demonstrating a pattern of violation of community
-standards, including sustained inappropriate behavior, harassment of an
-individual, or aggression toward or disparagement of classes of individuals.
-
-**Consequence**: A permanent ban from any sort of public interaction within the
-community.
+Project maintainers who do not follow or enforce the Code of Conduct in good
+faith may face temporary or permanent repercussions as determined by other
+members of the project's leadership.
 
 ## Attribution
 
-This Code of Conduct is adapted from the [Contributor Covenant][homepage],
-version 2.1, available at
-[https://www.contributor-covenant.org/version/2/1/code_of_conduct.html][v2.1].
-
-Community Impact Guidelines were inspired by
-[Mozilla's code of conduct enforcement ladder][Mozilla CoC].
-
-For answers to common questions about this code of conduct, see the FAQ at
-[https://www.contributor-covenant.org/faq][FAQ]. Translations are available at
-[https://www.contributor-covenant.org/translations][translations].
-
----
+This Code of Conduct is adapted from the [Contributor Covenant][homepage], version 1.4,
+available at <https://www.contributor-covenant.org/version/1/4/code-of-conduct.html>
 
 [homepage]: https://www.contributor-covenant.org
-[v2.1]: https://www.contributor-covenant.org/version/2/1/code_of_conduct.html
-[Mozilla CoC]: https://github.com/mozilla/diversity
-[FAQ]: https://www.contributor-covenant.org/faq
-[translations]: https://www.contributor-covenant.org/translations
+
+For answers to common questions about this code of conduct, see
+<https://www.contributor-covenant.org/faq>
