@@ -1,13 +1,19 @@
-name: Push discussions to commonhaus.github.io
+name: Push discussions and PR activity to commonhaus.github.io
 
 on:
   discussion:
+  pull_request:
+    paths:
+      - '*.md'
+      - '*.yaml'
+      - 'bylaws/**'
+      - 'policies/**'
   workflow_dispatch:
 
 jobs:
   update-discussions:
     runs-on: ubuntu-latest
-    if: github.ref == 'refs/heads/main' && github.repository == 'commonhaus/foundation-draft'
+    if: github.repository == 'commonhaus/foundation-draft'
     steps:
     - name: Bump website
       env:
