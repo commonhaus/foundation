@@ -4,19 +4,19 @@ weight: 3
 ---
 # Commonhaus Foundation Council and Offices
 
-The Commonhaus Foundation Council (CFC) serves as the Board of Directors for the Commonhaus Foundation (CF). Governed by the legal requirements of the State of Florida and as defined in our Articles of Incorporation and [Bylaws][bylaws], the CFC is responsible for the strategic, governance, and fiduciary aspects of the Foundation. 
+The Commonhaus Foundation Council (CFC) serves as the Board of Directors for the Commonhaus Foundation (CF). Governed by the legal requirements of the State of Florida and as defined in our Articles of Incorporation and [Bylaws][bylaws], the CFC is responsible for the strategic, governance, and fiduciary aspects of the Foundation.
 
 - **Member Communication**: Concerns or proposals can be addressed to the CFC at the [`council` mailing list][CONTACTS.yaml] *(TBD: or initiating a GitHub discussion, etc.)*.
 
 - [Composition and Membership](#composition-and-membership)
-  - [Tenure, Transition and Apportioning Duties](#tenure-transition-and-apportioning-duties)
-  - [Officer Roles and Appointment](#officer-roles-and-appointment)
+    - [Tenure, Transition and Apportioning Duties](#tenure-transition-and-apportioning-duties)
+    - [Officer Roles and Appointment](#officer-roles-and-appointment)
 - [Extended Governance Committee (EGC)](#extended-governance-committee-egc)
 - [Meetings, Procedures and Decision-Making](#meetings-procedures-and-decision-making)
-  - [Agendas, Access, and Records](#agendas-access-and-records)
-  - [Electronic Participation and Decision-Making](#electronic-participation-and-decision-making)
-  - [Quorum](#quorum)
-  - [Voting](#voting)
+    - [Agendas, Access, and Records](#agendas-access-and-records)
+    - [Electronic Participation and Decision-Making](#electronic-participation-and-decision-making)
+    - [Quorum](#quorum)
+    - [Voting](#voting)
 - [Committees and Delegation](#committees-and-delegation)
 
 ## Composition and Membership
@@ -40,7 +40,7 @@ An up-to-date list of CFC members will be maintained in the `cf-council` [CONTAC
 - **Resignation:** CFC members wishing to resign must formally notify the Chairperson or the CFC, with immediate cessation of their responsibilities and rights as CFC members upon resignation.
 - **Removal:** A CFC member may be removed for misconduct, failure to perform duties, or consistent non-participation. The removal process includes a fair review, an opportunity for the member to respond, and a decision made through a vote by the remaining CFC members or a general membership vote.
 - **Vacancies:** In the event of a vacancy, duties are temporarily assigned to remaining members until a special election can be held to fill the vacated seat.
-- **Apportioning Duties:** The CFC must ensure that all required [CFC Offices](#officer-roles-and-appointment) are filled. 
+- **Apportioning Duties:** The CFC must ensure that all required [CFC Offices](#officer-roles-and-appointment) are filled.
 
 ### Officer Roles and Appointment
 
@@ -89,7 +89,7 @@ The CFC uses electronic and (where possible) asynchronous methods for meetings a
 
 ### Electronic Participation and Decision-Making
 
-Efficient participation and decision-making are essential for geographically dispersed CFC members. 
+Efficient participation and decision-making are essential for geographically dispersed CFC members.
 
 - **Remote Involvement:** Meetings are conducted through teleconferencing and video conferencing tools.
 - **Decision Making Outside Meetings:** Decisions are made outside of formal meetings through written consent, adhering to the [decision-making process][consensus], with appropriate [notice][] and [record keeping][records].

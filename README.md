@@ -1,13 +1,12 @@
 ---
 status: draft
 ---
+# The Commonhaus Foundation (CF)
 
 > 📝 Note: This repo is a draft to explore an idea.
 > It tries to be reasonably thorough to convey the concept, but there are lots of holes and details to sort through, and none of it has undergone any kind of legal review.
 > [Discussions](https://github.com/commonhaus/foundation-draft/discussions) are open and input is welcome!
 > If you're willing to support this effort, please submit a PR to add yourself to [SUPPORTERS.yaml](https://github.com/commonhaus/foundation-draft/blob/main/SUPPORTERS.yaml).
-
-# The Commonhaus Foundation (CF)
 
 The Commonhaus Foundation champions open-source innovation and collaboration.
 
@@ -64,7 +63,6 @@ CF is committed to inclusive growth, opening its doors to all individuals who sh
 - [Succession Planning][succession]
 - [Security Policy][sec-policy]
 - [IP Policy][ip-policy]
-
 
 [codehaus]: https://www.infoworld.com/article/2892227/codehaus-the-once-great-house-of-code-has-fallen.html
 [Bylaws]: bylaws/0-preface.md

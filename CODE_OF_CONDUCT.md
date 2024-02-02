@@ -10,11 +10,11 @@ follows the [Commonhaus Foundation (CF) CoC][coc-policy].
 
 - **Project-related Issues:** Each CF project will define a `CODE_OF_CONDUCT.md`. For issues related to a project, start there.
 - **Foundation-wide Issues:** Issues related to the CF should be sent to the [`report` mailing list][CONTACTS.yaml] for [review][coc-response] by the [Commonhaus Foundation Council][cfc] (CFC).
-  - The CFC will follow [CF CoC procedures][coc-reports] when handling CoC reports.
-  - Records will be kept in TODO-private-repository. Access to this repository is restricted to current CFC members.
+    - The CFC will follow [CF CoC procedures][coc-reports] when handling CoC reports.
+    - Records will be kept in TODO-private-repository. Access to this repository is restricted to current CFC members.
 - **Escalations:** [Escalations][coc-escalate] should be sent to the [`coc-escalation` mailing list][CONTACTS.yaml] for review by the [Code of Conduct Panel (COCP)][cocp].
-  - The [CoCP][cocp] will follow [CF CoC procedures][coc-reports] when handling CoC reports and escalations.
-  - Records will be kept in TODO-private-repository. Access to this repository is restricted to CoCP members.
+    - The [CoCP][cocp] will follow [CF CoC procedures][coc-reports] when handling CoC reports and escalations.
+    - Records will be kept in TODO-private-repository. Access to this repository is restricted to CoCP members.
 
 To avoid duplication, please see the [CF CoC][coc-policy] for more information
 

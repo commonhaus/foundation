@@ -10,8 +10,8 @@ follows the [Commonhaus Foundation (CF) CoC][coc-policy] (included below).
 ## [Project Name] Contact information
 
 - CoC reports should be sent to `report@PROJECT-mailing-list`.
-  - We will follow [CF CoC procedures][coc-reports] when handling CoC reports.
-  - Records will be kept in `PROJECT-private-repository`
+    - We will follow [CF CoC procedures][coc-reports] when handling CoC reports.
+    - Records will be kept in `PROJECT-private-repository`
 - [Escalations](#escalate-an-issue) should be sent to the [`coc-escalation` mailing list][CONTACTS.yaml] for review by the [Code of Conduct Panel (COCP)][cocp].
 
 [cfc]: https://github.com/commonhaus/foundation-draft/blob/main/GOVERNANCE.md#commonhaus-foundation-council "Commonhaus Foundation Council"
@@ -63,6 +63,7 @@ Members of the CoCP will be maintained in the `cocp-panel` [CONTACTS.yaml][] att
 
 ---
 
+<!-- markdownlint-disable-next-line MD025 -->
 # Contributor Covenant Code of Conduct
 
 ## Our Pledge

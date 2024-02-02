@@ -12,8 +12,8 @@ Welcome to the Commonhaus Foundation (CF), a collective dedicated to nurturing o
 - **[CF Advisory Board][cfab]**: Comprises representatives from organizations providing financial support to the CF. They provide strategic insight to the CFC.
 - **[General Members][membership]**: Individuals supporting CF’s mission. Members in good standing participate in CF activities and vote in elections.
 - **[Projects][project]**: Collaborative open-source initiatives under CF, including assets like code, trademarks, and domains.
-  - **[Code Owners][plco]**: Maintain the quality and consistency of project code.
-  - **[Project Leaders][plco]**: Guide project governance and decision-making. Along with the CFC, they form the [**Extended Governance Committee (EGC)**][egc] for critical decisions like bylaw amendments.
+    - **[Code Owners][plco]**: Maintain the quality and consistency of project code.
+    - **[Project Leaders][plco]**: Guide project governance and decision-making. Along with the CFC, they form the [**Extended Governance Committee (EGC)**][egc] for critical decisions like bylaw amendments.
 
 ## Decision Making and Voting
 
@@ -30,7 +30,7 @@ In addition to our bylaws, the Commonhaus Foundation (CF) adopts specific polici
 - [**Code of Conduct**][policy-coc]: Definition of behavioral expectations and conflict resolution and remediation in support of a respectful and inclusive community.
 - [**Conflict of Interest**][policy-coi]: Establishes protocols for identifying, disclosing, and managing any personal or financial interests that could potentially interfere with the impartial and objective operation of the CF.
 - [**Intellectual Property Policy**][policy-ip]: Framework for responsibly managing and protecting intellectual contributions.
-- [**Security Policy**][policy-sec]: 
+- [**Security Policy**][policy-sec]:
 - [**Succession Plan**][policy-sp]: Strategy to ensure leadership continuity and project resilience.
 - [**Trademark Policy**][policy-tp]: Guidelines for the appropriate use of CF’s intellectual property.
 

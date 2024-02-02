@@ -46,37 +46,37 @@ Understanding and respecting trademark rules are vital for preserving the integr
 ### General Trademark Rules
 
 - **Nature of Use:**
-  - Trademarks should be used as adjectives followed by a generic noun, not as verbs or nouns.
-  - Avoid using trademarks in plural or possessive forms.
-  - Do not alter trademarks. This includes shortening, hyphenating, abbreviating, or breaking them into parts.
+    - Trademarks should be used as adjectives followed by a generic noun, not as verbs or nouns.
+    - Avoid using trademarks in plural or possessive forms.
+    - Do not alter trademarks. This includes shortening, hyphenating, abbreviating, or breaking them into parts.
 
 - **Domain and Design:**
-  - Trademarks must not form any part of domain names or product names.
-  - Do not incorporate trademarks into company logos or designs.
+    - Trademarks must not form any part of domain names or product names.
+    - Do not incorporate trademarks into company logos or designs.
 
 - **Trademark Notices:**
-  - Always provide a notice on the primary appearance of a trademark.
-  - Do not modify trademark symbols. For instance, ™ should not be altered to an ® without the owner's consent. If in doubt regarding a mark's registration, contact the Commonhaus Foundation.
+    - Always provide a notice on the primary appearance of a trademark.
+    - Do not modify trademark symbols. For instance, ™ should not be altered to an ® without the owner's consent. If in doubt regarding a mark's registration, contact the Commonhaus Foundation.
 
 ### Specific Rules for Commonhaus Foundation Trademarks
 
 - **Correct Usage:**
-  - Use trademarks in their most up-to-date form.
-  - Ensure trademarks distinguish from surrounding text, e.g., by capitalizing or using distinct fonts.
-  - Mention that usage doesn't imply the foundation's endorsement unless explicitly stated.
+    - Use trademarks in their most up-to-date form.
+    - Ensure trademarks distinguish from surrounding text, e.g., by capitalizing or using distinct fonts.
+    - Mention that usage doesn't imply the foundation's endorsement unless explicitly stated.
 
 - **Prohibited Activities:**
-  - Avoid generic usage of trademarks.
-  - Avoid pluralizing, making possessive, or combining trademarks with other brands.
-  - Don't create domain names with the Commonhaus Foundation trademarks without permission.
+    - Avoid generic usage of trademarks.
+    - Avoid pluralizing, making possessive, or combining trademarks with other brands.
+    - Don't create domain names with the Commonhaus Foundation trademarks without permission.
 
 - **Additional Guidance:**
-  - If building a product on a CF project, follow specific naming protocols.
-  - Clarify rules about merchandising items featuring the trademarks.
-  - Offer guidelines for open-source projects that use or build upon CF projects.
+    - If building a product on a CF project, follow specific naming protocols.
+    - Clarify rules about merchandising items featuring the trademarks.
+    - Offer guidelines for open-source projects that use or build upon CF projects.
 
 - **Approval:**
-  - The Commonhaus Foundation has the discretion to review and decide on any trademark usage, even if not explicitly detailed in the policy.
+    - The Commonhaus Foundation has the discretion to review and decide on any trademark usage, even if not explicitly detailed in the policy.
 
 ### Visual Trademark Instructions
 

@@ -7,12 +7,12 @@ weight: 6
 This section describes the notice and record-keeping policies for the Commonhaus Foundation (CF).
 
 - [Notice](#notice)
-  - [Notification Requirements](#notification-requirements)
-  - [Expedited Process](#expedited-process)
+    - [Notification Requirements](#notification-requirements)
+    - [Expedited Process](#expedited-process)
 - [Record Keeping](#record-keeping)
-  - [Methods and Platforms](#methods-and-platforms)
-  - [Accessibility and Security](#accessibility-and-security)
-  - [Compliance and Management](#compliance-and-management)
+    - [Methods and Platforms](#methods-and-platforms)
+    - [Accessibility and Security](#accessibility-and-security)
+    - [Compliance and Management](#compliance-and-management)
 
 ## Notice
 

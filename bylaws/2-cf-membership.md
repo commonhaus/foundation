@@ -16,7 +16,6 @@ The following section outlines the different types of membership and the process
 - [Inactive or Retired Members](#inactive-or-retired-members)
 - [Suspension and Revocation of Membership](#suspension-and-revocation-of-membership)
 
-
 ## Projects
 
 A **project** within the CF represents collaborative innovation in open-source technology. These projects are dynamic collectives of individual contributors, functioning as self-organizing units rather than formal legal entities.[^1]
@@ -38,10 +37,10 @@ A **project** within the CF represents collaborative innovation in open-source t
 
 ## General Members
 
-**Join as an individual.** Membership to the CF is open to all individuals who share our mission and are willing to contribute[^3]. 
+**Join as an individual.** Membership to the CF is open to all individuals who share our mission and are willing to contribute[^3].
 
 - **Path to Membership:** Engage with the CF or one of its projects in any capacity for three months to gain eligibility. Whether it's contributing code, documentation, community management, or advocacy, your active participation is the key to becoming a member.
-- **Application Process:** To formalize your membership, submit an application (*details TBD*). The CFC will review each application, focusing on your contributions and alignment with our values. 
+- **Application Process:** To formalize your membership, submit an application (*details TBD*). The CFC will review each application, focusing on your contributions and alignment with our values.
 
 Our review process is transparent. Declined applicants receive explanations and can appeal. Our aim is always to be fair and act in the best interest of the CF community.
 
@@ -63,7 +62,7 @@ While the CF thrives on the passion and contributions of its members, nominal me
 
 ## Inactive or Retired Members
 
-Life happens, and we understand that. Members may choose to step back or retire, and we respect that decision. 
+Life happens, and we understand that. Members may choose to step back or retire, and we respect that decision.
 
 - **Voluntary Resignation:** Members can choose to retire at any time, transitioning to an emeritus or inactive role while remaining part of our community.
 - **Inactivity:** Members who are inactive for more than 12 months will transition to an inactive status. They can reactivate their membership by contacting the CFC.
@@ -74,7 +73,7 @@ Inactive members (of any type) do not have the right to vote in CFC elections an
 
 The CFC may suspend or revoke the membership of any member that is found to be in violation of CF policies or acting against the best interests of the CF community.
 
-- **Suspension:** The CFC may suspend a member for up to 90 days, during which the member may not participate in CF activities or vote in CFC elections. 
+- **Suspension:** The CFC may suspend a member for up to 90 days, during which the member may not participate in CF activities or vote in CFC elections.
 - **Revocation:** The CFC may act to revoke or suspend CF membership if it believes (in good faith) that the member is engaging in willful misconduct or harming the best interest of the CF and its members.
 
 These situations will be recorded as violations of the [Code of Conduct][coc] and handled as per the [Code of Conduct Resolution process][coc-reports].
@@ -82,8 +81,7 @@ These situations will be recorded as violations of the [Code of Conduct][coc] an
 The decision to revoke or suspend membership is made by a supermajority vote of the CFC. The member in question will be notified of the decision and the reasons for it.
 
 [advisory board]: ./4-cf-advisory-board.md
-[decision-making]: ./5-decision-making.md
-[cfc]: ./3-cf-council.md
+[egc]: ./3-cf-council.md#extended-governance-committee-egc
 [coc]: ../policies/code-of-conduct.md
 [coc-reports]: ../policies/code-of-conduct.md#handling-reports-and-escalations
 [succession]: ../policies/succession-plan.md

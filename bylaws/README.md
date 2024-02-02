@@ -12,4 +12,3 @@ status: draft
 7. [Notice, Record Keeping](./6-notice-records.md)
 8. [Liability and Indemnification](./7-liability-indemnification.md)
 9. [Amendments](./8-amendments.md)
-

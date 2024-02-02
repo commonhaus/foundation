@@ -7,7 +7,7 @@ Thanks for considering a contribution to the Commonhaus Foundation (CF) reposito
 
 ## Quick Start
 
-- **Discuss First**: For significant changes, start a GitHub discussion to gather consensus[^1]. For smaller edits, you can directly create a pull request (PR).
+- **Discuss First**: For significant changes, start a GitHub discussion to establish consensus[^1]. For smaller edits, you can directly create a pull request (PR).
 
 - **Fork and Edit**: Fork the repository to your account, make your changes there.
 
@@ -17,8 +17,11 @@ Thanks for considering a contribution to the Commonhaus Foundation (CF) reposito
 - **Remain Consistent**: Follow the existing format and structure of the documents.
 - **Cross-reference Discussions and PRs**: Link back to relevant discussions or other PRs in your commit messages.
 - **Building documents (optional)**: When you create a PR, a build will run that will verify internal and external links, and will generate and attach pdfs to the build.
-  - **Verify links**: To validate links locally, use `npm ci` to install node dependencies; `npm run test` or `npm run tv` to validate links.
-  - **Build pdfs**: If you use docker or podman, run `./.github/docker-build-pdf.sh` to use a pre-configured docker image to convert markdown bylaws and policies to pdf.
+    - **Test your changes**: To test your changes locally, , use `npm ci` to install node dependencies, and use `npm run test` or `npm run tv` (verbose) to test/lint your content. These tasks run the following:
+        - **Markdown linting**: `npm run lint`
+        - **YAML syntax validation**: `npm run yaml`
+        - **Markdown link checks**: `npm run links` or `npm run linksv` (verbose)
+    - **Build pdfs**: If you use docker or podman, run `./.github/docker-build-pdf.sh` to use a pre-configured docker image to convert markdown bylaws and policies to pdf.
 
 ## Submitting Changes
 
@@ -28,7 +31,7 @@ Thanks for considering a contribution to the Commonhaus Foundation (CF) reposito
 
 ## Legal Review
 
-Some changes may need a legal review. Your patience is appreciated during this process.
+Some changes may need a legal review which may take some time.
 
 ## Thank You
 

@@ -8,8 +8,9 @@ insert_final_newline = false
 indent_style = space
 
 [*.md]
-indent_size = 2
+indent_size = 4
 trim_trailing_whitespace = false
+insert_final_newline = true
 
 [*.{yaml,yml,html,js,rb,css,xml,scss}]
 indent_size = 2

@@ -6,27 +6,27 @@ status: draft
 Welcome to the Code of Conduct (CoC) for the Commonhaus Foundation (CF). This document reflects our dedication to fostering a respectful, inclusive, and collaborative environment. It sets the standards for behavior expected in our community and provides a framework for addressing and resolving issues in a fair and respectful manner.
 
 - [Our Code of Conduct](#our-code-of-conduct)
-  - [Member Expectations](#member-expectations)
-  - [Report an issue](#report-an-issue)
-  - [Respond to a CoC issue](#respond-to-a-coc-issue)
-  - [Escalate an issue](#escalate-an-issue)
-  - [Code of Conduct Panel](#code-of-conduct-panel)
+    - [Member Expectations](#member-expectations)
+    - [Report an issue](#report-an-issue)
+    - [Respond to a CoC issue](#respond-to-a-coc-issue)
+    - [Escalate an issue](#escalate-an-issue)
+    - [Code of Conduct Panel](#code-of-conduct-panel)
 - [Handling Reports and Escalations](#handling-reports-and-escalations)
-  - [Conflict of Interest](#conflict-of-interest)
-  - [Reports to the CoC report mailing list](#reports-to-the-coc-report-mailing-list)
-  - [Reports to the CoC escalation mailing list](#reports-to-the-coc-escalation-mailing-list)
+    - [Conflict of Interest](#conflict-of-interest)
+    - [Reports to the CoC report mailing list](#reports-to-the-coc-report-mailing-list)
+    - [Reports to the CoC escalation mailing list](#reports-to-the-coc-escalation-mailing-list)
 - **Contributor Covenant Code of Conduct**
-  - [Our Pledge](#our-pledge)
-  - [Our Standards](#our-standards)
-  - [Enforcement Responsibilities](#enforcement-responsibilities)
-  - [Scope](#scope)
-  - [Enforcement](#enforcement)
-  - [Enforcement Guidelines](#enforcement-guidelines)
-    - [Correction](#correction)
-    - [Warning](#warning)
-    - [Temporary Ban](#temporary-ban)
-    - [Permanent Ban](#permanent-ban)
-  - [Attribution](#attribution)
+    - [Our Pledge](#our-pledge)
+    - [Our Standards](#our-standards)
+    - [Enforcement Responsibilities](#enforcement-responsibilities)
+    - [Scope](#scope)
+    - [Enforcement](#enforcement)
+    - [Enforcement Guidelines](#enforcement-guidelines)
+        - [Correction](#correction)
+        - [Warning](#warning)
+        - [Temporary Ban](#temporary-ban)
+        - [Permanent Ban](#permanent-ban)
+    - [Attribution](#attribution)
 
 [CONTACTS.yaml]: https://github.com/commonhaus/foundation-draft/blob/main/CONTACTS.yaml
 [cc-dm]: ../bylaws/5-decision-making.md
@@ -143,6 +143,7 @@ The CoCP will follow the same overall procedure as the CFC, with the following c
 
 ---
 
+<!-- markdownlint-disable-next-line MD025 -->
 # Contributor Covenant Code of Conduct
 
 ## Our Pledge

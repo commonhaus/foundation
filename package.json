@@ -2,12 +2,14 @@
   "scripts": {
     "links": "find . -name '*.md' ! -path './node*' -print0 | xargs -0 npx markdown-link-check --config .mlc_config.json -q",
     "linksv": "find . -name '*.md' ! -path './node*' -print0 | xargs -0 npx markdown-link-check --config .mlc_config.json",
-    "test": "npm run links && npm run yaml",
-    "tv": "npm run linksv && npm run yaml",
+    "test": "npm run links && npm run yaml && npm run lint",
+    "tv": "npm run linksv && npm run yaml && npm run lint",
+    "lint": "npx markdownlint-cli2 \"**/*.md\" \"#node_modules\" \"#output\"",
     "yaml": "node .github/validate.js ./SUPPORTERS.yaml ./CONTACTS.yaml"
   },
   "devDependencies": {
     "markdown-link-check": "^3.11.2",
+    "markdownlint-cli2": "^0.12.1",
     "yaml": "^2.3.4"
   }
 }
