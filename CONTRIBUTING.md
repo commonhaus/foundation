@@ -15,6 +15,8 @@ Thanks for considering a contribution to the Commonhaus Foundation (CF) reposito
 
 - **Be Clear**: Ensure your contributions are direct and easy to understand.
 - **Remain Consistent**: Follow the existing format and structure of the documents.
+    - **markdownlint**: The build process (shown below) will lint Markdown documents using `markdownlint`. The markdownlint [VSCode extension](https://marketplace.visualstudio.com/items?itemName=DavidAnson.vscode-markdownlint) or [IntelliJ plugin](https://plugins.jetbrains.com/plugin/20851-markdownlint) can help you stick to and apply these rules while you're making changes.
+    - **EditorConfig**: Similarly, the EditorConfig [VSCode extension](https://marketplace.visualstudio.com/items?itemName=EditorConfig.EditorConfig) and [IntelliJ plugin](https://plugins.jetbrains.com/plugin/7294-editorconfig) help with whitespace handling in a minimally invasive way.
 - **Cross-reference Discussions and PRs**: Link back to relevant discussions or other PRs in your commit messages.
 - **Building documents (optional)**: When you create a PR, a build will run that will verify internal and external links, and will generate and attach pdfs to the build.
     - **Test your changes**: To test your changes locally, , use `npm ci` to install node dependencies, and use `npm run test` or `npm run tv` (verbose) to test/lint your content. These tasks run the following:
