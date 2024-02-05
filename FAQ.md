@@ -6,16 +6,15 @@ status: draft
 
 ## Why create a new foundation?
 
-Though there are several foundations for open source projects to choose to join,
-each has its own focus and requirements.
+There are already several foundations which host open source projects,
+and each has its own focus and requirements.
 The CF is a home for self-governing, code-centric open source projects.
-Each open source project has their own unique needs and goals,
+Each open source project has its own unique needs and goals,
 and not every foundation is the right fit for every project.
-The CF is a new option for projects to consider when looking for a foundation to call home.
 
 There are many critical application frameworks and libraries within the open source ecosystem that are not currently part of a foundation.
-The CF is a place these projects may choose to call home,
-helping to strengthen the open source ecosystem as a whole by ensuring more projects are sustainable in the long term.
+The CF is a new option for projects to consider when looking for a foundation to call home.
+Helping to strengthen the open source ecosystem as a whole by ensuring more projects are sustainable in the long term.
 
 ## Why not the Apache Software Foundation?
 
@@ -28,7 +27,7 @@ For projects with well established infrastructure and processes, it's preferable
 Though the CF provides default processes for projects joining the foundation,
 they're not mandatory when projects already have processes in place which achieve the same outcomes.
 
-All projects at the ASF producing software must be licensed under a version of the Apache Software License (ASL).
+All projects at the ASF must be licensed under a version of the Apache Software License (ASL).
 At the CF, we provide projects a choice of several OSI approved licenses for their project.
 
 ## Why not the Eclipse Foundation?
@@ -47,10 +46,10 @@ That is not where the CF will focus its efforts.
 
 ## Why not the Linux Foundation?
 
-The Linux Foundation (LF) is home to many open source projects, including the Linux kernel itself.
+The Linux Foundation (LF) has many open source projects, including the Linux kernel itself.
 Though the LF is a _neutral home_ for open source projects,
 any project joining the LF is a very small part of a much larger organization.
-So much so, the LF itself is home to other foundations,
+So much so, the LF itself consists of other foundations,
 such as the OpenJS Foundation, the Cloud Native Computing Foundation (CNCF), and LF Networking.
 
 The CF strives to take a more focused approach to open source projects,
