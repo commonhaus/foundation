@@ -35,7 +35,7 @@ jobs:
   bump:
     name: Update website
     needs: lint
-    if: ${{ github.ref == 'refs/heads/main' && github.repository == 'commonhaus/foundation-draft' }}
+    if: ${{ github.event_name == 'push' && github.repository == 'commonhaus/foundation-draft' }}
     runs-on: ubuntu-latest
     steps:
       - name: Bump website
