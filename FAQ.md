@@ -44,3 +44,14 @@ The CF does not require project name changes when joining.
 Open source projects at the CF may implement standards or specifications defined by other organizations,
 such as the EF, but the CF will not oversee projects developing standards or specifications.
 That is not where the CF will focus its efforts.
+
+## Why not the Linux Foundation?
+
+The Linux Foundation (LF) is home to many open source projects, including the Linux kernel itself.
+Though the LF is a _neutral home_ for open source projects,
+any project joining the LF is a very small part of a much larger organization.
+So much so, the LF itself is home to other foundations,
+such as the OpenJS Foundation, the Cloud Native Computing Foundation (CNCF), and LF Networking.
+
+The CF strives to take a more focused approach to open source projects,
+housing projects with a shared/common interest around a domain.
