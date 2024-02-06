@@ -30,7 +30,7 @@ and continues to be a great home for many.
 As part of a project joining the ASF, it is required to run on the infrastructure that is provided for projects, including mailing lists,
 and adhere to its processes.
 
-For projects with well established infrastructure and processes, it's preferable for these to remain unchanged when joining a foundation.
+For projects with well established infrastructure and processes, it might be preferable for these to remain unchanged when joining a foundation.
 Though the CF provides default processes for projects joining the foundation,
 they're not mandatory when projects already have processes in place which achieve the same outcomes.
 
