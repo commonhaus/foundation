@@ -32,7 +32,7 @@ and adhere to its processes.
 
 For projects with well established infrastructure and processes, it might be preferable for these to remain unchanged when joining a foundation.
 Though the CF provides default processes for projects joining the foundation,
-they're not mandatory when projects already have processes in place which achieve the same outcomes.
+they're not mandatory.
 
 All projects at the ASF must be licensed under a version of the Apache Software License (ASL).
 At the CF, we provide projects a choice of several OSI approved licenses for their project.
