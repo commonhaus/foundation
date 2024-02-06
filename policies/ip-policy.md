@@ -50,7 +50,7 @@ Project leaders should ensure compliance with this policy and provide clear guid
 
 ### Copyright Statements
 
-Using [copyright statements in your code][code-copyright] is a practice with mixed adoption.
+Using copyright statments in source code is a practice with mixed adoption.
 
 If your project wants to add copyrights to source code, we recommend one of the following:
 
@@ -60,7 +60,8 @@ If your project wants to add copyrights to source code, we recommend one of the 
 
 Updating the year after the file is created is unnecessary.
 
-Do not alter existing copyright lines unless you have the right to do so.
+> [!NOTE]
+> Do not alter existing copyright lines unless you have the right to do so.
 
 ## Obtaining an Exemption
 
@@ -81,5 +82,4 @@ For questions or clarifications on this policy, please contact the [`legal` mail
 [MIT]: https://opensource.org/license/mit/ "The MIT License"
 [amendment process]: ../bylaws/8-amendments.md
 [cfc]: ../bylaws/3-cf-council.md "CF Council"
-[code-copyright]: https://matija.suklje.name/how-and-why-to-properly-write-copyright-statements-in-your-code
 [standard website footer]: https://github.com/commonhaus/foundation-draft/blob/main/templates/website-footer.md "CF website footers"
