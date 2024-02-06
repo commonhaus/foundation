@@ -2,6 +2,14 @@ name: Push discussions and PR activity to commonhaus.github.io
 
 on:
   discussion:
+  push:
+    branches:
+      - main
+    paths:
+      - '*.md'
+      - '*.yaml'
+      - 'bylaws/**'
+      - 'policies/**'
   pull_request:
     paths:
       - '*.md'
@@ -17,6 +25,6 @@ jobs:
     steps:
     - name: Bump website
       env:
-        GH_TOKEN: ${{ secrets.ACTIONS_PUBLISH_PAT }}
+        GH_TOKEN: ${{ github.token }}
       run: |
         gh workflow run -R commonhaus/commonhaus.github.io gh-pages.yml
