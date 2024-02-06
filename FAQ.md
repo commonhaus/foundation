@@ -16,6 +16,13 @@ There are many critical application frameworks and libraries within the open sou
 The CF is a new option for projects to consider when looking for a foundation to call home.
 Helping to strengthen the open source ecosystem as a whole by ensuring more projects are sustainable in the long term.
 
+Information covering benefits of the CF are in the [README](README.md):
+
+- [Core Distinctions of the CF](README.md#core-distinctions-of-cf)
+- [CF Guiding Principles](README.md#our-guiding-principles)
+- [Focus and Vision](README.md#cfs-focus-and-vision)
+- [Community and Sponsorship](README.md#community-and-sponsorship)
+
 ## Why not the Apache Software Foundation?
 
 The Apache Software Foundation (ASF) has a long standing tradition of being a home for open source projects of all types,
