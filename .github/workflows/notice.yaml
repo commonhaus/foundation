@@ -2,7 +2,7 @@ name: Push discussions and PR activity to commonhaus.github.io
 
 on:
   discussion:
-  pull_request_comment:
+  issue_comment:
   pull_request_target:
     types: [opened, edited, reopened, closed]
     paths:
