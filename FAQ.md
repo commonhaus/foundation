@@ -35,7 +35,7 @@ Though the CF provides default processes for projects joining the foundation,
 they're not mandatory.
 
 All projects at the ASF must be licensed under a version of the Apache Software License (ASL).
-At the CF, we provide projects a choice of several OSI approved licenses for their project.
+At the CF, a wider choice of OSI approved licenses is welcome.
 
 ## Why not the Eclipse Foundation?
 
