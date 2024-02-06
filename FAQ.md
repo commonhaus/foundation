@@ -13,8 +13,8 @@ Each open source project has its own unique needs and goals,
 and not every foundation is the right fit for every project.
 
 There are many critical application frameworks and libraries within the open source ecosystem that are not currently part of a foundation.
-The CF is a new option for projects to consider when looking for a foundation to call home.
-Helping to strengthen the open source ecosystem as a whole by ensuring more projects are sustainable in the long term.
+The CF is a new option for projects to consider when looking for a foundation to call home,
+helping to strengthen the open source ecosystem as a whole by ensuring more projects are sustainable in the long term.
 
 Information covering benefits of the CF are in the [README](README.md):
 
