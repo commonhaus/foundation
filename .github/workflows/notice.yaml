@@ -2,6 +2,14 @@ name: Push discussions and PR activity to commonhaus.github.io
 
 on:
   discussion:
+  pull_request_comment:
+  pull_request_target:
+    types: [opened, edited, reopened, closed]
+    paths:
+      - '*.md'
+      - '*.yaml'
+      - 'bylaws/**'
+      - 'policies/**'
   push:
     branches:
       - main
@@ -10,16 +18,10 @@ on:
       - '*.yaml'
       - 'bylaws/**'
       - 'policies/**'
-  pull_request:
-    paths:
-      - '*.md'
-      - '*.yaml'
-      - 'bylaws/**'
-      - 'policies/**'
   workflow_dispatch:
 
 jobs:
-  update-discussions:
+  update-website:
     runs-on: ubuntu-latest
     if: github.repository == 'commonhaus/foundation-draft'
     steps:
