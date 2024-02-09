@@ -1,0 +1,24 @@
+notice:
+  discussion:
+    rules:
+      - # If a discussion is created in the Announcements or Reviews
+        # category, apply the notice label
+        category: [Announcements, Reviews]
+        action: [created, category_changed]
+        then: [label_notice]
+  pull_request:
+    rules:
+      - # If a pull request is created that touches bylaws or policies
+        # that does not have the notice label:
+        # - apply the notice label
+        action:
+          - opened
+          - edited
+          - closed
+        paths:
+          - bylaws/*
+          - policies/*
+        label: ["!notice"]
+        then: [label_notice]
+  actions:
+    label_notice: [notice]
