@@ -10,27 +10,28 @@ If you have any questions or need further clarification, please [contact us](#co
 
 ## Covered Trademarks
 
-This policy applies to all trademarks and service marks owned by the Commonhaus Foundation (collectively referred to as the “Marks”), including but not limited to:
+> [!TIP]
+> This policy applies to all CF and CF project Marks whether they are registered or not.
 
-- **Word Marks:** "Commonhaus Foundation" and any names of projects under our umbrella.
-- **Logos:** The official Commonhaus Foundation logo and logos of individual projects.
+This policy covers all trademarks and service marks associated with the Commonhaus Foundation, known as “Marks.” This includes:
+
+- **Word Marks:** Names of the Commonhaus Foundation and any projects under our umbrella, irrespective of their registration status.
+- **Logos:** The official Commonhaus Foundation logo and logos of individual projects, whether registered or not.
 - **Trade Dress:** The distinctive visual appearance of our website, product packaging, or promotional materials.
 
-Some Marks may not be registered, but registration does not equal ownership of trademarks.
+Our commitment to these Marks reflects their importance to our identity and reputation.
+Registration is not a prerequisite for protection under this policy.
 
-An accurate list of registered trademarks, service marks, pending registrations, and marks in use will be maintained at <https://www.commonhaus.org/trademarks/>.
+A non-exhaustive list of our Marks, including registered trademarks, service marks, pending registrations, and marks in use, is available at <https://www.commonhaus.org/trademarks/>.
 
 ## Trademark Usage Guidelines
 
-The Commonhaus Foundation encourages community use of its Marks to promote our projects,
-adhering to guidelines that prevent confusion and protect our reputation.
+> [!TIP]
+> Having an open source license means you're free to use and change the software, but it doesn't grant you the right to use our trademarks, such as logos or project names.
+> To use our Marks, you'll need to follow the guidelines set out in this policy.
 
-The use of Commonhaus Foundation (CF) Marks is governed by the following detailed guidelines.
-These are designed to ensure clarity, prevent misuse, and maintain the integrity of the Marks,
-striving to balance two key interests:
-
-1) Ensuring that trademarks remain reliable indicators of the qualities that they have been created to preserve and
-2) Ensuring that community members are able to discuss Commonhaus Foundation and its projects and to accurately describe the relationship between the CF, CF projects, and the products and services offered by others.
+The Commonhaus Foundation aims to foster community engagement with our trademarks, supporting their use in ways that highlight and extend the reach of our projects.
+Our guidelines are designed to maintain the marks as symbols of quality and trust, balancing open community involvement with the need to protect the Foundation's reputation and the value of our marks.
 
 A copyright license, even an open source copyright license, does not include an implied right or license to use a trademark that may be related to the project developing the licensed software or other materials.
 Because open source licenses permit unrestricted modification of the copyrighted software,
@@ -148,13 +149,15 @@ It is your responsibility to know and follow all applicable laws.
 
 ## Disclaimer
 
-We can't guarantee that our trademarks won't infringe on others, and we're not responsible for actions taken under this policy.
-If you use our trademarks, you'll have to defend us against any legal claims.
+> [!TIP]
+> While we stand by the quality and integrity of our trademarks, we can't promise they won't overlap with others' rights or that pending trademarks will definitely be granted.
+> Also, if you use our marks within our guidelines but someone challenges you legally, you're responsible for handling it.
 
-- The Commonhaus Foundation does not make any express or implied warranties, including but not limited to the warranties of non-infringement of any third party intellectual property rights.
-- The Commonhaus Foundation does not warrant that any pending trademark applications for Commonhaus trademarks will result in any granted trademark protection.
-- The Commonhaus Foundation shall not be liable for any claims relating to user’s activities taken under the permissions granted by this policy.
-  You (the user of Commonhaus Trademarks) hereby agree to indemnify, defend and hold the the Commonhaus Foundation and its contributors harmless against any such claims.
+The Commonhaus Foundation does not make any express or implied warranties, including but not limited to the warranties of non-infringement of any third party intellectual property rights.
+
+The Commonhaus Foundation does not warrant that any pending trademark applications for trademarks of the Commonhaus Foundation will result in any granted trademark protection.
+
+The Commonhaus Foundation shall not be liable for any claims relating to user’s activities falling within the scope of the permission and user hereby agrees to indemnify, defend and hold the Commonhaus Foundation and its contributors harmless against any such claims.
 
 ## Modifications and Updates
 
@@ -176,9 +179,10 @@ contact the [`trademarks` mailing list][CONTACTS.yaml].
 
 ## Attribution
 
-This work is inspired by [The OpenJS Foundation Trademark Policy](https://trademark-policy.openjsf.org).
-It is licensed under a Creative Commons Attribution 4.0 International license (“CC BY 4.0”, available at
+This policy is licensed under a Creative Commons Attribution 4.0 International license (“CC BY 4.0”, available at
 <https://creativecommons.org/licenses/by/4.0>).
+
+This work is inspired by the [OpenJS Foundation Trademark Policy](https://trademark-policy.openjsf.org) (licensed under “CC BY 4.0”), and the [GNOME Foundation's Trademark Usage Guidelines for Third Parties](https://wiki.gnome.org/action/show/FoundationBoard/Resources/LicensingGuidelines?action=show&redirect=Foundation%2FLicensingGuidelines)
 
 [CONTACTS.yaml]: https://github.com/commonhaus/foundation-draft/blob/main/CONTACTS.yaml
 [amendment process]: ../bylaws/8-amendments.md
