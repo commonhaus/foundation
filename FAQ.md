@@ -57,7 +57,7 @@ The Linux Foundation (LF) has many open source projects, including the Linux ker
 Though the LF is a _neutral home_ for open source projects,
 any project joining the LF is a very small part of a much larger organization.
 So much so, the LF itself consists of other foundations,
-such as the OpenJS Foundation, the Cloud Native Computing Foundation (CNCF), and LF Networking.
+such as the OpenJS Foundation, the Cloud Native Computing Foundation (CNCF), the CD Foundation, and LF Networking.
 
 The CF strives to take a more focused approach to open source projects,
 housing projects with a shared/common interest around a domain.
