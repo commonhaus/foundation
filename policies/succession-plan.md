@@ -40,6 +40,8 @@ The CF respects each project's chosen governance model. This policy complements,
 
 - **Contribution guidelines:** Describe project build, test, and packaging instructions in `CONTRIBUTING.md`. Include criteria for contributions, versioning practices, and preferences in the event of an ownership transition.
 
+**Open Source**: Project code must be publically accessible on any public code-hosting platform (like GitHub or GitLab).
+
 Further Reading:
 
 - `CODEOWNERS`: [About code owners][owners], maintained in `CODEOWNERS` or `.github/CODEOWNERS`
