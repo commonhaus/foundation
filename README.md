@@ -46,7 +46,7 @@ We're not just a placeholder but a guide, assisting projects as they grow and, i
 - **Application Frameworks:** For efficient app development and deployment.
 - **Libraries:** Essential tools that minimize application complexities.
 
-**Selective Alignment:** Not every project aligns with CF. While we respect the importance of *Specifications & Standards*, we do not engage in their definition or debate. This is a home for self-governing, code-centric projects.
+**Selective Alignment:** Not every project aligns with CF. While we respect the importance of *Specifications & Standards*, we do not engage in their definition or debate. This is a home for **self-governing, code-centric projects**.
 
 ## Community and Sponsorship
 
