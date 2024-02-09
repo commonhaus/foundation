@@ -16,7 +16,7 @@ This section describes the decision-making process, voting, and elections for th
 
 ## General Decision Making
 
-The CF adopts the Lazy Consensus model, as defined by the [Apache Foundation](https://community.apache.org/committers/decisionMaking.html), combined with [Martha's Rules](https://digitalcommons.unl.edu/cgi/viewcontent.cgi?article=1825&context=sociologyfacpub) adapted for our context. This hybrid approach ensures inclusivity and efficiency in decision-making across time zones.
+In general, the CF adopts the Lazy Consensus model, as defined by the [Apache Foundation](https://community.apache.org/committers/decisionMaking.html), combined with [Martha's Rules](https://digitalcommons.unl.edu/cgi/viewcontent.cgi?article=1825&context=sociologyfacpub) adapted for our context.
 
 ### Expectations for Consensus Decision Making
 
@@ -46,7 +46,7 @@ ensuring a comprehensive understanding of the community's stance.
 
 Discussion of the proposal should occur in comments on the PR or GitHub Discussion. If conversations happen elsewhere (in chat, for example), a summary of the conversation should be added as a comment if the discussion helped clarify the proposal or resolve a concern.
 
-If significant changes are needed, the current Discussion/PR is closed as outdated, and a new, clearer proposal is initiated.
+If significant changes are needed, the current Discussion/PR should closed as outdated, and replaced with a revised proposal.
 
 ### Moving forward
 
