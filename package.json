@@ -1,7 +1,7 @@
 {
   "scripts": {
-    "links": "find . -name '*.md' ! -path './node*' -print0 | xargs -0 npx markdown-link-check --config .mlc_config.json -q",
-    "linksv": "find . -name '*.md' ! -path './node*' -print0 | xargs -0 npx markdown-link-check --config .mlc_config.json",
+    "links": "find . -name '*.md' ! -path './node*' ! -path './output*' -print0 | xargs -0 npx markdown-link-check --config .mlc_config.json -q",
+    "linksv": "find . -name '*.md' ! -path './node*' ! -path './output*' -print0 | xargs -0 npx markdown-link-check --config .mlc_config.json",
     "test": "npm run links && npm run yaml && npm run lint",
     "tv": "npm run linksv && npm run yaml && npm run lint",
     "lint": "npx markdownlint-cli2 \"**/*.md\" \"#node_modules\" \"#output\"",
