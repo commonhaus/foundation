@@ -46,7 +46,7 @@ ensuring a comprehensive understanding of the community's stance.
 
 Discussion of the proposal should occur in comments on the PR or GitHub Discussion. If conversations happen elsewhere (in chat, for example), a summary of the conversation should be added as a comment if the discussion helped clarify the proposal or resolve a concern.
 
-If significant changes are needed, the current Discussion/PR should closed as outdated, and replaced with a revised proposal.
+If significant changes are needed, the current Discussion/PR should be closed as outdated, and replaced with a revised proposal.
 
 ### Moving forward
 
