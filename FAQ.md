@@ -61,3 +61,7 @@ such as the OpenJS Foundation, the Cloud Native Computing Foundation (CNCF), and
 
 The CF strives to take a more focused approach to open source projects,
 housing projects with a shared/common interest around a domain.
+
+## Are there any criteria for open source technologies/specifications or programming languages used by projects under the CF?
+
+There are no restrictions on the programming languages, technologies and/or specifications that your project uses to be part of the CF. For more information on [how to become a member](./bylaws/2-cf-membership.md).
