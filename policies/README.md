@@ -13,7 +13,6 @@ The CF is committed to complying with all applicable laws and regulations relate
 - [Continuity and Administrative Access Policy](./succession-plan.md)
 - [Intellectual Property Policy](./ip-policy.md)
 - [Trademark Policy](./trademark-policy.md)
-- [Dissolution Policy](./dissolution-policy.md)
 
 ## Policy change process
 
