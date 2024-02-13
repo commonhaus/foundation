@@ -3,7 +3,9 @@ notice:
     rules:
       - # If a discussion is created in the Announcements or Reviews 
         # category, apply the notice label
-        category: [Announcements, Reviews]
+        category: 
+          - Announcements
+          - Consensus Building
         action: [created, category_changed]
         then: [label_notice]
       - # If the notice label is added to a discussion,
@@ -31,4 +33,4 @@ notice:
   actions:
     label_notice: [notice]
     email_activity: 
-      address: test@commonhaus.org
+      address: announce@commonhaus.org
