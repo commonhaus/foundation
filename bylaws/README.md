@@ -10,5 +10,5 @@ status: draft
 5. [CF Advisory Board](./4-cf-advisory-board.md)
 6. [Decision Making, Voting, and Elections](./5-decision-making.md)
 7. [Notice, Record Keeping](./6-notice-records.md)
-8. [Liability and Indemnification](./7-liability-indemnification.md)
+8. [Liability, Indemnification and Dissolution](./7-liability-indemnification-dissolution.md)
 9. [Amendments](./8-amendments.md)

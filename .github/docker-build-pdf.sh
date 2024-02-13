@@ -86,7 +86,7 @@ BYLAWS=(
     ./bylaws/4-cf-advisory-board.md
     ./bylaws/5-decision-making.md
     ./bylaws/6-notice-records.md
-    ./bylaws/7-liability-indemnification.md
+    ./bylaws/7-liability-indemnification-dissolution.md
     ./bylaws/8-amendments.md
 )
 
@@ -125,7 +125,6 @@ function to_policy_pdf() {
 # Convert all policies to PDF
 to_policy_pdf code-of-conduct "Code of Conduct"
 to_policy_pdf conflict-of-interest "Conflict of Interest"
-to_policy_pdf dissolution-policy "Dissolution"
 to_policy_pdf ip-policy "Intellectual Property"
 to_policy_pdf security-policy "Security Vulnerability Reporting"
 to_policy_pdf succession-plan "Continuity and Administrative Access"
