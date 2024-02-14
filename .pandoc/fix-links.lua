@@ -27,7 +27,7 @@ local function replace_mailing_list(el)
     end
 
     local address = pandoc.utils.stringify(mailing_list_value)
-    local mailto_link = pandoc.Link(address, "mailto:" .. address)
+    local mailto_link = pandoc.Link(address .. " mailing list", "mailto:" .. address)
     print("CFLUA: Replaced '" .. content .. "' with " .. pandoc.utils.stringify(mailto_link))
     el.content = {mailto_link}
     return el
