@@ -86,7 +86,7 @@ BYLAWS=(
     ./bylaws/4-cf-advisory-board.md
     ./bylaws/5-decision-making.md
     ./bylaws/6-notice-records.md
-    ./bylaws/7-liability-indemnification-dissolution.md
+    ./bylaws/7-indemnification-dissolution.md
     ./bylaws/8-amendments.md
 )
 
