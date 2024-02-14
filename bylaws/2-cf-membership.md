@@ -47,6 +47,14 @@ As a CF member, you're not just a part of our community; you shape its future. Y
 - **Voice and Vote**: Contribute to discussions, sponsor issues, and vote in elections and referendums.
 - **Individual Representation:** Remember, your membership represents you, not your employer or any legal entity. Companies can engage through the [advisory board][].
 
+Relevant Florida Statute(s):
+
+- [617.0601](http://www.leg.state.fl.us/Statutes/index.cfm?App_mode=Display_Statute&Search_String=&URL=0600-0699/0617/Sections/0617.0601.html) Members, generally.
+- [617.0604](http://www.leg.state.fl.us/Statutes/index.cfm?App_mode=Display_Statute&Search_String=&URL=0600-0699/0617/Sections/0617.0604.html) Liability of members.
+- [617.0605](http://www.leg.state.fl.us/Statutes/index.cfm?App_mode=Display_Statute&Search_String=&URL=0600-0699/0617/Sections/0617.0605.html) Transfer of membership interests.
+- [617.0608](http://www.leg.state.fl.us/Statutes/index.cfm?App_mode=Display_Statute&Search_String=&URL=0600-0699/0617/Sections/0617.0608.html) Purchase of memberships.
+- [617.0701](http://www.leg.state.fl.us/Statutes/index.cfm?App_mode=Display_Statute&Search_String=&URL=0600-0699/0617/Sections/0617.0701.html) Meetings of members, generally; failure to hold annual meeting; special meeting; consent to corporate actions without meetings; waiver of notice of meetings.
+
 ## Membership Dues and Renewal
 
 While the CF thrives on the passion and contributions of its members, nominal membership dues play a small but vital role in sustaining our operations.
@@ -65,6 +73,10 @@ Inactive members (of any type) do not have the right to vote in CFC elections an
 
 To transition from inactive to active status, a member must meet [eligibility criteria](#general-members) for active membership.
 
+Relevant Florida Statute(s):
+
+- [617.0606](http://www.leg.state.fl.us/Statutes/index.cfm?App_mode=Display_Statute&Search_String=&URL=0600-0699/0617/Sections/0617.0606.html) Resignation of members.
+
 ## Suspension and Revocation of Membership
 
 The CFC may suspend or revoke the membership of any member that is found to be in violation of CF policies.
@@ -75,6 +87,10 @@ The CFC may suspend or revoke the membership of any member that is found to be i
 These situations will be recorded as violations of the [Code of Conduct][coc] and handled as per the [Code of Conduct Resolution process][coc-reports].
 
 The decision to revoke or suspend membership is made by a supermajority vote of the CFC. The member in question will be notified of the decision and the reasons for it.
+
+Relevant Florida Statute(s):
+
+- [617.0607](http://www.leg.state.fl.us/Statutes/index.cfm?App_mode=Display_Statute&Search_String=&URL=0600-0699/0617/Sections/0617.0607.html) Termination, expulsion, and suspension.
 
 [advisory board]: ./4-cf-advisory-board.md
 [cfc]: ./3-cf-council.md
