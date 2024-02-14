@@ -1,0 +1,15 @@
+labels: ["notice"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        > [!NOTE]
+        > Announcements will be forwarded to the website and to the announcements mailing list.
+        > - Title: Keep the title short and sweet. If action is required say so, and say when.
+  - type: textarea
+    attributes:
+      label: Announcement
+      description: Be descriptive but concise. Links help. Required actions should be easy to find.
+      placeholder: "The next CFC Meeting will be on on Wed, 22 December 2030.\n\nAgenda: ..."
+    validations:
+      required: true

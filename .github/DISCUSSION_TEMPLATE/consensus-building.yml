@@ -1,0 +1,47 @@
+labels: ["notice"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        > [!NOTE]
+        > Consensus Building items will be forwarded to the website and to the announcements mailing list.
+        >
+        > - Title: Keep the title short and sweet. If there is a time constraint, include it.
+        > - Add the `vote/open` label when you are ready to begin tallying reactions
+  - type: textarea
+    attributes:
+      label: Proposal
+      description: |
+        Be descriptive but concise; include any timeline constraints.
+      placeholder: "We should be more specific about how our records are kept. <description of proposal>"
+    validations:
+      required: true
+  - type: dropdown
+    attributes:
+      label: Voting group
+      description: |
+        Select the decision-making group that must approve this proposal.
+        The opinions of others are always welcome, but only some are counted.
+      multiple: false
+      options:
+        - "@commonhaus/founders"
+        - "@commonhaus/cf-council"
+        - "@commonhaus/cf-egc"
+        - "@commonhaus/members"
+      default: 1
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Concensus mechanism
+      description: |
+        Describe how you would like readers to interact with this proposal.
+      value: |
+        Please use emoji reactions to indicate your support:
+        - **👍 (:+1:)** if it looks good to you
+        - **👀 (:eyes:)** if you're "ok" with it (it may not be your favorite)
+        - **👎 (:-1:)** if you think this needs discussion first
+
+        Ask questions or raise concerns in comments.
+    validations:
+      required: true
