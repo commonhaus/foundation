@@ -4,8 +4,6 @@ weight: 1
 ---
 # Purpose and Non-profit Status
 
-## Purposes
-
 The Commonhaus Foundation (CF) is dedicated to open-source innovation and collaboration. Our nonprofit purposes are to:
 
 1. Serve the community by facilitating collaboration between creators and consumers of CF projects.
@@ -18,13 +16,3 @@ To fulfill these purposes, the CF is organized as a non-stock, nonprofit members
 
 [fla-nfp]: https://www.flsenate.gov/Laws/Statutes/2022/Chapter617
 [irc-501c6]: https://www.irs.gov/charities-non-profits/other-non-profits/business-leagues
-
-## Governance Structure
-
-For the purposes of governance and legal compliance, the Commonhaus Foundation Council (CFC) serves as the Board of Directors of the organization as outlined in the Articles of Incorporation and Bylaws of the Commonhaus Foundation.
-
-## Principal Office
-
-The CF may have offices either within or outside the Central Florida area (or anywhere throughout the State of Florida), as the [CF Council][cfc] (CFC) may designate or as the affairs of the CF may require from time to time.
-
-[cfc]: ./3-cf-council.md

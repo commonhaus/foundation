@@ -7,6 +7,7 @@ cocp-panel:
   - TBD / ...
   - TBD / ...
 mailing-list:
+  announce: announce@commonhaus.org
   coc-escalation: coc-escalation@commonhaus.org
   coc-report: report@commonhaus.org
   coi-report: report@commonhaus.org

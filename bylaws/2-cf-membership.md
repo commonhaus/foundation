@@ -4,12 +4,12 @@ weight: 2
 ---
 # Membership
 
-The Commonhaus Foundation (CF) is a membership organization. Your involvement in the CF, whether as a project member, a leader, or a general member, shapes the future of open-source innovation. We value each contribution and encourage active participation in our diverse and vibrant community.
+The Commonhaus Foundation (CF) is a membership organization. Your involvement in the CF, whether as a project representative or a general member, shapes the future of open-source innovation. We value each contribution and encourage active participation in our diverse and vibrant community.
 
 The following section outlines the different types of membership and the process for becoming a member.
 
 - [Projects](#projects)
-- [Project Representation and Code Owners](#project-representation-and-code-owners)
+- [Project Representation](#project-representation)
 - [General Members](#general-members)
 - [Membership Rights and Requirements](#membership-rights-and-requirements)
 - [Membership Dues and Renewal](#membership-dues-and-renewal)
@@ -22,27 +22,21 @@ A **project** within the CF represents collaborative innovation in open-source t
 
 **Flexible and Inclusive Structure:** Projects can vary in size and scope, ranging from individual repositories to entire collections of repositories. Whether it's a single focused effort or a collection of related initiatives, each project is defined by common goals and shared assets, including code, trademarks, and domains.
 
-**Open Source**: Project code must be publically accessible on any public code-hosting platform (like GitHub or GitLab).[^2]
-
 [^1]: Contributors may be affiliated with various organizations or companies, but they contribute as individuals.
-[^2]: As part of its commitment to ensure the [long-term viability][succession] of CF projects, code should be hosted on public platforms. Mirroring options can be considered for specific needs.
 
-## Project Representation and Code Owners
+## Project Representation
 
-**Diverse Voices, Unified Decision-Making:** Each project within the Commonhaus Foundation (CF) has its unique perspective. To ensure all projects have a say in the foundation's direction, each one appoints a representative to the [Extended Governance Committee (EGC)][egc]. These representatives are chosen based on the project's own governance practices.
+**Diverse Voices, Unified Decision-Making:** Each project within the Commonhaus Foundation (CF) has its unique perspective. To ensure all projects have a say in the foundation's direction, each one appoints a representative to the [Extended Governance Committee (EGC)][egc]. These representatives are chosen according to the project's governance practices.
 
-**Dedicated Representation:** If an EGC representative is also elected to the CFC, we recommend appointing an additional representative for the EGC. This helps maintain a focused approach to both specific project needs and the broader objectives of the CF.
-
-**Commitment to Project Success:** EGC representatives should be active maintainers of their respective projects. This requirement is to ensure that those representing a project on the EGC are genuinely invested in its ongoing health and success.
+**Dedicated Representation:** If an EGC representative is also elected to the [CF Council (CFC)][cfc], we recommend appointing an additional representative for the EGC. This helps maintain a focused approach to both specific project needs and the broader objectives of the CF.
 
 ## General Members
 
-**Join as an individual.** Membership to the CF is open to all individuals who share our mission and are willing to contribute[^3].
+**Join as an individual.** Membership to the CF is open to all individuals who share our mission and meet the outlined eligibility criteria[^3].
 
-- **Path to Membership:** Engage with the CF or one of its projects in any capacity for three months to gain eligibility. Whether it's contributing code, documentation, community management, or advocacy, your active participation is the key to becoming a member.
-- **Application Process:** To formalize your membership, submit an application (*details TBD*). The CFC will review each application, focusing on your contributions and alignment with our values.
-
-Our review process is transparent. Declined applicants receive explanations and can appeal. Our aim is always to be fair and act in the best interest of the CF community.
+- **Eligibility Criteria**: Eligibility requires active and meaningful engagement with CF or its projects for at least three months. Meaningful contributions include commits and merged pull requests (code, documentation, or applications for demonstration, education, or advocacy), or triage, maintainer or moderator roles for CF project repositories.
+- **Application Process:** Submit an application to formalize membership (*details TBD*). The CFC reviews applications to ensure eligibility criteria are met.
+- **Transparent Review Process:** Applicants satisfying criteria are accepted. Declinations are clearly explained based on set criteria, with an appeal process available for further evaluation.
 
 [^3]: Companies (or similar legal entities) can ensure their views are represented by appointing a representative to the [advisory board][].
 
@@ -65,23 +59,25 @@ While the CF thrives on the passion and contributions of its members, nominal me
 Life happens, and we understand that. Members may choose to step back or retire, and we respect that decision.
 
 - **Voluntary Resignation:** Members can choose to retire at any time, transitioning to an emeritus or inactive role while remaining part of our community.
-- **Inactivity:** Members who are inactive for more than 12 months will transition to an inactive status. They can reactivate their membership by contacting the CFC.
+- **Inactivity:** Members who fail to meet the [eligibility criteria](#general-members) for 12 months will transition to an inactive status.
 
 Inactive members (of any type) do not have the right to vote in CFC elections and are ineligible for membership in the CFC.
 
+To transition from inactive to active status, a member must meet [eligibility criteria](#general-members) for active membership.
+
 ## Suspension and Revocation of Membership
 
-The CFC may suspend or revoke the membership of any member that is found to be in violation of CF policies or acting against the best interests of the CF community.
+The CFC may suspend or revoke the membership of any member that is found to be in violation of CF policies.
 
 - **Suspension:** The CFC may suspend a member for up to 90 days, during which the member may not participate in CF activities or vote in CFC elections.
-- **Revocation:** The CFC may act to revoke or suspend CF membership if it believes (in good faith) that the member is engaging in willful misconduct or harming the best interest of the CF and its members.
+- **Revocation:** The CFC may act to revoke or suspend CF membership if it believes (in good faith) that the member is engaging in willful misconduct.
 
 These situations will be recorded as violations of the [Code of Conduct][coc] and handled as per the [Code of Conduct Resolution process][coc-reports].
 
 The decision to revoke or suspend membership is made by a supermajority vote of the CFC. The member in question will be notified of the decision and the reasons for it.
 
 [advisory board]: ./4-cf-advisory-board.md
+[cfc]: ./3-cf-council.md
 [egc]: ./3-cf-council.md#extended-governance-committee-egc
 [coc]: ../policies/code-of-conduct.md
 [coc-reports]: ../policies/code-of-conduct.md#handling-reports-and-escalations
-[succession]: ../policies/succession-plan.md
