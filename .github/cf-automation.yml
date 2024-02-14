@@ -33,4 +33,6 @@ notice:
   actions:
     label_notice: [notice]
     email_activity: 
-      address: announce@commonhaus.org
+      address: 
+      - announce@commonhaus.org
+      - cf-council@commonhaus.org
