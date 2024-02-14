@@ -54,7 +54,10 @@ CLAs can provide projects with more legal protection, while DCOs offer a simpler
 > [!TIP]
 > Joining CF doesn’t grant us any rights to your IP beyond what’s needed for project contributions. Your IP remains yours.
 
-Except for (a) each member’s commitment to be bound by this Policy, the applicable Project Code License(s), and the applicable Project Documentation License(s), in each case with respect to its or its employees’ authorized contributions to any Project; and (b) any applicable contributor license agreement, if any, no license is granted by the member to its intellectual property, and none shall be implied by general membership in the Commonhaus Foundation.
+General membership in the Commonhaus Foundation does not imply any license to a member's intellectual property.
+Members grant no license to their intellectual property to the Commonhaus Foundation, except under the following conditions:
+(a) their commitment to abide by this Policy, the applicable Project Code License(s), and the applicable Project Documentation License(s) for their contributions to any Project; and
+(b) any applicable contributor license agreement.
 
 ## Implementing the IP Policy
 
