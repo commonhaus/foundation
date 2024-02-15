@@ -9,7 +9,7 @@ You accept and agree to the following terms and conditions for Your present and 
 Except for the license granted herein to Project and recipients of software distributed by Project, You reserve all right,
 title, and interest in and to Your Contributions.
 
-## Definitions.
+## Definitions
 
 1. "You" (or "Your") shall mean the copyright owner or legal entity authorized by the copyright owner that is making this
 Agreement with Project. For legal entities, the entity making a Contribution and all other entities that control, are
@@ -17,7 +17,6 @@ controlled by, or are under common control with that entity are considered to be
 of this definition, "control" means (i) the power, direct or indirect, to cause the direction or management of such entity,
 whether by contract or otherwise, or (ii) ownership of fifty percent (50%) or more of the outstanding shares, or
 (iii) beneficial ownership of such entity.
-
 "Contribution" shall mean any original work of authorship, including any modifications or additions to an existing work,
 that is intentionally submitted by You to Project for inclusion in, or documentation of, any of the products owned or
 managed by Project (the "Work"). For the purposes of this definition, "submitted" means any form of electronic, verbal,
@@ -64,4 +63,3 @@ marking the work as "Submitted on behalf of a third-party: [named here]".
 
 8. You agree to notify Project of any facts or circumstances of which you become aware that would make these
 representations inaccurate in any respect.
-
