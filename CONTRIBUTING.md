@@ -25,6 +25,17 @@ Thanks for considering a contribution to the Commonhaus Foundation (CF) reposito
         - **Markdown link checks**: `npm run links` or `npm run linksv` (verbose)
     - **Build pdfs**: If you use docker or podman, run `./.github/docker-build-pdf.sh` to use a pre-configured docker image to convert markdown bylaws and policies to pdf.
 
+## Flow of information
+
+Markdown content is converted into pdfs and is published on the website.
+
+- **Mailing list references**: Mailing list reference syntax ([`legal` mailing list][CONTACTS.yaml]) matters.
+    - The `code` value shuld match a `mailing-list` attribute in [CONTACTS.yaml][].
+    - This syntax is changed into an email address in the pdf.
+    - TODO: It should be converted into a submission form for the website
+
+[CONTACTS.yaml]: ./CONTACTS.yaml
+
 ## Submitting Changes
 
 - **Create a PR**: Submit your changes via a pull request from your fork. Check the automatic build for link or pdf generation errors.
