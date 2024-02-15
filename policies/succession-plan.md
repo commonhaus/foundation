@@ -15,12 +15,7 @@ Administrative access empowers the CF to:
 
 **Facilitate Smooth Transitions:** Provide continuity when ownership changes or after prolonged inactivity, ensuring that important libraries and frameworks can survive without expensive forks.
 
-**CVE Remediation:** Act swiftly during security threats, especially if the primary code owners are unreachable.
-
-**Artifact Updates:** Provide consistent access to updated project artifacts, even amidst maintainer hiatus.
-
-The CF may intervene in certain situations, but we will exhaust every option to contact the current code owners before we do so.
-For libraries under heavy use, we will encourage a "path of least disturbance" approach to provide stability for applications relying on these libraries.
+**Artifact Updates:** Provide consistent access to updated project artifacts. For libraries under heavy use, we will encourage a "path of least disturbance" approach to provide stability for applications relying on these libraries.
 
 ## Scope of Access and Intervention
 
@@ -32,15 +27,19 @@ For libraries under heavy use, we will encourage a "path of least disturbance" a
 
 ## Commitment to Project Code Owners and the Community
 
-The CF respects each project's chosen governance model. This policy complements, and does not supersede, those models. We recommend projects define:
+The CF respects each project's chosen governance model. This policy complements, and does not supersede, those models.
 
-- **Code Ownership:** Maintain a list of individuals or groups with the authority to review and merge contributions (`CODEOWNERS`).
+We require the following:
 
 - **Project governance:** Describe project decision-making processes and contact information in `GOVERNANCE.md`. The CF must have direct contact details (kept confidential) for emergencies or coordination in the case of an extended absence.
 
-- **Contribution guidelines:** Describe project build, test, and packaging instructions in `CONTRIBUTING.md`. Include criteria for contributions, versioning practices, and preferences in the event of an ownership transition.
+- **Contribution guidelines:** Describe project build, test, and packaging instructions in `CONTRIBUTING.md`. Include criteria for contributions and versioning practices.
 
 **Open Source**: Project code must be publically accessible on any public code-hosting platform (like GitHub or GitLab).
+
+We recommend:
+
+- **Code Ownership:** Maintain a list of individuals or groups with the authority to review and merge contributions (`CODEOWNERS`).
 
 Further Reading:
 
