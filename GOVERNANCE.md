@@ -16,7 +16,7 @@ The  [CFC][] oversees strategic and operational decisions. To engage with the co
 
 ### Extended Governance Committee (EGC)
 
-The [EGC][] is a joint body formed from members of the CFC and a representative for each foundation projet. It plays a crucial role in ensuring diverse project perspectives are included in foundation-wide decisions.
+The [EGC][] is a joint body formed from members of the CFC and a representative for each foundation project. It plays a crucial role in ensuring diverse project perspectives are included in foundation-wide decisions.
 
 ### Membership
 
