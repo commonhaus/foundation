@@ -11,7 +11,7 @@ Below are the detailed policies that outline this support, including the circums
 - [Insurance](#insurance)
 - [Indemnification](#indemnification)
     - [Indemnification: Right to Indemnification](#indemnification-right-to-indemnification)
-    - [Indemnification: Authorization by the Board](#indemnification-authorization-by-the-board)
+    - [Indemnification: Authorization by the Council](#indemnification-authorization-by-the-council)
 - [Dissolution and Asset Distribution](#dissolution-and-asset-distribution)
     - [Dissolution Steps](#dissolution-steps)
     - [Procedures for Dissolution](#procedures-for-dissolution)
@@ -49,25 +49,27 @@ Relevant Florida Statutes:
 - [617.0831](http://www.leg.state.fl.us/Statutes/index.cfm?App_mode=Display_Statute&Search_String=&URL=0600-0699/0617/Sections/0617.0831.html) Indemnification and liability of officers, directors, employees, and agents.
 - [617.0834](http://www.leg.state.fl.us/Statutes/index.cfm?App_mode=Display_Statute&Search_String=&URL=0600-0699/0617/Sections/0617.0834.html) Officers and directors of certain corporations and associations not for profit; immunity from civil liability.
 
-### Indemnification: Authorization by the Board
+### Indemnification: Authorization by the Council
 
-The Foundation will only [indemnify a person](#indemnification-right-to-indemnification) if the board first determines that indemnification is proper under the circumstances because the
+The Foundation will only [indemnify a person](#indemnification-right-to-indemnification) if the Commonhaus Foundation Council (CFC) first determines that indemnification is proper under the circumstances because the
 person has met the [standard of conduct](#indemnification-right-to-indemnification).
 
-This determination must be made by (a) a majority vote of directors who were not
-party to the action, even if less than a quorum or (b) the members of the
+This determination must be made by (a) a majority vote of Councilors who were not
+party to the action, even if less than a quorum, or (b) the members of the
 Foundation.
 
 **Indemnification: Advance Payment.** The Foundation must advance expenses to an
 indemnified person defending a court action, so long as the indemnified person agrees to
-repay the advanced amount if the board ultimately determines the person was not entitled
+repay the advanced amount if the CFC ultimately determines the person was not entitled
 to indemnification.
 
 **Indemnification: Non-Exclusivity.** A person’s rights to indemnification and advance
 expenses under [this Section](#indemnification) are not exclusive of any other right to indemnification or advance expenses that the person may be entitled to.
 
 **Indemnification: Continuation; Advancement of Expenses.** A person’s right to
-indemnification and advancement of expenses under [this Section](#indemnification) shall continue after the person has ceased to be a director, Officer, employee or agent of the Foundation, and shall inure to the benefit of the heirs, executors and administrators of that person.
+indemnification and advancement of expenses under [this Section](#indemnification) shall continue
+after the person has ceased to be a Councilor, Officer, employee, or agent of the Foundation,
+and shall inure to the benefit of the heirs, executors and administrators of that person.
 
 **Indemnification: Severability.** If any part of [this Section](#indemnification) or any award made hereunder is determined to be invalid, the other provisions remain in full force and effect.
 
