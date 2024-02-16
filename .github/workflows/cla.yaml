@@ -1,0 +1,25 @@
+name: 'Update CLA Gist'
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+    - main
+    paths:
+    - 'policies/CLA.md'
+
+jobs:
+
+  update-gist:
+    runs-on: ubuntu-latest
+
+    steps:
+
+    - name: Checkout
+      uses: actions/checkout@v4
+
+    - name: Update gist
+      env:
+        GH_TOKEN: ${{ secrets.CLA_GIST_WRITE_PAT }}
+      run: |
+        gh gist edit 5fe1c9c28e0899d9a272c900bbe89651 -f CLA.md policies/CLA.md
