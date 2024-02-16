@@ -24,8 +24,9 @@ jobs:
       run: |
         # update gist with specific project data
         while IFS=$'\t' read -r name entity gist _; do
-          echo "Project Name:  $name\n" > tmp.md
-          echo "Project Entity: $entity\n\n" >> tmp.md
+          echo "Project Name:  $name  " > tmp.md
+          echo "Project Entity: $entity  " >> tmp.md
+          echo "" >> tmp.md
           cat policies/CLA.md >> tmp.md
 
           gh gist edit $gist -f CLA.md tmp.md
