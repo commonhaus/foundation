@@ -22,4 +22,13 @@ jobs:
       env:
         GH_TOKEN: ${{ secrets.CLA_GIST_WRITE_PAT }}
       run: |
-        gh gist edit 5fe1c9c28e0899d9a272c900bbe89651 -f CLA.md policies/CLA.md
+        # update gist with specific project data
+        while IFS=$'\t' read -r name entity gist _; do
+          echo "Project Name:  $name\n" > tmp.md
+          echo "Project Entity: $entity\n\n" >> tmp.md
+          cat policies/CLA.md >> tmp.md
+
+          gh gist edit $gist -f CLA.md tmp.md
+        done < <(yq e '.project-cla[] | [.name, .entity, .gist] | @tsv' .github/project-cla.yaml)
+
+
