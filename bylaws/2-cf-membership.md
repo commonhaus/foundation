@@ -26,17 +26,20 @@ A **project** within the CF represents collaborative innovation in open-source t
 
 ## Project Representation
 
-**Diverse Voices, Unified Decision-Making:** Each project within the Commonhaus Foundation (CF) has its unique perspective. To ensure all projects have a say in the foundation's direction, each one appoints a representative to the [Extended Governance Committee (EGC)][egc]. These representatives are chosen according to the project's governance practices.
+**Diverse Voices, Unified Decision-Making:** Each project within the Commonhaus Foundation (CF) has its unique perspective. To ensure all projects have a say in the foundation's direction, each one appoints a representative to the [Extended Governance Committee (EGC)][egc]. These representatives are chosen according to the project's governance practices and do not have to be general members.
 
-**Dedicated Representation:** If an EGC representative is also elected to the [CF Council (CFC)][cfc], we recommend appointing an additional representative for the EGC. This helps maintain a focused approach to both specific project needs and the broader objectives of the CF.
+**Dedicated Representation:** If an EGC representative is elected to the [CF Council (CFC)][cfc], we recommend appointing an additional representative for the EGC to ensure project-specific needs are represented.
 
 ## General Members
 
 **Join as an individual.** Membership to the CF is open to all individuals who share our mission and meet the outlined eligibility criteria[^3].
 
-- **Eligibility Criteria**: Eligibility requires active and meaningful engagement with CF or its projects for at least three months. Meaningful contributions include commits and merged pull requests (code, documentation, or applications for demonstration, education, or advocacy), or triage, maintainer or moderator roles for CF project repositories.
-- **Application Process:** Submit an application to formalize membership (*details TBD*). The CFC reviews applications to ensure eligibility criteria are met.
-- **Transparent Review Process:** Applicants satisfying criteria are accepted. Declinations are clearly explained based on set criteria, with an appeal process available for further evaluation.
+- **Eligibility Criteria**: Eligibility requires active and meaningful engagement with CF or its projects for at least three months.
+    Meaningful contributions include commits and merged pull requests (code, documentation, or applications for demonstration, education, or advocacy); triage, maintainer or moderator roles for CF project repositories; or substantive participation in community forums.
+- **Application Process:** Submit an application to formalize membership (*details TBD*).
+    The CFC reviews applications to ensure eligibility criteria are met.
+- **Transparent Review Process:** Applicants satisfying criteria are accepted.
+    Declinations are clearly explained based on set criteria, with an appeal process available for further evaluation.
 
 [^3]: Companies (or similar legal entities) can ensure their views are represented by appointing a representative to the [advisory board][].
 
@@ -45,7 +48,8 @@ A **project** within the CF represents collaborative innovation in open-source t
 As a CF member, you're not just a part of our community; you shape its future. You're entitled to:
 
 - **Voice and Vote**: Contribute to discussions, sponsor issues, and vote in elections and referendums.
-- **Individual Representation:** Remember, your membership represents you, not your employer or any legal entity. Companies can engage through the [advisory board][].
+- **Individual Representation:** Remember, your membership represents you, not your employer or any legal entity.
+    Companies can engage through the [advisory board][].
 
 Relevant Florida Statute(s):
 
@@ -95,5 +99,6 @@ Relevant Florida Statute(s):
 [advisory board]: ./4-cf-advisory-board.md
 [cfc]: ./3-cf-council.md
 [egc]: ./3-cf-council.md#extended-governance-committee-egc
+[governance]: ./3-cf-council.md#voting
 [coc]: ../policies/code-of-conduct.md
 [coc-reports]: ../policies/code-of-conduct.md#handling-reports-and-escalations
