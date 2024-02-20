@@ -4,7 +4,11 @@ weight: 3
 ---
 # Commonhaus Foundation Council and Offices
 
-The Commonhaus Foundation Council (CFC) serves as the Board of Directors for the Commonhaus Foundation (CF). Governed by the legal requirements of the State of Florida and as defined in our Articles of Incorporation and [Bylaws][bylaws], the CFC is responsible for the strategic, governance, and fiduciary aspects of the Foundation.
+The Commonhaus Foundation Council (CFC) serves as the Board of Directors for the Commonhaus Foundation (CF).
+It oversees the foundation's operations, ensuring compliance with legal requirements and the execution of strategic plans as defined in our Articles of Incorporation and [Bylaws][bylaws].
+This includes financial management, operational decisions, and adherence to state and federal regulations.
+
+While the [Extended Governance Committee (EGC)](#extended-governance-committee-egc) provides broad governance input, the CFC is specifically tasked with the practical application of these strategies, managing the foundation's daily administrative and legal tasks to support its goals and mission.
 
 - [Composition and Membership](#composition-and-membership)
     - [Tenure, Transition and Apportioning Duties](#tenure-transition-and-apportioning-duties)
@@ -15,7 +19,9 @@ The Commonhaus Foundation Council (CFC) serves as the Board of Directors for the
     - [Agendas, Access, and Records](#agendas-access-and-records)
     - [Quorum](#quorum)
 - [Electronic Participation and Decision-Making](#electronic-participation-and-decision-making)
-    - [Voting](#voting)
+- [Voting](#voting)
+    - [Matters approved by Supermajority Vote of the EGC](#matters-approved-by-supermajority-vote-of-the-egc)
+    - [Matters approved by Supermajority Vote of the CFC](#matters-approved-by-supermajority-vote-of-the-cfc)
 - [Committees and Delegation](#committees-and-delegation)
 
 ## Composition and Membership
@@ -144,9 +150,10 @@ Relevant Florida Statute(s):
 
 [^1]: As an example, a GitHub Discussion for on a specific topic would require a reaction  (per our [decision-making process][consensus]) from all Councilors to allow a decision to be made outside of a meeting. The final decisions and actions taken should be summarized in the Discussion.
 
-### Voting
+## Voting
 
-The CFC employs a consensus-driven approach for decision-making, detailed in [consensus guidelines][consensus]. When consensus cannot be reached, voting is utilized to resolve differences.
+The CFC employs a consensus-driven approach for decision-making, detailed in [consensus guidelines][consensus].
+When consensus cannot be reached, voting is utilized to resolve differences.
 
 - **Majority Voting**: Most decisions are subject to a simple majority vote of Councilors present and voting at a meeting or acting [through written consent](#electronic-participation-and-decision-making).
 
@@ -154,23 +161,24 @@ The CFC employs a consensus-driven approach for decision-making, detailed in [co
     - Approval by at least two-thirds of the total voting members of the CFC or the EGC at a meeting with at least two-thirds of voting members present.
     - Approval by two-thirds of all voting members acting [through written consent](#electronic-participation-and-decision-making).
 
-*Definition of Voting Members*:
+**Definition of Voting Members**:
 
 - For the CFC: All current voting Councilors.
 - For the EGC: All voting Councilors and project representatives.
 
-#### Matters approved by Supermajority Vote of the EGC and CFC
+### Matters approved by Supermajority Vote of the EGC
 
 - Amending the Articles of Incorporation or the Bylaws.
 - Changing the size of the CFC.
 - Modifying the rights of membership.
-- Approving a proposed merger or dissolution.
+- Final approval of a proposed merger or dissolution.
+- Suspending or revoking a project's membership.
 
-#### Matters approved by Supermajority Vote of the CFC
+### Matters approved by Supermajority Vote of the CFC
 
 - Suspending or revoking an individual's membership.
 - Hiring or terminating the Executive Director.
-- Approving a proposed merger or dissolution.
+- Draft proposal for merger or dissolution.
 
 Relevant Florida Statute(s):
 
