@@ -24,7 +24,7 @@ The CF Council (CFC) is responsible for reviewing and approving all policies. Th
 
 Amendments or changes to Policies will follow the [amendment process][].
 
-For questions or clarifications on these policies, please contact the [`legal` mailing list][CONTACTS.yaml].
+For questions or clarifications on these policies, please send an email to the [`legal` mailing list][CONTACTS.yaml].
 
 [CONTACTS.yaml]: https://github.com/commonhaus/foundation-draft/blob/main/CONTACTS.yaml
 [amendment process]: ../bylaws/8-amendments.md

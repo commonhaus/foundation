@@ -96,13 +96,13 @@ Updating the year after the file is created is unnecessary.
 
 If this IP Policy doesn't cater to your project's needs, request special permission from the CFC.
 
-To request an exemption, please begin by contacting the CFC through the [`council` mailing list][CONTACTS.yaml]. Further instructions will be provided based on the specifics of your request.
+To request an exemption, send an email to the [`council` mailing list][CONTACTS.yaml]. Further instructions will be provided based on the specifics of your request.
 
 ## Review of Policy
 
 This policy will be reviewed periodically to ensure it remains relevant and effective. Amendments or changes to this policy will follow the [amendment process][].
 
-For questions or clarifications on this policy, please contact the [`legal` mailing list][CONTACTS.yaml].
+For questions or clarifications on this policy, please send an email to the [`legal` mailing list][CONTACTS.yaml].
 
 [CONTACTS.yaml]: https://github.com/commonhaus/foundation-draft/blob/main/CONTACTS.yaml
 [MIT]: https://opensource.org/license/mit/ "The MIT License"

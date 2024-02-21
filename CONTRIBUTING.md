@@ -32,7 +32,7 @@ Markdown content is converted into pdfs and is published on the website.
 - **Mailing list references**: Mailing list reference syntax ([`legal` mailing list][CONTACTS.yaml]) matters.
     - The `code` value shuld match a `mailing-list` attribute in [CONTACTS.yaml][].
     - This syntax is changed into an email address in the pdf.
-    - TODO: It should be converted into a submission form for the website
+    - In the case of user action, use the full phrase: "send an email to the [`legal` mailing list][CONTACTS.yaml]", so that it can be converted into a submission form reference on the website.
 
 [CONTACTS.yaml]: ./CONTACTS.yaml
 

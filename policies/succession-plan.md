@@ -54,7 +54,7 @@ Further Reading:
 
 This policy may undergo periodic reviews and updates to cater to the evolving needs of the CF and its projects. Project leaders and the community will be involved in and informed of any changes. Amendments or changes to this policy will follow the [amendment process][].
 
-For questions or clarifications on this policy, please contact the [`legal` mailing list][CONTACTS.yaml].
+For questions or clarifications on this policy, please send an email to the [`legal` mailing list][CONTACTS.yaml].
 
 [CONTACTS.yaml]: https://github.com/commonhaus/foundation-draft/blob/main/CONTACTS.yaml
 [CONTRIBUTING.md]: https://github.com/commonhaus/foundation-draft/blob/main/CONTRIBUTING.md

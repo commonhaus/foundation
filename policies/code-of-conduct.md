@@ -96,7 +96,7 @@ We expect most reports to be handled by the processes put in place by a project 
 
 The CF maintains the CoCP to manage escalation when a reporter (a) believes that a report to a member project or the CFC has not been properly handled, or (b) does not feel comfortable reporting an issue through the standard process.
 
-Email the [`coc-escalation` mailing list][CONTACTS.yaml] to escalate an issue to the CoCP. The CoCP will meet to review submitted reports as described in [CF CoC procedures](#reports-to-the-coc-report-mailing-list).
+To escalate an issue to the CoCP, send an email to the [`coc-escalation` mailing list][CONTACTS.yaml]. The CoCP will meet to review submitted reports as described in [CF CoC procedures](#reports-to-the-coc-report-mailing-list).
 
 ### Code of Conduct Panel
 
@@ -117,7 +117,7 @@ Any member of the CFC or CoCP who is involved in the report must recuse themselv
 
 ### Reports to the CoC report mailing list
 
-All members of the CFC are subscribed to the the [`report` mailing list][CONTACTS.yaml] mailing list.
+All members of the CFC are subscribed to the the [`report` mailing list][CONTACTS.yaml].
 
 We understand that the person reporting the issue (**reporter**) may not be the individual directly affected or harmed (**target**). In such cases, communication will primarily be with the reporter unless the target explicitly gives permission.
 
@@ -131,7 +131,7 @@ We understand that the person reporting the issue (**reporter**) may not be the 
 
 ### Reports to the CoC Escalation mailing list
 
-All members of the CoCP are subscribed to the the [`coc-escalation` mailing list][CONTACTS.yaml] mailing list.
+All members of the CoCP are subscribed to the [`coc-escalation` mailing list][CONTACTS.yaml].
 
 The CoCP will follow the same overall procedure as the CFC, with the following changes:
 

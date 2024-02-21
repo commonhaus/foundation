@@ -27,7 +27,7 @@ Relevant Florida Statute(s):
 
 Notices given through the designated electronic channels are considered timely and effective. This approach is preferred due to the remote nature of the Foundation's operations, emphasizing the reliability of written communication over oral.
 
-- **Outgoing Announcements:** All major announcements, including changes to bylaws, project membership status, or decisions needing member input, will be posted in GitHub Discussions and tagged with a 'notice' label. Discussions with the `notice` label will be broadcast to the [`announce` mailing list][CONTACTS.yaml], `#notice` channel on the CF Discord server, published on the CF website and made available via an RSS feed.  
+- **Outgoing Announcements:** All major announcements, including changes to bylaws, project membership status, or decisions needing member input, will be posted in GitHub Discussions and tagged with a 'notice' label. Discussions with the `notice` label will be broadcast to the [`announce` mailing list][CONTACTS.yaml], `#notice` channel on the CF Discord server, published on the CF website and made available via an RSS feed.
 
 - **Member Communications:** For official communications with the Council or Foundation, members can either send an email to the specified mailing lists or creating a discussion on GitHub. Refer to [Communication channels][contact-us] for current details on where and how to send notifications.
 
