@@ -26,7 +26,7 @@ This document outlines the preliminary, non-binding agreement for the establishm
 ## EGC Quorum Establishment
 
 Five projects are required for moving forward with binding commitments.
-Each must appoint an EGC member to approve revised bylaws.
+Each project must have an appointed EGC member to approve revised bylaws.
 
 ## Preliminary Commitment
 
