@@ -19,9 +19,9 @@ The CF will review Project Code Licenses and the licenses of its dependencies to
 The CF is most familiar with the following four licenses, which can simplify the review process:
 
 - [The Apache License, Version 2.0](http://www.apache.org/licenses/LICENSE-2.0)
-- [The MIT License][MIT]
-- [The 2-Clause BSD License](https://opensource.org/license/bsd-2-clause/)
-- [The 3-Clause BSD License](https://opensource.org/license/bsd-3-clause/)
+- [The MIT License](https://opensource.org/blog/license/mit)
+- [The 2-Clause BSD License](https://opensource.org/blog/license/bsd-2-clause)
+- [The 3-Clause BSD License](https://opensource.org/blog/license/bsd-3-clause)
 
 ### Documentation and Media Files
 
@@ -104,8 +104,7 @@ This policy will be reviewed periodically to ensure it remains relevant and effe
 
 For questions or clarifications on this policy, please send an email to the [`legal` mailing list][CONTACTS.yaml].
 
-[CONTACTS.yaml]: https://github.com/commonhaus/foundation-draft/blob/main/CONTACTS.yaml
-[MIT]: https://opensource.org/license/mit/ "The MIT License"
+[CONTACTS.yaml]: https://github.com/commonhaus/foundation-draft/blob/main/CONTACTS.yaml 
 [amendment process]: ../bylaws/8-amendments.md
 [cfc]: ../bylaws/3-cf-council.md "CF Council"
 [standard website footer]: https://github.com/commonhaus/foundation-draft/blob/main/templates/website-footer.md "CF website footers"
