@@ -10,7 +10,7 @@ We are committed to making participation in this foundation a harassment-free ex
 If you need to report an issue or escalate a concern:
 
 - **Foundation-wide Issues:** Direct issues to `report@commonhaus.org`. The Commonhaus Foundation Council (CFC) will review and follow established procedures for handling reports.
-  
+
 - **Escalations:** For escalating unresolved issues, email `coc-escalation@commonhaus.org`. These will be reviewed by the Code of Conduct Panel (COCP), following the foundation's escalation procedures.
 
 For detailed procedures and additional contacts, please refer to the [Code of Conduct Policy](./policies/code-of-conduct.md).
