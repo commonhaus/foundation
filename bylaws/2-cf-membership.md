@@ -26,7 +26,7 @@ A **project** within the CF represents collaborative innovation in open-source t
 
 ## Project Representation
 
-**Diverse Voices, Unified Decision-Making:** Each project within the Commonhaus Foundation (CF) has its unique perspective. To ensure all projects have a say in the foundation's direction, each one appoints a representative to the [Extended Governance Committee (EGC)][egc]. These representatives are chosen according to the project's governance practices and do not have to be general members.
+**Diverse Voices, Unified Decision-Making:** Each project within the Commonhaus Foundation (CF) has its unique perspective, and its own legitimate interests in decisions taken by the foundation as a whole. To ensure that every project has a say in the direction of the foundation, each project appoints a representative to the [Extended Governance Committee (EGC)][egc]. The representative is chosen according to the project's own governance practices. The representative is not required to have or maintain general membership of the foundation.
 
 **Dedicated Representation:** If an EGC representative is elected to the [CF Council (CFC)][cfc], we recommend appointing an additional representative for the EGC to ensure project-specific needs are represented.
 
