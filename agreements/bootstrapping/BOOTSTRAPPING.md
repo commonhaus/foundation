@@ -30,7 +30,7 @@ Each project must have an appointed EGC member to approve revised bylaws.
 
 ## Preliminary Commitment
 
-By engaging in this agreement, projects indicate their preliminary intent to join the Commonhaus Foundation (CF), with the understanding that this stage does not involve any legal transfer of assets.
+By engaging in this agreement, projects indicate their preliminary, and non binding, intent to join the Commonhaus Foundation (CF), with the understanding that this stage does not involve any legal transfer of assets.
 This intent is symbolized through a digital acknowledgment by the project's designated Extended Governance Committee (EGC) representative.
 Where applicable, additional acknowledgments may be required to satisfy employer or vendor requirements, ensuring all parties are aligned with the project's commitment to the CF.
 
