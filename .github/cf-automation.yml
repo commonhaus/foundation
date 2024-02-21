@@ -22,6 +22,7 @@ notice:
           - edited
           - closed
         paths:
+          - agreements/*
           - bylaws/*
           - policies/*
         then: [label_notice]
