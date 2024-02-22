@@ -10,7 +10,7 @@ Amendments and changes to CF Bylaws and Policies are proposed, reviewed, and app
 
 2. **Categorization of Changes:** The CFC reviews each proposal to classify it as either 'Trivial' (e.g., typographical corrections) or 'Substantive' (affecting governance or operations). Trivial Changes may be quickly approved, whereas Substantive Changes undergo a detailed review.
 
-3. **Community Involvement:** For Substantive Changes, a 30-day review period allows all CF members to provide feedback. Member involvement is crucial to ensure diverse perspectives are considered.
+3. **Community Involvement:** For Substantive Changes, a 30-day review period allows all members to provide feedback. Member involvement is crucial to ensure diverse perspectives are considered.
 
 4. **Resolution Process:** The CFC addresses and resolves any member-raised objections, ensuring consensus and addressing concerns.
 
