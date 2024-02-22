@@ -48,7 +48,7 @@ Relevant Florida Statute(s):
 - **Staggered Elections:** To maintain continuity, no more than two-thirds of the CFC seats are up for re-election in each cycle.
 - **Resignation:** Councilors wishing to resign must formally notify the Chairperson or the CFC, with immediate cessation of their responsibilities and rights as Councilors upon resignation.
 - **Removal:** A councilor may be removed for misconduct, failure to perform duties, or consistent non-participation. The removal process includes a fair review, an opportunity for the member to respond, and a decision made through a vote by the remaining Councilors or a general membership vote.
-- **Vacancies:** In the event of a vacancy, the remaining Councilors have full authority to conduct the duties of the vacant positions until a special election can fill the vacancy.
+- **Vacancies:** In the event of a vacancy, the remaining councilors may exercise the duties of the full council until the vacancy is filled.
 - **Apportioning Duties:** The CFC has the responsibility to ensure that the required duties of all [CFC Offices](#officer-roles-and-appointment) are fulfilled, even in the case of vacancies or absences.
 
 Relevant Florida Statute(s):

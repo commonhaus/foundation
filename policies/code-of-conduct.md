@@ -30,9 +30,12 @@ Welcome to the Code of Conduct (CoC) for the Commonhaus Foundation (CF). We're d
 
 ## Our Code of Conduct
 
-The CF adheres to the [Contributor Covenant v1.4](#contributor-covenant-code-of-conduct) as its foundational Code of Conduct (CoC), embracing a commitment to create a welcoming and inclusive environment. This CoC underpins all foundation activities and is a requirement for new projects within three months of joining.
+The CF is dedicated to creating a welcoming and inclusive environment. Our Code of Conduct (CoC), derived from the [Contributor Covenant v1.4](#contributor-covenant-code-of-conduct), sets the standard for behavior within our community.
 
-Leadership across the CF, including [Councilors][cfc] and project representatives, are [expected](#leadership-expectations) to respect and uphold this CoC to foster an environment of respect and collaboration. The [Code of Conduct Panel (CoCP)](#code-of-conduct-panel) provides an avenue for appeals or escalations, if necessary.
+Leadership across the CF, including [Councilors][cfc] and project representatives, are [expected](#leadership-expectations) to respect and uphold this CoC to foster an environment of respect and collaboration.
+The [Code of Conduct Panel (CoCP)](#code-of-conduct-panel) provides an avenue for appeals or escalations, if necessary.
+
+New projects are expected to adopt this CoC within three months of joining.
 
 ### Member Expectations
 
@@ -78,9 +81,15 @@ Our commitment extends beyond rule enforcement to fostering an environment where
 
 ### Confidentiality and Safety
 
-Confidentiality is paramount. We understand that individuals reporting issues (reporters) may not always be the individuals directly affected. Communications will primarily involve the reporter, with the utmost respect for the privacy and wishes of all parties involved. Personal information will be handled with the strictest confidence and disclosed only with explicit permission.
+Confidentiality is paramount in handling reports.
 
-The CF strictly prohibits retaliation against anyone who reports concerns in good faith. Our procedures are designed to ensure that everyone in our community can work in a safe and respectful environment.
+All community leaders are obligated to respect the privacy and security of the
+reporter of any incident.
+The CF strictly prohibits retaliation against anyone who reports concerns in good faith.
+Our procedures are designed to ensure that everyone in our community can work in a safe and respectful environment.
+
+There may be circumstances where sharing personal information becomes necessary.
+We may share personal information where explicit permission has been given, when required by law, or when a report raises significant safety concerns.
 
 Given that membership to groups like the CFC or the CoCP have finite terms, members reviewing CoC reports agree to treat all reports as confidential, even after their term is finished.
 

@@ -10,8 +10,8 @@ Below are the detailed policies that outline this support, including the circums
 
 - [Insurance](#insurance)
 - [Indemnification](#indemnification)
-    - [Indemnification: Right to Indemnification](#indemnification-right-to-indemnification)
-    - [Indemnification: Authorization by the Council](#indemnification-authorization-by-the-council)
+    - [Scope of Indemnification and Standard of Conduct](#scope-of-indemnification-and-standard-of-conduct)
+    - [Authorization by the Council](#authorization-by-the-council)
 - [Dissolution and Asset Distribution](#dissolution-and-asset-distribution)
     - [Dissolution Steps](#dissolution-steps)
     - [Procedures for Dissolution](#procedures-for-dissolution)
@@ -22,7 +22,7 @@ Relevant Florida Statute:
 
 ## Insurance
 
-The Foundation shall assess and procure necessary insurance coverages to protect against risks, including but not limited to Directors and Officers (D&O) Liability insurance. These policies shall be reviewed annually to ensure they adequately meet the Foundation's needs.
+The CF Council (CFC) shall assess the Foundation's risks and evaluate whether to procure insurance coverages, such as Directors and Officers (D&O) Liability insurance, to protect against those risks.
 
 Relevant Florida Statute:
 
@@ -30,15 +30,17 @@ Relevant Florida Statute:
 
 ## Indemnification
 
-### Indemnification: Right to Indemnification
+### Scope of Indemnification and Standard of Conduct
 
-Subject to the limitations set forth in [this Section](#indemnification),
+Subject to the limitations set forth in this Section,
 the Foundation must indemnify directors (councilors), Officers, employees, and agents of the Foundation
 from any action, suit, or proceeding (whether civil, criminal, administrative or investigative)
 arising from that person’s role in the Foundation or service at the request of the Foundation.
 
 **Standard of Conduct.**
-This indemnification extends to all reasonable expenses (including attorneys’ fees), judgments, fines, and other amounts paid in settlement by the person in connection with the action, so long as the person: (1) acted in good faith and in a manner they reasonably believed to be consistent with the best interests of the Foundation, and (2) had no reason to believe their conduct was unlawful, in the case of criminal matters.
+This indemnification extends to all reasonable expenses (including attorneys’ fees), judgments, fines, and other amounts paid in settlement by the person in connection with the action, so long as the person:
+(1) acted in good faith and in a manner they reasonably believed to be consistent with the best interests of the Foundation, and
+(2) had no reason to believe their conduct was unlawful, in the case of criminal matters.
 
 This indemnification does not extend to a person who is found liable in an action by the Foundation, or in right of the Foundation.
 Otherwise, the outcome of an action will not alone create a presumption that a person did not act in good faith, in the best interests of the Foundation, or with lawful intent.
@@ -49,10 +51,10 @@ Relevant Florida Statutes:
 - [617.0831](http://www.leg.state.fl.us/Statutes/index.cfm?App_mode=Display_Statute&Search_String=&URL=0600-0699/0617/Sections/0617.0831.html) Indemnification and liability of officers, directors, employees, and agents.
 - [617.0834](http://www.leg.state.fl.us/Statutes/index.cfm?App_mode=Display_Statute&Search_String=&URL=0600-0699/0617/Sections/0617.0834.html) Officers and directors of certain corporations and associations not for profit; immunity from civil liability.
 
-### Indemnification: Authorization by the Council
+### Authorization by the Council
 
-The Foundation will only [indemnify a person](#indemnification-right-to-indemnification) if the Commonhaus Foundation Council (CFC) first determines that indemnification is proper under the circumstances because the
-person has met the [standard of conduct](#indemnification-right-to-indemnification).
+The Foundation will only indemnify a person if the CFC first determines that indemnification is proper under the circumstances because the
+person has met the [standard of conduct](#scope-of-indemnification-and-standard-of-conduct).
 
 This determination must be made by (a) a majority vote of Councilors who were not
 party to the action, even if less than a quorum, or (b) the members of the
@@ -84,7 +86,7 @@ Relevant Florida Statutes:
 
 ## Dissolution and Asset Distribution
 
-In the unfortunate event that the Commonhaus Foundation (CF) must dissolve, we commit to a responsible and lawful closure process, prioritizing the continuity and integrity of our open-source projects.
+In the unfortunate event that the Commonhaus Foundation must dissolve, we commit to a responsible and lawful closure process, prioritizing the continuity and integrity of our open-source projects.
 Given that CF projects represent collaborative effort of individual contributors, the dissolution process will respect the unique structure and community-driven nature of each project.
 
 Relevant Florida Statutes:
