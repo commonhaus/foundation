@@ -99,6 +99,5 @@ Relevant Florida Statute(s):
 [advisory board]: ./4-cf-advisory-board.md
 [cfc]: ./3-cf-council.md
 [egc]: ./3-cf-council.md#extended-governance-committee-egc
-[governance]: ./3-cf-council.md#voting
 [coc]: ../policies/code-of-conduct.md
 [coc-reports]: ../policies/code-of-conduct.md#handling-reports-and-escalations
