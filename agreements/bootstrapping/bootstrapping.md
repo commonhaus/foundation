@@ -22,6 +22,7 @@ This document outlines the preliminary, non-binding agreement for the establishm
 [coc-tpl]: ../../templates/CODE_OF_CONDUCT.md
 [gov-cf]: ../../GOVERNANCE.md
 [gov-tpl]: ../../templates/GOVERNANCE.md
+[dissolution]: ../../bylaws/7-indemnification-dissolution.md#dissolution-and-asset-distribution
 
 ## EGC Quorum Establishment
 
@@ -30,9 +31,10 @@ Each project must have an appointed EGC member to approve revised bylaws.
 
 ## Preliminary Commitment
 
-By engaging in this agreement, projects indicate their preliminary, and non binding, intent to join the Commonhaus Foundation (CF), with the understanding that this stage does not involve any legal transfer of assets.
+By engaging in this agreement, projects indicate their preliminary, and non binding, intent to join the Commonhaus Foundation (CF), with the understanding that this stage does not require any legal transfer of assets.
+
 This intent is symbolized through a digital acknowledgment by the project's designated Extended Governance Committee (EGC) representative.
-Where applicable, additional acknowledgments may be required to satisfy employer or vendor requirements, ensuring all parties are aligned with the project's commitment to the CF.
+Where applicable, additional acknowledgments may be required to satisfy employer or vendor requirements to ensure all parties are aligned with the project's commitment to the CF.
 
 ## Formation Period
 
@@ -49,10 +51,12 @@ During this period, projects are expected to:
 
 ## Binding Commitments Post-Formation
 
-Projects are invited to enter into formal binding agreements at any stage during the Formation Period.
-These agreements will encompass the transfer of project assets, such as trademarks and domains, formally integrating projects within the Commonhaus Foundation.
+Projects are invited to formalize their participation in the Commonhaus Foundation through binding agreements at any point during the Formation Period.
+These agreements may include the transfer of project assets, such as trademarks and domains, to the foundation.
 
-Should fewer than five projects commit their trademarks during or by the end of the Formation Period, the remaining projects retain the right to withdraw their membership without facing any penalties or obligations.
+Should there be fewer than five projects bound by either this provisional agreement or a formal binding agreement by the end of the Formation Period, the projects still in the provisional phase retain the right to reassess their participation and may withdraw their membership without facing any penalties or obligations.
+
+The Foundation and committed projects will evaluate their progress and circumstances. Based on this evaluation, they may continue operations or follow the [dissolution process][dissolution] to transition projects to another suitable non-profit organization that aligns with their goals and needs.
 
 ## Feedback and Iteration
 
@@ -72,4 +76,4 @@ EGC Representative GitHub Username: [Insert GitHub Username Here]
 
 Date of Signed Commit: [Insert Date Here]
 
-For organizations with a legal department, a digitally signed PDF of this document may be submitted as an alternative, providing a formal record of agreement without necessitating public disclosure of personal information.
+For organizations with a legal department, a digitally signed PDF of this document may be submitted as an alternative.

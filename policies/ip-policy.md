@@ -26,10 +26,10 @@ The CF is most familiar with the following four licenses, which can simplify the
 ### Documentation and Media Files
 
 > [!TIP]
-> Projects can pick appropriate licenses, including non-commercial Creative Commons licenses, for their non-code content like documentation and images.
+> Projects can pick appropriate licenses, including Creative Commons licenses that permit commercial use, for their non-code content like documentation and images.
 
 A CF Project can define a "Project Documentation License" to cover all documentation, image, and audiovisual files (e.g., .txt., .rtf, .doc, .pdf, .jpg, .tif, .mp3, .wav, and some .html files) (including without limitation code that is intended as sample code if included in a documentation file).
-The Project Documentation License can be any OSI-approved license or a non-commercial Creative Commons license (like [CC BY 4.0](http://creativecommons.org/licenses/by/4.0/)).
+The Project Documentation License can be any OSI-approved license or a Creative Commons license (like [CC BY 4.0](http://creativecommons.org/licenses/by/4.0/)) that permits commercial use.
 
 ## Contributions
 
@@ -44,10 +44,10 @@ The technical governing body of each Project may provide for additional requirem
 
 The DCO and CLA differ in their approach to intellectual property rights.
 
-- A DCO is a lightweight method for contributors to certify they have the rights to submit their work, typically requiring a signed statement within the commit message.
-- A CLA is a more formal agreement where contributors grant the project rights to use their contributions, often including a detailed legal framework around contributions.
+- A DCO is a straightforward way for contributors to assert their rights to submit work, typically through a declaration in the commit message.
+- A CLA is a formal agreement that allows contributors to grant broader rights over their contributions to the project.
 
-CLAs can provide projects with more legal protection, while DCOs offer a simpler, less legally invasive way for developers to contribute.
+While CLAs can offer projects flexibility in managing licenses and more control over contributions, DCOs favor ease of participation with a less formal mechanism for contribution.
 
 ## Intellectual Property Rights
 
@@ -79,7 +79,7 @@ When collaborating with external open-source projects ("Upstream Projects") conf
 
 ### Copyright Statements
 
-Using copyright statments in source code is a practice with mixed adoption.
+Using copyright statements in source code is a practice with mixed adoption.
 
 If your project wants to add copyrights to source code, we recommend one of the following:
 
