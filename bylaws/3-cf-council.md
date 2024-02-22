@@ -26,7 +26,8 @@ While the [Extended Governance Committee (EGC)](#extended-governance-committee-e
 
 ## Composition and Membership
 
-The CFC comprises elected members (Councilors) recognized for their contributions to the open-source community. As representatives of diverse organizations, Councilors are committed to prioritizing the interests of the CF community in their decision-making.
+Councilors are elected by CF members to represent their interests and ensure the foundation operates responsibly.
+They are expected to prioritize the CF community's interests in their decision-making, serving as representatives from diverse organizations committed to the foundation's objectives.
 
 An up-to-date list of Councilors will be maintained in the `cf-council` [CONTACTS.yaml][] attribute.
 
@@ -35,7 +36,7 @@ An up-to-date list of Councilors will be maintained in the `cf-council` [CONTACT
 **Selection and Elections:** The selection process for Councilors is designed to reflect the diversity of the open-source community.
 
 - Any member that has been active within the CF community for at least six months can run or be nominated.
-- Every active CF member is entitled to one vote in annual [elections][].
+- Every active member is entitled to one vote in annual [elections][].
 
 Relevant Florida Statute(s):
 

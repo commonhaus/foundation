@@ -18,7 +18,7 @@ This document outlines the Conflict of Interest Policy for the Commonhaus Founda
 
 This policy applies to all individuals within the CF who possess decision-making authority with respect to Foundation activities, assets, income, or expenses. This includes:
 
-- Members of the [Commonhaus Foundation Council (CFC)][cfc]
+- Members of the [Commonhaus Foundation Council (CFC)][cfc] (Councilors)
 - Members of the [Extended Governance Committee (EGC)][egc]
 - Appointed officers of the CF
 - Key employees[^1]
@@ -65,13 +65,13 @@ Upon the disclosure of a potential conflict, the CFC shall determine if a confli
 The minutes of any CFC meeting that addresses conflict of interest disclosure or resolution will include:
 
 - The names of individuals with a potential conflict, the nature of their interest, and whether it was considered a conflict.
-- Details on alternative options reviewed, the CFC members who deliberated and voted, including how conflicts of interest were managed during these discussions.
+- Details on alternative options reviewed, the Councilors who deliberated and voted, including how conflicts of interest were managed during these discussions.
 - The outcome of the vote, specifying the transaction's terms and approval date if relevant.
 
 #### Annual Disclosure and Compliance
 
-- CFC members (Councilors), EGC Members, and key employees (if any) must annually affirm that they have received, read, understood this policy, and that they agree to comply with it.
-- General CF members must affirm that they have received, read, understood this policy, and that they agree to comply with it, when applicable.
+- Councilors, EGC Members, and key employees (if any) must annually affirm that they have received, read, understood this policy, and that they agree to comply with it.
+- General members must affirm that they have received, read, understood this policy, and that they agree to comply with it, when applicable.
 
 ## Review of Policy
 

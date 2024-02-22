@@ -32,7 +32,7 @@ Welcome to the Code of Conduct (CoC) for the Commonhaus Foundation (CF). We're d
 
 The CF adheres to the [Contributor Covenant v1.4](#contributor-covenant-code-of-conduct) as its foundational Code of Conduct (CoC), embracing a commitment to create a welcoming and inclusive environment. This CoC underpins all foundation activities and is a requirement for new projects within three months of joining.
 
-Leadership across the CF, including [Council members (CFC)][cfc] and project leaders, are [expected](#leadership-expectations) to respect and uphold this CoC to foster an environment of respect and collaboration. The [Code of Conduct Panel (CoCP)](#code-of-conduct-panel) provides an avenue for appeals or escalations, if necessary.
+Leadership across the CF, including [Councilors][cfc] and project representatives, are [expected](#leadership-expectations) to respect and uphold this CoC to foster an environment of respect and collaboration. The [Code of Conduct Panel (CoCP)](#code-of-conduct-panel) provides an avenue for appeals or escalations, if necessary.
 
 ### Member Expectations
 
@@ -100,7 +100,7 @@ To escalate an issue to the CoCP, send an email to the [`coc-escalation` mailing
 
 ### Code of Conduct Panel
 
-The CoCP is a foundation-wide team composed of the CFC Chairperson and 4 elected individuals who are not members of the CFC.
+The CoCP is a foundation-wide team composed of the CFC Chairperson and 4 elected individuals who are not Councilors.
 
 CoCP members serve for two year terms. CF contributors and members from the broader community can be nominated to the CoCP.
 CoCP members should consider objectivity and diversity of experience and perspective when electing CoCP members.
@@ -117,12 +117,12 @@ Any member of the CFC or CoCP who is involved in the report must recuse themselv
 
 ### Reports to the CoC report mailing list
 
-All members of the CFC are subscribed to the the [`report` mailing list][CONTACTS.yaml].
+All Councilors are subscribed to the the [`report` mailing list][CONTACTS.yaml].
 
 We understand that the person reporting the issue (**reporter**) may not be the individual directly affected or harmed (**target**). In such cases, communication will primarily be with the reporter unless the target explicitly gives permission.
 
-1. **Acknowledgement:** Upon receipt of a report, a CFC member acknowledges it, confirming receipt to the reporter or target.
-2. **Point of Contact:** If no response has been sent by the next CFC meeting, the CFC Chairperson will ensure a CFC member is designated as the primary point of contact.
+1. **Acknowledgement:** Upon receipt of a report, a Councilor acknowledges it, confirming receipt to the reporter or target.
+2. **Point of Contact:** If no response has been sent by the next CFC meeting, the Chairperson will ensure a Councilor is designated as the primary point of contact.
 3. **Information Gathering:** All relevant information is collected and centralized for review.
 4. **Discussion:** The gathered information is discussed to contextualize the facts and opinions.
 5. **Determination:** A consensus is reached on the appropriate response using the standard [CFC decision-making process][cc-dm].

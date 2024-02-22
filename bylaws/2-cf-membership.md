@@ -45,7 +45,7 @@ A **project** within the CF represents collaborative innovation in open-source t
 
 ## Membership Rights and Requirements
 
-As a CF member, you're not just a part of our community; you shape its future. You're entitled to:
+As a member, you're not just a part of our community; you shape its future. You're entitled to:
 
 - **Voice and Vote**: Contribute to discussions, sponsor issues, and vote in elections and referendums.
 - **Individual Representation:** Remember, your membership represents you, not your employer or any legal entity.
@@ -86,7 +86,7 @@ Relevant Florida Statute(s):
 The CFC may suspend or revoke the membership of any member that is found to be in violation of CF policies.
 
 - **Suspension:** The CFC may suspend a member for up to 90 days, during which the member may not participate in CF activities or vote in CFC elections.
-- **Revocation:** The CFC may act to revoke or suspend CF membership if it believes (in good faith) that the member is engaging in willful misconduct.
+- **Revocation:** The CFC may act to revoke or suspend membership if it believes (in good faith) that the member is engaging in willful misconduct.
 
 These situations will be recorded as violations of the [Code of Conduct][coc] and handled as per the [Code of Conduct Resolution process][coc-reports].
 
