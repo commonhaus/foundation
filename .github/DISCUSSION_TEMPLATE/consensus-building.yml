@@ -33,7 +33,7 @@ body:
       required: true
   - type: textarea
     attributes:
-      label: Concensus mechanism
+      label: Consensus mechanism
       description: |
         Describe how you would like readers to interact with this proposal.
       value: |
