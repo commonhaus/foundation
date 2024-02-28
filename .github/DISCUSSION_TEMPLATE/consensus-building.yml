@@ -36,7 +36,11 @@ body:
       label: Consensus mechanism
       description: |
         Describe how you would like readers to interact with this proposal.
+        Include an HTML comment that describes how/which reactions should be counted.
+        Valid values: +1, -1, confused, eyes, laugh, heart, hooray, rocket.
       value: |
+        <!--vote::marthas approve="+1" ok="eyes" revise="-1" -->
+
         Please use emoji reactions to indicate your support:
         - **👍 (:+1:)** if it looks good to you
         - **👀 (:eyes:)** if you're "ok" with it (it may not be your favorite)
