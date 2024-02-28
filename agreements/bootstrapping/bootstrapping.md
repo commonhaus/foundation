@@ -3,8 +3,8 @@ status: draft
 ---
 # Commonhaus Foundation Bootstrapping Agreement
 
-- Project: `Name`, `github organization`
-- EGC representative: `github id`
+- Project: [Insert GitHub Organization and Project name here]
+- EGC representative: [Insert GitHub Username here]
 
 This document outlines the preliminary, non-binding agreement for the establishment phase of the Commonhaus Foundation (CF), aiming to foster a collaborative community dedicated to open-source projects.
 
@@ -70,10 +70,10 @@ By making a signed commit to this document in the Commonhaus Foundation's reposi
 
 This digital action is considered a valid form of written consent, in line with the foundation's bylaws on electronic participation and decision-making.
 
-Project Name: [Insert Project Name Here]
+Project Name: [Insert Project Name here]
 
-EGC Representative GitHub Username: [Insert GitHub Username Here]
+EGC Representative GitHub Username: [Insert GitHub Username here]
 
-Date of Signed Commit: [Insert Date Here]
+Date of Signed Commit: [Insert Date here]
 
 For organizations with a legal department, a digitally signed PDF of this document may be submitted as an alternative.

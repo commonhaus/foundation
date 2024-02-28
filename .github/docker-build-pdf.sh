@@ -130,5 +130,26 @@ to_policy_pdf security-policy "Security Vulnerability Reporting"
 to_policy_pdf succession-plan "Continuity and Administrative Access"
 to_policy_pdf trademark-policy "Trademark"
 
-# TODO: to_policy_pdf privacy "Privacy"
+## AGREEMENTS
+
+function to_agreement_pdf() {
+    if [[ ! -f "./agreements/${1}.md" ]]; then
+        echo "No agreement found at ./agreements/${1}.md"
+        exit 1
+    fi
+    local name=$(basename ${1})
+    sed -E 's/\[Insert [^]]* here\]/______________________________________/g' \
+            "./agreements/${1}.md" > "./output/tmp/${name}.md"
+
+    to_pdf_with_changes \
+        "${1}" \
+        "./agreements/${1}.md" \
+        "$(basename ${1}).pdf" \
+        -M title:"Commonhaus Foundation ${2} Agreeement" \
+        "./output/tmp/${name}.md"
+}
+
+# Very redundant, but .. whatever. ;)
+to_agreement_pdf bootstrapping/bootstrapping Bootstrapping
+
 ls -al output/public
