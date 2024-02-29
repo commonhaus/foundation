@@ -126,7 +126,7 @@ Any member of the CFC or CoCP who is involved in the report must recuse themselv
 
 ### Reports to the CoC report mailing list
 
-All Councilors are subscribed to the the [`report` mailing list][CONTACTS.yaml].
+All Councilors are subscribed to the [`report` mailing list][CONTACTS.yaml].
 
 We understand that the person reporting the issue (**reporter**) may not be the individual directly affected or harmed (**target**). In such cases, communication will primarily be with the reporter unless the target explicitly gives permission.
 
