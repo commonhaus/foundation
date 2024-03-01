@@ -1,0 +1,22 @@
+name: Push Voting activity to commonhaus.github.io
+
+on:
+  discussion_comment:
+  issue_comment:
+
+permissions: {}
+
+jobs:
+  update-vote:
+    runs-on: ubuntu-latest
+    if: github.repository == 'commonhaus/foundation-draft' && github.event.sender.login == 'haus-rules-bot[bot]'
+    permissions:
+      actions: read
+    steps:
+    - name: Bump voting results
+      if: github.event.comment
+      env:
+        GH_TOKEN: ${{ secrets.ACTIONS_PUBLISH_PAT }}
+        EVENT: ${{ github.event }}
+      run: |
+        echo $EVENT | jq '{ "client_payload": . }' | gh workflow run -R commonhaus/commonhaus.github.io gh-pages.yml --json

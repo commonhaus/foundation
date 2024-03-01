@@ -12,6 +12,9 @@ env:
   GH_BOT_NAME: "GitHub Action"
   PANDOCK: ebullient/pandoc-emoji:3.1
 
+permissions:
+  contents: read
+
 jobs:
   lint:
     name: Check markdown links
