@@ -112,7 +112,7 @@ To escalate an issue to the CoCP, send an email to the [`coc-escalation` mailing
 The CoCP is a foundation-wide team composed of the CFC Chairperson and 4 elected individuals who are not Councilors.
 
 CoCP members serve for two year terms. CF contributors and members from the broader community can be nominated to the CoCP.
-CoCP members should consider objectivity and diversity of experience and perspective when electing CoCP members.
+CF members should consider objectivity and diversity of experience and perspective when electing CoCP members.
 
 Members of the CoCP will be documented in the `cocp-panel` [CONTACTS.yaml][] attribute.
 
