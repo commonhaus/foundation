@@ -31,6 +31,5 @@ jobs:
     - name: Bump website
       env:
         GH_TOKEN: ${{ secrets.ACTIONS_PUBLISH_PAT }}
-        EVENT: ${{ github.event }}
       run: |
         gh workflow run -R commonhaus/commonhaus.github.io push-content.yml
