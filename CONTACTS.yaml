@@ -1,11 +1,58 @@
+#--------------------------------------------------------------------------
+# CF Council members (elected, staggered elections)
+# - gh-id: github id
+#   term-start: most recent year of election
 cf-council:
-  - TBD / ...
+  - gh-id: cealsair
+    term-start: 2023
+    role: treasurer
+  - gh-id: ebullient
+    term-start: 2023
+    role: chair
+  - gh-id: mlittle
+    term-start: 2023
+  - ...
+  - ...
+
+#--------------------------------------------------------------------------
+# EGC Project Representatives (appointed by project governance process)
+# - name: Project name
+#   url: URL to github/gitlab organization
+#   gh-id: project representatives's github id
+egc:
+  - name: ...
+    gh-id: ...
+  - name: ...
+    gh-id: ...
+
+#--------------------------------------------------------------------------
+# Advisory Board members (appointed)
+# - organization: Name
+#   url: Website
+#   (..., optional social things, ...)
+#   gh-id: representative's github id
 advisory-board:
-  - TBD / ...
+  - organization: Name
+    gh-id: ...
+  - organization: Name
+    gh-id: ...
+
+#--------------------------------------------------------------------------
+# Code of Conduct Panel members:
+# - gh-id: github id
+#   term-start: most recent year of election
 cocp-panel:
-  - TBD / ...
-  - TBD / ...
-  - TBD / ...
+  - gh-id: ebullient
+    term-start: 2024
+  - gh-id: ...
+    term-start: ...
+  - gh-id: ...
+    term-start: ...
+
+#--------------------------------------------------------------------------
+# Mailing lists referenced in bylaws and policies.
+# See CONTRIBUTING.md, but usage is like this:
+# "send an email to the [`legal` mailing list][CONTACTS.yaml]"
 mailing-list:
   announce: announce@commonhaus.org
   coc-escalation: coc-escalation@commonhaus.org
