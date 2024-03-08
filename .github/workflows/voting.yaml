@@ -3,20 +3,32 @@ name: Push Voting activity to commonhaus.github.io
 on:
   discussion_comment:
   issue_comment:
+  workflow_dispatch:
+    inputs:
+      comment_id:
+        type: string
+        required: true
 
 permissions: {}
 
 jobs:
   update-vote:
     runs-on: ubuntu-latest
-    if: github.repository == 'commonhaus/foundation-draft' && github.event.sender.login == 'haus-rules-bot[bot]'
+    if: github.repository == 'commonhaus/foundation-draft'
     permissions:
       actions: read
     steps:
     - name: Bump voting results
-      if: github.event.comment
       env:
         GH_TOKEN: ${{ secrets.ACTIONS_PUBLISH_PAT }}
-        EVENT: ${{ github.event }}
+        COMMENT_ID: ${{ github.event.comment.node_id }}
+        INPUT: ${{ github.event.inputs.comment_id }}
+        SENDER: ${{ github.event.sender.login }}
       run: |
-        echo $EVENT | gh workflow run -R commonhaus/commonhaus.github.io push-votes.yml --json
+        if [[ -z "$COMMENT_ID" ]]; then
+          COMMENT_ID=$INPUT
+        elif [[ "$SENDER" != "haus-rules-bot[bot]" ]]; then
+          echo "Comment skipped. Not bot sender"
+          exit 0
+        fi
+        echo '{"comment_id": "${COMMENT_ID}"}' | gh workflow run -R commonhaus/commonhaus.github.io push-votes.yml --json
