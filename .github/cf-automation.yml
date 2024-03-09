@@ -1,9 +1,9 @@
 notice:
   discussion:
     rules:
-      - # If a discussion is created in the Announcements or Reviews 
+      - # If a discussion is created in the Announcements or Reviews
         # category, apply the notice label
-        category: 
+        category:
           - Announcements
           - Consensus Building
         action: [created, category_changed]
@@ -33,7 +33,14 @@ notice:
         then: [email_activity]
   actions:
     label_notice: [notice]
-    email_activity: 
-      address: 
+    email_activity:
+      address:
       - announce@commonhaus.org
       - cf-council@commonhaus.org
+
+voting:
+  error_email_address:
+    - test@commonhaus.org
+  status:
+    badge: https://www.commonhaus.org/votes/{{repoName}}/{{number}}.svg
+    page: https://www.commonhaus.org/votes/{{repoName}}/{{number}}.html
