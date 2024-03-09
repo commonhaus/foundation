@@ -31,4 +31,4 @@ jobs:
           echo "Comment skipped. Not bot sender"
           exit 0
         fi
-        echo '{"comment_id": "${COMMENT_ID}"}' | gh workflow run -R commonhaus/commonhaus.github.io push-votes.yml --json
+        echo "{\"comment_id\": \"${COMMENT_ID}\"}" | gh workflow run -R commonhaus/commonhaus.github.io push-votes.yml --json
