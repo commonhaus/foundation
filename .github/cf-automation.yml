@@ -8,11 +8,17 @@ notice:
           - Consensus Building
         action: [created, category_changed]
         then: [label_notice]
-      - # If the notice label is added to a discussion,
+      - # If the notice or vote/open label is applied,
         # send email
         action: [labeled]
-        label: [notice]
+        label:
+          - notice
+          - "vote/open"
         then: [email_activity]
+      - # If the vote/done label is applied, remove the vote/open label
+        action: [labeled]
+        label: ["vote/done"]
+        then: [label_done]
   pull_request:
     rules:
       - # If a pull request modifies bylaws or policies
@@ -33,6 +39,7 @@ notice:
         then: [email_activity]
   actions:
     label_notice: [notice]
+    label_done: ["!vote/open"]
     email_activity:
       address:
       - announce@commonhaus.org
