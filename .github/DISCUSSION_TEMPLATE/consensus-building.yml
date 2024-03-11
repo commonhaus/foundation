@@ -54,6 +54,6 @@ body:
         This should be edited (after item is created) to match the content above, if necessary.
       multiple: false
       options:
-        - "<!--vote::marthas approve="+1" ok="eyes" revise="-1" -->"
-        - "<!--vote::manual -->"
+        - '<!--vote::marthas approve="+1" ok="eyes" revise="-1" -->'
+        - '<!--vote::manual -->'
       default: 1      
