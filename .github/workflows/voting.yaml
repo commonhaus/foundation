@@ -32,6 +32,6 @@ jobs:
           COMMENT_ID=
         fi
 
-        if [[ -z "$COMMENT_ID" ]]; then
+        if [[ -n "$COMMENT_ID" ]]; then
           echo "{\"comment_id\": \"${COMMENT_ID}\"}" | gh workflow run -R commonhaus/commonhaus.github.io push-votes.yml --json
         fi
