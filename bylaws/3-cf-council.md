@@ -198,7 +198,7 @@ Relevant Florida Statute(s):
 
 - [617.0825](https://www.flsenate.gov/Laws/Statutes/2020/0617.0825) Board committees and advisory committees.
 
-[CONTACTS.yaml]: https://github.com/commonhaus/foundation-draft/blob/main/CONTACTS.yaml
+[CONTACTS.yaml]: https://github.com/commonhaus/foundation/blob/main/CONTACTS.yaml
 [bylaws]: ./README.md
 [coc-reports]: ../policies/code-of-conduct.md#handling-reports-and-escalations
 [consensus]: ./5-decision-making.md#general-decision-making

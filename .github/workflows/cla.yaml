@@ -11,7 +11,7 @@ on:
 jobs:
 
   update-gist:
-    if: github.repository == 'commonhaus/foundation-draft'
+    if: github.repository == 'commonhaus/foundation'
     runs-on: ubuntu-latest
 
     steps:

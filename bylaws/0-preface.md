@@ -51,7 +51,7 @@ Amendments or changes to Bylaws will follow the [amendment process][].
 [cfab]: ./4-cf-advisory-board.md
 [cfc]: ./3-cf-council.md
 [egc]: ./3-cf-council.md#extended-governance-committee-egc
-[foundation]: https://github.com/commonhaus/foundation-draft
+[foundation]: https://github.com/commonhaus/foundation
 [membership]: ./2-cf-membership.md#general-members
 [plco]: ./2-cf-membership.md#project-leaders-and-code-owners
 [policy-index]: ../policies/

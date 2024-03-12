@@ -56,4 +56,4 @@ Contributions in all forms are welcome. Check out our [Contributing Guidelines][
 [contrib]: ./CONTRIBUTING.md
 [membership]: ./bylaws/2-cf-membership.md
 [records]: ./bylaws/6-notice-records.md
-[CONTACTS.yaml]: https://github.com/commonhaus/foundation-draft/blob/main/CONTACTS.yaml
+[CONTACTS.yaml]: https://github.com/commonhaus/foundation/blob/main/CONTACTS.yaml

@@ -24,7 +24,7 @@ permissions: {}
 jobs:
   update-website:
     runs-on: ubuntu-latest
-    if: github.repository == 'commonhaus/foundation-draft'
+    if: github.repository == 'commonhaus/foundation'
     permissions:
       actions: read
     steps:

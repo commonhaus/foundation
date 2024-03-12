@@ -104,7 +104,7 @@ This policy will be reviewed periodically to ensure it remains relevant and effe
 
 For questions or clarifications on this policy, please send an email to the [`legal` mailing list][CONTACTS.yaml].
 
-[CONTACTS.yaml]: https://github.com/commonhaus/foundation-draft/blob/main/CONTACTS.yaml
+[CONTACTS.yaml]: https://github.com/commonhaus/foundation/blob/main/CONTACTS.yaml
 [amendment process]: ../bylaws/8-amendments.md
 [cfc]: ../bylaws/3-cf-council.md "CF Council"
-[standard website footer]: https://github.com/commonhaus/foundation-draft/blob/main/templates/website-footer.md "CF website footers"
+[standard website footer]: https://github.com/commonhaus/foundation/blob/main/templates/website-footer.md "CF website footers"

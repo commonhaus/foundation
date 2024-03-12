@@ -23,4 +23,4 @@ However, the Advisory Board plays a crucial role in shaping the foundation's dir
 An up-to-date list of Advisory Board representatives will be maintained in the `advisory-board` [CONTACTS.yaml][] attribute.
 
 [membership]: ./2-cf-membership.md
-[CONTACTS.yaml]: https://github.com/commonhaus/foundation-draft/blob/main/CONTACTS.yaml
+[CONTACTS.yaml]: https://github.com/commonhaus/foundation/blob/main/CONTACTS.yaml

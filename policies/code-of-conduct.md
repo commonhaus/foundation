@@ -24,7 +24,7 @@ Welcome to the Code of Conduct (CoC) for the Commonhaus Foundation (CF). We're d
     - [Enforcement](#enforcement)
     - [Attribution](#attribution)
 
-[CONTACTS.yaml]: https://github.com/commonhaus/foundation-draft/blob/main/CONTACTS.yaml
+[CONTACTS.yaml]: https://github.com/commonhaus/foundation/blob/main/CONTACTS.yaml
 [cc-dm]: ../bylaws/5-decision-making.md
 [cfc]: ../bylaws/3-cf-council.md
 
