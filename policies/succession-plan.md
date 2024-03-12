@@ -56,8 +56,8 @@ This policy may undergo periodic reviews and updates to cater to the evolving ne
 
 For questions or clarifications on this policy, please send an email to the [`legal` mailing list][CONTACTS.yaml].
 
-[CONTACTS.yaml]: https://github.com/commonhaus/foundation-draft/blob/main/CONTACTS.yaml
-[CONTRIBUTING.md]: https://github.com/commonhaus/foundation-draft/blob/main/CONTRIBUTING.md
-[GOV-TPL]: https://github.com/commonhaus/foundation-draft/blob/main/templates/GOVERNANCE.md
-[GOVERNANCE.md]: https://github.com/commonhaus/foundation-draft/blob/main/GOVERNANCE.md
+[CONTACTS.yaml]: https://github.com/commonhaus/foundation/blob/main/CONTACTS.yaml
+[CONTRIBUTING.md]: https://github.com/commonhaus/foundation/blob/main/CONTRIBUTING.md
+[GOV-TPL]: https://github.com/commonhaus/foundation/blob/main/templates/GOVERNANCE.md
+[GOVERNANCE.md]: https://github.com/commonhaus/foundation/blob/main/GOVERNANCE.md
 [amendment process]: ../bylaws/8-amendments.md

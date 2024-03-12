@@ -15,4 +15,4 @@ We are committed to making participation in this foundation a harassment-free ex
 [coc-policy]: https://www.commonhaus.org/policies/code-of-conduct/
 [coc-reports]: https://www.commonhaus.org/policies/code-of-conduct/#handling-reports-and-escalations "Handling CoC reports"
 [coc-escalation]: https://www.commonhaus.org/policies/code-of-conduct/#escalate-an-issue "Escalate an issue"
-[CONTACTS.yaml]: https://github.com/commonhaus/foundation-draft/blob/main/CONTACTS.yaml
+[CONTACTS.yaml]: https://github.com/commonhaus/foundation/blob/main/CONTACTS.yaml

@@ -78,7 +78,7 @@ jobs:
           path: output/public/*.pdf
 
       - name: Update snapshot tag
-        if: ${{ github.event_name == 'push' && github.repository == 'commonhaus/foundation-draft' }}
+        if: ${{ github.event_name == 'push' && github.repository == 'commonhaus/foundation' }}
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         shell: bash
