@@ -23,6 +23,9 @@ egc:
   - name: jbang
     url: https://github.com/jbangdev
     gh-id: maxandersen
+  - name: jreleaser
+    url: https://github.com/jreleaser
+    gh-id: aalmiray
   - name: ...
     gh-id: ...
 
