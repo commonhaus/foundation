@@ -1,5 +1,5 @@
 -------------------------------------------------------------
-name: 
+name:
 ID: GitHubID
 info:
   - employer: Your Employer or "Independent"
@@ -12,5 +12,5 @@ the election directory -->
 
 ## Resources About Me
 
-- Links to your website or other related material 
+- Links to your website or other related material
 - Links to social media
