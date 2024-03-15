@@ -26,6 +26,9 @@ egc:
   - name: jreleaser
     url: https://github.com/jreleaser
     gh-id: aalmiray
+  - name: morphia
+    url: https://github.com/morphiaorg
+    gh-id: evanchooly
   - name: ...
     gh-id: ...
 
