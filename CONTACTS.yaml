@@ -5,11 +5,11 @@
 cf-council:
   - gh-id: cealsair
     term-start: 2023
-    role: treasurer
+    role: Treasurer
   - gh-id: ebullient
     term-start: 2023
-    role: chair
-  - gh-id: mlittle
+    role: Chair
+  - gh-id: nmcl
     term-start: 2023
   - ...
   - ...
@@ -20,13 +20,13 @@ cf-council:
 #   url: URL to github/gitlab organization
 #   gh-id: project representatives's github id
 egc:
-  - name: jbang
+  - name: JBang
     url: https://github.com/jbangdev
     gh-id: maxandersen
-  - name: jreleaser
+  - name: JReleaser
     url: https://github.com/jreleaser
     gh-id: aalmiray
-  - name: morphia
+  - name: Morphia
     url: https://github.com/morphiaorg
     gh-id: evanchooly
   - name: ...
@@ -62,8 +62,10 @@ cocp-panel:
 # "send an email to the [`legal` mailing list][CONTACTS.yaml]"
 mailing-list:
   announce: announce@commonhaus.org
+  brand: brand@commonhaus.org
   coc-escalation: coc-escalation@commonhaus.org
   council: cf-council@commonhaus.org
+  egc: cf-egc@commonhaus.org
   legal: legal@commonhaus.org
   report: report@commonhaus.org
   trademarks: legal@commonhaus.org
