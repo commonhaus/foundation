@@ -3,70 +3,33 @@ status: draft
 ---
 # The Commonhaus Foundation (CF)
 
-> 📝 Note: This repo is a draft to explore an idea.
-> It tries to be reasonably thorough to convey the concept, but there are lots of holes and details to sort through, and none of it has undergone any kind of legal review.
-> [Discussions](https://github.com/commonhaus/foundation/discussions) are open and input is welcome!
-> If you're willing to support this effort, please submit a PR to add yourself to [SUPPORTERS.yaml](https://github.com/commonhaus/foundation/blob/main/SUPPORTERS.yaml).
+The Commonhaus Foundation champions open-source innovation, focusing on the long-term growth and stability of GitHub-style open-source projects. By fostering a dynamic and inclusive community, we empower contributors to drive the evolution of vital open-source libraries and frameworks through collaborative innovation.
 
-The Commonhaus Foundation champions open-source innovation and collaboration.
+## What sets Commonhaus apart
 
-We are dedicated to ensuring the long-term growth and stability of GitHub-style open-source projects through community collaboration and shared stewardship. Our mission is to empower a diverse community of contributors to create, maintain, enhance, and secure vital open-source libraries and frameworks.
+Inspired by the [The Codehaus][codehaus], CF offers a balanced approach to governance and support, designed for the unique needs of established open-source projects.
 
-Our vision is to create a dynamic and inclusive community where developers, contributors, and users unite to drive the evolution of open-source libraries and frameworks. We aim to cultivate an ecosystem that thrives on collaborative innovation, bypassing the complexities of traditional governance models.
+- **Stable, long-term home**: CF acknowledges the evolving nature of projects. By providing a neutral home, we offer an anchor supporting growth over time. We're committed to ensuring smooth transitions and fostering long-term resilience with thoughtful succession planning.
 
-## Core Distinctions of CF
+- **Minimum viable governance**: Adhering to a *community-first* model, CF offers foundational support that respects project autonomy, ensuring governance is effective without being restrictive.
 
-Drawing inspiration from [The Codehaus][codehaus], CF offers a unique balance between the foundation and projects related to support governance.
+- **Streamlined access to funding**: As a fiscal host with connections to platforms like GitHub Sponsors and OpenCollective, CF simplifies the process of securing funding, providing your project with the resources it needs for sustainability and growth.
 
-**Minimal Viable Governance:** CF embraces the "community-first" model prevalent in modern GitHub-style projects.
-While we provide foundational support, projects maintain their autonomy.
+## Core Focus and Vision
 
-**Access to Funding:** We bridge the post-Kickstarter gap.
-CF aids projects in meeting governance requirements, paving the way for them to access platforms like GitHub Sponsors or fiscal hosts such as Open Source Collective.
-
-**Future-ready Flexibility:** CF acknowledges the evolutionary nature of projects.
-We're not just a placeholder but a guide, assisting projects as they grow and, if needed, transition to foundations with more rigorous governance.
-
-**Tailored for Established Projects:** CF is an ideal home for projects that already have a user base and are now seeking stability and growth without heavy governance overhead.
-
-## Our Guiding Principles
-
-**Do No Harm:** At our core, we believe in uplifting and supporting projects, not imposing restrictive constraints.
-
-**Preserve Project Identity:** Even as trademarks and domain names integrate with CF, projects retain their distinct identity, celebrated and recognized globally.
-
-**Transparency and Longevity:** We value clear governance and are committed to the sustainability of projects, evident in aspects like our [Succession Planning][succession].
-
-**Empower, Don't Enforce:** CF's mission centers on empowerment without ensnaring projects in restrictive barriers.
-
-## CF's Focus and Vision
-
-**Prioritize Action:** We favor tangible outcomes over extended discussions, concentrating on:
-
-- **Application Frameworks:** For efficient app development and deployment.
-- **Libraries:** Essential tools that minimize application complexities.
-
-**Selective Alignment:** Not every project aligns with CF. While we respect the importance of *Specifications & Standards*, we do not engage in their definition or debate. This is a home for **self-governing, code-centric projects**.
+CF's action-oriented approach prioritizes **Application Frameworks** and **Libraries** that are critical for developers. We support self-governing, code-centric projects, steering clear of specifications and standards debates to focus on tangible outcomes.
 
 ## Community and Sponsorship
 
-CF is committed to inclusive growth, opening its doors to all individuals who share our vision, not just code contributors. We encourage participation from those interested in supporting and steering our projects, offering them a voice and a vote in our governance. For detailed information on membership and eligibility, refer to our [Bylaws][].
+CF's doors are open to everyone passionate about open-source innovation. We invite all individuals, not just code contributors, to participate and help steer our projects. Our [Bylaws][] detail membership and governance, emphasizing collaboration, diverse perspectives, and advisory input from our [Advisory Board][cfab] to align sponsorship with community interests.
 
-**Collaboration and Voice**: Our community thrives on cooperation and diverse perspectives. Here, every member, including project leaders and supporters, has the opportunity to contribute to decision-making processes.
+## Get Involved
 
-**Advisory Input**: While sponsors do not have voting rights, they play a vital role through the [Advisory Board][cfab], offering strategic insights that guide the foundation's direction. This structure ensures that sponsorship is aligned with community interests and open-source integrity.
+Advance open-source innovation and collaboration with us.
 
-## Additional resources
-
-- [Code of Conduct](CODE_OF_CONDUCT.md)
-- [Commonhaus Foundation Governance](bylaws/README.md)
-- [Succession Planning][succession]
-- [Security Policy][sec-policy]
-- [IP Policy][ip-policy]
+Explore how to contribute through our [Code of Conduct](CODE_OF_CONDUCT.md), [Governance Bylaws][Bylaws], and [Policies][].
 
 [codehaus]: https://www.infoworld.com/article/2892227/codehaus-the-once-great-house-of-code-has-fallen.html
 [Bylaws]: bylaws/0-preface.md
 [cfab]: bylaws/4-cf-advisory-board.md
-[succession]: policies/succession-plan.md
-[ip-policy]: policies/ip-policy.md
-[sec-policy]: policies/security-policy.md
+[Policies]: policies/README.md
