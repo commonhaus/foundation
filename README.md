@@ -1,9 +1,7 @@
----
-status: draft
----
-# The Commonhaus Foundation (CF)
+# ![ ](https://www.commonhaus.org/brand/png/CF_icon_default_32px.png) Commonhaus Foundation
 
-The Commonhaus Foundation champions open-source innovation, focusing on the long-term growth and stability of GitHub-style open-source projects. By fostering a dynamic and inclusive community, we empower contributors to drive the evolution of vital open-source libraries and frameworks through collaborative innovation.
+The Commonhaus Foundation (CF) champions open-source innovation, focusing on the long-term growth and stability of  community-driven open-source projects.
+We empower contributors to drive the evolution of vital open-source libraries and frameworks through collaborative innovation.
 
 ## What sets Commonhaus apart
 
@@ -33,3 +31,11 @@ Explore how to contribute through our [Code of Conduct](CODE_OF_CONDUCT.md), [Go
 [Bylaws]: bylaws/0-preface.md
 [cfab]: bylaws/4-cf-advisory-board.md
 [Policies]: policies/README.md
+
+---
+
+[Commonhaus Foundation](https://www.commonhaus.org) |
+[Code of Conduct](https://www.commonhaus.org/policies/code-of-conduct/) |
+[Bylaws](https://www.commonhaus.org/bylaws/) |
+[Trademark Policy](https://www.commonhaus.org/policies/trademark-policy/) |
+[Trademark List](https://www.commonhaus.org/trademarks/)
