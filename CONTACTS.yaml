@@ -1,65 +1,77 @@
 #--------------------------------------------------------------------------
 # CF Council members (elected, staggered elections)
-# - gh-id: github id
+# name, avatarUrl, company, description will be pulled from GitHub profile
+#
+# - login: github login
 #   term-start: most recent year of election
+#   avatarAlt: Optional. Avatar to show in addition to github avatar
+#   bio: Short description/bio to use instead of GH profile description
+#
 cf-council:
-  - gh-id: cealsair
+  - login: cealsair
     term-start: 2023
     role: Treasurer
-  - gh-id: ebullient
+  - login: ebullient
     term-start: 2023
+    avatarAlt: >-
+      https://www.ebullient.dev/images/devoxx-uk-2022-tiny.jpeg
     role: Chair
-  - gh-id: nmcl
+  - login: nmcl
     term-start: 2023
   - ...
   - ...
 
 #--------------------------------------------------------------------------
 # EGC Project Representatives (appointed by project governance process)
-# - name: Project name
-#   url: URL to github/gitlab organization
-#   gh-id: project representatives's github id
+# - project: Project name (match key in PROJECTS.yaml)
+#   login: project representatives's github id
+#   avatarAlt: Optional. Avatar to show in addition to github avatar
+#   bio: Short description/bio to use instead of GH profile description
+#
 egc:
-  - name: JBang
-    url: https://github.com/jbangdev
-    gh-id: maxandersen
-  - name: JReleaser
-    url: https://github.com/jreleaser
-    gh-id: aalmiray
-  - name: Morphia
-    url: https://github.com/morphiaorg
-    gh-id: evanchooly
-  - name: ...
-    gh-id: ...
+  - project: jbang
+    login: maxandersen
+  - project: jreleaser
+    login: aalmiray
+  - project: morphia
+    login: evanchooly
+  - project: ...
+    login: ...
 
 #--------------------------------------------------------------------------
 # Advisory Board members (appointed)
-# - organization: Name
-#   url: Website
-#   (..., optional social things, ...)
-#   gh-id: representative's github id
+# - organization: Name (should match name in ...)
+#   login: representative's github id
+#   avatarAlt: Optional. Avatar to show in addition to github avatar
+#   description: Short description/bio to use instead of GH profile description
+#
 advisory-board:
   - organization: Name
-    gh-id: ...
+    login: ...
   - organization: Name
-    gh-id: ...
+    login: ...
 
 #--------------------------------------------------------------------------
 # Code of Conduct Panel members:
-# - gh-id: github id
+# - login: github id
 #   term-start: most recent year of election
+#   avatarAlt: Optional. Avatar to show in addition to github avatar
+#   description: Short description/bio to use instead of GH profile description
+#
 cocp-panel:
-  - gh-id: ebullient
+  - login: ebullient
     term-start: 2024
-  - gh-id: ...
+  - login: ...
     term-start: ...
-  - gh-id: ...
+  - login: ...
     term-start: ...
 
 #--------------------------------------------------------------------------
 # Mailing lists referenced in bylaws and policies.
+#
 # See CONTRIBUTING.md, but usage is like this:
-# "send an email to the [`legal` mailing list][CONTACTS.yaml]"
+#    "send an email to the [`legal` mailing list][CONTACTS.yaml]"
+#
 mailing-list:
   announce: announce@commonhaus.org
   brand: brand@commonhaus.org
@@ -69,3 +81,4 @@ mailing-list:
   legal: legal@commonhaus.org
   report: report@commonhaus.org
   trademarks: legal@commonhaus.org
+
