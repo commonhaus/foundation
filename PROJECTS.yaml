@@ -17,9 +17,8 @@ hibernate:
   logo: https://github.com/hibernate/hibernate.org/blob/production/images/hibernate-logo.svg?raw=true
   wordmark: true
   description: >
-    A powerful ORM framework for Java. Hibernate abstracts complex database interactions,
-    simplifying data management and persistence in enterprise Java applications.
-  draft: true
+    The Hibernate projects offer a suite of powerful Java libraries to work with data.
+    It is best known for Hibernate ORM, which provides relational persistence for Java models and is an implementation of the Jakarta Persistence specification.
 
 jackson:
   name: Jackson
