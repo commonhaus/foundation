@@ -1,0 +1,75 @@
+#
+# Summary about Commonhaus Foundation projects
+#
+# name: Project Name
+# home: preferred landing page
+# repo: gitlab/github/... organization or project repository
+# logo: Link to preferred logo to use on commonhaus.org website
+# wordmark: true if the above logo also contains the project name
+# description: a short-ish description of the project
+#
+# Unpublished (or early stage), use draft: true
+
+hibernate:
+  name: Hibernate
+  home: https://hibernate.org/
+  repo: https://github.com/hibernate/
+  logo: https://github.com/hibernate/hibernate.org/blob/production/images/hibernate-logo.svg?raw=true
+  wordmark: true
+  description: >
+    A powerful ORM framework for Java. Hibernate abstracts complex database interactions,
+    simplifying data management and persistence in enterprise Java applications.
+  draft: true
+
+jackson:
+  name: Jackson
+  home: https://github.com/FasterXML/jackson
+  repo: https://github.com/FasterXML/jackson
+  logo: https://avatars.githubusercontent.com/u/382692?s=200&v=4
+  wordmark: false
+  description: >
+    The go-to library for JSON processing in Java. Jackson offers fast and flexible parsing/generation
+    of JSON for Java applications, enabling seamless data interchange.
+
+jbang:
+  name: JBang
+  home: https://www.jbang.dev/
+  repo: https://github.com/jbangdev
+  logo: https://www.jbang.dev/assets/images/logo.png
+  wordmark: true
+  description: >
+    Unlock Java's scripting potential. JBang makes it easy to run Java applications as scripts
+    without the need for a project setup or build configuration. Ideal for quick experiments,
+    prototypes, or utility scripts.
+
+jreleaser:
+  name: JReleaser
+  home: https://jreleaser.org/
+  repo: https://github.com/jreleaser
+  logo: https://jreleaser.org/images/jreleaser-duke.png
+  wordmark: false
+  description: >
+    Automate your Java project releases with ease. JReleaser streamlines packaging and distribution
+    to multiple platforms, integrating with Maven, Gradle, and more. Simplify your release process,
+    from changelogs to deployment.
+
+morphia:
+  name: Morphia
+  home: https://morphia.dev/
+  repo: https://github.com/MorphiaOrg/
+  logo: https://github.com/MorphiaOrg/morphia-docs/blob/master/supplemental-ui/img/logo.png?raw=true
+  wordmark: false
+  description: >
+    Bridge the gap between Java and MongoDB. Morphia provides a lightweight type-safe mapping library
+    to simplify working with MongoDB documents using Java.
+
+openrewrite:
+  name: OpenRewrite
+  home: https://docs.openrewrite.org/
+  repo: https://github.com/openrewrite
+  logo: https://avatars.githubusercontent.com/u/61478321?s=200&v=4
+  wordmark: false
+  description: >
+    Automate the refactoring of your Java codebase. OpenRewrite offers scalable, safe, and idempotent
+    code transformations to modernize and maintain your applications.
+  draft: true
