@@ -3,8 +3,9 @@ name: Build PDF and publish to commonhaus.github.io
 on:
   pull_request:
   push:
-    branches:
-    - main
+    paths:
+      - 'bylaws/**'
+      - 'policies/**'
   workflow_dispatch:
 
 env:
@@ -16,28 +17,8 @@ permissions:
   contents: read
 
 jobs:
-  lint:
-    name: Check markdown links
-    runs-on: ubuntu-latest
-
-    steps:
-      - name: Checkout
-        uses: actions/checkout@v4
-
-      - name: Use Node.js
-        uses: actions/setup-node@v4
-        with:
-          node-version: '18.5'
-          cache: 'npm'
-
-      - name: Check markdown links
-        run: |
-          npm ci
-          npm run test
-
   package:
     name: Package PDFs
-    needs: lint
     runs-on: ubuntu-latest
     permissions:
       contents: write
@@ -78,7 +59,7 @@ jobs:
           path: output/public/*.pdf
 
       - name: Update snapshot tag
-        if: ${{ github.event_name == 'push' && github.repository == 'commonhaus/foundation' }}
+        if: ${{ github.event_name == 'push' && github.ref == 'refs/heads/main' && github.repository == 'commonhaus/foundation' }}
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         shell: bash
@@ -96,5 +77,5 @@ jobs:
 
           # These must be done separately to correctly toggle draft flag
           gh release edit SNAPSHOT -t "PDF snapshot" --prerelease
-          gh release edit SNAPSHOT --draft=false
           gh release view SNAPSHOT
+          gh release edit SNAPSHOT --draft=false

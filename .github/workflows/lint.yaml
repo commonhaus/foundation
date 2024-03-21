@@ -1,0 +1,33 @@
+name: Validate markdown and YAML
+
+on:
+  pull_request:
+  push:
+  workflow_dispatch:
+
+env:
+  GH_BOT_EMAIL: "41898282+github-actions[bot]@users.noreply.github.com"
+  GH_BOT_NAME: "GitHub Action"
+
+permissions:
+  contents: read
+
+jobs:
+  lint:
+    name: Check markdown links
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Use Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '18.5'
+          cache: 'npm'
+
+      - name: Check markdown links
+        run: |
+          npm ci
+          npm run test
