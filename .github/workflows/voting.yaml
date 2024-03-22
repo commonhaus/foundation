@@ -6,6 +6,7 @@ on:
   workflow_dispatch:
     inputs:
       comment_id:
+        description: "Comment id"
         type: string
         required: true
 
