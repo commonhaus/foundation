@@ -5,13 +5,13 @@ status: draft
 
 Thanks for considering a contribution to the Commonhaus Foundation (CF) repository. We value every contribution, whether it's a document edit or a major revision.
 
-## Quick Start
+## Quick start
 
 - **Discuss First**: For significant changes, start a GitHub discussion to establish consensus[^1]. For smaller edits, you can directly create a pull request (PR).
 
 - **Fork and Edit**: Fork the repository to your account, make your changes there.
 
-## Making Changes
+## Making changes
 
 - **Be Clear**: Ensure your contributions are direct and easy to understand.
 - **Remain Consistent**: Follow the existing format and structure of the documents.
@@ -36,17 +36,17 @@ Markdown content is converted into pdfs and is published on the website.
 
 [CONTACTS.yaml]: ./CONTACTS.yaml
 
-## Submitting Changes
+## Submitting changes
 
 - **Create a PR**: Submit your changes via a pull request from your fork. Check the automatic build for link or pdf generation errors.
 - **Wait for Review**: A code owner will review your PR and might ask for changes or clarifications.
 - **Respond to Feedback**: Address any feedback to get your PR approved and merged.
 
-## Legal Review
+## Legal review
 
 Some changes may need a legal review which may take some time.
 
-## Thank You
+## Thank you
 
 Every contribution matters. For any questions, feel free to reach out.
 

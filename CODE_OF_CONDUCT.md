@@ -5,7 +5,7 @@ status: draft
 
 We are committed to making participation in this foundation a harassment-free experience for everyone, based on respect and ethical conduct. For the complete Code of Conduct, see the [Commonhaus Foundation Code of Conduct](./policies/code-of-conduct.md).
 
-## Contact Information
+## Contact information
 
 If you need to report an issue or escalate a concern:
 
