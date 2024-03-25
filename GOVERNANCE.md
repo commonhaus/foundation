@@ -6,7 +6,7 @@ status: draft
 
 Welcome to the Commonhaus Foundation (CF), a nonprofit dedicated to nurturing open-source projects through collaborative innovation.
 
-## Governance Overview
+## Governance overview
 
 The Foundation operates in accordance with the [CF Bylaws][bylaws], which outline our operational principles and practices.
 
@@ -26,11 +26,11 @@ The [EGC][] is a joint body formed from members of the CFC and a representative 
 
 Organizations providing financial support to the CF appoint representatives to the [CF Advisory Board][cfab], which provides strategic guidance to the CFC.
 
-### Decision Making
+### Decision making
 
 Decisions at CF follow the Lazy Consensus model, ensuring every member has a say. For details, see [Decision Making][cf-decision-making].
 
-### Record Keeping
+### Record keeping
 
 The CF is committed to maintaining thorough and accessible records of its activities as documented in [Record Keeping][records].
 
@@ -38,7 +38,7 @@ The CF is committed to maintaining thorough and accessible records of its activi
 
 All participants in the project are expected to adhere to the project's [Code of Conduct][coc]. Please ensure you are familiar with its guidelines and expectations, as it's essential for maintaining a positive and collaborative environment.
 
-## Trademark Policy
+## Trademark policy
 
 CF logos, icons, and domain names are protected by trademark rights. Usage of these trademarks must adhere to our [Trademark Policy][].
 

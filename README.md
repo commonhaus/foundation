@@ -13,17 +13,17 @@ Inspired by the [The Codehaus][codehaus], CF offers a balanced approach to gover
 
 - **Streamlined access to funding**: As a fiscal host with connections to platforms like GitHub Sponsors and OpenCollective, CF simplifies the process of securing funding, providing your project with the resources it needs for sustainability and growth.
 
-## Core Focus and Vision
+## Core focus and vision
 
 CF's action-oriented approach prioritizes **Application Frameworks** and **Libraries** that are critical for developers. We support self-governing, code-centric projects, steering clear of specifications and standards debates to focus on tangible outcomes.
 
-## Community and Sponsorship
+## Community and sponsorship
 
 CF's doors are open to everyone passionate about open-source innovation. We invite all individuals, not just code contributors, to participate and help steer our projects. Our [Bylaws][] detail membership and governance, emphasizing collaboration, diverse perspectives, and advisory input from our [Advisory Board][cfab] to align sponsorship with community interests.
 
-## Get Involved
+## Get involved
 
-Advance open-source innovation and collaboration with us.
+Advance open-source innovation and collaboration [with us][community].
 
 Explore how to contribute through our [Code of Conduct](CODE_OF_CONDUCT.md), [Governance Bylaws][Bylaws], and [Policies][].
 
@@ -31,6 +31,7 @@ Explore how to contribute through our [Code of Conduct](CODE_OF_CONDUCT.md), [Go
 [Bylaws]: bylaws/0-preface.md
 [cfab]: bylaws/4-cf-advisory-board.md
 [Policies]: policies/README.md
+[community]: COMMUNICATION.md
 
 ---
 

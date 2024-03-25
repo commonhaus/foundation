@@ -22,10 +22,11 @@
       "replacement": "{{BASEURL}}/"
     }
   ],
-  "_aliveComment": "Some sites return 403 from GH Actions check",
+  "_aliveComment": "Some sites return 403 from GH Actions check; 400 from twitter (login redirect)",
   "aliveStatusCodes": [
     200,
     206,
+    400,
     403,
     429,
     500,
