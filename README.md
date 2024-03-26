@@ -1,4 +1,4 @@
-# ![ ](https://www.commonhaus.org/brand/png/CF_icon_default_32px.png) Commonhaus Foundation
+# <img src="https://www.commonhaus.org/images/CF_icon_default.svg" alt="" width="32" height="32"> Commonhaus Foundation
 
 The Commonhaus Foundation (CF) champions open-source innovation, focusing on the long-term growth and stability of  community-driven open-source projects.
 We empower contributors to drive the evolution of vital open-source libraries and frameworks through collaborative innovation.
