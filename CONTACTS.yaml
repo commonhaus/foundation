@@ -41,6 +41,8 @@ egc:
     login: jkschneider
   - project: jackson
     login: cowtowncoder
+    avatarAlt:  >-
+      https://raw.githubusercontent.com/FasterXML/jackson/master/images/cowtowncoder-2013-06-19.jpg
   - project: ...
     login: ...
 
