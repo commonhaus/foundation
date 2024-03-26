@@ -39,6 +39,8 @@ egc:
     login: evanchooly
   - project: openrewrite
     login: jkschneider
+  - project: jackson
+    login: cowtowncoder
   - project: ...
     login: ...
 
