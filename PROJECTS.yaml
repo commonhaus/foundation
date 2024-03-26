@@ -66,9 +66,8 @@ openrewrite:
   name: OpenRewrite
   home: https://docs.openrewrite.org/
   repo: https://github.com/openrewrite
-  logo: https://avatars.githubusercontent.com/u/61478321?s=200&v=4
+  logo: https://www.commonhaus.org/images/OpenRewrite_WordmarkTM_MidnightBlue.png
   wordmark: false
   description: >
     Automate the refactoring of your Java codebase. OpenRewrite offers scalable, safe, and idempotent
     code transformations to modernize and maintain your applications.
-  draft: true
