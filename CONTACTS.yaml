@@ -37,6 +37,8 @@ egc:
     login: aalmiray
   - project: morphia
     login: evanchooly
+  - project: jackson
+    login: cowtowncoder
   - project: ...
     login: ...
 
