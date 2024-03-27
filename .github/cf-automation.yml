@@ -28,7 +28,6 @@ notice:
           - edited
           - closed
         paths:
-          - agreements/*
           - bylaws/*
           - policies/*
         then: [label_notice]
@@ -47,7 +46,7 @@ notice:
 
 voting:
   error_email_address:
-    - test@commonhaus.org
+    - automation@commonhaus.org
   status:
     badge: https://www.commonhaus.org/votes/{{repoName}}/{{number}}.svg
     page: https://www.commonhaus.org/votes/{{repoName}}/{{number}}.html
