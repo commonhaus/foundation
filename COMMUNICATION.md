@@ -6,7 +6,7 @@ We rely on the contribution and participation of our members. Whether you're her
 
 - [**GitHub Discussions**](https://github.com/commonhaus/foundation/discussions): Share ideas, ask questions, and help shape the evolution of our collective effort.
 
-- [**Subscribe**](https://groups.google.com/a/commonhaus.org/g/announce) to our mailing list or use the [**RSS Feed**](https://www.commonhaus.org/feed/index.rss) to have foundation notices and updates delivered straight to your inbox or reader.
+- **Subscribe** to our [mailing list](https://groups.google.com/a/commonhaus.org/g/announce) or use the [RSS Feed](https://www.commonhaus.org/feed/index.rss) to have foundation notices and updates delivered straight to your inbox or reader.
 
 - **Follow** [@commonhaus_fdn on Mastodon](https://fosstodon.org/@commonhaus_fdn), [@commonhaus-fdn on Blue Sky](https://bsky.app/profile/commonhaus-fdn.bsky.social), or [@commonhaus_fdn on X](https://twitter.com/commonhaus_fdn) for updates and announcements.
 
@@ -14,8 +14,7 @@ We rely on the contribution and participation of our members. Whether you're her
 
 Chipping in is a simple way to show your support and help us grow.
 
-- [**GitHub Sponsors**](https://github.com/sponsors/commonhaus): Become a sponsor through GitHub Sponsors to directly support our efforts. This platform is our preferred method of support, ensuring a seamless and effective contribution process.
-    - **Discord Access**: Join our exclusive Discord server, a space for supporters and members to engage in meaningful discussions and collaborative projects.
+- [**GitHub Sponsors**](https://github.com/sponsors/commonhaus): Become a sponsor through GitHub Sponsors to directly support our efforts. This platform is our preferred method of support, ensuring a seamless and effective contribution process. Join our exclusive Discord server, a space for supporters and members to engage in meaningful discussions and collaborative projects.
 - [**OpenCollective**](https://opencollective.com/commonhaus-foundation): For transparency in how funds are utilized, Open Collective provides another way to support the foundation and its objectives.
 
 Your generosity plays a crucial role in our community's growth and the success of open-source projects we cherish.
