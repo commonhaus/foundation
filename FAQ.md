@@ -16,12 +16,12 @@ There are many critical application frameworks and libraries within the open sou
 The CF is a new option for projects to consider when looking for a foundation to call home,
 helping to strengthen the open source ecosystem as a whole by ensuring more projects are sustainable in the long term.
 
-Information covering benefits of the CF are in the [README](README.md):
+Information covering benefits of the CF are in the [README](https://github.com/commonhaus/foundation/blob/main/README.md):
 
-- [Core Distinctions of the CF](README.md#core-distinctions-of-cf)
-- [CF Guiding Principles](README.md#our-guiding-principles)
-- [Focus and Vision](README.md#cfs-focus-and-vision)
-- [Community and Sponsorship](README.md#community-and-sponsorship)
+- [Core Distinctions of the CF](https://github.com/commonhaus/foundation/blob/main/README.md#core-distinctions-of-cf)
+- [CF Guiding Principles](https://github.com/commonhaus/foundation/blob/main/README.md#our-guiding-principles)
+- [Focus and Vision](https://github.com/commonhaus/foundation/blob/main/README.md#core-focus-and-vision)
+- [Community and Sponsorship](https://github.com/commonhaus/foundation/blob/main/README.md#community-and-sponsorship)
 
 ## Why not the Apache Software Foundation?
 
@@ -34,7 +34,7 @@ For projects with well established infrastructure and processes, it might be pre
 Though the CF provides default processes for projects joining the foundation,
 they're not mandatory.
 
-All projects at the ASF must be licensed under a version of the Apache Software License (ASL).
+All projects at the ASF must be licensed under a version of the Apache Software License (Apache-2.0).
 At the CF, a wider choice of OSI approved licenses is welcome.
 
 ## Why not the Eclipse Foundation?
