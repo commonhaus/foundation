@@ -43,6 +43,8 @@ egc:
     login: cowtowncoder
     avatarAlt:  >-
       https://raw.githubusercontent.com/FasterXML/jackson/master/images/cowtowncoder-2013-06-19.jpg
+  - project: hibernate
+    login: gavinking
   - project: ...
     login: ...
 
