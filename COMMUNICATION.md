@@ -10,14 +10,16 @@ We rely on the contribution and participation of our members. Whether you're her
 
 - **Follow** [@commonhaus_fdn on Mastodon](https://fosstodon.org/@commonhaus_fdn), [@commonhaus-fdn on Blue Sky](https://bsky.app/profile/commonhaus-fdn.bsky.social), or [@commonhaus_fdn on X](https://twitter.com/commonhaus_fdn) for updates and announcements.
 
-## Treat your favorite projects to a fancy coffee
+## Boost our projects with a cup of coffee
 
-Chipping in is a simple way to show your support and help us grow.
+Every bit of support fuels sustainable growth for our open-source projects. A small contribution can make a big difference.
 
-- [**GitHub Sponsors**](https://github.com/sponsors/commonhaus): Become a sponsor through GitHub Sponsors to directly support our efforts. This platform is our preferred method of support, ensuring a seamless and effective contribution process. Join our exclusive Discord server, a space for supporters and members to engage in meaningful discussions and collaborative projects.
-- [**OpenCollective**](https://opencollective.com/commonhaus-foundation): For transparency in how funds are utilized, Open Collective provides another way to support the foundation and its objectives.
+<a href="https://github.com/sponsors/commonhaus" class="text button">Become a Sponsor</a>
 
-Your generosity plays a crucial role in our community's growth and the success of open-source projects we cherish.
+- [**GitHub Sponsors**](https://github.com/sponsors/commonhaus): Your sponsorship on GitHub directly supports our initiatives, making a tangible impact on our work.
+- [**OpenCollective**](https://opencollective.com/commonhaus-foundation): We use OpenCollective to provide transparency in how funds are utilized. It provides another way to support the foundation and its objectives.
+
+Contributions of any size are invaluable. As a thank you, sponsors gain access to our exclusive Discord server—a community space for engaging with fellow supporters and our foundation team.
 
 ## Become a Member
 
