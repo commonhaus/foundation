@@ -1,0 +1,30 @@
+body:
+  - type: markdown
+    attributes:
+      value: |
+        > [!NOTE]
+        > Have a look at current discussions to see if anyone else has mentioned your project.
+  - type: textarea
+    attributes:
+      label: Project information
+      description: |
+        Share some basic information about this project
+      value: |
+        - **Project name**:
+        - **Project website**:
+        - **Code repository**:
+        - **License**:
+
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Describe your project
+      description: |
+        Be descriptive but concise.
+        - What language is it written in?
+        - What does it do?
+        - How is it affiliated with or related to open source?
+      placeholder: "I think <Project Name> would be a good candidate for Commonhaus because <reasons>."
+    validations:
+      required: true
