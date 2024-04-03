@@ -16,26 +16,18 @@ There are many critical application frameworks and libraries within the open sou
 The CF is a new option for projects to consider when looking for a foundation to call home,
 helping to strengthen the open source ecosystem as a whole by ensuring more projects are sustainable in the long term.
 
-Information covering benefits of the CF are in the [README](https://github.com/commonhaus/foundation/blob/main/README.md):
+Read more [About us](https://www.commonhaus.org/about/).
 
-- [Core Distinctions of the CF](https://github.com/commonhaus/foundation/blob/main/README.md#core-distinctions-of-cf)
-- [CF Guiding Principles](https://github.com/commonhaus/foundation/blob/main/README.md#our-guiding-principles)
-- [Focus and Vision](https://github.com/commonhaus/foundation/blob/main/README.md#core-focus-and-vision)
-- [Community and Sponsorship](https://github.com/commonhaus/foundation/blob/main/README.md#community-and-sponsorship)
+- [What sets Commonhaus apart](https://www.commonhaus.org/#what-sets-commonhaus-apart)
+- [Our guiding principles](https://www.commonhaus.org/about/#our-guiding-principles)
+- [Our mission, vision and focus](https://www.commonhaus.org/about/#our-mission,-vision-and-focus)
+- [Community and sponsorship](https://www.commonhaus.org/about/#community-and-sponsorship)
 
 ## Why not the Apache Software Foundation?
 
-The Apache Software Foundation (ASF) has a long standing tradition of being a home for open source projects of all types,
-and continues to be a great home for many.
-As part of a project joining the ASF, it is required to run on the infrastructure that is provided for projects, including mailing lists,
-and adhere to its processes.
+The Apache Software Foundation (ASF) is renowned for its support of a diverse range of open-source projects, offering a structured environment with specific infrastructure requirements, including mailing lists, and a governance model centered around the Apache Software License (Apache-2.0).  While ASF provides a robust framework for project development, projects with established infrastructures and governance models might seek to retain their existing systems.
 
-For projects with well established infrastructure and processes, it might be preferable for these to remain unchanged when joining a foundation.
-Though the CF provides default processes for projects joining the foundation,
-they're not mandatory.
-
-All projects at the ASF must be licensed under a version of the Apache Software License (Apache-2.0).
-At the CF, a wider choice of OSI approved licenses is welcome.
+The CF respects the autonomy of projects, allowing them to maintain their current infrastructure and processes upon joining. We offer flexibility in licensing, supporting a broader array of OSI-approved licenses beyond the Apache-2.0.
 
 ## Why not the Eclipse Foundation?
 
@@ -44,24 +36,21 @@ In addition to open source projects, the EF oversees specification projects, par
 A key requirement for projects joining the EF is naming a project with the prefix _Eclipse_,
 to reinforce brand recognition.
 
-At the CF we strive to increase the brand of the project foremost, and the foundation secondarily.
-The CF does not require project name changes when joining.
+At Commonhaus Foundation, we prioritize the project's brand and its community, offering a collaborative environment without mandating changes to project names or aligning strictly with our branding. While supportive of projects that implement or are based on standards, the Commonhaus Foundation does not direct its focus towards the oversight of standards or specifications development, leaving projects free to navigate these aspects as they see fit.
 
-Open source projects at the CF may implement standards or specifications defined by other organizations,
-such as the EF, but the CF will not oversee projects developing standards or specifications.
-That is not where the CF will focus its efforts.
+## Facilitating collaborative progress
+
+Both the Apache and Eclipse Foundations offer vital structural supports where competing interests need to be navigated with care.
+
+At Commonhaus, we see our role as facilitators of a different sort of consensus-building—one that encourages projects to agree on how to collaborate and move forward together, without requiring a predefined structure.
+We believe this approach nurtures a sense of ownership and commitment among all project stakeholders.
 
 ## Why not the Linux Foundation?
 
-The Linux Foundation (LF) has many open source projects, including the Linux kernel itself.
-Though the LF is a _neutral home_ for open source projects,
-any project joining the LF is a very small part of a much larger organization.
-So much so, the LF itself consists of other foundations,
-such as the OpenJS Foundation, the Cloud Native Computing Foundation (CNCF), the CD Foundation, and LF Networking.
+The Linux Foundation (LF) is a respected home for thousands of open-source projects, whether as part of its broader umbrella for unfunded projects or within its various sub-foundations (each with its own set of benefits and governance structures). LF Projects have the opportunity to operate with a significant degree of independence, especially as unfunded initiatives, though they may receive fewer direct benefits compared to those in sub-foundations.
 
-The CF strives to take a more focused approach to open source projects,
-housing projects with a shared/common interest around a domain.
+Like the Linux Foundation, the Commonhaus Foundation aims to be a welcoming home for open-source projects, offering an alternative for those seeking a community with shared interests and a more tailored support structure. We provide a space for projects that value a smaller, more focused community engagement, highlighting our belief in fitting the foundation's support to the project's needs.
 
 ## Are there any criteria for open source technologies/specifications or programming languages used by projects under the CF?
 
-There are no restrictions on the programming languages, technologies and/or specifications that your project uses to be part of the CF. For more information on [how to become a member](./bylaws/2-cf-membership.md).
+There are no restrictions on the programming languages, technologies and/or specifications that your project uses to be part of the CF. If you think your project is a good fit for Commonhaus, [start a discussion](https://github.com/commonhaus/foundation/discussions/categories/joining-commonhaus).

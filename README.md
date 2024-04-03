@@ -13,17 +13,21 @@ Inspired by the [The Codehaus][codehaus], CF offers a balanced approach to gover
 
 - **Streamlined access to funding**: As a fiscal host with connections to platforms like GitHub Sponsors and OpenCollective, CF simplifies the process of securing funding, providing your project with the resources it needs for sustainability and growth.
 
-## Core focus and vision
+## Our mission, vision and focus
 
-CF's action-oriented approach prioritizes **Application Frameworks** and **Libraries** that are critical for developers. We support self-governing, code-centric projects, steering clear of specifications and standards debates to focus on tangible outcomes.
+We want to empower a diverse community of developers, contributors, and users to create, maintain, and evolve open-source libraries and frameworks, ensuring long-term growth and stability through shared stewardship and community collaboration.
+
+We envision a welcoming ecosystem where open-source projects grow through collaboration and mutual support, simplifying participation for all by moving beyond conventional governance hurdles.
+
+We prioritize **Application Frameworks** and **Libraries** that are critical for developers. We support self-governing, code-centric projects, steering clear of specifications and standards debates to focus on tangible outcomes.
 
 ## Community and sponsorship
 
-CF's doors are open to everyone passionate about open-source innovation. We invite all individuals, not just code contributors, to participate and help steer our projects. Our [Bylaws][] detail membership and governance, emphasizing collaboration, diverse perspectives, and advisory input from our [Advisory Board][cfab] to align sponsorship with community interests.
+Our doors are open to everyone passionate about open-source innovation. We invite all individuals, not just code contributors, to participate and help shape our organization. Our [Bylaws][] detail membership and governance, emphasizing collaboration, diverse perspectives, and advisory input from our [Advisory Board][cfab] to align sponsorship with community interests.
 
 ## Get involved
 
-Advance open-source innovation and collaboration [with us][community].
+[Build with us][community].
 
 Explore how to contribute through our [Code of Conduct](CODE_OF_CONDUCT.md), [Governance Bylaws][Bylaws], and [Policies][].
 
