@@ -2,8 +2,12 @@ name: Build PDF and publish to commonhaus.github.io
 
 on:
   pull_request:
+    paths:
+      - 'bylaws/**'
+      - 'policies/**'
   push:
     paths:
+      - 'agreements/**'
       - 'bylaws/**'
       - 'policies/**'
   workflow_dispatch:
