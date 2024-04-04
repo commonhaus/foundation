@@ -42,8 +42,7 @@ At Commonhaus Foundation, we prioritize the project's brand and its community, o
 
 Both the Apache and Eclipse Foundations offer vital structural supports where competing interests need to be navigated with care.
 
-At Commonhaus, we see our role as facilitators of a different sort of consensus-building—one that encourages projects to agree on how to collaborate and move forward together, without requiring a predefined structure.
-We believe this approach nurtures a sense of ownership and commitment among all project stakeholders.
+At Commonhaus, we see our role as facilitators of a different sort of consensus-building—one that encourages projects to agree on how to collaborate and move forward together, without requiring an externally-imposed structure.
 
 ## Why not the Linux Foundation?
 

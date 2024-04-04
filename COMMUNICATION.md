@@ -8,18 +8,18 @@ We rely on the contribution and participation of our members. Whether you're her
 
 - **Subscribe** to our [mailing list](https://groups.google.com/a/commonhaus.org/g/announce) or use the [RSS Feed](https://www.commonhaus.org/feed/index.rss) to have foundation notices and updates delivered straight to your inbox or reader.
 
-- **Follow** [@commonhaus_fdn on Mastodon](https://fosstodon.org/@commonhaus_fdn), [@commonhaus-fdn on Blue Sky](https://bsky.app/profile/commonhaus-fdn.bsky.social), or [@commonhaus_fdn on X](https://twitter.com/commonhaus_fdn) for updates and announcements.
+- **Follow** [@commonhaus_fdn on Mastodon](https://fosstodon.org/@commonhaus_fdn), [@commonhaus-fdn on Blue Sky](https://bsky.app/profile/commonhaus-fdn.bsky.social), or [@commonhaus_fdn on X](https://twitter.com/commonhaus_fdn) for updates and announcements. We're also on [Linked.in](https://www.linkedin.com/company/commonhaus-foundation/).
 
-## Boost our projects with a cup of coffee
+## Support our efforts
 
-Every bit of support fuels sustainable growth for our open-source projects. A small contribution can make a big difference.
+Every contribution powers the sustainable growth of our open-source projects. Even a small contribution can have a significant impact.
 
 <a href="https://github.com/sponsors/commonhaus" class="text button">Become a Sponsor</a>
 
 - [**GitHub Sponsors**](https://github.com/sponsors/commonhaus): Your sponsorship on GitHub directly supports our initiatives, making a tangible impact on our work.
 - [**OpenCollective**](https://opencollective.com/commonhaus-foundation): We use OpenCollective to provide transparency in how funds are utilized. It provides another way to support the foundation and its objectives.
 
-Contributions of any size are invaluable. As a thank you, sponsors gain access to our exclusive Discord server—a community space for engaging with fellow supporters and our foundation team.
+Every contribution, regardless of size, is deeply appreciated. To express our gratitude, sponsors are granted access to our exclusive Discord server—a community space for engaging with fellow supporters and our team.
 
 ## Become a Member
 
