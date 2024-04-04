@@ -27,7 +27,7 @@ Every contribution, regardless of size, is deeply appreciated. To express our gr
 
 By becoming a member, you're not just supporting us financially; you're joining a community of individuals dedicated to the sustainable development of open-source projects. Members can hold CF offices, vote in Foundation elections, and influence our strategic direction. They also can show off their support with a `@commonhaus.dev` email address.
 
-- **How to Join**: Membership is initiated through [**sponsorhip** (GitHub)](https://github.com/sponsors/commonhaus) and participation.
+- **How to Join**: Membership is initiated through [**sponsorship** (GitHub)](https://github.com/sponsors/commonhaus) and participation.
 
 Your voice and vote as a member play a vital role in our collective success. We welcome all who wish to contribute to our mission and share in our achievements.
 
