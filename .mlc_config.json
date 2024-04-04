@@ -32,7 +32,12 @@
     500,
     503
   ],
-  "httpHeaders": {
-    "User-Agent": "Mozilla/5.0 (Windows; U; Windows NT 5.1; de; rv:1.9.2.3) Gecko/20100401 Firefox/3.6.3"
-  }
+  "httpHeaders": [
+    {
+      "urls": ["https://www.linkedin.com/company/commonhaus-foundation/"],
+      "headers": {
+        "User-Agent": "Mozilla/5.0 (Windows; U; Windows NT 5.1; de; rv:1.9.2.3) Gecko/20100401 Firefox/3.6.3"
+      }
+    }
+  ]
 }
