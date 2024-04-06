@@ -15,8 +15,8 @@ for future generations of developers and businesses.
 
 ## What led to the creation of the Commonhaus Foundation?
 
-The Commonhaus Foundation was inspired by recognizing specific unmet needs within the open source community.
-Especially for self-governing and code-centric open source projects.
+The Commonhaus Foundation was inspired by recognizing specific unmet needs within the open source community,
+especially for self-governing and code-centric open source projects.
 While many foundations offer comprehensive support, their processes do not align with all projects,
 particularly those that are more mature.
 Not every foundation is the right fit for every project.
