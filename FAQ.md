@@ -108,7 +108,7 @@ to reinforce brand recognition.
 
 At Commonhaus Foundation, we prioritize the project's brand and its community,
 offering a collaborative environment without mandating changes to project names
-or aligning strictly with our branding.
+or strict alignment with foundation branding.
 While supportive of projects that implement or are based on standards,
 the Commonhaus Foundation does not direct its focus towards the oversight
 of standards or specifications development,
