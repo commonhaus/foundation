@@ -100,7 +100,7 @@ supporting a broader array of OSI-approved licenses beyond the Apache-2.0.
 ## Why not the Eclipse Foundation?
 
 The Eclipse Foundation (EF) has been around almost as long as the ASF,
-and is home to many open source projects as well.
+and is also home to many open source projects.
 In addition to open source projects, the EF oversees specification projects,
 particularly in relation to JakartaEE.
 A key requirement for projects joining the EF is naming a project with the prefix _Eclipse_,
