@@ -84,7 +84,7 @@ It also supports a broader array of OSI-approved licenses.
 
 ## Why not the Apache Software Foundation?
 
-The Apache Software Foundation (ASF) is renowned for its support of a diverse range of open-source projects,
+The Apache Software Foundation (ASF) is renowned for its support of a diverse range of open source projects,
 offering a structured environment with specific infrastructure requirements,
 including mailing lists,
 and a governance model centered around the Apache Software License (Apache-2.0).
@@ -116,7 +116,7 @@ leaving projects free to navigate these aspects as they see fit.
 
 ## Why not the Linux Foundation?
 
-The Linux Foundation (LF) is a respected home for thousands of open-source projects,
+The Linux Foundation (LF) is a respected home for thousands of open source projects,
 whether as part of its broader umbrella for unfunded projects or within its various
 sub-foundations (each with its own set of benefits and governance structures).
 LF Projects have the opportunity to operate with a significant degree of independence,
@@ -124,7 +124,7 @@ especially as unfunded initiatives,
 though they may receive fewer direct benefits compared to those in sub-foundations.
 
 Like the Linux Foundation,
-the Commonhaus Foundation aims to be a welcoming home for open-source projects,
+the Commonhaus Foundation aims to be a welcoming home for open source projects,
 offering an alternative for those seeking a community with shared interests
 and a more tailored support structure.
 We provide a space for projects that value a smaller, more focused community engagement,

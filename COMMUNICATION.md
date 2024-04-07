@@ -1,6 +1,6 @@
 # Join Our Community
 
-We rely on the contribution and participation of our members. Whether you're here to contribute code, share knowledge, or simply support the continued development of our open-source projects, our community spaces welcome everyone ready to make a positive impact.
+We rely on the contribution and participation of our members. Whether you're here to contribute code, share knowledge, or simply support the continued development of our open source projects, our community spaces welcome everyone ready to make a positive impact.
 
 ## Engage, learn, and share
 
@@ -12,7 +12,7 @@ We rely on the contribution and participation of our members. Whether you're her
 
 ## Support our efforts
 
-Every contribution powers the sustainable growth of our open-source projects. Even a small contribution can have a significant impact.
+Every contribution powers the sustainable growth of our open source projects. Even a small contribution can have a significant impact.
 
 <a href="https://github.com/sponsors/commonhaus" class="text button">Become a Sponsor</a>
 
@@ -25,7 +25,7 @@ Every contribution, regardless of size, is deeply appreciated. To express our gr
 
 [Membership](./bylaws/2-cf-membership.md) at the Commonhaus Foundation opens the door to active participation in shaping our future.
 
-By becoming a member, you're not just supporting us financially; you're joining a community of individuals dedicated to the sustainable development of open-source projects. Members can hold CF offices, vote in Foundation elections, and influence our strategic direction. They also can show off their support with a `@commonhaus.dev` email address.
+By becoming a member, you're not just supporting us financially; you're joining a community of individuals dedicated to the sustainable development of open source projects. Members can hold CF offices, vote in Foundation elections, and influence our strategic direction. They also can show off their support with a `@commonhaus.dev` email address.
 
 - **How to Join**: Membership is initiated through [**sponsorship** (GitHub)](https://github.com/sponsors/commonhaus) and participation.
 

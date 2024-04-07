@@ -4,7 +4,7 @@ weight: 2
 ---
 # Membership
 
-The Commonhaus Foundation (CF) is a membership organization. Your involvement in the CF, whether as a project representative or a general member, shapes the future of open-source innovation. We value each contribution and encourage active participation in our diverse and vibrant community.
+The Commonhaus Foundation (CF) is a membership organization. Your involvement in the CF, whether as a project representative or a general member, shapes the future of open source innovation. We value each contribution and encourage active participation in our diverse and vibrant community.
 
 The following section outlines the different types of membership and the process for becoming a member.
 
@@ -18,7 +18,7 @@ The following section outlines the different types of membership and the process
 
 ## Projects
 
-A **project** within the CF represents collaborative innovation in open-source technology. These projects are dynamic collectives of individual contributors, functioning as self-organizing units rather than formal legal entities.[^1]
+A **project** within the CF represents collaborative innovation in open source technology. These projects are dynamic collectives of individual contributors, functioning as self-organizing units rather than formal legal entities.[^1]
 
 **Flexible and Inclusive Structure:** Projects can vary in size and scope, ranging from individual repositories to entire collections of repositories. Whether it's a single focused effort or a collection of related initiatives, each project is defined by common goals and shared assets, including code, trademarks, and domains.
 

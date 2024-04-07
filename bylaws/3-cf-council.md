@@ -33,7 +33,7 @@ An up-to-date list of Councilors will be maintained in the `cf-council` [CONTACT
 
 **Structure:** The CFC is composed of a minimum of 3 elected Councilors: 1 [CFC Chairperson](#cfc-chairperson) and at least 2 members-at-large.
 
-**Selection and Elections:** The selection process for Councilors is designed to reflect the diversity of the open-source community.
+**Selection and Elections:** The selection process for Councilors is designed to reflect the diversity of the open source community.
 
 - Any member that has been active within the CF community for at least six months can run or be nominated.
 - Every active member is entitled to one vote in annual [elections][].
