@@ -10,9 +10,9 @@ All new inbound code contributions to individual Projects are made pursuant to t
 ## License Selection and Usage
 
 > [!TIP]
-> CF supports a wide range of open-source licenses to ensure projects can choose what's best for them. We’ll check these licenses, including for any software they rely on, to make sure everything works together without legal issues.
+> CF supports a wide range of open source licenses to ensure projects can choose what's best for them. We’ll check these licenses, including for any software they rely on, to make sure everything works together without legal issues.
 
-CF projects can use any [open-source license approved by the Open Source Initiative](https://opensource.org/licenses/) (OSI).
+CF projects can use any [open source license approved by the Open Source Initiative](https://opensource.org/licenses/) (OSI).
 
 The CF will review Project Code Licenses and the licenses of its dependencies to ensure that all components of the project are compatible under the chosen license and do not introduce legal conflicts or restrictions that could affect the Project's or Foundation's operation.
 
@@ -70,12 +70,12 @@ Project leaders should ensure compliance with this policy and provide clear guid
 ## Collaborations and External Projects
 
 > [!TIP]
-> Always check and follow the license rules of any external open-source projects we interact with.
+> Always check and follow the license rules of any external open source projects we interact with.
 > If an upstream project uses a non-OSI license, the [CF Council (CFC)][cfc] can approve exceptions if needed.
 
-Engaging with external open-source projects requires awareness and respect for their licensing terms to ensure our contributions are legally compatible. This ensures our projects can seamlessly integrate or collaborate with these external projects without infringing on their or our license terms.
+Engaging with external open source projects requires awareness and respect for their licensing terms to ensure our contributions are legally compatible. This ensures our projects can seamlessly integrate or collaborate with these external projects without infringing on their or our license terms.
 
-When collaborating with external open-source projects ("Upstream Projects") conform to all license requirements of the Upstream Projects, including dependencies, leveraged by the Project. If an alternative inbound or outbound license is required for compliance with the license for an Upstream Project or is otherwise required to achieve the Commonhaus Foundation’s, or an individual Project’s, objectives, the CFC may approve the use of an alternative license for inbound or outbound contributions on an exception basis.
+When collaborating with external open source projects ("Upstream Projects") conform to all license requirements of the Upstream Projects, including dependencies, leveraged by the Project. If an alternative inbound or outbound license is required for compliance with the license for an Upstream Project or is otherwise required to achieve the Commonhaus Foundation’s, or an individual Project’s, objectives, the CFC may approve the use of an alternative license for inbound or outbound contributions on an exception basis.
 
 ### Copyright Statements
 

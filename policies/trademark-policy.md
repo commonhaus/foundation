@@ -3,7 +3,7 @@ status: draft
 ---
 # Trademark Policy
 
-This document provides guidelines for the use of the Commonhaus Foundation's (CF) trademarks, ensuring they are used in a manner that promotes our open-source projects while maintaining their integrity and value.
+This document provides guidelines for the use of the Commonhaus Foundation's (CF) trademarks, ensuring they are used in a manner that promotes our open source projects while maintaining their integrity and value.
 
 Our trademarks, including the Commonhaus Foundation name, logo, and any project names, represent the quality and reliability our community has come to expect.
 If you have any questions or need further clarification, please [contact us](#contact-and-further-information).

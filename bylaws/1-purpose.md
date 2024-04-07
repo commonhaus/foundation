@@ -4,11 +4,11 @@ weight: 1
 ---
 # Purpose and Non-profit Status
 
-The Commonhaus Foundation (CF) is dedicated to open-source innovation and collaboration. Our nonprofit purposes are to:
+The Commonhaus Foundation (CF) is dedicated to open source innovation and collaboration. Our nonprofit purposes are to:
 
 1. Serve the community by facilitating collaboration between creators and consumers of CF projects.
-2. Empower a diverse community of contributors to create, maintain, enhance, and secure vital open-source libraries and frameworks.
-3. Foster and support the longevity of open-source projects through community collaboration and shared stewardship.
+2. Empower a diverse community of contributors to create, maintain, enhance, and secure vital open source libraries and frameworks.
+3. Foster and support the longevity of open source projects through community collaboration and shared stewardship.
 4. Promote the exchange of ideas and information within the technology community.
 5. Support the common interests of businesses and professionals to improve the economic climate and business development of commercial enterprises in the technology sector.
 

@@ -4,14 +4,14 @@ weight: 0
 ---
 # Preface
 
-Welcome to the Commonhaus Foundation (CF), a collective dedicated to nurturing open-source projects through collaboration and innovation. These bylaws provide a detailed guide to our governance structure and outline your role within our community.
+Welcome to the Commonhaus Foundation (CF), a collective dedicated to nurturing open source projects through collaboration and innovation. These bylaws provide a detailed guide to our governance structure and outline your role within our community.
 
 ## Key Terms
 
 - **[CF Council (CFC)][cfc]**: Governs CF operations and strategic direction.
 - **[CF Advisory Board][cfab]**: Comprises representatives from organizations providing financial support to the CF. They provide strategic insight to the CFC.
 - **[General Members][membership]**: Individuals supporting CF’s mission. Members in good standing participate in CF activities and vote in elections.
-- **[Projects][project]**: Collaborative open-source initiatives under CF, including assets like code, trademarks, and domains.
+- **[Projects][project]**: Collaborative open source initiatives under CF, including assets like code, trademarks, and domains.
     - **[Code Owners][plco]**: Maintain the quality and consistency of project code.
     - **[Project Leaders][plco]**: Guide project governance and decision-making. Along with the CFC, they form the [**Extended Governance Committee (EGC)**][egc] for critical decisions like bylaw amendments.
 

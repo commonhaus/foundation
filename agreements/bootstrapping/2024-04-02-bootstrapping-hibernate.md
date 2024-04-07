@@ -6,7 +6,7 @@ status: draft
 - Project: hibernate / Hibernate
 - EGC representative: gavinking
 
-This document outlines the preliminary, non-binding agreement for the establishment phase of the Commonhaus Foundation (CF), aiming to foster a collaborative community dedicated to open-source projects.
+This document outlines the preliminary, non-binding agreement for the establishment phase of the Commonhaus Foundation (CF), aiming to foster a collaborative community dedicated to open source projects.
 
 - [EGC Quorum Establishment](#egc-quorum-establishment)
 - [Preliminary Commitment](#preliminary-commitment)

@@ -6,7 +6,7 @@ weight: 7
 
 The Commonhaus Foundation (CF) is committed to protecting its team—councilors, officers, employees, and agents—against legal expenses and liabilities they might face while performing their duties in good faith for the Foundation. In simple terms, if individuals are acting with the Foundation's best interests in mind and within the bounds of the law, the Foundation aims to support them.
 
-Below are the detailed policies that outline this support, including the circumstances under which it applies, the process for claiming indemnification, and the Foundation’s rights to procure insurance for further protection. Additionally, the Foundation's approach to dissolution is outlined, ensuring any remaining assets are used to further open-source projects in alignment with our mission.
+Below are the detailed policies that outline this support, including the circumstances under which it applies, the process for claiming indemnification, and the Foundation’s rights to procure insurance for further protection. Additionally, the Foundation's approach to dissolution is outlined, ensuring any remaining assets are used to further open source projects in alignment with our mission.
 
 - [Insurance](#insurance)
 - [Indemnification](#indemnification)
@@ -86,7 +86,7 @@ Relevant Florida Statutes:
 
 ## Dissolution and Asset Distribution
 
-In the unfortunate event that the Commonhaus Foundation must dissolve, we commit to a responsible and lawful closure process, prioritizing the continuity and integrity of our open-source projects.
+In the unfortunate event that the Commonhaus Foundation must dissolve, we commit to a responsible and lawful closure process, prioritizing the continuity and integrity of our open source projects.
 Given that CF projects represent collaborative effort of individual contributors, the dissolution process will respect the unique structure and community-driven nature of each project.
 
 Relevant Florida Statutes:
