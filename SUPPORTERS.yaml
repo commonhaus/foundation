@@ -76,3 +76,8 @@ supporters:
   github:  evanchooly
 - name: Cesar Saavedra
   github: cealsair
+- name: John Burns
+  github: wakingrufus
+  social:
+    mastodon: "@wakingrufus@bigshoulders.city"
+    linkedin: wakingrufus
