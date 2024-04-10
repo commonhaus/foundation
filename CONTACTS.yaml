@@ -18,6 +18,7 @@ cf-council:
     role: Chair
   - login: kenfinnigan
     term-start: 2023
+    bio: Open source engineer, observability, OpenTelemetry, author, amateur genealogist. Currently lumigo.io
   - ...
   - ...
 
