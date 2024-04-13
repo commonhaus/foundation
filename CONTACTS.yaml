@@ -39,7 +39,7 @@ egc:
   - project: morphia
     login: evanchooly
   - project: openrewrite
-    login: jkschneider
+    login: timtebeek
   - project: jackson
     login: cowtowncoder
     avatarAlt:  >-
