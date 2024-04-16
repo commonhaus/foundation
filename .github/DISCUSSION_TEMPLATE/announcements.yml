@@ -13,3 +13,10 @@ body:
       placeholder: "The next CFC Meeting will be on on Wed, 22 December 2030.\n\nAgenda: ..."
     validations:
       required: true
+  - type: input
+    id: description
+    attributes:
+      label: SEO description (200 chars or less)
+      description: Replace "..." with description/summary in 200 chars or less
+      value: |
+        <!-- meta::description ... -->
