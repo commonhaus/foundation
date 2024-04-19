@@ -2,9 +2,12 @@
 # the repo. Unless a later match takes precedence,
 # these folks get the review request when someone opens
 # a pull request.
-*           @commonhaus/cf-ops
+*             @commonhaus/cf-ops
 
-*.md        @commonhaus/founders
-bylaws/*    @commonhaus/founders
-policies/*  @commonhaus/founders
-templates/* @commonhaus/founders
+*.md          @commonhaus/cf-egc
+agreements/*  @commonhaus/cf-council
+bylaws/*      @commonhaus/cf-egc
+policies/*    @commonhaus/cf-egc
+templates/*   @commonhaus/cf-egc
+CONTACTS.yaml @commonhaus/cf-council
+PROJECTS.yaml @commonhaus/cf-council
