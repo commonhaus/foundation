@@ -1,7 +1,3 @@
----
-status: draft
-weight: 0
----
 # Preface
 
 Welcome to the Commonhaus Foundation (CF), a collective dedicated to nurturing open source projects through collaboration and innovation. These bylaws provide a detailed guide to our governance structure and outline your role within our community.

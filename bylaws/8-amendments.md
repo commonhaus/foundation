@@ -1,7 +1,3 @@
----
-status: draft
-weight: 8
----
 # Amendments to CF Bylaws and Policies
 
 Amendments and changes to CF Bylaws and Policies are proposed, reviewed, and approved using the following process.
