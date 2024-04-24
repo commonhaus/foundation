@@ -4,7 +4,7 @@
     "linksv": "find . -name '*.md' ! -path './node*' ! -path './output*' -print0 | xargs -0 npx markdown-link-check --config .mlc_config.json",
     "test": "npm run links && npm run yaml && npm run lint",
     "tv": "npm run linksv && npm run yaml && npm run lint",
-    "lint": "npx markdownlint-cli2 \"**/*.md\" \"#node_modules\" \"#output\" \"#elections\" \"#agreements\"",
+    "lint": "npx markdownlint-cli2 \"**/*.md\" \"#node_modules\" \"#output\" \"#elections\" \"#agreements\" \"#.github\"",
     "yaml": "node .github/validate.js ./SUPPORTERS.yaml ./CONTACTS.yaml"
   },
   "devDependencies": {
