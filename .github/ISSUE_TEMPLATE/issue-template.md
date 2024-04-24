@@ -1,6 +1,6 @@
 ---
 name: Issue template
-about: Issues are not typically used for foundation issues
+about: The foundation repo does not use issues
 title: ''
 labels: ''
 assignees: ''
