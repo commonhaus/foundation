@@ -45,6 +45,8 @@ notice:
       - cf-council@commonhaus.org
 
 voting:
+  exclude_login:
+    - commonhaus-bot
   error_email_address:
     - automation@commonhaus.org
   status:
