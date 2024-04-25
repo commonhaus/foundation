@@ -33,10 +33,10 @@ Your voice and vote as a member play a vital role in our collective success. We 
 
 ## Contact us
 
-We’d love to hear from you! Whether you have questions, suggestions, or just want to say hello, please contact us through our online form. Your input is valuable to us, and we're here to listen and respond to your community-related inquiries.
+We’d love to hear from you! Whether you have questions, suggestions, or just want to say hello, please contact us: start a GitHub Discussion or [use our online form](https://forms.gle/t2d4DR6CxXSag26s5). Your input is valuable to us, and we're here to listen and respond to your community-related inquiries.
 
-## Building together
+## Let's build together
 
-Our community is our strength, and your participation enriches our collective endeavor. Each platform offers a unique way to connect, contribute, and collaborate. Whether it's through code, conversation, or cheerleading, your involvement makes a difference.
+Our community is our strength, and your participation enriches our collective endeavor. Whether it's through code, conversation, or cheerleading, your involvement makes a difference.
 
-Looking forward to seeing you in one (or more!) of our community spaces.
+Looking forward to seeing you in one (or more!) of our community spaces. 🥰 🚀

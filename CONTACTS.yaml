@@ -20,8 +20,6 @@ cf-council:
     term-start: 2023
     role: Secretary
     bio: Open source engineer, observability, OpenTelemetry, author, amateur genealogist. Currently lumigo.io
-  - ...
-  - ...
 
 #--------------------------------------------------------------------------
 # EGC Project Representatives (appointed by project governance process)
@@ -101,6 +99,6 @@ mailing-list:
   egc: cf-egc@commonhaus.org
   hello: hello@commonhaus.org
   legal: legal@commonhaus.org
+  media: media@commonhaus.org
   report: report@commonhaus.org
   trademarks: legal@commonhaus.org
-
