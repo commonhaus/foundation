@@ -33,7 +33,7 @@ Your voice and vote as a member play a vital role in our collective success. We 
 
 ## Contact us
 
-We’d love to hear from you! Whether you have questions, suggestions, or just want to say hello, please contact us: start a GitHub Discussion or [use our online form](https://forms.gle/t2d4DR6CxXSag26s5). Your input is valuable to us, and we're here to listen and respond to your community-related inquiries.
+We’d love to hear from you! Whether you have questions, suggestions, or just want to say hello, please contact us: [start a Discussion](https://github.com/commonhaus/foundation/discussions) or [use our online form](https://forms.gle/t2d4DR6CxXSag26s5). Your input is valuable to us, and we're here to listen and respond to your community-related inquiries.
 
 ## Let's build together
 
