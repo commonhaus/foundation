@@ -5,6 +5,7 @@
 # home: preferred landing page
 # repo: gitlab/github/... organization or project repository
 # logo: Link to preferred logo to use on commonhaus.org website
+# logo-dark: Link to preferred logo to use in dark mode (optional)
 # wordmark: true if the above logo also contains the project name
 # description: a short-ish description of the project
 #
@@ -67,6 +68,7 @@ openrewrite:
   home: https://docs.openrewrite.org/
   repo: https://github.com/openrewrite
   logo: https://www.commonhaus.org/images/OpenRewrite_WordmarkTM_MidnightBlue.png
+  logo-dark: https://www.commonhaus.org/images/OpenRewrite_WordmarkTM_White.png
   wordmark: false
   description: >
     Automate the refactoring of your Java codebase. OpenRewrite offers scalable, safe, and idempotent
