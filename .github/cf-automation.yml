@@ -14,7 +14,7 @@ notice:
         label:
           - notice
           - "vote/open"
-        then: [email_activity]
+        then: [announce]
       - # If the vote/done label is applied, remove the vote/open label
         action: [labeled]
         label: ["vote/done"]
@@ -32,17 +32,22 @@ notice:
           - policies/*
         then: [label_notice]
       - # If a pull request is labeled with notice,
-        # send an email to email_activity
+        # send an email to announce
         action: [labeled]
-        label: [notice]
-        then: [email_activity]
+        label:
+          - notice
+          - "vote/open"
+        then: [announce]
+      - # If the vote/done label is applied, remove the vote/open label
+        action: [labeled]
+        label: ["vote/done"]
+        then: [label_done]
   actions:
     label_notice: [notice]
     label_done: ["!vote/open"]
-    email_activity:
+    announce:
       address:
       - announce@commonhaus.org
-      - cf-council@commonhaus.org
 
 voting:
   exclude_login:
