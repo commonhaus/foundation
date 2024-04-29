@@ -1,15 +1,23 @@
 notice:
   discussion:
     rules:
-      - # If a discussion is created in the Announcements or Reviews
-        # category, apply the notice label
+      - # If a discussion is created in Announcements or Consensus Building
+        # and it already has the notice label, send an email
         category:
           - Announcements
           - Consensus Building
+        label: [notice]
+        action: [created]
+        then: [announce]
+      - # If a discussion is created in or moved to Announcements or Consensus Building
+        # and it does not have the notice label, apply the notice label
+        category:
+          - Announcements
+          - Consensus Building
+        label: ["!notice"]
         action: [created, category_changed]
-        then: [label_notice]
-      - # If the notice or vote/open label is applied,
-        # send email
+        then: [apply_notice]
+      - # If the notice or vote/open label is applied, send email
         action: [labeled]
         label:
           - notice
@@ -18,11 +26,11 @@ notice:
       - # If the vote/done label is applied, remove the vote/open label
         action: [labeled]
         label: ["vote/done"]
-        then: [label_done]
+        then: [remove_open]
   pull_request:
     rules:
       - # If a pull request modifies bylaws or policies
-        # apply the notice label
+        # and it does not have the notice label, apply the notice label
         action:
           - opened
           - edited
@@ -30,7 +38,8 @@ notice:
         paths:
           - bylaws/*
           - policies/*
-        then: [label_notice]
+        label: ["!notice"]
+        then: [apply_notice]
       - # If a pull request is labeled with notice,
         # send an email to announce
         action: [labeled]
@@ -41,10 +50,10 @@ notice:
       - # If the vote/done label is applied, remove the vote/open label
         action: [labeled]
         label: ["vote/done"]
-        then: [label_done]
+        then: [remove_open]
   actions:
-    label_notice: [notice]
-    label_done: ["!vote/open"]
+    apply_notice: [notice]
+    remove_open: ["!vote/open"]
     announce:
       address:
       - announce@commonhaus.org
