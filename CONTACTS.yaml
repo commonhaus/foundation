@@ -93,6 +93,7 @@ cocp-panel:
 #
 mailing-list:
   announce: announce@commonhaus.org
+  automation: automation@commonhaus.org
   brand: brand@commonhaus.org
   coc-escalation: coc-escalation@commonhaus.org
   council: cf-council@commonhaus.org
