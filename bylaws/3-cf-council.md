@@ -1,7 +1,3 @@
----
-status: draft
-weight: 3
----
 # Commonhaus Foundation Council and Offices
 
 The Commonhaus Foundation Council (CFC) serves as the Board of Directors for the Commonhaus Foundation (CF).
@@ -89,7 +85,7 @@ The Treasurer oversees the Foundation's financial management, including budgetin
 
 Expanding beyond the CFC, the Extended Governance Committee (EGC) plays a vital role in encompassing broader representation and decision-making within the CF.
 
-- **Composition:** The EGC includes every member of the CF Council and one nominated leader from each CF project.
+- **Composition:** The EGC includes every member of the CF Council and one nominated representative from each CF project.
 - **Role:** The EGC is responsible for making key decisions that have a [significant impact on the CF and its projects](#voting).
 
 This structure ensures a balanced representation, combining strategic oversight with project-specific insights.
@@ -143,13 +139,17 @@ Relevant Florida Statute(s):
 
 ## Electronic Participation and Decision-Making
 
-**Decision Making Outside Meetings:** The CFC can make decisions without physical meetings provided all Councilors give written consent. The CFC considers authenticated digital actions, such as comments and reactions on GitHub, as valid forms of written consent, equivalent to formal written agreements. Each decision made in this manner must be documented and ratified by all Councilors to ensure legal compliance and maintain transparency[^1].
+**Decision Making Outside Meetings:** The CFC can make decisions in lieu of meetings provided all Councilors give written consent.
+The CFC considers authenticated digital actions, such as comments and reactions on GitHub, as valid forms of written consent, equivalent to formal written agreements.
+Each decision made in this manner must be documented and ratified by all Councilors to ensure legal compliance and maintain transparency[^1].
 
 Relevant Florida Statute(s):
 
 - [617.0821](https://www.flsenate.gov/Laws/Statutes/2020/0617.0821) Action by directors without a meeting.
 
-[^1]: As an example, a GitHub Discussion for on a specific topic would require a reaction  (per our [decision-making process][consensus]) from all Councilors to allow a decision to be made outside of a meeting. The final decisions and actions taken should be summarized in the Discussion.
+[^1]: As an example, a GitHub Discussion for on a specific topic would require a reaction
+(per our [decision-making process][consensus]) from all Councilors to allow a decision to be made outside of a meeting.
+The final decisions and actions taken should be summarized in the Discussion.
 
 ## Voting
 
@@ -169,14 +169,14 @@ When consensus cannot be reached, voting is utilized to resolve differences.
 
 ### Matters approved by Supermajority Vote of the EGC
 
-- Amending the Articles of Incorporation or the Bylaws.
+- Amending the Articles of Incorporation, Bylaws, or Policies.
 - Changing the size of the CFC.
-- Modifying the rights of membership.
 - Final approval of a proposed merger or dissolution.
 - Suspending or revoking a project's membership.
 
 ### Matters approved by Supermajority Vote of the CFC
 
+- Modifying the rights of individual membership.
 - Suspending or revoking an individual's membership.
 - Hiring or terminating the Executive Director.
 - Draft proposal for merger or dissolution.
