@@ -66,7 +66,7 @@ function to_pdf_pattern() {
 }
 
 # Convert markdown to PDF with an appended changelog
-# to_pdf ./TRADEMARKS.md trademark-list "Commonhaus Foundation Trademark List"
+# to_pdf ./TRADEMARKS.md trademark-list ./ "Commonhaus Foundation Trademark List"
 function to_pdf() {
     if [[ ! -f "${1}" ]]; then
         echo "No source file found at ${1}"
@@ -76,9 +76,10 @@ function to_pdf() {
     shift
     local basename=${1}
     shift
+    local relative_path=${1}
+    shift
     local title=${1}
     shift
-    local relative_path=${1}
 
     local tmpout=output/tmp/${basename}
     mkdir -p "${tmpout}"
