@@ -33,6 +33,20 @@ local function replace_mailing_list(el)
     return el
 end
 
+local function resolvePath(path)
+    local parts = {}
+    for part in string.gmatch(path, '([^/]+)') do
+        if part == '..' then
+            if #parts ~= 0 then
+                table.remove(parts)
+            end
+        else
+            table.insert(parts, part)
+        end
+    end
+    return table.concat(parts, '/')
+end
+
 local function Link(el)
     if string.match(el.target, "CONTACTS.yaml") then
         el = replace_mailing_list(el)
@@ -44,11 +58,14 @@ local function Link(el)
 
     -- Access the variables
     local githubUrl = tostring(PANDOC_WRITER_OPTIONS.variables["github"] or "")
+    local dirname = tostring(PANDOC_WRITER_OPTIONS.variables["dirname"] or "")
 
     -- Check if the link is a relative URL...
     if string.match(el.target, "^%.%./") then
         -- Modify the link target
-        local modifiedTarget, _ = string.gsub(el.target, "^%.%./", githubUrl)
+        local relativePath = pandoc.path.normalize(dirname .. "/" .. el.target)
+        relativePath = resolvePath(relativePath)
+        local modifiedTarget = githubUrl .. relativePath
         print("CFLUA: Modified link target: " .. modifiedTarget)
         el.target = modifiedTarget
     end

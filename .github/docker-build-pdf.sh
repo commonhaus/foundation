@@ -12,7 +12,14 @@ elif [[ -z "${GITHUB_SHA}" ]]; then
     GITHUB_SHA=$(git rev-parse --short HEAD)
     FOOTER="${DATE} ✧ commit ${GITHUB_SHA}"
 fi
+if [[ -z "${GIT_COMMIT}" ]]; then
+    GIT_COMMIT=$(git rev-parse HEAD)
+fi
 URL=$(gh repo view --json url --jq '.url')/
+
+echo URL=${URL}
+echo GIT_COMMIT=${GIT_COMMIT}
+echo GITHUB_SHA=${GITHUB_SHA}
 
 # Docker command and arguments
 ARGS="--rm -e TERM -e HOME=/data -u $(id -u):$(id -g) -v $(pwd):/data -w /data"
@@ -38,26 +45,58 @@ if [[ "${TO_CMD}" != "nope" ]]; then
 fi
 
 # Convert markdown to PDF with an appended changelog
-function to_pdf_with_changes() {
+function to_pdf_pattern() {
     local tmpout=output/tmp/${1}
-    mkdir -p "${tmpout}"
-    rm -f "${tmpout}"/*
-    shift
-    local changes=${1}
     shift
     local pdfout=output/public/${1}
     shift
+    local relative_path=${1}
+    shift
+
+    mkdir -p "${tmpout}"
+    rm -f "${tmpout}"/*
     rm -f "${pdfout}"
 
     # Use mounted volume paths
-    to_pdf --pdf-engine-opt=-output-dir="./${tmpout}" \
+    run_pdf --pdf-engine-opt=-output-dir="./${tmpout}" \
         --pdf-engine-opt=-outdir="./${tmpout}" \
         -o "./${pdfout}" \
+        -V dirname:"${relative_path}" \
         "$@"
 }
 
-# Convert markdown to PDF
+# Convert markdown to PDF with an appended changelog
+# to_pdf ./TRADEMARKS.md trademark-list "Commonhaus Foundation Trademark List"
 function to_pdf() {
+    if [[ ! -f "${1}" ]]; then
+        echo "No source file found at ${1}"
+        exit 1
+    fi
+    local source=${1}
+    shift
+    local basename=${1}
+    shift
+    local title=${1}
+    shift
+    local relative_path=${1}
+
+    local tmpout=output/tmp/${basename}
+    mkdir -p "${tmpout}"
+    rm -f "${tmpout}"/*
+    local pdfout=output/public/${basename}.pdf
+    rm -f "${pdfout}"
+
+    # Use mounted volume paths
+    run_pdf --pdf-engine-opt=-output-dir="./${tmpout}" \
+        --pdf-engine-opt=-outdir="./${tmpout}" \
+        -o "./${pdfout}" \
+        -M title:"${title}" \
+        -V dirname:"${relative_path}" \
+        "${source}"
+}
+
+# Convert markdown to PDF
+function run_pdf() {
     ${DOCKER} run ${ARGS} \
         "${PANDOCK}" \
         -H ./.pandoc/header.tex \
@@ -99,10 +138,10 @@ for x in "${BYLAWS[@]}"; do
 done
 
 # Convert bylaws to PDF
-to_pdf_with_changes \
+to_pdf_pattern \
     bylaws \
-    ./bylaws \
     "cf-bylaws.pdf" \
+    "./bylaws/" \
     -M title:"Commonhaus Foundation Bylaws" \
     "${BYLAWS[@]}"
 
@@ -114,10 +153,10 @@ function to_policy_pdf() {
         echo "No policy found at ./policies/${1}.md"
         exit 1
     fi
-    to_pdf_with_changes \
+    to_pdf_pattern \
         "${1}" \
-        "./policies/${1}.md" \
         "${1}.pdf" \
+        "./policies/" \
         -M title:"Commonhaus Foundation ${2} Policy" \
         "./policies/${1}.md"
 }
@@ -130,6 +169,8 @@ to_policy_pdf security-policy "Security Vulnerability Reporting"
 to_policy_pdf succession-plan "Continuity and Administrative Access"
 to_policy_pdf trademark-policy "Trademark"
 
+to_pdf ./TRADEMARKS.md trademark-list ./ "Commonhaus Foundation Trademark List"
+
 ## AGREEMENTS
 
 function to_agreement_pdf() {
@@ -141,10 +182,10 @@ function to_agreement_pdf() {
     sed -E 's/\[Insert [^]]* here\]/______________________________________/g' \
             "./agreements/${1}.md" > "./output/tmp/${name}.md"
 
-    to_pdf_with_changes \
+    to_pdf_pattern \
         "${1}" \
-        "./agreements/${1}.md" \
         "$(basename ${1}).pdf" \
+        "./agreements/$(dirname ${1})/" \
         -M title:"Commonhaus Foundation ${2} Agreeement" \
         "./output/tmp/${name}.md"
 }
