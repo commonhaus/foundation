@@ -1,0 +1,29 @@
+title: "Commonhaus Foundation Membership Application"
+version: "initial draft"
+preamble: |
+  I would like to apply for membership to the Commonhaus Foundation (CF).
+
+attestations:
+  bylaws:
+    title: "Commonhaus Foundation Bylaws"
+    body: |
+      I have read the following sections of the Commonhaus Foundation Bylaws and understand my obligations:
+
+      - [Membership](https://www.commonhaus.org/bylaws/cf-membership.html)
+      - [Decision Making](https://www.commonhaus.org/bylaws/decision-making.html)
+
+  coc:
+    title: "Code of Conduct"
+    body: |
+      I have read the [Code of Conduct](https://www.commonhaus.org/policies/code-of-conduct/) and agree to adhere to its terms.
+
+  email:
+    title: "Commonhaus email address"
+    body: |
+      I have read the [Forward Email Terms of Service](https://forwardemail.net/en/terms) and agree to adhere
+      to its terms when using my `commonhaus.dev` email address.
+
+      > [!NOTE]
+      > If you accept these terms, a `commonhaus.dev` email address will be created for your GitHub Login if it
+      > does not already exist. It will initially forward to the public address listed in your GitHub profile.
+
