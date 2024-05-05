@@ -1,7 +1,3 @@
----
-status: draft
-weight: 2
----
 # Membership
 
 The Commonhaus Foundation (CF) is a membership organization. Your involvement in the CF, whether as a project representative or a general member, shapes the future of open source innovation. We value each contribution and encourage active participation in our diverse and vibrant community.
@@ -20,22 +16,28 @@ The following section outlines the different types of membership and the process
 
 A **project** within the CF represents collaborative innovation in open source technology. These projects are dynamic collectives of individual contributors, functioning as self-organizing units rather than formal legal entities.[^1]
 
-**Flexible and Inclusive Structure:** Projects can vary in size and scope, ranging from individual repositories to entire collections of repositories. Whether it's a single focused effort or a collection of related initiatives, each project is defined by common goals and shared assets, including code, trademarks, and domains.
+**Flexible and Inclusive Structure:** Projects vary in size and scope&mdash;a project might have a single repository, or it might encompass multiple repositories.
+Whether it's a single focused effort or a collection of related initiatives, each project is defined by common goals and shared assets, including code, trademarks, and domains.
+While the CF uses GitHub as the primary platform for collaboration, projects may be hosted on other platforms as well.
 
 [^1]: Contributors may be affiliated with various organizations or companies, but they contribute as individuals.
 
-## Project Representation
+### Project Representation
 
 **Diverse Voices, Unified Decision-Making:** Each project within the Commonhaus Foundation (CF) has its unique perspective, and its own legitimate interests in decisions taken by the foundation as a whole.
 To ensure that every project has a say in the direction of the foundation, each project appoints a representative to the [Extended Governance Committee (EGC)][egc].
-The representative is chosen according to the project's own governance practices.
-The representative is not required to have or maintain general membership of the foundation.
 
-**Dedicated Representation:** If an EGC representative is elected to the [CF Council (CFC)][cfc], we recommend appointing an additional representative for the EGC to ensure project-specific needs are represented.
+The EGC representative:
+
+- is chosen according to the project's own governance practices,
+- is not required to have or maintain general membership in the foundation, but
+- must have a GitHub account to participate in CF [discussions][discussions] and [votes][voting].
+
+**Dedicated Representation:** If an EGC representative is elected to the [CF Council (CFC)][cfc], we recommend appointing an additional representative for the EGC (if possible) to ensure project-specific needs are represented.
 
 ## General Members
 
-**Join as an individual.** Membership to the CF is open to all individuals who share our mission and meet the outlined eligibility criteria[^3].
+**Join as an individual[^3].** Membership to the CF is open to all individuals who share our mission and meet the outlined eligibility criteria.
 
 - **Eligibility Criteria**: Eligibility requires active and meaningful engagement with CF or its projects for at least three months.
     Meaningful contributions include commits and merged pull requests (code, documentation, or applications for demonstration, education, or advocacy); triage, maintainer or moderator roles for CF project repositories; or substantive participation in community forums.
@@ -76,7 +78,7 @@ Life happens, and we understand that. Members may choose to step back or retire,
 - **Voluntary Resignation:** Members can choose to retire at any time, transitioning to an emeritus or inactive role while remaining part of our community.
 - **Inactivity:** Members who fail to meet the [eligibility criteria](#general-members) for 12 months will transition to an inactive status.
 
-Inactive members (of any type) do not have the right to vote in CFC elections and are ineligible for membership in the CFC.
+Inactive members (of any type) do not have the right to vote in elections and are ineligible for CFC membership.
 
 To transition from inactive to active status, a member must meet [eligibility criteria](#general-members) for active membership.
 
@@ -104,3 +106,5 @@ Relevant Florida Statute(s):
 [egc]: ./3-cf-council.md#extended-governance-committee-egc
 [coc]: ../policies/code-of-conduct.md
 [coc-reports]: ../policies/code-of-conduct.md#handling-reports-and-escalations
+[discussions]: ./5-cf-decision-making.md
+[voting]: ./3-cf-council.md#voting
