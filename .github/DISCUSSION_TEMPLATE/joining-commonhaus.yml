@@ -3,7 +3,9 @@ body:
     attributes:
       value: |
         > [!NOTE]
-        > Have a look at current discussions to see if anyone else has mentioned your project.
+        > Have a look at current discussions to see if anyone else has mentioned your
+        > project.
+
   - type: textarea
     attributes:
       label: Project information
@@ -42,28 +44,17 @@ body:
       label: Things that must be done (bootstrap phase)
       description: |
         This will serve as the to-do list for the bootstrapping phase.
-        Please use this discussion to ask any clarifying questions you may have before completing these tasks.
+        Please use this discussion to ask any clarifying questions you may have
+        before completing these tasks.
       value: |
-        - [ ] **Review the bylaws**, especially sections about [projects](https://www.commonhaus.org/bylaws/cf-membership.html#projects),
-        [decision making](https://www.commonhaus.org/bylaws/decision-making.html), and
-        [voting for significant decisions](https://www.commonhaus.org/bylaws/cf-council.html#voting).
-        You may have seen some PRs go through as I work with the current EGC to create a record of approval (with the newly established EGC)
-        to ratify them and you're welcome to weigh in on these.
+        - [ ] **Review the bylaws**, especially sections about [projects](https://www.commonhaus.org/bylaws/cf-membership.html#projects), [decision making](https://www.commonhaus.org/bylaws/decision-making.html), and [voting for significant decisions](https://www.commonhaus.org/bylaws/cf-council.html#voting).
         - [ ] **Read the [bootstrapping agreement](https://github.com/commonhaus/foundation/blob/main/agreements/bootstrapping/bootstrapping.md)**.
-        - [ ] If all is well, and you agree to participate in the bootstrapping phase to help us build this thing, then **create a PR**
-        with the following:
+        - [ ] If all is well, and you agree to participate in the bootstrapping phase to help us build this thing, then **create a PR** with the following:
 
-            1. A filled out copy of the bootstrapping agreement. You can make a copy of
-        [bootstrapping.md](https://github.com/commonhaus/foundation/blob/main/agreements/bootstrapping/bootstrapping.md) file and check that in,
-        or checkin a filled out [pdf](https://github.com/commonhaus/foundation/releases/download/final-draft/bootstrapping.pdf).
-        Please follow naming conventions.
-            2. An updated [CONTACTS.yaml](https://github.com/commonhaus/foundation/blob/main/CONTACTS.yaml) that names your project
-        representative in the EGC section
-            3. An updated [PROJECTS.yaml](https://github.com/commonhaus/foundation/blob/main/PROJECTS.yaml) that provides
-        details / describes your project
-            4. An updated [TRADEMARKS.md](https://github.com/commonhaus/foundation/blob/main/TRADEMARKS.md) that adds your project name
-        and project logo (if you have one). Please include the footnote reference, as we are using your project name and logo
-        with your permission until we have a formal agreement in place and resources are transferred.
+            1. A filled out copy of the bootstrapping agreement. You can make a copy of [bootstrapping.md](https://github.com/commonhaus/foundation/blob/main/agreements/bootstrapping/bootstrapping.md) file and check that in, or checkin a filled out [pdf](https://github.com/commonhaus/foundation/releases/download/final-draft/bootstrapping.pdf). Please follow naming conventions.
+            2. An updated [CONTACTS.yaml](https://github.com/commonhaus/foundation/blob/main/CONTACTS.yaml) that names your project representative in the EGC section
+            3. An updated [PROJECTS.yaml](https://github.com/commonhaus/foundation/blob/main/PROJECTS.yaml) that provides details / describes your project
+            4. An updated [TRADEMARKS.md](https://github.com/commonhaus/foundation/blob/main/TRADEMARKS.md) that adds your project name and project logo (if you have one). Please include the footnote reference, as we are using your project name and logo with your permission until we have a formal agreement in place and resources are transferred.
 
             The commit should be "Signed-off-by" your GH login (`git commit -s -m "<project> bootstrapping agreement, yyyy-mm-dd"`)
     validations:
