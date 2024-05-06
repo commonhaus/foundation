@@ -47,12 +47,18 @@ notice:
           - notice
           - "vote/open"
         then: [announce]
+      - # If a pull request with a vote/open label is closed,
+        # finish the vote
+        action: [closed]
+        label: ["vote/open"]
+        then: [apply_done]
       - # If the vote/done label is applied, remove the vote/open label
         action: [labeled]
         label: ["vote/done"]
         then: [remove_open]
   actions:
     apply_notice: [notice]
+    apply_done: ["vote/done"]
     remove_open: ["!vote/open"]
     announce:
       address:
