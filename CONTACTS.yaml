@@ -47,6 +47,8 @@ egc:
     login: gavinking
   - project: sdkman
     login: marc0der
+  - project: objenesis
+    login: henri-tremblay
   - project: ...
     login: ...
 
