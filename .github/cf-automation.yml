@@ -17,16 +17,21 @@ notice:
         label: ["!notice"]
         action: [created, category_changed]
         then: [apply_notice]
-      - # If the notice or vote/open label is applied, send email
+      - # If the notice, vote/open, or vote/done label is applied, send email
         action: [labeled]
-        label:
+        label_change:
           - notice
           - "vote/open"
+          - "vote/done"
         then: [announce]
       - # If the vote/done label is applied, remove the vote/open label
         action: [labeled]
-        label: ["vote/done"]
+        label_change: ["vote/done"]
         then: [remove_open]
+      - # If a discussion with a vote/open label is closed, finish the vote
+        action: [closed]
+        label: ["vote/open"]
+        then: [apply_done]
   pull_request:
     rules:
       - # If a pull request modifies bylaws or policies
@@ -40,22 +45,21 @@ notice:
           - policies/*
         label: ["!notice"]
         then: [apply_notice]
-      - # If a pull request is labeled with notice,
-        # send an email to announce
+      - # If the notice, vote/open, or vote/done label is applied, send email
         action: [labeled]
-        label:
+        label_change:
           - notice
           - "vote/open"
+          - "vote/done"
         then: [announce]
-      - # If a pull request with a vote/open label is closed,
-        # finish the vote
+      - # If the vote/done label is applied, remove the vote/open label
+        action: [labeled]
+        label_change: ["vote/done"]
+        then: [remove_open]
+      - # If a pull request with a vote/open label is closed, finish the vote
         action: [closed]
         label: ["vote/open"]
         then: [apply_done]
-      - # If the vote/done label is applied, remove the vote/open label
-        action: [labeled]
-        label: ["vote/done"]
-        then: [remove_open]
   actions:
     apply_notice: [notice]
     apply_done: ["vote/done"]
