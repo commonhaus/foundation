@@ -25,6 +25,7 @@ The Commonhaus Foundation uses the following unregistered trademarks:
 - JBang &trade; [^1]
 - JReleaser &trade; [^1]
 - Morphia &trade; [^1]
+- Instancio &trade; [^1]
 
 ## Logo Marks
 
@@ -50,6 +51,8 @@ The Commonhaus Foundation uses the following unregistered trademarks:
     <img src="https://github.com/MorphiaOrg/morphia-docs/blob/master/supplemental-ui/img/logo.png?raw=true" alt="" height="22" />
 - OpenRewrite Logo &trade; [^1]  
     <img src="https://www.commonhaus.org/images/OpenRewrite_WordmarkTM_MidnightBlue.png" alt="" height="22" />
+- Instancio Logo &trade; [^1]  
+    <img src="https://github.com/instancio/instancio/blob/main/etc/logo/instancio-logo-sm.png?raw=true" alt="" height="22" />
 
 [^1]: Trademark is used by permission subject to the foundation's [bootstrapping agreement](https://github.com/commonhaus/foundation/blob/main/agreements/bootstrapping/bootstrapping.md).
 [^2]: Duke is the Java mascot, ([BSD license](https://wiki.openjdk.org/display/duke/Main)). Use of this version of the logo is [CC-by-SA-4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.en).

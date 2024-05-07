@@ -73,3 +73,13 @@ openrewrite:
   description: >
     Automate the refactoring of your Java codebase. OpenRewrite offers scalable, safe, and idempotent
     code transformations to modernize and maintain your applications.
+
+instancio:
+  name: Instancio
+  home: https://www.instancio.org/
+  repo: https://github.com/instancio/instancio
+  logo: https://github.com/instancio/instancio/blob/main/etc/logo/instancio-logo-sm.png?raw=true
+  wordmark: false
+  description: >
+    A library for automating data setup in your tests. Instancio generates fully-populated, reproducible
+    objects with the goal of accelarating testing and reducing the maintenance burden of manual data setup.
