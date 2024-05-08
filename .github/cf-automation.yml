@@ -64,6 +64,8 @@ voting:
     - commonhaus-bot
   error_email_address:
     - automation@commonhaus.org
+  managers:
+    - "@commonhaus/cf-council"
   status:
     badge: https://www.commonhaus.org/votes/{{repoName}}/{{number}}.svg
     page: https://www.commonhaus.org/votes/{{repoName}}/{{number}}.html
