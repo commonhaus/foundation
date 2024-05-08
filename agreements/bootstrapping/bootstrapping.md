@@ -1,6 +1,3 @@
----
-status: draft
----
 # Commonhaus Foundation Bootstrapping Agreement
 
 - Project: [Insert GitHub Organization and Project name here]
