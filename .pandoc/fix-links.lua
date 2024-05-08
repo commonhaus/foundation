@@ -72,10 +72,31 @@ local function Link(el)
     return el
 end
 
+local function Inline (el)
+    if el.t == 'RawInline' and el.format:match'html.*' then
+        if el.text:match'<img ' then
+            link_start = el.text
+            img = pandoc.read(link_start, 'html').blocks[1].content[1]
+            
+            -- Check if height is set and doesn't already have a unit
+            if img.attributes.height and not img.attributes.height:match'%a' then
+                -- Append 'px' to the height
+                img.attributes.height = img.attributes.height .. 'px'
+            end
+            print("CFLUA: RawInline: " .. img.src)
+            return img
+          end
+        return nil
+    end
+    return nil
+end
+
+
 --------------------------------------------------------------------------------
 -- The main function --
 --------------------------------------------------------------------------------
 return {
     { Meta = Meta },
-    { Link = Link }
-  }
+    { Link = Link },
+    { Inline = Inline }
+}
