@@ -54,7 +54,6 @@ notice:
         then: [remove_open]
   actions:
     apply_notice: [notice]
-    apply_done: ["vote/done"]
     remove_open: ["!vote/open"]
     announce:
       address:
