@@ -37,7 +37,7 @@ The EGC representative:
 
 ## General Members
 
-**Join as an individual[^3].** Membership to the CF is open to all individuals who share our mission and meet the outlined eligibility criteria.
+**Join as an individual[^3].** Membership to the CF is open to all individuals who meet the outlined eligibility criteria and want to support the foundation's mission or the development of its projects.
 
 - **Eligibility Criteria**: Eligibility requires active and meaningful engagement with CF or its projects for at least three months.
     Meaningful contributions include commits and merged pull requests (code, documentation, or applications for demonstration, education, or advocacy); triage, maintainer or moderator roles for CF project repositories; or substantive participation in community forums.
