@@ -28,10 +28,6 @@ notice:
         action: [labeled]
         label_change: ["vote/done"]
         then: [remove_open]
-      - # If a discussion with a vote/open label is closed, finish the vote
-        action: [closed]
-        label: ["vote/open"]
-        then: [apply_done]
   pull_request:
     rules:
       - # If a pull request modifies bylaws or policies
@@ -56,10 +52,6 @@ notice:
         action: [labeled]
         label_change: ["vote/done"]
         then: [remove_open]
-      - # If a pull request with a vote/open label is closed, finish the vote
-        action: [closed]
-        label: ["vote/open"]
-        then: [apply_done]
   actions:
     apply_notice: [notice]
     apply_done: ["vote/done"]
