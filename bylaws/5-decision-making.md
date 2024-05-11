@@ -1,7 +1,3 @@
----
-status: draft
-weight: 5
----
 # Decision Making, Voting, and Elections
 
 This section describes the decision-making process, voting, and elections for the CF.
@@ -22,8 +18,8 @@ In general, the CF adopts the Lazy Consensus model, as defined by the [Apache Fo
 
 Consensus is about finding a workable compromise:
 
-- Dissent should be voiced early for constructive discussion.
-- Every member, irrespective of role, is entitled to an equal voice and vote.
+- Early dissent is encouraged to facilitate productive dialog.
+- Every member, regardless of their role, has an equal opportunity to contribute.
 
 ## Proposal Development and Review Process
 
@@ -37,34 +33,35 @@ Proposals typically begin as GitHub Discussions for collaborative refinement.
 
 ### Sense Vote
 
+Members indicate their level of comfort or agreement with a proposal using *reactions*.
+
+Sense votes typically use the following reactions, though alternatives may be suggested for specific proposals:
+
 - **👍 (:+1:):** Indicates strong support or agreement with the proposal.
 - **👀 (:eyes:):** Suggests acceptance or willingness to go along with the proposal, even if it's not the preferred choice.
 - **👎 (:-1:):** Signifies discomfort or disagreement with the proposal, requiring further discussion.
 
-Members are expected to *react* to express their level of comfort or agreement with a proposal,
-ensuring a comprehensive understanding of the community's stance.
-
 Discussion of the proposal should occur in comments on the PR or GitHub Discussion. If conversations happen elsewhere (in chat, for example), a summary of the conversation should be added as a comment if the discussion helped clarify the proposal or resolve a concern.
 
-If significant changes are needed, the current Discussion/PR should be closed as outdated, and replaced with a revised proposal.
+If significant revisions are necessary, the current proposal should be closed as outdated and replaced with a new proposal.
+The new proposal has revised content to maintain focus on the most current version and simplify navigation for members.
+
+In all instances, efforts should be made to [address concerns and objections](#handling-unresolved-issues) constructively.
 
 ### Moving forward
 
-In the absence of discomfort or disagreement, the proposal can move forward.
+A proposal moves forward if it receives sufficient support and meets applicable participation thresholds defined in the [CFC/EGC voting rules][cfc-sv].
 
-For significant matters, like those requiring a CF Council [Supermajority Vote][cfc-sv], a formal voting process should be followed.
-
-[cfc-sv]: ./3-cf-council.md#matters-requiring-supermajority-vote
+[cfc-sv]: ./3-cf-council.md#voting
 
 ### Handling Unresolved Issues
 
-In cases where consensus is not reached:
+If consensus cannot be reached:
 
-- Arrange a meeting with all relevant parties to discuss the proposal.
-- Use a structured, time-boxed format to address objections.
-- Conclude with a vote to decide whether to move forward despite unresolved objections.
-
-Record the meeting's outcome in the original Discussion/PR to maintain transparency and traceability.
+- A member of the CFC will arrange a meeting with all relevant parties to discuss the proposal.
+- The meeting will use a structured, time-boxed format to allow the proposal and objections to be presented and discussed.
+- The meeting will conclude with a vote, subject to [voting rules][cfc-sv], that will decide whether to proceed despite unresolved objections.
+- The outcome will be documented in the discussion thread and the proposal will be marked as resolved.
 
 ## Elections
 
