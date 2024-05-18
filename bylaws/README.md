@@ -1,6 +1,3 @@
----
-status: draft
----
 # Commonhaus Foundation Bylaws
 
 1. [Preface](./0-preface.md)
