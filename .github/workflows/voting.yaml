@@ -21,7 +21,7 @@ jobs:
     steps:
     - name: Bump voting results
       env:
-        GH_TOKEN: ${{ secrets.ACTIONS_PUBLISH_PAT }}
+        GH_TOKEN: ${{ secrets.CF_INTERNAL_VOTES }}
         COMMENT_ID: ${{ github.event.comment.node_id }}
         INPUT: ${{ github.event.inputs.comment_id }}
         SENDER: ${{ github.event.sender.login }}
@@ -35,4 +35,5 @@ jobs:
 
         if [[ -n "$COMMENT_ID" ]]; then
           echo "{\"comment_id\": \"${COMMENT_ID}\"}" | gh workflow run -R commonhaus/commonhaus.github.io push-votes.yml --json
+          echo "{\"comment_id\": \"${COMMENT_ID}\"}" | gh workflow run -R commonhaus/foundation-internal push-votes.yml --json
         fi
