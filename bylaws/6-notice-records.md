@@ -1,7 +1,3 @@
----
-status: draft
-weight: 6
----
 # Notice and Record Keeping
 
 This section describes the notice and record-keeping policies for the Commonhaus Foundation (CF).
