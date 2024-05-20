@@ -73,3 +73,15 @@ openrewrite:
   description: >
     Automate the refactoring of your Java codebase. OpenRewrite offers scalable, safe, and idempotent
     code transformations to modernize and maintain your applications.
+
+sdkman:
+  name: SDKMAN!
+  home: https://sdkman.io/
+  repo: https://github.com/sdkman
+  logo: https://sdkman.io/assets/img/sdk-man-small-pattern.svg
+  wordmark: false
+  description: >
+    SDKMAN! is a robust tool designed for managing parallel versions of multiple Software Development
+    Kits (SDKs) on Unix-based systems. It simplifies the installation, updating, and switching
+    processes for various SDKs, including Java, Kotlin, Scala, and Groovy, through an intuitive
+    command-line interface.

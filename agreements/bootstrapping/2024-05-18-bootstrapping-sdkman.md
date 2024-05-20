@@ -1,7 +1,7 @@
 # Commonhaus Foundation Bootstrapping Agreement
 
-- Project: FasterXML / jackson
-- EGC representative: cowtowncoder
+- Project: sdkman / sdkman-cli
+- EGC representative: marc0der
 
 This document outlines the preliminary, non-binding agreement for the establishment phase of the Commonhaus Foundation (CF), aiming to foster a collaborative community dedicated to open source projects.
 
@@ -67,10 +67,10 @@ By making a signed commit to this document in the Commonhaus Foundation's reposi
 
 This digital action is considered a valid form of written consent, in line with the foundation's bylaws on electronic participation and decision-making.
 
-Project Name: jackson
+Project Name: SDKMAN!
 
-EGC Representative GitHub Username: cowtowncoder
+EGC Representative GitHub Username: marc0der
 
-Date of Signed Commit: 2024-03-25
+Date of Signed Commit: 2024-05-18
 
 For organizations with a legal department, a digitally signed PDF of this document may be submitted as an alternative.
