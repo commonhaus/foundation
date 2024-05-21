@@ -85,3 +85,14 @@ sdkman:
     Kits (SDKs) on Unix-based systems. It simplifies the installation, updating, and switching
     processes for various SDKs, including Java, Kotlin, Scala, and Groovy, through an intuitive
     command-line interface.
+
+objenesis:
+  name: Objenesis
+  home: https://objenesis.org/
+  repo: https://github.com/easymock/objenesis
+  logo: https://github.com/easymock/objenesis/blob/master/website/site/resources/objenesis.png?raw=true
+  wordmark: true
+  description: >
+    Objenesis is a small Java library that serves one purpose: To instantiate a new object of a particular class
+    WITHOUT calling one of its constructors.
+
