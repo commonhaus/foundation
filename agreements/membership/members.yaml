@@ -1,0 +1,86 @@
+version: "initial draft"
+
+status:
+  member:
+    title: "Commonhaus Foundation (CF) Membership"
+    preamble: |
+      The foundation uses GitHub as its primary platform for project management and collaboration.
+      Members must have a GitHub account to participate in CF discussions and votes.
+
+      As a member of the Commonhaus Foundation, I affirm the following:
+    attestations:
+      - bylaws
+      - coc
+      - email
+
+  cfc:
+    title: "CF Council (CFC) Membership Agreement"
+    preamble: |
+      The foundation uses GitHub as its primary platform for project management and collaboration.
+      Councilors must have a GitHub account to participate in CF discussions and votes.
+
+      As an elected Councilor, I affirm the following:
+    attestations:
+      - council
+      - coc
+      - email
+
+  egc:
+    title: "Extended Governance Committee (EGC) Membership Agreement"
+    preamble: |
+      The foundation uses GitHub as its primary platform for project management and collaboration.
+      EGC members must have a GitHub account to participate in CF discussions and votes.
+
+      As a project representative to the Extended Governance Committee (EGC), I affirm the following:
+    attestations:
+      - egc
+      - coc
+      - email
+
+attestations:
+  bylaws:
+    title: "Commonhaus Foundation Bylaws"
+    body: |
+      I have read and understand the following sections of the Commonhaus Foundation Bylaws:
+      - [Membership](https://www.commonhaus.org/bylaws/cf-membership.html)
+      - [Decision Making](https://www.commonhaus.org/bylaws/decision-making.html)
+
+  council:
+    title: "CFC Responsibilities"
+    body: |
+      I have read the following sections of the Commonhaus Foundation Bylaws:
+      - [CF Council](https://www.commonhaus.org/bylaws/cf-council.html).
+      - [Decision Making](https://www.commonhaus.org/bylaws/decision-making.html)
+      - [Voting](https://www.commonhaus.org/bylaws/3-cf-council.md#voting)
+      - [Electronic Participation and Voting](https://www.commonhaus.org/bylaws/cf-council.html#electronic-participation-and-decision-making)
+
+      I agree to:
+      - Participate in regular and special meetings as required.
+      - Act in the best interests of the Commonhaus Foundation and its community.
+      - Handle all Code of Conduct reports with respect and discretion, and [maintain confidentiality](https://www.commonhaus.org/policies/code-of-conduct/#confidentiality-and-safety) even after my tenure has ended.
+
+  egc:
+    title: "EGC Responsibilities"
+    body: |
+      I have read the following sections of the Commonhaus Foundation Bylaws:
+      - [Project Representation](https://www.commonhaus.org/bylaws/2-cf-membership.md#project-representation)
+      - [Composition of the EGC](https://www.commonhaus.org/bylaws/3-cf-council.md#extended-governance-committee-egc)
+      - [Decision Making](https://www.commonhaus.org/bylaws/decision-making.html)
+      - [Matters requiring EGC approval](https://www.commonhaus.org/bylaws/3-cf-council.md#matters-requiring-egc-approval)
+      - [Electronic Participation and Voting](https://www.commonhaus.org/bylaws/cf-council.html#electronic-participation-and-decision-making)
+
+      I agree to participate in EGC discussions and votes, and to represent the interests of my project and the Commonhaus Foundation community.
+
+  coc:
+    title: "Code of Conduct"
+    body: |
+      I have read the [Code of Conduct](https://www.commonhaus.org/policies/code-of-conduct/) and agree to adhere to its terms.
+
+  email:
+    title: "Commonhaus email address"
+    body: |
+      I have read the [Forward Email Terms of Service](https://forwardemail.net/en/terms) and agree to adhere to its terms when using my `commonhaus.dev` email address.
+
+      > [!NOTE]
+      > If you accept these terms, a `commonhaus.dev` email address will be created for your GitHub login if it
+      > does not already exist. It will initially forward to the public address listed in your GitHub profile.
