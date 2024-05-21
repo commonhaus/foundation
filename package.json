@@ -5,7 +5,7 @@
     "test": "npm run links && npm run yaml && npm run lint",
     "tv": "npm run linksv && npm run yaml && npm run lint",
     "lint": "npx markdownlint-cli2 \"**/*.md\" \"#node_modules\" \"#output\" \"#elections\" \"#agreements\" \"#.github\"",
-    "yaml": "node .github/validate.js ./SUPPORTERS.yaml ./CONTACTS.yaml ./PROJECTS.yaml"
+    "yaml": "node .github/validate.js ./SUPPORTERS.yaml ./CONTACTS.yaml ./PROJECTS.yaml ./agreements/membership/members.yaml"
   },
   "devDependencies": {
     "markdown-link-check": "^3.11.2",
