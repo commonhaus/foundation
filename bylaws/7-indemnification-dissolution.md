@@ -1,7 +1,3 @@
----
-status: draft
-weight: 7
----
 # Insurance, Indemnification, and Dissolution
 
 The Commonhaus Foundation (CF) is committed to protecting its team—councilors, officers, employees, and agents—against legal expenses and liabilities they might face while performing their duties in good faith for the Foundation. In simple terms, if individuals are acting with the Foundation's best interests in mind and within the bounds of the law, the Foundation aims to support them.
