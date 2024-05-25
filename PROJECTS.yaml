@@ -11,6 +11,15 @@
 #
 # Unpublished (or early stage), use draft: true
 
+easymock:
+  name: EasyMock
+  home: https://easymock.org/
+  repo: https://github.com/easymock/easymock
+  logo: https://github.com/easymock/easymock/blob/master/website/img/easymock-logo-md.png?raw=true
+  wordmark: true
+  description: >
+    EasyMock, makes mocking easier since 2001.
+
 hibernate:
   name: Hibernate
   home: https://hibernate.org/
@@ -63,6 +72,16 @@ morphia:
     Bridge the gap between Java and MongoDB. Morphia provides a lightweight type-safe mapping library
     to simplify working with MongoDB documents using Java.
 
+objenesis:
+  name: Objenesis
+  home: https://objenesis.org/
+  repo: https://github.com/easymock/objenesis
+  logo: https://github.com/easymock/objenesis/blob/master/website/site/resources/objenesis.png?raw=true
+  wordmark: true
+  description: >
+    Objenesis is a small Java library that serves one purpose: To instantiate a new object of a particular class
+    WITHOUT calling one of its constructors.
+
 openrewrite:
   name: OpenRewrite
   home: https://docs.openrewrite.org/
@@ -85,22 +104,3 @@ sdkman:
     Kits (SDKs) on Unix-based systems. It simplifies the installation, updating, and switching
     processes for various SDKs, including Java, Kotlin, Scala, and Groovy, through an intuitive
     command-line interface.
-
-objenesis:
-  name: Objenesis
-  home: https://objenesis.org/
-  repo: https://github.com/easymock/objenesis
-  logo: https://github.com/easymock/objenesis/blob/master/website/site/resources/objenesis.png?raw=true
-  wordmark: true
-  description: >
-    Objenesis is a small Java library that serves one purpose: To instantiate a new object of a particular class
-    WITHOUT calling one of its constructors.
-
-easymock:
-  name: EasyMock
-  home: https://easymock.org/
-  repo: https://github.com/easymock/easymock
-  logo: https://github.com/easymock/easymock/blob/master/website/img/easymock-logo-md.png?raw=true
-  wordmark: true
-  description: >
-    EasyMock, makes mocking easier since 2001.
