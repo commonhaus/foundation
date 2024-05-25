@@ -27,6 +27,7 @@ The Commonhaus Foundation uses the following unregistered trademarks:
 - Morphia &trade; [^1]
 - SDKMAN! &trade; [^1]
 - Objenesis &trade; [^1]
+- EasyMock &trade; [^1]
 
 ## Logo Marks
 
@@ -56,6 +57,8 @@ The Commonhaus Foundation uses the following unregistered trademarks:
     <img src="https://sdkman.io/assets//img/sdk-man-small-pattern.svg" alt="" height="22" />
 - Objenesis Logo &trade; [^1]
     <img src="https://github.com/easymock/objenesis/blob/master/website/site/resources/objenesis-logo.png?raw=true" alt="" height="22" />
+- EasyMock Logo &trade; [^1]
+  <img src="https://github.com/easymock/easymock/blob/master/website/img/easymock-logo-md.png?raw=true" alt="" height="22" />
 
 [^1]: Trademark is used by permission subject to the foundation's [bootstrapping agreement](https://github.com/commonhaus/foundation/blob/main/agreements/bootstrapping/bootstrapping.md).
 [^2]: Duke is the Java mascot, ([BSD license](https://wiki.openjdk.org/display/duke/Main)). Use of this version of the logo is [CC-by-SA-4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.en).
