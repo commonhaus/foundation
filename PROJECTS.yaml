@@ -96,3 +96,11 @@ objenesis:
     Objenesis is a small Java library that serves one purpose: To instantiate a new object of a particular class
     WITHOUT calling one of its constructors.
 
+easymock:
+  name: EasyMock
+  home: https://easymock.org/
+  repo: https://github.com/easymock/easymock
+  logo: https://github.com/easymock/easymock/blob/master/website/img/easymock-logo-md.png?raw=true
+  wordmark: true
+  description: >
+    EasyMock, makes mocking easier since 2001.

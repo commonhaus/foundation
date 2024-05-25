@@ -49,6 +49,8 @@ egc:
     login: marc0der
   - project: objenesis
     login: henri-tremblay
+  - project: easymock
+    login: henri-tremblay
   - project: ...
     login: ...
 
