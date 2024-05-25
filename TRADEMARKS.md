@@ -27,6 +27,7 @@ The Commonhaus Foundation uses the following unregistered trademarks:
 - JReleaser &trade; [^1]
 - Morphia &trade; [^1]
 - Objenesis &trade; [^1]
+- OpenRewrite &trade; [^1]
 - SDKMAN! &trade; [^1]
 
 ## Logo Marks
