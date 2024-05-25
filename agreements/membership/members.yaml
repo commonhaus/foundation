@@ -11,7 +11,6 @@ status:
     attestations:
       - bylaws
       - coc
-      - email
 
   cfc:
     title: "CF Council (CFC) Membership Agreement"
@@ -23,7 +22,6 @@ status:
     attestations:
       - council
       - coc
-      - email
 
   egc:
     title: "Extended Governance Committee (EGC) Membership Agreement"
@@ -35,7 +33,6 @@ status:
     attestations:
       - egc
       - coc
-      - email
 
 attestations:
   bylaws:
