@@ -21,6 +21,18 @@ permissions:
   contents: read
 
 jobs:
+  update-website:
+    runs-on: ubuntu-latest
+    if: ${{ github.event_name == 'push' && github.ref == 'refs/heads/main' && github.repository == 'commonhaus/foundation' }}
+    permissions:
+      actions: read
+    steps:
+    - name: Bump website
+      env:
+        GH_TOKEN: ${{ secrets.ACTIONS_PUBLISH_PAT }}
+      run: |
+        gh workflow run -R commonhaus/commonhaus.github.io push-content.yml
+
   package:
     name: Package PDFs
     runs-on: ubuntu-latest
