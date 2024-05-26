@@ -97,10 +97,9 @@ sdkman:
   name: SDKMAN!
   home: https://sdkman.io/
   repo: https://github.com/sdkman
-  logo: https://sdkman.io/assets/img/sdk-man-small-pattern.svg
+  logo: https://github.com/sdkman/sdkman-website/blob/master/public/img/bubble-logo-sdkman-groovy-color.png?raw=true
   wordmark: false
   description: >
     SDKMAN! is a robust tool designed for managing parallel versions of multiple Software Development
-    Kits (SDKs) on Unix-based systems. It simplifies the installation, updating, and switching
-    processes for various SDKs, including Java, Kotlin, Scala, and Groovy, through an intuitive
-    command-line interface.
+    Kits (SDKs) on Unix-based systems. An intuitive command-line interface simplifies the installation,
+    updating, and switching of executables for various SDKs, including Java, Kotlin, Scala, and Groovy.
