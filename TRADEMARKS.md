@@ -29,6 +29,7 @@ The Commonhaus Foundation uses the following unregistered trademarks:
 - Objenesis &trade; [^1]
 - OpenRewrite &trade; [^1]
 - SDKMAN! &trade; [^1]
+- Feign &trade; [^1]
 
 ## Logo Marks
 
