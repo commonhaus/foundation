@@ -23,7 +23,7 @@ Every contribution, regardless of size, is deeply appreciated. To express our gr
 
 ## Become a Member
 
-[Membership](./bylaws/2-cf-membership.md) at the Commonhaus Foundation opens the door to active participation in shaping our future.
+[Membership](./bylaws/2-cf-membership.md) in the Commonhaus Foundation opens the door to active participation in shaping our future.
 
 By becoming a member, you're not just supporting us financially; you're joining a community of individuals dedicated to the sustainable development of open source projects. Members can hold CF offices, vote in Foundation elections, and influence our strategic direction. They also can show off their support with a `@commonhaus.dev` email address.
 
