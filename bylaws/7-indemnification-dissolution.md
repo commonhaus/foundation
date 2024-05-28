@@ -38,7 +38,7 @@ This indemnification extends to all reasonable expenses (including attorneys’ 
 (1) acted in good faith and in a manner they reasonably believed to be consistent with the best interests of the Foundation, and
 (2) had no reason to believe their conduct was unlawful, in the case of criminal matters.
 
-This indemnification does not extend to a person who is found liable in an action by the Foundation, or in right of the Foundation.
+This indemnification does not extend to a person who is found liable to the Foundation in an action brought by the Foundation, or to enforce the Foundation's rights.
 Otherwise, the outcome of an action will not alone create a presumption that a person did not act in good faith, in the best interests of the Foundation, or with lawful intent.
 
 Relevant Florida Statutes:
