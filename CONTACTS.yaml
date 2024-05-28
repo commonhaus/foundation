@@ -51,6 +51,8 @@ egc:
     login: henri-tremblay
   - project: easymock
     login: henri-tremblay
+  - project: feign
+    login: velo
   - project: ...
     login: ...
 
