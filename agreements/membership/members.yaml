@@ -1,8 +1,13 @@
 version: "initial draft"
 
-status:
+rolePriority:
+  - cfc
+  - egc
+  - member
+
+role:
   member:
-    title: "Commonhaus Foundation (CF) Membership"
+    title: "Commonhaus Foundation (CF) Membership Agreement"
     preamble: |
       The foundation uses GitHub as its primary platform for project management and collaboration.
       Members must have a GitHub account to participate in CF discussions and votes.
