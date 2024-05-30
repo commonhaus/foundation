@@ -1,4 +1,4 @@
-version: "initial draft"
+version: "cf-YYYY-MM-DD"
 
 rolePriority:
   - cfc
@@ -79,6 +79,7 @@ attestations:
       I have read the [Code of Conduct](https://www.commonhaus.org/policies/code-of-conduct/) and agree to adhere to its terms.
 
   email:
+    version: "fe-YYYY-MM-DD"
     title: "Terms of Service"
     body: |
       I have read the [Forward Email Terms of Service](https://forwardemail.net/en/terms) and agree to adhere to its terms when using Commonhaus
