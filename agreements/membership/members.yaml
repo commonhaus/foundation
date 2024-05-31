@@ -4,6 +4,7 @@ rolePriority:
   - cfc
   - egc
   - member
+  - known
 
 role:
   member:
