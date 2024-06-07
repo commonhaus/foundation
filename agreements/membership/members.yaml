@@ -1,4 +1,4 @@
-version: "cf-2024-05-31"
+version: "cf-2024-06-07"
 
 rolePriority:
   - cfc
@@ -10,57 +10,66 @@ role:
   member:
     title: "Commonhaus Foundation (CF) Membership Agreement"
     preamble: |
+      The Commonhaus Foundation is a membership organization driven by the contributions and participation of its members.
+
       The foundation uses GitHub as its primary platform for project management and collaboration.
       Members must have a GitHub account to participate in CF discussions and votes.
 
-      As a member of the Commonhaus Foundation, I affirm the following:
     attestations:
-      - bylaws
       - coc
+      - bylaws
 
   cfc:
     title: "CF Council (CFC) Membership Agreement"
     preamble: |
+      The CFC oversees the foundation's operations, ensuring compliance with legal requirements and the execution of strategic plans.
+
       The foundation uses GitHub as its primary platform for project management and collaboration.
       Councilors must have a GitHub account to participate in CF discussions and votes.
 
-      As an elected Councilor, I affirm the following:
     attestations:
-      - council
       - coc
+      - council
 
   egc:
     title: "Extended Governance Committee (EGC) Membership Agreement"
     preamble: |
+      The EGC includes representatives from each CF project and provides broad governance input.
+
       The foundation uses GitHub as its primary platform for project management and collaboration.
       EGC members must have a GitHub account to participate in CF discussions and votes.
 
-      As a project representative to the Extended Governance Committee (EGC), I affirm the following:
     attestations:
-      - egc
       - coc
+      - egc
+
+agreement: By pressing the "I Agree" button, I affirm my commitment to these responsibilities.
 
 attestations:
   bylaws:
     title: "Commonhaus Foundation Bylaws"
     body: |
-      I have read and understand the following sections of the Commonhaus Foundation Bylaws:
+      I have read the following sections of the Commonhaus Foundation Bylaws:
       - [Membership](https://www.commonhaus.org/bylaws/cf-membership.html)
       - [Decision Making](https://www.commonhaus.org/bylaws/decision-making.html)
+
+      As a member of the Commonhaus Foundation, I agree to fulfill all membership obligations, including the payment of dues and active contribution to the community in accordance with the bylaws.
 
   council:
     title: "CFC Responsibilities"
     body: |
       I have read the following sections of the Commonhaus Foundation Bylaws:
-      - [CF Council](https://www.commonhaus.org/bylaws/cf-council.html).
+      - [CF Council](https://www.commonhaus.org/bylaws/cf-council.html)
       - [Decision Making](https://www.commonhaus.org/bylaws/decision-making.html)
       - [Voting](https://www.commonhaus.org/bylaws/cf-council.md#voting)
       - [Electronic Participation and Voting](https://www.commonhaus.org/bylaws/cf-council.html#electronic-participation-and-decision-making)
 
-      I agree to:
+      I have read [Handling Reports and Escalations](https://www.commonhaus.org/policies/code-of-conduct/#handling-reports-and-escalations) in our Code of Conduct.
+
+      As an elected Councilor, I agree to:
       - Participate in regular and special meetings as required.
       - Act in the best interests of the Commonhaus Foundation and its community.
-      - Handle all Code of Conduct reports with respect and discretion, and [maintain confidentiality](https://www.commonhaus.org/policies/code-of-conduct/#confidentiality-and-safety) even after my tenure has ended.
+      - Handle all Code of Conduct reports with respect and discretion, and maintain confidentiality even after my tenure has ended.
 
   egc:
     title: "EGC Responsibilities"
@@ -72,7 +81,9 @@ attestations:
       - [Matters requiring EGC approval](https://www.commonhaus.org/bylaws/cf-council.md#matters-requiring-egc-approval)
       - [Electronic Participation and Voting](https://www.commonhaus.org/bylaws/cf-council.html#electronic-participation-and-decision-making)
 
-      I agree to participate in EGC discussions and votes, and to represent the interests of my project and the Commonhaus Foundation community.
+      As a project representative to the EGC, I agree to:
+      - Participate in EGC discussions and votes.
+      - Represent the interests of my project and the Commonhaus Foundation community.
 
   coc:
     title: "Code of Conduct"
@@ -81,7 +92,6 @@ attestations:
 
   email:
     version: "fe-2024-05-31"
-    title: "Terms of Service"
+    title: "ForwardEmail Aliases Terms of Service"
     body: |
-      I have read the [Forward Email Terms of Service](https://forwardemail.net/en/terms) and agree to adhere to its terms when using Commonhaus
-      Foundation email addresses.
+      I have read the [Forward Email Terms of Service](https://forwardemail.net/en/terms) and agree to adhere to its terms when using Commonhaus Foundation email addresses.
