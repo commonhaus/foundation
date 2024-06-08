@@ -53,7 +53,17 @@ attestations:
       - [Membership](https://www.commonhaus.org/bylaws/cf-membership.html)
       - [Decision Making](https://www.commonhaus.org/bylaws/decision-making.html)
 
-      As a member of the Commonhaus Foundation, I agree to fulfill all membership obligations, including the payment of dues and active contribution to the community in accordance with the bylaws.
+      As a member of the Commonhaus Foundation, I agree to fulfill all membership obligations,
+      including the payment of dues and active contribution to the community in accordance with the bylaws.
+
+  with-member-role:
+    title: "Membership Responsibilities"
+    body: |
+      I have read the following sections of the Commonhaus Foundation Bylaws:
+      - [Membership](https://www.commonhaus.org/bylaws/cf-membership.html)
+
+      As a member of the Commonhaus Foundation, I agree to fulfill all membership obligations,
+      including the payment of dues and active contribution to the community in accordance with the bylaws.
 
   council:
     title: "CFC Responsibilities"
