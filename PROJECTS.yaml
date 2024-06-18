@@ -20,6 +20,16 @@ easymock:
   description: >
     EasyMock, makes mocking easier since 2001.
 
+feign:
+  name: Feign
+  home: https://github.com/OpenFeign/feign
+  repo: https://github.com/OpenFeign/feign
+  logo:
+  wordmark: false
+  description: >
+    Feign is a Java to HTTP client binder inspired by Retrofit, JAXRS-2.0, and WebSocket. Feign's first
+    goal was reducing the complexity of binding Denominator uniformly to HTTP APIs regardless of ReSTfulness.
+
 hibernate:
   name: Hibernate
   home: https://hibernate.org/
@@ -103,13 +113,3 @@ sdkman:
     SDKMAN! is a robust tool designed for managing parallel versions of multiple Software Development
     Kits (SDKs) on Unix-based systems. An intuitive command-line interface simplifies the installation,
     updating, and switching of executables for various SDKs, including Java, Kotlin, Scala, and Groovy.
-
-feign:
-  name: Feign
-  home: https://github.com/OpenFeign/feign
-  repo: https://github.com/OpenFeign/feign
-  logo: 
-  wordmark: false
-  description: >
-    Feign is a Java to HTTP client binder inspired by Retrofit, JAXRS-2.0, and WebSocket. Feign's first
-    goal was reducing the complexity of binding Denominator uniformly to HTTP APIs regardless of ReSTfulness.
