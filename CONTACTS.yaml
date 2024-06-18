@@ -53,6 +53,7 @@ egc:
     login: henri-tremblay
   - project: feign
     login: velo
+    bio: Java geek and open-source enthusiast, leading projects here and there. Feign lead, QueryDSL stalwart, and Commonhaus advocate.
   - project: ...
     login: ...
 
