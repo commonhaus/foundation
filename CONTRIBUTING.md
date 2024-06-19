@@ -29,6 +29,8 @@ Thanks for considering a contribution to the Commonhaus Foundation (CF) reposito
 
 Markdown content is converted into pdfs and is published on the website.
 
+<img src="https://github.com/commonhaus/commonhaus.github.io/blob/main/docs/website_2024-04-18_1339.31.excalidraw.light.svg?raw=true" width="90%" alt="Diagram of flow between this repo and the website"/>
+
 - **Mailing list references**: Mailing list reference syntax ([`legal` mailing list][CONTACTS.yaml]) matters.
     - The `code` value shuld match a `mailing-list` attribute in [CONTACTS.yaml][].
     - This syntax is changed into an email address in the pdf.
