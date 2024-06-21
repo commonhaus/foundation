@@ -1,6 +1,3 @@
----
-status: draft
----
 # CONTRIBUTING to the Commonhaus Foundation Repository
 
 Thanks for considering a contribution to the Commonhaus Foundation (CF) repository. We value every contribution, whether it's a document edit or a major revision.

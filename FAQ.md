@@ -1,7 +1,3 @@
----
-status: draft
----
-
 # Frequently Asked Questions (FAQs)
 
 ## What is the Commonhaus Foundation?

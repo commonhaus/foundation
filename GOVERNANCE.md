@@ -1,7 +1,3 @@
----
-status: draft
----
-
 # Commonhaus Foundation Project Governance
 
 Welcome to the Commonhaus Foundation (CF), a nonprofit dedicated to nurturing open source projects through collaborative innovation.
