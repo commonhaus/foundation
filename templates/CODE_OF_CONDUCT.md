@@ -1,5 +1,5 @@
 ---
-status: template-draft
+status: template
 instructions: Replace [Project Name], update Contact information, delete YAML frontmatter when you are good to go
 ---
 # [Project Name] Code of Conduct
