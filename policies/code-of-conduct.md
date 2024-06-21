@@ -1,6 +1,3 @@
----
-status: draft
----
 # Code of Conduct
 
 Welcome to the Code of Conduct (CoC) for the Commonhaus Foundation (CF). We're dedicated to creating a respectful, inclusive, and collaborative environment. This document outlines expected behavior in our community and provides a framework for addressing and resolving issues in a fair and respectful manner.
