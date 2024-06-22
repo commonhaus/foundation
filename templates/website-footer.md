@@ -1,6 +1,6 @@
 # Copyright notices for project website footers
 
-For those building or managing a website for a Commonhaus Foundation project, you should include mention of the Commonhaus Foundation in your website footers. Some examples are provided below (replace the links to YOUR PROJECT to point to the full URL of the main landing page for your project's website).
+For those building or managing a website for a Commonhaus Foundation project, you must include mention of the Commonhaus Foundation in your website footers. Some examples are provided below (replace the links to YOUR PROJECT to point to the full URL of the main landing page for your project's website).
 
 The Trademark text and links are the important part. If you want to integrate the footer to your website's design (e.g. light and dark mode, different HTML or CSS elements), you may.  See the [artwork repository](https://github.com/commonhaus/artwork/tree/main/foundation/brand) for logo variations.
 
