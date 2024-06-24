@@ -1,6 +1,3 @@
----
-status: draft
----
 # Commonhaus Templates
 
 We don't want project on-boarding to be a burden.

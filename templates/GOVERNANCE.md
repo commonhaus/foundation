@@ -1,6 +1,9 @@
 ---
-status: template-draft
-instructions: Replace [Project Name], update Contact information, delete YAML frontmatter when you are good to go
+status: template
+instructions:
+  - Replace [Project Name]
+  - Update Contact Information and other content to match the practices of your project
+  - Delete YAML frontmatter when you are good to go
 ---
 # [Project Name] Governance
 
