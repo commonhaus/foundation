@@ -86,7 +86,7 @@ The following are examples of proper and improper usage of these trademarks of t
     - Correct: [CF Mark]‘s technical conferences are held ...
 
 - Do Not Use CF Marks that are not listed, or use Forms of CF Marks that vary from the list. Even a seemingly innocuous deviation may create a new and different trademark.
-    - Do not shorten, abbreviate or create acronyms out of GNOME Trademarks.
+    - Do not shorten, abbreviate or create acronyms out of CF Trademarks.
     - A trademark that is depicted as or more words should never be compressed into one word or vise versa.
     - Check the list of CF Marks at <https://www.commonhaus.org/trademarks/> to verify exactly how the marks should appear.
 
