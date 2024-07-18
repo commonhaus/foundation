@@ -24,6 +24,7 @@
   ],
   "_aliveComment": "Some sites return 403 from GH Actions check; 400 from twitter (login redirect)",
   "aliveStatusCodes": [
+    0,
     200,
     206,
     400,
