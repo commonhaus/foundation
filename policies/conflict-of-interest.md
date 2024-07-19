@@ -1,6 +1,3 @@
----
-status: draft
----
 # Conflict of Interest Policy
 
 This document outlines the Conflict of Interest Policy for the Commonhaus Foundation (CF), setting the framework for identifying, disclosing, and managing potential conflicts of interest to protect the Foundation’s interest when it is contemplating entering a [transaction](#definitions) that might benefit the personal or professional interests of a [covered individual](#scope-of-application).
