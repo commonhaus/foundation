@@ -1,6 +1,3 @@
----
-status: draft
----
 # Commonhaus Foundation Policies
 
 The CF is committed to complying with all applicable laws and regulations related to nonprofit operations, intellectual property, employment, and other relevant domains.

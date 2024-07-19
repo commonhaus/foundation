@@ -1,6 +1,3 @@
----
-status: draft
----
 # Intellectual Property Policy
 
 The Commonhaus Foundation (CF) supports individual projects (each, a “Project” and together, the “Projects”).
