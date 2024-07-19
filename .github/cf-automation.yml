@@ -1,4 +1,22 @@
 notice:
+  discussion_comment:
+    rules:
+      - # If a comment is added to an "interesting" PR, send it to the EGC list
+        action: [created]
+        label:
+        - notice
+        - "vote/open"
+        - "vote/done"
+        then: [egc]
+  issue_comment:
+    rules:
+      - # If a comment is added to an "interesting" PR, send it to the EGC list
+        action: [created]
+        label:
+        - notice
+        - "vote/open"
+        - "vote/done"
+        then: [egc]
   discussion:
     rules:
       - # If a discussion is created in Announcements or Consensus Building
@@ -8,7 +26,7 @@ notice:
           - Consensus Building
         label: [notice]
         action: [created]
-        then: [announce]
+        then: [announce, egc]
       - # If a discussion is created in or moved to Announcements or Consensus Building
         # and it does not have the notice label, apply the notice label
         category:
@@ -17,10 +35,14 @@ notice:
         label: ["!notice"]
         action: [created, category_changed]
         then: [apply_notice]
-      - # If the notice, vote/open, or vote/done label is applied, send email
+      - # If the notice label is applied, send email to announce and egc lists
         action: [labeled]
         label_change:
           - notice
+        then: [announce, egc]
+      - # If the vote/open, or vote/done label is applied, send email to announce
+        action: [labeled]
+        label_change:
           - "vote/open"
           - "vote/done"
         then: [announce]
@@ -41,10 +63,14 @@ notice:
           - policies/*
         label: ["!notice"]
         then: [apply_notice]
-      - # If the notice, vote/open, or vote/done label is applied, send email
+      - # If the notice label is applied, send email to announce and egc lists
         action: [labeled]
         label_change:
           - notice
+        then: [announce, egc]
+      - # If the vote/open, or vote/done label is applied, send email to announce
+        action: [labeled]
+        label_change:
           - "vote/open"
           - "vote/done"
         then: [announce]
@@ -58,6 +84,9 @@ notice:
     announce:
       address:
       - announce@commonhaus.org
+    egc:
+      address:
+      - cf-egc@commonhaus.org
 
 voting:
   exclude_login:
