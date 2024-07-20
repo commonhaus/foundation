@@ -30,21 +30,19 @@ The Project Documentation License can be any OSI-approved license or a Creative 
 
 ## Contributions
 
+All new code contributions to any Project must be made under the Project Code License. Contributions must be accompanied by either a Developer Certificate of Origin (DCO available at <http://developercertificate.org/>) or a Contributor License Agreement (CLA), as determined by the project’s technical governing body. The DCO or CLA binds the individual contributor and, if applicable, their employer to the Project Code License.
+
 > [!TIP]
-> All code contributions must align with the project’s license and come with a promise (DCO) from contributors that they have the right to contribute under these terms.
-
-All new code contributions to any Project shall be made under the Project Code License accompanied by a Developers Certificate of Origin (DCO, available at <http://developercertificate.org/>), which will bind the individual contributor and, if applicable, their employer to the Project Code License.
-
-The technical governing body of each Project may provide for additional requirements with respect to contributions. For example, a Project may require that new code contributions to a Project be accompanied by a signed Contributor License Agreement (CLA).
+> All code contributions must align with the project’s license and come with a promise (DCO or CLA) from contributors that they have the right to contribute under these terms.
 
 ### Developers Certificate of Origin (DCO) or Contributor License Agreement (CLA)?
 
 The DCO and CLA differ in their approach to intellectual property rights.
 
-- A DCO is a straightforward way for contributors to assert their rights to submit work, typically through a declaration in the commit message.
-- A CLA is a formal agreement that allows contributors to grant broader rights over their contributions to the project.
+- A DCO is a straightforward method for contributors to assert their rights to submit work, typically through a declaration in the commit message.
+- A CLA is a formal agreement that grants the project broader rights over the contributions.
 
-While CLAs can offer projects flexibility in managing licenses and more control over contributions, DCOs favor ease of participation with a less formal mechanism for contribution.
+While a CLA offers flexibility in managing licenses and greater control over contributions, a DCO facilitates ease of participation with a less formal mechanism for contribution.
 
 ## Intellectual Property Rights
 
@@ -67,12 +65,12 @@ Project leaders should ensure compliance with this policy and provide clear guid
 ## Collaborations and External Projects
 
 > [!TIP]
-> Always check and follow the license rules of any external open source projects we interact with.
+> Always check and follow the license rules of any external or upstream open source projects used by Foundation projects.
 > If an upstream project uses a non-OSI license, the [CF Council (CFC)][cfc] can approve exceptions if needed.
 
-Engaging with external open source projects requires awareness and respect for their licensing terms to ensure our contributions are legally compatible. This ensures our projects can seamlessly integrate or collaborate with these external projects without infringing on their or our license terms.
+Engaging with external open source projects requires awareness and respect for their licensing terms to ensure our contributions are legally compatible. This ensures projects can seamlessly integrate or collaborate with these external projects without infringing on their or the Foundation's license terms.
 
-When collaborating with external open source projects ("Upstream Projects") conform to all license requirements of the Upstream Projects, including dependencies, leveraged by the Project. If an alternative inbound or outbound license is required for compliance with the license for an Upstream Project or is otherwise required to achieve the Commonhaus Foundation’s, or an individual Project’s, objectives, the CFC may approve the use of an alternative license for inbound or outbound contributions on an exception basis.
+When collaborating with external open source projects ("Upstream Projects"), conform to all license requirements of the Upstream Projects, including dependencies leveraged by the Project. If an alternative inbound or outbound license is required for compliance with the license for an Upstream Project or is otherwise required to achieve the Commonhaus Foundation’s, or an individual Project’s, objectives, the CFC may approve the use of an alternative license for inbound or outbound contributions on an exception basis.
 
 ### Copyright Statements
 
@@ -87,13 +85,13 @@ If your project wants to add copyrights to source code, we recommend one of the 
 Updating the year after the file is created is unnecessary.
 
 > [!NOTE]
-> Do not alter existing copyright lines unless you have the right to do so.
+> Do not alter existing copyright statements unless you have the right to do so.
 
 ## Obtaining an Exemption
 
 If this IP Policy doesn't cater to your project's needs, request special permission from the CFC.
 
-To request an exemption, send an email to the [`council` mailing list][CONTACTS.yaml]. Further instructions will be provided based on the specifics of your request.
+To request an exemption, send an email to the [`council` mailing list][CONTACTS.yaml]. Specific instructions will be provided based on your request.
 
 ## Review of Policy
 
