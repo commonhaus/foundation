@@ -113,3 +113,13 @@ sdkman:
     SDKMAN! is a robust tool designed for managing parallel versions of multiple Software Development
     Kits (SDKs) on Unix-based systems. An intuitive command-line interface simplifies the installation,
     updating, and switching of executables for various SDKs, including Java, Kotlin, Scala, and Groovy.
+
+quarkus:
+  name: Quarkus
+  home: https://quarkus.io/
+  repo: https://github.com/quarkusio
+  logo: https://github.com/quarkusio/quarkus/blob/main/core/deployment/src/main/resources/META-INF/branding/logo.png?raw=true
+  wordmark: false
+  description: >
+    Quarkus is a Kubernetes Native Java stack tailored for OpenJDK HotSpot and GraalVM, crafted from the best of breed Java libraries and standards.
+    
