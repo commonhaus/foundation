@@ -39,7 +39,7 @@ The files in this folder are our recommendations for what CF projects should def
 
 ## Policy Panda
 
-This repository has a script that does a basic check if a GitHub repository/organization has the recommended files. 
+This repository has a script that does a basic check if a GitHub repository/organization has the recommended files.
 
 You run it like this: `jbang policypanda@commonhaus/foundation hibernate` where `hibernate` is the GitHub organization name.
 
