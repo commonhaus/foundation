@@ -31,11 +31,26 @@ By becoming a member, you're not just supporting us financially; you're joining 
 
 Your voice and vote as a member play a vital role in our collective success. We welcome all who wish to contribute to our mission and share in our achievements.
 
+## Contribute a Project
+
+Are you looking for a long-term home for your open source project? We are here to support its growth and sustainability.
+
+If you maintain a project that could be a good fit for the Commonhaus Foundation, [create a discussion](https://github.com/commonhaus/foundation/discussions/categories/joining-commonhaus) and let us know more about it.
+
+We are currently finalizing our formal application and acceptance process, but we are excited to start the conversation. We are especially interested in active, mature open source projects.
+
+**How to Contribute Your Project:**
+
+1. **Start a Discussion**: Begin by [starting a discussion on GitHub](https://github.com/commonhaus/foundation/discussions/categories/joining-commonhaus). This allows us to understand your project and how it aligns with our mission.
+2. **Fill Out the Template**: Our discussion template will guide you through providing the necessary details about your project.
+3. **Initial Review**: Once the discussion is started, our team will review your submission and reach out for further discussions if needed.
+4. **Acceptance and Onboarding**: After a successful review, we will discuss the onboarding process, including the steps to integrate your project into our community and the support we offer to ensure its success.
+
+We look forward to learning more about your project and how we can work together to support your project over the long haul.
+
 ## Contact us
 
 We’d love to hear from you! Whether you have questions, suggestions, or just want to say hello, please contact us: [start a Discussion](https://github.com/commonhaus/foundation/discussions) or [use our online form](https://forms.gle/t2d4DR6CxXSag26s5). Your input is valuable to us, and we're here to listen and respond to your community-related inquiries.
-
-- **Have a project in mind?** If you maintain a project that could be a good fit for the Commonhaus Foundation, [create a discussion](https://github.com/commonhaus/foundation/discussions/categories/joining-commonhaus) and let us know more about it.
 
 ## Let's build together
 
