@@ -49,6 +49,6 @@ Example:
 
 ```shell
 jbang policypanda@commonhaus/foundation hibernate -r "hibernate-orm|hibernate-validator"
-``` 
+```
 
 would only check the repositories that match `hibernate-orm` or `hibernate-validator`.
