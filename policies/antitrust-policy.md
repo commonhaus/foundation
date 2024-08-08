@@ -6,11 +6,11 @@ The Commonhaus Foundation (CF) requires that all members, activities, projects, 
 
 ## Scope
 
-This policy applies to all participants in Commonhaus Foundation activities, including but not limited to general members, project representatives, councilors, and contributors to CF projects. It is designed to complement the [Conflict of Interest Policy](./conflict-of-interest.md) and other governance documents of the foundation.
+This policy applies to all participants in Commonhaus Foundation activities, including but not limited to general members, project representatives, councilors, and committee members. It is designed to complement the [Conflict of Interest Policy](./conflict-of-interest.md) and other governance documents of the foundation.
 
 ## Commitment to Compliance
 
-By participating in official or informal CF activities, participants commit to upholding this policy and promoting fair competition.
+By participating in any official or informal activities of the Foundation that are directly related to its governance or operations, participants commit to upholding this policy and promoting fair competition.
 
 ## General Principles
 
@@ -29,13 +29,15 @@ By participating in official or informal CF activities, participants commit to u
 
 ## Participation in Foundation activities
 
-1. **Open participation**: The foundation encourages open participation in its projects and activities. Membership in CF should not be used to exclude or disadvantage any individual or entity.
-2. **Intellectual property**: Members should adhere to the [Intellectual Property Policy](./ip-policy.md), ensuring that participation in CF projects does not restrict competition or the free use of technologies.
-3. **Governance practices**: Project representatives must ensure that the governance practices used by their projects adhere to this anti-trust policy.
+The foundation encourages open participation in its projects and activities. Membership in CF should not be used to exclude or disadvantage any individual or entity.
 
 ## Handling Violations
 
 Any reported or suspected violations of this policy will be promptly investigated by the CF Council.
+
+### Reporting a Violation
+
+Any suspected violations of this policy should be directed to the [report mailing list](https://github.com/commonhaus/foundation/blob/main/CONTACTS.yaml)
 
 ## Consequences of Violations
 
