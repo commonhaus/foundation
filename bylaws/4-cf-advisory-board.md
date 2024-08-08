@@ -1,24 +1,24 @@
----
-status: draft
-weight: 4
----
 # Commonhaus Foundation Advisory Board
 
-The Commonhaus Foundation (CF) Advisory Board comprises representatives from organizations and companies that support the CF. It acts as a bridge between the CF and the broader tech industry, providing diverse insights and strategic guidance to inform CF Council (CFC) decisions.
+The Commonhaus Foundation (CF) Advisory Board comprises representatives from organizations and companies that support the CF. It serves as a bridge between the CF and the broader tech industry, providing diverse insights and strategic guidance to inform CF Council (CFC) decisions.
 
-The Advisory Board does not have decision-making authority. Members or employees of participating organizations and companies may be [members of the CF][membership], but must vote in their own name, free of any pressure from their organization or company.
+Although the Advisory Board does not possess decision-making authority, it helps shape the foundation’s direction through its advisory capacity.
 
-However, the Advisory Board plays a crucial role in shaping the foundation's direction through advice and industry perspectives. The structure is designed to ensure robust representation and dialogue:
+> [!NOTE]
+> Members or employees of participating organizations and companies may be [members of the CF][membership], but must vote in their own name, free of any pressure from their organization or company.
 
-- **Representation**: Each Advisory Board member organization may appoint up to two representatives. This dual representation maximizes the likelihood of attendance and ensures a breadth of perspectives, mirroring the Gnome Foundation's approach to encourage diverse viewpoints from vendors.
+The structure of the Advisory Board ensures robust representation and dialogue, designed to maximize the benefit of diverse industry perspectives:
 
-- **Diversity of Insight**: Where possible, organizations are encouraged to appoint representatives who bring different types of expertise or experience, such as a managerial and a technical perspective, to contribute to a well-rounded advisory process.
+- **Representation**: Each Advisory Board member organization may appoint up to two representatives.
+This dual representation maximizes the likelihood of attendance and ensures a breadth of perspectives, mirroring the GNOME Foundation's approach to encourage diverse viewpoints from vendors.
 
-- **Meetings**: The Advisory Board convenes with the CFC semi-annually, providing a platform for collaborative review and feedback on the CF's direction, initiatives, and impact on the industry.
+- **Diversity of Insight**: Organizations are encouraged to appoint representatives with different types of expertise or experience, such as managerial and technical perspectives, to contribute to a well-rounded advisory process.
 
-- **Communication**: Representatives are expected to actively communicate the needs and concerns of their organizations, while also conveying the goals and achievements of the CF to their respective constituencies.
+- **Meetings**: The Advisory Board meets with the CFC semi-annually for collaborative review and feedback on the CF’s direction, initiatives, and industry impact.
 
-- **Engagement**: The Advisory Board's engagement is pivotal in aligning the CF's strategic initiatives with industry needs, ensuring that the foundation remains relevant and responsive to the ecosystem it serves.
+- **Communication**: Representatives are expected to actively communicate their organizations’ needs and concerns while conveying the goals and achievements of the CF to their constituencies.
+
+- **Engagement**: The Advisory Board’s engagement helps align the CF’s strategic initiatives with industry needs, ensuring the foundation remains relevant and responsive to its ecosystem.
 
 An up-to-date list of Advisory Board representatives will be maintained in the `advisory-board` [CONTACTS.yaml][] attribute.
 
