@@ -37,6 +37,10 @@ By participating in official or informal CF activities, participants commit to u
 
 Any reported or suspected violations of this policy will be promptly investigated by the CF Council.
 
+### Reporting a Violation
+
+Any suspected violations of this policy should be directed to the [report mailing list](https://github.com/commonhaus/foundation/blob/main/CONTACTS.yaml)
+
 ## Consequences of Violations
 
 Antitrust law violations can lead to severe consequences, including heavy fines for both companies and individuals, imprisonment in some jurisdictions, civil claims for damages by affected parties, and reputational damage to members and the CF.
