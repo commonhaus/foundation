@@ -74,6 +74,15 @@ jreleaser:
       to multiple platforms, integrating with Maven, Gradle, and more. Simplify your release process,
       from changelogs to deployment.
 
+maveniverse:
+  name: Maveniverse
+  home: https://github.com/maveniverse
+  repo: https://github.com/maveniverse
+  logo: -
+  wordmark: false
+  description: >
+    Maveniverse, a "skunkworks" project of Apache Maven by developers of Apache Maven.
+
 morphia:
   name: Morphia
   repo: https://github.com/MorphiaOrg/
