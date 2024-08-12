@@ -42,7 +42,7 @@ Explanation of the difference between DCO and CLA: <https://www.consortiuminfo.o
     ```md
     Contributor License Agreement
 
-    Contributions to JReleaser are protected by a CLA.
+    Contributions to My_Cool_Commonhaus_Project are protected by a CLA.
     Please read the document before making a contribution.
     You’ll be asked to digitally sign the document on your first contribution.
     Feel free to open a discussion topic if you have questions.
