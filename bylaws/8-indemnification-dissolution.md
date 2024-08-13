@@ -38,7 +38,8 @@ The Foundation may, at the discretion of the CF Council (CFC), extend indemnific
 > The council can choose to extend this coverage to staff and committee members if they decide it’s appropriate.
 
 **Standard of Conduct.**
-This indemnification extends to all reasonable expenses (including attorneys’ fees), judgments, fines, and other amounts paid in settlement by the person in connection with the action, so long as the person:
+
+This indemnification extends to all reasonable expenses (like legal fees), judgments, fines, and settlement amounts that a person may have to pay in connection with a legal action, so long as the person:
 
 1. acted in good faith and in a manner they reasonably believed to be consistent with the best interests of the Foundation, and
 2. had no reason to believe their conduct was unlawful, in the case of criminal matters.
@@ -47,7 +48,8 @@ This indemnification does not extend to a person who is found liable to the Foun
 Otherwise, the outcome of an action will not alone create a presumption that a person did not act in good faith, in the best interests of the Foundation, or with lawful intent.
 
 > [!TIP]
-> If the Foundation sues someone or they are found liable to the Foundation, they won't be covered. Just being sued doesn't mean they did something wrong.
+> If the Foundation brings a lawsuit against a person, or if the person is found responsible for wrongdoing in such a lawsuit, they will not be covered by this indemnification.
+> Being involved in a lawsuit does not mean the person did something wrong.
 
 Relevant Florida Statutes:
 
