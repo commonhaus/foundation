@@ -2,114 +2,116 @@
 # Summary about Commonhaus Foundation projects
 #
 # name: Project Name
-# home: preferred landing page
 # repo: gitlab/github/... organization or project repository
-# logo: Link to preferred logo to use on commonhaus.org website
-# logo-dark: Link to preferred logo to use in dark mode (optional)
-# wordmark: true if the above logo also contains the project name
-# description: a short-ish description of the project
-#
-# Unpublished (or early stage), use draft: true
+# display:
+#   home: preferred landing page
+#   logo: (optional) Link to preferred logo to use on commonhaus.org website
+#   logo-dark: (optional) Link to preferred logo to use in dark mode
+#   description: a short-ish description of the project
+# mail-aliases: (block is optional, use if your project provides custom email aliases)
+#   domain: custom email alias domain
+#   team: 'organization/team'  GH team defining eligible logins (alias will be login@domain)
+# draft: (optional) true while unpublished or early stage
 
 easymock:
   name: EasyMock
-  home: https://easymock.org/
   repo: https://github.com/easymock/easymock
-  logo: https://github.com/easymock/easymock/blob/master/website/img/easymock-logo-md.png?raw=true
-  wordmark: true
-  description: >
-    EasyMock, makes mocking easier since 2001.
+  display:
+    home: https://easymock.org/
+    logo: https://github.com/easymock/easymock/blob/master/website/img/easymock-logo-md.png?raw=true
+    description: >
+      EasyMock, makes mocking easier since 2001.
 
 feign:
   name: Feign
-  home: https://github.com/OpenFeign/feign
   repo: https://github.com/OpenFeign/feign
-  logo:
-  wordmark: false
-  description: >
-    Feign is a Java to HTTP client binder inspired by Retrofit, JAXRS-2.0, and WebSocket. Feign's first
-    goal was reducing the complexity of binding Denominator uniformly to HTTP APIs regardless of ReSTfulness.
+  display:
+    home: https://github.com/OpenFeign/feign
+    logo:
+    description: >
+      Feign is a Java to HTTP client binder inspired by Retrofit, JAXRS-2.0, and WebSocket. Feign's first
+      goal was reducing the complexity of binding Denominator uniformly to HTTP APIs regardless of ReSTfulness.
 
 hibernate:
   name: Hibernate
-  home: https://hibernate.org/
   repo: https://github.com/hibernate/
-  logo: https://github.com/hibernate/hibernate.org/blob/production/images/hibernate-logo.svg?raw=true
-  wordmark: true
-  description: >
-    The Hibernate projects offer a suite of powerful Java libraries to work with data.
-    It is best known for Hibernate ORM, which provides relational persistence for Java models and is an implementation of the Jakarta Persistence specification.
+  display:
+    home: https://hibernate.org/
+    logo: https://github.com/hibernate/hibernate.org/blob/production/images/hibernate-logo.svg?raw=true
+    description: >
+      The Hibernate projects offer a suite of powerful Java libraries to work with data.
+      It is best known for Hibernate ORM, which provides relational persistence for Java models and is an implementation of the Jakarta Persistence specification.
 
 jackson:
   name: Jackson
-  home: https://github.com/FasterXML/jackson
   repo: https://github.com/FasterXML/jackson
-  logo: https://avatars.githubusercontent.com/u/382692?s=200&v=4
-  wordmark: false
-  description: >
-    The go-to library for JSON processing in Java. Jackson offers fast and flexible parsing/generation
-    of JSON for Java applications, enabling seamless data interchange.
+  display:
+    home: https://github.com/FasterXML/jackson
+    logo: https://avatars.githubusercontent.com/u/382692?s=200&v=4
+    description: >
+      The go-to library for JSON processing in Java. Jackson offers fast and flexible parsing/generation
+      of JSON for Java applications, enabling seamless data interchange.
 
 jbang:
   name: JBang
-  home: https://www.jbang.dev/
   repo: https://github.com/jbangdev
-  logo: https://www.jbang.dev/assets/images/logo.png
-  wordmark: true
-  description: >
-    Unlock Java's scripting potential. JBang makes it easy to run Java applications as scripts
-    without the need for a project setup or build configuration. Ideal for quick experiments,
-    prototypes, or utility scripts.
+  display:
+    home: https://www.jbang.dev/
+    logo: https://www.jbang.dev/assets/images/logo.png
+    description: >
+      Unlock Java's scripting potential. JBang makes it easy to run Java applications as scripts
+      without the need for a project setup or build configuration. Ideal for quick experiments,
+      prototypes, or utility scripts.
 
 jreleaser:
   name: JReleaser
-  home: https://jreleaser.org/
   repo: https://github.com/jreleaser
-  logo: https://jreleaser.org/images/jreleaser-duke.png
-  wordmark: false
-  description: >
-    Automate your Java project releases with ease. JReleaser streamlines packaging and distribution
-    to multiple platforms, integrating with Maven, Gradle, and more. Simplify your release process,
-    from changelogs to deployment.
+  display:
+    home: https://jreleaser.org/
+    logo: https://jreleaser.org/images/jreleaser-duke.png
+    description: >
+      Automate your Java project releases with ease. JReleaser streamlines packaging and distribution
+      to multiple platforms, integrating with Maven, Gradle, and more. Simplify your release process,
+      from changelogs to deployment.
 
 morphia:
   name: Morphia
-  home: https://morphia.dev/
   repo: https://github.com/MorphiaOrg/
-  logo: https://github.com/MorphiaOrg/morphia-docs/blob/master/supplemental-ui/img/logo.png?raw=true
-  wordmark: false
-  description: >
-    Bridge the gap between Java and MongoDB. Morphia provides a lightweight type-safe mapping library
-    to simplify working with MongoDB documents using Java.
+  display:
+    home: https://morphia.dev/
+    logo: https://github.com/MorphiaOrg/morphia-docs/blob/master/supplemental-ui/img/logo.png?raw=true
+    description: >
+      Bridge the gap between Java and MongoDB. Morphia provides a lightweight type-safe mapping library
+      to simplify working with MongoDB documents using Java.
 
 objenesis:
   name: Objenesis
-  home: https://objenesis.org/
   repo: https://github.com/easymock/objenesis
-  logo: https://github.com/easymock/objenesis/blob/master/website/site/resources/objenesis.png?raw=true
-  wordmark: true
-  description: >
-    Objenesis is a small Java library that serves one purpose: To instantiate a new object of a particular class
-    WITHOUT calling one of its constructors.
+  display:
+    home: https://objenesis.org/
+    logo: https://github.com/easymock/objenesis/blob/master/website/site/resources/objenesis.png?raw=true
+    description: >
+      Objenesis is a small Java library that serves one purpose: To instantiate a new object of a particular class
+      WITHOUT calling one of its constructors.
 
 openrewrite:
   name: OpenRewrite
-  home: https://docs.openrewrite.org/
   repo: https://github.com/openrewrite
-  logo: https://www.commonhaus.org/images/OpenRewrite_WordmarkTM_MidnightBlue.png
-  logo-dark: https://www.commonhaus.org/images/OpenRewrite_WordmarkTM_White.png
-  wordmark: false
-  description: >
-    Automate the refactoring of your Java codebase. OpenRewrite offers scalable, safe, and idempotent
-    code transformations to modernize and maintain your applications.
+  display:
+    home: https://docs.openrewrite.org/
+    logo: https://www.commonhaus.org/images/OpenRewrite_WordmarkTM_MidnightBlue.png
+    logo-dark: https://www.commonhaus.org/images/OpenRewrite_WordmarkTM_White.png
+    description: >
+      Automate the refactoring of your Java codebase. OpenRewrite offers scalable, safe, and idempotent
+      code transformations to modernize and maintain your applications.
 
 sdkman:
   name: SDKMAN!
-  home: https://sdkman.io/
   repo: https://github.com/sdkman
-  logo: https://github.com/sdkman/sdkman-website/blob/master/public/img/bubble-logo-sdkman-groovy-color.png?raw=true
-  wordmark: false
-  description: >
-    SDKMAN! is a robust tool designed for managing parallel versions of multiple Software Development
-    Kits (SDKs) on Unix-based systems. An intuitive command-line interface simplifies the installation,
-    updating, and switching of executables for various SDKs, including Java, Kotlin, Scala, and Groovy.
+  display:
+    home: https://sdkman.io/
+    logo: https://github.com/sdkman/sdkman-website/blob/master/public/img/bubble-logo-sdkman-groovy-color.png?raw=true
+    description: >
+      SDKMAN! is a robust tool designed for managing parallel versions of multiple Software Development
+      Kits (SDKs) on Unix-based systems. An intuitive command-line interface simplifies the installation,
+      updating, and switching of executables for various SDKs, including Java, Kotlin, Scala, and Groovy.
