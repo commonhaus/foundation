@@ -105,6 +105,16 @@ openrewrite:
       Automate the refactoring of your Java codebase. OpenRewrite offers scalable, safe, and idempotent
       code transformations to modernize and maintain your applications.
 
+quarkus:
+  name: Quarkus
+  repo: https://github.com/quarkusio
+  display:
+    home: https://quarkus.io/
+    logo: https://github.com/quarkusio/quarkus/blob/main/core/deployment/src/main/resources/META-INF/branding/logo.png?raw=true
+    wordmark: false
+    description: >
+      Quarkus is a Kubernetes Native Java stack tailored for OpenJDK HotSpot and GraalVM, crafted from the best of breed Java libraries and standards.
+
 sdkman:
   name: SDKMAN!
   repo: https://github.com/sdkman
