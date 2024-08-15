@@ -66,11 +66,13 @@ egc:
 # - organization: Name (should match name in ...)
 #   login: representative's github id
 #   avatarAlt: Optional. Avatar to show in addition to github avatar
-#   bio: Short description/bio to use instead of GH profile description
+#   bio: Optional. Short description/bio to use instead of GH profile description
 #
 advisory-board:
-  - organization: Name
-    login: ...
+  - organization: MongoDB
+    login: ashni-mongodb
+  - organization: MongoDB
+    login: techbelle
   - organization: Name
     login: ...
 

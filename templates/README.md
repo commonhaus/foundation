@@ -36,3 +36,19 @@ The files in this folder are our recommendations for what CF projects should def
 - **CODEOWNERS** to define individuals or teams that are responsible for code in a repository
     - [About Code Owners (GitHub)](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-code-owners).
     - [Code Owners (GitLab)](https://docs.gitlab.com/ee/user/project/codeowners/)
+
+## Policy Panda
+
+This repository has a script that does a basic check if a GitHub repository/organization has the recommended files.
+
+You run it like this: `jbang policypanda@commonhaus/foundation hibernate` where `hibernate` is the GitHub organization name.
+
+If you want it to only check specific repositories, you can use the `-r` to specify a regular expression.
+
+Example:
+
+```shell
+jbang policypanda@commonhaus/foundation hibernate -r "hibernate-orm|hibernate-validator"
+```
+
+would only check the repositories that match `hibernate-orm` or `hibernate-validator`.

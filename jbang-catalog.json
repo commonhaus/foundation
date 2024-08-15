@@ -1,0 +1,10 @@
+{
+  "catalogs": {},
+  "aliases": {
+    "policypanda": {
+      "script-ref": "templates/PolicyPanda.java",
+      "java-agents": []
+    }
+  },
+  "templates": {}
+}
