@@ -48,7 +48,7 @@ This indemnification does not extend to a person who is found liable to the Foun
 Otherwise, the outcome of an action will not alone create a presumption that a person did not act in good faith, in the best interests of the Foundation, or with lawful intent.
 
 > [!TIP]
-> If the Foundation brings a lawsuit against a person, or if the person is found responsible for wrongdoing in such a lawsuit, they will not be covered by this indemnification.
+> If the Foundation brings a lawsuit against a person, or if the person is found responsible for wrongdoing in such a lawsuit, that person will not be covered by this indemnification.
 > Being involved in a lawsuit does not mean the person did something wrong.
 
 Relevant Florida Statutes:
