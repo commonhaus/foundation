@@ -58,7 +58,9 @@ egc:
     login: dandreadis
   - project: otcframework
     login: frank-a-otc
-
+  - project: ...
+    login: ...
+    
 #--------------------------------------------------------------------------
 # Advisory Board members (appointed)
 # name, avatarUrl, company, bio will be pulled from GitHub profile
