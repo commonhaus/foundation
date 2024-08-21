@@ -1,6 +1,6 @@
 # Commonhaus Foundation Bootstrapping Agreement
 
-- Project: OTC Framework
+- Project: otcframework
 - EGC representative: frank-a-otc
 
 This document outlines the preliminary, non-binding agreement for the establishment phase of the Commonhaus Foundation (CF), aiming to foster a collaborative community dedicated to open source projects.
@@ -67,7 +67,7 @@ By making a signed commit to this document in the Commonhaus Foundation's reposi
 
 This digital action is considered a valid form of written consent, in line with the foundation's bylaws on electronic participation and decision-making.
 
-Project Name: OTC Framework
+Project Name: otcframework
 
 EGC Representative GitHub Username: frank-a-otc
 
