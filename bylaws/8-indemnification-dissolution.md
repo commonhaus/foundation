@@ -33,9 +33,12 @@ Subject to the limitations set forth in this Section, the Foundation shall, to t
 The Foundation may, at the discretion of the CF Council (CFC), extend indemnification to employees, committee members, and other agents of the Foundation as determined appropriate by the CFC.
 
 > [!TIP]
-> This means the Foundation will cover costs and losses for council members and officers who are sued because of their role in the Foundation, as long as they acted honestly and in the Foundation's best interest.
+> This means the Foundation will cover costs and losses for council members and [officers][] who are sued because of their role in the Foundation, as long as they acted honestly and in the Foundation's best interest.
 >
-> The council can choose to extend this coverage to staff and committee members if they decide it’s appropriate.
+> The council can choose to extend this coverage to staff and [committee members][committee] if they decide it’s appropriate.
+
+[officers]: ./3-cf-council.md#officer-roles-and-appointment
+[committee]: ./3-cf-council.md#committees-and-delegation
 
 **Standard of Conduct.**
 
