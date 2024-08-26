@@ -1,6 +1,3 @@
----
-status: draft
----
 # Conflict of Interest Policy
 
 This document outlines the Conflict of Interest Policy for the Commonhaus Foundation (CF), setting the framework for identifying, disclosing, and managing potential conflicts of interest to protect the Foundation’s interest when it is contemplating entering a [transaction](#definitions) that might benefit the personal or professional interests of a [covered individual](#scope-of-application).
@@ -11,7 +8,8 @@ This document outlines the Conflict of Interest Policy for the Commonhaus Founda
     - [Procedures for Determining Compensation](#procedures-for-determining-compensation)
 - [Disclosing Potential Conflicts of Interest](#disclosing-potential-conflicts-of-interest)
 - [Determining Whether a Conflict of Interest Exists](#determining-whether-a-conflict-of-interest-exists)
-    - [Records of Review](#records-of-review)
+- [Records of Review](#records-of-review)
+    - [Annual Disclosure and Compliance](#annual-disclosure-and-compliance)
 - [Review of Policy](#review-of-policy)
 
 ## Scope of Application
@@ -60,7 +58,7 @@ It is important to note that the existence of a conflict does not mean the trans
 
 Upon the disclosure of a potential conflict, the CFC shall determine if a conflict of interest exists. The CFC may ask questions of and receive presentation(s) from the covered individual(s) and any other interested person(s), but shall deliberate and vote on the transaction in their absence.
 
-### Records of Review
+## Records of Review
 
 The minutes of any CFC meeting that addresses conflict of interest disclosure or resolution will include:
 
@@ -68,7 +66,7 @@ The minutes of any CFC meeting that addresses conflict of interest disclosure or
 - Details on alternative options reviewed, the Councilors who deliberated and voted, including how conflicts of interest were managed during these discussions.
 - The outcome of the vote, specifying the transaction's terms and approval date if relevant.
 
-#### Annual Disclosure and Compliance
+### Annual Disclosure and Compliance
 
 - Councilors, EGC Members, and key employees (if any) must annually affirm that they have received, read, understood this policy, and that they agree to comply with it.
 - General members must affirm that they have received, read, understood this policy, and that they agree to comply with it, when applicable.
