@@ -125,3 +125,12 @@ sdkman:
       SDKMAN! is a robust tool designed for managing parallel versions of multiple Software Development
       Kits (SDKs) on Unix-based systems. An intuitive command-line interface simplifies the installation,
       updating, and switching of executables for various SDKs, including Java, Kotlin, Scala, and Groovy.
+
+otcframework:
+  name: OTCFramework
+  repo: https://github.com/frank-a-otc/otcframework
+  display:
+    home: https://otcframework.org/
+    logo: https://github.com/frank-a-otc/otcframework/blob/develop/design/otc-logo-01.png
+    description: >
+      OTC Framework is a good candidate because it is a very productive data-transformation Java source-code-generator for software developers to facilitate rapid development released under the Apache 2.0 open source license.
