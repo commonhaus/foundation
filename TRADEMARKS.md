@@ -31,6 +31,7 @@ The Commonhaus Foundation uses the following unregistered trademarks:
 - OpenRewrite &trade; [^1]
 - Quarkus &trade; [^1]
 - SDKMAN! &trade; [^1]
+- Maveniverse &trade; [^1]
 
 ## Logo Marks
 
