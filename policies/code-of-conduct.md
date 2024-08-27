@@ -4,6 +4,7 @@ Welcome to the Code of Conduct (CoC) for the Commonhaus Foundation (CF). We're d
 
 - [Our Code of Conduct](#our-code-of-conduct)
     - [Member Expectations](#member-expectations)
+    - [Leadership Expectations](#leadership-expectations)
     - [Report an issue](#report-an-issue)
     - [Confidentiality and Safety](#confidentiality-and-safety)
     - [Respond to a CoC issue](#respond-to-a-coc-issue)
@@ -13,13 +14,13 @@ Welcome to the Code of Conduct (CoC) for the Commonhaus Foundation (CF). We're d
     - [Conflict of Interest](#conflict-of-interest)
     - [Reports to the CoC report mailing list](#reports-to-the-coc-report-mailing-list)
     - [Reports to the CoC Escalation mailing list](#reports-to-the-coc-escalation-mailing-list)
-- **Contributor Covenant Code of Conduct**
+- [Contributor Covenant Code of Conduct](#contributor-covenant-code-of-conduct)
     - [Our Pledge](#our-pledge)
     - [Our Standards](#our-standards)
     - [Our Responsibilities](#our-responsibilities)
     - [Scope](#scope)
     - [Enforcement](#enforcement)
-    - [Attribution](#attribution)
+- [Attribution](#attribution)
 
 [CONTACTS.yaml]: https://github.com/commonhaus/foundation/blob/main/CONTACTS.yaml
 [cc-dm]: ../bylaws/5-decision-making.md
@@ -146,10 +147,9 @@ The CoCP will follow the same overall procedure as the CFC, with the following c
 
 ---
 
-<!-- markdownlint-disable-next-line MD025 -->
-# Contributor Covenant Code of Conduct
+## Contributor Covenant Code of Conduct
 
-## Our Pledge
+### Our Pledge
 
 In the interest of fostering an open and welcoming environment, we as
 contributors and maintainers pledge to make participation in our project and
@@ -158,7 +158,7 @@ size, disability, ethnicity, sex characteristics, gender identity and expression
 level of experience, education, socio-economic status, nationality, personal
 appearance, race, religion, or sexual identity and orientation.
 
-## Our Standards
+### Our Standards
 
 Examples of behavior that contributes to creating a positive environment
 include:
@@ -180,7 +180,7 @@ Examples of unacceptable behavior by participants include:
 - Other conduct which could reasonably be considered inappropriate in a
   professional setting
 
-## Our Responsibilities
+### Our Responsibilities
 
 Project maintainers are responsible for clarifying the standards of acceptable
 behavior and are expected to take appropriate and fair corrective action in
@@ -192,7 +192,7 @@ that are not aligned to this Code of Conduct, or to ban temporarily or
 permanently any contributor for other behaviors that they deem inappropriate,
 threatening, offensive, or harmful.
 
-## Scope
+### Scope
 
 This Code of Conduct applies within all project spaces, and it also applies when
 an individual is representing the project or its community in public spaces.
@@ -201,7 +201,7 @@ project e-mail address, posting via an official social media account, or acting
 as an appointed representative at an online or offline event. Representation of
 a project may be further defined and clarified by project maintainers.
 
-## Enforcement
+### Enforcement
 
 Instances of abusive, harassing, or otherwise unacceptable behavior may be
 reported by [contacting the project team](#report-an-issue). All
