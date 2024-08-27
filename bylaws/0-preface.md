@@ -52,8 +52,6 @@ Amendments or changes to Bylaws will follow the [amendment process][].
 [policy-coc]: ../policies/code-of-conduct.md
 [policy-coi]: ../policies/conflict-of-interest.md
 [policy-ip]: ../policies/ip-policy.md
-[policy-sec]: ../policies/
-[policy-sp]: ../policies/succession-plan.md
 [policy-tp]: ../policies/trademark-policy.md
 [project]: ./2-cf-membership.md#projects
 [records]: ./6-notice-records.md
