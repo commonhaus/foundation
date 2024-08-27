@@ -56,7 +56,7 @@ If you're interested in an introduction to diversity, inclusion, and unconscious
 
 [^1]: "A troll is Internet slang for a person who intentionally tries to instigate conflict, hostility, or arguments in an online social community...Trolls often use inflammatory messages to provoke emotional responses ...disrupting otherwise civil discussion." <https://edu.gcfglobal.org/en/thenow/what-is-trolling/1/>
 
-#### Leadership Expectations
+### Leadership Expectations
 
 Leaders should act with respect, engage directly, and be willing to resolve conflicts. See [Martha's Rules][] and the [Decision Making][] section of our bylaws for examples of how to help constructively resolve disagreement.
 
