@@ -21,6 +21,15 @@ cf-council:
     role: Secretary
     bio: Open source engineer, observability, OpenTelemetry, author, amateur genealogist. Currently on a break.
 
+##--------------------------------------------------------------------------
+## Additional foundation officers (appointed by council)
+## name, avatarUrl, company, bio will be pulled from GitHub profile, or "see" if member of another group
+officers:
+  - role: Social Media
+    login: aalmiray
+  - role: Community Manager
+    login: sigrunixia
+
 #--------------------------------------------------------------------------
 # EGC Project Representatives (appointed by project governance process)
 # name, avatarUrl, company, bio will be pulled from GitHub profile
@@ -56,14 +65,12 @@ egc:
     bio: Java geek and open-source enthusiast, leading projects here and there. Feign lead, QueryDSL stalwart, and Commonhaus advocate.
   - project: quarkus
     login: dandreadis
-  - project: ...
-    login: ...
 
 #--------------------------------------------------------------------------
-# Advisory Board members (appointed)
+# Advisory Board members (sponsor-appointed)
 # name, avatarUrl, company, bio will be pulled from GitHub profile
 #
-# - organization: Name (should match name in ...)
+# - organization: Name (should match name/key in SPONSORS.yaml)
 #   login: representative's github id
 #   avatarAlt: Optional. Avatar to show in addition to github avatar
 #   bio: Optional. Short description/bio to use instead of GH profile description
@@ -73,7 +80,7 @@ advisory-board:
     login: ashni-mongodb
   - organization: MongoDB
     login: techbelle
-  - organization: Name
+  - organization: ...
     login: ...
 
 #--------------------------------------------------------------------------
@@ -89,7 +96,7 @@ advisory-board:
 #   term-start: most recent year of election
 #   see: other group to reference
 #
-cocp-panel:
+coc-panel:
   - login: ebullient
     term-start: 2024
     see: cf-council
