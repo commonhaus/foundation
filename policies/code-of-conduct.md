@@ -73,7 +73,7 @@ Disagreements and conflicts are inherent to any dynamic community. We encourage 
 For issues that escalate beyond direct resolution or involve behavior contrary to our Code of Conduct, the CF provides clear avenues for reporting:
 
 - **Project-Specific Reporting**: Each CF project may implement its own CoC enforcement processes suitable to its size and scope. These processes and contact methods should be detailed in the project's `CODE_OF_CONDUCT.md`.
-- **Foundation-Wide Reporting**: For concerns not covered by a specific project's `CODE_OF_CONDUCT.md`, or for issues that require escalation beyond the project level, reports should be directed to the [report mailing list][CONTACTS.yaml]. The CFC will oversee these reports.
+- **Foundation-Wide Reporting**: For concerns not covered by a specific project's `CODE_OF_CONDUCT.md`, or for issues that require escalation beyond the project level, send an email to the [`report` mailing list][CONTACTS.yaml]. The CFC will oversee these reports.
 
 Our commitment extends beyond rule enforcement to fostering an environment where every member feels supported, valued, and able to contribute to positive outcomes from conflicts.
 
