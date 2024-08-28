@@ -101,10 +101,10 @@ Relevant Florida Statute(s):
 
 - [617.0607](http://www.leg.state.fl.us/Statutes/index.cfm?App_mode=Display_Statute&Search_String=&URL=0600-0699/0617/Sections/0617.0607.html) Termination, expulsion, and suspension.
 
-[advisory board]: ./4-cf-advisory-board.md
-[cfc]: ./3-cf-council.md
-[egc]: ./3-cf-council.md#extended-governance-committee-egc
+[advisory board]: ./5-cf-advisory-board.md
+[cfc]: ./4-cf-council.md
+[egc]: ./4-cf-council.md#extended-governance-committee-egc
 [coc]: ../policies/code-of-conduct.md
 [coc-reports]: ../policies/code-of-conduct.md#handling-reports-and-escalations
-[discussions]: ./5-cf-decision-making.md
-[voting]: ./3-cf-council.md#voting
+[discussions]: ./6-cf-decision-making.md
+[voting]: ./4-cf-council.md#voting

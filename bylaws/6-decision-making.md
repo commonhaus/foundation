@@ -52,7 +52,7 @@ In all instances, efforts should be made to [address concerns and objections](#h
 
 A proposal moves forward if it receives sufficient support and meets applicable participation thresholds defined in the [CFC/EGC voting rules][cfc-sv].
 
-[cfc-sv]: ./3-cf-council.md#voting
+[cfc-sv]: ./4-cf-council.md#voting
 
 ### Handling Unresolved Issues
 

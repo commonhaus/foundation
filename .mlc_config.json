@@ -1,5 +1,5 @@
 {
-  "_replacementPatternsComment": "CODEOWNERS/TRADEMARKS are referenced in templates. *.website is a draft placeholder",
+  "_replacementPatternsComment": "CODEOWNERS/TRADEMARKS are referenced in templates",
   "replacementPatterns": [
     {
       "pattern": "^CODEOWNERS",
@@ -15,10 +15,6 @@
     },
     {
       "pattern": "^/",
-      "replacement": "{{BASEURL}}/"
-    },
-    {
-      "pattern": "^https://.*\\.?website/?$",
       "replacement": "{{BASEURL}}/"
     }
   ],

@@ -201,7 +201,7 @@ Relevant Florida Statute(s):
 [CONTACTS.yaml]: https://github.com/commonhaus/foundation/blob/main/CONTACTS.yaml
 [bylaws]: ./README.md
 [coc-reports]: ../policies/code-of-conduct.md#handling-reports-and-escalations
-[consensus]: ./5-decision-making.md#general-decision-making
-[elections]: ./5-decision-making.md#elections
-[notice]: ./6-notice-records.md#notice
-[records]: ./6-notice-records.md#record-keeping
+[consensus]: ./6-decision-making.md#general-decision-making
+[elections]: ./6-decision-making.md#elections
+[notice]: ./7-notice-records.md#notice
+[records]: ./7-notice-records.md#record-keeping

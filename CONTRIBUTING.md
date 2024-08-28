@@ -51,4 +51,4 @@ Every contribution matters. For any questions, feel free to reach out.
 
 Happy contributing!
 
-[^1]: See [decision making](./bylaws/5-decision-making.md#general-decision-making) for an overview of how we approach consensus building.
+[^1]: See [decision making](./bylaws/6-decision-making.md#general-decision-making) for an overview of how we approach consensus building.

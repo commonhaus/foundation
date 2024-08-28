@@ -59,7 +59,7 @@ The CF will maintain records of all activities for transparency and legal compli
 - **Retention and Version Control**: Documents will adhere to legal requirements for retention periods and employ version control for historical accuracy.
 - **Backup and Security:** Regular backups and robust security measures to safeguard digital records.
 
-[Amendments]: ./8-amendments.md
-[Decision Making]: ./5-decision-making.md#seeking-consensus-on-mailing-lists
+[Amendments]: ./9-amendments.md
+[Decision Making]: ./6-decision-making.md#seeking-consensus-on-mailing-lists
 [contact-us]: ../COMMUNICATION.md
 [CONTACTS.yaml]: ../CONTACTS.yaml

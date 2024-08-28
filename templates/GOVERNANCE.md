@@ -12,6 +12,7 @@ This governance model is designed to uphold the principles of transparency, open
 
 [cfc]: https://www.commonhaus.org/bylaws/cf-council.html
 [cdm]: https://www.commonhaus.org/bylaws/decision-making.html
+[ctp]: https://www.commonhaus.org/policies/trademark-policy/
 
 ## Table of Contents
 
@@ -42,7 +43,7 @@ All participants in the project are expected to adhere to the project's [Code of
 
 ## Trademark Policy
 
-The [Project Name] logos, icons, and domain names are protected by trademark rights. Usage of these trademarks must adhere to our [Trademark Policy](TRADEMARKS.md).
+The [Project Name] logos, icons, and domain names are protected by trademark rights. Usage of these trademarks must adhere to our [Trademark Policy][ctp].
 
 ## Contributing
 

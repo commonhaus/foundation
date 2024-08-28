@@ -22,5 +22,5 @@ This dual representation maximizes the likelihood of attendance and ensures a br
 
 An up-to-date list of Advisory Board representatives will be maintained in the `advisory-board` [CONTACTS.yaml][] attribute.
 
-[membership]: ./2-cf-membership.md
+[membership]: ./3-cf-membership.md
 [CONTACTS.yaml]: https://github.com/commonhaus/foundation/blob/main/CONTACTS.yaml

@@ -23,8 +23,8 @@ Welcome to the Code of Conduct (CoC) for the Commonhaus Foundation (CF). We're d
 - [Attribution](#attribution)
 
 [CONTACTS.yaml]: https://github.com/commonhaus/foundation/blob/main/CONTACTS.yaml
-[cc-dm]: ../bylaws/5-decision-making.md
-[cfc]: ../bylaws/3-cf-council.md
+[cc-dm]: ../bylaws/6-decision-making.md
+[cfc]: ../bylaws/4-cf-council.md
 
 ## Our Code of Conduct
 
@@ -64,7 +64,7 @@ Leaders should act with respect, engage directly, and be willing to resolve conf
 CF Leadership is also responsible for ensuring that decisions, once made, are supported and revisited only when necessary to uphold the integrity of the collaborative process.
 
 [Martha's Rules]: https://digitalcommons.unl.edu/cgi/viewcontent.cgi?article=1825&context=sociologyfacpub
-[Decision Making]: ../bylaws/5-decision-making.md
+[Decision Making]: ../bylaws/6-decision-making.md
 
 ### Report an issue
 

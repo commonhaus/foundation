@@ -14,5 +14,5 @@ Amendments and changes to CF Bylaws and Policies are proposed, reviewed, and app
 
 This process ensures that amendments to the Bylaws are made with consideration, transparency, and the consensus of the CF community.
 
-[consensus]: ./5-decision-making.md#general-decision-making
-[vote]: ./3-cf-council.md#voting
+[consensus]: ./6-decision-making.md#general-decision-making
+[vote]: ./4-cf-council.md#voting

@@ -119,15 +119,15 @@ mkdir -p output/public
 
 # Sorted order of files for Bylaws
 BYLAWS=(
-    ./bylaws/0-preface.md
-    ./bylaws/1-purpose.md
-    ./bylaws/2-cf-membership.md
-    ./bylaws/3-cf-council.md
-    ./bylaws/4-cf-advisory-board.md
-    ./bylaws/5-decision-making.md
-    ./bylaws/6-notice-records.md
-    ./bylaws/7-indemnification-dissolution.md
-    ./bylaws/8-amendments.md
+    ./bylaws/1-preface.md
+    ./bylaws/2-purpose.md
+    ./bylaws/3-cf-membership.md
+    ./bylaws/4-cf-council.md
+    ./bylaws/5-cf-advisory-board.md
+    ./bylaws/6-decision-making.md
+    ./bylaws/7-notice-records.md
+    ./bylaws/8-indemnification-dissolution.md
+    ./bylaws/9-amendments.md
 )
 
 # Verify that bylaws files exist

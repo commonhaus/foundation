@@ -40,18 +40,18 @@ The [Extended Governance Committee (EGC)][egc] (EGC: CFC + Project Leads) jointl
 
 Amendments or changes to Bylaws will follow the [amendment process][].
 
-[amendment process]: ./8-amendments.md
-[cf-decision-making]: ./5-decision-making.md
-[cfab]: ./4-cf-advisory-board.md
-[cfc]: ./3-cf-council.md
-[egc]: ./3-cf-council.md#extended-governance-committee-egc
+[amendment process]: ./9-amendments.md
+[cf-decision-making]: ./6-decision-making.md
+[cfab]: ./5-cf-advisory-board.md
+[cfc]: ./4-cf-council.md
+[egc]: ./4-cf-council.md#extended-governance-committee-egc
 [foundation]: https://github.com/commonhaus/foundation
-[membership]: ./2-cf-membership.md#general-members
-[plco]: ./2-cf-membership.md#project-leaders-and-code-owners
+[membership]: ./3-cf-membership.md#general-members
+[plco]: ./3-cf-membership.md#project-leaders-and-code-owners
 [policy-index]: ../policies/
 [policy-coc]: ../policies/code-of-conduct.md
 [policy-coi]: ../policies/conflict-of-interest.md
 [policy-ip]: ../policies/ip-policy.md
 [policy-tp]: ../policies/trademark-policy.md
-[project]: ./2-cf-membership.md#projects
-[records]: ./6-notice-records.md
+[project]: ./3-cf-membership.md#projects
+[records]: ./7-notice-records.md

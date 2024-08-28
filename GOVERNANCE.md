@@ -44,12 +44,12 @@ Contributions in all forms are welcome. Check out our [Contributing Guidelines][
 
 [Trademark Policy]: ./policies/trademark-policy.md
 [bylaws]: ./bylaws/README.md
-[cf-decision-making]: ./bylaws/5-decision-making.md
-[cfab]: ./bylaws/4-cf-advisory-board.md
-[cfc]: ./bylaws/3-cf-council.md
-[egc]: ./bylaws/3-cf-council.md#extended-governance-committee-egc
+[cf-decision-making]: ./bylaws/6-decision-making.md
+[cfab]: ./bylaws/5-cf-advisory-board.md
+[cfc]: ./bylaws/4-cf-council.md
+[egc]: ./bylaws/4-cf-council.md#extended-governance-committee-egc
 [coc]: ./policies/code-of-conduct.md
 [contrib]: ./CONTRIBUTING.md
-[membership]: ./bylaws/2-cf-membership.md
-[records]: ./bylaws/6-notice-records.md
+[membership]: ./bylaws/3-cf-membership.md
+[records]: ./bylaws/7-notice-records.md
 [CONTACTS.yaml]: https://github.com/commonhaus/foundation/blob/main/CONTACTS.yaml

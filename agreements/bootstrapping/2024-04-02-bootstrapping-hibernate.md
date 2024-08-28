@@ -12,14 +12,14 @@ This document outlines the preliminary, non-binding agreement for the establishm
 - [Feedback and Iteration](#feedback-and-iteration)
 - [Acknowledgement](#acknowledgement)
 
-[cc-dm]: ../../bylaws/5-decision-making.md
-[cfc-async]: ../../bylaws/3-cf-council.md#electronic-participation-and-decision-making
+[cc-dm]: ../../bylaws/6-decision-making.md
+[cfc-async]: ../../bylaws/4-cf-council.md#electronic-participation-and-decision-making
 [coc]: ../../policies/code-of-conduct.md
 [coc-cf]: ../../CODE_OF_CONDUCT.md
 [coc-tpl]: ../../templates/CODE_OF_CONDUCT.md
 [gov-cf]: ../../GOVERNANCE.md
 [gov-tpl]: ../../templates/GOVERNANCE.md
-[dissolution]: ../../bylaws/7-indemnification-dissolution.md#dissolution-and-asset-distribution
+[dissolution]: ../../bylaws/8-indemnification-dissolution.md#dissolution-and-asset-distribution
 
 ## EGC Quorum Establishment
 

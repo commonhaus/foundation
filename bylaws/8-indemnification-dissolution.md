@@ -124,4 +124,4 @@ Relevant Florida Statutes:
 - [617.1421](http://www.leg.state.fl.us/Statutes/index.cfm?App_mode=Display_Statute&Search_String=&URL=0600-0699/0617/Sections/0617.1421.html) Procedure for and effect of administrative dissolution.
 - [617.1431](http://www.leg.state.fl.us/Statutes/index.cfm?App_mode=Display_Statute&Search_String=&URL=0600-0699/0617/Sections/0617.1431.html) Procedure for judicial dissolution.
 
-[record-keeping]: ../bylaws/6-notice-records.md#record-keeping
+[record-keeping]: ../bylaws/7-notice-records.md#record-keeping

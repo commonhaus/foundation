@@ -32,8 +32,8 @@ Our doors are open to everyone passionate about open source innovation. We invit
 Explore how to contribute through our [Code of Conduct](CODE_OF_CONDUCT.md), [Governance Bylaws][Bylaws], and [Policies][].
 
 [codehaus]: https://www.infoworld.com/article/2892227/codehaus-the-once-great-house-of-code-has-fallen.html
-[Bylaws]: bylaws/0-preface.md
-[cfab]: bylaws/4-cf-advisory-board.md
+[Bylaws]: bylaws/1-preface.md
+[cfab]: bylaws/5-cf-advisory-board.md
 [Policies]: policies/README.md
 [community]: COMMUNICATION.md
 

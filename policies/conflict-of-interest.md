@@ -21,8 +21,8 @@ This policy applies to all individuals within the CF who possess decision-making
 - Appointed officers of the CF
 - Key employees[^1]
 
-[cfc]: ../bylaws/3-cf-council.md
-[egc]: ../bylaws/3-cf-council.md#extended-governance-committee-egc
+[cfc]: ../bylaws/4-cf-council.md
+[egc]: ../bylaws/4-cf-council.md#extended-governance-committee-egc
 
 [^1]: If and when the CF employs full-time staff, a key employee is an employee who (a) has responsibilities or influence over the foundation similar to that of officers or Councilors; or (b) manages a program that represents 10% or more of the activities, assets, income, or expenses of the foundation; or (c) has or shares authority to control 10% or more of the foundation capital expenditures, operating budget, or compensation for employees.
 
@@ -80,4 +80,4 @@ Amendments or changes to this policy will follow the [amendment process][].
 For questions or clarifications on this policy, send an email to the [`legal` mailing list][CONTACTS.yaml].
 
 [CONTACTS.yaml]: https://github.com/commonhaus/foundation/blob/main/CONTACTS.yaml
-[amendment process]: ../bylaws/8-amendments.md
+[amendment process]: ../bylaws/9-amendments.md
