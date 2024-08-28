@@ -106,5 +106,5 @@ Relevant Florida Statute(s):
 [egc]: ./4-cf-council.md#extended-governance-committee-egc
 [coc]: ../policies/code-of-conduct.md
 [coc-reports]: ../policies/code-of-conduct.md#handling-reports-and-escalations
-[discussions]: ./6-cf-decision-making.md
+[discussions]: ./6-decision-making.md
 [voting]: ./4-cf-council.md#voting
