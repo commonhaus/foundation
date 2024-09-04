@@ -2,6 +2,15 @@
 
 Thanks for considering a contribution to the Commonhaus Foundation (CF) repository. We value every contribution, whether it's a document edit or a major revision.
 
+## Legal
+
+All contributions to this repository are licensed under the
+[MIT License](https://opensource.org/license/mit), version 2.0 or later, or, if another license is
+specified as governing the file or directory being modified, such other license.
+
+All contributions are subject to the [Developer Certificate of Origin (DCO)](https://developercertificate.org/). The DCO
+text is also included verbatim in the [dco.txt](dco.txt) file in the root directory of the repository.
+
 ## Quick start
 
 - **Discuss First**: For significant changes, start a GitHub discussion to establish consensus[^1]. For smaller edits, you can directly create a pull request (PR).
