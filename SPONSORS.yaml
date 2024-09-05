@@ -52,7 +52,10 @@ sponsors:
       logo: https://gradle.com/wp-content/uploads/2023/09/LOGO-GRADLE-HZ_RGB.svg
       logo-dark: https://gradle.com/wp-content/uploads/2023/09/LOGO-GRADLE-HZ_RGB-REV.svg
       description: >
-        Description TBD.
+        Description TBD. Lorem ipsum odor amet, consectetuer adipiscing elit.
+        Placerat accumsan nostra sociosqu morbi sodales blandit.
+        Augue libero rutrum commodo dictum nascetur quis rhoncus.
+        Vel blandit eros interdum; eu porta pretium.
     draft: true
 
   MongoDB:
@@ -64,5 +67,8 @@ sponsors:
       logo: https://www.commonhaus.org/images/sponsors/MongoDB_SlateBlue.svg
       logo-dark: https://www.commonhaus.org/images/sponsors/MongoDB_White.svg
       description: >
-        Description TBD.
+        Description TBD. Lorem ipsum odor amet, consectetuer adipiscing elit.
+        Placerat accumsan nostra sociosqu morbi sodales blandit.
+        Augue libero rutrum commodo dictum nascetur quis rhoncus.
+        Vel blandit eros interdum; eu porta pretium.
     draft: true
