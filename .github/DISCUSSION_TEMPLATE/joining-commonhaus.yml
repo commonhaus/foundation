@@ -35,6 +35,17 @@ body:
         - What language is it written in?
         - What does it do?
         - How is it affiliated with or related to open source?
+      placeholder: "<Project Name> allows folks to <better do something>."
+    validations:
+      required: true
+
+  - type: textarea
+    attributes:
+      label: Motivation for joining Commonhaus
+      description: |
+        - What are you hoping to get out of joining Commonhaus?
+        - Why Commonhaus as opposed to other organizations?
+        - Any questions or concerns about joining Commonhaus?
       placeholder: "I think <Project Name> would be a good candidate for Commonhaus because <reasons>."
     validations:
       required: true
