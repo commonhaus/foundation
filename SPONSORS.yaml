@@ -1,6 +1,36 @@
 #
 # Commonhaus Foundation Sponsor information
 #
+
+tiers:
+  in-kind:
+    name: In-kind
+    description: >
+      In-kind sponsors provide services, software, or other resources to the
+      Commonhaus Foundation and its projects.
+  gold:
+    name: Gold
+    description: >
+      Gold sponsors are recognized for their significant financial contributions
+      to the Commonhaus Foundation and its projects.
+  silver:
+    name: Silver
+    description: >
+      Silver sponsors are recognized for their financial contributions to the
+      Commonhaus Foundation and its projects.
+  bronze:
+    name: Bronze
+    description: >
+      Bronze sponsors are recognized for their financial contributions to the
+      Commonhaus Foundatio and its projects.
+  supporter:
+    name: Supporter
+    description: >
+      Supporters are recognized for their financial contributions to the
+      Commonhaus Foundation and its projects.
+
+# Sponsors:
+#
 # key - unique per sponsor. Use as organization match in CONTACTS.yaml
 #
 # name: Display name of the sponsor
@@ -12,27 +42,27 @@
 #   description: a short-ish description or tagline for display with the logo
 #
 # Unpublished (or early stage), use draft: true
+sponsors:
+  Gradle:
+    name: Gradle
+    tier:
+      - in-kind
+    display:
+      home: https://gradle.com/
+      logo: https://gradle.com/wp-content/uploads/2023/09/LOGO-GRADLE-HZ_RGB.svg
+      logo-dark: https://gradle.com/wp-content/uploads/2023/09/LOGO-GRADLE-HZ_RGB-REV.svg
+      description: >
+        Description TBD.
+    draft: true
 
-Gradle:
-  name: Gradle
-  tier:
-    - in-kind
-  display:
-    home: https://gradle.com/
-    logo: https://gradle.com/wp-content/uploads/2023/09/LOGO-GRADLE-HZ_RGB.svg
-    logo-dark: https://gradle.com/wp-content/uploads/2023/09/LOGO-GRADLE-HZ_RGB-REV.svg
-    description: >
-      Description TBD.
-  draft: true
-
-MongoDB:
-  name: MongoDB
-  tier:
-    - in-kind
-  display:
-    home: https://www.mongodb.com/
-    logo: https://www.commonhaus.org/images/sponsors/MongoDB_SlateBlue.svg
-    logo-dark: https://www.commonhaus.org/images/sponsors/MongoDB_White.svg
-    description: >
-      Description TBD.
-  draft: true
+  MongoDB:
+    name: MongoDB
+    tier:
+      - in-kind
+    display:
+      home: https://www.mongodb.com/
+      logo: https://www.commonhaus.org/images/sponsors/MongoDB_SlateBlue.svg
+      logo-dark: https://www.commonhaus.org/images/sponsors/MongoDB_White.svg
+      description: >
+        Description TBD.
+    draft: true
