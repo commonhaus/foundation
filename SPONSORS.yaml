@@ -67,8 +67,9 @@ sponsors:
       logo: https://www.commonhaus.org/images/sponsors/MongoDB_SlateBlue.svg
       logo-dark: https://www.commonhaus.org/images/sponsors/MongoDB_White.svg
       description: >
-        Description TBD. Lorem ipsum odor amet, consectetuer adipiscing elit.
-        Placerat accumsan nostra sociosqu morbi sodales blandit.
-        Augue libero rutrum commodo dictum nascetur quis rhoncus.
-        Vel blandit eros interdum; eu porta pretium.
+        MongoDB is a flexible, scalable document database with powerful querying and indexing.
+        Its mission is to empower innovators to transform industries through the power of software and data.
+        Since 2007, MongoDB has been downloaded hundreds of millions of times and trained millions of developers through MongoDB University courses.
+        It is used by organizations of all sizes, from individual developers to some of the largest companies in the world, and offers Atlas, a fully-managed cloud database.
+        As a Commonhaus Foundation sponsor, MongoDB provides strategy work and segmentation advisory services.
     draft: true
