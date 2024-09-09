@@ -5,26 +5,31 @@
 tiers:
   in-kind:
     name: In-kind
+    layout: 2
     description: >
       In-kind sponsors provide services, software, or other resources to the
       Commonhaus Foundation and its projects.
   gold:
     name: Gold
+    layout: 1
     description: >
       Gold sponsors are recognized for their significant financial contributions
       to the Commonhaus Foundation and its projects.
   silver:
     name: Silver
+    layout: 2
     description: >
       Silver sponsors are recognized for their financial contributions to the
       Commonhaus Foundation and its projects.
   bronze:
     name: Bronze
+    layout: 3
     description: >
       Bronze sponsors are recognized for their financial contributions to the
-      Commonhaus Foundatio and its projects.
+      Commonhaus Foundation and its projects.
   supporter:
     name: Supporter
+    layout: avatar
     description: >
       Supporters are recognized for their financial contributions to the
       Commonhaus Foundation and its projects.
@@ -51,6 +56,8 @@ sponsors:
       home: https://gradle.com/
       logo: https://gradle.com/wp-content/uploads/2023/09/LOGO-GRADLE-HZ_RGB.svg
       logo-dark: https://gradle.com/wp-content/uploads/2023/09/LOGO-GRADLE-HZ_RGB-REV.svg
+      in-kind: >
+        Gradle provides a managed Develocity instance for Commonhaus projects.
       description: >
         Description TBD. Lorem ipsum odor amet, consectetuer adipiscing elit.
         Placerat accumsan nostra sociosqu morbi sodales blandit.
@@ -62,14 +69,131 @@ sponsors:
     name: MongoDB
     tier:
       - in-kind
+      - gold
     display:
       home: https://www.mongodb.com/
       logo: https://www.commonhaus.org/images/sponsors/MongoDB_SlateBlue.svg
       logo-dark: https://www.commonhaus.org/images/sponsors/MongoDB_White.svg
+      in-kind: >
+        MongoDB provides strategy work and segmentation advisory services to Commonhaus.
       description: >
         MongoDB is a flexible, scalable document database with powerful querying and indexing.
         Its mission is to empower innovators to transform industries through the power of software and data.
         Since 2007, MongoDB has been downloaded hundreds of millions of times and trained millions of developers through MongoDB University courses.
         It is used by organizations of all sizes, from individual developers to some of the largest companies in the world, and offers Atlas, a fully-managed cloud database.
-        As a Commonhaus Foundation sponsor, MongoDB provides strategy work and segmentation advisory services.
+    draft: true
+
+  Company1:
+    name: Company1
+    tier:
+      - gold
+    display:
+      home: https://example.com/
+      logo: https://www.jbang.dev/assets/images/logo.png
+      description: >
+        Description TBD. Lorem ipsum odor amet, consectetuer adipiscing elit.
+        Placerat accumsan nostra sociosqu morbi sodales blandit.
+        Augue libero rutrum commodo dictum nascetur quis rhoncus.
+        Vel blandit eros interdum; eu porta pretium.
+    draft: true
+
+  Company2:
+    name: Company2
+    tier:
+      - gold
+    display:
+      home: https://example.com/
+      logo: https://www.commonhaus.org/images/projects/OpenRewrite_WordmarkTM_MidnightBlue.png
+      logo-dark: https://www.commonhaus.org/images/projects/OpenRewrite_WordmarkTM_White.png
+      description: >
+        Description TBD. Lorem ipsum odor amet, consectetuer adipiscing elit.
+        Placerat accumsan nostra sociosqu morbi sodales blandit.
+        Augue libero rutrum commodo dictum nascetur quis rhoncus.
+        Vel blandit eros interdum; eu porta pretium.
+    draft: true
+
+  Company3:
+    name: Company3
+    tier:
+      - silver
+    display:
+      home: https://example.com/
+      logo: https://jreleaser.org/images/jreleaser-duke.png
+      description: >
+        Description TBD. Lorem ipsum odor amet, consectetuer adipiscing elit.
+        Placerat accumsan nostra sociosqu morbi sodales blandit.
+        Augue libero rutrum commodo dictum nascetur quis rhoncus.
+        Vel blandit eros interdum; eu porta pretium.
+    draft: true
+
+  Company4:
+    name: Company4
+    tier:
+      - silver
+    display:
+      home: https://example.com/
+      logo: https://github.com/MorphiaOrg/morphia-docs/blob/master/supplemental-ui/img/logo.png?raw=true
+      description: >
+        Description TBD. Lorem ipsum odor amet, consectetuer adipiscing elit.
+        Placerat accumsan nostra sociosqu morbi sodales blandit.
+        Augue libero rutrum commodo dictum nascetur quis rhoncus.
+        Vel blandit eros interdum; eu porta pretium.
+    draft: true
+
+  Company5:
+    name: Company5
+    tier:
+      - silver
+    display:
+      home: https://example.com/
+      logo: https://www.commonhaus.org/images/projects/OpenRewrite_WordmarkTM_MidnightBlue.png
+      logo-dark: https://www.commonhaus.org/images/projects/OpenRewrite_WordmarkTM_White.png
+      description: >
+        Description TBD. Lorem ipsum odor amet, consectetuer adipiscing elit.
+        Placerat accumsan nostra sociosqu morbi sodales blandit.
+        Augue libero rutrum commodo dictum nascetur quis rhoncus.
+        Vel blandit eros interdum; eu porta pretium.
+    draft: true
+
+  Company6:
+    name: Company6
+    tier:
+      - bronze
+    display:
+      home: https://example.com/
+      logo: https://github.com/easymock/objenesis/blob/master/website/site/resources/objenesis.png?raw=true
+      description: >
+        Description TBD. Lorem ipsum odor amet, consectetuer adipiscing elit.
+        Placerat accumsan nostra sociosqu morbi sodales blandit.
+        Augue libero rutrum commodo dictum nascetur quis rhoncus.
+        Vel blandit eros interdum; eu porta pretium.
+    draft: true
+
+  Company7:
+    name: Company7
+    tier:
+      - bronze
+    display:
+      home: https://example.com/
+      logo: https://www.commonhaus.org/images/projects/OpenRewrite_WordmarkTM_MidnightBlue.png
+      logo-dark: https://www.commonhaus.org/images/projects/OpenRewrite_WordmarkTM_White.png
+      description: >
+        Description TBD. Lorem ipsum odor amet, consectetuer adipiscing elit.
+        Placerat accumsan nostra sociosqu morbi sodales blandit.
+        Augue libero rutrum commodo dictum nascetur quis rhoncus.
+        Vel blandit eros interdum; eu porta pretium.
+    draft: true
+
+  Company8:
+    name: Company8
+    tier:
+      - bronze
+    display:
+      home: https://example.com/
+      logo: https://github.com/sdkman/sdkman-website/blob/master/public/img/bubble-logo-sdkman-groovy-color.png?raw=true
+      description: >
+        Description TBD. Lorem ipsum odor amet, consectetuer adipiscing elit.
+        Placerat accumsan nostra sociosqu morbi sodales blandit.
+        Augue libero rutrum commodo dictum nascetur quis rhoncus.
+        Vel blandit eros interdum; eu porta pretium.
     draft: true
