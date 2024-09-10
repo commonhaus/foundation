@@ -108,6 +108,13 @@ This kind of use only applies if you are redistributing an official distribution
 
 You can find files for the Logos and approved designs for packaging on our [Brand Standards][] page.
 
+> [!NOTE]
+>
+> Each Commonhaus Project defines its own processes for packaging artifacts.
+> When we refer to “our software,” we mean the software produced by CF Projects.
+> “Artifacts packaged by us” generally refers to software artifacts packaged and published by each CF Project,
+> though the specific processes for building and releasing artifacts may vary across Projects.
+
 #### Distribution of modified source code or artifacts packaged you
 
 If you compile and distribute bitwise identical packaged artifacts from our unmodified source code, you may retain our Word Marks and Logos.
