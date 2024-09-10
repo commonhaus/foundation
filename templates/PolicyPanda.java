@@ -34,14 +34,14 @@ import picocli.CommandLine;
 import picocli.CommandLine.Command;
 import picocli.CommandLine.Parameters;
 
-@Command(name = "PolicyPanda 🐼", mixinStandardHelpOptions = true, version = "PolicyPanda 0.1", 
+@Command(name = "PolicyPanda 🐼", mixinStandardHelpOptions = true, version = "PolicyPanda 0.1",
 
 description = """
-    The Policy Panda tries to spot if org/repos follows the requirement 
+    The Policy Panda tries to spot if org/repos follows the requirement
     and best practices outlined in https://github.com/commonhaus/foundation/tree/main/policies
     """)
 public class PolicyPanda implements Runnable {
-    
+
     static {
         System.setProperty("java.util.logging.SimpleFormatter.format",
                     "%4$-7s [%3$s] %5$s %6$s%n");
@@ -65,6 +65,8 @@ public class PolicyPanda implements Runnable {
         SHOULD, MUST
     }
 
+    static List<String> filesInGithubDir = List.of("CODEOWNERS");
+
     record check(String name, String description, GHRepository repo, Kind kind, boolean ok, GHContent content) {
 
         String summary() {
@@ -77,7 +79,7 @@ public class PolicyPanda implements Runnable {
     @CommandLine.Option(names = {"-t", "--type"}, description = "Specify if the project uses DCO or CLA. Valid values: DCO, CLA", defaultValue="DCO")
     private AgreementType agreementType;
 
-    private List<String> markupFormats = List.of(".md", ".adoc", ".txt");
+    private List<String> markupFormats = List.of("", ".md", ".adoc", ".txt");
 
     @Parameters(index = "0", description = "The organization to check")
     private String organization;
@@ -97,8 +99,8 @@ public class PolicyPanda implements Runnable {
         System.out.println("The Policy Panda tries to spot if org/repos follows the requirement and recommendations by the CommonHaus Foundation.");
         System.out.println("It will look for the various files in various possbile formats (" + markupFormats + ") in the repositories, including `.github` global repo if present.");
         System.out.println("It is not perfect, it is just a panda. 🐼");
-        System.out.println("If you think it is missing something, please let us know at https://github.com/commonhaus/foundation/issues");
-        
+        System.out.println("If you think it is missing something, please let us know at https://github.com/commonhaus/automation/issues");
+
         try {
 
             Path cacheDirectory = Path.of(".policy-panda-cache");
@@ -134,7 +136,7 @@ public class PolicyPanda implements Runnable {
                         checkFile(repo, globalRepo, "CLA", "CLA file should be present", "CLA", Kind.MUST);
                     }
                 }
-             
+
                 checkFile(repo, globalRepo, "Contributing guide", "Contributing guide present", "CONTRIBUTING", Kind.SHOULD, (content, contentString) -> {
                     switch(agreementType) {
                         case DCO -> {
@@ -147,7 +149,7 @@ public class PolicyPanda implements Runnable {
                 });
 
                 checkFile(repo, globalRepo, "Code of conduct", "Code of conduct file", "CODE_OF_CONDUCT", Kind.SHOULD);
-                
+
                 System.out.println("## " + repo.getFullName());
                 checks.get(repo.getFullName()).stream().forEach(check -> {
                         System.out.println("- " + check.summary());
@@ -155,7 +157,7 @@ public class PolicyPanda implements Runnable {
 
             }
 
-            
+
         } catch (IOException e) {
             e.printStackTrace();
         }
@@ -166,9 +168,9 @@ public class PolicyPanda implements Runnable {
     }
 
     /**
-     * 
+     *
      * check if file present and will add check to record if found or not. Optionally have lambada to do additional checks on the content of the file.
-     * 
+     *
      * @param repo the repo to check
      * @param globalRepo glboalrepo to also check in case the file is not found in the repo
      * @param checkName name of the check
@@ -183,8 +185,14 @@ public class PolicyPanda implements Runnable {
 
         GHContent content = locateMarkupContents(repo, fileName);
 
-        if(content == null && globalRepo != null) {
-            content = locateMarkupContents(globalRepo, fileName);
+        if (content == null) {
+            if (filesInGithubDir.contains(fileName)) {
+                content = locateMarkupContents(repo, ".github/" + fileName);
+            }
+
+            if(content == null && globalRepo != null) {
+                content = locateMarkupContents(globalRepo, fileName);
+            }
         }
 
         boolean ok = content != null;
@@ -211,7 +219,7 @@ public class PolicyPanda implements Runnable {
         if(normal!=null) {
             return normal;
         } else {
-            // hibernate uses dco.txt rather than DCO.TXT 
+            // hibernate uses dco.txt rather than DCO.TXT
             return locateExactMarkupContents(repo, path.toLowerCase());
         }
 
