@@ -270,7 +270,7 @@ These rules hold true for all trademarks, not just ours, so you should follow th
     - Acceptable: Hibernate, HIBERNATE
 
 - Always use trademarks in their exact form with the correct spelling, neither abbreviated, hyphenated, or combined with any other word or words.
-    - Unacceptable: Open Rewrite, open rewrite, open-rewrite, openrewrite
+    - Unacceptable: Open Rewrite, open rewrite, open-rewrite
     - Acceptable: OpenRewrite
     - See our [Trademark List][] to verify exactly how the marks should appear.
 
