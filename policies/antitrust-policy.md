@@ -6,40 +6,38 @@ The Commonhaus Foundation (CF) requires that all members, activities, projects, 
 
 ## Scope
 
-This policy applies to all participants in Commonhaus Foundation activities, including but not limited to general members, project representatives, councilors, and contributors to CF projects. It is designed to complement the [Conflict of Interest Policy](./conflict-of-interest.md) and other governance documents of the foundation.
+This policy applies to all participants in Commonhaus Foundation activities, including but not limited to general members, project representatives, councilors, and committee members. It is designed to complement the [Conflict of Interest Policy](./conflict-of-interest.md) and other foundation governance documents.
 
 ## Commitment to Compliance
 
-By participating in official or informal CF activities, participants commit to upholding this policy and promoting fair competition.
+By taking part in activities related to foundation governance or operations, participants agree to follow this policy and promote fair competition. This includes activities initiated on behalf of the Council, EGC, or other officially recognized committee or office.
 
 ## General Principles
 
-1. **Compliance with laws**: All members and participants in CF activities must comply with all applicable anti-trust and competition laws.
-2. **Fair competition**: Individuals participating in CF activities must not engage in practices that unfairly limit competition, such as price-fixing, market allocation, or bid-rigging.
-3. **Avoiding anti-competitive practices**: Participants in CF activities must avoid discussions or agreements that could be seen as anti-competitive, including:
-    - Pricing strategies or policies
-    - Division of markets or customers
-    - Boycotts of specific vendors, customers, or products
-    - Limiting production or restricting supply
+All [participants](#scope) in foundation activities must comply with all applicable anti-trust and competition laws.
 
-## Guidelines for Meetings and Communications
+Do not engage in practices that limit competition, like price-fixing, dividing markets, or bid-rigging.
 
-1. **Agendas and anti-trust questions**: All meetings should follow a prepared agenda as described in the [bylaws](../bylaws/3-cf-council. Potential anti-trust questions posed by the agenda should be raised in advance.
-2. **Reporting concerns**: If at any time a member believes that a discussion or activity may violate anti-trust laws, they should immediately report their concerns to the CF Council or legal advisor.
+Avoid discussing or agreeing on topics that could seem anti-competitive, such as:
+
+- Pricing strategies or policies
+- Dividing markets or customers
+- Boycotting vendors, customers, or products
+- Limiting production or supply
 
 ## Participation in Foundation activities
 
-1. **Open participation**: The foundation encourages open participation in its projects and activities. Membership in CF should not be used to exclude or disadvantage any individual or entity.
-2. **Intellectual property**: Members should adhere to the [Intellectual Property Policy](./ip-policy.md), ensuring that participation in CF projects does not restrict competition or the free use of technologies.
-3. **Governance practices**: Project representatives must ensure that the governance practices used by their projects adhere to this anti-trust policy.
+The Foundation encourages open participation in all projects and activities.
+Membership should not be used to exclude or disadvantage anyone.
 
-## Handling Violations
+If a member suspects that any activity may violate antitrust laws, they should [report their concern](#reporting-a-violation) immediately.
+If the violation happens during a meeting, ask to have your concern recorded in the minutes.
 
-Any reported or suspected violations of this policy will be promptly investigated by the CF Council.
+All suspected violations will be promptly investigated by the CF Council.
 
 ### Reporting a Violation
 
-Any suspected violations of this policy should be directed to the [report mailing list](https://github.com/commonhaus/foundation/blob/main/CONTACTS.yaml)
+Send an email to the [`report` mailing list](https://github.com/commonhaus/foundation/blob/main/CONTACTS.yaml) describing the situation and outlining your concern.
 
 ## Consequences of Violations
 
