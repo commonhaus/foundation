@@ -296,7 +296,7 @@ These rules hold true for all trademarks, not just ours, so you should follow th
 
 - Always use a trademark as an adjective modifying a noun. You can see the nouns we prefer on our [Trademark List][]
     - Unacceptable: This is an OpenRewrite. Anyone can use it.
-    - Acceptable: This is a OpenRewrite recipe. Anyone can use it.
+    - Acceptable: This is an OpenRewrite recipe. Anyone can use it.
 
 - Don't translate a trademark into another language.
     - Acceptable: Quiero instalar Hibernate en mi proyecto.
