@@ -6,7 +6,7 @@ We don't want project on-boarding to be a burden, but we have a few requirements
 - `GOVERNANCE.md`[^1]: Projects must explain how decisions are made. See [Governance][GOV] and the [Project GOVERNANCE.md template][GOV_TPL] for examples.
 - `CONTRIBUTING.md`[^1]: Projects must explain how to make contributions. This file must include references to [required contributor agreements](#contributor-agreements). See [CONTRIBUTING.md][CONTRIB] for an example, or [Wrangling Web Contributions: How to Build a CONTRIBUTING.md][mozilla] for other ideas.
 
-[^1]: This file can also be defined in the `.github` repository of an organization.
+[^1]: This file can also be defined in the `.github` repository of an organization. Other file extensions and markup syntax is fine (.adoc, .txt, .rst) provided the source is human readable.
 
 We further recommend:
 
