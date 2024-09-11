@@ -2,7 +2,7 @@
 
 ## Purpose
 
-The Commonhaus Foundation (CF) requires that all members, activities, projects, committees, and working groups comply with applicable anti-trust laws.
+The Commonhaus Foundation (CF) requires that all members, activities, projects, committees, and working groups comply with applicable antitrust laws.
 
 ## Scope
 
