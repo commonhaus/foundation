@@ -192,7 +192,7 @@ Specifically, you may not use or register the Marks as part of your own trademar
 
 "Promotional goods" are non-software goods that use the Marks and that are intended to advertise, promote, or show membership in the Foundation or its Projects.
 
-You may make promotional goods for free giveaway at open source conferences and events using resources from our [Brand Standards][] site.
+You may make promotional goods for free giveaway at technology-related conferences and events using resources from our [Brand Standards][] site.
 
 ### Uses we consider infringing without seeking further permission from us
 
