@@ -35,7 +35,8 @@ It is therefore important to follow these guidelines when using our trademarks t
 
 The sections that follow describe what trademarks are covered by this Policy and the uses of the trademarks that are allowed without additional permission from us.
 If you want to use our trademarks in ways that are not described in this Policy, please [contact us](#contact-and-further-information).
-We have not approved any use that does not comply with this Policy or for which we have not provided separate written permission, so if your use is not covered here you must determine for yourself whether the use is lawful.
+
+If your use is not described in this policy, and you have not received separate written permission, you must determine for yourself whether your use is lawful.
 
 If you have any questions or need further clarification, please [contact us](#contact-and-further-information).
 
