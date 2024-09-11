@@ -51,7 +51,7 @@ Our guidelines are designed to balance open community involvement with the need 
 > [!TIP]
 > This policy applies to all CF and CF project Marks whether they are registered or not.
 
-This policy covers all trademarks and service marks associated with the Commonhaus Foundation, collectively referred to as “Marks.” This includes:
+This policy covers all [trademarks and service marks](#what-is-a-trademark) associated with the Commonhaus Foundation, collectively referred to as "Marks". This includes:
 
 - **Word Marks:** Names of the Commonhaus Foundation and any projects under our umbrella.
 - **Logos:** The official Commonhaus Foundation logo and the logos of individual projects.
@@ -233,11 +233,13 @@ If you have any questions about this Policy, would like to speak with us about t
 
 ### What is a trademark?
 
-A trademark is a word, phrase, symbol or design, or a combination of words, phrases, symbols or designs, that identifies and distinguishes the source of the goods of one party from those of others.
-A service mark is the same as a trademark, except that it identifies and distinguishes the source of a service rather than a product.
-"Trade dress" or "get up" refers to the look and feel of the packaging, which in this context can include the layout, colors, images, and design choices in a web page.
-Throughout this Policy, the terms "trademark" and "mark" refer to both trademarks, service marks and trade dress.
+A *trademark* is a word, phrase, symbol or design, or a combination of words, phrases, symbols or designs, that identifies and distinguishes the source of the goods of one party from those of others.
 
+A *service mark* is the same as a trademark, except that it identifies and distinguishes the source of a service rather than a product.
+
+[*Trade dress*](https://www.inta.org/topics/trade-dress/) or "get up" refers to the look and feel of the packaging, which in this context can include the layout, colors, images, and design choices in a web page.
+
+Throughout this Policy, the terms "trademark" and "mark" refer to both trademarks, service marks and trade dress.
 However, the use of a word is "not as a trademark" when it is used functionally as part of the software program, for example, in a file, folder, directory, or path name. Use in this way is not a trademark infringement.
 
 ### What is "likelihood of confusion"?
