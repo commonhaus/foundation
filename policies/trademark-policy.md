@@ -305,7 +305,7 @@ These rules hold true for all trademarks, not just ours, so you should follow th
 
 ### Use of Logos
 
-Use only official versions of the Logo obtained from the Commonhaus Foundation or its projects.
+Use only official versions of Logos obtained from the Commonhaus Foundation or its Projects.
 
 You may not change any Logo except to scale it.
 This means you may not add decorative elements, change the colors, change the proportions, distort it, add elements, or combine it with other logos.
