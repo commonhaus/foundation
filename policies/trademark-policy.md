@@ -9,19 +9,18 @@ Our trademarks—including the Commonhaus Foundation name, logo, and any project
     - [Uses we consider non-infringing](#uses-we-consider-non-infringing)
     - [Uses for which we are granting a license](#uses-for-which-we-are-granting-a-license)
     - [Uses we consider infringing without seeking further permission from us](#uses-we-consider-infringing-without-seeking-further-permission-from-us)
-- [General information](#general-information)
-    - [Trademark marking and legends](#trademark-marking-and-legends)
     - [What to do when you see abuse](#what-to-do-when-you-see-abuse)
     - [Where to get further information](#where-to-get-further-information)
-- [General considerations about trademarks and their use](#general-considerations-about-trademarks-and-their-use)
-    - [What is a trademark?](#what-is-a-trademark)
-    - [What is "likelihood of confusion"?](#what-is-likelihood-of-confusion)
-    - [What is "nominative" use?](#what-is-nominative-use)
 - [Proper trademark use](#proper-trademark-use)
+    - [Trademark marking and legends](#trademark-marking-and-legends)
     - [Use of trademarks in text](#use-of-trademarks-in-text)
     - [Use of Logos](#use-of-logos)
 - [Policy modifications and updates](#policy-modifications-and-updates)
 - [Contact and further information](#contact-and-further-information)
+- [General information about Trademarks](#general-information-about-trademarks)
+    - [What is a trademark?](#what-is-a-trademark)
+    - [What is "likelihood of confusion"?](#what-is-likelihood-of-confusion)
+    - [What is "nominative" use?](#what-is-nominative-use)
 - [Attribution](#attribution)
 
 While our software is freely available under open source licenses, those licenses do not grant any right to use our trademarks.
@@ -67,20 +66,22 @@ A non-exhaustive list of our Marks, including registered trademarks, service mar
 Whenever you use one of the Marks, you must always do so in a way that does not mislead anyone, either directly or by omission, about exactly what they are getting and from whom.
 
 The law reflects this requirement in two major ways described in more detail below: it (1) prohibits creating a ["likelihood of confusion"](#what-is-likelihood-of-confusion) but (2) allows for ["nominative use"](#what-is-nominative-use).
-
-For example:
-
-- You cannot say you are distributing the Hibernate software when you're distributing a modified version of it.
-- You cannot use our logo on your website in a way that suggests that your website is an official website or that we endorse your website.
-
-These statements could cause confusion when people discover they do not have the same features and functionality they would get if they downloaded the software directly from us, or they believe that someone is endorsed by or affiliated with us when they are not.
-
-What you can say instead:
-
-- You like the Hibernate software
-- You participate in the Hibernate community
-- You are providing an unmodified version of the Hibernate software
-- You wrote a book describing how to use the Hibernate software.
+> [!TIP]
+>
+> You can cause confusion when people discover they do not have the same features and functionality they would get if they downloaded the software directly from us, or if they believe that someone is endorsed by or affiliated with us when they are not.
+>
+> For example:
+>
+> - You cannot say you are distributing the Hibernate software when you're distributing a modified version of it.
+> - You cannot use our logo on your website in a way that suggests that your website is an official website or that we endorse your website.
+>
+> What you can say instead:
+>
+> - You like the Hibernate software
+> - You participate in the Hibernate community
+> - You are providing an unmodified version of the Hibernate software
+> - You wrote a book describing how to use the Hibernate software.
+>
 
 This fundamental requirement, that it is always clear to people what they are getting and from whom, is reflected throughout this Policy.
 It should also serve as your guide if you are not sure about how you are using the Marks.
@@ -122,7 +123,6 @@ If you compile and distribute bitwise identical packaged artifacts from our unmo
 You may use the Word Marks, but not the Logos, to truthfully describe the origin of the software that you are providing, that is, that the code you are distributing is a modification of our software. You may also say, for example, that "this software is derived from the source code for Hibernate version 5.2."
 
 If your modification includes minor changes like bug fixes that preserve compatibility with our published artifacts, your artifacts should be labeled to indicate they were built by you.
-For instance, the Maven dependency io.quarkus:quarkus-arc:3.8.5.redhat-00004 clearly indicates it was built by Red Hat.
 
 Substantive modifications, on the other hand, should be treated as a fork. For example, where the functionality diverges, group or artifact identifiers should be changed to ensure users are not confused about which variant of the software they are getting and from whom.
 You may place your own trademarks or logos on forked versions of the software, as you have become the origin of that version. In such cases, you should not use our Logos.
@@ -145,12 +145,12 @@ Acceptable usage examples:
 - *&lt;your product/company name>* **recipe for** OpenRewrite
 - *&lt;your product name>* **build of** Morphia
 
-Counter-examples:
+Counter-examples (may cause confusion):
 
-- Unacceptable: EasyMock *&lt;your product name>*
-- Unacceptable: Morphia **by** *&lt;your company name>*
-- Unacceptable: OpenRewrite **-** *&lt;your product name>*
-- Unacceptable: *&lt;your product/company name>* **-** Quarkus
+- EasyMock *&lt;your product name>*
+- Morphia **by** *&lt;your company name>*
+- OpenRewrite **-** *&lt;your product name>*
+- *&lt;your product/company name>* **-** Quarkus
 
 > [!NOTE]
 >
@@ -210,7 +210,19 @@ We will likely consider the following usages an infringement of our Marks:
 - Using the Marks on promotional goods for sale.
 - Using the Marks as the name for software that has been modified, except as allowed by [Distribution of modified source code or artifacts packaged you](#distribution-of-modified-source-code-or-artifacts-packaged-you).
 
-## General information
+### What to do when you see abuse
+
+If you are aware of any confusing use or misuse of the Marks in any way, we would appreciate you bringing this to our attention. Please [contact us](#contact-and-further-information) so that we can investigate it further.
+
+### Where to get further information
+
+If you have any questions about this Policy, would like to speak with us about the use of our Marks in ways not described in the Policy, or see any abuse of our Marks, please [contact us](#contact-and-further-information).
+
+## Proper trademark use
+
+These rules hold true for all trademarks, not just ours, so you should follow them for our Marks as well as anyone else's.
+
+Guidelines and fact sheets with these recommendations are published by the [International Trademark Association](https://www.inta.org/fact-sheets/trademark-use/).
 
 ### Trademark marking and legends
 
@@ -220,60 +232,6 @@ If you are using our Marks in a way described in [Uses for which we are granting
 
 - For registered trademarks: "<<~Mark>> is a trademark of Commonhaus Foundation, registered in the United States and other countries. Used with permission."
 - For unregistered trademarks: "<<~Mark>> is a trademark of Commonhaus Foundation. Used with permission."
-
-### What to do when you see abuse
-
-If you are aware of any confusing use or misuse of the Marks in any way, we would appreciate you bringing this to our attention. Please [contact us](#contact-and-further-information) so that we can investigate it further.
-
-### Where to get further information
-
-If you have any questions about this Policy, would like to speak with us about the use of our Marks in ways not described in the Policy, or see any abuse of our Marks, please [contact us](#contact-and-further-information).
-
-## General considerations about trademarks and their use
-
-### What is a trademark?
-
-A *trademark* is a word, phrase, symbol or design, or a combination of words, phrases, symbols or designs, that identifies and distinguishes the source of the goods of one party from those of others.
-
-A *service mark* is the same as a trademark, except that it identifies and distinguishes the source of a service rather than a product.
-
-[*Trade dress*](https://www.inta.org/topics/trade-dress/) or "get up" refers to the look and feel of the packaging, which in this context can include the layout, colors, images, and design choices in a web page.
-
-Throughout this Policy, the terms "trademark" and "mark" refer to both trademarks, service marks and trade dress.
-However, the use of a word is "not as a trademark" when it is used functionally as part of the software program, for example, in a file, folder, directory, or path name. Use in this way is not a trademark infringement.
-
-### What is "likelihood of confusion"?
-
-There is trademark infringement if your use of a trademark has created a "likelihood of confusion."
-This means using a trademark in a way that will likely confuse or deceive the relevant consuming public about the source of a product or service using the mark in question.
-
-Some examples:
-
-- If the "Foo" software extension removes all double spaces after periods, but someone else later creates "Foo" software that adds a third space after periods, consumers would be confused between the two and the newcomer will likely be a trademark infringer.
-
-- If a company makes "Foobar" software and a third party offers training called "Foobar Certification," a person is likely to believe, wrongly, that the certification is being offered by the makers of Foobar software. The third party has likely misled consumers about the source of its training and is a trademark infringer.
-
-### What is "nominative" use?
-
-So-called "nominative use" (or "nominative fair use"), which is the name of the doctrine under U.S. trademark law, allows the use of another's trademark where it is necessary for understanding.
-Other countries' trademark laws also have similar provisions.
-
-For example, a car repair shop that specializes in a particular brand of automobile, VW for example, must be allowed to say that they repair VW cars.
-Here is what you should consider when deciding whether your use of a trademark is a nominative fair use:
-
-- Can you identify the product or service in question without using the trademark;
-- Are you avoiding a likelihood of confusion in the way that you have used the trademark; and
-- Have you used only as much as is necessary to identify the product or service.
-
-With our "Foobar Certification" example above, the person offering the certification would be allowed to say, under the nominative fair use doctrine, that she is offering "Maude's Certification for Foobar software."
-
-It is almost never the case that using a Logo will be a nominative fair use since it will be a rare case where the logo is needed for strictly informational purposes.
-
-## Proper trademark use
-
-These rules hold true for all trademarks, not just ours, so you should follow them for our Marks as well as anyone else's.
-
-Guidelines and fact sheets with these recommendations are published by the [International Trademark Association](https://www.inta.org/fact-sheets/trademark-use/).
 
 ### Use of trademarks in text
 
@@ -341,6 +299,46 @@ We value input from our community in maintaining the integrity of the Commonhaus
 If you have questions with respect to these guidelines or to report concerns regarding the use or misuse of a trademark of the Commonhaus Foundation,
 or to obtain written permission for a proposed use of Commonhaus trademarks,
 send an email to the [`trademarks` mailing list][CONTACTS.yaml].
+
+## General information about Trademarks
+
+### What is a trademark?
+
+A *trademark* is a word, phrase, symbol or design, or a combination of words, phrases, symbols or designs, that identifies and distinguishes the source of the goods of one party from those of others.
+
+A *service mark* is the same as a trademark, except that it identifies and distinguishes the source of a service rather than a product.
+
+[*Trade dress*](https://www.inta.org/topics/trade-dress/) or "get up" refers to the look and feel of the packaging, which in this context can include the layout, colors, images, and design choices in a web page.
+
+Throughout this Policy, the terms "trademark" and "mark" refer to both trademarks, service marks and trade dress.
+However, the use of a word is "not as a trademark" when it is used functionally as part of the software program, for example, in a file, folder, directory, or path name. Use in this way is not a trademark infringement.
+
+### What is "likelihood of confusion"?
+
+There is trademark infringement if your use of a trademark has created a "likelihood of confusion."
+This means using a trademark in a way that will likely confuse or deceive the relevant consuming public about the source of a product or service using the mark in question.
+
+Some examples:
+
+- If the "Foo" software extension removes all double spaces after periods, but someone else later creates "Foo" software that adds a third space after periods, consumers would be confused between the two and the newcomer will likely be a trademark infringer.
+
+- If a company makes "Foobar" software and a third party offers training called "Foobar Certification," a person is likely to believe, wrongly, that the certification is being offered by the makers of Foobar software. The third party has likely misled consumers about the source of its training and is a trademark infringer.
+
+### What is "nominative" use?
+
+So-called "nominative use" (or "nominative fair use"), which is the name of the doctrine under U.S. trademark law, allows the use of another's trademark where it is necessary for understanding.
+Other countries' trademark laws also have similar provisions.
+
+For example, a car repair shop that specializes in a particular brand of automobile, VW for example, must be allowed to say that they repair VW cars.
+Here is what you should consider when deciding whether your use of a trademark is a nominative fair use:
+
+- Can you identify the product or service in question without using the trademark;
+- Are you avoiding a likelihood of confusion in the way that you have used the trademark; and
+- Have you used only as much as is necessary to identify the product or service.
+
+With our "Foobar Certification" example above, the person offering the certification would be allowed to say, under the nominative fair use doctrine, that she is offering "Maude's Certification for Foobar software."
+
+It is almost never the case that using a Logo will be a nominative fair use since it will be a rare case where the logo is needed for strictly informational purposes.
 
 ## Attribution
 
