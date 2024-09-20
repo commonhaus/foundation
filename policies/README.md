@@ -11,6 +11,7 @@ The CF is committed to complying with all applicable laws and regulations relate
 - [Conflict of Interest Policy](./conflict-of-interest.md)
 - [Continuity and Administrative Access Policy](./succession-plan.md)
 - [Intellectual Property Policy](./ip-policy.md)
+- [Privacy Policy](./privacy-policy.md)
 - [Trademark Policy](./trademark-policy.md)
 
 ## Policy change process
