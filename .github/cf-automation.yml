@@ -89,6 +89,8 @@ notice:
       - cf-egc@commonhaus.org
 
 voting:
+  vote_thredshold:
+    commonhaus/cf-egc: twothirds
   exclude_login:
     - commonhaus-bot
   error_email_address:
