@@ -86,7 +86,7 @@ If you wish to exercise these rights, send an email to the [`legal` mailing list
 
 ## Changes to This Policy
 
-We may update this Privacy Policy periodically to reflect changes in our practices or legal obligations.
+We may update this Privacy Policy periodically to reflect changes in our practices or legal obligations using our [amendment process][].
 We will notify you of any significant changes by posting the updated policy on our website.
 
 ## Contact Us
@@ -120,3 +120,4 @@ If you are a California resident, you have additional rights under the CCPA, inc
 You may exercise your rights to access, delete, or correct your personal information as described in the “Your Rights” section of this notice. When you make a request, we will verify your identity by asking you to sign into your account or if necessary by requesting additional information from you. You may also make a rights request using an authorized agent. If you submit a rights request from an authorized agent who does not provide a valid power of attorney, we may ask the authorized agent to provide proof that you gave the agent signed permission to submit the request to exercise rights on your behalf. In the absence of a valid power of attorney, we may also require you to verify your own identity directly with us or confirm to us that you otherwise provided the authorized agent permission to submit the request. If you have any questions or concerns, you may reach us using the methods described under [Your Rights](#your-rights).
 
 [CONTACTS.yaml]: https://github.com/commonhaus/foundation/blob/main/CONTACTS.yaml
+[amendment process]: ../bylaws/9-amendments.md
