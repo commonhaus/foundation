@@ -116,7 +116,7 @@ You can find files for the Logos and approved designs for packaging on our [Bran
 > When we refer to "our software," we mean the software produced by CF Projects.
 > "Artifacts packaged by us" refers to software artifacts packaged and published by each CF Project, using their own processes and infrastructure.
 
-#### Distribution of modified source code or artifacts packaged you
+#### Distribution of modified source code or artifacts packaged by you
 
 If you compile and distribute bitwise identical packaged artifacts from our unmodified source code, you may retain our Word Marks and Logos.
 
@@ -208,7 +208,7 @@ We will likely consider the following usages an infringement of our Marks:
 
 - Using the Marks as part of a domain name or subdomain.
 - Using the Marks on promotional goods for sale.
-- Using the Marks as the name for software that has been modified, except as allowed by [Distribution of modified source code or artifacts packaged you](#distribution-of-modified-source-code-or-artifacts-packaged-you).
+- Using the Marks as the name for software that has been modified, except as allowed by [Distribution of modified source code or artifacts packaged by you](#distribution-of-modified-source-code-or-artifacts-packaged-by-you).
 
 ### What to do when you see abuse
 
