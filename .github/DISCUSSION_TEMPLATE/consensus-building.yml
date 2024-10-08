@@ -49,11 +49,12 @@ body:
     attributes:
       label: Vote counting instructions
       description: |
-        Include an HTML comment that describes how/which reactions should be counted.
-        Valid values: +1, -1, confused, eyes, laugh, heart, hooray, rocket.
-        This should be edited (after item is created) to match the content above, if necessary.
+        Use an HTML comment to describe how votes should be counted.
+        This can be edited after item is created to match the content above, if necessary.
+        Valid reaction values: +1, -1, confused, eyes, laugh, heart, hooray, rocket.
       multiple: false
       options:
-        - '<!--vote::marthas approve="+1" ok="eyes" revise="-1" -->'
-        - '<!--vote::manual -->'
-      default: 1      
+        - 'Marthas <!--vote::marthas approve="+1" ok="eyes" revise="-1" -->'
+        - 'Count all reactions <!--vote::manual -->'
+        - 'Count all comments <!--vote::manual comments -->'
+      default: 1
