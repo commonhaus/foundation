@@ -47,7 +47,7 @@ jackson:
   repo: https://github.com/FasterXML/jackson
   display:
     home: https://github.com/FasterXML/jackson
-    logo: https://avatars.githubusercontent.com/u/382692?s=200&v=4
+    logo: https://github.com/FasterXML.png
     description: >
       The go-to library for JSON processing in Java. Jackson offers fast and flexible parsing/generation
       of JSON for Java applications, enabling seamless data interchange.
@@ -110,7 +110,8 @@ quarkus:
   repo: https://github.com/quarkusio
   display:
     home: https://quarkus.io/
-    logo: https://github.com/quarkusio/quarkus/blob/main/core/deployment/src/main/resources/META-INF/branding/logo.png?raw=true
+    logo: https://github.com/quarkusio/quarkusio.github.io/blob/main/assets/images/brand/quarkus_logo_horizontal_default.svg?raw=true
+    logo-dark: https://github.com/quarkusio/quarkusio.github.io/blob/main/assets/images/brand/quarkus_logo_horizontal_reverse.svg?raw=true
     wordmark: false
     description: >
       Quarkus is a Kubernetes Native Java stack tailored for OpenJDK HotSpot and GraalVM, crafted from the best of breed Java libraries and standards.

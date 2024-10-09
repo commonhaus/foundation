@@ -103,8 +103,8 @@ sponsors:
       - gold
     display:
       home: https://example.com/
-      logo: https://www.commonhaus.org/images/projects/OpenRewrite_WordmarkTM_MidnightBlue.png
-      logo-dark: https://www.commonhaus.org/images/projects/OpenRewrite_WordmarkTM_White.png
+      logo: https://github.com/quarkusio/quarkusio.github.io/blob/main/assets/images/brand/quarkus_logo_horizontal_default.svg?raw=true
+      logo-dark: https://github.com/quarkusio/quarkusio.github.io/blob/main/assets/images/brand/quarkus_logo_horizontal_reverse.svg?raw=true
       description: >
         Description TBD. Lorem ipsum odor amet, consectetuer adipiscing elit.
         Placerat accumsan nostra sociosqu morbi sodales blandit.
@@ -146,8 +146,8 @@ sponsors:
       - silver
     display:
       home: https://example.com/
-      logo: https://www.commonhaus.org/images/projects/OpenRewrite_WordmarkTM_MidnightBlue.png
-      logo-dark: https://www.commonhaus.org/images/projects/OpenRewrite_WordmarkTM_White.png
+      logo: https://github.com/quarkusio/quarkusio.github.io/blob/main/assets/images/brand/quarkus_logo_horizontal_default.svg?raw=true
+      logo-dark: https://github.com/quarkusio/quarkusio.github.io/blob/main/assets/images/brand/quarkus_logo_horizontal_reverse.svg?raw=true
       description: >
         Description TBD. Lorem ipsum odor amet, consectetuer adipiscing elit.
         Placerat accumsan nostra sociosqu morbi sodales blandit.
@@ -175,8 +175,8 @@ sponsors:
       - bronze
     display:
       home: https://example.com/
-      logo: https://www.commonhaus.org/images/projects/OpenRewrite_WordmarkTM_MidnightBlue.png
-      logo-dark: https://www.commonhaus.org/images/projects/OpenRewrite_WordmarkTM_White.png
+      logo: https://github.com/quarkusio/quarkusio.github.io/blob/main/assets/images/brand/quarkus_icon_default.svg?raw=true
+      logo-dark: https://github.com/quarkusio/quarkusio.github.io/blob/main/assets/images/brand/quarkus_icon_reverse.svg?raw=true
       description: >
         Description TBD. Lorem ipsum odor amet, consectetuer adipiscing elit.
         Placerat accumsan nostra sociosqu morbi sodales blandit.
