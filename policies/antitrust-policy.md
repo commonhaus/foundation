@@ -6,11 +6,13 @@ The Commonhaus Foundation (CF) requires that all members, activities, projects, 
 
 ## Scope
 
-This policy applies to all participants in Commonhaus Foundation activities, including but not limited to general members, project representatives, councilors, and committee members. It is designed to complement the [Conflict of Interest Policy](./conflict-of-interest.md) and other foundation governance documents.
+This policy applies to all participants in Commonhaus Foundation activities, including but not limited to general members, project representatives, councilors, and committee members.
+It complements the [Conflict of Interest Policy](./conflict-of-interest.md) and other foundation governance documents.
 
 ## Commitment to Compliance
 
-By taking part in activities related to foundation governance or operations, participants agree to follow this policy and promote fair competition. This includes activities initiated on behalf of the Council, EGC, or other officially recognized committee or office.
+By taking part in activities related to foundation governance or operations, participants agree to follow this policy and promote fair competition.
+This includes activities initiated on behalf of the Council, EGC, or other officially recognized committee or office.
 
 ## General Principles
 
@@ -28,7 +30,7 @@ Avoid discussing or agreeing on topics that could seem anti-competitive, such as
 ## Participation in Foundation activities
 
 The Foundation encourages open participation in all projects and activities.
-Membership should not be used to exclude or disadvantage anyone.
+Foundation membership should not be used to exclude or disadvantage anyone.
 
 If a member suspects that any activity may violate antitrust laws, they should [report their concern](#reporting-a-violation) immediately.
 If the violation happens during a meeting, ask to have your concern recorded in the minutes.
@@ -47,7 +49,8 @@ Violations of this policy may result in disciplinary action, including suspensio
 
 ## Review and Updates
 
-This policy will be reviewed periodically to ensure it remains effective and relevant. Amendments will be made in accordance with the CF’s governance processes.
+This policy will be reviewed periodically to ensure it remains effective and relevant.
+Amendments will be made in accordance with CF governance processes.
 
 ## Acknowledgment
 
