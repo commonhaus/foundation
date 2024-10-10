@@ -24,10 +24,12 @@ jobs:
       - name: Use Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: '18.5'
+          node-version: '20'
+          cache-dependency-path: '**/package-lock.json'
           cache: 'npm'
 
       - name: Check markdown links
+        working-directory: ${{ github.workspace }}/.github
         run: |
           npm ci
           npm run test
