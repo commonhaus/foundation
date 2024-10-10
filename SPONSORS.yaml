@@ -1,42 +1,51 @@
 #
 # Commonhaus Foundation Sponsor information
 #
-
+# Sponsor tiers
+# key - unique per tier, used in sponsor definitions below.
+#   name: Display name of the tier
+#   layout: 1, 2, 3, or avatar
+#   chars: Optional. Maximum characters for the sponsor description
+#   description: Introductory text for the tier
+#
 tiers:
   in-kind:
     name: In-kind
     layout: 2
+    chars: 240
     description: >
-      In-kind sponsors provide services, software, or other resources to the
-      Commonhaus Foundation and its projects.
+      Thank you to our In-kind Sponsors, who provide essential services, software,
+      and other resources to the Commonhaus Foundation and our projects.
   gold:
     name: Gold
     layout: 1
+    chars: 480
     description: >
-      Gold sponsors are recognized for their significant financial contributions
-      to the Commonhaus Foundation and its projects.
+      A heartfelt thank you to our Gold Sponsors for their significant financial
+      contributions that empower the Commonhaus Foundation and our projects.
   silver:
     name: Silver
     layout: 2
+    chars: 240
     description: >
-      Silver sponsors are recognized for their financial contributions to the
-      Commonhaus Foundation and its projects.
+      Thank you to our Silver Sponsors for their generous financial contributions in
+      support of the Commonhaus Foundation and our projects.
   bronze:
     name: Bronze
     layout: 3
     description: >
-      Bronze sponsors are recognized for their financial contributions to the
-      Commonhaus Foundation and its projects.
+      Thank you to our Bronze Sponsors for their valuable financial contributions
+      to the Commonhaus Foundation and our projects.
   supporter:
     name: Supporter
     layout: avatar
     description: >
-      Supporters are recognized for their financial contributions to the
-      Commonhaus Foundation and its projects.
+      We deeply appreciate the contributions of our Supporters, whose financial
+      support helps sustain the work of the Commonhaus Foundation and our projects.
 
 # Sponsors:
 #
-# key - unique per sponsor. Use as organization match in CONTACTS.yaml
+# key - unique per sponsor. Match advisory-board organization in CONTACTS.yaml
 #
 # name: Display name of the sponsor
 # tier: in-kind, gold, silver, bronze, supporter
@@ -44,9 +53,12 @@ tiers:
 #   home: preferred landing page
 #   logo: Link to preferred logo to use on commonhaus.org website
 #   logo-dark: Link to preferred logo to use in dark mode (optional)
-#   description: a short-ish description or tagline for display with the logo
+#   in-kind: Description of in-kind services provided.
+#            Optional, if in-kind sponsor. Subject to tier character limit.
+#   description: Description or tagline to display with the logo
+#                Applies to gold/silver sponsors. Subject to tier character limit.
+# draft: true Optional, while unpublished or early stage
 #
-# Unpublished (or early stage), use draft: true
 sponsors:
   Gradle:
     name: Gradle
