@@ -2,7 +2,7 @@
 
 # Docker image for pandoc
 if [[ -z "${PANDOCK}" ]]; then
-    PANDOCK=ebullient/pandoc-emoji:3.1
+    PANDOCK=ghcr.io/commonhaus/pandoc-pdf:3.1
 fi
 # Git commit information (SHA, date, repo url)
 DATE=$(date "+%Y-%m-%d")

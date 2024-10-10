@@ -7,7 +7,7 @@ filters:
 pdf-engine: lualatex
 pdf-engine-opts:
   - '-shell-escape'
-template: commonhaus-eisvogel
+template: .pandoc/templates/commonhaus-eisvogel
 toc: true
 toc-depth: 3
 variables:
