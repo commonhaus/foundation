@@ -15,7 +15,7 @@ on:
 env:
   GH_BOT_EMAIL: "41898282+github-actions[bot]@users.noreply.github.com"
   GH_BOT_NAME: "GitHub Action"
-  PANDOCK: ebullient/pandoc-emoji:3.1
+  PANDOCK: ghcr.io/commonhaus/pandoc-pdf:3.1
 
 permissions:
   contents: read
@@ -45,22 +45,6 @@ jobs:
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
-
-      - run: mkdir -p ~/image-cache
-
-      - id: image-cache
-        uses: actions/cache@v4.1.0
-        with:
-            path: ~/image-cache
-            key: image-cache-${{ runner.os }}
-
-      - if: steps.image-cache.outputs.cache-hit != 'true'
-        run: |
-            docker pull ${PANDOCK}
-            docker save -o ~/image-cache/pandock.tar alpine
-
-      - if: steps.image-cache.outputs.cache-hit == 'true'
-        run: docker load -i ~/image-cache/pandock.tar
 
       - name: convert md to pdf
         env:
