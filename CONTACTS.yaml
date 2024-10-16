@@ -77,7 +77,7 @@ egc:
 #
 advisory-board:
   - organization: MongoDB
-    login: ashni-mongodb
+    login: ashni-mehta
   - organization: MongoDB
     login: techbelle
   - organization: ...
