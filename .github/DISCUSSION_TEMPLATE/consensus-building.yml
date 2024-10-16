@@ -57,4 +57,4 @@ body:
         - 'Marthas <!--vote::marthas approve="+1" ok="eyes" revise="-1" -->'
         - 'Count all reactions <!--vote::manual -->'
         - 'Count all comments <!--vote::manual comments -->'
-      default: 1
+      default: 0
