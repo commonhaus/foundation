@@ -3,6 +3,8 @@ version: "cf-2024-06-07"
 rolePriority:
   - cfc
   - egc
+  - officer
+  - advisor
   - member
   - sponsor
 
@@ -42,6 +44,16 @@ role:
     attestations:
       - coc
       - egc
+
+  advisor:
+    title: "Advisory Board Membership Agreement"
+    preamble: |
+      The foundation uses GitHub as its primary platform for project management and collaboration.
+      Advisory Board members must have a GitHub account to participate in CF discussions and votes.
+
+    attestations:
+      - coc
+      - advisor
 
 agreement: By pressing the "I Agree" button, I affirm my commitment to these responsibilities.
 
@@ -94,6 +106,28 @@ attestations:
       As a project representative to the EGC, I agree to:
       - Participate in EGC discussions and votes.
       - Represent the interests of my project and the Commonhaus Foundation community.
+
+  officer:
+    title: "Officer Responsibilities"
+    body: |
+      I have read the following sections of the Commonhaus Foundation Bylaws:
+      - [Officers](https://www.commonhaus.org/bylaws/cf-council.md#officers)
+      - [Decision Making](https://www.commonhaus.org/bylaws/decision-making.html)
+
+      As an officer of the Commonhaus Foundation, I agree to:
+      - Perform the duties of my office to the best of my ability.
+      - Act in the best interests of the Commonhaus Foundation and its community.
+
+  advisor:
+    title: "Advisory Board Responsibilities"
+    body: |
+      I have read the following sections of the Commonhaus Foundation Bylaws:
+      - [Advisory Board](https://www.commonhaus.org/bylaws/cf-council.md#advisory-board)
+      - [Decision Making](https://www.commonhaus.org/bylaws/decision-making.html)
+
+      As an Advisory Board member, I agree to:
+      - Provide strategic guidance and advice to the Commonhaus Foundation Council.
+      - Participate in regular and special meetings as required.
 
   coc:
     title: "Code of Conduct"
