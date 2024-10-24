@@ -45,9 +45,23 @@ role:
       - coc
       - egc
 
+  officer:
+    title: "Officer Membership Agreement"
+    preamble: |
+      Officers are appointed by the CF Council.
+
+      The foundation uses GitHub as its primary platform for project management and collaboration.
+      Officers must have a GitHub account to participate in CF discussions and votes.
+
+    attestations:
+      - coc
+      - officer
+
   advisor:
     title: "Advisory Board Membership Agreement"
     preamble: |
+      Advisory Board members are appointed by our sponsors.
+
       The foundation uses GitHub as its primary platform for project management and collaboration.
       Advisory Board members must have a GitHub account to participate in CF discussions and votes.
 
