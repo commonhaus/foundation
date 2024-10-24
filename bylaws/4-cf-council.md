@@ -139,28 +139,22 @@ Relevant Florida Statute(s):
 
 ## Electronic Participation and Decision-Making
 
-**Decision Making Outside Meetings:** The CFC can make decisions in lieu of meetings provided all Councilors give written consent.
-The CFC considers authenticated digital actions, such as comments and reactions on GitHub, as valid forms of written consent, equivalent to formal written agreements.
-Each decision made in this manner must be documented and ratified by all Councilors to ensure legal compliance and maintain transparency[^1].
+Authenticated digital actions, such as comments and reactions on GitHub, are valid forms of written consent, equivalent to formal written agreements. The CFC, EGC, and other committees may make decisions asynchronously.
+
+A decision can be made once a quorum of participation is met, and there are no unresolved objections during the designated time period.
 
 Relevant Florida Statute(s):
 
 - [617.0821](https://www.flsenate.gov/Laws/Statutes/2020/0617.0821) Action by directors without a meeting.
-
-[^1]: As an example, a GitHub Discussion for on a specific topic would require a reaction
-(per our [decision-making process][consensus]) from all Councilors to allow a decision to be made outside of a meeting.
-The final decisions and actions taken should be summarized in the Discussion.
 
 ## Voting
 
 The CFC employs a consensus-driven approach for decision-making, detailed in [consensus guidelines][consensus].
 When consensus cannot be reached, voting is utilized to resolve differences.
 
-- **Majority Voting**: Most decisions are subject to a simple majority vote of Councilors present and voting at a meeting or acting [through written consent](#electronic-participation-and-decision-making).
+- **Majority Voting**: Most decisions are subject to a simple majority vote of Councilors present and voting at a meeting or all Councilors when acting through [written consent](#electronic-participation-and-decision-making).
 
-- **Supermajority Voting**: Certain critical decisions necessitate a "Supermajority Vote." This requires:
-    - Approval by at least two-thirds of the total voting members of the CFC or the EGC at a meeting with at least two-thirds of voting members present.
-    - Approval by two-thirds of all voting members acting [through written consent](#electronic-participation-and-decision-making).
+- **Supermajority Voting**: Certain critical decisions require approval by two-thirds of voting members (CFC or EGC) with a quorum present or participating. This applies whether in a meeting or through [written consent](#electronic-participation-and-decision-making).
 
 **Definition of Voting Members**:
 
