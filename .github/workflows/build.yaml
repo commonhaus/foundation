@@ -21,9 +21,19 @@ permissions:
   contents: read
 
 jobs:
-  update-website:
+  main-root:
+    outputs:
+      is-main: ${{ steps.is-main-root.outputs.test }}
     runs-on: ubuntu-latest
-    if: ${{ github.event_name == 'push' && github.ref == 'refs/heads/main' && github.repository == 'commonhaus/foundation' }}
+    steps:
+      - if: github.event_name == 'push' && github.ref == 'refs/heads/main' && github.repository == 'commonhaus/foundation'
+        id: is-main-root
+        run: echo "test=true" >> "$GITHUB_OUTPUT"
+
+  update-website:
+    needs: main-root
+    runs-on: ubuntu-latest
+    if: ${{ needs.main-root.outputs.is-main }}
     permissions:
       actions: read
     steps:
@@ -35,6 +45,7 @@ jobs:
 
   package:
     name: Package PDFs
+    needs: main-root
     runs-on: ubuntu-latest
     permissions:
       contents: write
@@ -47,6 +58,7 @@ jobs:
           fetch-depth: 0
 
       - name: convert md to pdf
+        if: ${{ needs.main-root.outputs.is-main || github.event_name == 'pull_request' }}
         env:
           GIT_COMMIT: ${{ github.sha }}
           GH_TOKEN: ${{ github.token }}
@@ -59,7 +71,7 @@ jobs:
           path: output/public/*.pdf
 
       - name: Update snapshot tag
-        if: ${{ github.event_name == 'push' && github.ref == 'refs/heads/main' && github.repository == 'commonhaus/foundation' }}
+        if: ${{ needs.main-root.outputs.is-main }}
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         shell: bash
