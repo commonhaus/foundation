@@ -89,7 +89,7 @@ notice:
       - cf-egc@commonhaus.org
 
 voting:
-  vote_thredshold:
+  vote_threshold:
     commonhaus/cf-egc: twothirds
   exclude_login:
     - commonhaus-bot
