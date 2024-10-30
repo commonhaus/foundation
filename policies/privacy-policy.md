@@ -5,119 +5,92 @@ This Privacy Policy explains how we collect, use, and share information when you
 
 - [Information We Collect](#information-we-collect)
     - [Data for Foundation operations](#data-for-foundation-operations)
-    - [Legal and Contributor Data](#legal-and-contributor-data)
 - [How We Use Your Information](#how-we-use-your-information)
 - [Information Sharing and Disclosure](#information-sharing-and-disclosure)
 - [How We Protect Your Information](#how-we-protect-your-information)
-- [Cross-border data transfers](#cross-border-data-transfers)
+- [Data Security and Cross-border Transfers](#data-security-and-cross-border-transfers)
 - [Data Retention](#data-retention)
 - [Your Rights](#your-rights)
 - [Changes to This Policy](#changes-to-this-policy)
 - [Contact Us](#contact-us)
-- [Additional Information for EEA and UK Users](#additional-information-for-eea-and-uk-users)
-- [Additional Information for California Users](#additional-information-for-california-users)
+- [Additional Information for EEA, UK, and California Users](#additional-information-for-eea-uk-and-california-users)
 
 ## Information We Collect
 
-We are committed to collecting only the minimum necessary data to operate our services effectively.
+We collect only the data necessary to operate our services effectively.
 
 ### Data for Foundation operations
 
-1. **GitHub Data**: We use GitHub for authentication and collect your GitHub login and user ID.
-    If you serve on a CF committee, your GitHub login, full name, and bio (as defined in your GitHub profile) will be displayed publicly during your tenure.
-    You may opt to provide an alternate display name and bio.
+1. **Authentication and Identity Data**: We use GitHub for authentication and collect basic identity data, including your GitHub login and user ID.
+    If you serve on a CF committee, we may display your GitHub login, name, and profile bio publicly.
+    Members may also opt to provide an alternate display name or bio.
 
-2. **ForwardEmail Service**: For members using ForwardEmail, we maintain a link between your GitHub login and the associated forwarding email address(es).
-    The target email address, specified by you, is stored by ForwardEmail, not the foundation.
+2. **Email Forwarding Data**: For members using the ForwardEmail service, we link your GitHub login to the forwarding email address(es) specified.
+    ForwardEmail stores the target address; CF does not retain this information.
 
-3. **Session Cookies**: Our member section uses session cookies solely for GitHub authentication.
-    These cookies are temporary and facilitate secure access to member-specific features on our website.
+3. **Session Cookies and Analytics**: Our member section uses temporary session cookies solely for GitHub authentication.
+    We also collect anonymous, aggregated analytics to improve website performance and usability.
 
-4. **Analytics**: We use aggregated and anonymous analytics to understand how visitors use our website.
-    This data helps us improve our website performance and user experience.
-
-### Legal and Contributor Data
-
-1. **Legal Agreements**: We collect personal information, such as names and contact details, necessary for asset transfers, fiscal hosting, or other legal agreements signed with the foundation.
-
-2. **Contributor Information**: We collect information from contributors who sign Contributor License Agreements (CLAs), including names and email addresses.
-    Personal data, such as names and email addresses, included in commit messages or source code may also be processed as part of foundation or project operations.
+4. **Legal and Contributor Data**: For legal agreements (e.g., asset transfers, fiscal hosting) and contributor verification (e.g., Contributor License Agreements or commit messages), we collect names, contact details, and any relevant contribution history.
 
 ## How We Use Your Information
 
-The information we collect is used to:
+We use your information to:
 
-- **Authenticate and Provide Access**: We use GitHub data to authenticate users and provide access to the member section of our website and other services.
-- **Committee and Member Display**: We publicly display committee members’ full names and GitHub logins (or alternate display names if specified) during their tenure.
-- **Communication**: For members using the ForwardEmail service, we facilitate communication through the provided forwarding addresses.
-- **Website Improvement**: Analytics data helps us improve our website’s usability and performance without identifying individual users.
-- **Project Management and Contribution Oversight**: We use contributor information to help projects monitor contribution activity, ensure adherence to contribution requirements (such as CLAs or DCOs), and assess overall project health.
+- **Authenticate Access**: GitHub data is used to verify and provide secure access to CF services.
+- **Public Display for Committees**: We publicly display committee members’ names and GitHub logins during their tenure.
+- **Communication**: The ForwardEmail service facilitates communication via forwarding addresses provided by members.
+- **Website Improvement**: Analytics help us assess website performance without identifying individual users.
+- **Project and Contribution Oversight**: Contributor information supports project management and monitors adherence to contribution requirements, such as CLAs or DCOs.
 
 ## Information Sharing and Disclosure
 
-We do not sell or rent your personal information. Information is shared under the following circumstances:
+We do not sell or rent your personal information.
+Information may be shared under the following circumstances:
 
-- **Third-party services**: We do not proactively share your personal information with third-party service providers.
-    If you opt to use services like ForwardEmail, your information may be shared with those services as needed for their operation.
-    This sharing only occurs with your consent when you choose to use these services.
-- **Legal Requirements**: We may disclose information if required by law or in response to a valid legal request.
+- **Third-party Services**: We share your information with third-party services only when you opt-in, such as by using ForwardEmail, and only as necessary for those services to function.
+- **Legal Requirements**: We may disclose information as required by law or in response to a valid legal request.
 
 ## How We Protect Your Information
 
 We take reasonable measures necessary to protect your personal data from unauthorized access, alteration, or destruction; maintain data accuracy; and help ensure the appropriate use of your personal data.
 
-## Cross-border data transfers
+## Data Security and Cross-border Transfers
 
-We may store and process your personal data in your region, in the United States, and in any other country where we or our service providers operate facilities.
-
-We may transfer personal data from the European Union, the United Kingdom, and Switzerland to other countries, some of which have not yet been determined by the European Commission to have an adequate level of data protection.
-For example, their laws may not guarantee you the same rights, or there may not be a privacy supervisory authority there that is capable of addressing your complaints.
-When we engage in such transfers, we use the Standard Contractual Clauses approved by the European Commission to help protect your rights and enable these protections to travel with your data.
+We take reasonable measures to protect your personal data from unauthorized access, alteration, or destruction.
+Your data may be processed in various countries, including the U.S. and regions where we or our providers operate.
+For transfers from the EU, UK, or Switzerland, we rely on Standard Contractual Clauses to ensure your data’s protection.
 
 ## Data Retention
 
-We retain information for as long as necessary to fulfill the purposes outlined in this policy, or as required by law.
-Session cookies are temporary and expire once your session ends.
+We retain data as long as necessary to fulfill the purposes outlined in this policy or as required by law.
+Session cookies are temporary and expire when your session ends.
 
 ## Your Rights
 
-You have the right to request access to, correction, or deletion of your personal information.
-If you wish to exercise these rights, send an email to the [`legal` mailing list][CONTACTS.yaml].
+You have the right to request access to, correction of, or deletion of your personal information.
+To exercise these rights, please email the [`legal` mailing list][CONTACTS.yaml].
 
 ## Changes to This Policy
 
-We may update this Privacy Policy periodically to reflect changes in our practices or legal obligations using our [amendment process][].
-We will notify you of any significant changes by posting the updated policy on our website.
+We may update this Privacy Policy to reflect changes in our practices or legal obligations.
+Significant updates will be posted on our website.
 
 ## Contact Us
 
 If you have any questions or concerns about this Privacy Policy, send an email to the [`legal` mailing list][CONTACTS.yaml].
 
-## Additional Information for EEA and UK Users
+## Additional Information for EEA, UK, and California Users
 
-Users in the European Economic Area (“EEA”) and United Kingdom (“UK”) have the right to request access to, rectification of, or erasure of their personal data; to data portability in certain circumstances; to request restriction of processing; to object to processing; and to withdraw consent for processing where they have previously provided consent. These rights can be exercised as described in the "Your Rights" section above. EEA users also have the right to lodge a complaint with their local supervisory authority.
+Users in the European Economic Area (“EEA”), United Kingdom (“UK”), and California have specific rights under their respective data protection laws.
+These rights include, among others, access, correction, deletion, restriction of processing, and data portability in certain circumstances.
 
-As required by applicable law, we collect and process information about individuals in the EEA and UK only where we have a legal basis for doing so. Our legal bases depend on the Services you use and how you use them. We process your information where:
+1. **EEA and UK Users**: We process your data only where legally justified, including under contract fulfillment, legitimate interest (balanced against your privacy rights), consent, or legal compliance.
+    You may exercise rights to access, rectify, delete, or restrict your data, and you may object to processing or request data portability where applicable.
+    You also have the right to lodge a complaint with your local supervisory authority.
 
-- It is necessary to fulfill our contract with you, including to provide, operate, and improve the Services, provide customer support, personalize features and to protect the safety and security of the Services;
-- It satisfies a legitimate interest (which is not overridden by your data protection interests), such as preventing fraud, ensuring network and information security, enforcing our rules and policies, protecting our legal rights and interests, research and development, personalizing the Services, and marketing and promoting the Services;
-- You have consented for us to do so for a specific purpose; or
-- We need to process your information to comply with our legal obligations.
-
-## Additional Information for California Users
-
-The California Consumer Privacy Act (“CCPA”), as amended, requires us to provide California residents with some additional information, which we address in this section.
-
-In the last 12 months, we collected the following categories of personal information from California residents:
-
-- Information about project maintainers and contributors, including email address, phone number, IP address, and cookie information.
-- Internet or other electronic network activity information, such as information about your activity on our website.
-- Geolocation information based on your IP address and browser location information.
-- Inferences we make based on other collected data, for purposes such as recommending content and analytics.
-
-If you are a California resident, you have additional rights under the CCPA, including the right to opt out of any sales or sharing of your personal information, to request access to and information about our data practices, and to request deletion or correction of your personal information, as well as the right not to be discriminated against for exercising your privacy rights. The Foundation does not “sell” or “share” personal information as those terms are defined under the CCPA. We do not use or disclose sensitive personal information except to provide you the Services or as otherwise permitted by the CCPA.
-
-You may exercise your rights to access, delete, or correct your personal information as described in the “Your Rights” section of this notice. When you make a request, we will verify your identity by asking you to sign into your account or if necessary by requesting additional information from you. You may also make a rights request using an authorized agent. If you submit a rights request from an authorized agent who does not provide a valid power of attorney, we may ask the authorized agent to provide proof that you gave the agent signed permission to submit the request to exercise rights on your behalf. In the absence of a valid power of attorney, we may also require you to verify your own identity directly with us or confirm to us that you otherwise provided the authorized agent permission to submit the request. If you have any questions or concerns, you may reach us using the methods described under [Your Rights](#your-rights).
+2. **California Users**: Under the California Consumer Privacy Act (“CCPA”), you have the right to opt-out of data “sales” (CF does not sell personal data), and to access, delete, and correct your personal data.
+    CF will not discriminate against you for exercising these rights.
+    You may also make a request via an authorized agent; in such cases, CF may request additional verification to confirm your identity.
 
 [CONTACTS.yaml]: https://github.com/commonhaus/foundation/blob/main/CONTACTS.yaml
-[amendment process]: ../bylaws/9-amendments.md
