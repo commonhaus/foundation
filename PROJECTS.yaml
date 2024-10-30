@@ -13,6 +13,17 @@
 #   team: 'organization/team'  GH team defining eligible logins (alias will be login@domain)
 # draft: (optional) true while unpublished or early stage
 
+debezium:
+  name: Debezium
+  repo: https://github.com/debezium/debezium
+  display:
+    home: https://debezium.io/
+    logo: https://debezium.io/assets/images/color_black_debezium_type_600px.svg
+    logo-dark: https://debezium.io/assets/images/color_white_debezium_type_600px.svg
+    description: >
+      Debezium is an open-source distributed platform designed for Change Data Capture (CDC), providing
+      applications with an industry-standard way to respond to real-time database changes.
+
 easymock:
   name: EasyMock
   repo: https://github.com/easymock/easymock
