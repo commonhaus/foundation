@@ -25,7 +25,7 @@ We collect only the data necessary to operate our services effectively.
     If you serve on a CF committee, we may display your GitHub login, name, and profile bio publicly.
     Members may also opt to provide an alternate display name or bio.
 
-2. **Email Forwarding Data**: For members using the ForwardEmail service, we link your GitHub login to the forwarding email address(es) specified.
+2. **Email Forwarding Data**: For members using the [ForwardEmail service](https://forwardemail.net/en/privacy), we link your GitHub login to the forwarding email address(es) specified.
     ForwardEmail stores the target address; CF does not retain this information.
 
 3. **Session Cookies and Analytics**: Our member section uses temporary session cookies solely for GitHub authentication.
