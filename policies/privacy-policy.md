@@ -1,10 +1,9 @@
-# Commonhaus Foundation Privacy Policy
+# Privacy Policy
 
 The Commonhaus Foundation (CF) is committed to respecting your privacy and protecting your personal information.
 This Privacy Policy explains how we collect, use, and share information when you engage with our services, websites, and projects.
 
 - [Information We Collect](#information-we-collect)
-    - [Data for Foundation operations](#data-for-foundation-operations)
 - [How We Use Your Information](#how-we-use-your-information)
 - [Information Sharing and Disclosure](#information-sharing-and-disclosure)
 - [How We Protect Your Information](#how-we-protect-your-information)
@@ -18,8 +17,6 @@ This Privacy Policy explains how we collect, use, and share information when you
 ## Information We Collect
 
 We collect only the data necessary to operate our services effectively.
-
-### Data for Foundation operations
 
 1. **Authentication and Identity Data**: We use GitHub for authentication and collect basic identity data, including your GitHub login and user ID.
     If you serve on a CF committee, we may display your GitHub login, name, and profile bio publicly.
