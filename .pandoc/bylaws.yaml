@@ -1,13 +1,19 @@
-from: gfm+emoji
-reader: gfm+emoji
+from: gfm+emoji+alerts
+reader: gfm+emoji+alerts
 number-sections: true
 file-scope: true
 filters:
-- .pandoc/fix-links.lua
+- .pandoc/filters/alerts.lua
+- .pandoc/filters/fix-links.lua
+include-in-header:
+- .pandoc/content/header.tex
+include-after-body:
+- .pandoc/content/afterBody.tex
+metadata-file: CONTACTS.yaml
 pdf-engine: lualatex
 pdf-engine-opts:
   - '-shell-escape'
-template: .pandoc/templates/commonhaus-eisvogel
+template: .pandoc/content/commonhaus-eisvogel
 toc: true
 toc-depth: 3
 variables:

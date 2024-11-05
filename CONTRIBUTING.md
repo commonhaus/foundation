@@ -29,7 +29,7 @@ text is also included verbatim in the [dco.txt](dco.txt) file in the root direct
         - **Markdown linting**: `npm run lint`
         - **YAML syntax validation**: `npm run yaml`
         - **Markdown link checks**: `npm run links` or `npm run linksv` (verbose)
-    - **Build pdfs**: If you use docker or podman, run `./.github/docker-build-pdf.sh` to use a pre-configured docker image to convert markdown bylaws and policies to pdf.
+    - **Build pdfs**: If you use docker or podman, run `./.github/docker-build-pdf.sh` to use a pre-configured container image to convert markdown bylaws and policies to pdf.
 
 ## Flow of information
 
@@ -43,6 +43,15 @@ Markdown content is converted into pdfs and is published on the website.
     - In the case of user action, use the full phrase: "send an email to the [`legal` mailing list][CONTACTS.yaml]", so that it can be converted into a submission form reference on the website.
 
 [CONTACTS.yaml]: ./CONTACTS.yaml
+
+## Pandoc for PDFs and DOCX
+
+We use pandoc (via a container image) to convert bylaws, policies, and agreements into pdf and docx files.
+
+- `./.github/docker-build-pdf.sh` is the script that drives that conversion (aggregating bylaws into a single pdf, converting each policy into a standalone pdf, and generating a word/docx file for each agreement)
+- The `.pandoc` directory contains the machinery to perform those conversions
+    - `fix-links.lua` applies to both pdfs and docx files; it does some basic link fixing to transition from a GitHub markdown doc into something that can standalone
+    - `agreement-form.lua` applies only to agreements. It replaces `[Insert...here]` values with blanks (which can be picked up if/when subsequently printed as a pdf), and handles header rules and other markdown to docx conversion issues. The `cf-agreement-template.docx` file contains the base styles that are used when translating the other doc. Those styles are best updated by unzipping the document and adjusting the raw xml.
 
 ## Submitting changes
 

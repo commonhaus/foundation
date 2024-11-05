@@ -4,22 +4,26 @@
 if [[ -z "${PANDOCK}" ]]; then
     PANDOCK=ghcr.io/commonhaus/pandoc-pdf:3.1
 fi
-# Git commit information (SHA, date, repo url)
+
 DATE=$(date "+%Y-%m-%d")
-if [[ "${IS_PR}" == "true" ]]; then
-    FOOTER="${DATE} ✧ ${GITHUB_REF}"
-elif [[ -z "${GITHUB_SHA}" ]]; then
-    GITHUB_SHA=$(git rev-parse --short HEAD)
-    FOOTER="${DATE} ✧ commit ${GITHUB_SHA}"
-fi
-if [[ -z "${GIT_COMMIT}" ]]; then
-    GIT_COMMIT=$(git rev-parse HEAD)
-fi
 URL=$(gh repo view --json url --jq '.url')/
 
-echo URL=${URL}
-echo GIT_COMMIT=${GIT_COMMIT}
+if [[ -z "${GITHUB_SHA}" ]]; then
+    GITHUB_SHA=$(git rev-parse --short HEAD)
+fi
+
 echo GITHUB_SHA=${GITHUB_SHA}
+
+# Git commit information (SHA, date, repo url)
+if [[ "${IS_PR}" == "true" ]]; then
+    FOOTER="${DATE} ✧ ${GITHUB_REF}"
+    URL="${PR_URL}"
+else
+    FOOTER="${DATE} ✧ commit ${GITHUB_SHA}"
+    URL="${URL}blob/${GITHUB_SHA}/"
+fi
+
+echo URL=${URL}
 
 # Docker command and arguments
 ARGS="--rm -e TERM -e HOME=/data -u $(id -u):$(id -g) -v $(pwd):/data -w /data"
@@ -32,15 +36,24 @@ elif [[ -z "${DOCKER}" ]]; then
     DOCKER=docker
 fi
 
-TO_CMD=${1:-nope}
+function run_shell() {
+    ${DOCKER} run ${ARGS} --entrypoint="" "${PANDOCK}" "$@"
+}
+
+function run_pandoc() {
+    ${DOCKER} run ${ARGS} "${PANDOCK}" "$@"
+}
+
+
+TO_CMD=${1:-noargs}
 # Invoke command in the pandock container with common docker arguments
 if [[ "${TO_CMD}" == "sh" ]]; then
-    ${DOCKER} run ${ARGS} --entrypoint="" "${PANDOCK}" "$@"
+    run_shell "$@"
     exit 0
 fi
 # Invoke pandoc with common docker arguments
-if [[ "${TO_CMD}" != "nope" ]]; then
-    ${DOCKER} run ${ARGS} "${PANDOCK}" "$@"
+if [[ "${TO_CMD}" != "noargs" ]]; then
+    run_pandoc "$@"
     exit 0
 fi
 
@@ -100,14 +113,24 @@ function to_pdf() {
 function run_pdf() {
     ${DOCKER} run ${ARGS} \
         "${PANDOCK}" \
-        -H ./.pandoc/header.tex \
-        -A ./.pandoc/afterBody.tex \
         -d ./.pandoc/bylaws.yaml \
         -M date-meta:"$(date +%B\ %d,\ %Y)" \
-        --metadata-file=CONTACTS.yaml \
         -V footer-left:"${FOOTER}" \
-        -V github:"${URL}blob/${GIT_COMMIT}/" \
+        -V github:"${URL}" \
         "$@"
+
+    echo "$?"
+}
+
+# Convert markdown to DOCX
+function run_docx() {
+    ${DOCKER} run ${ARGS} \
+        "${PANDOCK}" \
+        -d ./.pandoc/agreements.yaml \
+        -M date-meta:"$(date +%B\ %d,\ %Y)" \
+        -V github:"${URL}" \
+        -o "$1" \
+        "$2"
 
     echo "$?"
 }
@@ -138,12 +161,12 @@ for x in "${BYLAWS[@]}"; do
     fi
 done
 
-# Convert bylaws to PDF
+# # Convert bylaws to PDF
 to_pdf_pattern \
     bylaws \
     "cf-bylaws.pdf" \
     "./bylaws/" \
-    -M title:"Commonhaus Foundation Bylaws" \
+    -M title:"Bylaws" \
     "${BYLAWS[@]}"
 
 ## POLICIES
@@ -158,7 +181,7 @@ function to_policy_pdf() {
         "${1}" \
         "${1}.pdf" \
         "./policies/" \
-        -M title:"Commonhaus Foundation ${2} Policy" \
+        -M title:"${2} Policy" \
         "./policies/${1}.md"
 }
 
@@ -166,32 +189,26 @@ function to_policy_pdf() {
 to_policy_pdf code-of-conduct "Code of Conduct"
 to_policy_pdf conflict-of-interest "Conflict of Interest"
 to_policy_pdf ip-policy "Intellectual Property"
-to_policy_pdf security-policy "Security Vulnerability Reporting"
-to_policy_pdf succession-plan "Continuity and Administrative Access"
 to_policy_pdf trademark-policy "Trademark"
 
-to_pdf ./TRADEMARKS.md trademark-list ./ "Commonhaus Foundation Trademark List"
+to_pdf ./TRADEMARKS.md trademark-list ./ "Trademark List"
 
 ## AGREEMENTS
 
-function to_agreement_pdf() {
+function to_agreement_doc() {
     if [[ ! -f "./agreements/${1}.md" ]]; then
         echo "No agreement found at ./agreements/${1}.md"
         exit 1
     fi
-    local name=$(basename ${1})
-    sed -E 's/\[Insert [^]]* here\]/______________________________________/g' \
-            "./agreements/${1}.md" > "./output/tmp/${name}.md"
-
-    to_pdf_pattern \
-        "${1}" \
-        "$(basename ${1}).pdf" \
-        "./agreements/$(dirname ${1})/" \
-        -M title:"Commonhaus Foundation ${2} Agreeement" \
-        "./output/tmp/${name}.md"
+    if [[ -z "${2}" ]]; then
+        echo "No agreement name provided"
+        exit 1
+    fi
+    run_docx \
+        "./output/public/${2}.docx" \
+        "./agreements/${1}.md"
 }
 
-# Very redundant, but .. whatever. ;)
-to_agreement_pdf bootstrapping/bootstrapping Bootstrapping
+to_agreement_doc bootstrapping/bootstrapping bootstrapping-agreement
 
 ls -al output/public
