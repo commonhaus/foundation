@@ -65,7 +65,7 @@ The Commonhaus Foundation uses the following unregistered trademarks:
 - SDKMAN! Logo &trade; [^1]  
     <img src="https://sdkman.io/assets//img/sdk-man-small-pattern.svg" alt="" height="22" />
 - SlateDB Logo &trade;  [^1]
-    <img src="https://github.com/slatedb/slatedb-website/blob/main/assets/svg/icon1.svg" alt="" height="22" />
+    <img src="https://github.com/slatedb/slatedb-website/blob/main/assets/svg/icon1.svg?raw=true" alt="" height="22" />
 
 [^1]: Trademark is used by permission subject to the foundation's [bootstrapping agreement](https://github.com/commonhaus/foundation/blob/main/agreements/bootstrapping/bootstrapping.md).
 [^2]: Duke is the Java mascot, ([BSD license](https://wiki.openjdk.org/display/duke/Main)). Use of this version of the logo is [CC-by-SA-4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.en).
