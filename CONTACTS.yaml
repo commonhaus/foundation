@@ -65,6 +65,8 @@ egc:
     bio: Java geek and open-source enthusiast, leading projects here and there. Feign lead, QueryDSL stalwart, and Commonhaus advocate.
   - project: quarkus
     login: dandreadis
+  - project: slatedb
+    login: criccomini
 
 #--------------------------------------------------------------------------
 # Advisory Board members (sponsor-appointed)

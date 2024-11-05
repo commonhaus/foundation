@@ -126,3 +126,13 @@ sdkman:
       SDKMAN! is a robust tool designed for managing parallel versions of multiple Software Development
       Kits (SDKs) on Unix-based systems. An intuitive command-line interface simplifies the installation,
       updating, and switching of executables for various SDKs, including Java, Kotlin, Scala, and Groovy.
+
+slatedb:
+  name: SlateDB
+  repo: https://github.com/slatedb/slatedb
+  display:
+    home: https://slatedb.io
+    logo: https://github.com/slatedb/slatedb-website/blob/main/assets/svg/icon1.svg
+    logo-dark: https://github.com/slatedb/slatedb-website/blob/main/assets/svg/icon1%20white.svg
+    description: >
+      SlateDB is a cloud native embedded log-structured merge tree (LSM) storage engine built on object storage.
