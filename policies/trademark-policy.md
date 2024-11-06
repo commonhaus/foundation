@@ -139,7 +139,7 @@ Acceptable usage examples:
 - *&lt;your product name>* **works with** JBang
 - *&lt;your product name>* **for use with** SDKMAN!
 - *&lt;your product name>* **for** SDKMAN!
-- *&lt;your product/company name>* **is powered by** OpenRewrite
+- *&lt;your product/company name>* **is powered by** Jackson
 - *&lt;your product/company name>* **plugin for** JReleaser
 - *&lt;your product/company name>* **extension for** Quarkus
 - *&lt;your product/company name>* **recipe for** OpenRewrite
@@ -149,7 +149,7 @@ Counter-examples (may cause confusion):
 
 - EasyMock *&lt;your product name>*
 - Morphia **by** *&lt;your company name>*
-- OpenRewrite **-** *&lt;your product name>*
+- Feign **-** *&lt;your product name>*
 - *&lt;your product/company name>* **-** Quarkus
 
 > [!NOTE]
@@ -235,42 +235,33 @@ If you are using our Marks in a way described in [Uses for which we are granting
 
 ### Use of trademarks in text
 
-- Always distinguish trademarks from surrounding text with at least initial capital letters or in all capital letters.
-    - Unacceptable: hibernate
-    - Acceptable: Hibernate, HIBERNATE
+- Distinguish trademarks from surrounding text. Use initial caps at a minimum, or enhance with quotes, bold, italics, a different font, or color.
+    - Incorrect: hibernate
+    - Correct: Hibernate, HIBERNATE
 
-- Always use trademarks in their exact form with the correct spelling, neither abbreviated, hyphenated, or combined with any other word or words.
-    - Unacceptable: Open Rewrite, open rewrite, open-rewrite
-    - Acceptable: OpenRewrite
+- Use trademarks in their exact form with correct spelling. Do not abbreviate, hyphenate, or combine with other words.
+    - Incorrect: Open Rewrite, open rewrite, open-rewrite
+    - Correct: OpenRewrite
     - See our [Trademark List][] to verify exactly how the marks should appear.
 
-- Don't pluralize a trademark.
-    - Unacceptable: I have seventeen JBangs running in my lab.
-    - Acceptable: I have seventeen JBang catalogs running in my lab.
+- Use trademarks as adjectives modifying nouns, especially the first time they appear in print. Refer to our preferred nouns on the [Trademark List][].
+    - Incorrect: This is EasyMock.
+    - Correct: This is the EasyMock library.
 
-- Don't use "a" or "the" to refer to an instance of the trademark.
-    - Unacceptable: I put a JBang on my mom's computer.
-    - Acceptable: I put a JBang catalog on my mom's computer.
+- Avoid possessive or plural forms. Trademarks describe generic nouns and are not possessive or plural. (An exception applies when referring to the Foundation’s name.)
+    - Incorrect: I have five Quarkuses in my application.
+    - Correct: I have five Quarkus extensions in my application.
+    - Incorrect: Jackson’s unique serialization …
+    - Correct: Unique serialization capability of Jackson …
+    - Correct: Commonhaus Foundation’s IP Policy …
 
-- Don't use a trademark as a possessive.
-    The following noun should be used in possessive form or the sentence reworded so there is no possessive.
-    An exception to this can be when CF is used to refer to the Foundation‘s name.
+- Do not use trademarks as verbs. Trademarks represent products or services, not actions.
+    - Incorrect: I JReleasered my deployment today!
+    - Correct: I used JReleaser to deploy my application today!
 
-    - Unacceptable: OpenRewrite's unique properties ...
-    - Acceptable: Unique capability of OpenRewrite™ ...
-    - Acceptable: Commonhaus Foundations‘s IP Policy ...
-
-- Don't use a trademark as a verb. Trademarks are products or services, never actions.
-    - Unacceptable: I JReleasered my computer today!
-    - Acceptable: I installed JReleaser on my computer today!
-
-- Always use a trademark as an adjective modifying a noun. You can see the nouns we prefer on our [Trademark List][]
-    - Unacceptable: This is an OpenRewrite. Anyone can use it.
-    - Acceptable: This is an OpenRewrite recipe. Anyone can use it.
-
-- Don't translate a trademark into another language.
-    - Acceptable: Quiero instalar Hibernate en mi proyecto.
-    - Unacceptable: Quiero instalar hibernar en mi proyecto.
+- Do not translate trademarks into another language.
+    - Incorrect: Quiero instalar hibernar en mi proyecto.
+    - Correct: Quiero instalar Hibernate en mi proyecto.
 
 ### Use of Logos
 
@@ -280,6 +271,8 @@ You may not change any Logo except to scale it.
 This means you may not add decorative elements, change the colors, change the proportions, distort it, add elements, or combine it with other logos.
 
 When the context requires the use of black-and-white graphics and the logo is color, you may reproduce the logo in a manner that produces a black-and-white image.
+
+If you have other needs or ideas for logo use, please [contact us](#contact-and-further-information).
 
 ## Policy modifications and updates
 
