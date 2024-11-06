@@ -4,6 +4,7 @@ The CF is committed to complying with all applicable laws and regulations relate
 
 ## Index of CF Policies
 
+- [Antitrust Policy](./antitrust-policy.md)
 - [Code of Conduct](./code-of-conduct.md)
 - [Conflict of Interest Policy](./conflict-of-interest.md)
 - [Continuity and Administrative Access Policy](./succession-plan.md)
