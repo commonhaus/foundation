@@ -1,43 +1,35 @@
 # Trademark Policy
 
-This document, the "Policy," provides guidelines for the use of the Commonhaus Foundation’s (CF) trademarks.
-Our trademarks—including the Commonhaus Foundation name, logo, and any project names and logos—represent the quality and reliability our community expects.
+This document, the "Policy," provides guidelines for the use of the Commonhaus Foundation’s (CF) trademarks. Our trademarks—including the Commonhaus Foundation name, logo, and any project names and logos—represent the quality and reliability that our community expects.
 
+> [!NOTE]
+> While our software is available under open source licenses, these licenses do not grant any rights to use our trademarks. This Policy is not intended to limit the lawful use of our trademarks but to clarify what we consider lawful use to be.
+>
+> Trademark law can be ambiguous, so we aim to provide enough clarity for you to understand whether we will consider your use acceptable, either because it is licensed or it is non-infringing.
+
+- [Purpose and Scope](#purpose-and-scope)
 - [Commitment to Open Source principles](#commitment-to-open-source-principles)
 - [Covered Trademarks](#covered-trademarks)
 - [Trademark usage guidelines](#trademark-usage-guidelines)
+- [Restrictions on Similar Trademarks](#restrictions-on-similar-trademarks)
     - [Uses we consider non-infringing](#uses-we-consider-non-infringing)
     - [Uses for which we are granting a license](#uses-for-which-we-are-granting-a-license)
     - [Uses we consider infringing without seeking further permission from us](#uses-we-consider-infringing-without-seeking-further-permission-from-us)
-    - [What to do when you see abuse](#what-to-do-when-you-see-abuse)
-    - [Where to get further information](#where-to-get-further-information)
-- [Proper trademark use](#proper-trademark-use)
-    - [Trademark marking and legends](#trademark-marking-and-legends)
-    - [Use of trademarks in text](#use-of-trademarks-in-text)
-    - [Use of Logos](#use-of-logos)
+    - [Reporting Abuse or Seeking Information](#reporting-abuse-or-seeking-information)
 - [Policy modifications and updates](#policy-modifications-and-updates)
 - [Contact and further information](#contact-and-further-information)
-- [General information about Trademarks](#general-information-about-trademarks)
-    - [What is a trademark?](#what-is-a-trademark)
-    - [What is "likelihood of confusion"?](#what-is-likelihood-of-confusion)
-    - [What is "nominative" use?](#what-is-nominative-use)
 - [Attribution](#attribution)
 
-While our software is freely available under open source licenses, those licenses do not grant any right to use our trademarks.
-
-This Policy is not intended to limit the lawful use of our trademarks but to clarify what we consider lawful use to be.
-Trademark law can be ambiguous, so we aim to provide enough clarity for you to understand whether we will consider your use acceptable, either because it is licensed or it is non-infringing.
+## Purpose and Scope
 
 Trademarks assure that products meet a certain standard of quality.
 However, because open source licenses allow anyone to modify the software freely, we cannot guarantee that modified versions distributed by others under the same name will maintain that standard.
-It is therefore important to follow these guidelines when using our trademarks to ensure that users know they are using or receiving software that meets the standards associated with the Commonhaus Foundation.
+Following these guidelines will ensure that users know they are using or receiving software that meets the standards associated with the Commonhaus Foundation.
 
 The sections that follow describe what trademarks are covered by this Policy and the uses of the trademarks that are allowed without additional permission from us.
-If you want to use our trademarks in ways that are not described in this Policy, please [contact us](#contact-and-further-information).
+Please consult the [Trademark Information and Guidelines](./trademark-guidelines.md) document for additional details on proper use of trademarks and logos.
 
-If your use is not described in this policy, and you have not received separate written permission, you must determine for yourself whether your use is lawful.
-
-If you have any questions or need further clarification, please [contact us](#contact-and-further-information).
+If your intended use is not covered here and you have not received separate written permission, you are responsible for assessing whether your use is lawful. For questions or clarification, please [contact us](#contact-and-further-information).
 
 ## Commitment to Open Source principles
 
@@ -47,17 +39,13 @@ Our guidelines are designed to balance open community involvement with the need 
 
 ## Covered Trademarks
 
-> [!TIP]
-> This policy applies to all CF and CF project Marks whether they are registered or not.
-
-This policy covers all [trademarks and service marks](#what-is-a-trademark) associated with the Commonhaus Foundation, collectively referred to as "Marks". This includes:
+This policy covers all [trademarks and service marks](./trademark-guidelines.md#what-is-a-trademark) associated with the Commonhaus Foundation, collectively referred to as "Marks", whether registered or not. This includes:
 
 - **Word Marks:** Names of the Commonhaus Foundation and any projects under our umbrella.
 - **Logos:** The official Commonhaus Foundation logo and the logos of individual projects.
 - **Trade Dress:** The distinctive visual appearance of our websites and packaging.
 
-Some Marks may not be registered, but trademark rights exist even if they are not registered.
-This Policy covers our Marks whether they are registered or not.
+Trademark rights exist even if the Mark is not registered.
 
 A non-exhaustive list of our Marks, including registered trademarks, service marks, pending registrations, and marks in use, is available at <https://www.commonhaus.org/trademarks/>.
 
@@ -65,17 +53,16 @@ A non-exhaustive list of our Marks, including registered trademarks, service mar
 
 Whenever you use one of the Marks, you must always do so in a way that does not mislead anyone, either directly or by omission, about exactly what they are getting and from whom.
 
-The law reflects this requirement in two major ways described in more detail below: it (1) prohibits creating a ["likelihood of confusion"](#what-is-likelihood-of-confusion) but (2) allows for ["nominative use"](#what-is-nominative-use).
+This principle is core to trademark law, prohibiting [“likelihood of confusion”](./trademark-guidelines.md#what-is-likelihood-of-confusion) while allowing for ["nominative use"](./trademark-guidelines.md#what-is-nominative-use) when necessary for accurate identification.
+
 > [!TIP]
 >
-> You can cause confusion when people discover they do not have the same features and functionality they would get if they downloaded the software directly from us, or if they believe that someone is endorsed by or affiliated with us when they are not.
+> Avoid causing confusion by ensuring that:
 >
-> For example:
+> - Modified software is clearly labeled as such and not presented as the original software.
+> - You avoid using logos or other identifiers in ways that suggest an endorsement or official affiliation.
 >
-> - You cannot say you are distributing the Hibernate software when you're distributing a modified version of it.
-> - You cannot use our logo on your website in a way that suggests that your website is an official website or that we endorse your website.
->
-> What you can say instead:
+> Examples of what you *can* say:
 >
 > - You like the Hibernate software
 > - You participate in the Hibernate community
@@ -85,6 +72,8 @@ The law reflects this requirement in two major ways described in more detail bel
 
 This fundamental requirement, that it is always clear to people what they are getting and from whom, is reflected throughout this Policy.
 It should also serve as your guide if you are not sure about how you are using the Marks.
+
+## Restrictions on Similar Trademarks
 
 Trademark law does not allow your use of names or trademarks that are too similar to ours.
 
@@ -104,28 +93,24 @@ In addition:
 
 #### Distribution of unmodified source code or artifacts packaged by us
 
-When you redistribute an unmodified copy of our software, either in source code form or as packaged artifacts (such as executables, libraries, or jar files), you are not changing the quality or nature of the software.
-
-In this case, you may retain the Word Marks and the Logos we have placed on the software to identify your redistribution.
-This kind of use only applies if you are redistributing an official distribution from this Project that has not been changed in any way.
+Redistribution of unmodified Commonhaus software (in source code or packaged form, such as executables, libraries, or jar files) is allowed.
+You may retain the Word Marks and Logos we’ve placed on the software to identify your redistribution if you distribute an official, unchanged Project version.
 
 You can find files for the Logos and approved designs for packaging on our [Brand Standards][] page.
 
 > [!NOTE]
 >
-> When we refer to "our software," we mean the software produced by CF Projects.
-> "Artifacts packaged by us" refers to software artifacts packaged and published by each CF Project, using their own processes and infrastructure.
+> "Artifacts packaged by us" refers to items distributed directly by CF Projects
 
 #### Distribution of modified source code or artifacts packaged by you
 
-If you compile and distribute bitwise identical packaged artifacts from our unmodified source code, you may retain our Word Marks and Logos.
+If you compile and distribute bitwise identical artifacts from our unmodified source code, you may retain our Word Marks and Logos.
 
-You may use the Word Marks, but not the Logos, to truthfully describe the origin of the software that you are providing, that is, that the code you are distributing is a modification of our software. You may also say, for example, that "this software is derived from the source code for Hibernate version 5.2."
+For modifications (e.g., bug fixes that preserve compatibility with our artifacts), label your artifacts to indicate they were built by you.
 
-If your modification includes minor changes like bug fixes that preserve compatibility with our published artifacts, your artifacts should be labeled to indicate they were built by you.
-
-Substantive modifications, on the other hand, should be treated as a fork. For example, where the functionality diverges, group or artifact identifiers should be changed to ensure users are not confused about which variant of the software they are getting and from whom.
-You may place your own trademarks or logos on forked versions of the software, as you have become the origin of that version. In such cases, you should not use our Logos.
+Substantive changes should be treated as a fork, requiring changes to group or artifact identifiers.
+Avoid using our Logos in these cases, as the modified version originates with you.
+You may truthfully state that “this software is derived from the source code for Hibernate version 5.2”, as an example.
 
 #### Statements about compatibility, interoperability or derivation
 
@@ -210,69 +195,9 @@ We will likely consider the following usages an infringement of our Marks:
 - Using the Marks on promotional goods for sale.
 - Using the Marks as the name for software that has been modified, except as allowed by [Distribution of modified source code or artifacts packaged by you](#distribution-of-modified-source-code-or-artifacts-packaged-by-you).
 
-### What to do when you see abuse
+### Reporting Abuse or Seeking Information
 
-If you are aware of any confusing use or misuse of the Marks in any way, we would appreciate you bringing this to our attention. Please [contact us](#contact-and-further-information) so that we can investigate it further.
-
-### Where to get further information
-
-If you have any questions about this Policy, would like to speak with us about the use of our Marks in ways not described in the Policy, or see any abuse of our Marks, please [contact us](#contact-and-further-information).
-
-## Proper trademark use
-
-These rules hold true for all trademarks, not just ours, so you should follow them for our Marks as well as anyone else's.
-
-Guidelines and fact sheets with these recommendations are published by the [International Trademark Association](https://www.inta.org/fact-sheets/trademark-use/).
-
-### Trademark marking and legends
-
-The first or most prominent mention of a Mark on a webpage, document, packaging, or documentation should be accompanied by a symbol indicating whether the mark is a registered trademark ("®") or an unregistered trademark ("™"). See our [Trademark List][] for the correct symbol to use.
-
-If you are using our Marks in a way described in [Uses for which we are granting a license](#uses-for-which-we-are-granting-a-license), please put following notice at the foot of the page where you have used the Mark (or, if in a book, on the credits page), on any packaging or labeling, and on advertising or marketing materials:
-
-- For registered trademarks: "<<~Mark>> is a trademark of Commonhaus Foundation, registered in the United States and other countries. Used with permission."
-- For unregistered trademarks: "<<~Mark>> is a trademark of Commonhaus Foundation. Used with permission."
-
-### Use of trademarks in text
-
-- Distinguish trademarks from surrounding text. Use initial caps at a minimum, or enhance with quotes, bold, italics, a different font, or color.
-    - Incorrect: hibernate
-    - Correct: Hibernate, HIBERNATE
-
-- Use trademarks in their exact form with correct spelling. Do not abbreviate, hyphenate, or combine with other words.
-    - Incorrect: Open Rewrite, open rewrite, open-rewrite
-    - Correct: OpenRewrite
-    - See our [Trademark List][] to verify exactly how the marks should appear.
-
-- Use trademarks as adjectives modifying nouns, especially the first time they appear in print. Refer to our preferred nouns on the [Trademark List][].
-    - Incorrect: This is EasyMock.
-    - Correct: This is the EasyMock library.
-
-- Avoid possessive or plural forms. Trademarks describe generic nouns and are not possessive or plural. (An exception applies when referring to the Foundation’s name.)
-    - Incorrect: I have five Quarkuses in my application.
-    - Correct: I have five Quarkus extensions in my application.
-    - Incorrect: Jackson’s unique serialization …
-    - Correct: Unique serialization capability of Jackson …
-    - Correct: Commonhaus Foundation’s IP Policy …
-
-- Do not use trademarks as verbs. Trademarks represent products or services, not actions.
-    - Incorrect: I JReleasered my deployment today!
-    - Correct: I used JReleaser to deploy my application today!
-
-- Do not translate trademarks into another language.
-    - Incorrect: Quiero instalar hibernar en mi proyecto.
-    - Correct: Quiero instalar Hibernate en mi proyecto.
-
-### Use of Logos
-
-Use only official versions of Logos obtained from the Commonhaus Foundation or its Projects.
-
-You may not change any Logo except to scale it.
-This means you may not add decorative elements, change the colors, change the proportions, distort it, add elements, or combine it with other logos.
-
-When the context requires the use of black-and-white graphics and the logo is color, you may reproduce the logo in a manner that produces a black-and-white image.
-
-If you have other needs or ideas for logo use, please [contact us](#contact-and-further-information).
+Please [contact us](#contact-and-further-information) if you notice misuse of our Marks or have questions about acceptable use.
 
 ## Policy modifications and updates
 
@@ -280,58 +205,13 @@ The Commonhaus Foundation may modify or update this Trademark Policy as needed.
 You are responsible for staying informed about the most recent trademark guidelines.
 Amendments or changes to this policy will follow the [amendment process][].
 
-The current version will be published here: <http://www.commonhaus.org/policies/trademark-policy/>
+Visit <http://www.commonhaus.org/policies/trademark-policy/> for the current version.
 
 ## Contact and further information
 
-The list of Commonhaus Foundation’s registered trademarks, pending registrations and trademarks in use can be
-found at <https://www.commonhaus.org/trademarks/>.
+A list of the Commonhaus Foundation’s registered trademarks, pending registrations, and trademarks in use can be found at <https://www.commonhaus.org/trademarks/>.
 
-We value input from our community in maintaining the integrity of the Commonhaus Foundation's trade and service marks.
-
-If you have questions with respect to these guidelines or to report concerns regarding the use or misuse of a trademark of the Commonhaus Foundation,
-or to obtain written permission for a proposed use of Commonhaus trademarks,
-send an email to the [`trademarks` mailing list][CONTACTS.yaml].
-
-## General information about Trademarks
-
-### What is a trademark?
-
-A *trademark* is a word, phrase, symbol or design, or a combination of words, phrases, symbols or designs, that identifies and distinguishes the source of the goods of one party from those of others.
-
-A *service mark* is the same as a trademark, except that it identifies and distinguishes the source of a service rather than a product.
-
-[*Trade dress*](https://www.inta.org/topics/trade-dress/) or "get up" refers to the look and feel of the packaging, which in this context can include the layout, colors, images, and design choices in a web page.
-
-Throughout this Policy, the terms "trademark" and "mark" refer to both trademarks, service marks and trade dress.
-However, the use of a word is "not as a trademark" when it is used functionally as part of the software program, for example, in a file, folder, directory, or path name. Use in this way is not a trademark infringement.
-
-### What is "likelihood of confusion"?
-
-There is trademark infringement if your use of a trademark has created a "likelihood of confusion."
-This means using a trademark in a way that will likely confuse or deceive the relevant consuming public about the source of a product or service using the mark in question.
-
-Some examples:
-
-- If the "Foo" software extension removes all double spaces after periods, but someone else later creates "Foo" software that adds a third space after periods, consumers would be confused between the two and the newcomer will likely be a trademark infringer.
-
-- If a company makes "Foobar" software and a third party offers training called "Foobar Certification," a person is likely to believe, wrongly, that the certification is being offered by the makers of Foobar software. The third party has likely misled consumers about the source of its training and is a trademark infringer.
-
-### What is "nominative" use?
-
-So-called "nominative use" (or "nominative fair use"), which is the name of the doctrine under U.S. trademark law, allows the use of another's trademark where it is necessary for understanding.
-Other countries' trademark laws also have similar provisions.
-
-For example, a car repair shop that specializes in a particular brand of automobile, VW for example, must be allowed to say that they repair VW cars.
-Here is what you should consider when deciding whether your use of a trademark is a nominative fair use:
-
-- Can you identify the product or service in question without using the trademark;
-- Are you avoiding a likelihood of confusion in the way that you have used the trademark; and
-- Have you used only as much as is necessary to identify the product or service.
-
-With our "Foobar Certification" example above, the person offering the certification would be allowed to say, under the nominative fair use doctrine, that she is offering "Maude's Certification for Foobar software."
-
-It is almost never the case that using a Logo will be a nominative fair use since it will be a rare case where the logo is needed for strictly informational purposes.
+For additional information, to request written permission, or to report misuse, send an email to the [`trademarks` mailing list][CONTACTS.yaml].
 
 ## Attribution
 
