@@ -1,6 +1,6 @@
 # Trademark Policy
 
-This document, the "Policy," provides guidelines for the use of the Commonhaus Foundation’s (CF) trademarks. Our trademarks—including the Commonhaus Foundation name, logo, and any project names and logos—represent the quality and reliability that our community expects.
+Our trademarks—including the Commonhaus Foundation name, logo, and any project names and logos—represent the quality and reliability that our community expects. This document, the "Policy," defines our terms for the use of the Commonhaus Foundation’s (CF) trademarks.
 
 > [!NOTE]
 > While our software is available under open source licenses, these licenses do not grant any rights to use our trademarks. This Policy is not intended to limit the lawful use of our trademarks but to clarify what we consider lawful use to be.
