@@ -221,6 +221,6 @@ This policy is licensed under a Creative Commons Attribution 4.0 International l
 This work is inspired by the Model Trademark Guidelines, available at <http://www.modeltrademarkguidelines.org>. (licensed under "[CC BY 3.0](https://creativecommons.org/licenses/by/3.0/deed.en_US)"), the [OpenJS Foundation Trademark Policy](https://trademark-policy.openjsf.org) (licensed under “CC BY 4.0”), and the [GNOME Foundation's Trademark Usage Guidelines for Third Parties](https://wiki.gnome.org/action/show/FoundationBoard/Resources/LicensingGuidelines?action=show&redirect=Foundation%2FLicensingGuidelines)
 
 [CONTACTS.yaml]: https://github.com/commonhaus/foundation/blob/main/CONTACTS.yaml
-[amendment process]: ../bylaws/8-amendments.md
+[amendment process]: ../bylaws/9-amendments.md
 [Brand Standards]: https://github.com/commonhaus/artwork
 [Trademark List]: https://www.commonhaus.com/trademarks

@@ -37,8 +37,8 @@ The Foundation may, at the discretion of the CF Council (CFC), extend indemnific
 >
 > The council can choose to extend this coverage to staff and [committee members][committee] if they decide it’s appropriate.
 
-[officers]: ./3-cf-council.md#officer-roles-and-appointment
-[committee]: ./3-cf-council.md#committees-and-delegation
+[officers]: ./4-cf-council.md#officer-roles-and-appointment
+[committee]: ./4-cf-council.md#committees-and-delegation
 
 **Standard of Conduct.**
 
