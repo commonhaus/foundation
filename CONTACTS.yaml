@@ -67,6 +67,8 @@ egc:
     login: criccomini
   - project: debezium
     login: Naros
+  - project: infinispan
+    login: tristantarrant
 
 #--------------------------------------------------------------------------
 # EGC Backup/Secondary representative (appointed by project governance process)
