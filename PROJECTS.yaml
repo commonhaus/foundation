@@ -126,3 +126,15 @@ sdkman:
       SDKMAN! is a robust tool designed for managing parallel versions of multiple Software Development
       Kits (SDKs) on Unix-based systems. An intuitive command-line interface simplifies the installation,
       updating, and switching of executables for various SDKs, including Java, Kotlin, Scala, and Groovy.
+
+infinispan:
+  name: Infinispan
+  repo: https://github.com/infinispan
+  display:
+    home: https://infinispan.org/
+    logo: https://raw.githubusercontent.com/infinispan/infinispan/refs/heads/main/assets/logos/infinispan_logo_rgb_lightbluewhite_darkblue.svg
+    logo-dark: https://raw.githubusercontent.com/infinispan/infinispan/refs/heads/main/assets/logos/infinispan_logo_rgb_lightbluewhite_white.svg
+    description: >
+      Infinispan is a horizontally-scalable, highly-available in-memory database that can hold nearly any type of data, from plain-text to structured objects.
+      It can be used either embedded or in client/server mode, accessed using either a native, high-performance protocol,
+      or any HTTP, Redis or Memcached clients. Data can be queried via full-text and vector search capabilities.
