@@ -23,6 +23,7 @@ The Commonhaus Foundation uses the following unregistered trademarks:
 - Debezium &trade; [^1]
 - EasyMock &trade; [^1]
 - Feign &trade; [^1]
+- Infinispan &trade; [^1]
 - JBang &trade; [^1]
 - JReleaser &trade; [^1]
 - Jackson &trade; [^1]
@@ -52,6 +53,8 @@ The Commonhaus Foundation uses the following unregistered trademarks:
   <img src="https://github.com/easymock/easymock/blob/master/website/img/easymock-logo-md.png?raw=true" alt="" height="22" />
 - Hibernate Logo &trade; [^1]  
     <img src="https://github.com/hibernate/hibernate.org/blob/production/images/hibernate-logo.svg?raw=true" alt="" height="22" />
+- Infinispan Logo &trade; [^1]  
+    <img src="https://raw.githubusercontent.com/infinispan/infinispan/refs/heads/main/assets/logos/infinispan_logo_rgb_lightbluedarkblue_darkblue.svg" alt="" height="22" />
 - JBang Logo &trade; [^1]  
     <img src="https://www.jbang.dev/assets/images/logo.png" alt="" height="22" />
 - JReleaser Logo &trade; [^1]  
