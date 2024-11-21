@@ -28,9 +28,6 @@ jobs:
       run: |
         if [[ -z "$COMMENT_ID" ]]; then
           COMMENT_ID=$INPUT
-        elif [[ "$SENDER" != "haus-rules-bot[bot]" ]]; then
-          echo "Comment skipped. Not bot sender"
-          COMMENT_ID=
         fi
 
         if [[ -n "$COMMENT_ID" ]]; then
