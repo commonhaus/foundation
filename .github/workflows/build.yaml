@@ -3,9 +3,12 @@ name: Build PDF and publish to commonhaus.github.io
 on:
   pull_request:
     paths:
+      - 'agreements/**'
       - 'bylaws/**'
       - 'policies/**'
   push:
+    branches:
+      - main
     paths:
       - 'agreements/**'
       - 'bylaws/**'
@@ -58,7 +61,6 @@ jobs:
           fetch-depth: 0
 
       - name: convert md to pdf
-        if: ${{ needs.main-root.outputs.is-main || github.event_name == 'pull_request' }}
         env:
           GIT_COMMIT: ${{ github.sha }}
           GH_TOKEN: ${{ github.token }}
@@ -70,6 +72,11 @@ jobs:
         with:
           name: pdf-output
           path: output/public/*.pdf
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: docx-output
+          path: output/public/*.docx
 
       - name: Update snapshot tag
         if: ${{ needs.main-root.outputs.is-main }}

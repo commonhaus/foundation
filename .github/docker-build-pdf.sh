@@ -44,6 +44,30 @@ function run_pandoc() {
     ${DOCKER} run ${ARGS} "${PANDOCK}" "$@"
 }
 
+for x in "$@"; do
+  case "$x" in
+    --help)
+      echo "Usage: $0 [--skip-policies] [--skip-bylaws] [--skip-agreements]"
+      echo "OR: $0 [pandoc command arguments]"
+      echo "OR: $0 sh [command]"
+      exit 0
+      ;;
+    --skip-policies)
+      SKIP_POLICIES=true
+      shift
+      ;;
+    --skip-bylaws)
+      SKIP_BYLAWS=true
+      shift
+      ;;
+    --skip-agreements)
+      SKIP_AGREEMENTS=true
+      shift
+      ;;
+    *)
+      ;;
+  esac
+done
 
 TO_CMD=${1:-noargs}
 # Invoke command in the pandock container with common docker arguments
@@ -153,21 +177,23 @@ BYLAWS=(
     ./bylaws/9-amendments.md
 )
 
-# Verify that bylaws files exist
-for x in "${BYLAWS[@]}"; do
-    if [[ ! -f ${x} ]]; then
-        echo "No file found at ${x}"
-        exit 1
-    fi
-done
+if [[ -z "${SKIP_BYLAWS}" ]]; then
+    # Verify that bylaws files exist
+    for x in "${BYLAWS[@]}"; do
+        if [[ ! -f ${x} ]]; then
+            echo "No file found at ${x}"
+            exit 1
+        fi
+    done
 
-# # Convert bylaws to PDF
-to_pdf_pattern \
-    bylaws \
-    "cf-bylaws.pdf" \
-    "./bylaws/" \
-    -M title:"Bylaws" \
-    "${BYLAWS[@]}"
+    # # Convert bylaws to PDF
+    to_pdf_pattern \
+        bylaws \
+        "cf-bylaws.pdf" \
+        "./bylaws/" \
+        -M title:"Bylaws" \
+        "${BYLAWS[@]}"
+fi
 
 ## POLICIES
 
@@ -185,30 +211,38 @@ function to_policy_pdf() {
         "./policies/${1}.md"
 }
 
-# Convert all policies to PDF
-to_policy_pdf code-of-conduct "Code of Conduct"
-to_policy_pdf conflict-of-interest "Conflict of Interest"
-to_policy_pdf ip-policy "Intellectual Property"
-to_policy_pdf trademark-policy "Trademark"
+if [[ -z "${SKIP_POLICIES}" ]]; then
+    # Convert all policies to PDF
+    to_policy_pdf code-of-conduct "Code of Conduct"
+    to_policy_pdf conflict-of-interest "Conflict of Interest"
+    to_policy_pdf ip-policy "Intellectual Property"
+    to_policy_pdf trademark-policy "Trademark"
 
-to_pdf ./TRADEMARKS.md trademark-list ./ "Trademark List"
+    to_pdf ./TRADEMARKS.md trademark-list ./ "Trademark List"
+fi
 
 ## AGREEMENTS
 
 function to_agreement_doc() {
-    if [[ ! -f "./agreements/${1}.md" ]]; then
-        echo "No agreement found at ./agreements/${1}.md"
+    local input=${1}
+    if [[ ! -f "./agreements/${input}.md" ]]; then
+        echo "No agreement found at ./agreements/${input}.md"
         exit 1
     fi
-    if [[ -z "${2}" ]]; then
-        echo "No agreement name provided"
-        exit 1
+    local output=${2}
+    if [[ -z "${output}" ]]; then
+        output=$(basename ${input})
     fi
     run_docx \
-        "./output/public/${2}.docx" \
-        "./agreements/${1}.md"
+        "./output/public/${output}.docx" \
+        "./agreements/${input}.md"
 }
 
-to_agreement_doc bootstrapping/bootstrapping bootstrapping-agreement
+if [[ -z "${SKIP_AGREEMENTS}" ]]; then
+    to_agreement_doc bootstrapping/bootstrapping bootstrapping-agreement
+    # to_agreement_doc project-contribution/asset-transfer-agreement
+    # to_agreement_doc project-contribution/fiscal-sponsorship-agreement
+    # to_agreement_doc project-contribution/fiscal-sponsorship-terms-and-conditions
+fi
 
 ls -al output/public

@@ -69,6 +69,8 @@ local horizontalSeparator = [[<w:p>
       <w:r></w:r>
     </w:p>]]
 
+local pagebreak = '<w:p><w:r><w:br w:type="page"/></w:r></w:p>'
+
 local function HorizontalRule(elem)
   print("CFLUA: Found horizontal rule ")
   return pandoc.RawBlock('openxml', horizontalSeparator)
@@ -78,8 +80,13 @@ local function Header(header)
   if header.level == 1 then
     local content = pandoc.utils.stringify(header.content)
     content = content:gsub("Commonhaus Foundation%s*(.*)", "%1")
-    print("CFLUA: Found header " .. content)
     return pandoc.Header(1, content)
+  elseif header.level == 2 then
+    local content = pandoc.utils.stringify(header.content)
+    if string.match(content, 'Exhibits') or string.match(content, 'Schedules') then
+      print("CFLUA: Found L2 header " .. content)
+      return { pandoc.RawBlock('openxml', pagebreak), header }
+    end
   end
   return header
 end
@@ -88,8 +95,8 @@ local function Para(para)
   local content = pandoc.utils.stringify(para.content)
   local insert = string.match(content, "%[Insert.*]")
   if insert then
-    content = content:gsub("(.*)%[Insert.*](.*)", "%1______________________________%2")
-    print("CFLUA: Found insert " .. content)
+    content = content:gsub("(.*)%[Insert.*](.*)", "%1`______________________________`%2")
+    --print("CFLUA: Found insert " .. content)
     return pandoc.read(content, 'markdown').blocks
   end
   return para
@@ -100,7 +107,7 @@ local function BulletList(list)
   if string.match(content, "%[Insert.*]") then
     for i, item in ipairs(list.content) do
       local itemContent = pandoc.utils.stringify(item[1].content)
-      itemContent = itemContent:gsub("(.*)%[Insert.*](.*)", "%1______________________________%2")
+      itemContent = itemContent:gsub("(.*)%[Insert.*](.*)", "%1`______________________________`%2")
       print("CFLUA: Found insert " .. itemContent)
       list.content[i][1] = pandoc.Plain(itemContent)
     end
@@ -109,8 +116,8 @@ local function BulletList(list)
 end
 
 return {
-  { Header = Header },
   { HorizontalRule = HorizontalRule },
+  { Header = Header },
   { BulletList = BulletList },
-  { Para = Para }
+  { Para = Para },
 }

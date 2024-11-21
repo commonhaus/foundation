@@ -71,6 +71,10 @@ $if(lot)$
     $lot$
 $endif$
     $body$
+    <w:p>
+      <w:pPr></w:pPr>
+      <w:r></w:r>
+    </w:p>
 $for(include-after)$
     $include-after$
 $endfor$

@@ -3,6 +3,8 @@ name: Validate markdown and YAML
 on:
   pull_request:
   push:
+    branches:
+      - main
   workflow_dispatch:
 
 env:
