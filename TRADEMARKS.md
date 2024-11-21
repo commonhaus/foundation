@@ -31,6 +31,7 @@ The Commonhaus Foundation uses the following unregistered trademarks:
 - OpenRewrite &trade; [^1]
 - Quarkus &trade; [^1]
 - SDKMAN! &trade; [^1]
+- SlateDB &trade; [^1]
 
 ## Logo Marks
 
@@ -64,6 +65,8 @@ The Commonhaus Foundation uses the following unregistered trademarks:
     <img src="https://github.com/quarkusio/quarkus/blob/main/core/deployment/src/main/resources/META-INF/branding/logo.png?raw=true" alt="" height="22" />
 - SDKMAN! Logo &trade; [^1]  
     <img src="https://sdkman.io/assets//img/sdk-man-small-pattern.svg" alt="" height="22" />
+- SlateDB Logo &trade;  [^1]
+    <img src="https://github.com/slatedb/slatedb-website/blob/main/assets/svg/icon1.svg?raw=true" alt="" height="22" />
 
 [^1]: Trademark is used by permission subject to the foundation's [bootstrapping agreement](https://github.com/commonhaus/foundation/blob/main/agreements/bootstrapping/bootstrapping.md).
 [^2]: Duke is the Java mascot, ([BSD license](https://wiki.openjdk.org/display/duke/Main)). Use of this version of the logo is [CC-by-SA-4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.en).
