@@ -71,6 +71,23 @@ egc:
     login: naros
 
 #--------------------------------------------------------------------------
+# EGC Backup/Secondary representative (appointed by project governance process)
+# name, avatarUrl, company, bio will be pulled from GitHub profile
+#
+# - project: Project name (match key in PROJECTS.yaml)
+#   login: project representatives's github id
+#   avatarAlt: Optional. Avatar to show in addition to github avatar
+#   bio: Short description/bio to use instead of GH profile description
+#
+# Each project has one vote (per the bylaws).
+# The vote by the primary representative has precedence.
+# A vote by the secondary representative (in the absence of the primary) can
+# be counted towards quorum.
+egc-second:
+  - project: jackson
+    login: JooHyukKim
+
+#--------------------------------------------------------------------------
 # Advisory Board members (sponsor-appointed)
 # name, avatarUrl, company, bio will be pulled from GitHub profile
 #
