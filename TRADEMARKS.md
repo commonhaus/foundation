@@ -21,6 +21,7 @@ The Commonhaus Foundation has registrations pending for the following trademarks
 The Commonhaus Foundation uses the following unregistered trademarks:
 
 - Commonhaus Foundation &trade;
+- Debezium &trade; [^1]
 - EasyMock &trade; [^1]
 - Feign &trade; [^1]
 - JBang &trade; [^1]
@@ -47,6 +48,8 @@ The Commonhaus Foundation uses the following unregistered trademarks:
 
 - [Commonhaus Foundation Logo](https://github.com/commonhaus/artwork/blob/main/foundation/brand/README.md) &trade;  
     <img src="https://github.com/commonhaus/artwork/blob/main/foundation/brand/svg/CF_logo_horizontal_single_default.svg?raw=true" alt="" height="22" />
+- Debezium Logo &trade; [^1]  
+    <img src="https://debezium.io/assets/images/color_white_debezium_type_600px.svg" alt="" height="22" />
 - EasyMock Logo &trade; [^1]  
   <img src="https://github.com/easymock/easymock/blob/master/website/img/easymock-logo-md.png?raw=true" alt="" height="22" />
 - Hibernate Logo &trade; [^1]  

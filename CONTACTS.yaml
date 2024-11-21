@@ -67,6 +67,8 @@ egc:
     login: dandreadis
   - project: slatedb
     login: criccomini
+  - project: debezium
+    login: naros
 
 #--------------------------------------------------------------------------
 # Advisory Board members (sponsor-appointed)
