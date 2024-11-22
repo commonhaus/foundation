@@ -143,7 +143,7 @@ slatedb:
   repo: https://github.com/slatedb/slatedb
   display:
     home: https://slatedb.io
-    logo: https://github.com/slatedb/slatedb-website/blob/main/assets/svg/icon1.svg
-    logo-dark: https://github.com/slatedb/slatedb-website/blob/main/assets/svg/icon1%20white.svg
+    logo: https://github.com/slatedb/slatedb-website/blob/main/assets/svg/icon1.svg?raw=true
+    logo-dark: https://github.com/slatedb/slatedb-website/blob/main/assets/svg/icon1%20white.svg?raw=true
     description: >
       SlateDB is a cloud native embedded log-structured merge tree (LSM) storage engine built on object storage.
