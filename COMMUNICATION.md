@@ -8,7 +8,7 @@ We rely on the contribution and participation of our members. Whether you're her
 
 - **Subscribe** to our [mailing list](https://groups.google.com/a/commonhaus.org/g/announce) or use the [RSS Feed](https://www.commonhaus.org/feed/index.rss) to have foundation notices and updates delivered straight to your inbox or reader.
 
-- **Follow** [@commonhaus_fdn on Mastodon](https://fosstodon.org/@commonhaus_fdn), [@commonhaus-fdn on Blue Sky](https://bsky.app/profile/commonhaus-fdn.bsky.social), or [@commonhaus_fdn on X](https://twitter.com/commonhaus_fdn) for updates and announcements. We're also on [Linked.in](https://www.linkedin.com/company/commonhaus-foundation/).
+- **Follow** [@commonhaus_fdn on Mastodon](https://fosstodon.org/@commonhaus_fdn), [@commonhaus-fdn on Blue Sky](https://bsky.app/profile/commonhaus.org), or [@commonhaus_fdn on X](https://twitter.com/commonhaus_fdn) for updates and announcements. We're also on [Linked.in](https://www.linkedin.com/company/commonhaus-foundation/).
 
 ## Support our efforts
 
