@@ -91,6 +91,17 @@ notice:
 voting:
   vote_threshold:
     commonhaus/cf-egc: twothirds
+  alternates:
+    - source: CONTACTS.yaml
+      repo: commonhaus/foundation
+      mapping:
+        - field: project 
+          primary: 
+            data: egc
+            team: commonhaus/cf-egc
+          secondary: 
+            data: egc-second
+            team: commonhaus/cf-egc-second
   exclude_login:
     - commonhaus-bot
   error_email_address:
