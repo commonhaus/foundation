@@ -1,4 +1,4 @@
-# Commonhaus Foundation Anti-Trust Policy
+# Commonhaus Foundation Antitrust Policy
 
 ## Purpose
 
@@ -16,7 +16,7 @@ This includes activities initiated on behalf of the Council, EGC, or other offic
 
 ## General Principles
 
-All [participants](#scope) in foundation activities must comply with all applicable anti-trust and competition laws.
+All [participants](#scope) in foundation activities must comply with all applicable antitrust and competition laws.
 
 Do not engage in practices that limit competition, like price-fixing, dividing markets, or bid-rigging.
 
