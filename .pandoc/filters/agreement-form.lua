@@ -93,11 +93,14 @@ end
 
 local function Para(para)
   local content = pandoc.utils.stringify(para.content)
-  local insert = string.match(content, "%[Insert.*]")
-  if insert then
+  if string.match(content, "%[Insert.*]") then
     content = content:gsub("(.*)%[Insert.*](.*)", "%1`______________________________`%2")
     --print("CFLUA: Found insert " .. content)
     return pandoc.read(content, 'markdown').blocks
+  end
+  if FORMAT:match 'docx' and string.match(content, "By: ") then
+    print("CFLUA: Found insert item " .. tostring(para))
+    return pandoc.Div(para, pandoc.Attr("",{},{{'custom-style','List Paragraph'}}))
   end
   return para
 end
@@ -112,6 +115,7 @@ local function BulletList(list)
       list.content[i][1] = pandoc.Plain(itemContent)
     end
   end
+
   return list
 end
 
