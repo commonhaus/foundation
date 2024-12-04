@@ -68,7 +68,7 @@ egc:
   - project: slatedb
     login: criccomini
   - project: debezium
-    login: naros
+    login: Naros
 
 #--------------------------------------------------------------------------
 # EGC Backup/Secondary representative (appointed by project governance process)
