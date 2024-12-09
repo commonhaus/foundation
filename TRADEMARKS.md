@@ -10,7 +10,6 @@ Refer to our [branding guidelines](https://www.commonhaus.org/about/branding.htm
 The Commonhaus Foundation has the following registered trademarks in the United States and/or other countries:
 
 - Hibernate &reg; US Reg. #3135582 [^1]
-- OpenRewrite &reg; US Reg. #97792494 [^1]
 
 <!--
 The Commonhaus Foundation has registrations pending for the following trademarks:
@@ -29,7 +28,6 @@ The Commonhaus Foundation uses the following unregistered trademarks:
 - Jackson &trade; [^1]
 - Morphia &trade; [^1]
 - Objenesis &trade; [^1]
-- OpenRewrite &trade; [^1]
 - Quarkus &trade; [^1]
 - SDKMAN! &trade; [^1]
 - SlateDB &trade; [^1]
@@ -62,8 +60,6 @@ The Commonhaus Foundation uses the following unregistered trademarks:
     <img src="https://github.com/MorphiaOrg/morphia-docs/blob/master/supplemental-ui/img/logo.png?raw=true" alt="" height="22" />
 - Objenesis Logo &trade; [^1]  
     <img src="https://github.com/easymock/objenesis/blob/master/website/site/resources/objenesis-logo.png?raw=true" alt="" height="22" />
-- OpenRewrite Logo &trade; [^1]  
-    <img src="https://www.commonhaus.org/images/OpenRewrite_WordmarkTM_MidnightBlue.png" alt="" height="22" />
 - Quarkus Logo &trade; [^1]  
     <img src="https://github.com/quarkusio/quarkus/blob/main/core/deployment/src/main/resources/META-INF/branding/logo.png?raw=true" alt="" height="22" />
 - SDKMAN! Logo &trade; [^1]  

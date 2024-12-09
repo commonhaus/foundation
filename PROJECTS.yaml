@@ -105,17 +105,6 @@ objenesis:
       Objenesis is a small Java library that serves one purpose: To instantiate a new object of a particular class
       WITHOUT calling one of its constructors.
 
-openrewrite:
-  name: OpenRewrite
-  repo: https://github.com/openrewrite
-  display:
-    home: https://docs.openrewrite.org/
-    logo: https://www.commonhaus.org/images/projects/OpenRewrite_WordmarkTM_MidnightBlue.png
-    logo-dark: https://www.commonhaus.org/images/projects/OpenRewrite_WordmarkTM_White.png
-    description: >
-      Automate the refactoring of your Java codebase. OpenRewrite offers scalable, safe, and idempotent
-      code transformations to modernize and maintain your applications.
-
 quarkus:
   name: Quarkus
   repo: https://github.com/quarkusio

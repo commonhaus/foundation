@@ -7,18 +7,28 @@ Our trademarks—including the Commonhaus Foundation name, logo, and any project
 >
 > Trademark law can be ambiguous, so we aim to provide enough clarity for you to understand whether we will consider your use acceptable, either because it is licensed or it is non-infringing.
 
-- [Purpose and Scope](#purpose-and-scope)
-- [Commitment to Open Source principles](#commitment-to-open-source-principles)
-- [Covered Trademarks](#covered-trademarks)
-- [Trademark usage guidelines](#trademark-usage-guidelines)
-- [Restrictions on Similar Trademarks](#restrictions-on-similar-trademarks)
+- [Trademark Policy](#trademark-policy)
+  - [Purpose and Scope](#purpose-and-scope)
+  - [Commitment to Open Source principles](#commitment-to-open-source-principles)
+  - [Covered Trademarks](#covered-trademarks)
+  - [Trademark usage guidelines](#trademark-usage-guidelines)
+  - [Restrictions on Similar Trademarks](#restrictions-on-similar-trademarks)
     - [Uses we consider non-infringing](#uses-we-consider-non-infringing)
+      - [Distribution of unmodified source code or artifacts packaged by us](#distribution-of-unmodified-source-code-or-artifacts-packaged-by-us)
+      - [Distribution of modified source code or artifacts packaged by you](#distribution-of-modified-source-code-or-artifacts-packaged-by-you)
+      - [Statements about compatibility, interoperability or derivation](#statements-about-compatibility-interoperability-or-derivation)
+      - [Use of trademarks to show community affiliation](#use-of-trademarks-to-show-community-affiliation)
+      - [Websites](#websites)
+      - [Publications and presentations](#publications-and-presentations)
+      - [Events](#events)
     - [Uses for which we are granting a license](#uses-for-which-we-are-granting-a-license)
+      - [User groups](#user-groups)
+      - [Promotional goods](#promotional-goods)
     - [Uses we consider infringing without seeking further permission from us](#uses-we-consider-infringing-without-seeking-further-permission-from-us)
     - [Reporting Abuse or Seeking Information](#reporting-abuse-or-seeking-information)
-- [Policy modifications and updates](#policy-modifications-and-updates)
-- [Contact and further information](#contact-and-further-information)
-- [Attribution](#attribution)
+  - [Policy modifications and updates](#policy-modifications-and-updates)
+  - [Contact and further information](#contact-and-further-information)
+  - [Attribution](#attribution)
 
 ## Purpose and Scope
 
@@ -127,7 +137,7 @@ Acceptable usage examples:
 - *&lt;your product/company name>* **is powered by** Jackson
 - *&lt;your product/company name>* **plugin for** JReleaser
 - *&lt;your product/company name>* **extension for** Quarkus
-- *&lt;your product/company name>* **recipe for** OpenRewrite
+- *&lt;your product/company name>* **recipe for** EasyMock
 - *&lt;your product name>* **build of** Morphia
 
 Counter-examples (may cause confusion):

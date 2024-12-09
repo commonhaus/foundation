@@ -4,11 +4,12 @@ This document provides practical guidance on the proper use of the Commonhaus Fo
 
 These guidelines are intended to support respectful and legally compliant use of the Foundation’s trademarks, preserving their integrity and meaning for our community.
 
-- [Proper trademark use](#proper-trademark-use)
+- [Trademark Information and Guidelines](#trademark-information-and-guidelines)
+  - [Proper trademark use](#proper-trademark-use)
     - [Trademark marking and legends](#trademark-marking-and-legends)
     - [Use of trademarks in text](#use-of-trademarks-in-text)
     - [Use of Logos](#use-of-logos)
-- [General information about Trademarks](#general-information-about-trademarks)
+  - [General information about Trademarks](#general-information-about-trademarks)
     - [What is a trademark?](#what-is-a-trademark)
     - [What is "likelihood of confusion"?](#what-is-likelihood-of-confusion)
     - [What is "nominative" use?](#what-is-nominative-use)
@@ -35,8 +36,8 @@ If you are using our Marks as described in the [Trademark Policy][], please incl
     - Correct: Hibernate, HIBERNATE
 
 - **Use trademarks in their exact form with correct spelling.** Do not abbreviate, hyphenate, or combine with other words.
-    - Incorrect: Open Rewrite, open rewrite, open-rewrite
-    - Correct: OpenRewrite
+    - Incorrect: Easy Mock, easy mock, easy-mock
+    - Correct: EasyMock
     - See our [Trademark List][] to verify exactly how the marks should appear.
 
 - **Use trademarks as adjectives modifying nouns**, especially the first time they appear in print. Refer to our preferred nouns on the [Trademark List][].
