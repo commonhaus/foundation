@@ -1,11 +1,14 @@
 # Commonhaus Foundation Bootstrapping Agreement
 
+### NOTE: OpenRewrite was withdrawn from Commonhaus before the formation period concluded. Below is a record of the original bootstrapping agreement.
+
 - Project: OpenRewrite
 - EGC representative: jkschneider
 
 This document outlines the preliminary, non-binding agreement for the establishment phase of the Commonhaus Foundation (CF), aiming to foster a collaborative community dedicated to open source projects.
 
 - [Commonhaus Foundation Bootstrapping Agreement](#commonhaus-foundation-bootstrapping-agreement)
+    - [NOTE: OpenRewrite was withdrawn from Commonhaus before the formation period concluded. Below is a record of the original bootstrapping agreement.](#note-openrewrite-was-withdrawn-from-commonhaus-before-the-formation-period-concluded-below-is-a-record-of-the-original-bootstrapping-agreement)
   - [EGC Quorum Establishment](#egc-quorum-establishment)
   - [Preliminary Commitment](#preliminary-commitment)
   - [Formation Period](#formation-period)

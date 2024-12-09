@@ -157,7 +157,7 @@ without requiring an externally-imposed structure.
 ## What types of open source projects does Commonhaus aim to support?
 
 The foundation is open to a wide range of open source projects.
-At launch, we are proud to include the Hibernate, Jackson, OpenRewrite, JBang, JReleaser,
+At launch, we are proud to include the Hibernate, Jackson, JBang, JReleaser,
 and Morphia projects, many of which are essential projects in the Java ecosystem today.
 Our doors are open to projects from all languages and technologies that share our vision
 for a collaborative and sustainable open source future.

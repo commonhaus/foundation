@@ -46,8 +46,6 @@ egc:
     login: aalmiray
   - project: morphia
     login: evanchooly
-  - project: openrewrite
-    login: timtebeek
   - project: jackson
     login: cowtowncoder
     avatarAlt:  >-
