@@ -34,4 +34,4 @@ jobs:
         working-directory: ${{ github.workspace }}/.github
         run: |
           npm ci
-          npm run test
+          npm run lint

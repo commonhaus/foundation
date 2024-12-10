@@ -12,5 +12,9 @@ indent_size = 4
 trim_trailing_whitespace = false
 insert_final_newline = true
 
-[*.{yaml,yml,html,js,rb,css,xml,scss}]
+[*.js]
+indent_size = 4
+insert_final_newline = true
+
+[*.{yaml,yml,html,rb,css,xml,scss}]
 indent_size = 2

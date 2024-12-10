@@ -1,21 +1,48 @@
 {
+  "ignorePatterns": [
+    {"pattern": "dco.txt"}
+  ],
   "_replacementPatternsComment": "CODEOWNERS/TRADEMARKS are referenced in templates",
   "replacementPatterns": [
     {
-      "pattern": "^CODEOWNERS",
-      "replacement": "{{BASEURL}}/.github/CODEOWNERS"
+      "pattern": "^\\.\\/",
+      "replacement": "{{BASEURL}}"
     },
     {
-      "pattern": "^TRADEMARKS",
-      "replacement": "{{BASEURL}}/TRADEMARKS"
+      "pattern": "^\\.\\.\\/templates\\/",
+      "replacement": "{{BASEURL}}"
     },
     {
-      "pattern": "^CONTRIBUTING",
-      "replacement": "{{BASEURL}}/CONTRIBUTING"
+      "pattern": "^[./]*CODE_OF_CONDUCT.md",
+      "replacement": "https://www.commonhaus.org/policies/code-of-conduct/"
     },
     {
-      "pattern": "^/",
-      "replacement": "{{BASEURL}}/"
+      "pattern": "^[./]*(CONTRIBUTING|GOVERNANCE|TRADEMARKS).md",
+      "replacement": "{{BASEURL}}/$1.md"
+    },
+    {
+      "pattern": "^[./]*(CONTACTS|PROJECTS).yaml",
+      "replacement": "{{BASEURL}}/$1.yaml"
+    },
+    {
+      "pattern": "^[./]*COMMUNICATION.md",
+      "replacement": "https://www.commonhaus.org/community/"
+    },
+    {
+      "pattern": "^[./]*policies/$",
+      "replacement": "https://www.commonhaus.org/policies/"
+    },
+    {
+      "pattern": "^[./]*policies/(.*).md",
+      "replacement": "https://www.commonhaus.org/policies/$1/"
+    },
+    {
+      "pattern": "^[./]*bylaws/README.md",
+      "replacement": "https://www.commonhaus.org/bylaws/"
+    },
+    {
+      "pattern": "^[./]*(bylaws/)?\\d-(.*?).md",
+      "replacement": "https://www.commonhaus.org/bylaws/$2.html"
     }
   ],
   "_aliveComment": "Some sites return 403 from GH Actions check; 400 from twitter (login redirect)",
