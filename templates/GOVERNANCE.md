@@ -13,6 +13,7 @@ This governance model is designed to uphold the principles of transparency, open
 [cfc]: https://www.commonhaus.org/bylaws/cf-council.html
 [cdm]: https://www.commonhaus.org/bylaws/decision-making.html
 [ctp]: https://www.commonhaus.org/policies/trademark-policy/
+[coc]: https://www.commonhaus.org/policies/code-of-conduct/
 
 ## Table of Contents
 
@@ -39,7 +40,7 @@ This project follows The [Commonhaus decision making][cdm] process.
 
 ## Code of Conduct
 
-All participants in the project are expected to adhere to the project's [Code of Conduct](CODE_OF_CONDUCT.md). Please ensure you are familiar with its guidelines and expectations, as it's essential for maintaining a positive and collaborative environment.
+All participants in the project are expected to adhere to the project's [Code of Conduct][coc]. Please ensure you are familiar with its guidelines and expectations, as it's essential for maintaining a positive and collaborative environment.
 
 ## Trademark Policy
 
