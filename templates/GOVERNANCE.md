@@ -14,6 +14,7 @@ This governance model is designed to uphold the principles of transparency, open
 [cdm]: https://www.commonhaus.org/bylaws/decision-making.html
 [ctp]: https://www.commonhaus.org/policies/trademark-policy/
 [coc]: https://www.commonhaus.org/policies/code-of-conduct/
+[contrib]: TBD
 
 ## Table of Contents
 
@@ -48,4 +49,4 @@ The [Project Name] logos, icons, and domain names are protected by trademark rig
 
 ## Contributing
 
-We welcome all forms of contribution, from code improvements to documentation and design. For details on how to contribute and the process your contributions will follow, please read our [Contributing Guidelines](CONTRIBUTING.md).
+We welcome all forms of contribution, from code improvements to documentation and design. For details on how to contribute and the process your contributions will follow, please read our [Contributing Guidelines][contrib].
