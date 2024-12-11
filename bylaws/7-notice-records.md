@@ -60,6 +60,6 @@ The CF will maintain records of all activities for transparency and legal compli
 - **Backup and Security:** Regular backups and robust security measures to safeguard digital records.
 
 [Amendments]: ./9-amendments.md
-[Decision Making]: ./6-decision-making.md#seeking-consensus-on-mailing-lists
+[Decision Making]: ./6-decision-making.md
 [contact-us]: ../COMMUNICATION.md
 [CONTACTS.yaml]: ../CONTACTS.yaml

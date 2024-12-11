@@ -8,8 +8,6 @@ Welcome to the Commonhaus Foundation (CF), a collective dedicated to nurturing o
 - **[CF Advisory Board][cfab]**: Comprises representatives from organizations providing financial support to the CF. They provide strategic insight to the CFC.
 - **[General Members][membership]**: Individuals supporting CF’s mission. Members in good standing participate in CF activities and vote in elections.
 - **[Projects][project]**: Collaborative open source initiatives under CF, including assets like code, trademarks, and domains.
-    - **[Code Owners][plco]**: Maintain the quality and consistency of project code.
-    - **[Project Leaders][plco]**: Guide project governance and decision-making. Along with the CFC, they form the [**Extended Governance Committee (EGC)**][egc] for critical decisions like bylaw amendments.
 
 ## Decision Making and Voting
 
@@ -47,7 +45,6 @@ Amendments or changes to Bylaws will follow the [amendment process][].
 [egc]: ./4-cf-council.md#extended-governance-committee-egc
 [foundation]: https://github.com/commonhaus/foundation
 [membership]: ./3-cf-membership.md#general-members
-[plco]: ./3-cf-membership.md#project-leaders-and-code-owners
 [policy-index]: ../policies/
 [policy-coc]: ../policies/code-of-conduct.md
 [policy-coi]: ../policies/conflict-of-interest.md
