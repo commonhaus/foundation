@@ -1,0 +1,29 @@
+{
+  "ignorePatterns": [
+    {"pattern": "dco.txt"},
+    {"pattern": ".*?templates.*?"},
+    {"pattern": "TBD"}
+  ],
+  "_aliveComment": "Some sites return 403 from GH Actions check; 400 from twitter (login redirect)",
+  "aliveStatusCodes": [
+    0,
+    200,
+    206,
+    400,
+    403,
+    429,
+    500,
+    503
+  ],
+  "headers": {
+    "User-Agent": "Mozilla/5.0 (Windows; U; Windows NT 5.1; de; rv:1.9.2.3) Gecko/20100401 Firefox/3.6.3"
+  },
+  "httpHeaders": [
+    {
+      "urls": ["https://www.linkedin.com/company/commonhaus-foundation/"],
+      "headers": {
+        "User-Agent": "Mozilla/5.0 (Windows; U; Windows NT 5.1; de; rv:1.9.2.3) Gecko/20100401 Firefox/3.6.3"
+      }
+    }
+  ]
+}

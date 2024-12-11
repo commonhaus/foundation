@@ -1,0 +1,16 @@
+{
+  "type": "module",
+  "scripts": {
+    "build": "npx tsc -p tsconfig.json",
+    "lint": "npm run build && node ./dist/validate.js"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.2",
+    "link-check": "^5.4.0",
+    "markdown-link-check": "^3.13.6",
+    "markdownlint": "^0.35.0",
+    "marked": "^15.0.3",
+    "typescript": "^5.7.2",
+    "yaml": "^2.3.4"
+  }
+}

@@ -31,7 +31,7 @@ jobs:
           cache: 'npm'
 
       - name: Check markdown links
-        working-directory: ${{ github.workspace }}/.github
+        working-directory: ${{ github.workspace }}/.github/linter
         run: |
           npm ci
           npm run lint
