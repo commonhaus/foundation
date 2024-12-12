@@ -1,4 +1,4 @@
-name: Build PDF and publish to commonhaus.github.io
+name: Build PDF / Docx
 
 on:
   pull_request:
@@ -31,20 +31,7 @@ jobs:
     steps:
       - if: github.event_name == 'push' && github.ref == 'refs/heads/main' && github.repository == 'commonhaus/foundation'
         id: is-main-root
-        run: echo "test=true" >> "$GITHUB_OUTPUT"
-
-  update-website:
-    needs: main-root
-    runs-on: ubuntu-latest
-    if: ${{ needs.main-root.outputs.is-main }}
-    permissions:
-      actions: read
-    steps:
-    - name: Bump website
-      env:
-        GH_TOKEN: ${{ secrets.ACTIONS_PUBLISH_PAT }}
-      run: |
-        gh workflow run -R commonhaus/commonhaus.github.io push-content.yml
+        run: echo "test=true" >> "$GITHUB_OUTPUT
 
   package:
     name: Package PDFs

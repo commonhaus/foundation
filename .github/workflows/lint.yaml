@@ -2,9 +2,17 @@ name: Validate markdown and YAML
 
 on:
   pull_request:
+    paths:
+      - '*.md'
+      - '*.yml'
+      - '*.yaml'
   push:
     branches:
       - main
+    paths:
+      - '*.md'
+      - '*.yml'
+      - '*.yaml'
   workflow_dispatch:
 
 env:

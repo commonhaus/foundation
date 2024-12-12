@@ -1,22 +1,20 @@
-name: Push discussions and PR activity to commonhaus.github.io
+name: Push activity to commonhaus.github.io
 
 on:
   discussion:
   pull_request_target:
     types: [opened, edited, reopened, closed]
-    paths:
-      - '*.md'
-      - '*.yaml'
-      - 'bylaws/**'
-      - 'policies/**'
+    paths-ignore:
+      - '.*'
+      - 'elections'
+      - 'templates'
   push:
     branches:
       - main
-    paths:
-      - '*.md'
-      - '*.yaml'
-      - 'bylaws/**'
-      - 'policies/**'
+    paths-ignore:
+      - '.*'
+      - 'elections'
+      - 'templates'
   workflow_dispatch:
 
 permissions: {}
@@ -33,3 +31,4 @@ jobs:
         GH_TOKEN: ${{ secrets.ACTIONS_PUBLISH_PAT }}
       run: |
         gh workflow run -R commonhaus/commonhaus.github.io push-content.yml
+

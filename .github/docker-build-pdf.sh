@@ -82,55 +82,29 @@ if [[ "${TO_CMD}" != "noargs" ]]; then
 fi
 
 # Convert markdown to PDF with an appended changelog
-function to_pdf_pattern() {
-    local tmpout=output/tmp/${1}
-    shift
-    local pdfout=output/public/${1}
-    shift
-    local relative_path=${1}
-    shift
-
-    mkdir -p "${tmpout}"
-    rm -f "${tmpout}"/*
-    rm -f "${pdfout}"
-
-    # Use mounted volume paths
-    run_pdf --pdf-engine-opt=-output-dir="./${tmpout}" \
-        --pdf-engine-opt=-outdir="./${tmpout}" \
-        -o "./${pdfout}" \
-        -V dirname:"${relative_path}" \
-        "$@"
-}
-
-# Convert markdown to PDF with an appended changelog
-# to_pdf ./TRADEMARKS.md trademark-list ./ "Commonhaus Foundation Trademark List"
+# working-dir is used to resolve resources in the file
+# to_pdf pdf-basename   cwd         sources+args
+# to_pdf trademark-list ./          sources+args
+# to_pdf x              ./policies  sources+args
+# to_pdf cf-bylaws      ./bylaws    sources+args
 function to_pdf() {
-    if [[ ! -f "${1}" ]]; then
-        echo "No source file found at ${1}"
-        exit 1
-    fi
-    local source=${1}
-    shift
     local basename=${1}
     shift
     local relative_path=${1}
     shift
-    local title=${1}
-    shift
 
-    local tmpout=output/tmp/${basename}
+    local tmpout=./output/tmp/${basename}
     mkdir -p "${tmpout}"
     rm -f "${tmpout}"/*
-    local pdfout=output/public/${basename}.pdf
+    local pdfout=./output/public/${basename}.pdf
     rm -f "${pdfout}"
 
     # Use mounted volume paths
-    run_pdf --pdf-engine-opt=-output-dir="./${tmpout}" \
-        --pdf-engine-opt=-outdir="./${tmpout}" \
-        -o "./${pdfout}" \
-        -M title:"${title}" \
+    run_pdf --pdf-engine-opt=-output-dir="${tmpout}" \
+        --pdf-engine-opt=-outdir="${tmpout}" \
         -V dirname:"${relative_path}" \
-        "${source}"
+        -o "${pdfout}" \
+        "$@"
 }
 
 # Convert markdown to PDF
@@ -150,11 +124,9 @@ function run_pdf() {
 function run_docx() {
     ${DOCKER} run ${ARGS} \
         "${PANDOCK}" \
-        -d ./.pandoc/agreements.yaml \
         -M date-meta:"$(date +%B\ %d,\ %Y)" \
         -V github:"${URL}" \
-        -o "$1" \
-        "$2"
+        "$@"
 
     echo "$?"
 }
@@ -164,35 +136,21 @@ mkdir -p output/public
 
 ## BYLAWS
 
-# Sorted order of files for Bylaws
-BYLAWS=(
-    ./bylaws/1-preface.md
-    ./bylaws/2-purpose.md
-    ./bylaws/3-cf-membership.md
-    ./bylaws/4-cf-council.md
-    ./bylaws/5-cf-advisory-board.md
-    ./bylaws/6-decision-making.md
-    ./bylaws/7-notice-records.md
-    ./bylaws/8-indemnification-dissolution.md
-    ./bylaws/9-amendments.md
-)
-
 if [[ -z "${SKIP_BYLAWS}" ]]; then
-    # Verify that bylaws files exist
-    for x in "${BYLAWS[@]}"; do
-        if [[ ! -f ${x} ]]; then
-            echo "No file found at ${x}"
-            exit 1
-        fi
-    done
-
-    # # Convert bylaws to PDF
-    to_pdf_pattern \
-        bylaws \
-        "cf-bylaws.pdf" \
+    # Convert bylaws to PDF
+    to_pdf \
+        "cf-bylaws" \
         "./bylaws/" \
-        -M title:"Bylaws" \
-        "${BYLAWS[@]}"
+        -M "title:Bylaws" \
+        ./bylaws/1-preface.md \
+        ./bylaws/2-purpose.md \
+        ./bylaws/3-cf-membership.md \
+        ./bylaws/4-cf-council.md \
+        ./bylaws/5-cf-advisory-board.md \
+        ./bylaws/6-decision-making.md \
+        ./bylaws/7-notice-records.md \
+        ./bylaws/8-indemnification-dissolution.md \
+        ./bylaws/9-amendments.md
 fi
 
 ## POLICIES
@@ -203,27 +161,34 @@ function to_policy_pdf() {
         echo "No policy found at ./policies/${1}.md"
         exit 1
     fi
-    to_pdf_pattern \
+    # to_pdf pdf-basename   working-dir title ... whatever else
+    to_pdf \
         "${1}" \
-        "${1}.pdf" \
         "./policies/" \
-        -M title:"${2} Policy" \
+        -M "title:${2} Policy" \
         "./policies/${1}.md"
 }
 
 if [[ -z "${SKIP_POLICIES}" ]]; then
-    # Convert all policies to PDF
-    to_policy_pdf code-of-conduct "Code of Conduct"
-    to_policy_pdf conflict-of-interest "Conflict of Interest"
-    to_policy_pdf ip-policy "Intellectual Property"
-    to_policy_pdf trademark-policy "Trademark"
+    # Convert policies to PDF
+    # function    source file (no extension)  <title> Policy
+    to_policy_pdf code-of-conduct             "Code of Conduct"
+    to_policy_pdf conflict-of-interest        "Conflict of Interest"
+    to_policy_pdf ip-policy                   "Intellectual Property"
+    to_policy_pdf trademark-policy            "Trademark"
 
-    to_pdf ./TRADEMARKS.md trademark-list ./ "Trademark List"
+    # to_pdf pdf-file-name  cwd   the rest...
+    to_pdf   trademark-list ./    -M "title:Trademark List" ./TRADEMARKS.md
 fi
 
 ## AGREEMENTS
 
 function to_agreement_doc() {
+    local config="./.pandoc/agreements.yaml"
+    if [[ "${1}" == "true" ]]; then
+        config="./.pandoc/draft-agreements.yaml"
+    fi
+    shift
     local input=${1}
     if [[ ! -f "./agreements/${input}.md" ]]; then
         echo "No agreement found at ./agreements/${input}.md"
@@ -234,15 +199,17 @@ function to_agreement_doc() {
         output=$(basename ${input})
     fi
     run_docx \
-        "./output/public/${output}.docx" \
+        -o "./output/public/${output}.docx" \
+        -d "./.pandoc/agreements.yaml" \
         "./agreements/${input}.md"
 }
 
 if [[ -z "${SKIP_AGREEMENTS}" ]]; then
-    to_agreement_doc bootstrapping/bootstrapping bootstrapping-agreement
-    # to_agreement_doc project-contribution/asset-transfer-agreement
-    # to_agreement_doc project-contribution/fiscal-sponsorship-agreement
-    # to_agreement_doc project-contribution/fiscal-sponsorship-terms-and-conditions
+    # function  is_draft   markdown source (no extension)
+    to_agreement_doc false bootstrapping/bootstrapping bootstrapping-agreement
+#    to_agreement_doc true  project-contribution/asset-transfer-agreement
+#    to_agreement_doc true  project-contribution/fiscal-sponsorship-agreement
+#    to_agreement_doc true  project-contribution/fiscal-sponsorship-terms-and-conditions
 fi
 
 ls -al output/public

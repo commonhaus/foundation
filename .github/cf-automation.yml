@@ -59,6 +59,7 @@ notice:
           - edited
           - closed
         paths:
+          - agreements/project-contribution/*
           - bylaws/*
           - policies/*
         label: ["!notice"]
@@ -95,11 +96,11 @@ voting:
     - source: CONTACTS.yaml
       repo: commonhaus/foundation
       mapping:
-        - field: project 
-          primary: 
+        - field: project
+          primary:
             data: egc
             team: commonhaus/cf-egc
-          secondary: 
+          secondary:
             data: egc-second
             team: commonhaus/cf-egc-second
   exclude_login:
