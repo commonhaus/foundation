@@ -18,7 +18,7 @@ class CheckResult {
     link: string;
     status: string;
     statusCode: number;
-    err: any;
+    err: Partial<AnyError>;
 }
 
 const exclude = [
@@ -31,7 +31,7 @@ const httpLinkRegex = /https?:\/\/[^\s)]+/g;
 const linkCheckOptions = JSON.parse(readFileSync('.mlc_config.json', 'utf8'));
 
 class Validator {
-    errors: any[] = [];
+    errors: Partial<AnyError>[] = [];
     warnings: string[] = [];
     deadLinks: CheckResult[] = [];
 
@@ -57,17 +57,18 @@ class Validator {
         return new Promise((resolvePromise, rejectPromise) => { // avoid name collision with path.resolve
             const baseName = basename(filePath)
             try {
+                const self = this;
                 // console.log("    ==> URL", link);
-                linkCheck(link, linkCheckOptions, function (err: any, result: CheckResult) {
+                linkCheck(link, linkCheckOptions, function (err: Partial<AnyError>, result: CheckResult) {
                     if (err) {
                         console.error(`Error processing links in ${baseName}:`, err);
                         err.filePath = filePath
-                        this.errors.push(err);
+                        self.errors.push(err);
                         return resolvePromise();
                     }
                     if (result.status === 'dead') {
                         result.filePath = filePath;
-                        this.deadLinks.push(result);
+                        self.deadLinks.push(result);
                     }
                     resolvePromise();
                 });
@@ -154,39 +155,39 @@ class Validator {
         const fileContent = readFileSync(filePath, 'utf8');
         const linkSet = new Set();
         const headingSet = new Set();
-        const renderer = new marked.Renderer();
 
-        renderer.link = function (link) {
-            linkSet.add(link.href);
-            return marked.Renderer.prototype.link.apply(this, arguments);
+        const walkTokens = (token) => {
+            if (token.type === 'link') {
+                linkSet.add(token.href);
+            }
+            if (token.type === 'heading') {
+                // From: https://github.com/tcort/markdown-link-check/
+                // https://github.com/tcort/markdown-link-check/blob/master/LICENSE.md
+                const id = encodeURIComponent(token.text
+                    // replace links, the links can start with "./", "/", "http://", "https://" or "#"
+                    // and keep the value of the text ($1)
+                    .replace(/\[(.+)\]\(((?:\.?\/|https?:\/\/|#)[\w\d./?=#-]+)\)/, "$1")
+                    // make everything (Unicode-aware) lower case
+                    .toLowerCase()
+                    // remove everything that is NOT a (Unicode) Letter, (Unicode) Number decimal,
+                    // (Unicode) Number letter, white space, underscore or hyphen
+                    // https://ruby-doc.org/3.3.2/Regexp.html#class-Regexp-label-Unicode+Character+Categories
+                    .replace(/[^\p{L}\p{Nd}\p{Nl}\s_\-`]/gu, "")
+                    // remove sequences of *
+                    .replace(/\*(?=.*)/gu, "")
+                    // remove leftover backticks
+                    .replace(/`/gu, "")
+                    // Now replace remaining blanks with '-'
+                    .replace(/\s+/gu, "-")
+                );
+                headingSet.add(`#${id}`);
+            }
         };
 
-        renderer.heading = function (heading) {
-            // From: https://github.com/tcort/markdown-link-check/
-            // https://github.com/tcort/markdown-link-check/blob/master/LICENSE.md
-            const id = encodeURIComponent(heading.text
-                // replace links, the links can start with "./", "/", "http://", "https://" or "#"
-                // and keep the value of the text ($1)
-                .replace(/\[(.+)\]\(((?:\.?\/|https?:\/\/|#)[\w\d./?=#-]+)\)/, "$1")
-                // make everything (Unicode-aware) lower case
-                .toLowerCase()
-                // remove everything that is NOT a (Unicode) Letter, (Unicode) Number decimal,
-                // (Unicode) Number letter, white space, underscore or hyphen
-                // https://ruby-doc.org/3.3.2/Regexp.html#class-Regexp-label-Unicode+Character+Categories
-                .replace(/[^\p{L}\p{Nd}\p{Nl}\s_\-`]/gu, "")
-                // remove sequences of *
-                .replace(/\*(?=.*)/gu, "")
-                // remove leftover backticks
-                .replace(/`/gu, "")
-                // Now replace remaining blanks with '-'
-                .replace(/\s+/gu, "-")
-            );
-            headingSet.add(`#${id}`);
-            return marked.Renderer.prototype.heading.apply(this, arguments);
-        };
+        marked.use({ walkTokens });
 
         try {
-            marked(fileContent, { renderer });
+            marked.parse(fileContent);
             this.allLinks[filePath] = [...linkSet];
             this.allHeadings[filePath] = [...headingSet];
         } catch (err) {
@@ -215,13 +216,17 @@ class Validator {
         }
     }
 
-    handleError = (error: any): void => {
+    handleError = (error: Partial<AnyError>): void => {
         this.errors.push(error);
     }
-    handleScopedError = (filePath: string, error: any): void => {
+    handleScopedError = (filePath: string, error: Partial<AnyError>): void => {
         error.filePath = filePath;
         this.errors.push(error);
     }
+}
+
+interface AnyError extends Error {
+    filePath: string;
 }
 
 interface SponsorData {
@@ -245,7 +250,12 @@ interface Sponsor {
 }
 
 class Sponsors {
-    static verifySponsors = (data: SponsorData, errors: string[]) => {
+    validator: Validator;
+    constructor(validator: Validator) {
+        this.validator = validator;
+    }
+
+    verifySponsors = (data: SponsorData) => {
         // Verify sponsor data.
         // Specifically validate sponsor description by tier.
         const allTiers = data.tiers;
@@ -254,20 +264,23 @@ class Sponsors {
         for (const [_, sponsor] of Object.entries(sponsors)) {
             for (const tier of sponsor.tier || []) {
                 let content = '';
-                let limit = allTiers[tier].chars || 0;
+                const limit = allTiers[tier].chars || 0;
                 if (tier === "in-kind") {
-                    content = Sponsors.stripFormatting(sponsor.display["in-kind"] || '');
+                    content = this.stripFormatting(sponsor.display["in-kind"] || '');
                 } else if (allTiers[tier].chars) {
                     content = this.stripFormatting(sponsor.display.description || '');
                 }
                 if (content.length > limit) {
-                    errors.push(`Sponsor ${sponsor.name} exceeds character limit (${limit}) for tier ${tier}. Filtered content is ${content.length} characters`);
+                    this.validator.errors.push({
+                        filePath: "SPONSORS.yaml",
+                        message: `Sponsor ${sponsor.name} exceeds character limit (${limit}) for tier ${tier}. Filtered content is ${content.length}`,
+                    });
                 }
             }
         }
     }
 
-    static stripFormatting = (content: string) => {
+    stripFormatting = (content: string) => {
         if (!content) {
             return '';
         }
@@ -282,6 +295,7 @@ class Sponsors {
 
 async function main() {
     const validator = new Validator(root);
+    const sponsors = new Sponsors(validator);
 
     try {
         for (const filePath of validator.mdFiles) {
@@ -296,7 +310,7 @@ async function main() {
                 const fileContent = readFileSync(filePath, 'utf8');
                 const data = parse(fileContent); // can we parse the yaml content
                 if (filePath.endsWith("SPONSORS.yaml")) {
-                    Sponsors.verifySponsors(data, validator.errors);
+                    sponsors.verifySponsors(data);
                 }
                 const httpLinks = fileContent.matchAll(httpLinkRegex);
                 for (const match of httpLinks) {
