@@ -1,6 +1,6 @@
 ---
 status: draft
 ---
-# Fiscal Sponsorship and Project Hosting
+# Project Hosting and Fiscal Sponsorship
 
 Coming soon.
