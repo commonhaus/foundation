@@ -11,7 +11,7 @@ Inspired by the [The Codehaus][codehaus], CF offers a balanced approach to gover
 
 - **Minimum viable governance**: Adhering to a *community-first* model, CF offers foundational support that respects project autonomy, ensuring governance is effective without being restrictive.
 
-- **Streamlined access to funding**: As a fiscal host with connections to platforms like GitHub Sponsors and OpenCollective, CF simplifies the process of securing funding, providing your project with the resources it needs for sustainability and growth.
+- **Streamlined access to funding**: As a fiscal host with connections to platforms like GitHub Sponsors and Open Collective, CF simplifies the process of securing funding, providing your project with the resources it needs for sustainability and growth.
 
 ## Our mission, vision and focus
 
