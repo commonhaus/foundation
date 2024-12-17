@@ -147,7 +147,7 @@ Beginning on the Effective Date, all monetary contributions to the Project will 
 **Expenditure Authority:**
 While the Sponsor will delegate certain expenditure authority to the Signatories as provided in this Agreement and the [Terms and Conditions][], the Sponsor retains the unilateral right to spend such funds to accomplish the Project Purposes as nearly as possible[^1] within the Sponsor’s sole judgment, subject to any more specific donor-imposed restrictions on the use of such assets.
 
-[^1]: This provision is meant to ensure that if it is no longer feasible for the funds to be spent for the Project Purposes (for example if a sponsored project ceases to operate), CF can use the funds for other projects without seeking approval of a court.
+[^1]: This provision is meant to ensure that if it is no longer feasible for the funds to be spent for the Project Purposes (for example if a sponsored project ceases to operate), the Sponsor can use the funds for other projects without seeking approval of a court.
 
 - The restricted fund must be used in alignment with donor intent and for tax-exempt purposes.
 
