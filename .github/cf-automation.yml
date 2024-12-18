@@ -1,16 +1,20 @@
 notice:
   discussion_comment:
     rules:
-      - # If a comment is added to an "interesting" PR, send it to the EGC list
+      - # If a comment is added to a notice discussion by a Commonhaus member (avoid spam),
+        # send it to the EGC list
         action: [created]
         label:
         - notice
         - "vote/open"
         - "vote/done"
+        member:
+          - commonhaus
         then: [egc]
   issue_comment:
     rules:
-      - # If a comment is added to an "interesting" PR, send it to the EGC list
+      - # If a comment is added to a notice PR by a Commonhaus member (avoid spam),
+        # send it to the EGC list
         action: [created]
         label:
         - notice
@@ -21,6 +25,7 @@ notice:
     rules:
       - # If a discussion is created in Announcements or Consensus Building
         # and it already has the notice label, send an email
+        # Note: Announcements & Consensus Building are restricted to Maintainers
         category:
           - Announcements
           - Consensus Building
@@ -53,7 +58,9 @@ notice:
   pull_request:
     rules:
       - # If a pull request modifies bylaws or policies
-        # and it does not have the notice label, apply the notice label
+        # and the PR creator is a member of the organization
+        # and it does not have the notice label, 
+        # apply the notice label
         action:
           - opened
           - edited
@@ -63,6 +70,8 @@ notice:
           - bylaws/*
           - policies/*
         label: ["!notice"]
+        member:
+          - commonhaus
         then: [apply_notice]
       - # If the notice label is applied, send email to announce and egc lists
         action: [labeled]
