@@ -11,7 +11,7 @@ These agreements define the terms for projects and contributors working with the
     - [docx][fs-docx] | [pdf][fs-pdf]
 
 - **Asset Transfer Agreement**:
-    This agreement formalizes the transfer of assets such as trademarks, domains, or intellectual property to the Foundation. It sets the terms for transferring ownership from the current holder—whether a Project Signatory, employer, or another party.
+    This agreement formalizes the transfer of assets such as trademarks, domains, or intellectual property to the Foundation. It sets the terms for transferring ownership from the current holder — whether a Project Signatory, employer, or another party.
     - [docx][asset-transfer-docx] | [pdf][asset-transfer-pdf]
 
 These documents are regularly reviewed and updated to reflect best practices and changing requirements.
