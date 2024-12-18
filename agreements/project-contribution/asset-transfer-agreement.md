@@ -88,7 +88,7 @@ Assignor shall provide electronic copies of all Contributor License Agreements.
 
 Assignor agrees to execute any additional documents, such as Exhibit A, and perform any further acts that Sponsor may reasonably request to effectuate the purposes of this Transfer Agreement and to fully establish and secure Assignee's rights in the Assets.
 
-Assignor hereby grants Sponsor a limited power of attorney, coupled with an interest, to sign,  on Assignor's behalf, any additional documents that Assignor may need in order to record the assignment of the Assets with government offices.
+Assignor hereby grants Sponsor a limited power of attorney, coupled with an interest, to sign, on Assignor's behalf, any additional documents that Assignor may need in order to record the assignment of the Assets with government offices.
 Sponsor will only do so if Assignor does not sign the documents within a reasonable period of time after Sponsor's request.
 
 ### Effective Date
