@@ -46,7 +46,7 @@ Operational responsibilities, including the ongoing management and quality stand
 
 ## Definitions
 
-All capitalized terms used in this Transfer Agreement not defined in it are as defined in the Fiscal Sponsorship Agreement.
+All capitalized terms used in this Transfer Agreement not defined in it are as defined in the [Fiscal Sponsorship Agreement][fs-landing].
 
 **Assets**: The intangible assets needed by Project for it to operate under the auspices of Sponsor without any disruption, alteration, or modification of the operations, processes, or activities.
 The attached [schedules of assets](#schedules) are intended to provide a comprehensive list of all assets being transferred; however, the schedules are not binding and the parties retain the right to amend the schedules as necessary.
