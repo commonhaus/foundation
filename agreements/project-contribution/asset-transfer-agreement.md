@@ -212,5 +212,5 @@ the _______ day of [month], [year].
 `Title: ⎣_____________________________________________⎦`  
 `Date:  ⎣_____________________________________________⎦`  
 
-[fs-landing]: https://www.commonhaus.org/policies/project-hosting/
+[fs-landing]: https://www.commonhaus.org/policies/fiscal-sponsorship/
 [Terms and Conditions]: https://www.commonhaus.org/policies/project-hosting/terms-and-conditions.html
