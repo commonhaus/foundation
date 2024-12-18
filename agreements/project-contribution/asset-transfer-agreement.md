@@ -42,7 +42,7 @@ This Agreement governs the transfer of assets from the Assignor to the Sponsor i
 The intangible assets associated with the Project, as described below, will be transferred to the Sponsor, and the Sponsor will assume responsibility for the Project’s operations.
 After the transfer, the Assignor will no longer have any operational responsibility for the Project, except where other agreements apply (e.g., if the Assignor is also a Signatory of the Fiscal Sponsorship Agreement or continues to provide services to those Signatories).
 
-Operational responsibilities, including the ongoing management and quality standards for these assets, are further outlined in the Fiscal Sponsorship Agreement and [Terms and Conditions][].
+Operational responsibilities, including the ongoing management and quality standards for these assets, are further outlined in the [Fiscal Sponsorship Agreement][fs-landing] and [Terms and Conditions][].
 
 ## Definitions
 
