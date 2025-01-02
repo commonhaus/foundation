@@ -42,7 +42,7 @@ Projects must meet the following criteria to be eligible for fiscal sponsorship:
 The project must align with the Sponsor’s mission to foster a diverse community to collaboratively create, maintain, and evolve open source libraries, tools, and frameworks.
 
 **Open Source License:**
-The project must produce, distribute, document, and improve software and/or documentation published under an Open Source Initiative (OSI) approved license.
+The project must produce, distribute, document, and improve software and/or documentation in accordance with the Foundation's [IP Policy][], which requires OSI-approved licenses for software.
 
 **Source Code:**
 Project code must be publicly accessible on any public code-hosting platform (like GitHub, GitLab, or BitBucket).
@@ -136,7 +136,8 @@ The Project must comply with all applicable laws and regulations, including thos
 
 The Sponsor may periodically review the Project’s financial, operational, and governance practices to ensure alignment with the Sponsor’s mission, adherence to applicable laws and policies, and compliance with quality standards associated with the Sponsor’s trademarks.
 
-These reviews, conducted in collaboration with the Signatories, may result in recommendations for adjustments to the Project’s mission, operating model, cost structure, or governance. The Sponsor may also provide guidance to maintain the quality and representation of the Project’s Marks, which the Signatories agree to implement promptly to uphold brand integrity.
+These reviews, conducted in collaboration with the Signatories, may result in recommendations for adjustments to the Project’s mission, operating model, cost structure, or governance.
+The Sponsor may also provide guidance to maintain the quality and representation of the Project’s Marks, which the Signatories agree to implement promptly to uphold brand integrity.
 
 These reviews may occur annually or more frequently, at the Sponsor’s discretion, provided they do not impose an undue burden on the Project.
 

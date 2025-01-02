@@ -36,7 +36,7 @@ This Agreement incorporates by reference the [Terms and Conditions][] for Fiscal
 
 Sponsor’s mission is to foster a diverse community to collaboratively create, maintain, and evolve open source libraries, tools, and frameworks to ensure their long-term growth and stability.
 
-The purpose of the Project (the "Project Purposes") is to produce, distribute, document, and improve software and/or documentation published under an Open Source Initiative (OSI) approved license, and to facilitate and organize its production, improvement and ease of use.
+The purpose of the Project (the "Project Purposes") is to produce, distribute, document, and improve software and/or documentation in accordance with the Foundation's [Intellectual Property Policy][], and to facilitate and organize its production, improvement and ease of use.
 
 Sponsor’s governing body (the "Council") has determined that acting as the Project’s fiscal sponsor by receiving assets and incurring liabilities identified for the Project Purposes and using them to pursue the Project Purposes will further the mission of the Sponsor and the common business interests of its members.
 
@@ -45,7 +45,8 @@ The Council has approved the creation of a restricted fund to support the Projec
 The Sponsor is a Florida nonprofit corporation exempt from federal income tax under Section 501(c)(6) of the Internal Revenue Code ("IRC").
 
 The individuals listed as Signatories desire to manage the Project on behalf of the Sponsor, subject to the Sponsor’s [discretion and control](#collaborative-management).
-Future project leaders, upon assuming leadership roles, shall be required to acknowledge and agree to the terms of this agreement as a condition of their role. Records of the current Signatories will be jointly maintained alongside asset inventories as defined in the [Terms and Conditions][].
+Future project leaders, upon assuming leadership roles, shall be required to acknowledge and agree to the terms of this agreement as a condition of their role.
+Records of the current Signatories will be jointly maintained alongside asset inventories as defined in the [Terms and Conditions][].
 
 ## Agreement
 
@@ -162,9 +163,11 @@ It is the intent of the parties that this Agreement should be interpreted to pro
 
 ### Performance of Exempt Purposes
 
-Because the Sponsor is subject to the complex legal and tax rules applicable to IRC Section 501(c)(6) trade associations and the Project is an operation of the Sponsor, all of the assets received by the Sponsor under the terms of this Agreement shall be devoted to the Project Purposes, within the tax-exempt purposes of the Sponsor.
+Because the Sponsor is subject to the complex legal and tax rules applicable to IRC Section 501(c)(6) trade associations and the Project is an operation of the Sponsor, all of the assets received by the Sponsor under the terms of this Agreement shall be devoted to the Project Purposes, within the tax-exempt purposes of the Sponsor and in furtherance of the common business interests of its members.
 
 - No change to the Project Purposes may be made without the prior written approval of the Sponsor.
+
+- Any attempts to influence legislation or advocate for or against any candidate for political office must comply with IRC Section 501(c)(6) limitations and shall be subject to oversight by the Sponsor.
 
 - Expenditures for any attempt to influence legislation or advocate for or against any candidate for political office within the meaning of IRC Section 501(c)(6) shall be subject to limitations imposed by the Sponsor.
 
@@ -180,9 +183,9 @@ This Agreement may be terminated by the Sponsor upon thirty (30) days’ written
 
 1. The Sponsor determines that the objectives of the Project can no longer reasonably be accomplished by the Sponsor;
 
-2. The Sponsor determines in its reasonable discretion that continued sponsorship of the Project is inconsistent with the Sponsor’s charitable purposes or tax-exempt status; or
+2. The Sponsor determines in its reasonable discretion that continued sponsorship of the Project is inconsistent with the Sponsor’s purposes or tax-exempt status; or
 
-3. The Sponsor determines in its reasonable discretion that another organization would better serve the Project’s charitable purposes as a fiscal sponsor.
+3. The Sponsor determines in its reasonable discretion that another organization would better serve the Project’s purposes as a fiscal sponsor.
 
 This Agreement may be terminated, with or without cause, by the Signatories at any time upon thirty (30) days’ written notice to the Sponsor.
 
@@ -201,7 +204,7 @@ Upon termination of this Agreement, the Sponsor and Signatories shall work toget
 
 - Once the parties agree on a Successor, the balance of assets in the Sponsor’s restricted fund for the Project, together with any other tangible and intangible assets held and liabilities incurred by the Sponsor in connection with the Project, shall be transferred to the Successor at the end of the notice period or any mutually agreed upon extension thereof, subject to the approval of any third parties that may be required.
 
-- If no Successor acceptable to both parties is found by the end of the notice period or any mutually agreed upon extension thereof, or if the Project was terminated by the Sponsor as a result of a material breach of this Agreement by the Signatories, the Sponsor may dispose of the Project assets and liabilities in any manner consistent with applicable tax and charitable trust laws.
+- If no Successor acceptable to both parties is found by the end of the notice period or any mutually agreed upon extension thereof, or if the Project was terminated by the Sponsor as a result of a material breach of this Agreement by the Signatories, the Sponsor may dispose of the Project assets and liabilities in any manner consistent with applicable tax laws.
 
 - Administrative fees deducted by the Sponsor under [Fundraising and Financial Management](#fundraising-and-financial-management) shall not be refundable upon termination, or under any other circumstances.
 
@@ -209,11 +212,14 @@ Upon termination of this Agreement, the Sponsor and Signatories shall work toget
 
 In the event of a dispute between the Project and the Sponsor, both parties agree to make a good faith effort to reconcile their differences through direct negotiation.
 
+Any resolution reached through negotiation or mediation must maintain compliance with IRC Section 501(c)(6) requirements and further the common business interests of the Sponsor's members.
+The Sponsor retains final authority over decisions that could affect its tax-exempt status or the collective interests of its membership.
+
 If resolution cannot be reached through negotiation within thirty (30) days, the parties may submit the dispute to mediation by a mutually agreed upon mediator.
 
 Should mediation fail, the Project shall have the option of terminating this Agreement and finding a Successor as outlined in [Effect of Termination](#effect-of-termination).
 
-If the Project is unable to find a Successor, the Sponsor may dispose of the Project’s assets and liabilities in any manner consistent with applicable tax and charitable trust laws.
+If the Project is unable to find a Successor, the Sponsor may dispose of the Project’s assets and liabilities in any manner consistent with applicable tax laws.
 
 In the event of any controversy, claim, or dispute between the parties arising out of or relating to this Agreement or its alleged breach, the prevailing party shall, in addition to any other relief, be entitled to recover its reasonable attorneys’ fees and costs of sustaining its position.
 
@@ -273,5 +279,6 @@ IN WITNESS WHEREOF, the parties have executed this Fiscal Sponsorship Agreement 
     `Date:  ⎣_____________________________________________⎦`  
 
 [Conflict of Interest Policy]: https://www.commonhaus.org/policies/conflict-of-interest/
+[Intellectual Property Policy]: https://www.commonhaus.org/policies/ip-policy/
 [Terms and Conditions]: https://www.commonhaus.org/policies/fiscal-sponsorship/terms-and-conditions.html
 [fs-landing]: https://www.commonhaus.org/policies/fiscal-sponsorship/
