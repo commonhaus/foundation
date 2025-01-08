@@ -29,6 +29,8 @@ officers:
     login: aalmiray
   - role: Community Manager
     login: sigrunixia
+  - role: Advisory Board Committee Chair
+    login: ashni-mehta
 
 #--------------------------------------------------------------------------
 # EGC Project Representatives (appointed by project governance process)
@@ -97,8 +99,6 @@ egc-second:
 #   bio: Optional. Short description/bio to use instead of GH profile description
 #
 advisory-board:
-  - organization: MongoDB
-    login: ashni-mehta
   - organization: MongoDB
     login: techbelle
   - organization: ...
