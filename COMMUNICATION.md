@@ -10,6 +10,8 @@ We rely on the contribution and participation of our members. Whether you're her
 
 - **Follow** [@commonhaus_fdn on Mastodon](https://fosstodon.org/@commonhaus_fdn), [@commonhaus-fdn on Blue Sky](https://bsky.app/profile/commonhaus.org), or [@commonhaus_fdn on X](https://twitter.com/commonhaus_fdn) for updates and announcements. We're also on [Linked.in](https://www.linkedin.com/company/commonhaus-foundation/).
 
+- **Join us on [Discord](https://www.commonhaus.org/community/discord.html)**
+
 ## Support our efforts
 
 Every contribution powers the sustainable growth of our open source projects. Even a small contribution can have a significant impact.
@@ -19,7 +21,7 @@ Every contribution powers the sustainable growth of our open source projects. Ev
 - [**GitHub Sponsors**](https://github.com/sponsors/commonhaus): Your sponsorship on GitHub directly supports our initiatives, making a tangible impact on our work.
 - [**OpenCollective**](https://opencollective.com/commonhaus-foundation): We use OpenCollective to provide transparency in how funds are utilized. It provides another way to support the foundation and its objectives.
 
-Every contribution, regardless of size, is deeply appreciated. To express our gratitude, sponsors are granted access to our exclusive Discord server—a community space for engaging with fellow supporters and our team.
+Every contribution, regardless of size, is deeply appreciated.
 
 ## Become a Member
 
