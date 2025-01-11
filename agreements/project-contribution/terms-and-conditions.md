@@ -285,7 +285,7 @@ The Sponsor may amend these Terms and Conditions from time to time with advance 
 
 Any amendments will be documented in writing and attached to the [Fiscal Sponsorship Agreement][fs-landing].
 
-[fs-landing]: https://www.commonhaus.org/policies/project-hosting/
+[fs-landing]: https://www.commonhaus.org/policies/fiscal-sponsorship/
 [Sponsored project guidelines]: https://github.com/commonhaus/foundation/tree/main/templates/README.md
 [IP Policy]: https://www.commonhaus.org/policies/ip-policy/
 [Trademark Policy]: https://www.commonhaus.org/policies/trademark-policy/

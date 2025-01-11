@@ -240,4 +240,4 @@ the _______ day of [month], [year].
 `Date:  ⎣_____________________________________________⎦`  
 
 [fs-landing]: https://www.commonhaus.org/policies/fiscal-sponsorship/
-[Terms and Conditions]: https://www.commonhaus.org/policies/project-hosting/terms-and-conditions.html
+[Terms and Conditions]: https://www.commonhaus.org/policies/fiscal-sponsorship/terms-and-conditions.html

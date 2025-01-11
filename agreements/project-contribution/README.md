@@ -18,6 +18,6 @@ These documents are regularly reviewed and updated to reflect best practices and
 
 [fs-docx]: https://docs.google.com/document/d/1HwfUV0dLacVxkqcIxphIHK-wt6i0K1Pn/edit?usp=sharing&ouid=118260000630928579528&rtpof=true&sd=true
 [fs-pdf]: https://drive.google.com/file/d/18LCyzXYgP7FNcrbxgr61mn4j69q5yNKH/view?usp=drive_link
-[fs-terms]: https://www.commonhaus.org/policies/project-hosting/terms-and-conditions.html
+[fs-terms]: https://www.commonhaus.org/policies/fiscal-sponsorship/terms-and-conditions.html
 [asset-transfer-docx]: https://docs.google.com/document/d/1PtDgfXKUJ3DotLRkCB8Zv6CrSL6WKV4F/edit?usp=sharing&ouid=118260000630928579528&rtpof=true&sd=true
 [asset-transfer-pdf]: https://drive.google.com/file/d/1aGyOAZpLKupYqGGswgA2sr3QEktK_i7D/view?usp=drive_link
