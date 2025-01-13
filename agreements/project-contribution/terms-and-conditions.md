@@ -198,7 +198,7 @@ Projects must submit expense reports (with receipts and documentation) through t
 
 All expenses must be approved by the Sponsor to ensure they are valid and in alignment with the Sponsor's tax-exempt purposes under the terms of this agreement before disbursement.
 
-Upon approval by the Sponsor, the Sponsor will reimburse those expenses (from the Project's restricted fund) through the Platform using a mutually agreed payment option.
+Upon approval by the Sponsor, the Sponsor will reimburse those expenses (from the Project's restricted fund) minus Administrative Fees, through the Platform using a mutually agreed payment option.
 
 The Project must work with the Sponsor to ensure financial records are accurate, including management/reconciliation of funds received or expenses paid using mechanisms other than the Platform.
 
