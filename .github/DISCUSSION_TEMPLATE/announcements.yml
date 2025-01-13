@@ -13,10 +13,16 @@ body:
       placeholder: "The next CFC Meeting will be on on Wed, 22 December 2030.\n\nAgenda: ..."
     validations:
       required: true
-  - type: input
-    id: description
+  - type: markdown
     attributes:
-      label: SEO description (200 chars or less)
+      value: |
+        > [!NOTE]
+        > SEO description helps with search engine discovery. It should be 200 characters or less,
+        > and be descriptive in nature (don't use Learn, or Explore, or.. ). AI can be good for this,
+        > but it needs to be coached to avoid "Learn...", "Explore..." sentence construction.
+  - type: textarea
+    attributes:
+      label: "<!-- SEO Text as HTML comment (hidden) -->"
       description: Replace "..." with description/summary in 200 chars or less
       value: |
         <!-- meta::description ... -->
