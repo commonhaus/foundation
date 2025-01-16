@@ -54,6 +54,8 @@ This repository has a script that does a basic check if a GitHub repository/orga
 
 You run it like this: `jbang policypanda@commonhaus/foundation hibernate` where `hibernate` is the GitHub organization name.
 
+NOTE: The script requires GitHub credentials in the form of either environment variables (see [help here](https://github-api.kohsuke.org/#Environmental_variables), or [alternate link](https://web.archive.org/web/20250108173712/https://github-api.kohsuke.org/#Environmental_variables)) or a `~/.github` properties file (see [help here](https://github-api.kohsuke.org/#Property_file), or [alternate link](https://web.archive.org/web/20250108173712/https://github-api.kohsuke.org/#Property_file)).
+
 If you want it to only check specific repositories, you can use the `-r` to specify a regular expression.
 
 Example:
