@@ -194,13 +194,11 @@ The Sponsor may switch to another platform with similar capabilities if necessar
 
 #### Expenses and Disbursements
 
-Projects must submit expense reports (with receipts and documentation) through the Platform.
+Projects must submit expense reports with receipts and documentation through the Platform. For hosted collectives, Project Leaders may approve expenses but must not approve their own expenses.
 
-All expenses must be approved by the Sponsor to ensure they are valid and in alignment with the Sponsor's tax-exempt purposes under the terms of this agreement before disbursement.
+The Sponsor will review all documentation to ensure expenses are valid and align with the Sponsor's tax-exempt purposes. Upon approval, the Sponsor will reimburse expenses from the Project's restricted fund through the Platform, minus Administrative Fees.
 
-Upon approval by the Sponsor, the Sponsor will reimburse those expenses (from the Project's restricted fund) minus Administrative Fees, through the Platform using a mutually agreed payment option.
-
-The Project must work with the Sponsor to ensure financial records are accurate, including management/reconciliation of funds received or expenses paid using mechanisms other than the Platform.
+The Project must work with the Sponsor to maintain accurate financial records, including management and reconciliation of funds received or expenses paid through other mechanisms.
 
 ### Transparency and Reporting
 
