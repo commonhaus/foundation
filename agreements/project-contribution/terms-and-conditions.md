@@ -126,7 +126,8 @@ Further details and templates for these files can be found in [Sponsored project
 
 ### Communication
 
-Project leaders must be easily reached and respond to communication from the Sponsor regarding project activities and financial needs.
+Signatories must be easily reached and reasonably responsive to communication from the Sponsor regarding project activities and financial needs.
+Projects should maintain multiple contacts (such as secondary EGC representatives or operational leads) to ensure reliable communication.
 
 ### Compliance with Laws
 
