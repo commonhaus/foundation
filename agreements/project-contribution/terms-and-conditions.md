@@ -126,7 +126,7 @@ Further details and templates for these files can be found in [Sponsored project
 
 ### Communication
 
-Regular communication with the Sponsor regarding project activities and financial needs is required.
+Project leaders must be easily reached and respond to communication from the Sponsor regarding project activities and financial needs.
 
 ### Compliance with Laws
 
