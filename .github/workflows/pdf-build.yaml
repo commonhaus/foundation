@@ -31,7 +31,7 @@ jobs:
     steps:
       - if: github.event_name == 'push' && github.ref == 'refs/heads/main' && github.repository == 'commonhaus/foundation'
         id: is-main-root
-        run: echo "test=true" >> "$GITHUB_OUTPUT
+        run: echo "test=true" >> "$GITHUB_OUTPUT"
 
   package:
     name: Package PDFs
