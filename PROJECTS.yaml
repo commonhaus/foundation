@@ -11,7 +11,7 @@
 # mail-aliases: (block is optional, use if your project provides custom email aliases)
 #   domain: custom email alias domain
 #   team: 'organization/team'  GH team defining eligible logins (alias will be login@domain)
-# draft: (optional) true while unpublished or early stage
+# status: draft | on-boarding | active (if missing, value is on-boarding)
 
 debezium:
   name: Debezium
