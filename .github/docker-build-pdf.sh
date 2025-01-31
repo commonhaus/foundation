@@ -194,6 +194,7 @@ function to_agreement_doc() {
         echo "No agreement found at ./agreements/${input}.md"
         exit 1
     fi
+    local workingdir=$(basename "./agreements/${input}.md")
     local output=${2}
     if [[ -z "${output}" ]]; then
         output=$(basename ${input})
@@ -202,14 +203,21 @@ function to_agreement_doc() {
         -o "./output/public/${output}.docx" \
         -d "./.pandoc/agreements.yaml" \
         "./agreements/${input}.md"
+
+    # to_pdf pdf-basename   working-dir whatever else
+    to_pdf \
+        "${output}" \
+        "${workingdir}" \
+        "./agreements/${input}.md"
 }
 
 if [[ -z "${SKIP_AGREEMENTS}" ]]; then
+    # to_agreement_doc false bootstrapping/bootstrapping bootstrapping-agreement
     # function  is_draft   markdown source (no extension)
-    to_agreement_doc false bootstrapping/bootstrapping bootstrapping-agreement
     to_agreement_doc true  project-contribution/asset-transfer-agreement
     to_agreement_doc true  project-contribution/fiscal-sponsorship-agreement
     to_agreement_doc true  project-contribution/terms-and-conditions
+
 fi
 
 ls -al output/public
