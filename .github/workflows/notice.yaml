@@ -2,12 +2,14 @@ name: Push activity to commonhaus.github.io
 
 on:
   discussion:
+
   pull_request_target:
     types: [opened, edited, reopened, closed]
     paths-ignore:
       - '.*'
       - 'elections'
       - 'templates'
+
   push:
     branches:
       - main
@@ -15,6 +17,7 @@ on:
       - '.*'
       - 'elections'
       - 'templates'
+
   workflow_dispatch:
 
 permissions: {}

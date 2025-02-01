@@ -1,8 +1,13 @@
 name: Push Voting activity to commonhaus.github.io
 
 on:
+  discussion:
   discussion_comment:
+
+  pull_request:
   issue_comment:
+
+  workflow_dispatch:
 
 permissions: {}
 
