@@ -3,12 +3,6 @@ name: Push Voting activity to commonhaus.github.io
 on:
   discussion_comment:
   issue_comment:
-  workflow_dispatch:
-    inputs:
-      comment_id:
-        description: "Comment id"
-        type: string
-        required: true
 
 permissions: {}
 
@@ -22,15 +16,6 @@ jobs:
     - name: Bump voting results
       env:
         GH_TOKEN: ${{ secrets.CF_INTERNAL_VOTES }}
-        COMMENT_ID: ${{ github.event.comment.node_id }}
-        INPUT: ${{ github.event.inputs.comment_id }}
-        SENDER: ${{ github.event.sender.login }}
       run: |
-        if [[ -z "$COMMENT_ID" ]]; then
-          COMMENT_ID=$INPUT
-        fi
-
-        if [[ -n "$COMMENT_ID" ]]; then
-          echo "{\"comment_id\": \"${COMMENT_ID}\"}" | gh workflow run -R commonhaus/commonhaus.github.io push-votes.yml --json
-          echo "{\"comment_id\": \"${COMMENT_ID}\"}" | gh workflow run -R commonhaus/foundation-internal push-votes.yml --json
-        fi
+        gh workflow run -R commonhaus/commonhaus.github.io update-votes.yml
+        gh workflow run -R commonhaus/foundation-internal update-votes.yml

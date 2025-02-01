@@ -30,5 +30,5 @@ jobs:
       env:
         GH_TOKEN: ${{ secrets.ACTIONS_PUBLISH_PAT }}
       run: |
-        gh workflow run -R commonhaus/commonhaus.github.io push-content.yml
+        gh workflow run -R commonhaus/commonhaus.github.io update-content.yml
 
