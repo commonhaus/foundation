@@ -22,5 +22,5 @@ jobs:
       env:
         GH_TOKEN: ${{ secrets.CF_INTERNAL_VOTES }}
       run: |
-        gh workflow run -R commonhaus/commonhaus.github.io update-votes.yml
+        gh workflow run -R commonhaus/commonhaus.github.io update-content.yml
         gh workflow run -R commonhaus/foundation-internal update-votes.yml
