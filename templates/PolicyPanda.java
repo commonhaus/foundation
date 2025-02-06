@@ -148,7 +148,7 @@ public class PolicyPanda implements Runnable {
                     }
                 });
 
-                checkFile(repo, globalRepo, "Code of conduct", "Code of conduct file", "CODE_OF_CONDUCT", Kind.SHOULD);
+                checkFile(repo, globalRepo, "Code of conduct", "Code of conduct file", "CODE_OF_CONDUCT", Kind.MUST);
 
                 System.out.println("## " + repo.getFullName());
                 checks.get(repo.getFullName()).stream().forEach(check -> {
