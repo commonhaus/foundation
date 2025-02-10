@@ -27,6 +27,7 @@ The Commonhaus Foundation uses the following unregistered trademarks:
 - JBang &trade; [^1]
 - JReleaser &trade; [^1]
 - Jackson &trade; [^1]
+- Kroxylicious &trade; [^1]
 - Morphia &trade; [^1]
 - Objenesis &trade; [^1]
 - Quarkus &trade; [^1]
@@ -59,6 +60,8 @@ The Commonhaus Foundation uses the following unregistered trademarks:
     <img src="https://www.jbang.dev/assets/images/logo.png" alt="" height="30" />
 - JReleaser Logo &trade; [^1]  
     <img src="https://jreleaser.org/images/jreleaser-duke.png" alt="" height="30" />[^2]
+- Kroxylicious Logo &trade; [^1]  
+    <img src="https://kroxylicious.io/assets/theme/images/kroxylicious_logo_rgb_hori_default.svg" alt="" height="30" />
 - Morphia Logo &trade; [^1]  
     <img src="https://github.com/MorphiaOrg/morphia-docs/blob/master/supplemental-ui/img/logo.png?raw=true" alt="" height="30" />
 - Objenesis Logo &trade; [^1]  

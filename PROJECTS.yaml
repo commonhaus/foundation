@@ -104,6 +104,18 @@ jreleaser:
       to multiple platforms, integrating with Maven, Gradle, and more. Simplify your release process,
       from changelogs to deployment.
 
+kroxylicious:
+  name: Kroxylicious
+  repo: https://github.com/kroxylicious/kroxylicious
+  display:
+    home: https://kroxylicious.io/
+    logo: https://kroxylicious.io/assets/theme/images/kroxylicious_logo_rgb_hori_default.svg
+    logo-dark: https://kroxylicious.io/assets/theme/images/kroxylicious_logo_rgb_hori_reverse_bright.svg
+    description: >
+      Kroxylicious, the snappy open source proxy for Apache Kafka®.
+      Kroxylicious is an Apache Kafka® protocol-aware proxy. It can be used to layer uniform behaviours onto a Kafka based system in areas such as data-governance, security,
+      policy enforcement and audit without needing to change either the applications or the Kafka Cluster.
+
 morphia:
   name: Morphia
   repo: https://github.com/MorphiaOrg/
