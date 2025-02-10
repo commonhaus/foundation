@@ -137,7 +137,7 @@ public class PolicyPanda implements Runnable {
                     }
                 }
 
-                checkFile(repo, globalRepo, "Contributing guide", "Contributing guide present", "CONTRIBUTING", Kind.SHOULD, (content, contentString) -> {
+                checkFile(repo, globalRepo, "Contributing guide", "Contributing guide present", "CONTRIBUTING", Kind.MUST, (content, contentString) -> {
                     switch(agreementType) {
                         case DCO -> {
                             addCheck(repo, new check("DCO", "Contributing guide should mention DCO", repo, Kind.SHOULD, contentString.matches("(?s).*\\(DCO\\).*"), content));
