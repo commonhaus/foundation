@@ -13,7 +13,6 @@ These Terms are to be read in conjunction with the [Fiscal Sponsorship Agreement
 - [Compliance and Governance](#compliance-and-governance)
     - [Adherence to Policies](#adherence-to-policies)
     - [Required Project Files](#required-project-files)
-    - [Communication](#communication)
     - [Compliance with Laws](#compliance-with-laws)
     - [Sponsor Oversight and Reviews](#sponsor-oversight-and-reviews)
     - [Donated Resources](#donated-resources)
@@ -27,6 +26,7 @@ These Terms are to be read in conjunction with the [Fiscal Sponsorship Agreement
     - [Transparency and Reporting](#transparency-and-reporting)
     - [Independent Financial Management](#independent-financial-management)
 - [Continuity and Leadership Responsibilities](#continuity-and-leadership-responsibilities)
+    - [Communication](#communication)
     - [Succession Planning and Leadership Transition](#succession-planning-and-leadership-transition)
     - [Administrative Access and Operational Continuity](#administrative-access-and-operational-continuity)
         - [Scope of Access and Intervention](#scope-of-access-and-intervention)
@@ -80,7 +80,12 @@ This period involves:
     - Clear definition of the project’s scope, goals, and deliverables.
     - Definition of project governance and leadership structures.
 
+- **Project Contacts:**
+    - Collect and verify contact details for signatories, project leaders, and operational contacts. Projects should designate at least one secondary contact to support continuity, but this may not always be possible at the time of initial signing.
+    - Contact details will be maintained securely and referenced for governance, operational, and emergency needs.
+
 The initial inventory of assets provided to the Sponsor is intended to provide a comprehensive list of resources necessary for the Project’s operations.
+
 This inventory is subject to periodic review and amendment as new assets are acquired or developed by the Project.
 Either the Sponsor or the Project may initiate updates to this inventory as needed, with all amendments documented in writing and appended to the original agreement.
 
@@ -123,11 +128,6 @@ A document describing criteria for contributions as required by the [IP Policy][
 A document describing project decision-making processes and contact information.
 
 Further details and templates for these files can be found in [Sponsored project guidelines][].
-
-### Communication
-
-Signatories must be easily reached and reasonably responsive to communication from the Sponsor regarding project activities and financial needs.
-Projects should maintain multiple contacts (such as secondary EGC representatives or operational leads) to ensure reliable communication.
 
 ### Compliance with Laws
 
@@ -223,6 +223,23 @@ While alignment with the Sponsor’s policies is encouraged where possible, thes
 
 Project leadership and operations naturally evolve due to changes in roles and responsibilities, or to unforeseen circumstances.
 
+Projects should designate at least one secondary contact to support continuity, but this may not always be possible at the time of initial signing.
+
+Where a project has a single contact, the Signatory and the Sponsor should work towards identifying additional contacts over time to support continuity.
+
+### Communication
+
+Signatories must be reachable and reasonably responsive to communication from the Sponsor regarding project activities, financial matters, and governance needs.
+
+**Annual Contact Review:**
+Projects must confirm or update their designated contacts annually through a verification process initiated by the Sponsor.
+
+- Where possible, this review will coincide with the review of [annual financial reports](#transparency-and-reporting).
+- If a project does not complete the verification within 30 days, the Sponsor will attempt to re-establish contact.
+- If project representatives remain unresponsive, the Sponsor may take further action under the [Succession Planning and Leadership Transition](#succession-planning-and-leadership-transition) process.
+
+Failure to maintain accurate and up-to-date contact information may impact the Sponsor’s ability to manage domain registrations, trademarks, and other assets on behalf of the Project. Persistent non-responsiveness may be treated as a material breach of this agreement.
+
 ### Succession Planning and Leadership Transition
 
 In this section, **“Successor”** refers to a qualified individual who assumes the role of Project Leader or Maintainer.
@@ -263,11 +280,11 @@ Specifically, the Sponsor must have the ability (directly or indirectly) to:
 **Path of Least Disturbance:**
 In any action the Sponsor takes, the priority will be to follow a “path of least disturbance” approach, minimizing disruption to users, downstream applications, and the broader ecosystem.
 
-**Limited Interference:**
-While the Sponsor retains the right to intervene, every effort will be made to contact Signatories and designated maintainers or operational contacts to resolve concerns collaboratively before taking action.
+**Limited Interference and Transparent Communication**
+While the Sponsor retains the right to intervene, every effort will be made to contact Signatories and designated contacts[^contacts] before taking action.
+If administrative privileges are exercised, the Sponsor will document the actions taken and inform relevant stakeholders, including Signatories and relevant contacts[^contacts].
 
-**Transparent Communication:**
-Any exercise of administrative privileges by the Sponsor will be documented and communicated to relevant stakeholders, including Signatories, project maintainers, and external infrastructure providers, as appropriate.
+[^contacts]: Designated contacts are part of the [asset inventory](#discovery-period) and should be [reviewed annually for accuracy](#communication).
 
 ## Conflict Resolution
 

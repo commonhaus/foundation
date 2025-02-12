@@ -89,6 +89,8 @@ egc:
 egc-second:
   - project: jackson
     login: JooHyukKim
+  - project: infinispan
+    login: karesti
   - project: kroxylicious
     login: SamBarker
 
