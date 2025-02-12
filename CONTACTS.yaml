@@ -87,6 +87,8 @@ egc:
 egc-second:
   - project: jackson
     login: JooHyukKim
+  - project: infinispan
+    login: karesti
 
 #--------------------------------------------------------------------------
 # Advisory Board members (sponsor-appointed)
