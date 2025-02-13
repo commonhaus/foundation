@@ -42,7 +42,7 @@ Sponsor’s governing body (the "Council") has determined that acting as the Pro
 
 The Council has approved the creation of a restricted fund to support the Project’s purposes, as detailed in the [Restricted Fund](#restricted-fund-and-variance-power) section.
 
-The Sponsor is a Florida nonprofit corporation exempt from federal income tax under Section 501(c)(6) of the Internal Revenue Code ("IRC").
+The Sponsor is a Florida non-stock, nonprofit membership corporation operating as a tax-exempt entity under Section 501(c)(6) of the U.S. Internal Revenue Code.
 
 The individuals listed as Signatories desire to manage the Project on behalf of the Sponsor, subject to the Sponsor’s [discretion and control](#collaborative-management).
 Future project leaders, upon assuming leadership roles, shall be required to acknowledge and agree to the terms of this agreement as a condition of their role.
