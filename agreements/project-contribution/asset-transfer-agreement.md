@@ -198,7 +198,7 @@ For repositories listed above:
 
 #### Unregistered Trademarks
 
-(List; should be the same as what is in the Trademark List)
+(List; should be the same as what is in the [Trademark List][])
 
 - __
 
@@ -241,3 +241,4 @@ the _______ day of [month], [year].
 
 [fs-landing]: https://www.commonhaus.org/policies/fiscal-sponsorship/
 [Terms and Conditions]: https://www.commonhaus.org/policies/fiscal-sponsorship/terms-and-conditions.html
+[Trademark List]: https://www.commonhaus.org/trademarks/
