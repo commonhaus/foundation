@@ -1,6 +1,7 @@
 from: gfm+emoji+alerts
 reader: gfm+emoji+alerts
 number-sections: true
+shift-heading-level-by: -1
 file-scope: true
 filters:
 - .pandoc/filters/fix-links.lua
@@ -8,6 +9,6 @@ filters:
 metadata-file: CONTACTS.yaml
 reference-doc: .pandoc/content/cf-agreement-template.docx
 template: .pandoc/content/docx-template.txt
-shift-heading-level-by: -1
+toc: false
 variables:
   website: https://www.commonhaus.org/

@@ -83,7 +83,7 @@ local function Header(header)
     return pandoc.Header(1, content)
   elseif header.level == 2 then
     local content = pandoc.utils.stringify(header.content)
-    if string.match(content, 'Exhibits') or string.match(content, 'Schedules') then
+    if string.match(content, 'Exhibits') or string.match(content, 'Schedules') or string.match(content, 'Recognition') then
       print("CFLUA: Found L2 header " .. content)
       return { pandoc.RawBlock('openxml', pagebreak), header }
     end

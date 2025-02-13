@@ -910,8 +910,14 @@ $endif$
 %%
 %% end added
 %%
+$if(noHeaderBreak)$
+$else$
 \AddToHook{cmd/section/before}{\clearpage}
+$endif$
+
 \begin{document}
+\vspace{1cm}
+\noindent {\huge \textbf{\textsf{\color{heading-color}{$title$}}}}
 
 %%
 %% begin titlepage
