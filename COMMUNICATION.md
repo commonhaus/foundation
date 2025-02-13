@@ -16,7 +16,9 @@ We rely on the contribution and participation of our members. Whether you're her
 
 Every contribution powers the sustainable growth of our open source projects. Even a small contribution can have a significant impact.
 
-<a href="https://github.com/sponsors/commonhaus" class="text button">Become a Sponsor</a>
+<a href="https://github.com/sponsors/commonhaus" class="text button">Become a GitHub Sponsor</a>
+or
+<a href="https://opencollective.com/commonhaus-foundation/donate" class="text button">Donate to our Collective</a>
 
 - [**GitHub Sponsors**](https://github.com/sponsors/commonhaus): Your sponsorship on GitHub directly supports our initiatives, making a tangible impact on our work.
 - [**OpenCollective**](https://opencollective.com/commonhaus-foundation): We use OpenCollective to provide transparency in how funds are utilized. It provides another way to support the foundation and its objectives.
