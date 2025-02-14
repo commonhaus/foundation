@@ -214,10 +214,10 @@ function to_agreement_doc() {
 if [[ -z "${SKIP_AGREEMENTS}" ]]; then
     # to_agreement_doc false bootstrapping/bootstrapping bootstrapping-agreement
     # function  is_draft   markdown source (no extension)
-    to_agreement_doc false  project-contribution/asset-transfer-agreement
-    to_agreement_doc false  project-contribution/fiscal-sponsorship-agreement
-    to_agreement_doc false  project-contribution/terms-and-conditions
-    to_agreement_doc false  sponsorship
+    to_agreement_doc false project-contribution/asset-transfer-agreement
+    to_agreement_doc false project-contribution/fiscal-sponsorship-agreement
+    to_agreement_doc false sponsorship/sponsorship-invoice
+    to_agreement_doc false sponsorship/sponsorship-opencollective
 fi
 
 ls -al output/public
