@@ -14,8 +14,8 @@ tiers:
     layout: 2
     chars: 240
     description: >
-      Thank you to our In-kind Sponsors, who provide essential services, software,
-      and other resources to the Commonhaus Foundation and our projects.
+      Thank you to our Infrastructure & Service Providers, who provide essential
+      services, software, and other resources to the Commonhaus Foundation and our projects.
   gold:
     name: Gold
     layout: 1
