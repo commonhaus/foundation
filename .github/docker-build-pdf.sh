@@ -216,8 +216,7 @@ if [[ -z "${SKIP_AGREEMENTS}" ]]; then
     # function  is_draft   markdown source (no extension)
     to_agreement_doc false project-contribution/asset-transfer-agreement
     to_agreement_doc false project-contribution/fiscal-sponsorship-agreement
-    to_agreement_doc false sponsorship/sponsorship-invoice
-    to_agreement_doc false sponsorship/sponsorship-opencollective
+    to_agreement_doc false sponsorship/sponsorship-agreement
 fi
 
 ls -al output/public
