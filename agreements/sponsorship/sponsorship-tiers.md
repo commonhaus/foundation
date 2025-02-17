@@ -1,29 +1,35 @@
 # Sponsorship Tiers and Benefits
 
-Each annual sponsorship payment provides a one (1) year term of benefits:
+Each annual sponsorship provides these benefits:
 
 **All tiers**:
 
-- Two (2) seats on the Advisory Board[^1]
 - Logo recognition on our website and promotional materials
-- Support growth of Commonhaus Foundation and its development of programs and services that benefit its projects and its members.
+- Public acknowledgment through our social media channels
+- Support growth of Commonhaus Foundation and its development of programs and services that benefit its projects and members
 
 **Gold** ($25k USD)
 
-- Premium logo placement: Top section (random order, full row)
-    *Display dimensions: 150px height*
-- Extended company description *(up to 480 chars)*
+- Two (2) seats on the Advisory Board[^1]
+- Presence in the first section of the sponsors page on our website and in the Annual Report
+    - Full row width, placed randomly on the website and alphabetically in the report
+    - Logo dimensions: 150px height
+    - Extended description of company, product, or service (up to 480 characters excluding whitespace and markup)
+- Joint press release announcing sponsorship
 
 **Silver** ($15k USD)
 
-- Prominent logo placement: Middle section, alphabetical order (two per row)  
-    *Display dimensions: 150px height, max-width: 300px*
-- Brief company description *(up to 240 chars)*
+- Two (2) seats on the Advisory Board[^1]
+- Presence in the middle section of the sponsors page on our website and in the Annual Report
+    - Half row width, placed alphabetically
+    - Logo dimensions: 150px height, max-width: 300px
+    - Short description of company, product, or service (up to 120 characters excluding whitespace and markup)
 
 **Bronze** ($5k USD)
 
-- Standard logo placement: Lower section, alphabetical order (three per row)  
-    *Display dimensions: 100px height, max-width: 200px*
+- Presence on our website and in the Annual Report
+    - Logos are organized three per row and arranged alphabetically
+    - Logo dimensions: 100px height, max-width: 200px
 
 **Custom Sponsorship**
 

@@ -26,7 +26,7 @@ tiers:
   silver:
     name: Silver
     layout: 2
-    chars: 240
+    chars: 120
     description: >
       Thank you to our Silver Sponsors for their generous financial contributions in
       support of the Commonhaus Foundation and our projects.
@@ -133,9 +133,7 @@ sponsors:
       logo: https://jreleaser.org/images/jreleaser-duke.png
       description: >
         Description TBD. Lorem ipsum odor amet, consectetuer adipiscing elit.
-        Placerat accumsan nostra sociosqu morbi sodales blandit.
-        Augue libero rutrum commodo dictum nascetur quis rhoncus.
-        Vel blandit eros interdum; eu porta pretium.
+        Placerat accumsan nostra sociosqu
     draft: true
 
   Company4:
@@ -147,9 +145,7 @@ sponsors:
       logo: https://github.com/MorphiaOrg/morphia-docs/blob/master/supplemental-ui/img/logo.png?raw=true
       description: >
         Description TBD. Lorem ipsum odor amet, consectetuer adipiscing elit.
-        Placerat accumsan nostra sociosqu morbi sodales blandit.
-        Augue libero rutrum commodo dictum nascetur quis rhoncus.
-        Vel blandit eros interdum; eu porta pretium.
+        Placerat accumsan nostra sociosqu
     draft: true
 
   Company5:
@@ -163,8 +159,6 @@ sponsors:
       description: >
         Description TBD. Lorem ipsum odor amet, consectetuer adipiscing elit.
         Placerat accumsan nostra sociosqu morbi sodales blandit.
-        Augue libero rutrum commodo dictum nascetur quis rhoncus.
-        Vel blandit eros interdum; eu porta pretium.
     draft: true
 
   Company6:
@@ -178,7 +172,6 @@ sponsors:
         Description TBD. Lorem ipsum odor amet, consectetuer adipiscing elit.
         Placerat accumsan nostra sociosqu morbi sodales blandit.
         Augue libero rutrum commodo dictum nascetur quis rhoncus.
-        Vel blandit eros interdum; eu porta pretium.
     draft: true
 
   Company7:
