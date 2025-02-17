@@ -49,6 +49,7 @@ hibernate:
   status: on-boarding
   mail-aliases:
     domain: hibernate.org
+    team: hibernate/email-alias
   display:
     home: https://hibernate.org/
     logo: https://github.com/hibernate/hibernate.org/blob/production/images/hibernate-logo.svg?raw=true
