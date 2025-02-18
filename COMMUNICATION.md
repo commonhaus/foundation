@@ -6,58 +6,75 @@ We rely on the contribution and participation of our members. Whether you're her
 
 - [**GitHub Discussions**](https://github.com/commonhaus/foundation/discussions): Share ideas, ask questions, and help shape the evolution of our collective effort.
 
-- **Subscribe** to our [mailing list](https://groups.google.com/a/commonhaus.org/g/announce) or use the [RSS Feed](https://www.commonhaus.org/feed/index.rss) to have foundation notices and updates delivered straight to your inbox or reader.
+- **Subscribe** to our [mailing list](https://groups.google.com/a/commonhaus.org/g/announce) or use the [RSS Feed](https://www.commonhaus.org/feed/index.rss) to have foundation notices and updates delivered to your inbox or reader.
 
-- **Follow** [@commonhaus_fdn on Mastodon](https://fosstodon.org/@commonhaus_fdn), [@commonhaus-fdn on Blue Sky](https://bsky.app/profile/commonhaus.org), or [@commonhaus_fdn on X](https://twitter.com/commonhaus_fdn) for updates and announcements. We're also on [Linked.in](https://www.linkedin.com/company/commonhaus-foundation/).
+- **Follow** [@commonhaus_fdn on Mastodon](https://fosstodon.org/@commonhaus_fdn), [@commonhaus-fdn on Blue Sky](https://bsky.app/profile/commonhaus.org), or [@commonhaus_fdn on X](https://twitter.com/commonhaus_fdn) for updates and announcements. We're also on [LinkedIn](https://www.linkedin.com/company/commonhaus-foundation/).
 
 - **Join us on [Discord](https://www.commonhaus.org/community/discord.html)**
 
 ## Support our efforts
 
-Every contribution powers the sustainable growth of our open source projects. Even a small contribution can have a significant impact.
+We rely on contributions from individuals and organizations to sustain our open source work.
+Every contribution strengthens the foundation, enabling us to support more projects, expand programs, and grow our community.
+Even a small contribution can have a significant impact.
 
 <a href="https://github.com/sponsors/commonhaus" class="text button">Become a GitHub Sponsor</a>
 or
 <a href="https://opencollective.com/commonhaus-foundation/donate" class="text button">Donate to our Collective</a>
 
-- [**GitHub Sponsors**](https://github.com/sponsors/commonhaus): Your sponsorship on GitHub directly supports our initiatives, making a tangible impact on our work.
-- [**OpenCollective**](https://opencollective.com/commonhaus-foundation): We use OpenCollective to provide transparency in how funds are utilized. It provides another way to support the foundation and its objectives.
+### For Individuals: Become a Member
 
-Every contribution, regardless of size, is deeply appreciated.
+[Membership](./bylaws/3-cf-membership.md) in the Commonhaus Foundation is more than financial support—it’s about joining a community dedicated to sustainable open source development.
 
-## Become a Member
+By becoming a member, you can:
 
-[Membership](./bylaws/3-cf-membership.md) in the Commonhaus Foundation opens the door to active participation in shaping our future.
+- Hold offices and vote in Foundation elections.
+- Influence strategic direction and governance.
+- Get a `@commonhaus.dev` email to show your support.
 
-By becoming a member, you're not just supporting us financially; you're joining a community of individuals dedicated to the sustainable development of open source projects. Members can hold CF offices, vote in Foundation elections, and influence our strategic direction. They also can show off their support with a `@commonhaus.dev` email address.
+**How to Join**: Membership is initiated through sponsorship (either [GitHub Sponsors](https://github.com/sponsors/commonhaus) or [Open Collective](https://opencollective.com/commonhaus-foundation)) and active participation in the community—whether through code contributions, documentation, advocacy, committee involvement, or engagement in discussions on GitHub and Discord.
 
-- **How to Join**: Membership is initiated through **sponsorship** (ether [GitHub Sponsors](https://github.com/sponsors/commonhaus) or [Open Collective](https://opencollective.com/commonhaus-foundation)) and participation.
+Your support, voice and vote as a member play a vital role in our collective success.
 
-Your support, voice and vote as a member play a vital role in our collective success. We welcome all who wish to contribute to our mission and share in our achievements.
+### For Companies & Organizations: Become a sponsor
+
+Organizations that believe in sustainable open-source software can support us through corporate sponsorship. Sponsorship provides:
+
+- 🏆 Recognition – Sponsors receive visibility in our community and recognition for their contributions.
+- 📢 Engagement – Opportunities to collaborate with developers and contributors.
+- 🎯 Strategic Influence – High-tier sponsors gain advisory board seats to help shape the foundation’s direction.
+
+[Become a Sponsor](./agreements/sponsorship/sponsorship-tiers.md) – Support our foundation, our projects, and the community behind them.
 
 ## Contribute a Project
 
-Are you looking for a long-term home for your open source project? We are here to support its growth and sustainability.
+Looking for a long-term home for your open-source project?
+Commonhaus may be the right place.
 
-If you maintain a project that could be a good fit for the Commonhaus Foundation, [create a discussion](https://github.com/commonhaus/foundation/discussions/categories/joining-commonhaus) and let us know more about it.
+The application process is still taking shape as we bootstrap the foundation, but applications are open.
+We are especially interested in active, mature open source projects at this time.
 
-We are currently finalizing our formal application and acceptance process, but we are excited to start the conversation. We are especially interested in active, mature open source projects.
+If you think your project could be a good fit, we encourage you to apply.
 
-**How to Contribute Your Project:**
+**How to Apply:**
 
-1. **Start a Discussion**: Begin by [starting a discussion on GitHub](https://github.com/commonhaus/foundation/discussions/categories/joining-commonhaus). This allows us to understand your project and how it aligns with our mission.
-2. **Fill Out the Template**: Our discussion template will guide you through providing the necessary details about your project.
+1. **Start a Discussion**: Create a [GitHub discussion](https://github.com/commonhaus/foundation/discussions/categories/joining-commonhaus) to share details about your project and how it aligns with the foundation’s mission.
+2. **Fill Out the Template**: Our discussion template will guide you through providing the necessary details.
 3. **Initial Review**: Once the discussion is started, our team will review your submission and reach out for further discussions if needed.
-4. **Acceptance and Onboarding**: After a successful review, we will discuss the onboarding process, including the steps to integrate your project into our community and the support we offer to ensure its success.
+4. **Acceptance and Onboarding**: After a successful review, we’ll discuss the onboarding process and the steps needed to integrate your project into our community.
 
-We look forward to learning more about your project and how we can work together to support your project over the long haul.
+Every project brings something unique to the Commonhaus ecosystem.
+We look forward to learning more about yours!
 
 ## Contact us
 
-We’d love to hear from you! Whether you have questions, suggestions, or just want to say hello, please contact us: [start a Discussion](https://github.com/commonhaus/foundation/discussions) or [use our online form](https://forms.gle/t2d4DR6CxXSag26s5). Your input is valuable to us, and we're here to listen and respond to your community-related inquiries.
+We’d love to hear from you!
+If you have questions, suggestions, or just want to say hello, please contact us: [start a Discussion](https://github.com/commonhaus/foundation/discussions) or [use our online form](https://forms.gle/t2d4DR6CxXSag26s5).
+Your input is valuable and we're here to listen and respond to your community-related inquiries.
 
 ## Let's build together
 
-Our community is our strength, and your participation enriches our collective endeavor. Whether it's through code, conversation, or cheerleading, your involvement makes a difference.
+Our community is our strength, and your participation enriches our collective endeavor.
+Whether it's through code, conversation, or cheerleading, your involvement makes a difference.
 
 Looking forward to seeing you in one (or more!) of our community spaces. 🥰 🚀
