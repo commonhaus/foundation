@@ -59,7 +59,7 @@ class Validator {
             try {
                 const self = this;
                 // console.log("    ==> URL", link);
-                linkCheck(link, linkCheckOptions, function (err: Partial<AnyError>, result: CheckResult) {
+                linkCheck(link, linkCheckOptions, (err: Partial<AnyError>, result: CheckResult) => {
                     if (err) {
                         console.error(`Error processing links in ${baseName}:`, err);
                         err.filePath = filePath
