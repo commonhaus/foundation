@@ -16,6 +16,7 @@
 debezium:
   name: Debezium
   repo: https://github.com/debezium/debezium
+  status: on-boarding
   display:
     home: https://debezium.io/
     logo: https://debezium.io/assets/images/color_black_debezium_type_600px.svg
