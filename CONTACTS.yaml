@@ -1,11 +1,13 @@
 #--------------------------------------------------------------------------
 # CF Council members (elected, staggered elections)
 # name, avatarUrl, company, bio will be pulled from GitHub profile
+# use "see: <group-name>" if attributes are defined in another group
 #
 # - login: github login
+#   role: Role in the council
 #   term-start: most recent year of election
 #   avatarAlt: Optional. Avatar to show in addition to github avatar
-#   bio: Short description/bio to use instead of GH profile description
+#   bio: Optional. Short description/bio to use instead of GH profile description
 #
 cf-council:
   - login: cealsair
@@ -20,9 +22,16 @@ cf-council:
     term-start: 2023
     role: Secretary
 
-##--------------------------------------------------------------------------
-## Additional foundation officers (appointed by council)
-## name, avatarUrl, company, bio will be pulled from GitHub profile, or "see" if member of another group
+#--------------------------------------------------------------------------
+# Additional foundation officers (appointed by council)
+# name, avatarUrl, company, bio will be pulled from GitHub profile
+# use "see: <group-name>" if attributes are defined in another group
+#
+# - login: github login
+#   role: Officer role
+#   avatarAlt: Optional. Avatar to show in addition to github avatar
+#   bio: Optional. Short description/bio to use instead of GH profile description
+#
 officers:
   - role: Social Media
     login: aalmiray
@@ -34,11 +43,12 @@ officers:
 #--------------------------------------------------------------------------
 # EGC Project Representatives (appointed by project governance process)
 # name, avatarUrl, company, bio will be pulled from GitHub profile
+# use "see: <group-name>" if attributes are defined in another group
 #
 # - project: Project name (match key in PROJECTS.yaml)
 #   login: project representatives's github id
 #   avatarAlt: Optional. Avatar to show in addition to github avatar
-#   bio: Short description/bio to use instead of GH profile description
+#   bio: Optional. Short description/bio to use instead of GH profile description
 #
 egc:
   - project: jbang
@@ -74,11 +84,12 @@ egc:
 #--------------------------------------------------------------------------
 # EGC Backup/Secondary representative (appointed by project governance process)
 # name, avatarUrl, company, bio will be pulled from GitHub profile
+# use "see: <group-name>" if attributes are defined in another group
 #
 # - project: Project name (match key in PROJECTS.yaml)
 #   login: project representatives's github id
 #   avatarAlt: Optional. Avatar to show in addition to github avatar
-#   bio: Short description/bio to use instead of GH profile description
+#   bio: Optional. Short description/bio to use instead of GH profile description
 #
 # Each project has one vote (per the bylaws).
 # The vote by the primary representative has precedence.
@@ -93,6 +104,7 @@ egc-second:
 #--------------------------------------------------------------------------
 # Advisory Board members (sponsor-appointed)
 # name, avatarUrl, company, bio will be pulled from GitHub profile
+# use "see: <group-name>" if attributes are defined in another group
 #
 # - organization: Name (should match name/key in SPONSORS.yaml)
 #   login: representative's github id
@@ -108,15 +120,12 @@ advisory-board:
 #--------------------------------------------------------------------------
 # Code of Conduct Panel members:
 # name, avatarUrl, company, bio will be pulled from GitHub profile
+# use "see: <group-name>" if attributes are defined in another group
 #
 # - login: github id
 #   term-start: most recent year of election
 #   avatarAlt: Optional. Avatar to show in addition to github avatar
-#   bio: Short description/bio to use instead of GH profile description
-#
-# - login: github id
-#   term-start: most recent year of election
-#   see: other group to reference
+#   bio: Optional. Short description/bio to use instead of GH profile description
 #
 coc-panel:
   - login: ebullient
