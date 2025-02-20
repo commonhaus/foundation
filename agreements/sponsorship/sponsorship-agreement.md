@@ -3,6 +3,8 @@
 Thank you for supporting the Commonhaus Foundation!
 Your contribution helps us maintain foundation operations and develop programs that support our projects and members.
 
+Please complete, sign, and return this form so we can properly recognize you.
+
 🙏 🫶 🚀
 
 ## Sponsorship Contribution
@@ -29,10 +31,10 @@ If canceled early, benefits continue until term end without refunds or adjustmen
 
 *Principal Office or Primary Address:*
 
-`____________________________________________________________`  
-`____________________________________________________________`  
-`____________________________________________________________`  
-`____________________________________________________________`  
+`⎣__`  
+`⎣__`  
+`⎣__`  
+`⎣__`  
 
 ## Payment Options
 
@@ -41,8 +43,8 @@ If canceled early, benefits continue until term end without refunds or adjustmen
 `Name:    ⎣_____________________________________________⎦`  
 `Email:   ⎣_____________________________________________⎦`  
 
-PO # (if required): `⎣________________________________________⎦`  
-VAT # (if applicable): `⎣______________________________________⎦`  
+`PO # (if required):    ⎣_______________________________⎦`  
+`VAT # (if applicable): ⎣_______________________________⎦`  
 
 ### Option 1: Direct via OpenCollective
 
@@ -54,7 +56,7 @@ Make your sponsorship payment directly through [OpenCollective][]:
 
 ### Option 2: Invoice-based Payment
 
-If you require an invoice before payment, please complete and sign this agreement.
+If you require an invoice before payment, please specify your payment amount.
 Standard payment term is 30 days unless otherwise arranged.
 
 **Sponsorship Amount:** `⎣____________________________________⎦`  
@@ -70,6 +72,7 @@ Gold and Silver tier sponsors can appoint two Advisory Board representatives[^1]
 
 [^1]: [Advisory Board](https://www.commonhaus.org/bylaws/cf-advisory-board.html) representatives meet semi-annually with the CF Council to provide industry perspective and help align Foundation initiatives with community needs.
 
+<!-- break -->
 ## Sponsor Recognition
 
 We're proud to recognize our sponsors!
@@ -79,8 +82,8 @@ We're proud to recognize our sponsors!
 
 **Logo Files** (URL or attached file name):  
 
-`light mode: ⎣________________________________________⎦`  
-`dark mode:  ⎣________________________________________⎦` (optional)  
+- light mode: `⎣__`  
+- dark mode (optional): `⎣__`  
 
 **Descriptions** (must comply with our [Code of Conduct][]):
 
@@ -88,14 +91,27 @@ We're proud to recognize our sponsors!
 - We reserve the right to decline content that doesn't align with our mission
 
 *Silver tier (120 chars):*  
-`⎣_____________________________________________________________⎦`  
-`⎣_____________________________________________________________⎦`  
+`⎣__`  
+`⎣__`  
 
 *Gold tier (480 chars):*  
-`⎣_____________________________________________________________⎦`  
-`⎣_____________________________________________________________⎦`  
-`⎣_____________________________________________________________⎦`  
-`⎣_____________________________________________________________⎦`  
+`⎣__`  
+`⎣__`  
+`⎣__`  
+`⎣__`  
+
+**Social Media**
+
+Help us properly tag your organization when sharing sponsorship news:
+
+- LinkedIn: `⎣__`
+- BlueSky: `⎣__`
+- `⎣__`
+
+*Optional: Specify any preferred hashtags or brand guidelines?*  
+`⎣__`  
+`⎣__`  
+`⎣__`  
 
 ## Agreement
 

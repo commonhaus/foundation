@@ -111,7 +111,7 @@ function to_pdf() {
 function run_pdf() {
     ${DOCKER} run ${ARGS} \
         "${PANDOCK}" \
-        -d ./.pandoc/bylaws.yaml \
+        -d ./.pandoc/pdf-common.yaml \
         -M date-meta:"$(date +%B\ %d,\ %Y)" \
         -V footer-left:"${FOOTER}" \
         -V github:"${URL}" \
@@ -141,6 +141,7 @@ if [[ -z "${SKIP_BYLAWS}" ]]; then
     to_pdf \
         "cf-bylaws" \
         "./bylaws/" \
+        -d ./.pandoc/bylaws.yaml \
         -M "title:Bylaws" \
         ./bylaws/1-preface.md \
         ./bylaws/2-purpose.md \
@@ -165,6 +166,7 @@ function to_policy_pdf() {
     to_pdf \
         "${1}" \
         "./policies/" \
+        -d ./.pandoc/bylaws.yaml \
         -M "title:${2} Policy" \
         "./policies/${1}.md"
 }
@@ -178,7 +180,9 @@ if [[ -z "${SKIP_POLICIES}" ]]; then
     to_policy_pdf trademark-policy            "Trademark"
 
     # to_pdf pdf-file-name  cwd   the rest...
-    to_pdf   trademark-list ./    -M "title:Trademark List" ./TRADEMARKS.md
+    to_pdf   trademark-list ./ \
+        -M "title:Trademark List" \
+        ./TRADEMARKS.md
 fi
 
 ## AGREEMENTS
@@ -189,34 +193,38 @@ function to_agreement_doc() {
         config="./.pandoc/draft-agreements.yaml"
     fi
     shift
+    local title=${1}
+    shift
+
     local input=${1}
     if [[ ! -f "./agreements/${input}.md" ]]; then
         echo "No agreement found at ./agreements/${input}.md"
         exit 1
     fi
     local workingdir=$(basename "./agreements/${input}.md")
-    local output=${2}
-    if [[ -z "${output}" ]]; then
-        output=$(basename ${input})
-    fi
+    local output=$(basename ${input})
+    shift
+
     run_docx \
         -o "./output/public/${output}.docx" \
-        -d "./.pandoc/agreements.yaml" \
+        -d "./.pandoc/agreements-docx.yaml" \
         "./agreements/${input}.md"
 
     # to_pdf pdf-basename   working-dir whatever else
     to_pdf \
         "${output}" \
         "${workingdir}" \
+        -d "./.pandoc/agreements-pdf.yaml" \
+        -M "title:${title}" \
+        "$@" \
         "./agreements/${input}.md"
 }
 
 if [[ -z "${SKIP_AGREEMENTS}" ]]; then
-    # to_agreement_doc false bootstrapping/bootstrapping bootstrapping-agreement
-    # function  is_draft   markdown source (no extension)
-    to_agreement_doc false project-contribution/asset-transfer-agreement
-    to_agreement_doc false project-contribution/fiscal-sponsorship-agreement
-    to_agreement_doc false sponsorship/sponsorship-agreement
+    # function  is_draft   PDF title                      markdown source (no extension)    verbatim arguments
+    to_agreement_doc false "Asset Transfer Agreement"     "project-contribution/asset-transfer-agreement"
+    to_agreement_doc false "Fiscal Sponsorship Agreement" "project-contribution/fiscal-sponsorship-agreement"
+    to_agreement_doc false "Sponsorship Agreement"        "sponsorship/sponsorship-agreement" -M noHeaderBreak:true
 fi
 
 ls -al output/public
