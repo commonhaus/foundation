@@ -1,14 +1,16 @@
 # Sponsoring the Commonhaus Foundation
 
-The Commonhaus Foundation focuses on individual contributors and the open source projects they maintain.
-Our corporate sponsors amplify our impact, enabling us to provide better support, resources, and programs for our projects and our members.
+The Commonhaus Foundation is dedicated to the long-term sustainability of open source projects through developer-led, grassroots collaboration.
+We focus on individual contributors and the open source projects they maintain, providing a stable environment where projects can thrive while preserving their autonomy and identity.
 
-Through our sponsorship program, organizations strengthen the foundation's ability to provide a stable, long-term home for open source projects.
+Our corporate sponsors amplify our impact, enabling us to provide better support, resources, and programs for our projects and our members.
 Beyond covering operational and legal costs, sponsorship allows us to develop shared resources and services that benefit all of our projects and members.
 
 🙏 🫶 🚀
 
 ## Sponsorship Tiers and Benefits
+
+Please review our [Corporate Sponsorship Agreement](https://docs.google.com/document/d/1VRRdZoYsQEBIcirYpGR72rYElu3KyINT/edit?usp=drive_link&ouid=118260000630928579528&rtpof=true&sd=true) for complete details on payment and terms.
 
 Each annual sponsorship provides these benefits:
 
@@ -47,7 +49,5 @@ Each annual sponsorship provides these benefits:
 
 - 💡 Amounts between tiers receive the benefits of the next lowest tier (e.g., $20k receives Silver tier benefits).
 - 📩 For tailored sponsorship opportunities, contact us directly at [sponsors@commonhaus.org](mailto:sponsors@commonhaus.org).
-
-See the [Corporate Sponsorship Agreement](https://docs.google.com/document/d/1VRRdZoYsQEBIcirYpGR72rYElu3KyINT/edit?usp=drive_link&ouid=118260000630928579528&rtpof=true&sd=true) for details on payment and terms.
 
 [^1]: [Advisory Board](../../bylaws/5-cf-advisory-board.md) representatives meet semi-annually with the CF Council to provide industry perspective and help align Foundation initiatives with community needs.
