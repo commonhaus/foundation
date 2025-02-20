@@ -100,6 +100,8 @@ egc-second:
     login: JooHyukKim
   - project: infinispan
     login: karesti
+  - project: jbang
+    login: quintesse
 
 #--------------------------------------------------------------------------
 # Advisory Board members (sponsor-appointed)
