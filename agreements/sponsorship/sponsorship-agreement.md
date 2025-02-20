@@ -12,7 +12,7 @@ Please complete, sign, and return this form so we can properly recognize you.
 All contributions are made to Commonhaus Foundation, Inc., a Florida non-stock, nonprofit membership corporation operating as a tax-exempt entity under Section 501(c)(6) of the U.S. Internal Revenue Code.
 Contributions are *not* tax-deductible as charitable donations.
 
-Each sponsorship payment determines your [tier benefits](./README.md) for one year.
+Each sponsorship payment determines your [tier benefits](https://www.commonhaus.org/about/sponsorship.html) for one year.
 The tier is assigned based on payment amount and applies for the full term.
 
 All sponsorship payments are final and non-refundable.
