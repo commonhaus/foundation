@@ -11,8 +11,10 @@ Each annual sponsorship provides these benefits:
 **Gold** ($25k USD)
 
 - Two (2) seats on the Advisory Board[^1]
-- Presence in the first section of the sponsors page on our website and in the Annual Report
-    - Full row width, placed randomly on the website and alphabetically in the report
+- Premium placement on our website sponsors page and in the Annual Report
+    - Website: Full row width, random placement
+    - Annual Report: Full row width, alphabetical order
+    - Annual Report option: Full-page promotional spotlight OR standard logo placement
     - Logo dimensions: 150px height
     - Extended description of company, product, or service (up to 480 characters excluding whitespace and markup)
 - Joint press release announcing sponsorship
@@ -20,14 +22,15 @@ Each annual sponsorship provides these benefits:
 **Silver** ($15k USD)
 
 - Two (2) seats on the Advisory Board[^1]
-- Presence in the middle section of the sponsors page on our website and in the Annual Report
-    - Half row width, placed alphabetically
+- Featured placement on our website sponsors page and in the Annual Report
+    - Website and Annual Report: Half row width, alphabetical order
+    - Annual Report option: Half-page promotional spotlight OR standard logo placement
     - Logo dimensions: 150px height, max-width: 300px
     - Short description of company, product, or service (up to 120 characters excluding whitespace and markup)
 
 **Bronze** ($5k USD)
 
-- Presence on our website and in the Annual Report
+- Standard placement on our website and in the Annual Report
     - Logos are organized three per row and arranged alphabetically
     - Logo dimensions: 100px height, max-width: 200px
 
