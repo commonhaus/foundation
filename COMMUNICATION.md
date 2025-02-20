@@ -44,7 +44,7 @@ Organizations that believe in sustainable open-source software can support us th
 - 📢 Engagement – Opportunities to collaborate with developers and contributors.
 - 🎯 Strategic Influence – High-tier sponsors gain advisory board seats to help shape the foundation’s direction.
 
-[Become a Sponsor](./agreements/sponsorship/sponsorship-tiers.md) – Support our foundation, our projects, and the community behind them.
+[Become a Sponsor](./agreements/sponsorship/README.md) – Support our foundation, our projects, and the community behind them.
 
 ## Contribute a Project
 

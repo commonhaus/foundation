@@ -12,7 +12,7 @@ Please complete, sign, and return this form so we can properly recognize you.
 All contributions are made to Commonhaus Foundation, Inc., a Florida non-stock, nonprofit membership corporation operating as a tax-exempt entity under Section 501(c)(6) of the U.S. Internal Revenue Code.
 Contributions are *not* tax-deductible as charitable donations.
 
-Each sponsorship payment determines your [tier benefits](./sponsorship-tiers.md) for one year.
+Each sponsorship payment determines your [tier benefits](./README.md) for one year.
 The tier is assigned based on payment amount and applies for the full term.
 
 All sponsorship payments are final and non-refundable.
@@ -77,7 +77,7 @@ Gold and Silver tier sponsors can appoint two Advisory Board representatives[^1]
 
 We're proud to recognize our sponsors!
 
-- Your logos and descriptions will appear on our website and in our Annual Report according to your [tier benefits](./sponsorship-tiers.md).
+- Your logos and descriptions will appear on our website and in our Annual Report according to your [tier benefits](./README.md).
 - These can be updated anytime through your Primary Contact to ensure they best represent your organization.
 
 **Logo Files** (URL or attached file name):  
