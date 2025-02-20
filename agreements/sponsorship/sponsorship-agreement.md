@@ -46,12 +46,12 @@ If canceled early, benefits continue until term end without refunds or adjustmen
 `PO # (if required):    ⎣_______________________________⎦`  
 `VAT # (if applicable): ⎣_______________________________⎦`  
 
-### Option 1: Direct via OpenCollective
+### Option 1: Direct via Open Collective
 
-Make your sponsorship payment directly through [OpenCollective][]:
+Make your sponsorship payment directly through [Open Collective][]:
 
 - Payment is charged annually
-- Modify or cancel anytime through your OpenCollective account
+- Modify or cancel anytime through your Open Collective account
 - Request an invoice if needed for your records
 
 ### Option 2: Invoice-based Payment
@@ -124,5 +124,5 @@ Our organization agrees to these terms and authorizes Commonhaus Foundation to u
 
 📩 Return to: `sponsors@commonhaus.org`
 
-[OpenCollective]: https://opencollective.com/commonhaus-foundation
+[Open Collective]: https://opencollective.com/commonhaus-foundation
 [Code of Conduct]: https://www.commonhaus.org/policies/code-of-conduct/
