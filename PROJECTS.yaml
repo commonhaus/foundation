@@ -61,6 +61,7 @@ hibernate:
 infinispan:
   name: Infinispan
   repo: https://github.com/infinispan
+  status: on-boarding
   display:
     home: https://infinispan.org/
     logo: https://raw.githubusercontent.com/infinispan/infinispan/refs/heads/main/assets/logos/infinispan_logo_rgb_lightbluewhite_darkblue.svg
@@ -83,6 +84,7 @@ jackson:
 jbang:
   name: JBang
   repo: https://github.com/jbangdev
+  status: on-boarding
   display:
     home: https://www.jbang.dev/
     logo: https://www.jbang.dev/assets/images/logo.png
@@ -105,6 +107,7 @@ jreleaser:
 morphia:
   name: Morphia
   repo: https://github.com/MorphiaOrg/
+  status: on-boarding
   display:
     home: https://morphia.dev/
     logo: https://github.com/MorphiaOrg/morphia-docs/blob/master/supplemental-ui/img/logo.png?raw=true
@@ -125,6 +128,7 @@ objenesis:
 quarkus:
   name: Quarkus
   repo: https://github.com/quarkusio
+  status: on-boarding
   display:
     home: https://quarkus.io/
     logo: https://github.com/quarkusio/quarkusio.github.io/blob/main/assets/images/brand/quarkus_logo_horizontal_default.svg?raw=true
