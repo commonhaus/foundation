@@ -238,14 +238,17 @@ interface SponsorTier {
     description: string;
     chars?: number;
 }
+interface SponsorDisplay {
+    draft?: boolean;
+    home?: string;
+    logo?: string;
+    "logo-dark"?: string;
+    description?: string;
+}
 interface Sponsor {
     name: string;
-    display: {
-        description?: string;
-        logo?: string;
-        url?: string;
-        "in-kind"?: string;
-    }
+    display: SponsorDisplay;
+    inKind?: SponsorDisplay;
     tier?: string[];
 }
 
@@ -265,10 +268,10 @@ class Sponsors {
             for (const tier of sponsor.tier || []) {
                 let content = '';
                 const limit = allTiers[tier].chars || 0;
-                if (tier === "in-kind") {
-                    content = this.stripFormatting(sponsor.display["in-kind"] || '');
+                if (tier === "inKind") {
+                    content = this.stripFormatting(sponsor.inKind?.description || '');
                 } else if (allTiers[tier].chars) {
-                    content = this.stripFormatting(sponsor.display.description || '');
+                    content = this.stripFormatting(sponsor.display?.description || '');
                 }
                 if (content.length > limit) {
                     this.validator.errors.push({
