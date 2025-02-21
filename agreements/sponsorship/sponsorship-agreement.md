@@ -59,7 +59,9 @@ Make your sponsorship payment directly through [Open Collective][]:
 If you require an invoice before payment, please specify your payment amount.
 Standard payment term is 30 days unless otherwise arranged.
 
+&nbsp;  
 **Sponsorship Amount:** `⎣____________________________________⎦`  
+&nbsp;  
 
 ## Advisory Board Representatives
 

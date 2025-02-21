@@ -1,9 +1,11 @@
 # Asset Transfer Agreement
 
+&nbsp;  
 **Effective Date:** `__________________________`  
 
 ---
 
+&nbsp;  
 **Project:** `_________________________________` (“Project”)  
 
 *Assignor(s):*

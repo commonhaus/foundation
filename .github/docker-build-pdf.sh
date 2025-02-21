@@ -141,7 +141,8 @@ if [[ -z "${SKIP_BYLAWS}" ]]; then
     to_pdf \
         "cf-bylaws" \
         "./bylaws/" \
-        -d ./.pandoc/bylaws.yaml \
+        --toc=true \
+        --toc-depth=3 \
         -M "title:Bylaws" \
         ./bylaws/1-preface.md \
         ./bylaws/2-purpose.md \
@@ -166,7 +167,6 @@ function to_policy_pdf() {
     to_pdf \
         "${1}" \
         "./policies/" \
-        -d ./.pandoc/bylaws.yaml \
         -M "title:${2} Policy" \
         "./policies/${1}.md"
 }
@@ -222,9 +222,12 @@ function to_agreement_doc() {
 
 if [[ -z "${SKIP_AGREEMENTS}" ]]; then
     # function  is_draft   PDF title                      markdown source (no extension)    verbatim arguments
-    to_agreement_doc false "Asset Transfer Agreement"     "project-contribution/asset-transfer-agreement"
-    to_agreement_doc false "Fiscal Sponsorship Agreement" "project-contribution/fiscal-sponsorship-agreement"
-    to_agreement_doc false "Sponsorship Agreement"        "sponsorship/sponsorship-agreement" -M noHeaderBreak:true
+    to_agreement_doc false "Asset Transfer Agreement"     "project-contribution/asset-transfer-agreement" \
+       -M bodyTitle:true
+    to_agreement_doc false "Fiscal Sponsorship Agreement" "project-contribution/fiscal-sponsorship-agreement" \
+       -M bodyTitle:true
+    to_agreement_doc false "Sponsorship Agreement"        "sponsorship/sponsorship-agreement" \
+       -M bodyTitle:true -M noHeaderBreak:true
 fi
 
 ls -al output/public

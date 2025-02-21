@@ -1,9 +1,11 @@
 # Fiscal Sponsorship Agreement
 
+&nbsp;  
 **Effective Date:** `⎣______________________________⎦`  
 
 ---
 
+&nbsp;  
 **Project:** `⎣_____________________________________⎦` (“Project”)  
 
 *Principal Office or Primary Address:*  
