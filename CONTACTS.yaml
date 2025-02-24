@@ -102,6 +102,8 @@ egc-second:
     login: karesti
   - project: jbang
     login: quintesse
+  - project: quarkus
+    login: maxandersen
 
 #--------------------------------------------------------------------------
 # Advisory Board members (sponsor-appointed)
