@@ -1,8 +1,0 @@
-shift-heading-level-by: -1
-filters:
-- .pandoc/filters/agreement-form.lua
-include-in-header:
-- .pandoc/content/header-agreement.tex
-toc: false
-variables:
-  website: https://www.commonhaus.org/
