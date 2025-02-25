@@ -50,4 +50,15 @@ Each annual sponsorship provides these benefits:
 - 💡 Amounts between tiers receive the benefits of the next lowest tier (e.g., $20k receives Silver tier benefits).
 - 📩 For tailored sponsorship opportunities, contact us directly at [sponsors@commonhaus.org](mailto:sponsors@commonhaus.org).
 
+## Infrastructure or Service Providers
+
+Infrastructure or Service Providers provide infrastructure, services, software, or other resources to the Commonhaus Foundation to help keep the engine going for our projects and members.
+
+They are featured on a dedicated page on our website and in the Annual Report
+
+- Website and Annual Report: Half row width, alphabetical order
+- Annual Report option: Half-page promotional spotlight OR standard logo placement
+- Logo dimensions: 150px height, max-width: 300px
+- Short description of company and service provided (up to 240 characters excluding whitespace and markup)
+
 [^1]: [Advisory Board](../../bylaws/5-cf-advisory-board.md) representatives meet semi-annually with the CF Council to provide industry perspective and help align Foundation initiatives with community needs.
