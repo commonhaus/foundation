@@ -2,7 +2,7 @@
 
 # Docker image for pandoc
 if [[ -z "${PANDOCK}" ]]; then
-    PANDOCK=ghcr.io/commonhaus/pandoc-pdf:3.1
+    PANDOCK=ghcr.io/commonhaus/pandoc-pdf:edge-3
 fi
 
 DATE=$(date "+%Y-%m-%d")
@@ -29,11 +29,15 @@ echo URL=${URL}
 ARGS="--rm -e TERM -e HOME=/data -u $(id -u):$(id -g) -v $(pwd):/data -w /data"
 if [[ "$OSTYPE" == "darwin"* ]]; then
     ARGS="$ARGS --platform linux/amd64"
+elif [[ "$DOCKER" == "podman" ]] || docker version 2>/dev/null | grep -qi podman; then
+    ARGS="$ARGS --userns=keep-id"
+fi
+# Set DOCKER if not already defined
+if [[ -z "${DOCKER}" ]]; then
+    DOCKER=docker
 fi
 if [[ "${DRY_RUN}" == "true" ]]; then
-    DOCKER="echo docker"
-elif [[ -z "${DOCKER}" ]]; then
-    DOCKER=docker
+    DOCKER="echo ${DOCKER}"
 fi
 
 function run_shell() {
@@ -42,6 +46,30 @@ function run_shell() {
 
 function run_pandoc() {
     ${DOCKER} run ${ARGS} "${PANDOCK}" "$@"
+}
+
+# Convert markdown to PDF
+function run_pdf() {
+    ${DOCKER} run ${ARGS} \
+        "${PANDOCK}" \
+        -d /commonhaus/pandoc/pdf-common.yaml \
+        -M date-meta:"$(date +%B\ %d,\ %Y)" \
+        -V footer-left:"${FOOTER}" \
+        -V github:"${URL}" \
+        "$@"
+
+    echo "$?"
+}
+
+# Convert markdown to DOCX
+function run_docx() {
+    ${DOCKER} run ${ARGS} \
+        "${PANDOCK}" \
+        -M date-meta:"$(date +%B\ %d,\ %Y)" \
+        -V github:"${URL}" \
+        "$@"
+
+    echo "$?"
 }
 
 for x in "$@"; do
@@ -81,6 +109,9 @@ if [[ "${TO_CMD}" != "noargs" ]]; then
     exit 0
 fi
 
+mkdir -p output/tmp
+mkdir -p output/public
+
 # Convert markdown to PDF with an appended changelog
 # working-dir is used to resolve resources in the file
 # to_pdf pdf-basename   cwd         sources+args
@@ -100,39 +131,14 @@ function to_pdf() {
     rm -f "${pdfout}"
 
     # Use mounted volume paths
-    run_pdf --pdf-engine-opt=-output-dir="${tmpout}" \
+    run_pdf \
+        --pdf-engine-opt=--output-directory="${tmpout}" \
+        --pdf-engine-opt=-output-dir="${tmpout}" \
         --pdf-engine-opt=-outdir="${tmpout}" \
         -V dirname:"${relative_path}" \
         -o "${pdfout}" \
         "$@"
 }
-
-# Convert markdown to PDF
-function run_pdf() {
-    ${DOCKER} run ${ARGS} \
-        "${PANDOCK}" \
-        -d ./.pandoc/pdf-common.yaml \
-        -M date-meta:"$(date +%B\ %d,\ %Y)" \
-        -V footer-left:"${FOOTER}" \
-        -V github:"${URL}" \
-        "$@"
-
-    echo "$?"
-}
-
-# Convert markdown to DOCX
-function run_docx() {
-    ${DOCKER} run ${ARGS} \
-        "${PANDOCK}" \
-        -M date-meta:"$(date +%B\ %d,\ %Y)" \
-        -V github:"${URL}" \
-        "$@"
-
-    echo "$?"
-}
-
-mkdir -p output/tmp
-mkdir -p output/public
 
 ## BYLAWS
 
@@ -188,10 +194,6 @@ fi
 ## AGREEMENTS
 
 function to_agreement_doc() {
-    local config="./.pandoc/agreements.yaml"
-    if [[ "${1}" == "true" ]]; then
-        config="./.pandoc/draft-agreements.yaml"
-    fi
     shift
     local title=${1}
     shift
@@ -207,14 +209,14 @@ function to_agreement_doc() {
 
     run_docx \
         -o "./output/public/${output}.docx" \
-        -d "./.pandoc/agreements-docx.yaml" \
+        -d "/commonhaus/pandoc/agreements-docx.yaml" \
         "./agreements/${input}.md"
 
     # to_pdf pdf-basename   working-dir whatever else
     to_pdf \
         "${output}" \
         "${workingdir}" \
-        -d "./.pandoc/agreements-pdf.yaml" \
+        -d "/commonhaus/pandoc/agreements-pdf.yaml" \
         -M "title:${title}" \
         "$@" \
         "./agreements/${input}.md"
