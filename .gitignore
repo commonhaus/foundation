@@ -4,6 +4,7 @@
 .cache
 .config
 .idea
+*.iml
 .vscode
 node_modules
 output
