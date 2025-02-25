@@ -104,6 +104,8 @@ egc-second:
     login: quintesse
   - project: quarkus
     login: maxandersen
+  - project: hibernate
+    login: yrodiere
 
 #--------------------------------------------------------------------------
 # Advisory Board members (sponsor-appointed)
