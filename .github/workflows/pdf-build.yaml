@@ -88,12 +88,12 @@ jobs:
 
       - name: Inputs
         run: |
-          echo "is main root: ${{ needs.main-root.outputs.is-main }}"
-          echo "create_release: ${{ github.event.inputs.create_release }}"
-          echo "release_notes: ${{ github.event.inputs.release_notes }}"
+          echo "echo is-main='${{ needs.main-root.outputs.is-main }}'"
+          echo "create_release='${{ inputs.create_release }}'"
+          echo "release_notes='${{ inputs.release_notes }}'"
 
       - name: Update snapshot tag
-        if: ${{ needs.main-root.outputs.is-main && !github.event.inputs.create_release }}
+        if: needs.main-root.outputs.is-main == 'true' && inputs.create_release != 'true'
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
@@ -111,7 +111,7 @@ jobs:
           gh release edit SNAPSHOT --draft=false
 
       - name: Create dated release
-        if: ${{ needs.main-root.outputs.is-main && github.event.inputs.create_release }}
+        if: needs.main-root.outputs.is-main == 'true' && inputs.create_release == 'true'
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           RELEASE_NOTES: ${{ inputs.release_notes }}
