@@ -13,7 +13,19 @@ on:
       - 'agreements/**'
       - 'bylaws/**'
       - 'policies/**'
+
   workflow_dispatch:
+    inputs:
+      create_release:
+        description: 'Create a dated release'
+        required: false
+        default: false
+        type: boolean
+      release_notes:
+        description: 'Optional release notes'
+        required: false
+        default: ''
+        type: string
 
 env:
   GH_BOT_EMAIL: "41898282+github-actions[bot]@users.noreply.github.com"
@@ -28,9 +40,13 @@ jobs:
       is-main: ${{ steps.is-main-root.outputs.test }}
     runs-on: ubuntu-latest
     steps:
-      - if: github.event_name == 'push' && github.ref == 'refs/heads/main' && github.repository == 'commonhaus/foundation'
+      - name: Check if main branch
+        if: github.ref == 'refs/heads/main' && github.repository == 'commonhaus/foundation'
         id: is-main-root
-        run: echo "test=true" >> "$GITHUB_OUTPUT"
+        run: |
+          if [[ "${{github.event_name}}" == 'push' || "${{github.event_name}}" == 'workflow_dispatch' ]]; then
+            echo "test=true" >> "$GITHUB_OUTPUT"
+          fi
 
   package:
     name: Package PDFs
@@ -64,15 +80,23 @@ jobs:
           name: docx-output
           path: output/public/*.docx
 
-      - name: Update snapshot tag
-        if: ${{ needs.main-root.outputs.is-main }}
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - id: configure_git
         shell: bash
         run: |
           git config user.name ${{ env.GH_BOT_NAME }}
           git config user.email ${{ env.GH_BOT_EMAIL }}
 
+      - name: Inputs
+        run: |
+          echo "is main root: ${{ needs.main-root.outputs.is-main }}"
+          echo "create_release: ${{ github.event.inputs.create_release }}"
+          echo "release_notes: ${{ github.event.inputs.release_notes }}"
+
+      - name: Update snapshot tag
+        if: ${{ needs.main-root.outputs.is-main && !github.event.inputs.create_release }}
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
           echo "Update tag for SNAPSHOT"
           git push origin :refs/tags/SNAPSHOT
           git tag -f SNAPSHOT
@@ -85,3 +109,42 @@ jobs:
           gh release edit SNAPSHOT -t "PDF snapshot" --prerelease
           gh release view SNAPSHOT
           gh release edit SNAPSHOT --draft=false
+
+      - name: Create dated release
+        if: ${{ needs.main-root.outputs.is-main && github.event.inputs.create_release }}
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          RELEASE_NOTES: ${{ inputs.release_notes }}
+        run: |
+          # Create date-based tag in format YYYY-MM-DD
+          DATE_TAG=$(date +'%Y-%m-%d')
+
+          # Check if tag already exists and create a versioned one if needed
+          if git rev-parse "$DATE_TAG" >/dev/null 2>&1; then
+            # Tag exists, create a versioned one (YYYY-MM-DD.N)
+            VERSION=1
+            while git rev-parse "$DATE_TAG.$VERSION" >/dev/null 2>&1; do
+              VERSION=$((VERSION + 1))
+            done
+            RELEASE_TAG="$DATE_TAG.$VERSION"
+          else
+            RELEASE_TAG="$DATE_TAG"
+          fi
+
+          echo "Creating release with tag: $RELEASE_TAG"
+
+          # Create and push the new tag
+          git tag "$RELEASE_TAG"
+          git push origin "$RELEASE_TAG"
+
+          if [ -z "$RELEASE_NOTES" ]; then
+            RELEASE_NOTES="Automated document release generated on ${DATE_TAG}"
+          fi
+
+          # Create a GitHub release using the tag
+          gh release create "$RELEASE_TAG" \
+            --title "Release $RELEASE_TAG" \
+            --notes "$RELEASE_NOTES" \
+            output/public/*
+
+          echo "Release $RELEASE_TAG created successfully"

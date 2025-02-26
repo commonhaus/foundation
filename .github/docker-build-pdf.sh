@@ -19,7 +19,7 @@ if [[ "${IS_PR}" == "true" ]]; then
     FOOTER="${DATE} ✧ ${GITHUB_REF}"
     URL="${PR_URL}"
 else
-    FOOTER="${DATE} ✧ commit ${GITHUB_SHA}"
+    FOOTER="${DATE}"
     URL="${URL}blob/${GITHUB_SHA}/"
 fi
 
