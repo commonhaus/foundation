@@ -10,6 +10,7 @@ The CF is committed to complying with all applicable laws and regulations relate
 - [Intellectual Property Policy](./ip-policy.md)
 - [Privacy Policy](./privacy-policy.md)
 - [Project Hosting Policies](../agreements/project-contribution/README.md)
+- [Sponsorship](../agreements/sponsorship/README.md)
 - [Trademark Policy](./trademark-policy.md)
     - [Trademark Information and Guidelines](./trademark-guidelines.md)
 

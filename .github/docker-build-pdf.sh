@@ -2,7 +2,7 @@
 
 # Docker image for pandoc
 if [[ -z "${PANDOCK}" ]]; then
-    PANDOCK=ghcr.io/commonhaus/pandoc-pdf:3.1
+    PANDOCK=ghcr.io/commonhaus/pandoc-pdf:edge-3
 fi
 
 DATE=$(date "+%Y-%m-%d")
@@ -19,7 +19,7 @@ if [[ "${IS_PR}" == "true" ]]; then
     FOOTER="${DATE} ✧ ${GITHUB_REF}"
     URL="${PR_URL}"
 else
-    FOOTER="${DATE} ✧ commit ${GITHUB_SHA}"
+    FOOTER="${DATE}"
     URL="${URL}blob/${GITHUB_SHA}/"
 fi
 
@@ -29,11 +29,15 @@ echo URL=${URL}
 ARGS="--rm -e TERM -e HOME=/data -u $(id -u):$(id -g) -v $(pwd):/data -w /data"
 if [[ "$OSTYPE" == "darwin"* ]]; then
     ARGS="$ARGS --platform linux/amd64"
+elif [[ "$DOCKER" == "podman" ]] || docker version 2>/dev/null | grep -qi podman; then
+    ARGS="$ARGS --userns=keep-id"
+fi
+# Set DOCKER if not already defined
+if [[ -z "${DOCKER}" ]]; then
+    DOCKER=docker
 fi
 if [[ "${DRY_RUN}" == "true" ]]; then
-    DOCKER="echo docker"
-elif [[ -z "${DOCKER}" ]]; then
-    DOCKER=docker
+    DOCKER="echo ${DOCKER}"
 fi
 
 function run_shell() {
@@ -42,6 +46,30 @@ function run_shell() {
 
 function run_pandoc() {
     ${DOCKER} run ${ARGS} "${PANDOCK}" "$@"
+}
+
+# Convert markdown to PDF
+function run_pdf() {
+    ${DOCKER} run ${ARGS} \
+        "${PANDOCK}" \
+        -d /commonhaus/pandoc/pdf-common.yaml \
+        -M date-meta:"$(date +%B\ %d,\ %Y)" \
+        -V footer-left:"${FOOTER}" \
+        -V github:"${URL}" \
+        "$@"
+
+    echo "$?"
+}
+
+# Convert markdown to DOCX
+function run_docx() {
+    ${DOCKER} run ${ARGS} \
+        "${PANDOCK}" \
+        -M date-meta:"$(date +%B\ %d,\ %Y)" \
+        -V github:"${URL}" \
+        "$@"
+
+    echo "$?"
 }
 
 for x in "$@"; do
@@ -81,6 +109,9 @@ if [[ "${TO_CMD}" != "noargs" ]]; then
     exit 0
 fi
 
+mkdir -p output/tmp
+mkdir -p output/public
+
 # Convert markdown to PDF with an appended changelog
 # working-dir is used to resolve resources in the file
 # to_pdf pdf-basename   cwd         sources+args
@@ -100,39 +131,14 @@ function to_pdf() {
     rm -f "${pdfout}"
 
     # Use mounted volume paths
-    run_pdf --pdf-engine-opt=-output-dir="${tmpout}" \
+    run_pdf \
+        --pdf-engine-opt=--output-directory="${tmpout}" \
+        --pdf-engine-opt=-output-dir="${tmpout}" \
         --pdf-engine-opt=-outdir="${tmpout}" \
         -V dirname:"${relative_path}" \
         -o "${pdfout}" \
         "$@"
 }
-
-# Convert markdown to PDF
-function run_pdf() {
-    ${DOCKER} run ${ARGS} \
-        "${PANDOCK}" \
-        -d ./.pandoc/bylaws.yaml \
-        -M date-meta:"$(date +%B\ %d,\ %Y)" \
-        -V footer-left:"${FOOTER}" \
-        -V github:"${URL}" \
-        "$@"
-
-    echo "$?"
-}
-
-# Convert markdown to DOCX
-function run_docx() {
-    ${DOCKER} run ${ARGS} \
-        "${PANDOCK}" \
-        -M date-meta:"$(date +%B\ %d,\ %Y)" \
-        -V github:"${URL}" \
-        "$@"
-
-    echo "$?"
-}
-
-mkdir -p output/tmp
-mkdir -p output/public
 
 ## BYLAWS
 
@@ -141,6 +147,8 @@ if [[ -z "${SKIP_BYLAWS}" ]]; then
     to_pdf \
         "cf-bylaws" \
         "./bylaws/" \
+        --toc=true \
+        --toc-depth=3 \
         -M "title:Bylaws" \
         ./bylaws/1-preface.md \
         ./bylaws/2-purpose.md \
@@ -178,46 +186,50 @@ if [[ -z "${SKIP_POLICIES}" ]]; then
     to_policy_pdf trademark-policy            "Trademark"
 
     # to_pdf pdf-file-name  cwd   the rest...
-    to_pdf   trademark-list ./    -M "title:Trademark List" ./TRADEMARKS.md
+    to_pdf   trademark-list ./ \
+        -M "title:Trademark List" \
+        ./TRADEMARKS.md
 fi
 
 ## AGREEMENTS
 
 function to_agreement_doc() {
-    local config="./.pandoc/agreements.yaml"
-    if [[ "${1}" == "true" ]]; then
-        config="./.pandoc/draft-agreements.yaml"
-    fi
     shift
+    local title=${1}
+    shift
+
     local input=${1}
     if [[ ! -f "./agreements/${input}.md" ]]; then
         echo "No agreement found at ./agreements/${input}.md"
         exit 1
     fi
     local workingdir=$(basename "./agreements/${input}.md")
-    local output=${2}
-    if [[ -z "${output}" ]]; then
-        output=$(basename ${input})
-    fi
+    local output=$(basename ${input})
+    shift
+
     run_docx \
         -o "./output/public/${output}.docx" \
-        -d "./.pandoc/agreements.yaml" \
+        -d "/commonhaus/pandoc/agreements-docx.yaml" \
         "./agreements/${input}.md"
 
     # to_pdf pdf-basename   working-dir whatever else
     to_pdf \
         "${output}" \
         "${workingdir}" \
+        -d "/commonhaus/pandoc/agreements-pdf.yaml" \
+        -M "title:${title}" \
+        "$@" \
         "./agreements/${input}.md"
 }
 
 if [[ -z "${SKIP_AGREEMENTS}" ]]; then
-    # to_agreement_doc false bootstrapping/bootstrapping bootstrapping-agreement
-    # function  is_draft   markdown source (no extension)
-    to_agreement_doc true  project-contribution/asset-transfer-agreement
-    to_agreement_doc true  project-contribution/fiscal-sponsorship-agreement
-    to_agreement_doc true  project-contribution/terms-and-conditions
-
+    # function  is_draft   PDF title                      markdown source (no extension)    verbatim arguments
+    to_agreement_doc false "Asset Transfer Agreement"     "project-contribution/asset-transfer-agreement" \
+       -M bodyTitle:true
+    to_agreement_doc false "Fiscal Sponsorship Agreement" "project-contribution/fiscal-sponsorship-agreement" \
+       -M bodyTitle:true
+    to_agreement_doc false "Sponsorship Agreement"        "sponsorship/sponsorship-agreement" \
+       -M bodyTitle:true -M noHeaderBreak:true
 fi
 
 ls -al output/public

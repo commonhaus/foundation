@@ -8,7 +8,7 @@ The Foundation operates in accordance with the [CF Bylaws][bylaws], which outlin
 
 ### CF Council (CFC)
 
-The  [CFC][] oversees strategic and operational decisions. To engage with the council, email the [`council` mailing list][CONTACTS.yaml] or initiate a GitHub discussion.
+The  [CFC][] oversees strategic and operational decisions. To engage with the council, send an email to the [`council` mailing list][CONTACTS.yaml] or initiate a GitHub discussion.
 
 ### Extended Governance Committee (EGC)
 

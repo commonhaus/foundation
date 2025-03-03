@@ -8,6 +8,8 @@ on:
     types: [opened, edited, reopened, closed]
   issue_comment:
 
+  workflow_dispatch:
+
 permissions: {}
 
 jobs:
