@@ -66,28 +66,42 @@ tiers:
 #     Description of services provided. Subject to inKind tier character limit (above).
 #
 sponsors:
+
+  1Password:
+    name: 1Password
+    tier:
+      - inKind
+    inKind:
+      draft: true
+      home: https://1password.com/
+      logo: https://www.commonhaus.org/images/sponsors/1Password_CLASSIC_primary_intrepid_blue.png
+      logo-dark: https://www.commonhaus.org/images/sponsors/1Password_LIGHT_primary_logo_dark.png
+      description: >
+        1Password heavily relies on open source software and acknowledges that its existence is
+        intertwined with the open source community. To give back, 1Password offers free Teams
+        accounts to open source projects, aiming to enhance their productivity and security.
+
   Gradle:
     name: Gradle
     tier:
       - inKind
+      - silver
     display:
       draft: true
       home: https://gradle.com/
-      logo: https://gradle.com/wp-content/uploads/2023/09/LOGO-GRADLE-HZ_RGB.svg
-      logo-dark: https://gradle.com/wp-content/uploads/2023/09/LOGO-GRADLE-HZ_RGB-REV.svg
+      logo: https://www.commonhaus.org/images/sponsors/gradle-white-background.png
+      logo-dark: https://www.commonhaus.org/images/sponsors/gradle-dark-background.png
       description: >
-        Description TBD. Lorem ipsum odor amet, consectetuer adipiscing elit.
-        Placerat accumsan nostra sociosqu morbi sodales blandit.
-        Augue libero rutrum commodo dictum nascetur quis rhoncus.
-        Vel blandit eros interdum; eu porta pretium.
+        Gradle, Inc. is the award-winning developer productivity company behind Gradle Build Tool—one of
+        the most used build systems in the world—and Develocity, the leading developer toolchain
+        observability platform.
     inKind:
       draft: true
       description: >
         Created by Gradle, Develocity combines observability and acceleration technologies
         to speed up the software development feedback cycle.
-      logo: https://gradle.com/wp-content/uploads/2023/09/LOGO-GRADLE-HZ_RGB.svg
-      logo-dark: https://gradle.com/wp-content/uploads/2023/09/LOGO-GRADLE-HZ_RGB-REV.svg
-
+      logo: https://www.commonhaus.org/images/sponsors/LOGO-DEVELOCITY_RGB.png
+      logo-dark: https://www.commonhaus.org/images/sponsors/LOGO-DEVELOCITY_RGB-REV.png
 
   MongoDB:
     name: MongoDB
@@ -108,6 +122,9 @@ sponsors:
       draft: true
       description: >
         MongoDB provides strategy work and segmentation advisory services to Commonhaus.
+
+
+## TEST DATA, ALL DRAFT
 
   Company1:
     name: Company1
