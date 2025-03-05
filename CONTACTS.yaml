@@ -80,6 +80,8 @@ egc:
     login: Naros
   - project: infinispan
     login: tristantarrant
+  - project: kroxylicious
+    login: k-wall
 
 #--------------------------------------------------------------------------
 # EGC Backup/Secondary representative (appointed by project governance process)
@@ -100,6 +102,8 @@ egc-second:
     login: JooHyukKim
   - project: infinispan
     login: karesti
+  - project: kroxylicious
+    login: SamBarker
   - project: jbang
     login: quintesse
   - project: quarkus
