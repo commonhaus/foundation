@@ -80,6 +80,8 @@ egc:
     login: Naros
   - project: infinispan
     login: tristantarrant
+  - project: wildfly
+    login: bstansberry
 
 #--------------------------------------------------------------------------
 # EGC Backup/Secondary representative (appointed by project governance process)
