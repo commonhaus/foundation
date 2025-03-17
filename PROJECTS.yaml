@@ -167,3 +167,12 @@ slatedb:
     logo-dark: https://github.com/slatedb/slatedb-website/blob/main/assets/svg/icon1%20white.svg?raw=true
     description: >
       SlateDB is a cloud native embedded log-structured merge tree (LSM) storage engine built on object storage.
+  
+wildfly:
+  name: WildFly
+  repo: https://github.com/wildfly
+  display:
+    home: https://wildfly.org/
+    logo: https://github.com/wildfly/wildfly/blob/main/docs/src/main/asciidoc/images/splash_wildflylogo_small.png?raw=true
+    description: >
+      WildFly is powerful, modular and lightweight application server that helps you build amazing applications.

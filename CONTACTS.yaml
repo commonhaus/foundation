@@ -82,6 +82,8 @@ egc:
     login: tristantarrant
   - project: kroxylicious
     login: k-wall
+  - project: wildfly
+    login: bstansberry
 
 #--------------------------------------------------------------------------
 # EGC Backup/Secondary representative (appointed by project governance process)
