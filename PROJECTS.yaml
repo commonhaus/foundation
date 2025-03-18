@@ -107,6 +107,7 @@ jreleaser:
 kroxylicious:
   name: Kroxylicious
   repo: https://github.com/kroxylicious/kroxylicious
+  status: on-boarding
   display:
     home: https://kroxylicious.io/
     logo: https://kroxylicious.io/assets/theme/images/kroxylicious_logo_rgb_hori_default.svg
