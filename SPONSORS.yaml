@@ -85,8 +85,7 @@ sponsors:
     name: Gradle
     tier:
       - inKind
-      - silver
-    display:
+    inKind:
       draft: true
       home: https://gradle.com/
       logo: https://www.commonhaus.org/images/sponsors/gradle-white-background.png
@@ -95,13 +94,6 @@ sponsors:
         Gradle, Inc. is the award-winning developer productivity company behind Gradle Build Tool—one of
         the most used build systems in the world—and Develocity, the leading developer toolchain
         observability platform.
-    inKind:
-      draft: true
-      description: >
-        Created by Gradle, Develocity combines observability and acceleration technologies
-        to speed up the software development feedback cycle.
-      logo: https://www.commonhaus.org/images/sponsors/LOGO-DEVELOCITY_RGB.png
-      logo-dark: https://www.commonhaus.org/images/sponsors/LOGO-DEVELOCITY_RGB-REV.png
 
   MongoDB:
     name: MongoDB
