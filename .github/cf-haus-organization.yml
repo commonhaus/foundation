@@ -1,0 +1,37 @@
+teamMembership:
+  dryRun: true
+  source:
+    repository: commonhaus/foundation
+    filePath: CONTACTS.yaml
+  defaults:
+    field: login
+    ignoreUsers:
+      - commonhaus-bot
+  sync:
+    cf-council:
+      teams:
+        - commonhaus/cf-council
+        - commonhaus-ops/admin
+    egc:
+      teams:
+        - commonhaus/cf-egc
+    egc-second:
+      teams:
+        - commonhaus/cf-egc-second
+    coc-panel:
+      teams:
+        - commonhaus/coc-panel
+    advisory-board:
+      preserveUsers:
+        - ashni-mehta
+      teams:
+        - commonhaus/advisory-board
+
+
+emailNotifications:
+  errors:
+    - test@test.org
+  dryRun:
+    - test@test.org
+  audit:
+    - records@test.org
