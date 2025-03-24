@@ -29,8 +29,8 @@ teamMembership:
 
 emailNotifications:
   errors:
-    - test@test.org
+    - automation@test.org
   dryRun:
     - test@test.org
   audit:
-    - records@test.org
+    - automation@test.org
