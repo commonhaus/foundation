@@ -29,8 +29,8 @@ teamMembership:
 
 emailNotifications:
   errors:
-    - automation@test.org
+    - automation@commonhaus.org
   dryRun:
-    - test@test.org
+    - test@commonhaus.dev
   audit:
-    - automation@test.org
+    - automation@commonhaus.org
