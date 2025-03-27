@@ -1,5 +1,5 @@
 teamMembership:
-  - dryRun: true
+  - dryRun: false
     source:
       repository: commonhaus/foundation
       filePath: CONTACTS.yaml
