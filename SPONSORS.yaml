@@ -86,14 +86,15 @@ sponsors:
     tier:
       - inKind
     inKind:
-      draft: true
       home: https://gradle.com/
       logo: https://www.commonhaus.org/images/sponsors/gradle-white-background.png
       logo-dark: https://www.commonhaus.org/images/sponsors/gradle-dark-background.png
       description: >
-        Gradle, Inc. is the award-winning developer productivity company behind Gradle Build Tool—one of
-        the most used build systems in the world—and Develocity, the leading developer toolchain
-        observability platform.
+        [Gradle, Inc.](https://gradle.com/) is providing an instance of Develocity to
+        Commonhaus projects.
+        [Develocity](https://gradle.com/develocity/) provides comprehensive observability,
+        build and test acceleration, and rapid troubleshooting features for Apache Maven, Bazel,
+        sbt, npm, Python, and Gradle Build Tool.
 
   MongoDB:
     name: MongoDB
