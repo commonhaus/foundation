@@ -297,32 +297,44 @@ class Sponsors {
 }
 
 async function main() {
+    const args = process.argv.slice(2); // Get command-line arguments
+    const validateYaml = args.includes('--yaml');
+    const validateMarkdown = args.includes('--markdown');
+
+    // If neither argument is provided, process both YAML and Markdown
+    const processYaml = validateYaml || (!validateYaml && !validateMarkdown);
+    const processMarkdown = validateMarkdown || (!validateYaml && !validateMarkdown);
+
     const validator = new Validator(root);
     const sponsors = new Sponsors(validator);
 
     try {
-        for (const filePath of validator.mdFiles) {
-            for (const href of validator.allLinks[filePath]) {
-                await validator.checkLink(filePath, href);
+        if (processMarkdown) {
+            for (const filePath of validator.mdFiles) {
+                for (const href of validator.allLinks[filePath]) {
+                    await validator.checkLink(filePath, href);
+                }
+                console.log(` ✔️  ${filePath}`);
             }
-            console.log(` ✔️  ${filePath}`);
         }
 
-        for (const filePath of validator.yamlFiles) {
-            try {
-                const fileContent = readFileSync(filePath, 'utf8');
-                const data = parse(fileContent); // can we parse the yaml content
-                if (filePath.endsWith("SPONSORS.yaml")) {
-                    sponsors.verifySponsors(data);
+        if (processYaml) {
+            for (const filePath of validator.yamlFiles) {
+                try {
+                    const fileContent = readFileSync(filePath, 'utf8');
+                    const data = parse(fileContent); // can we parse the yaml content
+                    if (filePath.endsWith("SPONSORS.yaml")) {
+                        sponsors.verifySponsors(data);
+                    }
+                    const httpLinks = fileContent.matchAll(httpLinkRegex);
+                    for (const match of httpLinks) {
+                        await validator.checkLink(filePath, match[0]);
+                    }
+                } catch (err) {
+                    validator.handleError(err);
                 }
-                const httpLinks = fileContent.matchAll(httpLinkRegex);
-                for (const match of httpLinks) {
-                    await validator.checkLink(filePath, match[0]);
-                }
-            } catch (err) {
-                validator.handleError(err);
+                console.log(` ✔️  ${filePath}`);
             }
-            console.log(` ✔️  ${filePath}`);
         }
     } catch (err) {
         validator.handleError(err);
