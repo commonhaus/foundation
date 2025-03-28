@@ -35,7 +35,7 @@ Please complete, sign, and return this form so we can properly recognize you.
 All contributions are made to Commonhaus Foundation, Inc., a Florida non-stock, nonprofit membership corporation operating as a tax-exempt entity under Section 501(c)(6) of the U.S. Internal Revenue Code.
 Contributions are *not* tax-deductible as charitable donations.
 
-Each sponsorship payment determines your [tier benefits](https://www.commonhaus.org/about/sponsorship.html) for one year.
+Each sponsorship payment determines your [tier benefits][] for one year.
 The tier is assigned based on payment amount and applies for the full term.
 
 All sponsorship payments are final and non-refundable.
@@ -83,7 +83,7 @@ Gold and Silver tier sponsors can appoint two Advisory Board representatives[^1]
 
 Organizations can support the Commonhaus Foundation by providing infrastructure, services, software, or other resources to the Foundation and our projects.
 
-- Infrastructure or Service providers receive public recognition similar to [Silver tier](https://www.commonhaus.org/about/sponsorship.html) sponsors.
+- Infrastructure or Service providers receive public recognition similar to [Silver tier][tier benefits] sponsors.
 - Recognition continues for the duration of the provision period.
 
 <!-- break -->
@@ -91,7 +91,7 @@ Organizations can support the Commonhaus Foundation by providing infrastructure,
 
 We're proud to recognize our sponsors!
 
-- Your logos and descriptions will appear on our website and in our Annual Report according to your [tier benefits](./README.md).
+- Your logos and descriptions will appear on our website and in our Annual Report according to your [tier benefits][].
 - These can be updated anytime through your Primary Contact to ensure they best represent your organization. [^update]
 
 **Logo Files** (URL or attached file name):  
@@ -145,5 +145,6 @@ Our organization agrees to these terms and authorizes Commonhaus Foundation to u
 
 [Open Collective]: https://opencollective.com/commonhaus-foundation
 [Code of Conduct]: https://www.commonhaus.org/policies/code-of-conduct/
+[tier benefits]: https://www.commonhaus.org/about/sponsorship.html
 
 [^update]: To update your logo or associated description, either send an email to `sponsors@commonhaus.org` or create a [GitHub issue](https://github.com/commonhaus/commonhaus.github.io/issues/new/choose). To specify an ad to use in our annual report, send an email to `sponsors@commonhaus.org`.
