@@ -1,3 +1,10 @@
+sponsors:
+  sponsorable: commonhaus
+  targetRepository: commonhaus/sponsors
+  ignoreUsers:
+    - commonhaus-bot
+  dryRun: true
+
 teamMembership:
   - dryRun: false
     source:
