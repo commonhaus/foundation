@@ -53,7 +53,7 @@ All capitalized terms used in this Transfer Agreement not defined in it are as d
 **Assets**: The intangible assets specified in this agreement that are needed by Project to operate under the auspices of Sponsor without any disruption, alteration, or modification of the operations, processes, or activities.
 The attached [schedules of assets](#schedules) identify the assets being transferred under this agreement; however, the schedules are not binding and the parties retain the right to amend the schedules as necessary.
 
-**Contributor License Agreements**: The written agreements pursuant to which the Assignor has received licenses from others that allow for the reproduction, modification or distribution of third party contributions made to the Software.
+**Contributor License Agreements**: Written agreements under which the Assignor has received licenses or assignments from contributors that allow for reproduction, modification, distribution, or ownership of third-party contributions to the Software.
 
 **Copyrights**: The copyrights owned by Assignor for the Software, including registrations, applications, renewals, and all related past and future infringement claims.
 
@@ -65,17 +65,17 @@ The attached [schedules of assets](#schedules) identify the assets being transfe
 
 **Software**:  The computer programs associated with the Project, and their documentation, over which the Assignor exercises control through hosting or acting as maintainer.
 
-**Source Code Repositories**: The version control repositories used by the Project to maintain its software, documentation, and related artifacts, over which the Assignor exercises control through hosting or acting as maintainer.
+**Source Code Repositories**: The repository accounts (such as GitHub organizations, repositories, or bots) used by the Project to maintain its software, documentation, and related materials, and currently controlled by the Assignor as host or maintainer. For the avoidance of doubt, this does not include any code or other content maintained in the repositories.
 
 **Trademarks**: The trademarks, service marks, logos, trade dress and trade names, registered or unregistered, used by the Project, including the associated goodwill and all past and future infringement claims related to them.
 
 ## Transfer of Assets
 
-Assignor hereby transfers, and the Sponsor hereby acquires, the Assets identified in the schedules below and all rights in those Assets, including all intellectual property rights.
+Assignor hereby transfers to the Sponsor all rights, title, and interest in and to the Assets identified in the schedules below, including any intellectual property rights in those Assets that are owned by Assignor.
 
 Assignor shall provide all necessary credentials and assist as needed in the transfer of the Assets to the Sponsor.
 
-After the transfer of Assets, the Sponsor will have administrative control of the Hosting Accounts and Social Media and Email Accounts, but the Signatories retain all access rights necessary to continue operating the Project.
+After the transfer of Assets, operational responsibilities related to those Assets will be delegated to the Project Signatories, consistent with the Fiscal Sponsorship Agreement and Terms and Conditions.
 
 Assignor agrees to execute any additional documents, such as Exhibit A for registered Trademarks, and perform any further acts that Sponsor may reasonably request to effectuate the purposes of this Transfer Agreement and to fully establish and secure Assignee's rights in the Assets.
 
@@ -84,17 +84,22 @@ Sponsor will only do so if Assignor does not sign the documents within a reasona
 
 ### Applicable Asset Categories
 
-This agreement covers the transfer of assets in the following categories.
-The specific assets being transferred are detailed in the corresponding schedules:
+This Agreement may be used to transfer ownership of Project assets in the categories listed below.
+Transfer of a specific asset occurs only when the corresponding schedule is completed and incorporated into an Asset Transfer Agreement executed by the parties.
+
+These schedules are not required to reflect a complete or current inventory of all Project assets.
+Ongoing asset inventory management is governed by the Terms and Conditions of Fiscal Sponsorship, which require the Project to maintain an up-to-date inventory in coordination with the Sponsor.
+
+The specific assets being transferred under this Agreement are identified in the schedules selected below:
 
 [Select all that apply and complete corresponding schedules]
 
 - [ ] Source Code Repositories ([Schedule A](#schedule-a-source-code-repositories))
-- [ ] Domain Names ([Schedule B](#schedule-b-domain-names));
-- [ ] Hosting Accounts ([Schedule C](#schedule-c-hosting-accounts));
-- [ ] Social Media and Email Accounts ([Schedule D](#schedule-d-social-media-and-email-accounts));
-- [ ] Trademarks ([Schedule E](#schedule-e-trademarks));
-- [ ] Copyrights ([Schedule F](#schedule-f-registered-copyrights));
+- [ ] Domain Names ([Schedule B](#schedule-b-domain-names))
+- [ ] Hosting Accounts ([Schedule C](#schedule-c-hosting-accounts))
+- [ ] Social Media and Email Accounts ([Schedule D](#schedule-d-social-media-and-email-accounts))
+- [ ] Trademarks ([Schedule E](#schedule-e-trademarks))
+- [ ] Copyrights ([Schedule F](#schedule-f-registered-copyrights))
 - [ ] Other – Describe
     `_____________________________________________________________________________________________________________`.
 
@@ -136,35 +141,18 @@ By signing below, the parties agree to the terms and have executed this Asset Tr
 
 ### SCHEDULE A: Source code repositories
 
-(List of individual repositories or organizations/groups of repositories)
+This schedule identifies repository accounts (e.g., GitHub organizations, individual repositories, and/or bot accounts) that are critical to the continuity of the Project and its operations.
+
+As part of this transfer, the Assignor shall ensure that the Sponsor is granted administrative access to the listed accounts sufficient to support the Project's ongoing operation under the Sponsor's stewardship.
+The Assignor is not required to remove their own administrative access or participation.
 
 - __
-
-#### Contributor License Agreements
-
-For repositories listed above:
-
-1. **Existing Agreements**:
-   Assignor shall provide records of all existing Contributor License Agreements in an agreed-upon electronic format.
-   This may include:
-   - Database exports
-   - Tool configuration files
-   - PDF or electronic copies
-   - Access to existing CLA management systems
-
-2. **Management System**:
-   - Current CLA management approach: [Describe tool/system in use]
-   - Current administrator: [Entity/ID managing CLAs]
-   - Transition plan: [Steps to transfer administration to Sponsor]
-
-3. **Future Agreements**:
-   After transfer, new CLAs will be managed under Sponsor's oversight using:
-   - Sponsor's designated management tools/systems, or
-   - Project-specific configuration approved by Sponsor
 
 &nbsp;
 
 ### SCHEDULE B: Domain Names
+
+This schedule identifies domain names necessary for the Project's public identity or technical infrastructure, which are being transferred to the Sponsor.
 
 | Domain name | Registrar |
 | ----------- | --------- |
@@ -174,7 +162,9 @@ For repositories listed above:
 
 ### SCHEDULE C: Hosting Accounts
 
-(List of web hosting accounts, document hosting platforms, build and testing servers, and cloud infrastructure)
+This schedule identifies hosting platforms, infrastructure services, and operational accounts essential to the Project’s functionality and delivery.
+Assignor shall ensure that the Sponsor is granted administrative access sufficient to support ongoing stewardship.
+Assignor is not required to remove their own access or discontinue participation.
 
 - __
 
@@ -182,7 +172,9 @@ For repositories listed above:
 
 ### SCHEDULE D: Social Media and Email Accounts
 
-(List of project-specific social media and email accounts)
+This schedule identifies social media and email accounts used for public communication or identity of the Project.
+Assignor shall ensure the Sponsor is granted administrative access sufficient to preserve continuity and governance.
+Assignor may retain access or continue co-administration unless otherwise agreed.
 
 - __
 
