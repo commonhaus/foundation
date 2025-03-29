@@ -3,7 +3,7 @@ sponsors:
   targetRepository: commonhaus/sponsors
   ignoreUsers:
     - commonhaus-bot
-  dryRun: true
+  dryRun: false
 
 teamMembership:
   - dryRun: false
