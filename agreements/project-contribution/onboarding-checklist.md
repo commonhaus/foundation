@@ -75,7 +75,7 @@ Project Identifier (`PROJECTS.yaml`[^3]):
 
 ### Source code management
 
-- [ ] 👥 Install haus-keeper bot for each organization
+- [ ] 👥 Install [haus-manager](https://github.com/commonhaus/automation/tree/main/haus-manager) bot for each organization
 - [ ] 👥 Verify team synchronization (private project repo and team in primary organization)
 
 ### Financial setup
@@ -89,7 +89,7 @@ Project Identifier (`PROJECTS.yaml`[^3]):
 
 - [ ] 🏛️ Verify asset transfers complete
 - [ ] 🏛️ Verify all documents signed
-- [ ] 🏛️ Verify installation of haus-keeper bot
+- [ ] 🏛️ Verify installation of haus-manager bot
 - [ ] 🏛️ Verify automated update of `TRADEMARKS.md`
 - [ ] Update `PROJECTS.yaml`[^3] status to "active"
 
