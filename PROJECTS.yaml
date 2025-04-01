@@ -164,6 +164,7 @@ sdkman:
 slatedb:
   name: SlateDB
   repo: https://github.com/slatedb/slatedb
+  status: on-boarding
   display:
     home: https://slatedb.io
     logo: https://github.com/slatedb/slatedb-website/blob/main/assets/svg/icon1.svg?raw=true
