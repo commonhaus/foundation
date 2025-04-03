@@ -3,11 +3,12 @@
 //DEPS com.fasterxml.jackson.core:jackson-databind:2.12.3
 //DEPS com.fasterxml.jackson.core:jackson-core:2.12.3
 //DEPS com.fasterxml.jackson.core:jackson-annotations:2.12.3
-//DEPS org.kohsuke:github-api:1.123
+//DEPS org.kohsuke:github-api:1.327
 //DEPS info.picocli:picocli:4.7.6
 //DEPS com.squareup.okhttp3:okhttp:4.12.0
 
 import java.io.IOException;
+import java.io.UncheckedIOException;
 import java.nio.charset.StandardCharsets;
 import java.nio.file.Path;
 import java.util.ArrayList;
@@ -15,10 +16,6 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 import java.util.function.BiConsumer;
-import java.util.logging.ConsoleHandler;
-import java.util.logging.Level;
-import java.util.logging.Logger;
-import java.util.logging.SimpleFormatter;
 
 import org.kohsuke.github.GHFileNotFoundException;
 import org.kohsuke.github.GHOrganization;
@@ -46,14 +43,6 @@ public class PolicyPanda implements Runnable {
         System.setProperty("java.util.logging.SimpleFormatter.format",
                     "%4$-7s [%3$s] %5$s %6$s%n");
 
-       /*  final ConsoleHandler consoleHandler = new ConsoleHandler();
-            consoleHandler.setLevel(Level.FINEST);
-            consoleHandler.setFormatter(new SimpleFormatter());
-
-            final Logger app = Logger.getLogger("org.kohsuke.github");
-            app.setLevel(Level.FINEST);
-            app.addHandler(consoleHandler);
-            */
     }
     private static final java.util.logging.Logger log = java.util.logging.Logger.getLogger(PolicyPanda.class.getName());
 
@@ -86,6 +75,10 @@ public class PolicyPanda implements Runnable {
 
     @CommandLine.Option(names = {"-r", "--repo-regex"}, description = "Specify a regular expression to match repository names", defaultValue=".*")
     private String repoRegex;
+
+    @CommandLine.Option(names = {"-w", "--working-branch-patterns"}, description = "Specify a regular expression to match working branch names", defaultValue="main")
+    private String workingBranchRegex;
+
 
     public static void main(String[] args) {
         int exitCode = new CommandLine(new PolicyPanda()).execute(args);
@@ -125,7 +118,7 @@ public class PolicyPanda implements Runnable {
                 }
                 log.fine("Checking repository: " + repo.getName());
 
-                checkFile(repo, globalRepo, "Code owners", "Code owners file", "CODEOWNERS", Kind.SHOULD);
+                var usesCodeOwners = checkFile(repo, globalRepo, "Code owners", "Code owners file", "CODEOWNERS", Kind.SHOULD);
                 checkFile(repo, globalRepo, "Governance", "Governance file", "GOVERNANCE", Kind.MUST);
 
                 switch(agreementType) {
@@ -149,6 +142,30 @@ public class PolicyPanda implements Runnable {
                 });
 
                 checkFile(repo, globalRepo, "Code of conduct", "Code of conduct file", "CODE_OF_CONDUCT", Kind.MUST);
+
+
+                repo.getBranches().values()
+                        .stream()
+                        .filter(b -> b.getName().matches(workingBranchRegex))
+                        .forEach(branch -> {
+
+                            addCheck(repo, new check("[%s] Branch protection".formatted(branch.getName()), "Branch has protection", repo, Kind.SHOULD, branch.isProtected(), null));
+
+                            if (branch.isProtected()) {
+                                try {
+                                    var protection = branch.getProtection();
+                                    addCheck(repo, new check("[%s] Force-push disallowed".formatted(branch.getName()), "Branch disallows force-push", repo, Kind.SHOULD, !protection.getAllowForcePushes().isEnabled(), null));
+                                    if (usesCodeOwners) {
+                                        // They have are using a CODEOWNERS, so it makes sense for code-owner review to be enforced.
+                                        addCheck(repo, new check("[%s] Code owner code review".formatted(branch.getName()), "Code owner review enforced", repo, Kind.SHOULD, branch.getProtection().getRequiredReviews().isRequireCodeOwnerReviews(), null));
+                                    } else {
+                                        addCheck(repo, new check("[%s] Code review".formatted(branch.getName()), "Code review enforced", repo, Kind.SHOULD, protection.getRequiredReviews().getRequiredReviewers() > 0, null));
+                                    }
+                                } catch (IOException e) {
+                                    throw new UncheckedIOException("Failed to get branch protection for %s".formatted(branch.getName()), e);
+                                }
+                            }
+                        });
 
                 System.out.println("## " + repo.getFullName());
                 checks.get(repo.getFullName()).stream().forEach(check -> {
