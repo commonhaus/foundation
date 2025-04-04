@@ -156,6 +156,8 @@ public class PolicyPanda implements Runnable {
                                 try {
                                     var protection = branch.getProtection();
                                     addCheck(repo, new check("[%s] Force-push disallowed".formatted(branch.getName()), "Branch disallows force-push", repo, Kind.SHOULD, !protection.getAllowForcePushes().isEnabled(), null));
+                                    addCheck(repo, new check("[%s] Deletions disallowed".formatted(branch.getName()), "Branch disallows deletions", repo, Kind.SHOULD, !protection.getAllowDeletions().isEnabled(), null));
+                                    addCheck(repo, new check("[%s] Admin bypass disallowed".formatted(branch.getName()), "Admin bypass disallowed", repo, Kind.SHOULD, protection.getEnforceAdmins().isEnabled(), null));
                                     var requiredReviews = branch.getProtection().getRequiredReviews();
                                     if (usesCodeOwners) {
                                         // They have are using a CODEOWNERS, so it makes sense for code-owner review to be enforced.
