@@ -17,6 +17,7 @@ import java.util.List;
 import java.util.Map;
 import java.util.function.BiConsumer;
 
+import org.kohsuke.github.GHBranchProtection;
 import org.kohsuke.github.GHFileNotFoundException;
 import org.kohsuke.github.GHOrganization;
 import org.kohsuke.github.GHRepository;
@@ -155,11 +156,12 @@ public class PolicyPanda implements Runnable {
                                 try {
                                     var protection = branch.getProtection();
                                     addCheck(repo, new check("[%s] Force-push disallowed".formatted(branch.getName()), "Branch disallows force-push", repo, Kind.SHOULD, !protection.getAllowForcePushes().isEnabled(), null));
+                                    var requiredReviews = branch.getProtection().getRequiredReviews();
                                     if (usesCodeOwners) {
                                         // They have are using a CODEOWNERS, so it makes sense for code-owner review to be enforced.
-                                        addCheck(repo, new check("[%s] Code owner code review".formatted(branch.getName()), "Code owner review enforced", repo, Kind.SHOULD, branch.getProtection().getRequiredReviews().isRequireCodeOwnerReviews(), null));
+                                        addCheck(repo, new check("[%s] Code owner code review".formatted(branch.getName()), "Code owner review enforced", repo, Kind.SHOULD, requiredReviews != null && requiredReviews.isRequireCodeOwnerReviews(), null));
                                     } else {
-                                        addCheck(repo, new check("[%s] Code review".formatted(branch.getName()), "Code review enforced", repo, Kind.SHOULD, protection.getRequiredReviews().getRequiredReviewers() > 0, null));
+                                        addCheck(repo, new check("[%s] Code review".formatted(branch.getName()), "Code review enforced", repo, Kind.SHOULD, requiredReviews != null && protection.getRequiredReviews().getRequiredReviewers() > 0, null));
                                     }
                                 } catch (IOException e) {
                                     throw new UncheckedIOException("Failed to get branch protection for %s".formatted(branch.getName()), e);
