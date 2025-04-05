@@ -150,6 +150,17 @@ quarkus:
     description: >
       Quarkus is a Kubernetes Native Java stack tailored for OpenJDK HotSpot and GraalVM, crafted from the best of breed Java libraries and standards.
 
+resteasy:
+  name: RESTEasy
+  repo: https://github.com/resteasy
+  display:
+    home: https://resteasy.dev
+    logo: https://github.com/resteasy/resteasy.dev/blob/main/img/logo/resteasy_logo_600x.png?raw=true
+    logo-dark: https://github.com/resteasy/resteasy.dev/blob/main/img/logo/resteasy_logo_600x.png?raw=true
+    description: >
+      RESTEasy is a Jakarta RESTful Web Services implementation and MicroProfile REST Client implementation. It is currently
+      a reference implementation for both of those specifications.
+
 sdkman:
   name: SDKMAN!
   repo: https://github.com/sdkman

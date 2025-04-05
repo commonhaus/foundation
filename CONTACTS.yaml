@@ -82,6 +82,8 @@ egc:
     login: tristantarrant
   - project: kroxylicious
     login: k-wall
+  - project: resteasy
+    login: jamezp
 
 #--------------------------------------------------------------------------
 # EGC Backup/Secondary representative (appointed by project governance process)

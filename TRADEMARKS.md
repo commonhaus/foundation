@@ -31,6 +31,7 @@ The Commonhaus Foundation uses the following unregistered trademarks:
 - Morphia &trade; [^1]
 - Objenesis &trade; [^1]
 - Quarkus &trade; [^1]
+- RESTEasy &trade; [^1]
 - SDKMAN! &trade; [^1]
 - SlateDB &trade; [^1]
 
@@ -68,6 +69,8 @@ The Commonhaus Foundation uses the following unregistered trademarks:
     <img src="https://github.com/easymock/objenesis/blob/master/website/site/resources/objenesis-logo.png?raw=true" alt="" height="30" />
 - Quarkus Logo &trade; [^1]  
     <img src="https://github.com/quarkusio/quarkus/blob/main/core/deployment/src/main/resources/META-INF/branding/logo.png?raw=true" alt="" height="30" />
+- RESTEasy Logo &trade; [^1]  
+  <img src="https://github.com/resteasy/resteasy.dev/blob/main/img/logo/resteasy_logo_600x.png?raw=true" alt="" height="30" />
 - SDKMAN! Logo &trade; [^1]  
     <img src="https://sdkman.io/assets//img/sdk-man-small-pattern.svg" alt="" height="30" />
 - SlateDB Logo &trade;  [^1]  
