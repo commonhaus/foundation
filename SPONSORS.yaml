@@ -72,7 +72,6 @@ sponsors:
     tier:
       - inKind
     inKind:
-      draft: true
       home: https://1password.com/
       logo: https://www.commonhaus.org/images/sponsors/1Password_CLASSIC_primary_intrepid_blue.png
       logo-dark: https://www.commonhaus.org/images/sponsors/1Password_LIGHT_primary_logo_dark.png
