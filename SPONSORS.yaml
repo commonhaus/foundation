@@ -76,9 +76,10 @@ sponsors:
       logo: https://www.commonhaus.org/images/sponsors/1Password_CLASSIC_primary_intrepid_blue.png
       logo-dark: https://www.commonhaus.org/images/sponsors/1Password_LIGHT_primary_logo_dark.png
       description: >
-        1Password heavily relies on open source software and acknowledges that its existence is
-        intertwined with the open source community. To give back, 1Password offers free Teams
-        accounts to open source projects, aiming to enhance their productivity and security.
+        [1Password](https://1password.com/) heavily relies on open source software and acknowledges
+        that its existence is intertwined with the open source community. To give back,
+        1Password offers free Teams accounts to open source projects, aiming to enhance
+        their productivity and security.
 
   Gradle:
     name: Gradle
