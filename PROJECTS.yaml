@@ -8,9 +8,7 @@
 #   logo: (optional) Link to preferred logo to use on commonhaus.org website
 #   logo-dark: (optional) Link to preferred logo to use in dark mode
 #   description: a short-ish description of the project
-# mail-aliases: (block is optional, use if your project provides custom email aliases)
-#   domain: custom email alias domain
-#   team: 'organization/team'  GH team defining eligible logins (alias will be login@domain)
+# mail-domain: (optional) custom email alias domain
 # status: draft | on-boarding | active (if missing, value is on-boarding)
 
 debezium:
@@ -48,9 +46,7 @@ hibernate:
   name: Hibernate
   repo: https://github.com/hibernate/
   status: on-boarding
-  mail-aliases:
-    domain: hibernate.org
-    team: hibernate/email-alias
+  mail-domain: hibernate.org
   display:
     home: https://hibernate.org/
     logo: https://github.com/hibernate/hibernate.org/blob/production/images/hibernate-logo.svg?raw=true
