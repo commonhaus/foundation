@@ -22,10 +22,6 @@ We further recommend:
 [CONTRIB]: ../CONTRIBUTING.md
 [mozilla]: https://mozillascience.github.io/working-open-workshop/contributing/
 
-## Other files
-
-- If you use a DCO (Developer Certificate of Origin), your project should have a **DCO.txt** (case-insensitive) file containing content from <http://developercertificate.org/>
-
 ## Contributor Agreements
 
 Explanation of the difference between DCO and CLA: <https://www.consortiuminfo.org/open-source/all-about-clas-and-dcos/>
@@ -36,6 +32,8 @@ Explanation of the difference between DCO and CLA: <https://www.consortiuminfo.o
     All contributions are subject to the [Developer Certificate of Origin (DCO)](http://developercertificate.org/).
     The DCO text is also included verbatim in the [dco.txt](./dco.txt) file in the root directory of this repository.
     ```
+
+    Your project should also have a **dco.txt** (case-insensitive) file containing content from <http://developercertificate.org/>
 
 - If your project uses a CLA, include that requirement in the contribution guide. [For example](https://github.com/jreleaser/jreleaser/blob/main/CONTRIBUTING.adoc#contributor-license-agreement):
 
@@ -50,21 +48,4 @@ Explanation of the difference between DCO and CLA: <https://www.consortiuminfo.o
 
 ## Policy Panda
 
-This repository has a script that does a basic check if a GitHub repository/organization has the recommended files.
-
-You run it like this: `jbang policypanda@commonhaus/foundation hibernate` where `hibernate` is the GitHub organization name.
-
-NOTE: The script requires GitHub credentials in the form of either environment variables (see [Environmental Variables](https://hub4j.github.io/github-api/#Environmental_variables)[^wayback][^src]) or a `~/.github` properties file (see [Property File](https://hub4j.github.io/github-api/#Property_file)[^wayback][^src]).
-
-If you want it to only check specific repositories, you can use the `-r` to specify a regular expression.
-
-Example:
-
-```shell
-jbang policypanda@commonhaus/foundation hibernate -r "hibernate-orm|hibernate-validator"
-```
-
-would only check the repositories that match `hibernate-orm` or `hibernate-validator`.
-
-[^wayback]: https://web.archive.org/web/20250108173712/https://github-api.kohsuke.org/
-[^src]: https://github.com/hub4j/github-api/blob/main/src/site/apt/index.apt
+This repository provides [some scripts](./panda/) to help with on-boarding checks.

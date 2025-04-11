@@ -2,7 +2,7 @@
   "catalogs": {},
   "aliases": {
     "policypanda": {
-      "script-ref": "templates/PolicyPanda.java",
+      "script-ref": "templates/panda/PolicyPanda.java",
       "java-agents": []
     }
   },
