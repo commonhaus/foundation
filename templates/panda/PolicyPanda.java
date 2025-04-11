@@ -191,9 +191,7 @@ public class PolicyPanda extends CommonhausPanda implements Runnable {
         CommunityFiles repoFiles = findCommunityFiles(repo).withFallback(orgFiles);
 
         addCheck(repo, new FileCheck("Governance", Kind.MUST, repoFiles.governance()));
-
         addCheck(repo, new FileCheck("Code of Conduct", Kind.MUST, repoFiles.codeOfConduct()));
-
         addCheck(repo, new FileCheck("Contributing", Kind.MUST, repoFiles.contributing()));
 
         // Check agreement type (DCO/CLA)
@@ -317,7 +315,7 @@ public class PolicyPanda extends CommonhausPanda implements Runnable {
         log.info("🌳 Creating an asset inventory");
         ArrayNode owners = yamlMapper.createArrayNode();
 
-        var admins = org.listMembersWithRole(Role.ADMIN.toString());
+        var admins = org.listMembersWithRole("admin");
         for (var admin : admins) {
             owners.add(yamlMapper.createObjectNode()
                     .put("login", admin.getLogin())
