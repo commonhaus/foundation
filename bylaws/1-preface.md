@@ -34,7 +34,7 @@ The [foundation][] repository is the authoritative source for Commonhaus Foundat
 
 The CF Council (CFC) must review bylaws at least annually to ensure ongoing compliance with applicable laws and regulations.
 
-The [Extended Governance Committee (EGC)][egc] (EGC: CFC + Project Leads) jointly review and approve bylaw changes.
+The [Extended Governance Committee (EGC)][egc] (EGC: CFC + Project Representatives) jointly review and approve bylaw changes.
 
 Amendments or changes to Bylaws will follow the [amendment process][].
 
