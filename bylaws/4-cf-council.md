@@ -90,7 +90,7 @@ Expanding beyond the CFC, the Extended Governance Committee (EGC) plays a vital 
 
 This structure ensures a balanced representation, combining strategic oversight with project-specific insights.
 
-An up-to-date list of Project Leads as members of the EGC will be maintained in the `egc` [CONTACTS.yaml][] attribute.
+An up-to-date list of Project Representatives as members of the EGC will be maintained in the `egc` [CONTACTS.yaml][] attribute.
 
 ## Meetings, Procedures and Decision-Making
 
