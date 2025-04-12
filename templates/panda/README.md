@@ -2,6 +2,8 @@
 
 Policy Panda is a tool that evaluates GitHub organizations and repositories against Commonhaus Foundation policies and best practices. It generates reports about policy compliance, organization settings, and asset inventories.
 
+Policy Panda is an essential part of the Commonhaus Foundation project onboarding process. By running this tool early in the onboarding journey, projects can identify and address any missing required files or governance practices before officially joining the foundation.
+
 ## Prerequisites
 
 - [JBang](https://www.jbang.dev/) installed
