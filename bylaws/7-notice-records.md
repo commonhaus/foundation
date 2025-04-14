@@ -61,5 +61,5 @@ The CF will maintain records of all activities for transparency and legal compli
 
 [Amendments]: ./9-amendments.md
 [Decision Making]: ./6-decision-making.md
-[contact-us]: ../COMMUNICATION.md
+[contact-us]: ../COMMUNITY.md
 [CONTACTS.yaml]: ../CONTACTS.yaml
