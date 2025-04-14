@@ -35,7 +35,7 @@ Explore how to contribute through our [Code of Conduct](CODE_OF_CONDUCT.md), [Go
 [Bylaws]: bylaws/1-preface.md
 [cfab]: bylaws/5-cf-advisory-board.md
 [Policies]: policies/README.md
-[community]: COMMUNICATION.md
+[community]: COMMUNITY.md
 
 ---
 
