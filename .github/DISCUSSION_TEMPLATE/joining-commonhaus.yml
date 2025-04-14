@@ -58,15 +58,18 @@ body:
         Please use this discussion to ask any clarifying questions you may have
         before completing these tasks.
       value: |
-        - [ ] **Review the bylaws**, especially sections about [projects](https://www.commonhaus.org/bylaws/cf-membership.html#projects), [decision making](https://www.commonhaus.org/bylaws/decision-making.html), and [voting for significant decisions](https://www.commonhaus.org/bylaws/cf-council.html#voting).
-        - [ ] **Read the [bootstrapping agreement](https://github.com/commonhaus/foundation/blob/main/agreements/bootstrapping/bootstrapping.md)**.
-        - [ ] If all is well, and you agree to participate in the bootstrapping phase to help us build this thing, then **create a PR** with the following:
+        - [ ] **Review the bylaws**, especially sections about [projects](https://www.commonhaus.org/bylaws/cf-membership.html#projects),
+            [decision making](https://www.commonhaus.org/bylaws/decision-making.html),
+            and [voting for significant decisions](https://www.commonhaus.org/bylaws/cf-council.html#voting).
+        - [ ] **Review the [Fiscal Sponsorship Terms and Conditions](https://www.commonhaus.org/policies/fiscal-sponsorship/)**.
+            These outline the legal and financial framework for how we support projects.
+        - [ ] If all is well, and you agree to move forward, then **create a PR** with the following:
 
-            1. A filled out copy of the bootstrapping agreement. You can make a copy of [bootstrapping.md](https://github.com/commonhaus/foundation/blob/main/agreements/bootstrapping/bootstrapping.md) file and check that in, or checkin a filled out [pdf](https://github.com/commonhaus/foundation/releases/download/final-draft/bootstrapping.pdf). Please follow naming conventions.
-            2. An updated [CONTACTS.yaml](https://github.com/commonhaus/foundation/blob/main/CONTACTS.yaml) that names your project representative in the EGC section
-            3. An updated [PROJECTS.yaml](https://github.com/commonhaus/foundation/blob/main/PROJECTS.yaml) that provides details / describes your project
-            4. An updated [TRADEMARKS.md](https://github.com/commonhaus/foundation/blob/main/TRADEMARKS.md) that adds your project name and project logo (if you have one). Please include the footnote reference, as we are using your project name and logo with your permission until we have a formal agreement in place and resources are transferred.
+            1. An updated [CONTACTS.yaml](https://github.com/commonhaus/foundation/blob/main/CONTACTS.yaml) that names your project representative in the EGC section
+            2. An updated [PROJECTS.yaml](https://github.com/commonhaus/foundation/blob/main/PROJECTS.yaml) that provides details / describes your project
+            3. An updated [TRADEMARKS.md](https://github.com/commonhaus/foundation/blob/main/TRADEMARKS.md) that adds your project name and project logo (if you have one).
+                Please include the footnote reference, as we are using your project name and logo with your permission until a formal agreement is in place and any assets are transferred.
 
-            The commit should be "Signed-off-by" your GH login (`git commit -s -m "<project> bootstrapping agreement, yyyy-mm-dd"`)
+            The commit should be "Signed-off-by" your GH login (`git commit -s -m "<project> joining request, yyyy-mm-dd"`)
     validations:
       required: true
