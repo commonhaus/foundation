@@ -203,7 +203,7 @@ public class PolicyPanda extends CommonhausPanda implements Runnable {
                 // Check if contributing mentions DCO
                 if (repoFiles.contributing() != null) {
                     String content = readContent(repoFiles.contributing());
-                    boolean hasDcoMention = content.matches("(?is).*\b(DCO|Developer Certificate of Origin)\b.*");
+                    boolean hasDcoMention = content.matches("(?is).*\\b(DCO|Developer Certificate of Origin)\\b.*");
                     addCheck(repo, new ContentCheck("DCO Reference", "DCO mentioned in CONTRIBUTING",
                             Kind.MUST, hasDcoMention, repoFiles.contributing()));
                 }
@@ -215,7 +215,7 @@ public class PolicyPanda extends CommonhausPanda implements Runnable {
                 // Check if contributing mentions CLA
                 if (repoFiles.contributing() == null) {
                     String content = readContent(repoFiles.contributing());
-                    boolean hasCLAMention = content.matches("(?is).*\b(CLA|Contributor License Agreement)\b.*");
+                    boolean hasCLAMention = content.matches("(?is).*\\b(CLA|Contributor License Agreement)\\b.*");
                     addCheck(repo, new ContentCheck("CLA Reference", "CLA mentioned in CONTRIBUTING",
                             Kind.MUST, hasCLAMention, repoFiles.contributing()));
                 }
