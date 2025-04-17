@@ -327,11 +327,17 @@ public class PolicyPanda extends CommonhausPanda implements Runnable {
         ObjectNode orgNode = yamlMapper.createObjectNode()
                 .put("name", org.getLogin())
                 .put("url", org.getHtmlUrl().toString());
-        orgNode.set("reports", yamlMapper.createObjectNode()
-                .put("policy", "reports/policy-report-" + organization + ".md")
-                .put("settings", "reports/scm-settings-" + organization + ".yaml"));
+
+        ObjectNode reports = yamlMapper.createObjectNode();
+        orgNode.set("reports", reports);
+        if (!skipPolicyCheck) {
+            reports.put("policy", "reports/policy-report-" + organization + ".md");
+        }
+        if (runOrgSettings) {
+            reports.put("settings", "reports/scm-settings-" + organization + ".yaml");
+        }
         orgNode.set("owners", owners);
-        orgNode.put("notes", "Owners listed above are users with an admin role.");
+        orgNode.put("notes", "Owners listed above are users, who are publicly associated with the project, with an admin role.");
 
         ObjectNode sourceControlData = yamlMapper.createObjectNode()
                 .set("github", yamlMapper.createObjectNode()
@@ -365,7 +371,7 @@ public class PolicyPanda extends CommonhausPanda implements Runnable {
         for (GHRepository repo : repos) {
             try {
                 // Look for CLA files with various naming patterns
-                GHContent cla = findFileInRepo(repo, ".*(?:cla|contributor|agreement).*");
+                GHContent cla = findFileInRepo(repo, ".*(?:cla|contributor(?!s)|agreement).*");
                 if (cla != null) {
                     ObjectNode claInfo = yamlMapper.createObjectNode()
                             .put("repository", repo.getName())
