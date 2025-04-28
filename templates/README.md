@@ -1,6 +1,6 @@
 # Commonhaus Templates
 
-We don't want project on-boarding to be a burden, but we have a few requirements to ensure transparency.
+We don't want project onboarding to be a burden, but we have a few requirements to ensure transparency.
 
 - `CODE_OF_CONDUCT.md`[^1]: Projects must define a Code of Conduct. They can use the foundation's [Code of Conduct policy][coc_policy], or define their own. See [CODE_OF_CONDUCT.md][COC] and the [Project CODE_OF_CONDUCT.md template][COC_TPL] for examples.
 - `GOVERNANCE.md`[^1]: Projects must explain how decisions are made. See [Governance][GOV] and the [Project GOVERNANCE.md template][GOV_TPL] for examples.
@@ -48,4 +48,4 @@ Explanation of the difference between DCO and CLA: <https://www.consortiuminfo.o
 
 ## Policy Panda
 
-This repository provides [some scripts](./panda/) to help with on-boarding checks.
+This repository provides [some scripts](./panda/) to help with onboarding checks.

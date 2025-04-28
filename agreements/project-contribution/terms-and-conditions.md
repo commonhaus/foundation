@@ -6,7 +6,7 @@ These Terms are to be read in conjunction with the [Fiscal Sponsorship Agreement
 
 - [Eligibility Requirements](#eligibility-requirements)
 - [Application Process](#application-process)
-- [On-boarding](#on-boarding)
+- [onboarding](#onboarding)
     - [Discovery Period](#discovery-period)
     - [Agreement Execution](#agreement-execution)
         - [Transfer of Assets](#transfer-of-assets)
@@ -64,7 +64,7 @@ The Sponsor’s Council will review the application for compliance with eligibil
 3. **Approval:**
 Upon initial approval, a discovery period will commence to assess and define the resources and boundaries of the project being transferred to the Sponsor.
 
-## On-boarding
+## Onboarding
 
 ### Discovery Period
 

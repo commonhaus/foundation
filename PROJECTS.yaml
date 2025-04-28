@@ -9,12 +9,12 @@
 #   logo-dark: (optional) Link to preferred logo to use in dark mode
 #   description: a short-ish description of the project
 # mail-domain: (optional) custom email alias domain
-# status: draft | on-boarding | active (if missing, value is on-boarding)
+# status: draft | onboarding | active (if missing, value is onboarding)
 
 debezium:
   name: Debezium
   repo: https://github.com/debezium/debezium
-  status: on-boarding
+  status: onboarding
   display:
     home: https://debezium.io/
     logo: https://debezium.io/assets/images/color_black_debezium_type_600px.svg
@@ -45,7 +45,7 @@ feign:
 hibernate:
   name: Hibernate
   repo: https://github.com/hibernate/
-  status: on-boarding
+  status: onboarding
   mail-domain: hibernate.org
   display:
     home: https://hibernate.org/
@@ -57,7 +57,7 @@ hibernate:
 infinispan:
   name: Infinispan
   repo: https://github.com/infinispan
-  status: on-boarding
+  status: onboarding
   display:
     home: https://infinispan.org/
     logo: https://raw.githubusercontent.com/infinispan/infinispan/refs/heads/main/assets/logos/infinispan_logo_rgb_lightbluewhite_darkblue.svg
@@ -80,7 +80,7 @@ jackson:
 jbang:
   name: JBang
   repo: https://github.com/jbangdev
-  status: on-boarding
+  status: onboarding
   display:
     home: https://www.jbang.dev/
     logo: https://www.jbang.dev/assets/images/logo.png
@@ -103,7 +103,7 @@ jreleaser:
 kroxylicious:
   name: Kroxylicious
   repo: https://github.com/kroxylicious/kroxylicious
-  status: on-boarding
+  status: onboarding
   display:
     home: https://kroxylicious.io/
     logo: https://kroxylicious.io/assets/theme/images/kroxylicious_logo_rgb_hori_default.svg
@@ -116,7 +116,7 @@ kroxylicious:
 morphia:
   name: Morphia
   repo: https://github.com/MorphiaOrg/
-  status: on-boarding
+  status: onboarding
   display:
     home: https://morphia.dev/
     logo: https://github.com/MorphiaOrg/morphia-docs/blob/master/supplemental-ui/img/logo.png?raw=true
@@ -137,7 +137,7 @@ objenesis:
 quarkus:
   name: Quarkus
   repo: https://github.com/quarkusio
-  status: on-boarding
+  status: onboarding
   display:
     home: https://quarkus.io/
     logo: https://github.com/quarkusio/quarkusio.github.io/blob/main/assets/images/brand/quarkus_logo_horizontal_default.svg?raw=true
@@ -160,14 +160,14 @@ sdkman:
 slatedb:
   name: SlateDB
   repo: https://github.com/slatedb/slatedb
-  status: on-boarding
+  status: onboarding
   display:
     home: https://slatedb.io
     logo: https://github.com/slatedb/slatedb-website/blob/main/assets/svg/icon1.svg?raw=true
     logo-dark: https://github.com/slatedb/slatedb-website/blob/main/assets/svg/icon1%20white.svg?raw=true
     description: >
       SlateDB is a cloud native embedded log-structured merge tree (LSM) storage engine built on object storage.
-  
+
 wildfly:
   name: WildFly
   repo: https://github.com/wildfly

@@ -1,6 +1,6 @@
-# On-boarding checklist
+# Onboarding checklist
 
-This is an example of the process for Project on-boarding.
+This is an example of the process for Project onboarding.
 
 A significant part of this is an "asset inventory".
 This inventory can be just as useful for the project as it is for the Foundation,
@@ -23,15 +23,15 @@ Project Identifier (`PROJECTS.yaml`[^3]):
 > GH Invitation is sent automatically when the PR to foundation repo containing updates to CONTACTS.yaml is merged
 
 - Primary EGC rep in `CONTACTS.yaml`[^4]
-    - [ ] 🏛️ Create issue for member on-boarding
-    - [ ] 🏛️ Assign issue for member on-boarding (requires invitation accept)
+    - [ ] 🏛️ Create issue for member onboarding
+    - [ ] 🏛️ Assign issue for member onboarding (requires invitation accept)
     - [ ] 🏛️ After alias created: Add to egc google group
 - (?) Secondary EGC rep in `CONTACTS.yaml`[^4]
-    - [ ] 🏛️ Create issue for member on-boarding
-    - [ ] 🏛️ Assign issue for member on-boarding (requires invitation accept)
+    - [ ] 🏛️ Create issue for member onboarding
+    - [ ] 🏛️ Assign issue for member onboarding (requires invitation accept)
     - [ ] 🏛️ After alias created: Add to egc google group
 - Verify Generated webpage content (`PROJECTS.yaml`[^3] / `CONTACTS.yaml`[^4])
-    - [ ] `PROJECTS.yaml`[^3]: Status is "on-boarding"
+    - [ ] `PROJECTS.yaml`[^3]: Status is "onboarding"
     - [ ] Project is in projects list
     - [ ] Project links are correct / clickable
     - [ ] Logo is displayed in light and dark modes
