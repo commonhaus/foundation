@@ -7,6 +7,7 @@ rolePriority:
   - advisor
   - committee
   - member
+  - contributor
   - sponsor
 
 role:
@@ -69,6 +70,14 @@ role:
     attestations:
       - coc
       - advisor
+
+  contributor:
+    title: "Contributor to Commonhaus Project"
+    preamble: |
+      Contributors are individuals that have a recognized contributor role in one or more Commonhaus project.
+
+    attestations:
+      - project_governance
 
 agreement: By pressing the "I Agree" button, I affirm my commitment to these responsibilities.
 
@@ -153,4 +162,16 @@ attestations:
     version: "fe-2024-05-31"
     title: "ForwardEmail Aliases Terms of Service"
     body: |
-      I have read the [Forward Email Terms of Service](https://forwardemail.net/en/terms) and agree to adhere to its terms when using Commonhaus Foundation email addresses.
+      I have read the [Forward Email Terms of Service](https://forwardemail.net/en/terms) and agree to adhere
+      to its terms when using Commonhaus Foundation email addresses.
+
+  project_governance:
+    version: "pg-2025-05-06"
+    title: "Project Governance"
+    body: |
+      I understand that each Commonhaus Foundation project may have its own
+      governance structure and contribution guidelines.
+
+      I agree to abide by the specific governance requirements of any project
+      I contribute to, as well as the project's Code of Conduct (which may be
+      the same as or different from the Foundation's Code of Conduct).
