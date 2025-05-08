@@ -93,6 +93,7 @@ jbang:
 jreleaser:
   name: JReleaser
   repo: https://github.com/jreleaser
+  status: onboarding
   display:
     home: https://jreleaser.org/
     logo: https://jreleaser.org/images/jreleaser-duke.png
