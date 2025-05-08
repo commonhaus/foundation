@@ -126,16 +126,18 @@ This Transfer Agreement may be executed in counterparts, each of which shall be 
 By signing below, the parties agree to the terms and have executed this Asset Transfer Agreement as of the Effective Date.
 
 - **Assignor:** `__________________________________`  
-    `By:    ⎣_____________________________________________⎦`  
-    `Name:  ⎣_____________________________________________⎦`  
-    `Title: ⎣_____________________________________________⎦`  
-    `Date:  ⎣_____________________________________________⎦`  
+    &nbsp;  
+    `By:    ⎣  `  
+    `Name:  ⎣  `  
+    `Title: ⎣  `  
+    `Date:  ⎣  `  
 
 - **Sponsor:** *Commonhaus Foundation, Inc.*  
-    `By:    ⎣_____________________________________________⎦`  
-    `Name:  ⎣_____________________________________________⎦`  
-    `Title: ⎣_____________________________________________⎦`  
-    `Date:  ⎣_____________________________________________⎦`  
+    &nbsp;  
+    `By:    ⎣  `  
+    `Name:  ⎣  `  
+    `Title: ⎣  `  
+    `Date:  ⎣  `  
 
 ## Schedules
 
@@ -222,12 +224,14 @@ IN WITNESS WHEREOF, the said Assignor has caused this instrument to be executed 
 the _______ day of [month], [year].
 
 *Assignor:* `⎣________________________________________⎦`  
+&nbsp;  
 `By:    ⎣_____________________________________________⎦`  
 `Name:  ⎣_____________________________________________⎦`  
 `Title: ⎣_____________________________________________⎦`  
 `Date:  ⎣_____________________________________________⎦`  
 
 *Commonhaus Foundation, Inc.*  
+&nbsp;  
 `By:    ⎣_____________________________________________⎦`  
 `Name:  ⎣_____________________________________________⎦`  
 `Title: ⎣_____________________________________________⎦`  

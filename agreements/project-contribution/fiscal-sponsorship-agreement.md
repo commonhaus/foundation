@@ -1,23 +1,23 @@
 # Fiscal Sponsorship Agreement
 
 &nbsp;  
-**Effective Date:** `⎣______________________________⎦`  
+**Effective Date:** `⎣                              ⎦`  
 
 ---
 
 &nbsp;  
-**Project:** `⎣_____________________________________⎦` (“Project”)  
+**Project:** `⎣                                     ⎦` (“Project”)  
 
 *Principal Office or Primary Address:*  
-`  ⎣________________________________________________⎦`  
-`  ⎣________________________________________________⎦`  
-`  ⎣________________________________________________⎦`  
-`  ⎣________________________________________________⎦`  
+`  ⎣  `  
+`  ⎣  `  
+`  ⎣  `  
+`  ⎣  `  
 
 *Project Signatories:*
 
-- `_________________________________________`  
-- `_________________________________________`  
+- `⎣  `  
+- `⎣  `  
 
 ---
 
@@ -244,7 +244,7 @@ Timeliness is critical for this Agreement and all its provisions.
 
 If the Sponsor does not exercise its rights under this Agreement, it does not mean those rights are waived.
 
-### Entire Agreement and Amendments
+## Entire Agreement and Amendments
 
 This Agreement, including the incorporated [Terms and Conditions][], constitutes the complete agreement among the parties, superseding all prior agreements and understandings, both written and oral, regarding its subject matter.
 
@@ -255,30 +255,34 @@ This Agreement, including the incorporated [Terms and Conditions][], constitutes
 IN WITNESS WHEREOF, the parties have executed this Fiscal Sponsorship Agreement as of the Effective Date set forth above.
 
 - **Sponsor:** *Commonhaus Foundation, Inc.*  
-    `By:    ⎣_____________________________________________⎦`  
-    `Name:  ⎣_____________________________________________⎦`  
-    `Title: ⎣_____________________________________________⎦`  
-    `Date:  ⎣_____________________________________________⎦`  
+    &nbsp;  
+    `By:    ⎣  `  
+    `Name:  ⎣  `  
+    `Title: ⎣  `  
+    `Date:  ⎣  `  
 
 **SIGNATORIES**  
 
-- **Project Lead or Leadership Committee Member**  
-    `By:    ⎣_____________________________________________⎦`  
-    `Name:  ⎣_____________________________________________⎦`  
-    `Title: ⎣_____________________________________________⎦`  
-    `Date:  ⎣_____________________________________________⎦`  
-
-- **Appointed Project Representative**  
-    `By:    ⎣_____________________________________________⎦`  
-    `Name:  ⎣_____________________________________________⎦`  
-    `Title: ⎣_____________________________________________⎦`  
-    `Date:  ⎣_____________________________________________⎦`  
+- **Role**:  
+    &nbsp;  
+    `By:    ⎣  `  
+    `Name:  ⎣  `  
+    `Title: ⎣  `  
+    `Date:  ⎣  `  
 
 - **Role**:  
-    `By:    ⎣_____________________________________________⎦`  
-    `Name:  ⎣_____________________________________________⎦`  
-    `Title: ⎣_____________________________________________⎦`  
-    `Date:  ⎣_____________________________________________⎦`  
+    &nbsp;  
+    `By:    ⎣  `  
+    `Name:  ⎣  `  
+    `Title: ⎣  `  
+    `Date:  ⎣  `  
+
+- **Role**:  
+    &nbsp;  
+    `By:    ⎣  `  
+    `Name:  ⎣  `  
+    `Title: ⎣  `  
+    `Date:  ⎣  `  
 
 [Conflict of Interest Policy]: https://www.commonhaus.org/policies/conflict-of-interest/
 [Intellectual Property Policy]: https://www.commonhaus.org/policies/ip-policy/
