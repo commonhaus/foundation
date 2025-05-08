@@ -26,6 +26,7 @@ debezium:
 easymock:
   name: EasyMock
   repo: https://github.com/easymock/easymock
+  status: onboarding
   display:
     home: https://easymock.org/
     logo: https://github.com/easymock/easymock/blob/master/website/img/easymock-logo-md.png?raw=true
@@ -127,6 +128,7 @@ morphia:
 objenesis:
   name: Objenesis
   repo: https://github.com/easymock/objenesis
+  status: onboarding
   display:
     home: https://objenesis.org/
     logo: https://github.com/easymock/objenesis/blob/master/website/site/resources/objenesis.png?raw=true
@@ -171,6 +173,7 @@ slatedb:
 wildfly:
   name: WildFly
   repo: https://github.com/wildfly
+  status: onboarding
   display:
     home: https://wildfly.org/
     logo: https://github.com/wildfly/wildfly/blob/main/docs/src/main/asciidoc/images/splash_wildflylogo_small.png?raw=true
