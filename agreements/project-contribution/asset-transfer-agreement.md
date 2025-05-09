@@ -1,35 +1,35 @@
 # Asset Transfer Agreement
 
 &nbsp;  
-**Effective Date:** `__________________________`  
+**Effective Date:** `⎣                         `  
 
 ---
 
 &nbsp;  
-**Project:** `_________________________________` (“Project”)  
+**Project:** `⎣                                 ` (“Project”)  
 
 *Assignor(s):*
 
-- `__________________________________________________________`  
-- `__________________________________________________________`  
-- `__________________________________________________________`  
+- `⎣`  
+- `⎣`  
+- `⎣`  
 
 *Principal Office or Primary Address of Assignor(s):*
 
-`____________________________________________________________`  
-`____________________________________________________________`  
-`____________________________________________________________`  
-`____________________________________________________________`  
+`⎣`  
+`⎣`  
+`⎣`  
+`⎣`  
 
-*Assignor Email:* `________________________________________`
+*Assignor Email:* `⎣`
 
 ---
 
 **Sponsor:** *Commonhaus Foundation, Inc.*
 
 *Sponsor Address:*  
-6526 OLD BRICK ROAD, #120-175  
-WINDERMERE, FL 34786  
+`6526 OLD BRICK ROAD, #120-175`  
+`WINDERMERE, FL 34786`  
 
 *Sponsor Email:* `legal@commonhaus.org`
 
@@ -101,7 +101,8 @@ The specific assets being transferred under this Agreement are identified in the
 - [ ] Trademarks ([Schedule E](#schedule-e-trademarks))
 - [ ] Copyrights ([Schedule F](#schedule-f-registered-copyrights))
 - [ ] Other – Describe
-    `_____________________________________________________________________________________________________________`.
+    `⎣`
+    &nbsp;
 
 ### Effective Date
 
@@ -125,19 +126,19 @@ This Transfer Agreement may be executed in counterparts, each of which shall be 
 
 By signing below, the parties agree to the terms and have executed this Asset Transfer Agreement as of the Effective Date.
 
-- **Assignor:** `__________________________________`  
+- **Assignor:** `⎣`  
     &nbsp;  
-    `By:    ⎣  `  
-    `Name:  ⎣  `  
-    `Title: ⎣  `  
-    `Date:  ⎣  `  
+    `By:    ⎣`  
+    `Name:  ⎣`  
+    `Title: ⎣`  
+    `Date:  ⎣`  
 
 - **Sponsor:** *Commonhaus Foundation, Inc.*  
     &nbsp;  
-    `By:    ⎣  `  
-    `Name:  ⎣  `  
-    `Title: ⎣  `  
-    `Date:  ⎣  `  
+    `By:    ⎣`  
+    `Name:  ⎣`  
+    `Title: ⎣`  
+    `Date:  ⎣`  
 
 ## Schedules
 
@@ -148,7 +149,7 @@ This schedule identifies repository accounts (e.g., GitHub organizations, indivi
 As part of this transfer, the Assignor shall ensure that the Sponsor is granted administrative access to the listed accounts sufficient to support the Project's ongoing operation under the Sponsor's stewardship.
 The Assignor is not required to remove their own administrative access or participation.
 
-- __
+- ⎣  
 
 &nbsp;
 
@@ -158,7 +159,7 @@ This schedule identifies domain names necessary for the Project's public identit
 
 | Domain name | Registrar |
 | ----------- | --------- |
-| __          | __        |
+|             |           |
 
 &nbsp;
 
@@ -168,7 +169,7 @@ This schedule identifies hosting platforms, infrastructure services, and operati
 Assignor shall ensure that the Sponsor is granted administrative access sufficient to support ongoing stewardship.
 Assignor is not required to remove their own access or discontinue participation.
 
-- __
+- ⎣  
 
 &nbsp;
 
@@ -178,7 +179,7 @@ This schedule identifies social media and email accounts used for public communi
 Assignor shall ensure the Sponsor is granted administrative access sufficient to preserve continuity and governance.
 Assignor may retain access or continue co-administration unless otherwise agreed.
 
-- __
+- ⎣  
 
 &nbsp;
 
@@ -188,7 +189,7 @@ Assignor may retain access or continue co-administration unless otherwise agreed
 
 | Trademark | Country | Appln Date | Appln No | Reg Date | Reg No |
 | --------- | ------- | ---------- | -------- | -------- | ------ |
-| __        | __      | __         | __       | __       | __     |
+|           |         |            |          |          |        |
 
 &nbsp;
 
@@ -196,7 +197,7 @@ Assignor may retain access or continue co-administration unless otherwise agreed
 
 (List; should be the same as what is in the [Trademark List][])
 
-- __
+- ⎣  
 
 &nbsp;
 
@@ -204,7 +205,7 @@ Assignor may retain access or continue co-administration unless otherwise agreed
 
 | Title | Country | Reg No |
 | ----- | ------- | ------ |
-| __    | __      | __     |
+|       |         |        |
 
 &nbsp;
 
@@ -220,22 +221,21 @@ WHEREAS, Commonhaus Foundation, Inc., a Florida not for profit corporation with 
 
 NOW, THEREFORE, for good and valuable consideration, receipt of which is hereby acknowledged, said Assignor assigns unto the said Assignee as of [effective date of assignment], all right, title and interest in and to the said Marks and any applications therefor or registrations thereof,** including the right of priority, as shown on the attached Schedule A incorporated by reference herein, together with the goodwill of the business symbolized by the Marks and with the right to recover and have damages and profits for past infringement, if any.
 
-IN WITNESS WHEREOF, the said Assignor has caused this instrument to be executed by its duly authorized corporate officer as of
-the _______ day of [month], [year].
+IN WITNESS WHEREOF, the said Assignor has caused this instrument to be executed by its duly authorized corporate officer as of the `⎣         ` day of `⎣               `, `⎣      `.
 
-*Assignor:* `⎣________________________________________⎦`  
+*Assignor:* `⎣                                        `  
 &nbsp;  
-`By:    ⎣_____________________________________________⎦`  
-`Name:  ⎣_____________________________________________⎦`  
-`Title: ⎣_____________________________________________⎦`  
-`Date:  ⎣_____________________________________________⎦`  
+`By:    ⎣                                             `  
+`Name:  ⎣                                             `  
+`Title: ⎣                                             `  
+`Date:  ⎣                                             `  
 
 *Commonhaus Foundation, Inc.*  
 &nbsp;  
-`By:    ⎣_____________________________________________⎦`  
-`Name:  ⎣_____________________________________________⎦`  
-`Title: ⎣_____________________________________________⎦`  
-`Date:  ⎣_____________________________________________⎦`  
+`By:    ⎣                                             `  
+`Name:  ⎣                                             `  
+`Title: ⎣                                             `  
+`Date:  ⎣                                             `  
 
 [fs-landing]: https://www.commonhaus.org/policies/fiscal-sponsorship/
 [Terms and Conditions]: https://www.commonhaus.org/policies/fiscal-sponsorship/terms-and-conditions.html
