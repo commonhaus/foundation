@@ -112,6 +112,8 @@ egc-second:
     login: yrodiere
   - project: kroxylicious
     login: SamBarker
+  - project: wildfly
+    login: tomjenkinson
 
 #--------------------------------------------------------------------------
 # Advisory Board members (sponsor-appointed)
