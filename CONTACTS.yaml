@@ -82,6 +82,18 @@ egc:
     login: tristantarrant
   - project: kroxylicious
     login: k-wall
+  - project: ironjacamar
+    login: bstansberry
+  - project: jberet
+    login: bstansberry
+  - project: narayana
+    login: bstansberry
+  - project: resteasy
+    login: bstansberry
+  - project: undertow
+    login: bstansberry
+  - project: weld
+    login: bstansberry
   - project: wildfly
     login: bstansberry
 
@@ -112,6 +124,18 @@ egc-second:
     login: yrodiere
   - project: kroxylicious
     login: SamBarker
+  - project: ironjacamar
+    login: bstansberry
+  - project: jberet
+    login: bstansberry
+  - project: narayana
+    login: bstansberry
+  - project: resteasy
+    login: bstansberry
+  - project: undertow
+    login: bstansberry
+  - project: weld
+    login: bstansberry
   - project: wildfly
     login: tomjenkinson
 
