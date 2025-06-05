@@ -76,5 +76,5 @@ The Commonhaus Foundation uses the following unregistered trademarks:
 - WildFly Logo &trade;  [^1]  
     <img src="https://github.com/wildfly/wildfly/blob/main/docs/src/main/asciidoc/images/splash_wildflylogo_small.png?raw=true" alt="" height="30" />
 
-[^1]: Trademark is used by permission subject to the foundation's [bootstrapping agreement](https://github.com/commonhaus/foundation/blob/main/agreements/bootstrapping/bootstrapping.md).
+[^1]: Trademark is used by permission while the project is onboarding.
 [^2]: Duke is the Java mascot, ([BSD license](https://wiki.openjdk.org/display/duke/Main)). Use of this version of the logo is [CC-by-SA-4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.en).

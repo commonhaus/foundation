@@ -52,9 +52,8 @@ body:
 
   - type: textarea
     attributes:
-      label: Things that must be done (bootstrap phase)
+      label: Things to review before submitting
       description: |
-        This will serve as the to-do list for the bootstrapping phase.
         Please use this discussion to ask any clarifying questions you may have
         before completing these tasks.
       value: |
@@ -68,7 +67,7 @@ body:
             1. An updated [CONTACTS.yaml](https://github.com/commonhaus/foundation/blob/main/CONTACTS.yaml) that names your project representative in the EGC section
             2. An updated [PROJECTS.yaml](https://github.com/commonhaus/foundation/blob/main/PROJECTS.yaml) that provides details / describes your project
             3. An updated [TRADEMARKS.md](https://github.com/commonhaus/foundation/blob/main/TRADEMARKS.md) that adds your project name and project logo (if you have one).
-                Please include the footnote reference, as we are using your project name and logo with your permission until a formal agreement is in place and any assets are transferred.
+                Please include the footnote reference, as we are using your project name and logo with your permission until a formal agreement is in place and assets are transferred.
 
             The commit should be "Signed-off-by" your GH login (`git commit -s -m "<project> joining request, yyyy-mm-dd"`)
     validations:
