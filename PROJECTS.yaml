@@ -68,6 +68,16 @@ infinispan:
       It can be used either embedded or in client/server mode, accessed using either a native, high-performance protocol,
       or any HTTP, Redis or Memcached clients. Data can be queried via full-text and vector search capabilities.
 
+ironjacamar:
+  name: IronJacamar
+  repo: https://github.com/ironjacamar
+  status: onboarding
+  display:
+    home: https://www.ironjacamar.org/
+    logo: https://avatars.githubusercontent.com/u/4104144?s=200&v=4
+    display: >
+      IronJacamar is an implementation of the Jakarta Connectors specification.
+
 jackson:
   name: Jackson
   repo: https://github.com/FasterXML/jackson
@@ -89,6 +99,16 @@ jbang:
       Unlock Java's scripting potential. JBang makes it easy to run Java applications as scripts
       without the need for a project setup or build configuration. Ideal for quick experiments,
       prototypes, or utility scripts.
+
+jberet:
+  name: JBeret
+  repo: https://github.com/jberet
+  status: onboarding
+  display:
+    home: https://jberet.org/
+    logo: https://avatars.githubusercontent.com/u/4258415?s=200&v=4
+    display: >
+      JBeret is an implementation of Jakarta Batch. It is also included in WildFly to provide portable batch processing support in a Jakarta EE environment.
 
 jreleaser:
   name: JReleaser
@@ -126,6 +146,17 @@ morphia:
       Bridge the gap between Java and MongoDB. Morphia provides a lightweight type-safe mapping library
       to simplify working with MongoDB documents using Java.
 
+narayana:
+  name: Narayana
+  repo: https://github.com/jbosstm
+  status: onboarding
+  display:
+    home: https://www.narayana.io/
+    logo: https://avatars.githubusercontent.com/u/1272214?s=200&v=4
+    description: >
+      With over 30 years of expertise in the area of transaction processing, Narayana is the premier open source transaction manager.
+      It has been used extensively within industry and to drive standards including the OMG and Web Services.
+
 objenesis:
   name: Objenesis
   repo: https://github.com/easymock/objenesis
@@ -149,6 +180,18 @@ quarkus:
     description: >
       Quarkus is a Kubernetes Native Java stack tailored for OpenJDK HotSpot and GraalVM, crafted from the best of breed Java libraries and standards.
 
+resteasy:
+  name: RESTEasy
+  repo: https://github.com/resteasy
+  status: onboarding
+  display:
+    home: https://resteasy.dev/
+    logo: https://design.jboss.org/resteasy/logo/images/resteasy_logo_200x.png
+    description: >
+      RESTEasy provides various frameworks to help you build RESTful Web Services and RESTful Java applications.
+      It is an implementation of the Jakarta RESTful Web Services specification and also implements the
+      MicroProfile REST Client specification API.
+
 sdkman:
   name: SDKMAN!
   repo: https://github.com/sdkman
@@ -170,6 +213,28 @@ slatedb:
     logo-dark: https://github.com/slatedb/slatedb-website/blob/main/assets/svg/icon1%20white.svg?raw=true
     description: >
       SlateDB is a cloud native embedded log-structured merge tree (LSM) storage engine built on object storage.
+
+undertow:
+  name: Undertow
+  repo: https://github.com/undertow-io
+  status: onboarding
+  display:
+    home: https://undertow.io/
+    logo: https://avatars.githubusercontent.com/u/2001898?s=200&v=4
+    description: >
+      Undertow is a flexible, performant web server written in Java, providing both blocking and non-blocking APIs based on NIO.
+
+weld:
+  name: Weld
+  repo: https://github.com/weld
+  status: onboarding
+  display:
+    home: https://weld.cdi-spec.org
+    logo: https://weld.cdi-spec.org/images/weld_logo_450x.png
+    description: >
+      Weld is the premier implementation of Jakarta Contexts and Dependency Injection, a standard for dependency
+      injection and contextual lifecycle management and one of the most important and popular parts of Jakarta EE.
+      Weld is integrated into many EE application servers and can also be used in plain servlet containers or Java SE.
 
 wildfly:
   name: WildFly
