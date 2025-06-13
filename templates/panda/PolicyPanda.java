@@ -6,6 +6,7 @@
 //DEPS org.kohsuke:github-api:1.327
 //DEPS ./CommonhausPanda.java
 
+import java.io.FileNotFoundException;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.io.PrintWriter;
@@ -256,30 +257,47 @@ public class PolicyPanda extends CommonhausPanda implements Runnable {
                             "Branch %s is not protected".formatted(branch.getName())));
 
                     if (branch.isProtected()) {
+                        boolean allowForcePushes = true;
+                        boolean allowDeletions = true;
+                        boolean enforceAdmins = false;
+                        boolean codeOwnerReviewRequired = false;
+                        boolean reviewRequired = false;
                         try {
                             GHBranchProtection protection = branch.getProtection();
-                            addCheck(repo, new Check(!protection.getAllowForcePushes().isEnabled(), Kind.BONUS,
-                                    "Branch %s does not allow force pushes".formatted(branch.getName()),
-                                    "Branch %s allows force pushes".formatted(branch.getName())));
-                            addCheck(repo, new Check(!protection.getAllowDeletions().isEnabled(), Kind.BONUS,
-                                    "Branch %s does not allow deletions".formatted(branch.getName()),
-                                    "Branch %s allows deletions".formatted(branch.getName())));
-                            addCheck(repo, new Check(protection.getEnforceAdmins().isEnabled(), Kind.BONUS,
-                                    "Branch %s enforces admin rules".formatted(branch.getName()),
-                                    "Branch %s does not enforce admin rules".formatted(branch.getName())));
+                            allowForcePushes = protection.getAllowForcePushes().isEnabled();
+                            allowDeletions = protection.getAllowDeletions().isEnabled();
+                            enforceAdmins = protection.getEnforceAdmins().isEnabled();
                             var requiredReviews = branch.getProtection().getRequiredReviews();
                             if (codeowners != null) {
-                                addCheck(repo, new Check(requiredReviews != null && requiredReviews.isRequireCodeOwnerReviews(), Kind.BONUS,
-                                        "Branch %s requires reviews from code owners".formatted(branch.getName()),
-                                        "Branch %s does not require reviews from code owners".formatted(branch.getName())));
+                                codeOwnerReviewRequired = requiredReviews != null &&requiredReviews.isRequireCodeOwnerReviews();
+                                reviewRequired = codeOwnerReviewRequired;
                             } else {
-                                addCheck(repo, new Check(requiredReviews != null && protection.getRequiredReviews().getRequiredReviewers() > 0, Kind.BONUS,
-                                        "Branch %s requires code review".formatted(branch.getName()),
-                                        "Branch %s does not require code review".formatted(branch.getName())));
+                                reviewRequired = requiredReviews != null && protection.getRequiredReviews().getRequiredReviewers() > 0;
                             }
+                        } catch (FileNotFoundException ignore) {
+                            // This is 404 response. The protection might be set to true, but protection: { enabled: false}
+                            // might be set. We will assume the defaults
                         } catch (IOException e) {
                             throw new UncheckedIOException(
                                     "Failed to get branch protection for %s".formatted(branch.getName()), e);
+                        }
+                        addCheck(repo, new Check(!allowForcePushes, Kind.BONUS,
+                                "Branch %s does not allow force pushes".formatted(branch.getName()),
+                                "Branch %s allows force pushes".formatted(branch.getName())));
+                        addCheck(repo, new Check(!allowDeletions, Kind.BONUS,
+                                "Branch %s does not allow deletions".formatted(branch.getName()),
+                                "Branch %s allows deletions".formatted(branch.getName())));
+                        addCheck(repo, new Check(enforceAdmins, Kind.BONUS,
+                                "Branch %s enforces admin rules".formatted(branch.getName()),
+                                "Branch %s does not enforce admin rules".formatted(branch.getName())));
+                        if (codeOwnerReviewRequired) {
+                            addCheck(repo, new Check(reviewRequired, Kind.BONUS,
+                                    "Branch %s requires reviews from code owners".formatted(branch.getName()),
+                                    "Branch %s does not require reviews from code owners".formatted(branch.getName())));
+                        } else {
+                            addCheck(repo, new Check(reviewRequired, Kind.BONUS,
+                                    "Branch %s requires code review".formatted(branch.getName()),
+                                    "Branch %s does not require code review".formatted(branch.getName())));
                         }
                     }
                 });
