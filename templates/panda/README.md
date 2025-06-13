@@ -72,6 +72,7 @@ All reports are saved to the `reports` directory by default.
 | `-o, --output-dir` | Output directory for reports | `"reports"` |
 | `-p, --project-id` | Project ID to use in YAML reports | Organization name (lowercase) |
 | `-s, --skip-policy-check` | Skip policy compliance check | `false` |
+| `-i, --include-archived` | Included repositories that are archived | `false` |
 | `-a, --init-asset-discovery` | Generate asset discovery document | `false` |
 | `-g, --init-org-settings` | Generate organization settings report | `false` |
 | `-v, --verbose` | Verbosity level (off, info, fine, finer, finest, all) | `"info"` |

@@ -19,7 +19,6 @@ import java.util.stream.Stream;
 import org.kohsuke.github.GHBranchProtection;
 import org.kohsuke.github.GHContent;
 import org.kohsuke.github.GHOrganization;
-import org.kohsuke.github.GHOrganization.Role;
 import org.kohsuke.github.GHRepository;
 import org.kohsuke.github.GitHub;
 
@@ -68,6 +67,10 @@ public class PolicyPanda extends CommonhausPanda implements Runnable {
 
     @Option(names = { "-p", "--project-id" }, description = "Project ID to use in the YAML")
     private String projectId;
+
+    @Option(names = {"-i",
+            "--include-archived"}, description = "Include repositories in the organization that have been archived", defaultValue = "false")
+    private boolean includeArchived;
 
     @Option(names = { "-s",
             "--skip-policy-check" }, description = "Skip policy compliance check", defaultValue = "false")
@@ -125,6 +128,7 @@ public class PolicyPanda extends CommonhausPanda implements Runnable {
             List<GHRepository> filteredRepos = allRepos.stream()
                     .filter(repo -> !repo.getName().equals(".github"))
                     .filter(repo -> repoPattern.matcher(repo.getName()).matches())
+                    .filter(repo -> !(!includeArchived && repo.isArchived()))
                     .toList();
             log.info("Found " + filteredRepos.size() + " repositories matching the pattern");
 
