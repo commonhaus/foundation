@@ -157,21 +157,26 @@ public class PolicyPanda extends CommonhausPanda implements Runnable {
     private void runPolicyCheck(List<GHRepository> repos) throws IOException {
         log.info("🌳 Running policy check...");
 
-        CommunityFiles orgFiles = findCommunityFiles(orgDotGithubRepo);
-        if (orgFiles.governance() != null) {
-            addCheck(orgDotGithubRepo,
-                    new Item("Organization %s file found"
-                            .formatted(orgFiles.governance().getName())));
-        }
-        if (orgFiles.codeOfConduct() != null) {
-            addCheck(orgDotGithubRepo,
-                    new Item("Organization %s file found"
-                            .formatted(orgFiles.codeOfConduct().getName())));
-        }
-        if (orgFiles.contributing() != null) {
-            addCheck(orgDotGithubRepo,
-                    new Item("Organization %s file found"
-                            .formatted(orgFiles.contributing().getName())));
+        CommunityFiles orgFiles;
+        if (orgDotGithubRepo != null) {
+            orgFiles = findCommunityFiles(orgDotGithubRepo);
+            if (orgFiles.governance() != null) {
+                addCheck(orgDotGithubRepo,
+                        new Item("Organization %s file found"
+                                .formatted(orgFiles.governance().getName())));
+            }
+            if (orgFiles.codeOfConduct() != null) {
+                addCheck(orgDotGithubRepo,
+                        new Item("Organization %s file found"
+                                .formatted(orgFiles.codeOfConduct().getName())));
+            }
+            if (orgFiles.contributing() != null) {
+                addCheck(orgDotGithubRepo,
+                        new Item("Organization %s file found"
+                                .formatted(orgFiles.contributing().getName())));
+            }
+        } else {
+            orgFiles = new CommunityFiles(null, null, null);
         }
 
         // Process each repository
