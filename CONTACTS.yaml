@@ -73,7 +73,7 @@ egc:
     login: velo
     bio: Java geek and open-source enthusiast, leading projects here and there. Feign lead, QueryDSL stalwart, and Commonhaus advocate.
   - project: quarkus
-    login: dandreadis
+    login: gsmet
   - project: slatedb
     login: criccomini
   - project: debezium
@@ -119,7 +119,7 @@ egc-second:
   - project: jbang
     login: quintesse
   - project: quarkus
-    login: maxandersen
+    login: sanne
   - project: hibernate
     login: yrodiere
   - project: kroxylicious
