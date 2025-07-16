@@ -119,7 +119,7 @@ egc-second:
   - project: jbang
     login: quintesse
   - project: quarkus
-    login: maxandersen
+    login: Sanne
   - project: hibernate
     login: yrodiere
   - project: kroxylicious
