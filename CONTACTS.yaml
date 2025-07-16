@@ -138,6 +138,8 @@ egc-second:
     login: bstansberry
   - project: wildfly
     login: tomjenkinson
+  - project: debezium
+    login: jjpbolano
 
 #--------------------------------------------------------------------------
 # Advisory Board members (sponsor-appointed)
