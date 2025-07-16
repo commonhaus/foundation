@@ -50,7 +50,7 @@ The Commonhaus Foundation uses the following unregistered trademarks:
 - [Commonhaus Foundation Logo](https://github.com/commonhaus/artwork/blob/main/foundation/brand/README.md) &trade;  
     <img src="https://github.com/commonhaus/artwork/blob/main/foundation/brand/svg/CF_logo_horizontal_single_default.svg?raw=true" alt="" height="30" />
 - Debezium Logo &trade; [^1]  
-    <img src="https://debezium.io/assets/images/color_white_debezium_type_600px.svg" alt="" height="30" />
+    <img src="https://debezium.io/assets/images/color_black_debezium_type_600px.svg" alt="" height="30" />
 - EasyMock Logo &trade; [^1]  
   <img src="https://github.com/easymock/easymock/blob/master/website/img/easymock-logo-md.png?raw=true" alt="" height="30" />
 - Hibernate Logo &trade; [^1]  
