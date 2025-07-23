@@ -75,7 +75,7 @@ ironjacamar:
   display:
     home: https://www.ironjacamar.org/
     logo: https://avatars.githubusercontent.com/u/4104144?s=200&v=4
-    display: >
+    description: >
       IronJacamar is an implementation of the Jakarta Connectors specification.
 
 jackson:
@@ -107,7 +107,7 @@ jberet:
   display:
     home: https://jberet.org/
     logo: https://avatars.githubusercontent.com/u/4258415?s=200&v=4
-    display: >
+    description: >
       JBeret is an implementation of Jakarta Batch. It is also included in WildFly to provide portable batch processing support in a Jakarta EE environment.
 
 jreleaser:
