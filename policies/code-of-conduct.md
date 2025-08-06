@@ -49,11 +49,9 @@ If you're interested in an introduction to diversity, inclusion, and unconscious
 
 - [Inclusive Speaker Orientation (Linux Foundation)][2]
 - [Inclusion at Scale in the Mozilla and Kubernetes Open Source Communities (The New Stack)][3]
-- [We See You! Reaching Diverse Audiences in FOSS][4]
 
 [2]: https://training.linuxfoundation.org/training/inclusive-speaker-orientation/
 [3]: https://thenewstack.io/inclusion-at-scale-in-the-mozilla-and-kubernetes-open-source-communities/
-[4]: https://medium.com/mozilla-open-innovation/we-see-you-reaching-diverse-audiences-in-foss-4e83efc86425
 
 [^1]: "A troll is Internet slang for a person who intentionally tries to instigate conflict, hostility, or arguments in an online social community...Trolls often use inflammatory messages to provoke emotional responses ...disrupting otherwise civil discussion." <https://edu.gcfglobal.org/en/thenow/what-is-trolling/1/>
 
