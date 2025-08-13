@@ -41,6 +41,10 @@ The tier is assigned based on payment amount and applies for the full term.
 All sponsorship payments are final and non-refundable.
 If canceled early, benefits continue until term end without refunds or adjustments.
 
+You may allocate your financial contribution between the Foundation and one or more specific Projects.
+We will treat the designated portion(s) of your contribution as restricted to the listed project(s) under our Fiscal Sponsorship Agreement.
+Designations will be acknowledged in recognition materials, and your logos and descriptions may appear on the supported Project’s website(s).
+
 ### Payment Options
 
 *Billing Contact* (if different from Primary):  
@@ -57,6 +61,7 @@ Make your sponsorship payment directly through [Open Collective][]:
 
 - Payment is charged annually
 - Modify or cancel anytime through your Open Collective account
+- Select the Commonhaus Foundation or specific Project when making payment
 - Request an invoice if needed for your records
 
 #### Option 2: Invoice-based Payment
@@ -68,16 +73,24 @@ Standard payment term is 30 days unless otherwise arranged.
 **Sponsorship Amount:** `⎣____________________________________⎦`  
 &nbsp;  
 
+**Designated Project Support (optional):**  
+
+If you would like your financial contribution to be allocated between the Foundation and one or more specific Commonhaus Projects, please specify the allocation below (in percentages or dollar amounts):  
+
+Foundation (general support):  ⎣_________% / $_________⎦  
+Project 1:  ⎣_________________________________________⎦ % / $ ⎣_________⎦  
+Project 2:  ⎣_________________________________________⎦ % / $ ⎣_________⎦  
+
 ### Advisory Board Representatives
 
 We value the industry perspective that our sponsors bring to the foundation.
 
-Gold and Silver tier sponsors can appoint two Advisory Board representatives[^1].
+Gold and Silver tier sponsors can appoint two Advisory Board representatives[^ab].
 
 - Representatives serve during your sponsorship term.
 - Your Primary Contact can request updates anytime as your organization's needs change.
 
-[^1]: [Advisory Board](https://www.commonhaus.org/bylaws/cf-advisory-board.html) representatives meet semi-annually with the CF Council to provide industry perspective and help align Foundation initiatives with community needs.
+[^ab]: [Advisory Board](https://www.commonhaus.org/bylaws/cf-advisory-board.html) representatives meet semi-annually with the CF Council to provide industry perspective and help align Foundation initiatives with community needs.
 
 ## Infrastructure or Service Provider
 
@@ -92,7 +105,8 @@ Organizations can support the Commonhaus Foundation by providing infrastructure,
 We're proud to recognize our sponsors!
 
 - Your logos and descriptions will appear on our website and in our Annual Report according to your [tier benefits][].
-- These can be updated anytime through your Primary Contact to ensure they best represent your organization. [^update]
+- Logos and descriptions can be updated anytime through your Primary Contact to ensure they best represent your organization. [^update]
+- Sponsorships may be designated to support one or more specific Commonhaus Projects. Such designations will be acknowledged in recognition materials, and logos and descriptions may also appear on the supported Project’s website(s).
 
 **Logo Files** (URL or attached file name):  
 
@@ -134,7 +148,7 @@ Help us properly tag your organization when sharing sponsorship news:
 
 ## Agreement
 
-Our organization agrees to these terms and authorizes Commonhaus Foundation to use our logo to recognize our sponsorship.
+Our organization agrees to these terms and authorizes the Commonhaus Foundation to display our name, logo, and any descriptive text we provide on the Commonhaus website and, if we designate support for a specific Commonhaus Project, on that Project’s website.
 
 `Signature: ⎣_____________________________________________⎦`  
 `Name:      ⎣_____________________________________________⎦`  
