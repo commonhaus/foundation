@@ -18,26 +18,29 @@ Each annual sponsorship provides these benefits:
 
 - Logo recognition on our website and promotional materials
 - Public acknowledgment through our social media channels
+- If sponsorship is designated to support a specific Commonhaus Project, your logo may also appear on that Project’s website
 
 **Gold** ($25k USD)
 
-- Two (2) seats on the Advisory Board[^1]
-- Premium placement on our website sponsors page and in the Annual Report
+- Two (2) seats on the Advisory Board[^ab]
+- Premium placement on our website sponsors page and in the Annual Report[^recognition]
     - Website: Full row width, random placement
     - Annual Report: Full row width, alphabetical order
     - Annual Report option: Full-page promotional spotlight OR standard logo placement
     - Logo dimensions: 150px height
     - Extended description of company, product, or service (up to 480 characters excluding whitespace and markup)
+- Eligible for commercial support listing if applicable[^commercial].
 - Joint press release announcing sponsorship
 
 **Silver** ($15k USD)
 
-- Two (2) seats on the Advisory Board[^1]
-- Featured placement on our website sponsors page and in the Annual Report
+- Two (2) seats on the Advisory Board[^ab]
+- Featured placement on our website sponsors page and in the Annual Report[^recognition]
     - Website and Annual Report: Half row width, alphabetical order
     - Annual Report option: Half-page promotional spotlight OR standard logo placement
     - Logo dimensions: 150px height, max-width: 300px
     - Short description of company, product, or service (up to 120 characters excluding whitespace and markup)
+- Eligible for commercial support listing if applicable[^commercial].
 
 **Bronze** ($5k USD)
 
@@ -61,4 +64,6 @@ They are featured on a dedicated page on our website and in the Annual Report
 - Logo dimensions: 150px height, max-width: 300px
 - Short description of company and service provided (up to 240 characters excluding whitespace and markup)
 
-[^1]: [Advisory Board](../../bylaws/5-cf-advisory-board.md) representatives meet semi-annually with the CF Council to provide industry perspective and help align Foundation initiatives with community needs.
+[^ab]: [Advisory Board](../../bylaws/5-cf-advisory-board.md) representatives meet semi-annually with the CF Council to provide industry perspective and help align Foundation initiatives with community needs.
+[^recognition]: Gold and Silver tier sponsors may provide descriptive text for publication on the Commonhaus website. Your logo and descriptive text may also be published on the designated Project’s website at our discretion.
+[^commercial]: If you provide commercial support for a Commonhaus Project and are a Gold or Silver tier sponsor, your commercial support will be listed on both the Commonhaus and designated Project websites.
