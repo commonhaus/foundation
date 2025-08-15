@@ -66,4 +66,4 @@ They are featured on a dedicated page on our website and in the Annual Report
 
 [^ab]: [Advisory Board](../../bylaws/5-cf-advisory-board.md) representatives meet semi-annually with the CF Council to provide industry perspective and help align Foundation initiatives with community needs.
 [^recognition]: Gold and Silver tier sponsors may provide descriptive text for publication on the Commonhaus website. Your logo and descriptive text may also be published on the designated Project’s website at our discretion.
-[^commercial]: If you provide commercial support for a Commonhaus Project and are a Gold or Silver tier sponsor, your commercial support will be listed on both the Commonhaus and designated Project websites.
+[^commercial]: Only commercial support offerings from Gold or Silver tier sponsors are eligible for display on Foundation and Project websites. Commonhaus values shared stewardship for the long-term health of projects, and each project may choose to display a sponsor’s commercial offering based on the sponsor’s participation and contributions to the project. Listings are not advertisements or endorsements and will not include value-oriented language.
