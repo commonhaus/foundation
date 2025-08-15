@@ -4,12 +4,11 @@ This document provides practical guidance on the proper use of the Commonhaus Fo
 
 These guidelines are intended to support respectful and legally compliant use of the Foundation’s trademarks, preserving their integrity and meaning for our community.
 
-- [Trademark Information and Guidelines](#trademark-information-and-guidelines)
-  - [Proper trademark use](#proper-trademark-use)
+- [Proper trademark use](#proper-trademark-use)
     - [Trademark marking and legends](#trademark-marking-and-legends)
     - [Use of trademarks in text](#use-of-trademarks-in-text)
     - [Use of Logos](#use-of-logos)
-  - [General information about Trademarks](#general-information-about-trademarks)
+- [General information about Trademarks](#general-information-about-trademarks)
     - [What is a trademark?](#what-is-a-trademark)
     - [What is "likelihood of confusion"?](#what-is-likelihood-of-confusion)
     - [What is "nominative" use?](#what-is-nominative-use)
