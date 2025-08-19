@@ -9,9 +9,9 @@ voting group: @...
 
 Do one of the following:
 
-- Approve the PR or react with 👍 (:+1:) if it looks good to you
-- Review with Comments or react with 👀 (:eyes:) if you're "ok" with it (it may not be your favorite)
-- If you think it needs discussion or revision
+- React with 👍 (:+1:) or Approve a review  if it looks good to you
+- React with 👀 (:eyes:) if you're "ok" with it (it may not be your favorite)
+- If you think it needs discussion or revision:
     - Create a review, add your comments and require changes
     - Use the +- button to make a suggestion (instead of just adding a comment).
 
