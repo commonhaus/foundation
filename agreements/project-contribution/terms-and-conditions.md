@@ -166,6 +166,12 @@ Contributions or donations held in support of these purposes must be transferred
 These identifiers must meet the Sponsor’s quality and trademark standards and be approved before use.
 Once approved, these identifiers will be added to the Sponsor’s [Trademark List][trademarks], with all goodwill benefiting the Sponsor.
 
+Trademark-related costs, including registration, renewal, and protection, are project expenses.
+Projects are expected to help ensure there are sufficient funds to maintain any registered trademarks associated with their work.
+These costs are normally paid from the Project’s restricted fund or by sponsors.
+All trademark-related legal work must be coordinated through CF’s designated contacts.
+Details are provided in the [Trademark Management and Costs Policy](../policies/trademark-management-costs.md).
+
 ## Financial Management
 
 The Sponsor will manage funds on behalf of the Project in compliance with its tax-exempt status (501(c)(6)).

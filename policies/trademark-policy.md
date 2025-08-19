@@ -7,28 +7,27 @@ Our trademarks—including the Commonhaus Foundation name, logo, and any project
 >
 > Trademark law can be ambiguous, so we aim to provide enough clarity for you to understand whether we will consider your use acceptable, either because it is licensed or it is non-infringing.
 
-- [Trademark Policy](#trademark-policy)
-  - [Purpose and Scope](#purpose-and-scope)
-  - [Commitment to Open Source principles](#commitment-to-open-source-principles)
-  - [Covered Trademarks](#covered-trademarks)
-  - [Trademark usage guidelines](#trademark-usage-guidelines)
-  - [Restrictions on Similar Trademarks](#restrictions-on-similar-trademarks)
+- [Purpose and Scope](#purpose-and-scope)
+- [Commitment to Open Source principles](#commitment-to-open-source-principles)
+- [Covered Trademarks](#covered-trademarks)
+- [Trademark usage guidelines](#trademark-usage-guidelines)
+- [Restrictions on Similar Trademarks](#restrictions-on-similar-trademarks)
     - [Uses we consider non-infringing](#uses-we-consider-non-infringing)
-      - [Distribution of unmodified source code or artifacts packaged by us](#distribution-of-unmodified-source-code-or-artifacts-packaged-by-us)
-      - [Distribution of modified source code or artifacts packaged by you](#distribution-of-modified-source-code-or-artifacts-packaged-by-you)
-      - [Statements about compatibility, interoperability or derivation](#statements-about-compatibility-interoperability-or-derivation)
-      - [Use of trademarks to show community affiliation](#use-of-trademarks-to-show-community-affiliation)
-      - [Websites](#websites)
-      - [Publications and presentations](#publications-and-presentations)
-      - [Events](#events)
+        - [Distribution of unmodified source code or artifacts packaged by us](#distribution-of-unmodified-source-code-or-artifacts-packaged-by-us)
+        - [Distribution of modified source code or artifacts packaged by you](#distribution-of-modified-source-code-or-artifacts-packaged-by-you)
+        - [Statements about compatibility, interoperability or derivation](#statements-about-compatibility-interoperability-or-derivation)
+        - [Use of trademarks to show community affiliation](#use-of-trademarks-to-show-community-affiliation)
+        - [Websites](#websites)
+        - [Publications and presentations](#publications-and-presentations)
+        - [Events](#events)
     - [Uses for which we are granting a license](#uses-for-which-we-are-granting-a-license)
-      - [User groups](#user-groups)
-      - [Promotional goods](#promotional-goods)
+        - [User groups](#user-groups)
+        - [Promotional goods](#promotional-goods)
     - [Uses we consider infringing without seeking further permission from us](#uses-we-consider-infringing-without-seeking-further-permission-from-us)
     - [Reporting Abuse or Seeking Information](#reporting-abuse-or-seeking-information)
-  - [Policy modifications and updates](#policy-modifications-and-updates)
-  - [Contact and further information](#contact-and-further-information)
-  - [Attribution](#attribution)
+- [Policy modifications and updates](#policy-modifications-and-updates)
+- [Contact and further information](#contact-and-further-information)
+- [Attribution](#attribution)
 
 ## Purpose and Scope
 
@@ -233,4 +232,3 @@ This work is inspired by the Model Trademark Guidelines, available at <http://ww
 [CONTACTS.yaml]: https://github.com/commonhaus/foundation/blob/main/CONTACTS.yaml
 [amendment process]: ../bylaws/9-amendments.md
 [Brand Standards]: https://github.com/commonhaus/artwork
-[Trademark List]: https://www.commonhaus.com/trademarks
