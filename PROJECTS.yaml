@@ -81,6 +81,7 @@ ironjacamar:
 jackson:
   name: Jackson
   repo: https://github.com/FasterXML/jackson
+  status: onboarding
   display:
     home: https://github.com/FasterXML/jackson
     logo: https://github.com/FasterXML.png
