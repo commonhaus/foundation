@@ -46,6 +46,20 @@ Explanation of the difference between DCO and CLA: <https://www.consortiuminfo.o
     Feel free to open a discussion topic if you have questions.
     ```
 
+## Compliance with Laws and Regulations
+
+Projects should also include a short compliance statement in their `CONTRIBUTING.md`.
+As Commonhaus is a U.S.-based entity, projects must comply with U.S. export control and sanctions laws.
+Here is a recommended example for project documentation:
+
+```md
+### Compliance with Laws and Regulations
+
+All contributions must comply with applicable laws and regulations, including U.S. export control and sanctions restrictions.
+For background, see the Linux Foundation’s guidance:
+[Navigating Global Regulations and Open Source: US OFAC Sanctions](https://www.linuxfoundation.org/blog/navigating-global-regulations-and-open-source-us-ofac-sanctions).
+```
+
 ## Policy Panda
 
 This repository provides [some scripts](./panda/) to help with onboarding checks.
