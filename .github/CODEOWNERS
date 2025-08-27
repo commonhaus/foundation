@@ -4,10 +4,9 @@
 # a pull request.
 *             @commonhaus/cf-ops
 
-*.md          @commonhaus/cf-egc
 agreements/*  @commonhaus/cf-council
-bylaws/*      @commonhaus/cf-egc
-policies/*    @commonhaus/cf-egc
-templates/*   @commonhaus/cf-egc
+bylaws/*      @commonhaus/cf-council
+policies/*    @commonhaus/cf-council
+templates/*   @commonhaus/cf-egc @commonhaus/cf-egc-second
 CONTACTS.yaml @commonhaus/cf-council
 PROJECTS.yaml @commonhaus/cf-council
