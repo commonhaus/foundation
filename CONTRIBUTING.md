@@ -7,7 +7,7 @@ Thanks for considering a contribution to the Commonhaus Foundation (CF) reposito
 All contributions to this repository are licensed under the [MIT License](https://opensource.org/license/mit), version 2.0 or later, or, if another license is specified as governing the file or directory being modified, such other license.
 
 All contributions are subject to the [Developer Certificate of Origin (DCO)](https://developercertificate.org/).
-The DCOtext is also included verbatim in the [dco.txt](dco.txt) file in the root directory of the repository.
+The DCO text is also included verbatim in the [dco.txt](dco.txt) file in the root directory of the repository.
 
 ### Compliance with Laws and Regulations
 
