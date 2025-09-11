@@ -5,6 +5,15 @@ We don't want project onboarding to be a burden, but we have a few requirements 
 - `CODE_OF_CONDUCT.md`[^1]: Projects must define a Code of Conduct. They can use the foundation's [Code of Conduct policy][coc_policy], or define their own. See [CODE_OF_CONDUCT.md][COC] and the [Project CODE_OF_CONDUCT.md template][COC_TPL] for examples.
 - `GOVERNANCE.md`[^1]: Projects must explain how decisions are made. See [Governance][GOV] and the [Project GOVERNANCE.md template][GOV_TPL] for examples.
 - `CONTRIBUTING.md`[^1]: Projects must explain how to make contributions. This file must include references to [required contributor agreements](#contributor-agreements). See [CONTRIBUTING.md][CONTRIB] for an example, or [Wrangling Web Contributions: How to Build a CONTRIBUTING.md][mozilla] for other ideas.
+- `SECURITY.md`[^1]: Projects should define how they handle security reports.
+    See the foundation’s [Security Policy][SEC] and the [Project SECURITY.md template][SEC_TPL] for examples.
+    Projects are encouraged to state any specific maintainer expectations, such as:
+        - Whether they accept embargoed reports, and under what conditions
+        - Expected response times (e.g., acknowledgement, assessment, patching)
+        - Scope of issues considered (e.g., critical only vs. all severities)
+        - Any limits (e.g., older releases not patched, CVEs not guaranteed)
+
+    This makes the GitHub “Security” link in the repo sidebar useful to reporters and sets clear expectations for maintainers and users.
 
 [^1]: This file can also be defined in the `.github` repository of an organization. Other file extensions and markup syntax is fine (.adoc, .txt, .rst) provided the source is human readable.
 
@@ -19,6 +28,8 @@ We further recommend:
 [COC_TPL]: ../templates/CODE_OF_CONDUCT.md
 [GOV]: ../GOVERNANCE.md
 [GOV_TPL]: ../templates/GOVERNANCE.md
+[SEC]: https://github.com/commonhaus/.github/blob/main/SECURITY.md
+[SEC_TPL]: ../templates/SECURITY.md
 [CONTRIB]: ../CONTRIBUTING.md
 [mozilla]: https://mozillascience.github.io/working-open-workshop/contributing/
 
