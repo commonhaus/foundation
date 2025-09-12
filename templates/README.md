@@ -6,7 +6,7 @@ We don't want project onboarding to be a burden, but we have a few requirements 
 - `GOVERNANCE.md`[^1]: Projects must explain how decisions are made. See [Governance][GOV] and the [Project GOVERNANCE.md template][GOV_TPL] for examples.
 - `CONTRIBUTING.md`[^1]: Projects must explain how to make contributions. This file must include references to [required contributor agreements](#contributor-agreements). See [CONTRIBUTING.md][CONTRIB] for an example, or [Wrangling Web Contributions: How to Build a CONTRIBUTING.md][mozilla] for other ideas.
 - `SECURITY.md`[^1]: Projects should define how they handle security reports.
-    See the foundation’s [Security Policy][SEC] and the [Project SECURITY.md template][SEC_TPL] for examples.
+    See the Foundation’s [Security Policy][SEC] and the [Project SECURITY.md template][SEC_TPL] for examples.
     Projects are encouraged to state any specific maintainer expectations, such as:
         - Whether they accept embargoed reports, and under what conditions
         - Expected response times (e.g., acknowledgement, assessment, patching)
