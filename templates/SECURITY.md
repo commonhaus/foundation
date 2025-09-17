@@ -57,7 +57,7 @@ A short embargo may be considered in exceptional cases (e.g., downstream user pr
 
 Reporters should understand that:
 
-- This project is maintained by **[volunteers / sponsored contributors / commercial entity]**.
+- This project's security reports are handled by **[volunteers / sponsored contributors / commercial entity]**.
 - Reports with clear steps, proof-of-concept, or test cases help us respond faster.
 - Respecting maintainer capacity and workload benefits the community overall.
 
