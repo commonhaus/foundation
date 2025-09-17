@@ -42,8 +42,8 @@ When reporting, please include:
 
 We aim to handle reports quickly and responsibly.
 
-- Our goal is to acknowledge reports within **[X business days]**.
-- We will provide an initial assessment within **[Y business days]**, as capacity allows.
+- Our goal is to acknowledge reports as soon as possible.
+- We will provide an initial assessment as capacity allows.
 - Progress updates will be shared until resolution.
 - Disclosure will be coordinated with the reporter, and credit given unless anonymity is requested.
 
