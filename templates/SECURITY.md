@@ -36,6 +36,7 @@ When reporting, please include:
 - Steps to reproduce (ideally a minimal proof-of-concept)
 - Assessment of potential impact
 - Your contact information
+- Any specific requests, such as anonymity for you and/or the organization you represent
 
 ### Maintainer Commitments
 
