@@ -21,6 +21,8 @@ Every contribution helps strengthen the foundation. It allows us to support more
 or
 <a href="https://opencollective.com/commonhaus-foundation/donate" class="text button">Donate to our Collective</a>
 
+<sub>*Note: GitHub sponsors only supports monthly or one-time contributions, Open Collective supports annual contributions as well*</sub>
+
 ### For Individuals: Become a Member
 
 Commonhaus is built by and for the people who care about open source — maintainers, contributors, documentarians, organizers, and advocates.
