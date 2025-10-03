@@ -34,6 +34,15 @@ teamMembership:
         teams:
           - commonhaus/advisory-board
 
+# Domain management configuration
+domainManagement:
+  dryRun: true
+
+  # Domains for this project
+  domains:
+    - name: commonhaus.org
+    - name: commonhaus.dev
+
 emailNotifications:
   errors:
     - automation@commonhaus.org
