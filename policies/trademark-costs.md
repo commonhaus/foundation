@@ -55,7 +55,7 @@ Trademark-related costs may include:
 ### Payment Responsibility
 
 Projects are expected to help ensure there are sufficient funds to maintain any registered trademarks associated with their work.
-Trademark-related costs are normally paid from the Project’s restricted fund under its [Fiscal Sponsorship Agreement](../fiscal-sponsorship/terms-and-conditions.md).
+Trademark-related costs are normally paid from the Project’s restricted fund under its [Fiscal Sponsorship Agreement](https://www.commonhaus.org/policies/trademark-policy/guidelines.html).
 Sponsors may also choose to cover these costs on behalf of a Project.
 
 CF retains legal representation for trademark matters.
@@ -83,7 +83,7 @@ Trademark legal work follows a quote process:
 
 ## Related Policies
 
-- [Trademark Policy](./trademark-policy.md)  
-- [Trademark Guidelines](./trademark-guidelines.md)  
-- [Fiscal Sponsorship Agreement](../fiscal-sponsorship/terms-and-conditions.md)  
-- [Asset Transfer Agreement](../asset-transfer-agreement.md)  
+- [Trademark Policy](https://www.commonhaus.org/policies/trademark-policy/)  
+- [Trademark Guidelines](https://www.commonhaus.org/policies/trademark-policy/guidelines.html)  
+- [Fiscal Sponsorship Agreement](https://www.commonhaus.org/policies/fiscal-sponsorship/)  
+- [Asset Transfer Agreement](https://www.commonhaus.org/policies/fiscal-sponsorship/)  

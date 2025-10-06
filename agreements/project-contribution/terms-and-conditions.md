@@ -170,7 +170,7 @@ Trademark-related costs, including registration, renewal, and protection, are pr
 Projects are expected to help ensure there are sufficient funds to maintain any registered trademarks associated with their work.
 These costs are normally paid from the Project’s restricted fund or by sponsors.
 All trademark-related legal work must be coordinated through CF’s designated contacts.
-Details are provided in the [Trademark Management and Costs Policy](../policies/trademark-management-costs.md).
+Details are provided in the [Trademark Management and Costs Policy](../../policies/trademark-costs.md).
 
 ## Financial Management
 
