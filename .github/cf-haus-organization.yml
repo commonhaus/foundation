@@ -22,6 +22,9 @@ teamMembership:
       egc:
         teams:
           - commonhaus/cf-egc
+      officers:
+        teams:
+          - commonhaus/cf-officers
       egc-second:
         teams:
           - commonhaus/cf-egc-second
