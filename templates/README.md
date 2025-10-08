@@ -35,7 +35,7 @@ Explanation of the difference between DCO and CLA: <https://www.consortiuminfo.o
 
     Your project should also have a **dco.txt** (case-insensitive) file containing content from <http://developercertificate.org/>
 
-- If your project uses a CLA, include that requirement in the contribution guide. [For example](https://github.com/jreleaser/jreleaser/blob/main/CONTRIBUTING.adoc#contributor-license-agreement):
+- If your project uses a CLA, include that requirement in the contribution guide. See the [JReleaser Contribution guide](https://github.com/jreleaser/.github/blob/main/CONTRIBUTING.adoc) as an example:
 
     ```md
     Contributor License Agreement
