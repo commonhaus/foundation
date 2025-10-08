@@ -39,6 +39,8 @@ officers:
     login: sigrunixia
   - role: Advisory Board Committee Chair
     login: ashni-mehta
+  - role: Eclipse Foundation Liaison
+    login: starksm64
 
 #--------------------------------------------------------------------------
 # EGC Project Representatives (appointed by project governance process)
