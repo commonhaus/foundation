@@ -246,3 +246,16 @@ wildfly:
     logo: https://github.com/wildfly/wildfly/blob/main/docs/src/main/asciidoc/images/splash_wildflylogo_small.png?raw=true
     description: >
       WildFly is powerful, modular and lightweight application server that helps you build amazing applications.
+
+smallrye:
+  name: SmallRye
+  repo: https://github.com/smallrye/
+  status: onboarding
+  display:
+    home: https://smallrye.io
+    logo: https://smallrye.io/assets/images/smallrye_project_logo.svg
+    description: >
+      APIs and implementations tailored for Applications development, including, but not limited to, Eclipse
+      MicroProfile. SmallRye is used by runtimes like Quarkus, or application servers like WildFly, Open Liberty and
+      TomEE. SmallRye libraries can also be used completely standalone in any Java application to improve the
+      developer experience.
