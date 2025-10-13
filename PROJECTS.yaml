@@ -169,6 +169,17 @@ objenesis:
       Objenesis is a small Java library that serves one purpose: To instantiate a new object of a particular class
       WITHOUT calling one of its constructors.
 
+qbicc:
+  name: Qbicc
+  repo: https://github.com/qbicc
+  staus: onboarding
+  display:
+    home: https://qbicc.org
+    logo: https://qbicc.org/images/qbicc_logo_horizontal_default.svg
+    logo-dark: https://qbicc.org/images/qbicc_logo_horizontal_reverse.svg
+    description: >
+      Qbicc is an experimental pure-Java program analysis and compilation toolkit.
+
 quarkus:
   name: Quarkus
   repo: https://github.com/quarkusio
