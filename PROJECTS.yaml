@@ -147,6 +147,18 @@ morphia:
       Bridge the gap between Java and MongoDB. Morphia provides a lightweight type-safe mapping library
       to simplify working with MongoDB documents using Java.
 
+mvnpm:
+  name: mvnpm
+  repo: https://github.com/mvnpm/
+  status: onboarding
+  display:
+    home: https://mvnpm.org/
+    logo: https://raw.githubusercontent.com/mvnpm/mvnpm/refs/heads/main/brand/logo.svg
+    logo-dark: https://raw.githubusercontent.com/mvnpm/mvnpm/refs/heads/main/brand/logo-reversed.svg
+    description: >
+      Seamlessly integrate NPM packages into Java through Maven, and Gradle dependencies. 
+      The best solution for Java developers using frontend libraries.
+
 narayana:
   name: Narayana
   repo: https://github.com/jbosstm
