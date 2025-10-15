@@ -74,8 +74,6 @@ egc:
   - project: feign
     login: velo
     bio: Java geek and open-source enthusiast, leading projects here and there. Feign lead, QueryDSL stalwart, and Commonhaus advocate.
-  - project: quarkus
-    login: dandreadis
   - project: slatedb
     login: criccomini
   - project: debezium
@@ -84,6 +82,16 @@ egc:
     login: tristantarrant
   - project: kroxylicious
     login: k-wall
+
+  - project: quarkus
+    login: dandreadis
+  - project: mvnpm
+    login: dandreadis
+  - project: qbicc
+    login: dandreadis
+  - project: smallrye
+    login: dandreadis
+
   - project: ironjacamar
     login: bstansberry
   - project: jberet
@@ -114,34 +122,42 @@ egc:
 # A vote by the secondary representative (in the absence of the primary) can
 # be counted towards quorum.
 egc-second:
-  - project: jackson
-    login: JooHyukKim
-  - project: infinispan
-    login: karesti
-  - project: jbang
-    login: quintesse
-  - project: quarkus
-    login: Sanne
-  - project: hibernate
-    login: yrodiere
-  - project: kroxylicious
-    login: SamBarker
-  - project: ironjacamar
-    login: bstansberry
-  - project: jberet
-    login: bstansberry
-  - project: narayana
-    login: bstansberry
-  - project: resteasy
-    login: bstansberry
-  - project: undertow
-    login: bstansberry
-  - project: weld
-    login: bstansberry
-  - project: wildfly
-    login: tomjenkinson
   - project: debezium
     login: jjpbolano
+  - project: hibernate
+    login: yrodiere
+  - project: infinispan
+    login: karesti
+  - project: jackson
+    login: JooHyukKim
+  - project: jbang
+    login: quintesse
+  - project: kroxylicious
+    login: SamBarker
+
+  - project: quarkus
+    login: Sanne
+  - project: smallrye
+    login: Sanne
+  - project: mvnpm
+    login: Sanne
+  - project: qbicc
+    login: Sanne
+
+  - project: ironjacamar
+    login: tomjenkinson
+  - project: jberet
+    login: tomjenkinson
+  - project: narayana
+    login: tomjenkinson
+  - project: resteasy
+    login: tomjenkinson
+  - project: undertow
+    login: tomjenkinson
+  - project: weld
+    login: tomjenkinson
+  - project: wildfly
+    login: tomjenkinson
 
 #--------------------------------------------------------------------------
 # Advisory Board members (sponsor-appointed)

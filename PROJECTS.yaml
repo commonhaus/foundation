@@ -156,7 +156,7 @@ mvnpm:
     logo: https://raw.githubusercontent.com/mvnpm/mvnpm/refs/heads/main/brand/logo.svg
     logo-dark: https://raw.githubusercontent.com/mvnpm/mvnpm/refs/heads/main/brand/logo-reversed.svg
     description: >
-      Seamlessly integrate NPM packages into Java through Maven, and Gradle dependencies. 
+      Seamlessly integrate NPM packages into Java through Maven, and Gradle dependencies.
       The best solution for Java developers using frontend libraries.
 
 narayana:
@@ -238,6 +238,19 @@ slatedb:
     description: >
       SlateDB is a cloud native embedded log-structured merge tree (LSM) storage engine built on object storage.
 
+smallrye:
+  name: SmallRye
+  repo: https://github.com/smallrye/
+  status: onboarding
+  display:
+    home: https://smallrye.io
+    logo: https://smallrye.io/assets/images/smallrye_project_logo.svg
+    description: >
+      APIs and implementations tailored for Applications development, including, but not limited to, Eclipse
+      MicroProfile. SmallRye is used by runtimes like Quarkus, or application servers like WildFly, Open Liberty and
+      TomEE. SmallRye libraries can also be used completely standalone in any Java application to improve the
+      developer experience.
+
 undertow:
   name: Undertow
   repo: https://github.com/undertow-io
@@ -269,16 +282,3 @@ wildfly:
     logo: https://github.com/wildfly/wildfly/blob/main/docs/src/main/asciidoc/images/splash_wildflylogo_small.png?raw=true
     description: >
       WildFly is powerful, modular and lightweight application server that helps you build amazing applications.
-
-smallrye:
-  name: SmallRye
-  repo: https://github.com/smallrye/
-  status: onboarding
-  display:
-    home: https://smallrye.io
-    logo: https://smallrye.io/assets/images/smallrye_project_logo.svg
-    description: >
-      APIs and implementations tailored for Applications development, including, but not limited to, Eclipse
-      MicroProfile. SmallRye is used by runtimes like Quarkus, or application servers like WildFly, Open Liberty and
-      TomEE. SmallRye libraries can also be used completely standalone in any Java application to improve the
-      developer experience.
