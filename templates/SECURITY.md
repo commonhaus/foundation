@@ -10,6 +10,8 @@ instructions:
 
 This document explains how to report security issues for **[Project Name]**.
 
+<!-- Using this template
+
 ## Minimal Option
 
 If this project follows the Commonhaus Foundation’s organization-wide policy directly, you may simply state:
@@ -22,7 +24,13 @@ If this project follows the Commonhaus Foundation’s organization-wide policy d
 
 If the project has its own security process, please provide details here.
 
-### Reporting a Vulnerability
+## Example policy
+
+What follows is an example. Please change to match the expectations you want to set for your users.
+
+-->
+
+## Reporting a Vulnerability
 
 Please report suspected security issues privately.
 
@@ -38,7 +46,7 @@ When reporting, please include:
 - Your contact information
 - Any specific requests, such as anonymity for you and/or the organization you represent
 
-### Maintainer Commitments
+## Maintainer Commitments
 
 We aim to handle reports quickly and responsibly.
 
@@ -47,13 +55,13 @@ We aim to handle reports quickly and responsibly.
 - Progress updates will be shared until resolution.
 - Disclosure will be coordinated with the reporter, and credit given unless anonymity is requested.
 
-### Disclosure and Embargoes
+## Disclosure and Embargoes
 
 By default, **[Project Name]** does **not** accept long embargoes.
 Security reports will usually become public once a fix is available and confirmed.
 A short embargo may be considered in exceptional cases (e.g., downstream user protection), but is not guaranteed.
 
-### Expectations for Reporters
+## Expectations for Reporters
 
 Reporters should understand that:
 
@@ -61,7 +69,7 @@ Reporters should understand that:
 - Reports with clear steps, proof-of-concept, or test cases help us respond faster.
 - Respecting maintainer capacity and workload benefits the community overall.
 
-### Scope and Versions
+## Scope and Versions
 
 This policy applies to the **[Project Name]** codebase and related artifacts.
 We currently support security fixes for:
@@ -70,7 +78,7 @@ We currently support security fixes for:
 
 Older versions may not receive patches; in such cases we may advise upgrading.
 
-### Transparency
+## Transparency
 
 We may document known security issues or our response status when appropriate.
 This helps users understand our process and sets realistic expectations.
