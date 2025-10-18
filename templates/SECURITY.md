@@ -2,7 +2,7 @@
 status: template
 instructions:
   - Replace [Project Name]
-  - Update Contact Information and other content to match the practices of your project
+  - Update Contact Information content to match the practices of your project
   - Delete YAML frontmatter when you are good to go
 ---
 
@@ -26,7 +26,9 @@ If the project has its own security process, please provide details here.
 
 ## Example policy
 
-What follows is an example. Please change to match the expectations you want to set for your users.
+Set realistic expectations for how your project will handle security issues and incidents. 
+
+What follows is an example. Inspiration for this example comes from [Libxml2's "no security embargoes" policy (LWN)](https://lwn.net/Articles/1025971/).
 
 -->
 
