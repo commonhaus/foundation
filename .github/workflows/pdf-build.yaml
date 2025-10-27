@@ -70,12 +70,12 @@ jobs:
           PR_URL: ${{ github.event.pull_request.html_url }}
         run: ./.github/docker-build-pdf.sh
 
-      - uses: actions/upload-artifact@v4
+      - uses: actions/upload-artifact@v5
         with:
           name: pdf-output
           path: output/public/*.pdf
 
-      - uses: actions/upload-artifact@v4
+      - uses: actions/upload-artifact@v5
         with:
           name: docx-output
           path: output/public/*.docx
