@@ -8,8 +8,8 @@
 #   logo: (optional) Link to preferred logo to use on commonhaus.org website
 #   logo-dark: (optional) Link to preferred logo to use in dark mode
 #   description: a short-ish description of the project
-# mail-domain: (optional) custom email alias domain
 # status: draft | onboarding | active (if missing, value is onboarding)
+# group: (optional, if this project is part of a larger group)
 
 debezium:
   name: Debezium
@@ -27,6 +27,7 @@ easymock:
   name: EasyMock
   repo: https://github.com/easymock/easymock
   status: onboarding
+  group: easymock
   display:
     home: https://easymock.org/
     logo: https://github.com/easymock/easymock/blob/master/website/img/easymock-logo-md.png?raw=true
@@ -72,6 +73,7 @@ ironjacamar:
   name: IronJacamar
   repo: https://github.com/ironjacamar
   status: onboarding
+  group: wildfly
   display:
     home: https://www.ironjacamar.org/
     logo: https://avatars.githubusercontent.com/u/4104144?s=200&v=4
@@ -105,6 +107,7 @@ jberet:
   name: JBeret
   repo: https://github.com/jberet
   status: onboarding
+  group: wildfly
   display:
     home: https://jberet.org/
     logo: https://avatars.githubusercontent.com/u/4258415?s=200&v=4
@@ -151,6 +154,7 @@ mvnpm:
   name: mvnpm
   repo: https://github.com/mvnpm/
   status: onboarding
+  group: quarkus
   display:
     home: https://mvnpm.org/
     logo: https://raw.githubusercontent.com/mvnpm/mvnpm/refs/heads/main/brand/logo.svg
@@ -163,6 +167,7 @@ narayana:
   name: Narayana
   repo: https://github.com/jbosstm
   status: onboarding
+  group: wildfly
   display:
     home: https://www.narayana.io/
     logo: https://avatars.githubusercontent.com/u/1272214?s=200&v=4
@@ -174,6 +179,7 @@ objenesis:
   name: Objenesis
   repo: https://github.com/easymock/objenesis
   status: onboarding
+  group: easymock
   display:
     home: https://objenesis.org/
     logo: https://github.com/easymock/objenesis/blob/master/website/site/resources/objenesis.png?raw=true
@@ -185,6 +191,7 @@ qbicc:
   name: Qbicc
   repo: https://github.com/qbicc
   staus: onboarding
+  group: quarkus
   display:
     home: https://qbicc.org
     logo: https://qbicc.org/images/qbicc_logo_horizontal_default.svg
@@ -208,6 +215,7 @@ resteasy:
   name: RESTEasy
   repo: https://github.com/resteasy
   status: onboarding
+  group: wildfly
   display:
     home: https://resteasy.dev/
     logo: https://design.jboss.org/resteasy/logo/images/resteasy_logo_200x.png
@@ -242,6 +250,7 @@ smallrye:
   name: SmallRye
   repo: https://github.com/smallrye/
   status: onboarding
+  group: quarkus
   display:
     home: https://smallrye.io
     logo: https://smallrye.io/assets/images/smallrye_project_logo.svg
@@ -255,6 +264,7 @@ undertow:
   name: Undertow
   repo: https://github.com/undertow-io
   status: onboarding
+  group: wildfly
   display:
     home: https://undertow.io/
     logo: https://avatars.githubusercontent.com/u/2001898?s=200&v=4
@@ -265,6 +275,7 @@ weld:
   name: Weld
   repo: https://github.com/weld
   status: onboarding
+  group: wildfly
   display:
     home: https://weld.cdi-spec.org
     logo: https://weld.cdi-spec.org/images/weld_logo_450x.png
@@ -277,6 +288,7 @@ wildfly:
   name: WildFly
   repo: https://github.com/wildfly
   status: onboarding
+  group: wildfly
   display:
     home: https://wildfly.org/
     logo: https://github.com/wildfly/wildfly/blob/main/docs/src/main/asciidoc/images/splash_wildflylogo_small.png?raw=true
