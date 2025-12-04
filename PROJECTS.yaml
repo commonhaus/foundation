@@ -294,3 +294,14 @@ wildfly:
     logo: https://github.com/wildfly/wildfly/blob/main/docs/src/main/asciidoc/images/splash_wildflylogo_small.png?raw=true
     description: >
       WildFly is powerful, modular and lightweight application server that helps you build amazing applications.
+
+xnio:
+  name: XNIO
+  repo: https://github.com/xnio
+  status: onboarding
+  group: wildfly
+  display:
+    home: http://www.jboss.org/xnio
+    logo: https://avatars.githubusercontent.com/u/1971403?s=200&v=4?raw=true
+    description: >
+      XNIO is a framework based on Java NIO that supports both blocking and non-blocking IO.
