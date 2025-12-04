@@ -64,6 +64,10 @@ They are featured on a dedicated page on our website and in the Annual Report
 - Logo dimensions: 150px height, max-width: 300px
 - Short description of company and service provided (up to 240 characters excluding whitespace and markup)
 
+## Requesting website updates
+
+If, during your sponsorship period, you want to request updates to the website, you can [raise an issue](https://github.com/commonhaus/commonhaus.github.io/issues/new?template=sponsorship-update.md) or contact us directly at [sponsors@commonhaus.org](mailto:sponsors@commonhaus.org).
+
 [^ab]: [Advisory Board](../../bylaws/5-cf-advisory-board.md) representatives meet semi-annually with the CF Council to provide industry perspective and help align Foundation initiatives with community needs.
 [^recognition]: Gold and Silver tier sponsors may provide descriptive text for publication on the Commonhaus website. Your logo and descriptive text may also be published on the designated Project’s website at our discretion.
 [^commercial]: Only commercial support offerings from Gold or Silver tier sponsors are eligible for display on Foundation and Project websites. Commonhaus values shared stewardship for the long-term health of projects, and each project may choose to display a sponsor’s commercial offering based on the sponsor’s participation and contributions to the project. Listings are not advertisements or endorsements and will not include value-oriented language.
