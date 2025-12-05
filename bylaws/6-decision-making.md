@@ -12,7 +12,7 @@ This section describes the decision-making process, voting, and elections for th
 
 ## General Decision Making
 
-In general, the CF adopts the Lazy Consensus model, as defined by the [Apache Foundation](https://community.apache.org/committers/decisionMaking.html), combined with [Martha's Rules](https://digitalcommons.unl.edu/cgi/viewcontent.cgi?article=1825&context=sociologyfacpub) adapted for our context.
+In general, the CF adopts the Lazy Consensus model, as defined by the [Apache Foundation](https://community.apache.org/committers/decisionMaking.html), combined with "Martha's Rules", and adapted for our context.
 
 ### Expectations for Consensus Decision Making
 
