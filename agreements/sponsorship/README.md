@@ -10,7 +10,8 @@ Beyond covering operational and legal costs, sponsorship allows us to develop sh
 
 ## Sponsorship Tiers and Benefits
 
-Please review our [Corporate Sponsorship Agreement](https://docs.google.com/document/d/1VRRdZoYsQEBIcirYpGR72rYElu3KyINT/edit?usp=drive_link&ouid=118260000630928579528&rtpof=true&sd=true) for complete details on payment and terms.
+<!-- https://docs.google.com/document/d/1VRRdZoYsQEBIcirYpGR72rYElu3KyINT/edit?usp=drive_link&ouid=118260000630928579528&rtpof=true&sd=true -->
+Please review our [Corporate Sponsorship Agreement](https://www.commonhaus.org/about/sponsors/agreement/) for complete details on payment and terms.
 
 Each annual sponsorship provides these benefits:
 
