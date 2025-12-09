@@ -227,6 +227,7 @@ resteasy:
 sdkman:
   name: SDKMAN!
   repo: https://github.com/sdkman
+  status: onboarding
   display:
     home: https://sdkman.io/
     logo: https://github.com/sdkman/sdkman-website/blob/master/public/img/bubble-logo-sdkman-groovy-color.png?raw=true
