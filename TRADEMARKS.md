@@ -122,7 +122,7 @@ The Commonhaus Foundation uses the following unregistered trademarks:
     <img src="https://sdkman.io/assets//img/sdk-man-small-pattern.svg" alt="" height="30" />
 - SlateDB Logo  
     <img src="https://github.com/slatedb/slatedb-website/blob/main/assets/svg/icon1.svg?raw=true" alt="" height="30" />
-        - other logos defined here: <https://github.com/slatedb/slatedb-website/tree/main/assets/>
+  - other logos defined here: <https://github.com/slatedb/slatedb-website/tree/main/assets/>
 - WildFly:
     - IronJacamar Logo  
         <img src="https://avatars.githubusercontent.com/u/4104144?s=200&v=4" alt="" height="42">
