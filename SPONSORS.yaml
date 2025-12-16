@@ -96,6 +96,17 @@ sponsors:
         build and test acceleration, and rapid troubleshooting features for Apache Maven, Bazel,
         sbt, npm, Python, and Gradle Build Tool.
 
+  IBM:
+    name: IBM
+    tier:
+      - silver
+    display:
+      home: https://www.ibm.com/
+      logo: https://www.commonhaus.org/images/sponsors/IBM_logo_pos_blue60_RGB.png
+      description: >
+        IBM is a leading global hybrid cloud and AI, and business services
+        provider, with significant investments in open-source.
+
   MongoDB:
     name: MongoDB
     tier:
