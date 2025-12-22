@@ -104,8 +104,10 @@ sponsors:
       home: https://www.ibm.com/
       logo: https://www.commonhaus.org/images/sponsors/IBM_logo_pos_blue60_RGB.png
       description: >
-        IBM is a leading global hybrid cloud and AI, and business services
-        provider, with significant investments in open-source.
+        IBM is a global hybrid cloud, AI, and business services provider, with significant
+        investments in open-source.
+
+## TEST DATA, ALL DRAFT
 
   MongoDB:
     name: MongoDB
@@ -126,9 +128,6 @@ sponsors:
       draft: true
       description: >
         MongoDB provides strategy work and segmentation advisory services to Commonhaus.
-
-
-## TEST DATA, ALL DRAFT
 
   Company1:
     name: Company1
