@@ -277,9 +277,9 @@ public class PolicyPanda extends CommonhausPanda implements Runnable {
                         } catch (FileNotFoundException ignore) {
                             // This is 404 response. The protection might be set to true, but protection: { enabled: false}
                             // might be set. We will assume the defaults
-                        } catch (IOException e) {
-                            throw new UncheckedIOException(
-                                    "Failed to get branch protection for %s".formatted(branch.getName()), e);
+                        } catch (Exception e) {
+                            log.severe("Failed to get branch protection for %s: %s".formatted(branch.getName(), e));
+                            return;
                         }
                         addCheck(repo, new Check(!allowForcePushes, Kind.BONUS,
                                 "Branch %s does not allow force pushes".formatted(branch.getName()),
