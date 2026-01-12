@@ -107,6 +107,20 @@ sponsors:
         IBM is a global hybrid cloud, AI, and business services provider, with significant
         investments in open-source.
 
+  Scarf:
+    name: Scarf.sh
+    tier:
+      - inKind
+    inKind:
+      home: https://about.scarf.sh/
+      logo: https://cdn.prod.website-files.com/6807ee33dc7eb532c17e9a60/68094fe183b31b268cd096fd_scarf-logo-dark.svg
+      logo-dark: https://docs.scarf.sh/assets/scarf-tm-logo-white.svg
+      description: >
+        [Scarf](https://about.scarf.sh/) supports Commonhaus projects with privacy-conscious usage
+        analytics, helping open source maintainers understand adoption, impact, and real-world
+        usage—without tracking individual developers or compromising community trust.
+
+
 ## TEST DATA, ALL DRAFT
 
   MongoDB:
