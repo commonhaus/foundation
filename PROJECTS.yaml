@@ -17,8 +17,8 @@ debezium:
   status: onboarding
   display:
     home: https://debezium.io/
-    logo: https://debezium.io/assets/images/color_black_debezium_type_600px.svg
-    logo-dark: https://debezium.io/assets/images/color_white_debezium_type_600px.svg
+    logo: https://github.com/commonhaus/artwork/blob/main/projects/debezium/featured/debezium-logo-lightbkg.svg
+    logo-dark: https://github.com/commonhaus/artwork/blob/main/projects/debezium/featured/debezium-logo-darkbkg.svg
     description: >
       Debezium is an open-source distributed platform designed for Change Data Capture (CDC), providing
       applications with an industry-standard way to respond to real-time database changes.
@@ -51,7 +51,8 @@ hibernate:
   mail-domain: hibernate.org
   display:
     home: https://hibernate.org/
-    logo: https://github.com/hibernate/hibernate.org/blob/production/images/hibernate-logo.svg?raw=true
+    logo: https://github.com/commonhaus/artwork/blob/main/projects/hibernate/featured/hibernate-logo-lightbkg.svg
+    logo-dark: https://github.com/commonhaus/artwork/blob/main/projects/hibernate/featured/hibernate-logo-darkbkg.svg    
     description: >
       The Hibernate projects offer a suite of powerful Java libraries to work with data.
       It is best known for Hibernate ORM, which provides relational persistence for Java models and is an implementation of the Jakarta Persistence specification.
@@ -62,8 +63,8 @@ infinispan:
   status: onboarding
   display:
     home: https://infinispan.org/
-    logo: https://raw.githubusercontent.com/infinispan/infinispan/refs/heads/main/assets/logos/infinispan_logo_rgb_lightbluewhite_darkblue.svg
-    logo-dark: https://raw.githubusercontent.com/infinispan/infinispan/refs/heads/main/assets/logos/infinispan_logo_rgb_lightbluewhite_white.svg
+    logo: https://github.com/commonhaus/artwork/blob/main/projects/infinispan/featured/infinispan-logo-lightbkg.svg
+    logo-dark: https://github.com/commonhaus/artwork/blob/main/projects/infinispan/featured/infinispan-logo-darkbkg.svg 
     description: >
       Infinispan is a horizontally-scalable, highly-available in-memory database that can hold nearly any type of data, from plain-text to structured objects.
       It can be used either embedded or in client/server mode, accessed using either a native, high-performance protocol,
@@ -76,7 +77,8 @@ ironjacamar:
   group: wildfly
   display:
     home: https://www.ironjacamar.org/
-    logo: https://avatars.githubusercontent.com/u/4104144?s=200&v=4
+    logo: https://github.com/commonhaus/artwork/blob/main/projects/wildfly/featured/wildfly-logo-lightbkg.svg
+    logo-dark: https://github.com/commonhaus/artwork/blob/main/projects/wildfly/featured/wildfly-logo-darkbkg.svg 
     description: >
       IronJacamar is an implementation of the Jakarta Connectors specification.
 
@@ -110,7 +112,8 @@ jberet:
   group: wildfly
   display:
     home: https://jberet.org/
-    logo: https://avatars.githubusercontent.com/u/4258415?s=200&v=4
+    logo: https://github.com/commonhaus/artwork/blob/main/projects/jberet/featured/jberet-logo-lightbkg.svg
+    logo-dark: https://github.com/commonhaus/artwork/blob/main/projects/jberet/featured/jberet-logo-darkbkg.svg
     description: >
       JBeret is an implementation of Jakarta Batch. It is also included in WildFly to provide portable batch processing support in a Jakarta EE environment.
 
@@ -132,8 +135,8 @@ kroxylicious:
   status: onboarding
   display:
     home: https://kroxylicious.io/
-    logo: https://kroxylicious.io/assets/theme/images/kroxylicious_logo_rgb_hori_default.svg
-    logo-dark: https://kroxylicious.io/assets/theme/images/kroxylicious_logo_rgb_hori_reverse_bright.svg
+    logo: https://github.com/commonhaus/artwork/blob/main/projects/kroxylicious/featured/kroxylicious-logo-lightbkg.svg
+    logo-dark: https://github.com/commonhaus/artwork/blob/main/projects/kroxylicious/featured/kroxylicious-logo-darkbkg.svg
     description: >
       Kroxylicious, the snappy open source proxy for Apache Kafka®.
       Kroxylicious is an Apache Kafka® protocol-aware proxy. It can be used to layer uniform behaviours onto a Kafka based system in areas such as data-governance, security,
@@ -170,7 +173,8 @@ narayana:
   group: wildfly
   display:
     home: https://www.narayana.io/
-    logo: https://avatars.githubusercontent.com/u/1272214?s=200&v=4
+    logo: https://github.com/commonhaus/artwork/blob/main/projects/narayana/featured/narayana-logo-lightbkg.svg
+    logo-dark: https://github.com/commonhaus/artwork/blob/main/projects/narayana/featured/narayana-logo-darkbkg.svg
     description: >
       With over 30 years of expertise in the area of transaction processing, Narayana is the premier open source transaction manager.
       It has been used extensively within industry and to drive standards including the OMG and Web Services.
@@ -194,8 +198,8 @@ qbicc:
   group: quarkus
   display:
     home: https://qbicc.org
-    logo: https://qbicc.org/images/qbicc_logo_horizontal_default.svg
-    logo-dark: https://qbicc.org/images/qbicc_logo_horizontal_reverse.svg
+    logo: https://github.com/commonhaus/artwork/blob/main/projects/qbicc/featured/qbicc-logo-lightbkg.svg
+    logo-dark: https://github.com/commonhaus/artwork/blob/main/projects/qbicc/featured/qbicc-logo-darkbkg.svg
     description: >
       Qbicc is an experimental pure-Java program analysis and compilation toolkit.
 
@@ -205,8 +209,8 @@ quarkus:
   status: onboarding
   display:
     home: https://quarkus.io/
-    logo: https://github.com/quarkusio/quarkusio.github.io/blob/main/assets/images/brand/quarkus_logo_horizontal_default.svg?raw=true
-    logo-dark: https://github.com/quarkusio/quarkusio.github.io/blob/main/assets/images/brand/quarkus_logo_horizontal_reverse.svg?raw=true
+    logo: https://github.com/commonhaus/artwork/blob/main/projects/quarkus/featured/quarkus-logo-lightbkg.svg
+    logo-dark: https://github.com/commonhaus/artwork/blob/main/projects/quarkus/featured/quarkus-logo-darkbkg.svg
     wordmark: false
     description: >
       Quarkus is a Kubernetes Native Java stack tailored for OpenJDK HotSpot and GraalVM, crafted from the best of breed Java libraries and standards.
@@ -218,7 +222,8 @@ resteasy:
   group: wildfly
   display:
     home: https://resteasy.dev/
-    logo: https://design.jboss.org/resteasy/logo/images/resteasy_logo_200x.png
+    logo: https://github.com/commonhaus/artwork/blob/main/projects/resteasy/featured/resteasy-logo-lightbkg.svg
+    logo-dark: https://github.com/commonhaus/artwork/blob/main/projects/resteasy/featured/resteasy-logo-darkbkg.svg
     description: >
       RESTEasy provides various frameworks to help you build RESTful Web Services and RESTful Java applications.
       It is an implementation of the Jakarta RESTful Web Services specification and also implements the
@@ -254,7 +259,8 @@ smallrye:
   group: quarkus
   display:
     home: https://smallrye.io
-    logo: https://smallrye.io/assets/images/smallrye_project_logo.svg
+    logo: https://github.com/commonhaus/artwork/blob/main/projects/smallrye/featured/smallrye-logo-lightbkg.svg
+    logo-dark: https://github.com/commonhaus/artwork/blob/main/projects/smallrye/featured/smallrye-logo-darkbkg.svg
     description: >
       APIs and implementations tailored for Applications development, including, but not limited to, Eclipse
       MicroProfile. SmallRye is used by runtimes like Quarkus, or application servers like WildFly, Open Liberty and
@@ -268,7 +274,8 @@ undertow:
   group: wildfly
   display:
     home: https://undertow.io/
-    logo: https://avatars.githubusercontent.com/u/2001898?s=200&v=4
+    logo: https://github.com/commonhaus/artwork/blob/main/projects/undertow/featured/undertow-logo-lightbkg.svg
+    logo-dark: https://github.com/commonhaus/artwork/blob/main/projects/undertow/featured/undertow-logo-darkbkg.svg
     description: >
       Undertow is a flexible, performant web server written in Java, providing both blocking and non-blocking APIs based on NIO.
 
@@ -279,7 +286,8 @@ weld:
   group: wildfly
   display:
     home: https://weld.cdi-spec.org
-    logo: https://weld.cdi-spec.org/images/weld_logo_450x.png
+    logo: https://github.com/commonhaus/artwork/blob/main/projects/weld/featured/weld-logo-lightbkg.svg
+    logo-dark: https://github.com/commonhaus/artwork/blob/main/projects/weld/featured/weld-logo-darkbkg.svg
     description: >
       Weld is the premier implementation of Jakarta Contexts and Dependency Injection, a standard for dependency
       injection and contextual lifecycle management and one of the most important and popular parts of Jakarta EE.
@@ -292,7 +300,8 @@ wildfly:
   group: wildfly
   display:
     home: https://wildfly.org/
-    logo: https://github.com/wildfly/wildfly/blob/main/docs/src/main/asciidoc/images/splash_wildflylogo_small.png?raw=true
+    logo: https://github.com/commonhaus/artwork/blob/main/projects/wildfly/featured/wildfly-logo-lightbkg.svg
+    logo-dark: https://github.com/commonhaus/artwork/blob/main/projects/wildfly/featured/wildfly-logo-darkbkg.svg
     description: >
       WildFly is powerful, modular and lightweight application server that helps you build amazing applications.
 
@@ -303,6 +312,7 @@ xnio:
   group: wildfly
   display:
     home: http://www.jboss.org/xnio
-    logo: https://avatars.githubusercontent.com/u/1971403?s=200&v=4?raw=true
+    logo: https://github.com/commonhaus/artwork/blob/main/projects/xnio/featured/xnio-logo-lightbkg.svg
+    logo-dark: https://github.com/commonhaus/artwork/blob/main/projects/xnio/featured/xnio-logo-darkbkg.svg
     description: >
       XNIO is a framework based on Java NIO that supports both blocking and non-blocking IO.
