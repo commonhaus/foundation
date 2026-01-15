@@ -52,7 +52,7 @@ hibernate:
   display:
     home: https://hibernate.org/
     logo: https://github.com/commonhaus/artwork/blob/main/projects/hibernate/featured/hibernate-logo-lightbkg.svg
-    logo-dark: https://github.com/commonhaus/artwork/blob/main/projects/hibernate/featured/hibernate-logo-darkbkg.svg    
+    logo-dark: https://github.com/commonhaus/artwork/blob/main/projects/hibernate/featured/hibernate-logo-darkbkg.svg
     description: >
       The Hibernate projects offer a suite of powerful Java libraries to work with data.
       It is best known for Hibernate ORM, which provides relational persistence for Java models and is an implementation of the Jakarta Persistence specification.
@@ -64,7 +64,7 @@ infinispan:
   display:
     home: https://infinispan.org/
     logo: https://github.com/commonhaus/artwork/blob/main/projects/infinispan/featured/infinispan-logo-lightbkg.svg
-    logo-dark: https://github.com/commonhaus/artwork/blob/main/projects/infinispan/featured/infinispan-logo-darkbkg.svg 
+    logo-dark: https://github.com/commonhaus/artwork/blob/main/projects/infinispan/featured/infinispan-logo-darkbkg.svg
     description: >
       Infinispan is a horizontally-scalable, highly-available in-memory database that can hold nearly any type of data, from plain-text to structured objects.
       It can be used either embedded or in client/server mode, accessed using either a native, high-performance protocol,
@@ -77,8 +77,8 @@ ironjacamar:
   group: wildfly
   display:
     home: https://www.ironjacamar.org/
-    logo: https://github.com/commonhaus/artwork/blob/main/projects/wildfly/featured/wildfly-logo-lightbkg.svg
-    logo-dark: https://github.com/commonhaus/artwork/blob/main/projects/wildfly/featured/wildfly-logo-darkbkg.svg 
+    logo: https://github.com/commonhaus/artwork/blob/main/projects/ironjacamar/featured/ironjacamar-logo-lightbkg.svg
+    logo-dark: https://github.com/commonhaus/artwork/blob/main/projects/ironjacamar/featured/ironjacamar-logo-darkbkg.svg
     description: >
       IronJacamar is an implementation of the Jakarta Connectors specification.
 
