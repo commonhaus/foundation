@@ -10,9 +10,9 @@ import java.io.FileNotFoundException;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.io.PrintWriter;
-import java.io.UncheckedIOException;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.logging.Level;
 import java.util.regex.Pattern;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
@@ -21,6 +21,7 @@ import org.kohsuke.github.GHBranchProtection;
 import org.kohsuke.github.GHContent;
 import org.kohsuke.github.GHOrganization;
 import org.kohsuke.github.GHRepository;
+import org.kohsuke.github.GHRepositoryRule;
 import org.kohsuke.github.GitHub;
 
 import com.fasterxml.jackson.databind.JsonNode;
@@ -263,20 +264,46 @@ public class PolicyPanda extends CommonhausPanda implements Runnable {
                         boolean codeOwnerReviewRequired = false;
                         boolean reviewRequired = false;
                         try {
-                            GHBranchProtection protection = branch.getProtection();
-                            allowForcePushes = protection.getAllowForcePushes().isEnabled();
-                            allowDeletions = protection.getAllowDeletions().isEnabled();
-                            enforceAdmins = protection.getEnforceAdmins().isEnabled();
-                            var requiredReviews = branch.getProtection().getRequiredReviews();
-                            if (codeowners != null) {
-                                codeOwnerReviewRequired = requiredReviews != null &&requiredReviews.isRequireCodeOwnerReviews();
-                                reviewRequired = codeOwnerReviewRequired;
-                            } else {
-                                reviewRequired = requiredReviews != null && protection.getRequiredReviews().getRequiredReviewers() > 0;
+                            // A branch may be protected, but not have a protection entry. This means the branch is
+                            // protected by a ruleset instead.
+                            try {
+                                GHBranchProtection protection = branch.getProtection();
+                                allowForcePushes = protection.getAllowForcePushes().isEnabled();
+                                allowDeletions = protection.getAllowDeletions().isEnabled();
+                                enforceAdmins = protection.getEnforceAdmins().isEnabled();
+                                var requiredReviews = branch.getProtection().getRequiredReviews();
+
+                                if (codeowners != null) {
+                                    codeOwnerReviewRequired = requiredReviews != null &&requiredReviews.isRequireCodeOwnerReviews();
+                                    reviewRequired = codeOwnerReviewRequired;
+                                } else {
+                                    reviewRequired = requiredReviews != null && protection.getRequiredReviews().getRequiredReviewers() > 0;
+                                }
+                            } catch (FileNotFoundException e) {
+                                if (log.isLoggable(Level.FINE)) {
+                                    log.log(Level.FINE, e, () -> "Branch %s is not protected, but may be protected by a ruleset.".formatted(branch.getName()));
+                                }
                             }
-                        } catch (FileNotFoundException ignore) {
-                            // This is 404 response. The protection might be set to true, but protection: { enabled: false}
-                            // might be set. We will assume the defaults
+
+                            // Next check for a ruleset on the repository, this is the modern way to protect branches
+                            final var ruleSets = repo.listRulesForBranch(branch.getName());
+                            for (var rule : ruleSets) {
+                                switch (rule.getType()) {
+                                    case DELETION -> allowDeletions = false;
+                                    case NON_FAST_FORWARD -> allowForcePushes = false; // Same as blocking force pushes
+                                    case PULL_REQUEST -> {
+                                        if (codeowners != null) {
+                                            codeOwnerReviewRequired = rule.getParameter(GHRepositoryRule.Parameters.REQUIRE_CODE_OWNER_REVIEW)
+                                                    .orElse(false);
+                                            reviewRequired = codeOwnerReviewRequired;
+                                        } else {
+                                            reviewRequired = rule.getParameter(GHRepositoryRule.Parameters.REQUIRED_APPROVING_REVIEW_COUNT)
+                                                    .map((count) -> count > 0)
+                                                    .orElse(false);
+                                        }
+                                    }
+                                }
+                            }
                         } catch (Exception e) {
                             log.severe("Failed to get branch protection for %s: %s".formatted(branch.getName(), e));
                             return;
