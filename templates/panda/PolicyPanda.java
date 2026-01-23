@@ -177,7 +177,7 @@ public class PolicyPanda extends CommonhausPanda implements Runnable {
                                 .formatted(orgFiles.contributing().getName())));
             }
         } else {
-            orgFiles = new CommunityFiles(null, null, null);
+            orgFiles = new CommunityFiles(null, null, null, null);
         }
 
         // Process each repository
@@ -207,8 +207,7 @@ public class PolicyPanda extends CommonhausPanda implements Runnable {
         // Check agreement type (DCO/CLA)
         switch (agreementType) {
             case DCO -> {
-                GHContent dco = findFileInRepo(repo, "dco.txt", true);
-                addCheck(repo, new FileCheck("Developer Certificate of Origin", Kind.MUST, dco));
+                addCheck(repo, new FileCheck("Developer Certificate of Origin", Kind.MUST, repoFiles.dcoFile()));
 
                 // Check if contributing mentions DCO
                 if (repoFiles.contributing() != null) {
@@ -312,7 +311,8 @@ public class PolicyPanda extends CommonhausPanda implements Runnable {
         return new CommunityFiles(
                 findFileInRepo(repo, "GOVERNANCE"),
                 findFileInRepo(repo, "CODE_OF_CONDUCT"),
-                findFileInRepo(repo, "CONTRIBUTING"));
+                findFileInRepo(repo, "CONTRIBUTING"),
+                findFileInRepo(repo, "dco.txt"));
     }
 
     private void addCheck(GHRepository repo, Information check) {
@@ -474,13 +474,15 @@ public class PolicyPanda extends CommonhausPanda implements Runnable {
     record CommunityFiles(
             GHContent governance,
             GHContent codeOfConduct,
-            GHContent contributing) {
+            GHContent contributing,
+            GHContent dcoFile) {
 
         public CommunityFiles withFallback(CommunityFiles orgFiles) {
             return new CommunityFiles(
                     governance != null ? governance : orgFiles.governance,
                     codeOfConduct != null ? codeOfConduct : orgFiles.codeOfConduct,
-                    contributing != null ? contributing : orgFiles.contributing);
+                    contributing != null ? contributing : orgFiles.contributing,
+                    dcoFile != null ? dcoFile : orgFiles.dcoFile);
         }
     }
 
