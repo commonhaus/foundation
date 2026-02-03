@@ -42,18 +42,16 @@ We expect all members and contributors to engage constructively, respecting dive
 - **Direct Engagement**: Strive for direct resolution of disagreements. Disagreement can play an important role in fostering innovation, but only when the resolution process remains constructive.
 - **Respect and Consideration**: Treat every community member with respect, focusing on ideas rather than individuals.
 - **Active Listening and Learning**: Embrace different perspectives, aiming to learn from others’ experiences and viewpoints.
-- **Anti-Trolling**: Avoid behavior that intentionally disrupts discussions. Trolling[^1] undermines constructive dialogue and will not be tolerated.
+- **Anti-Trolling**: Avoid behavior that intentionally disrupts discussions. Trolling undermines constructive dialogue and will not be tolerated.
 - **Commitment to Diversity**: Explore resources on diversity, inclusion, and unconscious bias to contribute to an environment where everyone feels welcome.
 
 If you're interested in an introduction to diversity, inclusion, and unconscious bias, consider these resources:
 
-- [Inclusive Speaker Orientation (Linux Foundation)][2]
-- [Inclusion at Scale in the Mozilla and Kubernetes Open Source Communities (The New Stack)][3]
+- [Inclusive Speaker Orientation (Linux Foundation)][1]
+- [Inclusion at Scale in the Mozilla and Kubernetes Open Source Communities (The New Stack)][2]
 
-[2]: https://training.linuxfoundation.org/training/inclusive-speaker-orientation/
-[3]: https://thenewstack.io/inclusion-at-scale-in-the-mozilla-and-kubernetes-open-source-communities/
-
-[^1]: "A troll is Internet slang for a person who intentionally tries to instigate conflict, hostility, or arguments in an online social community...Trolls often use inflammatory messages to provoke emotional responses ...disrupting otherwise civil discussion." <https://edu.gcfglobal.org/en/thenow/what-is-trolling/1/>
+[1]: https://training.linuxfoundation.org/training/inclusive-speaker-orientation/
+[2]: https://thenewstack.io/inclusion-at-scale-in-the-mozilla-and-kubernetes-open-source-communities/
 
 ### Leadership Expectations
 
