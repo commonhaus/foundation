@@ -83,7 +83,7 @@ The Treasurer oversees the Foundation's financial management, including budgetin
 
 ## Extended Governance Committee (EGC)
 
-Expanding beyond the CFC, the Extended Governance Committee () plays a vital role in encompassing broader representation and decision-making within the CF.
+Expanding beyond the CFC, the EGC plays a vital role in encompassing broader representation and decision-making within the CF.
 
 - **Composition:** The EGC includes every member of the CF Council and one [nominated representative][egc-nomination] from each CF project.
 - **Role:** The EGC is responsible for making key decisions that have a [significant impact on the CF and its projects](#voting).
