@@ -81,7 +81,7 @@ The Secretary manages the Foundation's records and oversees official corresponde
 
 The Treasurer oversees the Foundation's financial management, including budgeting, financial reporting, and liaison with fiscal hosts or agents, ensuring financial transparency and accountability.
 
-## Extended Governance Committee ()
+## Extended Governance Committee (EGC)
 
 Expanding beyond the CFC, the Extended Governance Committee () plays a vital role in encompassing broader representation and decision-making within the CF.
 
