@@ -191,6 +191,21 @@ objenesis:
       Objenesis is a small Java library that serves one purpose: To instantiate a new object of a particular class
       WITHOUT calling one of its constructors.
 
+pi4j:
+  name: Pi4J
+  repo: https://github.com/Pi4J/
+  status: onboarding
+  group: pi4j
+  display:
+    home: https://www.pi4j.com/
+    logo: https://github.com/Pi4J/pi4j-logo/blob/master/logo/Pi4J_Logo.svg
+    logo-dark: https://github.com/Pi4J/pi4j-logo/blob/master/logo/Pi4J_Logo.svg
+    description: >
+      This Pi4J project provides a friendly object-oriented I/O API and implementation libraries for
+      Java Programmers to access the full I/O capabilities of the Raspberry Pi platform and other singl-board computers.
+      This project abstracts the low-level native integration and interrupt monitoring to enable Java programmers
+      to focus on implementing their application business logic.
+
 qbicc:
   name: Qbicc
   repo: https://github.com/qbicc

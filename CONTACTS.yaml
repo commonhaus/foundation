@@ -106,6 +106,8 @@ egc:
     login: bstansberry
   - project: wildfly
     login: bstansberry
+  - project: pi4j
+    login: fdelporte
 
 #--------------------------------------------------------------------------
 # EGC Backup/Secondary representative (appointed by project governance process)
@@ -158,6 +160,8 @@ egc-second:
     login: tomjenkinson
   - project: wildfly
     login: tomjenkinson
+  - project: pi4j
+    login: eitch
 
 #--------------------------------------------------------------------------
 # Advisory Board members (sponsor-appointed)
