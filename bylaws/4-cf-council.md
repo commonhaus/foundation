@@ -4,12 +4,12 @@ The Commonhaus Foundation Council (CFC) serves as the Board of Directors for the
 It oversees the foundation's operations, ensuring compliance with legal requirements and the execution of strategic plans as defined in our Articles of Incorporation and [Bylaws][bylaws].
 This includes financial management, operational decisions, and adherence to state and federal regulations.
 
-While the [Extended Governance Committee (EGC)](#extended-governance-committee-egc) provides broad governance input, the CFC is specifically tasked with the practical application of these strategies, managing the foundation's daily administrative and legal tasks to support its goals and mission.
+While the [Extended Governance Committee (EGC)](#extended-governance-committee-(egc)) provides broad governance input, the CFC is specifically tasked with the practical application of these strategies, managing the foundation's daily administrative and legal tasks to support its goals and mission.
 
 - [Composition and Membership](#composition-and-membership)
     - [Tenure, Transition and Apportioning Duties](#tenure-transition-and-apportioning-duties)
     - [Officer Roles and Appointment](#officer-roles-and-appointment)
-- [Extended Governance Committee (EGC)](#extended-governance-committee-egc)
+- [Extended Governance Committee (EGC)](#extended-governance-committee-(egc))
 - [Meetings, Procedures and Decision-Making](#meetings-procedures-and-decision-making)
     - [Notice for CFC Meetings](#notice-for-cfc-meetings)
     - [Agendas, Access, and Records](#agendas-access-and-records)
@@ -83,9 +83,9 @@ The Treasurer oversees the Foundation's financial management, including budgetin
 
 ## Extended Governance Committee (EGC)
 
-Expanding beyond the CFC, the Extended Governance Committee (EGC) plays a vital role in encompassing broader representation and decision-making within the CF.
+Expanding beyond the CFC, the EGC plays a vital role in encompassing broader representation and decision-making within the CF.
 
-- **Composition:** The EGC includes every member of the CF Council and one nominated representative from each CF project.
+- **Composition:** The EGC includes every member of the CF Council and one [nominated representative][egc-nomination] from each CF project.
 - **Role:** The EGC is responsible for making key decisions that have a [significant impact on the CF and its projects](#voting).
 
 This structure ensures a balanced representation, combining strategic oversight with project-specific insights.
@@ -195,6 +195,7 @@ Relevant Florida Statute(s):
 [CONTACTS.yaml]: https://github.com/commonhaus/foundation/blob/main/CONTACTS.yaml
 [bylaws]: ./README.md
 [coc-reports]: ../policies/code-of-conduct.md#handling-reports-and-escalations
+[egc-nomination]: ./cf-membership.html#project-representation
 [consensus]: ./6-decision-making.md#general-decision-making
 [elections]: ./6-decision-making.md#elections
 [notice]: ./7-notice-records.md#notice
