@@ -29,7 +29,8 @@ echo URL=${URL}
 ARGS="--rm -e TERM -e HOME=/data -u $(id -u):$(id -g) -v $(pwd):/data -w /data"
 if [[ "$OSTYPE" == "darwin"* ]]; then
     ARGS="$ARGS --platform linux/amd64"
-elif [[ "$DOCKER" == "podman" ]] || docker version 2>/dev/null | grep -qi podman; then
+fi
+if [[ "$DOCKER" == "podman" ]] || docker version 2>/dev/null | grep -qi podman; then
     ARGS="$ARGS --userns=keep-id"
 fi
 # Set DOCKER if not already defined
