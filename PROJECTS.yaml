@@ -142,6 +142,16 @@ kroxylicious:
       Kroxylicious is an Apache Kafka® protocol-aware proxy. It can be used to layer uniform behaviours onto a Kafka based system in areas such as data-governance, security,
       policy enforcement and audit without needing to change either the applications or the Kafka Cluster.
 
+micronaut:
+  name: Micronaut
+  repo: https://github.com/micronaut-projects/
+  status: onboarding
+  display:
+    home: https://micronaut.io/
+    logo: https://raw.githubusercontent.com/micronaut-projects/brand/04a024b9a5218f0100be4a593807e9b43dc2032d/micronaut_horizontal_black.png?raw=true
+    description: >
+      A modern, JVM-based, full-stack framework for building modular, easily testable microservice and serverless applications
+
 morphia:
   name: Morphia
   repo: https://github.com/MorphiaOrg/

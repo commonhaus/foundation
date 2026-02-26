@@ -84,6 +84,8 @@ egc:
     login: k-wall
   - project: pi4j
     login: FDelporte
+  - project: micronaut
+    login: sdelamo
 
   # Quarkus group
   - project: quarkus
@@ -138,7 +140,12 @@ egc-second:
     login: quintesse
   - project: kroxylicious
     login: SamBarker
+  - project: pi4j
+    login: eitch
+  - project: micronaut
+    login: graemerocher
 
+  # Quarkus group
   - project: quarkus
     login: Sanne
   - project: smallrye
@@ -148,6 +155,7 @@ egc-second:
   - project: qbicc
     login: Sanne
 
+  # Wildfly group
   - project: ironjacamar
     login: tomjenkinson
   - project: jberet
@@ -162,9 +170,6 @@ egc-second:
     login: tomjenkinson
   - project: wildfly
     login: tomjenkinson
-
-  - project: pi4j
-    login: eitch
 
 #--------------------------------------------------------------------------
 # Advisory Board members (sponsor-appointed)

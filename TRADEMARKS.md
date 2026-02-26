@@ -45,6 +45,7 @@ The Commonhaus Foundation uses the following unregistered trademarks:
 - Jackson &trade; [^1]
 - Kroxylicious &trade;
 - Morphia &trade; [^1]
+- [Micronaut] &trade; [^1]
 - OpenFeign &trade; [^1]
 - Pi4J &trade; [^1]
 - Quarkus &trade;
@@ -102,6 +103,9 @@ The Commonhaus Foundation uses the following unregistered trademarks:
     <img src="https://jreleaser.org/images/jreleaser-duke.png" alt="" height="30" />[^2]
 - Kroxylicious Logo  
     <img src="https://kroxylicious.io/assets/theme/images/kroxylicious_logo_rgb_hori_default.svg" alt="" height="30" />
+- Micronaut Logo [^1]  
+    <img src="https://raw.githubusercontent.com/micronaut-projects/brand/04a024b9a5218f0100be4a593807e9b43dc2032d/micronaut_horizontal_black.svg?raw=true" alt="" height="30" />
+    <img src="https://github.com/micronaut-projects/brand/blob/main/micronaut_stacked_black.svg?raw=true" alt="" height="30" />
 - Morphia Logo [^1]  
     <img src="https://github.com/MorphiaOrg/morphia-docs/blob/master/supplemental-ui/img/logo.png?raw=true" alt="" height="30" />
 - Pi4J Logo [^1]  
@@ -125,7 +129,7 @@ The Commonhaus Foundation uses the following unregistered trademarks:
     <img src="https://sdkman.io/assets//img/sdk-man-small-pattern.svg" alt="" height="30" />
 - SlateDB Logo  
     <img src="https://github.com/slatedb/slatedb-website/blob/main/assets/svg/icon1.svg?raw=true" alt="" height="30" />
-  - other logos defined here: <https://github.com/slatedb/slatedb-website/tree/main/assets/>
+    - other logos defined here: <https://github.com/slatedb/slatedb-website/tree/main/assets/>
 - WildFly:
     - IronJacamar Logo  
         <img src="https://avatars.githubusercontent.com/u/4104144?s=200&v=4" alt="" height="42">
