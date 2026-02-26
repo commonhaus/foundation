@@ -46,7 +46,7 @@ The Commonhaus Foundation uses the following unregistered trademarks:
 - Kroxylicious &trade;
 - Morphia &trade; [^1]
 - OpenFeign &trade; [^1]
-- Pi4J &trade;
+- Pi4J &trade; [^1]
 - Quarkus &trade;
     - Quarkus AI &trade;
     - Quarkus devmode &trade;
