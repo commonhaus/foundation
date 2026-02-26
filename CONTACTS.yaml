@@ -82,7 +82,10 @@ egc:
     login: tristantarrant
   - project: kroxylicious
     login: k-wall
+  - project: pi4j
+    login: FDelporte
 
+  # Quarkus group
   - project: quarkus
     login: dandreadis
   - project: mvnpm
@@ -92,6 +95,7 @@ egc:
   - project: smallrye
     login: dandreadis
 
+  # Wildfly group
   - project: ironjacamar
     login: bstansberry
   - project: jberet
@@ -106,9 +110,6 @@ egc:
     login: bstansberry
   - project: wildfly
     login: bstansberry
-
-  - project: pi4j
-    login: fdelporte
 
 #--------------------------------------------------------------------------
 # EGC Backup/Secondary representative (appointed by project governance process)
