@@ -202,7 +202,7 @@ pi4j:
     logo-dark: https://github.com/Pi4J/pi4j-logo/blob/master/logo/Pi4J_Logo.svg
     description: >
       This Pi4J project provides a friendly object-oriented I/O API and implementation libraries for
-      Java Programmers to access the full I/O capabilities of the Raspberry Pi platform and other single-board computers.
+      Java programmers to access the full I/O capabilities of the Raspberry Pi platform and other single-board computers.
       This project abstracts the low-level native integration and interrupt monitoring to enable Java programmers
       to focus on implementing their application business logic.
 
