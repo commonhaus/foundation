@@ -53,7 +53,7 @@ All capitalized terms used in this Transfer Agreement not defined in it are as d
 **Assets**: The intangible assets specified in this agreement that are needed by Project to operate under the auspices of Sponsor without any disruption, alteration, or modification of the operations, processes, or activities.
 The attached [schedules of assets](#schedules) identify the assets being transferred under this agreement; however, the schedules are not binding and the parties retain the right to amend the schedules as necessary.
 
-**Contributor License Agreements**: Written agreements under which the Assignor has received licenses or assignments from contributors that allow for reproduction, modification, distribution, or ownership of third-party contributions to the Software.
+**Contributor Agreements**: Written agreements under which the Assignor has received licenses or assignments from contributors that allow for reproduction, modification, distribution, or ownership of third-party contributions to the Software.
 
 **Copyrights**: The copyrights owned by Assignor for the Software, including registrations, applications, renewals, and all related past and future infringement claims.
 
@@ -100,6 +100,7 @@ The specific assets being transferred under this Agreement are identified in the
 - [ ] Social Media and Email Accounts ([Schedule D](#schedule-d-social-media-and-email-accounts))
 - [ ] Trademarks ([Schedule E](#schedule-e-trademarks))
 - [ ] Copyrights ([Schedule F](#schedule-f-registered-copyrights))
+- [ ] Contributor Agreements ([Schedule G](#schedule-g-contributor-agreements))
 - [ ] Other – Describe
     `⎣`
     &nbsp;
@@ -209,6 +210,43 @@ Assignor may retain access or continue co-administration unless otherwise agreed
 
 &nbsp;
 
+### SCHEDULE G: Contributor Agreements
+
+#### Applicability
+
+This schedule applies when the Project has accepted contributions subject to Contributor License Agreements, Developer Certificates of Origin (DCOs), or similar agreements (including copyright assignment agreements).
+
+#### CLA Forms
+
+This Schedule identifies the Contributor Agreements (“CAs”) under which contributors to the Software granted rights to Assignor.
+
+The CA forms used by the Project are attached hereto as Exhibit B.
+
+#### Scope of Transfer
+
+Pursuant to Section 3 (Transfer of Assets), Assignor transfers to Sponsor all of Assignor’s rights, title, and interest in and to the rights granted to Assignor under such CLAs, including:
+
+- All copyright assignments and/or license rights granted by contributors;
+- All patent license rights granted by contributors;
+- All rights to reproduce, modify, distribute, sublicense, and create derivative works of contributions;
+- All rights to enforce such agreements;
+- All rights to pursue claims for breach of such agreements.
+
+Assignor represents that:
+
+- The listed CA form(s) constitute all of the agreements used for contributions to the Software;
+- To the best of Assignor’s knowledge, all material contributions were made subject to such CA or similar as disclosed;
+- Assignor has not waived, limited, or encumbered the rights granted under such CAs.
+
+#### Records
+
+Assignor shall provide Sponsor with:
+
+- Copies of executed CA records, and/or
+- A contributor registry or equivalent documentation demonstrating execution of the applicable CA form.
+
+&nbsp;
+
 ## Exhibits
 
 ### Exhibit A
@@ -240,3 +278,9 @@ IN WITNESS WHEREOF, the said Assignor has caused this instrument to be executed 
 [fs-landing]: https://www.commonhaus.org/policies/fiscal-sponsorship/
 [Terms and Conditions]: https://www.commonhaus.org/policies/fiscal-sponsorship/terms-and-conditions.html
 [Trademark List]: https://www.commonhaus.org/trademarks/
+
+&nbsp;
+
+### Exhibit B
+
+Attach relevant CLA Agreements here, if applicable.
