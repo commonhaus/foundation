@@ -44,8 +44,8 @@ The Commonhaus Foundation uses the following unregistered trademarks:
 - JReleaser &trade; [^1]
 - Jackson &trade; [^1]
 - Kroxylicious &trade;
-- Morphia &trade; [^1]
-- [Micronaut] &trade; [^1]
+- Morphia &trade;
+- Micronaut &trade; [^1]
 - OpenFeign &trade; [^1]
 - Pi4J &trade; [^1]
 - Quarkus &trade;
@@ -106,7 +106,7 @@ The Commonhaus Foundation uses the following unregistered trademarks:
 - Micronaut Logo [^1]  
     <img src="https://raw.githubusercontent.com/micronaut-projects/brand/04a024b9a5218f0100be4a593807e9b43dc2032d/micronaut_horizontal_black.svg?raw=true" alt="" height="30" />
     <img src="https://github.com/micronaut-projects/brand/blob/main/micronaut_stacked_black.svg?raw=true" alt="" height="30" />
-- Morphia Logo [^1]  
+- Morphia Logo  
     <img src="https://github.com/MorphiaOrg/morphia-docs/blob/master/supplemental-ui/img/logo.png?raw=true" alt="" height="30" />
 - Pi4J Logo [^1]  
     <img src="https://github.com/Pi4J/pi4j-logo/blob/master/logo/Pi4J_Logo.png?raw=true" alt="" height="30" />
