@@ -80,77 +80,83 @@ The Commonhaus Foundation and its projects use various visual logo trademarks. A
 The following logo marks are registered or have pending registrations in the United States and/or other countries:
 
 - [WildFly Logo](#wildfly-trademarks)  
-    <img src="https://github.com/wildfly/wildfly/blob/main/docs/src/main/asciidoc/images/splash_wildflylogo_small.png?raw=true" alt="" height="30" />&reg;
+    <img src="https://github.com/commonhaus/artwork/blob/main/projects/wildfly/featured/wildfly-logo-lightbkg.svg?raw=true" alt="" height="30" />&reg;
 
-The Commonhaus Foundation uses the following unregistered trademarks:
+The Commonhaus Foundation uses the following unregistered trademarks[^other]:
 
-- [Commonhaus Foundation Logo](https://github.com/commonhaus/artwork/blob/main/foundation/brand/README.md)  
+- [Commonhaus Foundation](https://github.com/commonhaus/artwork/blob/main/foundation/brand/README.md) Logo  
     <img src="https://github.com/commonhaus/artwork/blob/main/foundation/brand/svg/CF_logo_horizontal_single_default.svg?raw=true" alt="" height="30" />
-- Debezium Logo  
-    <img src="https://debezium.io/assets/images/color_black_debezium_type_600px.svg" alt="" height="30" />
+- [Debezium](https://github.com/commonhaus/artwork/tree/main/projects/debezium/) Logo  
+    <img src="https://github.com/commonhaus/artwork/blob/main/projects/debezium/featured/debezium-logo-lightbkg.svg?raw=true" alt="" height="30" />
 - EasyMock:
     - EasyMock Logo [^1]  
     <img src="https://github.com/easymock/easymock/blob/master/website/img/easymock-logo-md.png?raw=true" alt="" height="30" />
     - Objenesis Logo [^1]  
         <img src="https://github.com/easymock/objenesis/blob/master/website/site/resources/objenesis-logo.png?raw=true" alt="" height="30" />
-- Hibernate Logo  
-    <img src="https://github.com/hibernate/hibernate.org/blob/production/images/hibernate-logo.svg?raw=true" alt="" height="30" />
-- Infinispan Logo  
-    <img src="https://raw.githubusercontent.com/infinispan/infinispan/refs/heads/main/assets/logos/infinispan_logo_rgb_lightbluedarkblue_darkblue.svg" alt="" height="30" />
+- [Hibernate](https://github.com/commonhaus/artwork/tree/main/projects/hibernate) Logo  
+    <img src="https://github.com/commonhaus/artwork/blob/main/projects/hibernate/featured/hibernate-logo-lightbkg.svg?raw=true" alt="" height="30" />
+- [Infinispan](https://github.com/commonhaus/artwork/tree/main/projects/infinispan/) Logo  
+    <img src="https://github.com/commonhaus/artwork/blob/main/projects/infinispan/featured/infinispan-logo-lightbkg.svg?raw=true" alt="" height="30" />
+- Jackson Logo [^1]  
+    <img src="https://github.com/FasterXML.png"  alt="" height="30" />
 - JBang Logo [^1]  
     <img src="https://www.jbang.dev/assets/images/logo.png" alt="" height="30" />
 - JReleaser Logo [^1]  
     <img src="https://jreleaser.org/images/jreleaser-duke.png" alt="" height="30" />[^2]
-- Kroxylicious Logo  
-    <img src="https://kroxylicious.io/assets/theme/images/kroxylicious_logo_rgb_hori_default.svg" alt="" height="30" />
+- [Kroxylicious](https://github.com/commonhaus/artwork/tree/main/projects/kroxylicious) Logo  
+    <img src="https://github.com/commonhaus/artwork/blob/main/projects/kroxylicious/featured/kroxylicious-logo-lightbkg.svg?raw=true" alt="" height="30" />
 - Micronaut Logo [^1]  
     <img src="https://raw.githubusercontent.com/micronaut-projects/brand/04a024b9a5218f0100be4a593807e9b43dc2032d/micronaut_horizontal_black.svg?raw=true" alt="" height="30" />
     <img src="https://github.com/micronaut-projects/brand/blob/main/micronaut_stacked_black.svg?raw=true" alt="" height="30" />
 - Morphia Logo  
     <img src="https://github.com/MorphiaOrg/morphia-docs/blob/master/supplemental-ui/img/logo.png?raw=true" alt="" height="30" />
 - Pi4J Logo [^1]  
-    <img src="https://github.com/Pi4J/pi4j-logo/blob/master/logo/Pi4J_Logo.png?raw=true" alt="" height="30" />
+    <img src="https://github.com/Pi4J/pi4j-logo/blob/master/logo/Pi4J_Logo.svg?raw=true" alt="" height="30" />
 - Quarkus:
-    - Quarkus Logo  
-        <img src="https://github.com/quarkusio/quarkus/blob/main/core/deployment/src/main/resources/META-INF/branding/logo.png?raw=true" alt="" height="30" />
+    - [Quarkus](https://github.com/commonhaus/artwork/tree/main/projects/quarkus) Logo  
+        <img src="https://github.com/commonhaus/artwork/blob/main/projects/quarkus/featured/quarkus-logo-lightbkg.svg?raw=true" alt="" height="30" />
     - Quarkiverse Logo  
         <img src="https://quarkiverse.io/images/quarkiverse-logo.png" alt="" height="30" />
     - Quarkus GitHub App Logo  
         <img src="https://camo.githubusercontent.com/6d6b5895298f83f9f305745855f3ae6638deb99eb913eb876bfc019d5a4f9d12/68747470733a2f2f64657369676e2e6a626f73732e6f72672f717561726b75732f626f742f66696e616c2f696d616765732f717561726b7573626f745f66756c6c2e737667" alt="" height="30" />
     - mvnpm Logo  
-        <img src="https://github.com/mvnpm/mvnpm/blob/main/brand/logo.svg?raw=true" alt="" height="30" />
-    - qbicc Logo  
-        <img src="https://avatars.githubusercontent.com/u/64100128?s=200&v=4" alt="" height="30" />
-    - roq Logo [^1]  
-        <img src="https://iamroq.com/images/roq-icon.svg" alt="" height="30" />
-    - smallrye Logo  
-        <img src="https://smallrye.io/assets/images/smallrye_project_logo.svg" alt="" height="30" />
+        <img src="https://raw.githubusercontent.com/mvnpm/mvnpm/refs/heads/main/brand/logo.svg" alt="" height="30" />
+    - [qbicc](https://github.com/commonhaus/artwork/tree/main/projects/qbicc) Logo  
+        <img src="https://github.com/commonhaus/artwork/blob/main/projects/qbicc/featured/qbicc-logo-lightbkg.svg?raw=true" alt="" height="30" />
+    - roq Logo  
+        <img src="https://github.com/quarkiverse/quarkus-roq/blob/main/logo/out/roq-icon.png?raw=true" alt="" height="30" />
+    - [smallrye](https://github.com/commonhaus/artwork/tree/main/projects/smallrye) Logo  
+        <img src="https://github.com/commonhaus/artwork/blob/main/projects/smallrye/featured/smallrye-logo-lightbkg.svg?raw=true" alt="" height="30" />
 - SDKMAN! Logo [^1]  
-    <img src="https://sdkman.io/assets//img/sdk-man-small-pattern.svg" alt="" height="30" />
-- SlateDB Logo  
+    <img src="https://github.com/sdkman/sdkman-website/blob/master/public/img/bubble-logo-sdkman-groovy-color.png?raw=true" alt="" height="30" />
+- [SlateDB](https://github.com/slatedb/slatedb-website/tree/main/assets/) Logo  
     <img src="https://github.com/slatedb/slatedb-website/blob/main/assets/svg/icon1.svg?raw=true" alt="" height="30" />
-    - other logos defined here: <https://github.com/slatedb/slatedb-website/tree/main/assets/>
+    and [others](https://github.com/slatedb/slatedb-website/tree/main/assets/)
 - WildFly:
-    - IronJacamar Logo  
-        <img src="https://avatars.githubusercontent.com/u/4104144?s=200&v=4" alt="" height="42">
+    - [IronJacamar](https://github.com/commonhaus/artwork/tree/main/projects/ironjacamar) Logo  
+        <img src="https://github.com/commonhaus/artwork/blob/main/projects/ironjacamar/featured/ironjacamar-logo-lightbkg.svg?raw=true" alt="" height="42">
 
-    - JBeret Logo  
-        <img src="https://avatars.githubusercontent.com/u/4258415?s=200&v=4" alt="" height="42"/>
+    - [JBeret](https://github.com/commonhaus/artwork/tree/main/projects/jberet) Logo  
+        <img src="https://github.com/commonhaus/artwork/blob/main/projects/jberet/featured/jberet-logo-lightbkg.svg?raw=true" alt="" height="42"/>
 
-    - Narayana Logo  
-        <img src="https://avatars.githubusercontent.com/u/1272214?s=200&v=4" alt="" height="42"/>
+    - [Narayana](https://github.com/commonhaus/artwork/tree/main/projects/narayana) Logo  
+        <img src="https://github.com/commonhaus/artwork/blob/main/projects/narayana/featured/narayana-logo-lightbkg.svg?raw=true" alt="" height="42"/>
 
-    - Undertow Logo  
-        <img src="https://avatars.githubusercontent.com/u/2001898?s=200&v=4" alt="" height="42">
+    - [RestEasy](https://github.com/commonhaus/artwork/blob/main/projects/resteasy) Logo  
+        <img src="https://github.com/commonhaus/artwork/blob/main/projects/resteasy/featured/resteasy-logo-lightbkg.svg?raw=true" alt="" height="42">
 
-    - Weld Logo  
-        <img src="https://weld.cdi-spec.org/images/weld_logo_450x.png" alt="" height="42">
+    - [Undertow](https://github.com/commonhaus/artwork/blob/main/projects/undertow) Logo  
+        <img src="https://github.com/commonhaus/artwork/blob/main/projects/undertow/featured/undertow-logo-lightbkg.svg?raw=true" alt="" height="42">
 
-    - XNIO  
-        <img src="https://avatars.githubusercontent.com/u/1971403?s=200&v=4" alt="" height="42">
+    - [Weld](https://github.com/commonhaus/artwork/blob/main/projects/weld) Logo  
+        <img src="https://github.com/commonhaus/artwork/blob/main/projects/weld/featured/weld-logo-lightbkg.svg?raw=true" alt="" height="42">
+
+    - [XNIO](https://github.com/commonhaus/artwork/tree/main/projects/xnio) Logo  
+        <img src="https://github.com/commonhaus/artwork/blob/main/projects/xnio/featured/xnio-logo-lightbkg.svg?raw=true" alt="" height="42">
 
 [^1]: Trademark is used by permission while the project is onboarding.
 [^2]: Duke is the Java mascot, ([BSD license](https://wiki.openjdk.org/display/duke/Main)). Use of this version of the logo is [CC-by-SA-4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.en).
+[^other]: Links in this section refer to additional logo resources, usage instructions, variations, etc.
 
 ## Hibernate Trademarks
 
