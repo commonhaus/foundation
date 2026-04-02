@@ -64,6 +64,11 @@ tiers:
 #   logo-dark: optional, link to alternate logo for use for service provided
 #   description: >
 #     Description of services provided. Subject to inKind tier character limit (above).
+# ossi: (optional, only if OSSI participant)
+#   role: founder or partner
+#   home: optional, override display.home on the OSSI page
+#   description: >
+#     Optional, override display.description on the OSSI page
 #
 sponsors:
 
@@ -95,6 +100,21 @@ sponsors:
         build and test acceleration, and rapid troubleshooting features for Apache
         Maven, sbt, npm, Python, and Gradle Build Tool.
 
+  HeroDevs:
+    name: HeroDevs
+    tier:
+      - gold
+    display:
+      draft: true
+      home: https://www.herodevs.com/
+      description: >
+        HeroDevs ensures the long-term stability and security of the open-source ecosystem
+        by providing essential End-of-Life (EoL) support. This allows maintainers to focus
+        on new development while giving users continuity and compliance for applications
+        that cannot be updated.
+    ossi:
+      role: founder
+
   IBM:
     name: IBM
     tier:
@@ -105,6 +125,8 @@ sponsors:
       description: >
         IBM is a global hybrid cloud, AI, and business services provider, with significant
         investments in open-source.
+    ossi:
+      role: member
 
   Scarf:
     name: Scarf.sh
