@@ -118,7 +118,7 @@ The Commonhaus Foundation uses the following unregistered trademarks[^other]:
     - Quarkiverse Logo  
         <img src="https://quarkiverse.io/images/quarkiverse-logo.png" alt="" height="30" />
     - Quarkus GitHub App Logo  
-        <img src="https://camo.githubusercontent.com/6d6b5895298f83f9f305745855f3ae6638deb99eb913eb876bfc019d5a4f9d12/68747470733a2f2f64657369676e2e6a626f73732e6f72672f717561726b75732f626f742f66696e616c2f696d616765732f717561726b7573626f745f66756c6c2e737667" alt="" height="30" />
+        <img src="https://www.commonhaus.org/images/trademarks/quarkus-github-app.svg" alt="" height="30" />
     - mvnpm Logo  
         <img src="https://raw.githubusercontent.com/mvnpm/mvnpm/refs/heads/main/brand/logo.svg" alt="" height="30" />
     - [qbicc](https://github.com/commonhaus/artwork/tree/main/projects/qbicc) Logo  
