@@ -54,6 +54,14 @@ Each annual sponsorship provides these benefits:
 - 💡 Amounts between tiers receive the benefits of the next lowest tier (e.g., $20k receives Silver tier benefits).
 - 📩 For tailored sponsorship opportunities, contact us directly at [sponsors@commonhaus.org](mailto:sponsors@commonhaus.org).
 
+## Open Source Sustainability Initiative
+
+Gold and Silver sponsors may participate in the [Open Source Sustainability Initiative](https://www.commonhaus.org/about/ossi/) (OSSI),
+which recognizes partner organizations that provide support for end-of-life releases of Commonhaus Foundation project software.
+
+Participation requires meeting additional eligibility criteria and signing the [OSSI Addendum](ossi-addendum.md) alongside the Corporate Sponsorship Agreement.
+Contact [sponsors@commonhaus.org](mailto:sponsors@commonhaus.org) to learn more.
+
 ## Infrastructure or Service Providers
 
 Infrastructure or Service Providers provide infrastructure, services, software, or other resources to the Commonhaus Foundation to help keep the engine going for our projects and members.

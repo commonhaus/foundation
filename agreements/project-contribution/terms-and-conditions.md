@@ -16,6 +16,7 @@ These Terms are to be read in conjunction with the [Fiscal Sponsorship Agreement
     - [Compliance with Laws](#compliance-with-laws)
     - [Sponsor Oversight and Reviews](#sponsor-oversight-and-reviews)
     - [Donated Resources](#donated-resources)
+    - [End-of-Life Disclosure](#end-of-life-disclosure)
 - [Intellectual Property Management](#intellectual-property-management)
 - [Financial Management](#financial-management)
     - [Restricted Fund Management](#restricted-fund-management)
@@ -148,6 +149,28 @@ Individuals or companies may donate in-kind resources, such as infrastructure or
 While the Sponsor does not manage or pay for these independently provided resources, the Project Signatories remain responsible for ensuring that these contributions align with quality standards established in the [Fiscal Sponsorship Agreement][fs-landing] and these Terms.
 The Sponsor may review processes directly affecting Project outputs (e.g., build and release workflows) to ensure compliance with these standards.
 Donated resources must not conflict with the Project’s obligations under the fiscal sponsorship arrangement or the Sponsor’s policies.
+
+### End-of-Life Disclosure
+
+Projects should clearly communicate the support lifecycle of their releases to help users make informed decisions.
+Where a project maintains versioned releases, the following expectations apply:
+
+**Version status:**
+Projects should identify, on their project website or documentation:
+
+- which version(s) are currently end-of-life (EOL); and
+- which version(s) are expected to reach EOL within the next six (6) months.
+
+**OSSI reference:**
+Where EOL versions are identified, projects should link to the Foundation’s
+[Open Source Sustainability Initiative][ossi] as a resource
+for users seeking continued support.
+
+**Partner support references:**
+Projects are not required to name individual OSSI partners on project pages. A link to the Foundation’s OSSI page is sufficient.
+If a project chooses to reference individual partners, it should do so in a fair and non-misleading manner consistent with the Foundation’s Trademark Policy and Code of Conduct.
+
+[ossi]: https://www.commonhaus.org/about/ossi/
 
 ## Intellectual Property Management
 
@@ -313,3 +336,4 @@ Any amendments will be documented in writing and attached to the [Fiscal Sponsor
 [Trademark Policy]: https://www.commonhaus.org/policies/trademark-policy/
 [trademarks]: https://www.commonhaus.org/trademarks/
 [coc]: https://www.commonhaus.org/policies/code-of-conduct/
+[ossi]: https://www.commonhaus.org/about/ossi/
