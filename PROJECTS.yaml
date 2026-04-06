@@ -155,7 +155,7 @@ micronaut:
 morphia:
   name: Morphia
   repo: https://github.com/MorphiaOrg/
-  status: onboarding
+  status: active
   display:
     home: https://morphia.dev/
     logo: https://github.com/MorphiaOrg/morphia-docs/blob/master/supplemental-ui/img/logo.png?raw=true
