@@ -106,14 +106,18 @@ sponsors:
       - gold
     display:
       draft: true
-      home: https://www.herodevs.com/
+      home: https://www.herodevs.com/?utm_source=referral&utm_medium=link&utm_campaign=commonhaus&utm_id=commonhaus
+      logo: https://www.commonhaus.org/images/sponsors/herodevs-Logo-Gradient-Light.png
+      logo-dark: https://www.commonhaus.org/images/sponsors/herodevs-Logo-Gradient-Dark.png
       description: >
-        HeroDevs ensures the long-term stability and security of the open-source ecosystem
-        by providing essential End-of-Life (EoL) support. This allows maintainers to focus
-        on new development while giving users continuity and compliance for applications
-        that cannot be updated.
+        HeroDevs provides Never-Ending Support (NES) for end-of-life open source software, helping
+        organizations stay secure and compliant without costly rewrites. When frameworks like Hibernate
+        or Spring reach end-of-life, HeroDevs steps in with ongoing security patches, CVE remediation,
+        and compliance coverage. Trusted by enterprise teams navigating regulated industries, HeroDevs
+        keeps legacy software safe so engineering teams can move at their own pace.
     ossi:
       role: founder
+      home: https://www.herodevs.com/support?utm_source=referral&utm_medium=link&utm_campaign=commonhaus&utm_id=commonhaus
 
   IBM:
     name: IBM
