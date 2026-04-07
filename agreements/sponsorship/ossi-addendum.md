@@ -22,7 +22,7 @@ By signing this addendum, the Partner confirms that it meets all eligibility req
 
 ## Partner Commitments
 
-The Partner agrees that, for the EOL open source software it elects to support under OSSI, it will use commercially reasonable efforts to:
+The Partner agrees that, for the EOL versions of open source software it elects to support under OSSI, it will use commercially reasonable efforts to:
 
 - identify, triage, and remediate security vulnerabilities;
 - deliver compatibility fixes or guidance for users who cannot yet upgrade; and
