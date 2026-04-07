@@ -25,7 +25,7 @@ By signing this addendum, the Partner confirms that it meets all eligibility req
 The Partner agrees that, for the EOL versions of open source software it elects to support under OSSI, it will use commercially reasonable efforts to:
 
 - identify, triage, and remediate security vulnerabilities;
-- deliver compatibility fixes or guidance for users who cannot yet upgrade; and
+- deliver compatibility fixes or guidance for customers who cannot yet upgrade; and
 - coordinate vulnerability disclosure with affected Commonhaus projects and upstream maintainers before public disclosure where feasible and appropriate.
 
 ## Foundation Commitments
