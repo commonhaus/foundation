@@ -159,7 +159,7 @@ Where a project maintains versioned releases, the following expectations apply:
 Projects should identify, on their project website or documentation:
 
 - which version(s) are currently end-of-life (EOL); and
-- which version(s) are expected to reach EOL within the next six (6) months.
+- (if possible) which version(s) are expected to reach EOL within the next six (6) months.
 
 **OSSI reference:**
 Where EOL versions are identified, projects should link to the Foundation’s
