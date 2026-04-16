@@ -261,8 +261,7 @@ roq:
   group: quarkus
   display:
     home: https://iamroq.com/
-    logo: https://github.com/quarkiverse/quarkus-roq/blob/main/logo/out/roq-icon.png
-    logo-dark: https://github.com/quarkiverse/quarkus-roq/blob/main/logo/out/roq-logo-reversed.png
+    logo: https://github.com/quarkiverse/quarkus-roq/blob/main/logo/logo-color.svg
     description: >
       Roq is a static site generator that combines the best features of tools like Jekyll and Hugo
       with the Java ecosystem.

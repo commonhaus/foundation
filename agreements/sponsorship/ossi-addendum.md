@@ -6,10 +6,6 @@ It governs participation in the Commonhaus Foundation Open Source Sustainability
 **Sponsor Organization:** `⎣_____________________________________⎦`  
 **Original Sponsorship Agreement Date:** `⎣____________________________⎦`  
 **Addendum Effective Date:** `⎣_____________________________________⎦`  
-**OSSI Role:**
-
-- [ ] Founding Partner
-- [ ] Partner
 
 ## Eligibility Confirmation
 
@@ -32,7 +28,7 @@ The Partner agrees that, for the EOL versions of open source software it elects 
 
 The Foundation agrees to:
 
-- list the Partner on the [OSSI page](https://www.commonhaus.org/about/ossi/) for the duration of this addendum;
+- list the Partner on the [OSSI page](https://www.commonhaus.org/about/ossi.html) for the duration of this addendum;
 - require participating projects that identify EOL versions to link to the OSSI page as a resource for users seeking continued support; and
 - permit projects, at their discretion, to reference individual Partner support offerings directly, provided any such references are fair, accurate, and non-misleading.
 
@@ -90,6 +86,6 @@ To use a different landing page or description on the OSSI page, provide them be
 `⎣__`  
 
 Landing page and descriptions can be updated at anytime. To update your logo or associated description, either send an email to
-`sponsors@commonhaus.org` or create a [GitHub issue](https://github.com/commonhaus/commonhaus.github.io/issues/new/choose). 
+`sponsors@commonhaus.org` or create a [GitHub issue](https://github.com/commonhaus/commonhaus.github.io/issues/new/choose).
 
 To specify an ad to use in our annual report, send an email to `sponsors@commonhaus.org`.

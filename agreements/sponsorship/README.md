@@ -11,7 +11,7 @@ Beyond covering operational and legal costs, sponsorship allows us to develop sh
 ## Sponsorship Tiers and Benefits
 
 <!-- https://docs.google.com/document/d/1VRRdZoYsQEBIcirYpGR72rYElu3KyINT/edit?usp=drive_link&ouid=118260000630928579528&rtpof=true&sd=true -->
-Please review our [Corporate Sponsorship Agreement](https://www.commonhaus.org/about/sponsors/agreement/) for complete details on payment and terms.
+Please review our [**Corporate Sponsorship Agreement**](https://www.commonhaus.org/about/sponsors/agreement/) for complete details on payment and terms.
 
 Each annual sponsorship provides these benefits:
 
@@ -56,10 +56,10 @@ Each annual sponsorship provides these benefits:
 
 ## Open Source Sustainability Initiative
 
-Gold and Silver sponsors may participate in the [Open Source Sustainability Initiative](https://www.commonhaus.org/about/ossi/) (OSSI),
+Gold and Silver sponsors may participate in the [**Open Source Sustainability Initiative**](https://www.commonhaus.org/about/ossi.html) (OSSI),
 which recognizes partner organizations that provide support for end-of-life releases of Commonhaus Foundation project software.
 
-Participation requires meeting additional eligibility criteria and signing the [OSSI Addendum](ossi-addendum.md) alongside the Corporate Sponsorship Agreement.
+Participation requires meeting additional eligibility criteria and signing the [**OSSI Addendum**](https://docs.google.com/document/d/1FHIasZg11lWWpcPgAkFyAJ4CO2E4U9tU/edit?usp=sharing&ouid=118260000630928579528&rtpof=true&sd=true) alongside the Corporate Sponsorship Agreement.
 Contact [sponsors@commonhaus.org](mailto:sponsors@commonhaus.org) to learn more.
 
 ## Infrastructure or Service Providers

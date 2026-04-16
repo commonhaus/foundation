@@ -170,8 +170,6 @@ for users seeking continued support.
 Projects are not required to name individual OSSI partners on project pages. A link to the Foundation’s OSSI page is sufficient.
 If a project chooses to reference individual partners, it should do so in a fair and non-misleading manner consistent with the Foundation’s Trademark Policy and Code of Conduct.
 
-[ossi]: https://www.commonhaus.org/about/ossi/
-
 ## Intellectual Property Management
 
 **Licensing:**
@@ -336,4 +334,4 @@ Any amendments will be documented in writing and attached to the [Fiscal Sponsor
 [Trademark Policy]: https://www.commonhaus.org/policies/trademark-policy/
 [trademarks]: https://www.commonhaus.org/trademarks/
 [coc]: https://www.commonhaus.org/policies/code-of-conduct/
-[ossi]: https://www.commonhaus.org/about/ossi/
+[ossi]: https://www.commonhaus.org/about/ossi.html
