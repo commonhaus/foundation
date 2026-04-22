@@ -168,7 +168,7 @@ for users seeking continued support.
 
 **Partner support references:**
 Projects are not required to name individual OSSI partners on project pages. A link to the Foundation’s OSSI page is sufficient.
-If a project chooses to reference an individual partner, then the project must reference all vendors part of the open-source sustainability initiative which provide EOL support for this project in a fair and non-misleading manner consistent with the Foundation’s Trademark Policy and Code of Conduct.
+If a project chooses to reference an individual partner, it must also reference all other OSSI partners that provide EOL support for that project, in a fair and non-misleading manner consistent with the Foundation’s Trademark Policy and Code of Conduct.
 
 ## Intellectual Property Management
 
