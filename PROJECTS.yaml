@@ -353,3 +353,55 @@ xnio:
     logo-dark: https://github.com/commonhaus/artwork/blob/main/projects/xnio/featured/xnio-logo-darkbkg.svg
     description: >
       XNIO is a framework based on Java NIO that supports both blocking and non-blocking IO.
+
+okhttp:
+  name: OkHttp
+  repo: https://github.com/square/okhttp
+  status: onboarding
+  group: block
+  display:
+    home: https://square.github.io/okhttp/
+    logo:
+  description: >
+    OkHttp is a meticulous HTTP client for the JVM, Android, and GraalVM. It supports HTTP/2,
+    connection pooling, transparent GZIP, response caching, WebSockets, server-sent events, and
+    modern TLS — and is one of the most widely deployed HTTP libraries on Android and the JVM.
+
+okio:
+  name: Okio
+  repo: https://github.com/square/okio
+  status: onboarding
+  group: block
+  display:
+    home: https://square.github.io/okio/
+    logo:
+  description: >
+    Okio is a modern I/O library for the JVM, Android, and Kotlin Multiplatform. It complements
+    java.io and java.nio with fast, ergonomic primitives — ByteString and Buffer — for accessing,
+    storing, and processing data, with file system support across JVM, Native, Node.js, and WASI.
+
+retrofit:
+  name: Retrofit
+  repo: https://github.com/square/retrofit
+  status: onboarding
+  group: block
+  display:
+    home: https://square.github.io/retrofit/
+    logo:
+  description: >
+    Retrofit is a type-safe HTTP client for Android and the JVM. Describe a REST API as a Kotlin
+    or Java interface and Retrofit generates the implementation, with pluggable converters for
+    Gson, Moshi, kotlinx.serialization, Jackson, Protobuf, JAXB, and more.
+
+sqldelight:
+  name: SQLDelight
+  repo: https://github.com/sqldelight/sqldelight
+  status: onboarding
+  group: block
+  display:
+    home: https://sqldelight.github.io/sqldelight/
+    logo:
+  description: >
+    SQLDelight generates type-safe Kotlin APIs from SQL statements. It validates schemas, queries,
+    and migrations at compile-time and supports SQLite across Android, iOS, JVM, JS, Native, and
+    Multiplatform — plus MySQL, PostgreSQL, and H2 on the JVM.

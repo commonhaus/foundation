@@ -61,7 +61,7 @@ egc:
     login: evanchooly
   - project: jackson
     login: cowtowncoder
-    avatarAlt:  >-
+    avatarAlt: >-
       https://raw.githubusercontent.com/FasterXML/jackson/master/images/cowtowncoder-2013-06-19.jpg
   - project: hibernate
     login: gavinking
@@ -112,6 +112,16 @@ egc:
     login: bstansberry
   - project: wildfly
     login: bstansberry
+
+  # Block Open Source group
+  - project: okhttp
+    login: swankjesse
+  - project: okio
+    login: swankjesse
+  - project: retrofit
+    login: JakeWharton
+  - project: sqldelight
+    login: AlecKazakova
 
 #--------------------------------------------------------------------------
 # EGC Backup/Secondary representative (appointed by project governance process)
@@ -170,6 +180,16 @@ egc-second:
     login: tomjenkinson
   - project: wildfly
     login: tomjenkinson
+
+  # Block Open Source group
+  - project: okhttp
+    login: JakeWharton
+  - project: okio
+    login: JakeWharton
+  - project: retrofit
+    login: swankjesse
+  - project: sqldelight
+    login: swankjesse
 
 #--------------------------------------------------------------------------
 # Advisory Board members (sponsor-appointed)
