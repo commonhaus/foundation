@@ -113,15 +113,15 @@ egc:
   - project: wildfly
     login: bstansberry
 
-  # Block Open Source group
+  # Lysine (ex-Block) group
   - project: okhttp
     login: swankjesse
   - project: okio
     login: swankjesse
   - project: retrofit
-    login: JakeWharton
+    login: swankjesse
   - project: sqldelight
-    login: AlecKazakova
+    login: swankjesse
 
 #--------------------------------------------------------------------------
 # EGC Backup/Secondary representative (appointed by project governance process)
@@ -181,15 +181,15 @@ egc-second:
   - project: wildfly
     login: tomjenkinson
 
-  # Block Open Source group
+  # Lysine (ex-Block) group
   - project: okhttp
     login: JakeWharton
   - project: okio
     login: JakeWharton
   - project: retrofit
-    login: swankjesse
+    login: JakeWharton
   - project: sqldelight
-    login: swankjesse
+    login: JakeWharton
 
 #--------------------------------------------------------------------------
 # Advisory Board members (sponsor-appointed)

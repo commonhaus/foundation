@@ -356,10 +356,12 @@ xnio:
 
 okhttp:
   name: OkHttp
+  # TODO: update repo once moved from Block
   repo: https://github.com/square/okhttp
   status: onboarding
-  group: block
+  group: lysine
   display:
+    # TODO: update URL once moved from Block
     home: https://square.github.io/okhttp/
     logo:
   description: >
@@ -369,10 +371,12 @@ okhttp:
 
 okio:
   name: Okio
+  # TODO: update repo once moved from Block
   repo: https://github.com/square/okio
   status: onboarding
-  group: block
+  group: lysine
   display:
+    # TODO: update URL once moved from Block
     home: https://square.github.io/okio/
     logo:
   description: >
@@ -382,10 +386,12 @@ okio:
 
 retrofit:
   name: Retrofit
+  # TODO: update repo once moved from Block
   repo: https://github.com/square/retrofit
   status: onboarding
-  group: block
+  group: lysine
   display:
+    # TODO: update URL once moved from Block
     home: https://square.github.io/retrofit/
     logo:
   description: >
@@ -395,10 +401,12 @@ retrofit:
 
 sqldelight:
   name: SQLDelight
+  # TODO: update repo once moved from Block
   repo: https://github.com/sqldelight/sqldelight
   status: onboarding
-  group: block
+  group: lysine
   display:
+    # TODO: update URL once moved from Block
     home: https://sqldelight.github.io/sqldelight/
     logo:
   description: >
