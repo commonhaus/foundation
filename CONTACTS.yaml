@@ -202,10 +202,8 @@ egc-second:
 #   bio: Optional. Short description/bio to use instead of GH profile description
 #
 advisory-board:
-  - organization: MongoDB
-    login: techbelle
-  - organization: ...
-    login: ...
+  - organization: HeroDevs
+    login: markszymanski
 
 #--------------------------------------------------------------------------
 # Code of Conduct Panel members:
