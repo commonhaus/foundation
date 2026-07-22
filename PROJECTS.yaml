@@ -356,13 +356,11 @@ xnio:
 
 okhttp:
   name: OkHttp
-  # TODO: update repo once moved from Block
-  repo: https://github.com/square/okhttp
+  repo: https://github.com/lysine-dev/okhttp
   status: onboarding
   group: lysine
   display:
-    # TODO: update URL once moved from Block
-    home: https://square.github.io/okhttp/
+    home: https://lysine-dev.github.io/okhttp/
     logo:
   description: >
     OkHttp is a meticulous HTTP client for the JVM, Android, and GraalVM. It supports HTTP/2,
@@ -371,13 +369,11 @@ okhttp:
 
 okio:
   name: Okio
-  # TODO: update repo once moved from Block
-  repo: https://github.com/square/okio
+  repo: https://github.com/lysine-dev/okio
   status: onboarding
   group: lysine
   display:
-    # TODO: update URL once moved from Block
-    home: https://square.github.io/okio/
+    home: https://lysine-dev.github.io/okio/
     logo:
   description: >
     Okio is a modern I/O library for the JVM, Android, and Kotlin Multiplatform. It complements
@@ -386,13 +382,11 @@ okio:
 
 retrofit:
   name: Retrofit
-  # TODO: update repo once moved from Block
-  repo: https://github.com/square/retrofit
+  repo: https://github.com/lysine-dev/retrofit
   status: onboarding
   group: lysine
   display:
-    # TODO: update URL once moved from Block
-    home: https://square.github.io/retrofit/
+    home: https://lysine-dev.github.io/retrofit/
     logo:
   description: >
     Retrofit is a type-safe HTTP client for Android and the JVM. Describe a REST API as a Kotlin
@@ -401,12 +395,10 @@ retrofit:
 
 sqldelight:
   name: SQLDelight
-  # TODO: update repo once moved from Block
   repo: https://github.com/sqldelight/sqldelight
   status: onboarding
   group: lysine
   display:
-    # TODO: update URL once moved from Block
     home: https://sqldelight.github.io/sqldelight/
     logo:
   description: >
