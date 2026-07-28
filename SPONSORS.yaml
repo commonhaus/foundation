@@ -151,6 +151,17 @@ sponsors:
         analytics, helping open source maintainers understand adoption, impact, and real-world
         usage—without tracking individual developers or compromising community trust.
 
+  TuxCare:
+    name: TuxCare
+    tier:
+      - silver
+    display:
+      home: https://tuxcare.com/
+      logo: https://www.commonhaus.org/images/sponsors/tuxcare-300X150.png
+      logo-dark: https://www.commonhaus.org/images/sponsors/tuxcare-300X150-dark.png
+      description: >
+        Endless Lifecycle Support from [TuxCare](https://tuxcare.com/) delivers ongoing post-EOL security fixes
+        for open source runtimes, libraries, and frameworks.
 
 ## TEST DATA, ALL DRAFT
 
