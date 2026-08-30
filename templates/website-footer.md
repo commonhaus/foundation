@@ -9,26 +9,33 @@ If you want to integrate the footer to your website's design (e.g. light and dar
 ## HTML
 
 ```html
-<p><img src="https://raw.githubusercontent.com/commonhaus/artwork/main/foundation/brand/svg/CF_logo_horizontal_single_default.svg" height="30"/><br />Copyright © <a href="https://www.commonhaus.org">YOUR PROJECT</a>. All rights reserved. For details on our trademarks, please visit our <a href="https://www.commonhaus.org/policies/trademark-policy/">Trademark Policy</a> and <a href="https://www.commonhaus.org/trademarks/">Trademark List</a>. Trademarks of third parties are owned by their respective holders and their mention here does not suggest any endorsement or association.</p>
+<p>
+    <a href="https://www.commonhaus.org/">
+        <img src="https://raw.githubusercontent.com/commonhaus/artwork/main/foundation/brand/svg/CF_logo_horizontal_single_default.svg" height="30" alt="Commonhaus Foundation Logo"/>
+    </a>
+    <br />Copyright © <a href="https://www.commonhaus.org">YOUR PROJECT</a>. 
+    All rights reserved. For details on our trademarks, please visit our <a href="https://www.commonhaus.org/policies/trademark-policy/">Trademark Policy</a> and <a href="https://www.commonhaus.org/trademarks/">Trademark List</a>. 
+    Trademarks of third parties are owned by their respective holders and their mention here does not suggest any endorsement or association.
+</p>
 ```
 <!-- markdownlint-disable MD033 -->
-<p><img src="https://raw.githubusercontent.com/commonhaus/artwork/main/foundation/brand/svg/CF_logo_horizontal_single_default.svg" height="30" alt=""/><br />Copyright © <a href="https://www.commonhaus.org">YOUR PROJECT</a>. All rights reserved. For details on our trademarks, please visit our <a href="https://www.commonhaus.org/policies/trademark-policy/">Trademark Policy</a> and <a href="https://www.commonhaus.org/trademarks/">Trademark List</a>. Trademarks of third parties are owned by their respective holders and their mention here does not suggest any endorsement or association.</p>
+<p><a href="https://www.commonhaus.org/"><img src="https://raw.githubusercontent.com/commonhaus/artwork/main/foundation/brand/svg/CF_logo_horizontal_single_default.svg" height="30" alt="Commonhaus Foundation Logo"/></a><br />Copyright © <a href="https://www.commonhaus.org">YOUR PROJECT</a>. All rights reserved. For details on our trademarks, please visit our <a href="https://www.commonhaus.org/policies/trademark-policy/">Trademark Policy</a> and <a href="https://www.commonhaus.org/trademarks/">Trademark List</a>. Trademarks of third parties are owned by their respective holders and their mention here does not suggest any endorsement or association.</p>
 
 ## Markdown
 
 ```markdown
-<img src="https://raw.githubusercontent.com/commonhaus/artwork/main/foundation/brand/svg/CF_logo_horizontal_single_default.svg" height="30" alt=""/><br />
+<a href="https://www.commonhaus.org/"><img src="https://raw.githubusercontent.com/commonhaus/artwork/main/foundation/brand/svg/CF_logo_horizontal_single_default.svg" height="30" alt="Commonhaus Foundation Logo"/></a><br />
 Copyright © [YOUR PROJECT](https://www.commonhaus.org). All rights reserved. For details on our trademarks, please visit our [Trademark Policy](https://www.commonhaus.org/policies/trademark-policy/) and [Trademark List](https://www.commonhaus.org/trademarks/). Trademarks of third parties are owned by their respective holders and their mention here does not suggest any endorsement or association.
 ```
 
 <!-- markdownlint-disable MD033 -->
-<img src="https://raw.githubusercontent.com/commonhaus/artwork/main/foundation/brand/svg/CF_logo_horizontal_single_default.svg" height="30" alt=""/><br />
+<a href="https://www.commonhaus.org/"><img src="https://raw.githubusercontent.com/commonhaus/artwork/main/foundation/brand/svg/CF_logo_horizontal_single_default.svg" height="30" alt="Commonhaus Foundation Logo"/></a><br />
 Copyright © [YOUR PROJECT](https://www.commonhaus.org). All rights reserved. For details on our trademarks, please visit our [Trademark Policy](https://www.commonhaus.org/policies/trademark-policy/) and [Trademark List](https://www.commonhaus.org/trademarks/). Trademarks of third parties are owned by their respective holders and their mention here does not suggest any endorsement or association.
 
 ## AsciiDoc
 
 ```asciidoc
-image::https://raw.githubusercontent.com/commonhaus/artwork/main/foundation/brand/svg/CF_logo_horizontal_single_default.svg[height=30]
+link:https://www.commonhaus.org/[image:https://raw.githubusercontent.com/commonhaus/artwork/main/foundation/brand/svg/CF_logo_horizontal_single_default.svg[Commonhaus Foundation Logo,height=30]]
 
 Copyright © link:https://www.commonhaus.org[YOUR PROJECT]. All rights reserved. For details on our trademarks, please visit our link:https://www.commonhaus.org/policies/trademark-policy/[Trademark Policy] and link:https://www.commonhaus.org/trademarks/[Trademark List]. Trademarks of third parties are owned by their respective holders and their mention here does not suggest any endorsement or association.
 ```
