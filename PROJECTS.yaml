@@ -149,6 +149,7 @@ micronaut:
   display:
     home: https://micronaut.io/
     logo: https://raw.githubusercontent.com/micronaut-projects/brand/04a024b9a5218f0100be4a593807e9b43dc2032d/micronaut_horizontal_black.png?raw=true
+    logo-dark: https://github.com/micronaut-projects/micronaut-control-panel/blob/2.1.x/control-panel-ui/src/main/resources/static/img/micronaut-logo-white.svg?raw=true
     description: >
       A modern, JVM-based, full-stack framework for building modular, easily testable microservice and serverless applications
 
