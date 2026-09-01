@@ -44,6 +44,11 @@ The Commonhaus Foundation uses the following unregistered trademarks:
 - JReleaser &trade;
 - Jackson &trade; [^1]
 - Kroxylicious &trade;
+- Lysine:
+    - OkHttp &trade;
+    - Okio &trade;
+    - Retrofit &trade;
+    - SQLDelight &trade;
 - Morphia &trade;
 - Micronaut &trade; [^1]
 - OpenFeign &trade; [^1]
