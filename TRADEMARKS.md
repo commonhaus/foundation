@@ -42,7 +42,7 @@ The Commonhaus Foundation uses the following unregistered trademarks:
     - JBang AppStore
     - JBang Catalog
 - JReleaser &trade;
-- Jackson &trade; [^1]
+- Jackson &trade;
 - Kroxylicious &trade;
 - Lysine:
     - OkHttp &trade;
@@ -52,7 +52,7 @@ The Commonhaus Foundation uses the following unregistered trademarks:
 - Morphia &trade;
 - Micronaut &trade; [^1]
 - OpenFeign &trade; [^1]
-- Pi4J &trade; [^1]
+- Pi4J &trade;
 - Quarkus &trade;
     - Quarkus AI &trade;
     - Quarkus devmode &trade;
@@ -102,7 +102,7 @@ The Commonhaus Foundation uses the following unregistered trademarks[^other]:
     <img src="https://github.com/commonhaus/artwork/blob/main/projects/hibernate/featured/hibernate-logo-lightbkg.svg?raw=true" alt="" height="30" />
 - [Infinispan](https://github.com/commonhaus/artwork/tree/main/projects/infinispan/) Logo  
     <img src="https://github.com/commonhaus/artwork/blob/main/projects/infinispan/featured/infinispan-logo-lightbkg.svg?raw=true" alt="" height="30" />
-- Jackson Logo [^1]  
+- Jackson Logo  
     <img src="https://github.com/FasterXML.png"  alt="" height="30" />
 - JBang Logo  
     <img src="https://www.jbang.dev/assets/images/logo.png" alt="" height="30" />
@@ -115,7 +115,7 @@ The Commonhaus Foundation uses the following unregistered trademarks[^other]:
     <img src="https://github.com/micronaut-projects/brand/blob/main/micronaut_stacked_black.svg?raw=true" alt="" height="30" />
 - Morphia Logo  
     <img src="https://github.com/MorphiaOrg/morphia-docs/blob/master/supplemental-ui/img/logo.png?raw=true" alt="" height="30" />
-- Pi4J Logo [^1]  
+- Pi4J Logo
     <img src="https://github.com/Pi4J/pi4j-logo/blob/master/logo/Pi4J_Logo.svg?raw=true" alt="" height="30" />[^2]
 - Quarkus:
     - [Quarkus](https://github.com/commonhaus/artwork/tree/main/projects/quarkus) Logo  
