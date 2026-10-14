@@ -206,6 +206,8 @@ advisory-board:
     login: markszymanski
   - organization: TuxCare
     login: Elexy
+  - organization: TuxCare
+    login: chrisdemars
 
 #--------------------------------------------------------------------------
 # Code of Conduct Panel members:
