@@ -204,6 +204,8 @@ egc-second:
 advisory-board:
   - organization: HeroDevs
     login: markszymanski
+  - organization: TuxCare
+    login: Elexy
 
 #--------------------------------------------------------------------------
 # Code of Conduct Panel members:
