@@ -48,7 +48,6 @@ hibernate:
   name: Hibernate
   repo: https://github.com/hibernate/
   status: active
-  mail-domain: hibernate.org
   display:
     home: https://hibernate.org/
     logo: https://github.com/commonhaus/artwork/blob/main/projects/hibernate/featured/hibernate-logo-lightbkg.svg
@@ -202,6 +201,32 @@ objenesis:
       Objenesis is a small Java library that serves one purpose: To instantiate a new object of a particular class
       WITHOUT calling one of its constructors.
 
+okhttp:
+  name: OkHttp
+  repo: https://github.com/lysine-dev/okhttp
+  status: onboarding
+  group: lysine
+  display:
+    home: https://lysine-dev.github.io/okhttp/
+    logo:
+  description: >
+    OkHttp is a meticulous HTTP client for the JVM, Android, and GraalVM. It supports HTTP/2,
+    connection pooling, transparent GZIP, response caching, WebSockets, server-sent events, and
+    modern TLS — and is one of the most widely deployed HTTP libraries on Android and the JVM.
+
+okio:
+  name: Okio
+  repo: https://github.com/lysine-dev/okio
+  status: onboarding
+  group: lysine
+  display:
+    home: https://lysine-dev.github.io/okio/
+    logo:
+  description: >
+    Okio is a modern I/O library for the JVM, Android, and Kotlin Multiplatform. It complements
+    java.io and java.nio with fast, ergonomic primitives — ByteString and Buffer — for accessing,
+    storing, and processing data, with file system support across JVM, Native, Node.js, and WASI.
+
 pi4j:
   name: Pi4J
   repo: https://github.com/Pi4J/
@@ -255,6 +280,19 @@ resteasy:
       It is an implementation of the Jakarta RESTful Web Services specification and also implements the
       MicroProfile REST Client specification API.
 
+retrofit:
+  name: Retrofit
+  repo: https://github.com/lysine-dev/retrofit
+  status: onboarding
+  group: lysine
+  display:
+    home: https://lysine-dev.github.io/retrofit/
+    logo:
+  description: >
+    Retrofit is a type-safe HTTP client for Android and the JVM. Describe a REST API as a Kotlin
+    or Java interface and Retrofit generates the implementation, with pluggable converters for
+    Gson, Moshi, kotlinx.serialization, Jackson, Protobuf, JAXB, and more.
+
 roq:
   name: Roq
   repo: https://github.com/quarkiverse/quarkus-roq
@@ -305,6 +343,19 @@ smallrye:
       TomEE. SmallRye libraries can also be used completely standalone in any Java application to improve the
       developer experience.
 
+sqldelight:
+  name: SQLDelight
+  repo: https://github.com/sqldelight/sqldelight
+  status: onboarding
+  group: lysine
+  display:
+    home: https://sqldelight.github.io/sqldelight/
+    logo:
+  description: >
+    SQLDelight generates type-safe Kotlin APIs from SQL statements. It validates schemas, queries,
+    and migrations at compile-time and supports SQLite across Android, iOS, JVM, JS, Native, and
+    Multiplatform — plus MySQL, PostgreSQL, and H2 on the JVM.
+
 undertow:
   name: Undertow
   repo: https://github.com/undertow-io
@@ -354,55 +405,3 @@ xnio:
     logo-dark: https://github.com/commonhaus/artwork/blob/main/projects/xnio/featured/xnio-logo-darkbkg.svg
     description: >
       XNIO is a framework based on Java NIO that supports both blocking and non-blocking IO.
-
-okhttp:
-  name: OkHttp
-  repo: https://github.com/lysine-dev/okhttp
-  status: onboarding
-  group: lysine
-  display:
-    home: https://lysine-dev.github.io/okhttp/
-    logo:
-  description: >
-    OkHttp is a meticulous HTTP client for the JVM, Android, and GraalVM. It supports HTTP/2,
-    connection pooling, transparent GZIP, response caching, WebSockets, server-sent events, and
-    modern TLS — and is one of the most widely deployed HTTP libraries on Android and the JVM.
-
-okio:
-  name: Okio
-  repo: https://github.com/lysine-dev/okio
-  status: onboarding
-  group: lysine
-  display:
-    home: https://lysine-dev.github.io/okio/
-    logo:
-  description: >
-    Okio is a modern I/O library for the JVM, Android, and Kotlin Multiplatform. It complements
-    java.io and java.nio with fast, ergonomic primitives — ByteString and Buffer — for accessing,
-    storing, and processing data, with file system support across JVM, Native, Node.js, and WASI.
-
-retrofit:
-  name: Retrofit
-  repo: https://github.com/lysine-dev/retrofit
-  status: onboarding
-  group: lysine
-  display:
-    home: https://lysine-dev.github.io/retrofit/
-    logo:
-  description: >
-    Retrofit is a type-safe HTTP client for Android and the JVM. Describe a REST API as a Kotlin
-    or Java interface and Retrofit generates the implementation, with pluggable converters for
-    Gson, Moshi, kotlinx.serialization, Jackson, Protobuf, JAXB, and more.
-
-sqldelight:
-  name: SQLDelight
-  repo: https://github.com/sqldelight/sqldelight
-  status: onboarding
-  group: lysine
-  display:
-    home: https://sqldelight.github.io/sqldelight/
-    logo:
-  description: >
-    SQLDelight generates type-safe Kotlin APIs from SQL statements. It validates schemas, queries,
-    and migrations at compile-time and supports SQLite across Android, iOS, JVM, JS, Native, and
-    Multiplatform — plus MySQL, PostgreSQL, and H2 on the JVM.
